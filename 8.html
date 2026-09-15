@@ -1110,7 +1110,7 @@
             gameMode = mode;
             const settings = document.getElementById('tournament-settings');
             if (mode === 'tournament') {
-                settings.classList.add('visible');
+                settings.classList.remove('visible');
                 buildTournamentPageTeams();
                 switchPage('page-tournament-bracket');
                 return;
@@ -1280,7 +1280,7 @@
         }
 
         function switchPage(pId) {
-            SinJeemUI.showPage(pId);
+            SinJeemUI.navigate(pId);
         }
 
         function goToSetup() {

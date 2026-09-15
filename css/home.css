@@ -24,6 +24,7 @@
 .mode-card p { color: var(--text-sub); line-height: 1.7; }
 .tournament-settings { display: none; width: 100%; max-width: 760px; margin-top: 20px; padding: 18px 22px; border: 1px solid #4c2d1e; border-radius: 14px; background: rgba(42, 42, 42, .9); text-align: right; }
 .tournament-settings.visible { display: block; }
+#page-mode .tournament-settings { display: none !important; }
 .tournament-settings label { display: flex; align-items: center; justify-content: space-between; gap: 15px; color: #ddd; }
 .tournament-settings input { width: 90px; padding: 9px; border: 1px solid #555; border-radius: 9px; background: #191919; color: white; text-align: center; font-size: 16px; }
 .tournament-preview { margin-top: 18px; border-top: 1px solid #4b3328; padding-top: 16px; }

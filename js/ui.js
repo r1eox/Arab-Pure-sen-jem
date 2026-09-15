@@ -25,6 +25,15 @@ window.SinJeemUI = {
         }
     },
 
+    navigate(pageId) {
+        if (!this.pages.has(pageId)) return;
+        const nextHash = `#${pageId}`;
+        if (window.location.hash !== nextHash) {
+            window.history.pushState({ pageId }, '', nextHash);
+        }
+        this.showPage(pageId);
+    },
+
     setVisible(elementId, visible) {
         const element = document.getElementById(elementId);
         if (element) element.classList.toggle('visible', visible);
@@ -32,9 +41,10 @@ window.SinJeemUI = {
 
     applyHash() {
         const pageId = window.location.hash.slice(1);
-        if (this.pages.has(pageId)) this.showPage(pageId);
+        this.showPage(this.pages.has(pageId) ? pageId : 'page-mode');
     }
 };
 
 window.addEventListener('DOMContentLoaded', () => window.SinJeemUI.applyHash());
 window.addEventListener('hashchange', () => window.SinJeemUI.applyHash());
+window.addEventListener('popstate', () => window.SinJeemUI.applyHash());
