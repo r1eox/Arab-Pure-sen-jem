@@ -17,6 +17,8 @@ body {
 .top-bar {
     display: flex;
     direction: ltr;
+    position: relative;
+    z-index: 200;
     justify-content: space-between;
     align-items: center;
     padding: 12px 25px;
@@ -60,12 +62,19 @@ body {
 .logo-area {
     order: 3;
     direction: rtl;
+    cursor: pointer;
     font-weight: 900;
     font-size: 22px;
     color: var(--primary-orange);
     display: flex;
     align-items: center;
     gap: 5px;
+}
+
+.logo-area:focus-visible {
+    outline: 2px solid var(--primary-orange);
+    outline-offset: 4px;
+    border-radius: 8px;
 }
 
 .turn-badge { order: 2; }
