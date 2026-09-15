@@ -1,0 +1,12 @@
+:root {
+    --bg-dark: #1e1e1e;
+    --bg-card: #2a2a2a;
+    --primary-orange: #ff5500;
+    --text-main: #f5f5f5;
+    --text-sub: #aaaaaa;
+    --success: #2bf076;
+    --danger: #ff3b30;
+    --accent-blue: #3288d8;
+    --panel-border: #414141;
+    --panel-soft: #292929;
+}

@@ -1,0 +1,1546 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سين وجيم</title>
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/tournament.css">
+    <link rel="stylesheet" href="css/board.css">
+    <link rel="stylesheet" href="css/question.css">
+    <style>
+        .settings-wrap { position: relative; }
+        .settings-btn { background: none; border: 0; color: #ccc; cursor: pointer; font-size: 13px; padding: 0; }
+        .settings-menu {
+            display: none; position: absolute; top: 28px; right: 0; z-index: 300;
+            min-width: 190px; padding: 8px; border: 1px solid #444; border-radius: 12px;
+            background: #242424; box-shadow: 0 10px 25px rgba(0,0,0,.35);
+        }
+        .settings-menu.visible { display: grid; gap: 5px; }
+        .settings-menu button { background: #303030; border: 0; border-radius: 8px; color: #eee; padding: 10px; text-align: right; cursor: pointer; }
+        .settings-menu button:hover { background: var(--primary-orange); }
+
+        .brand-logo {
+            width: 42px;
+            height: 42px;
+            object-fit: contain;
+            display: block;
+        }
+
+        .mode-page {
+            background: radial-gradient(circle at top, #3a2115 0, var(--bg-dark) 48%);
+            text-align: center;
+        }
+        .mode-hero { max-width: 760px; margin-bottom: 28px; }
+        .mode-hero h1 { font-size: clamp(32px, 6vw, 58px); margin-bottom: 10px; }
+        .mode-hero p { color: var(--text-sub); font-size: 17px; }
+        .welcome-guide { width: 100%; max-width: 900px; margin-bottom: 24px; }
+        .welcome-guide h2 { margin-bottom: 8px; }
+        .welcome-guide > p { color: #bbb; line-height: 1.8; }
+        .guide-points { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 15px; }
+        .guide-point { padding: 13px; border: 1px solid #414141; border-radius: 12px; background: rgba(42,42,42,.8); text-align: right; }
+        .guide-point strong { display: block; color: var(--primary-orange); margin-bottom: 5px; }
+        .guide-point span { color: #bbb; font-size: 13px; line-height: 1.6; }
+        .mode-options {
+            width: 100%; max-width: 760px; display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px;
+        }
+        .mode-card {
+            border: 1px solid #414141; border-radius: 18px;
+            background: linear-gradient(145deg, #303030, #202020);
+            color: white; padding: 28px 22px; cursor: pointer;
+            text-align: right; transition: transform .2s, border-color .2s, box-shadow .2s;
+        }
+        .mode-card:hover { transform: translateY(-4px); border-color: var(--primary-orange); box-shadow: 0 12px 28px rgba(255, 85, 0, .2); }
+        .mode-card .mode-icon { font-size: 38px; display: block; margin-bottom: 14px; }
+        .mode-card h2 { margin-bottom: 8px; }
+        .mode-card p { color: var(--text-sub); line-height: 1.7; }
+        .tournament-settings {
+            display: none; width: 100%; max-width: 760px; margin-top: 20px;
+            padding: 18px 22px; border: 1px solid #4c2d1e; border-radius: 14px;
+            background: rgba(42, 42, 42, .9); text-align: right;
+        }
+        .tournament-settings.visible { display: block; }
+        .tournament-settings label { display: flex; align-items: center; justify-content: space-between; gap: 15px; color: #ddd; }
+        .tournament-settings input {
+            width: 90px; padding: 9px; border: 1px solid #555; border-radius: 9px;
+            background: #191919; color: white; text-align: center; font-size: 16px;
+        }
+        .tournament-preview { margin-top: 18px; border-top: 1px solid #4b3328; padding-top: 16px; }
+        .tournament-preview h3 { margin-bottom: 10px; color: #fff; }
+        .quick-team-fields { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+        .quick-team-fields input { width: 100%; font-size: 13px; }
+        @media (max-width: 650px) { .round-summary { grid-template-columns: 1fr; } }
+        .mode-actions { display: flex; justify-content: center; gap: 12px; margin-top: 20px; }
+        .secondary-btn { background: transparent; color: #ddd; border: 1px solid #555; border-radius: 22px; padding: 11px 28px; cursor: pointer; }
+        .tournament-only { display: none; }
+        .tournament-only.visible { display: block; }
+        .setup-form { width: 100%; max-width: 900px; }
+        .game-name-input { max-width: 520px; margin: 20px auto 0; display: block; }
+        .setup-help {
+            margin: 20px auto; padding: 18px; max-width: 760px; border: 1px solid #4a3428;
+            border-radius: 14px; background: #242424; text-align: right;
+        }
+        .setup-help h3 { color: var(--primary-orange); margin-bottom: 10px; }
+        .helper-guide { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+        .helper-guide div { padding: 10px; background: #303030; border-radius: 9px; color: #ddd; font-size: 13px; line-height: 1.6; }
+        .helper-guide strong { display: block; color: white; margin-bottom: 3px; }
+        .team-count-row { display: none; align-items: center; justify-content: center; gap: 12px; margin: 22px 0 10px; }
+        .team-count-row.visible { display: flex; }
+        .team-count-row select { padding: 10px 18px; border-radius: 10px; background: #252525; color: white; border: 1px solid #555; }
+        .team-names-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin: 15px auto; }
+        .team-name-field { padding: 11px; border-radius: 10px; border: 1px solid #444; background: #252525; color: white; text-align: center; }
+        .division-box { display: none; margin: 15px auto; max-width: 760px; padding: 15px; border-radius: 12px; background: #242424; text-align: right; }
+        .division-box.visible { display: block; }
+        .division-box h3 { color: var(--primary-orange); margin-bottom: 8px; }
+        .division-box p { color: #ddd; line-height: 1.8; }
+        .bracket-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; direction: rtl; }
+        .bracket-round { display: grid; align-content: start; gap: 10px; }
+        .bracket-round h4 { color: #aaa; text-align: center; font-size: 12px; }
+        .bracket-match { padding: 9px 7px; border: 1px solid #555; border-radius: 8px; background: #303030; color: #eee; font-size: 12px; line-height: 1.8; text-align: center; }
+        .history-list { width: 100%; max-width: 850px; display: grid; gap: 12px; margin-top: 20px; }
+        .history-item, .result-card { background: #292929; border: 1px solid #444; border-radius: 12px; padding: 15px; }
+        .history-item { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+        .history-item small { color: #aaa; display: block; margin-top: 5px; }
+        .result-list { width: 100%; display: grid; gap: 8px; }
+        .result-row { display: flex; justify-content: space-between; padding: 10px 12px; background: #303030; border-radius: 8px; }
+        .winner { color: #2bf076; font-weight: bold; }
+        .empty-history { color: #999; text-align: center; padding: 30px; }
+        .danger-btn { background: #7d251f; color: white; border: 0; border-radius: 20px; padding: 10px 22px; cursor: pointer; }
+        @media (max-width: 650px) {
+            .mode-options { grid-template-columns: 1fr; }
+            .helper-guide, .team-names-grid, .guide-points { grid-template-columns: 1fr 1fr; }
+            .bracket-grid { grid-template-columns: 1fr 1fr; }
+            .quick-team-fields { grid-template-columns: 1fr 1fr; }
+            .bracket-page-fields { grid-template-columns: 1fr 1fr; }
+            .bracket-page-tools { flex-wrap: wrap; }
+            .bracket-board { gap: 5px; padding: 24px 2px 20px; }
+            .bracket-center { flex-basis: 86px; min-width: 86px; gap: 7px; }
+            .bracket-side { padding-top: 22px; }
+            .bracket-column { gap: 6px; }
+            .bracket-column-title, .bracket-side-title, .bracket-center-title { font-size: 9px; }
+            .bracket-card { min-height: 45px; padding: 3px; margin: 4px 0; border-width: 1px; font-size: 9px; line-height: 1.35; }
+            .bracket-team { padding: 4px 2px; font-size: 8px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+            .bracket-trophy { font-size: 30px; }
+            .bracket-champion { padding: 6px 3px; font-size: 9px; }
+            .top-bar { padding: 10px 14px; }
+            .top-left-actions { gap: 8px; font-size: 11px; }
+            .logo-area { font-size: 17px; }
+        }
+
+        /* 2. شاشة اختيار الفئات */
+        .selection-container {
+            background: linear-gradient(145deg, #292929, #202020);
+            border: 1px solid #414141;
+            border-radius: 25px;
+            padding: 30px;
+            width: 100%;
+            max-width: 950px;
+            position: relative;
+            margin-top: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+
+        .selection-title-badge {
+            position: absolute;
+            top: -18px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--primary-orange);
+            color: white;
+            padding: 6px 30px;
+            border-radius: 15px;
+            font-weight: bold;
+            font-size: 15px;
+            box-shadow: 0 5px 14px rgba(255, 85, 0, .22);
+        }
+
+        .categories-grid-select {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            gap: 12px;
+            margin-top: 10px;
+        }
+
+        .cat-select-card {
+            border-radius: 12px;
+            overflow: hidden;
+            background: #171717;
+            cursor: pointer;
+            border: 2px solid #3d3d3d;
+            transition: all 0.2s;
+            position: relative;
+        }
+
+        .cat-select-card.selected {
+            border-color: var(--primary-orange);
+            box-shadow: 0 0 8px rgba(255,85,0,0.6);
+        }
+
+        .cat-select-card.unselected {
+            opacity: 0.35;
+            filter: grayscale(80%);
+        }
+
+        .cat-select-card img {
+            width: 100%;
+            height: 85px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .cat-select-card[data-cat="عرب بيور"] img,
+        .board-column[data-cat="عرب بيور"] .cat-header-card img {
+            object-fit: contain;
+            background: #111;
+            padding: 4px;
+        }
+
+        .cat-select-card .card-label {
+            background: #343434;
+            color: white;
+            text-align: center;
+            padding: 5px 2px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        .cat-select-card.selected .card-label {
+            background: var(--primary-orange);
+        }
+
+        /* 3. شاشة إعداد الفرق */
+        .setup-box-old {
+            width: 100%;
+            max-width: 800px;
+            text-align: center;
+        }
+
+        .teams-row-old {
+            display: flex;
+            justify-content: space-around;
+            gap: 40px;
+            margin: 40px 0;
+        }
+
+        .team-input-group {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .team-input-group h3 { font-size: 18px; color: white; }
+
+        .team-custom-input {
+            width: 100%;
+            padding: 12px;
+            border-radius: 25px;
+            border: 1px solid #333;
+            background: #252525;
+            color: white;
+            text-align: center;
+            font-size: 15px;
+            outline: none;
+        }
+
+        .helpers-row {
+            display: flex;
+            gap: 10px;
+        }
+
+        .helper-circle {
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            background: #2a2a2a;
+            border: 1px solid #444;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        /* 4. لوحة اللعب الرئيسية */
+        #page-board {
+            justify-content: center;
+            align-items: center;
+        }
+
+        .board-container {
+            width: 100%;
+            max-width: 900px;
+            display: flex;
+            justify-content: center;
+            align-items: stretch;
+            gap: 18px;
+            margin: 0 auto;
+            padding-bottom: 70px;
+        }
+
+        .board-column {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            max-width: 210px;
+        }
+
+        .board-column.hidden { display: none !important; }
+
+        .cat-header-card {
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1.5px solid var(--primary-orange);
+            height: 110px;
+            position: relative;
+            background: #000;
+        }
+
+        .cat-header-card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .cat-header-card .label {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            background: var(--primary-orange);
+            color: white;
+            text-align: center;
+            font-size: 13px;
+            font-weight: bold;
+            padding: 5px 2px;
+        }
+
+        .score-card-btn {
+            background: #2a2a2a;
+            height: 55px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            border: 1px solid #333;
+            transition: 0.2s;
+        }
+
+        .score-card-btn:hover {
+            background: #353535;
+            border-color: var(--primary-orange);
+        }
+
+        .score-card-btn.used {
+            visibility: hidden;
+        }
+
+        /* الشريط السفلي */
+        .bottom-bar-old {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 55px;
+            background: #121212;
+            border-top: 1px solid #222;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 25px;
+            z-index: 100;
+        }
+
+        .team-score-badge {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .team-btn-tag {
+            background: var(--primary-orange);
+            color: white;
+            padding: 5px 18px;
+            border-radius: 12px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .score-counter {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        /* 5. تصميم شاشة السؤال الجديد (مطابق للصورة) */
+        #page-question {
+            padding: 20px;
+            flex-direction: row;
+            justify-content: center;
+            align-items: stretch;
+            gap: 30px;
+            width: 100%;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        /* المربع الرئيسي للسؤال */
+        .q-main-wrapper {
+            flex: 1;
+            border: 2px solid var(--primary-orange);
+            border-radius: 20px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+            background: #252525;
+            min-height: 550px;
+        }
+
+        /* الشارات العلوية والسفلية بداخل مربع السؤال */
+        .q-top-pts-badge {
+            position: absolute;
+            top: -1px;
+            right: 40px;
+            background: #111;
+            border: 1px solid var(--primary-orange);
+            border-top: none;
+            color: white;
+            padding: 4px 15px;
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 8px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        .q-bottom-prop-badge {
+            position: absolute;
+            bottom: -1px;
+            right: 40px;
+            background: var(--primary-orange);
+            color: white;
+            padding: 4px 20px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        .q-bottom-ans-btn {
+            position: absolute;
+            bottom: -1px;
+            left: 20px;
+            background: #28a745;
+            color: white;
+            padding: 6px 25px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+            border: none;
+        }
+
+        /* التايمر العلوي */
+        .timer-container {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-top: 10px;
+            font-size: 22px;
+            font-weight: bold;
+        }
+        .timer-icon { cursor: pointer; opacity: 0.8; }
+        .timer-icon:hover { opacity: 1; }
+
+        .q-content-area {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            margin: auto 0;
+            text-align: center;
+            width: 100%;
+        }
+        .inline-hint {
+            display: none;
+            width: min(90%, 620px);
+            padding: 12px 16px;
+            border: 1px solid #cda77b;
+            border-radius: 10px;
+            background: #33291f;
+            color: #ffd39e;
+            line-height: 1.7;
+        }
+        .inline-hint.visible { display: block; }
+
+        .q-text-display {
+            font-size: 26px;
+            font-weight: bold;
+        }
+
+        .q-img-display {
+            max-width: 80%;
+            max-height: 350px;
+            border-radius: 12px;
+            object-fit: contain;
+        }
+
+        /* القائمة الجانبية اليسرى (وسائل المساعدة والفرق) */
+        .q-sidebar-right {
+            width: 220px;
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            justify-content: center;
+        }
+
+        .team-side-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .team-side-name-pill {
+            background: var(--primary-orange);
+            color: white;
+            width: 100%;
+            text-align: center;
+            padding: 6px;
+            border-radius: 15px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .team-side-score {
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .team-side-helpers-title {
+            font-size: 12px;
+            color: #aaa;
+        }
+
+        .team-side-helpers-icons {
+            display: flex;
+            gap: 8px;
+        }
+
+        .side-helper-btn {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            border: 1px solid #555;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 13px;
+            cursor: pointer;
+            background: #2a2a2a;
+        }
+        .side-helper-btn.used {
+            opacity: 0.3;
+            text-decoration: line-through;
+            cursor: not-allowed;
+        }
+
+        /* شاشة الإجابة */
+        .stage-box {
+            background: #252525;
+            border: 1px solid #333;
+            border-radius: 20px;
+            padding: 30px;
+            width: 100%;
+            max-width: 800px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .q-info-tag {
+            background: rgba(255, 85, 0, 0.15);
+            border: 1px solid var(--primary-orange);
+            color: var(--primary-orange);
+            padding: 6px 20px;
+            border-radius: 12px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- الشريط العلوي -->
+    <div class="top-bar">
+        <div class="top-left-actions">
+            <div class="top-btn" onclick="exitToHome()">🌐 الخروج</div>
+            <div class="top-btn" onclick="switchPage('page-board')">🎛️ الرجوع للوحة</div>
+            <div class="top-btn" onclick="finishGame()">🚪 انتهاء اللعبة</div>
+            <div class="settings-wrap">
+                <button class="settings-btn" onclick="toggleSettings(event)">⚙️ الإعدادات</button>
+                <div id="settings-menu" class="settings-menu">
+                    <button onclick="showHistory(); closeSettings()">📚 سجل المباريات</button>
+                    <button onclick="showGuide(); closeSettings()">💡 طريقة التنظيم</button>
+                    <button onclick="exitToHome(); closeSettings()">🔄 لعبة جديدة</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="turn-badge" id="turn-txt">دور فريق : 1</div>
+
+        <div class="logo-area">
+            <img class="brand-logo" src="512.gif" alt="شعار عرب بيور">
+            <span>سين وجيم</span>
+        </div>
+    </div>
+
+    <!-- 0. شاشة اختيار نمط اللعب -->
+    <div id="page-mode" class="page active mode-page">
+        <div class="mode-hero">
+            <h1>سين وجيم</h1>
+            <p>منصة بسيطة لتنظيم تحديات الأسئلة بين الأصدقاء والفرق.</p>
+        </div>
+        <div class="welcome-guide">
+            <h2>كيف تنظم لعبتك؟</h2>
+            <p>اختر النمط، سمِّ اللعبة والفرق، اختر أربع فئات، ثم استخدم لوحة النقاط لإدارة الأسئلة والنتيجة.</p>
+            <div class="guide-points">
+                <div class="guide-point"><strong>1. جهّز</strong><span>اكتب أسماء الفرق وحدد الفئات المناسبة للحضور.</span></div>
+                <div class="guide-point"><strong>2. نافس</strong><span>اختر قيمة السؤال، شغّل المؤقت واستعمل المساعدة عند الحاجة.</span></div>
+                <div class="guide-point"><strong>3. راجع</strong><span>أنه اللعبة لعرض الفائز واحفظها تلقائياً في السجل.</span></div>
+            </div>
+        </div>
+        <div class="mode-options">
+            <button class="mode-card" onclick="chooseMode('normal')">
+                <span class="mode-icon">⚡</span>
+                <h2>لعبة عادية</h2>
+                <p>جولة واحدة سريعة ومباشرة، مناسبة للجلسات القصيرة والتحديات اليومية.</p>
+            </button>
+            <button class="mode-card" onclick="chooseMode('tournament')">
+                <span class="mode-icon">🏆</span>
+                <h2>بطولة</h2>
+                <p>عدة جولات مع الاحتفاظ بالنقاط وإعلان البطل في نهاية المنافسة.</p>
+            </button>
+        </div>
+        <p style="max-width:760px; margin-top:18px; color:#999; font-size:13px;">اقتراح: للفعاليات الكبيرة استخدم بطولة من 8 أو 16 فريقاً، وللجلسات السريعة استخدم اللعبة العادية.</p>
+        <div id="tournament-settings" class="tournament-settings">
+            <div class="mode-actions">
+                <button class="main-orange-btn" style="margin-top: 0;" onclick="continueToCategories()">اختيار الفئات</button>
+                <button class="secondary-btn" onclick="chooseMode('normal')">لعبة عادية</button>
+            </div>
+            <div class="tournament-preview">
+                <h3>إعداد تقسيم البطولة</h3>
+                <p style="color:#aaa; font-size:13px; margin-bottom:12px;">اختر عدد الفرق واكتب أسماءها، ثم اعرض مخطط المواجهات قبل بدء اللعبة.</p>
+                <div class="team-count-row visible" style="margin: 10px 0;">
+                    <label for="quick-team-count">عدد الفرق</label>
+                    <select id="quick-team-count" onchange="buildQuickTeams()">
+                        <option value="4">4 فرق</option><option value="8" selected>8 فرق</option><option value="16">16 فريقاً</option>
+                    </select>
+                </div>
+                <div id="quick-team-fields" class="quick-team-fields"></div>
+                <div class="division-action">
+                    <button class="main-orange-btn" style="margin-top:0; padding:9px 24px; font-size:14px;" onclick="showQuickDivision()">عرض التقسيم</button>
+                </div>
+                <div id="quick-division-box" class="bracket-preview"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- صفحة إعداد مخطط البطولة -->
+    <div id="page-tournament-bracket" class="page bracket-page">
+        <div class="bracket-page-header">
+            <h1>🏆 مخطط البطولة</h1>
+            <p>اكتب أسماء الفرق أولاً، ثم اعرض طريق كل فريق من الدور الأول حتى النهائي. عند الانتهاء اضغط «ابدأ» لاختيار الفئات.</p>
+        </div>
+        <input id="tournament-name" class="team-custom-input bracket-name-input" maxlength="45" placeholder="اكتب اسم البطولة">
+        <div class="bracket-page-tools">
+            <label for="bracket-page-team-count">عدد الفرق</label>
+            <select id="bracket-page-team-count" onchange="buildTournamentPageTeams()">
+                <option value="4">4 فرق</option><option value="8" selected>8 فرق</option><option value="16">16 فريقاً</option>
+            </select>
+        </div>
+        <div id="bracket-page-team-fields" class="bracket-page-fields"></div>
+        <div class="bracket-page-actions">
+            <button class="main-orange-btn" style="margin-top:0; padding:10px 28px;" onclick="showTournamentPageDivision()">عرض التقسيم</button>
+            <button class="secondary-btn" onclick="exitToHome()">رجوع</button>
+        </div>
+        <div id="bracket-page-division-box" class="bracket-preview" style="width:100%; max-width:1100px;"></div>
+        <div class="bracket-page-actions">
+            <button class="main-orange-btn" style="margin-top:0; padding:11px 34px;" onclick="startTournamentSetup()">ابدأ البطولة واختيار الفئات</button>
+        </div>
+    </div>
+
+    <div id="page-tournament-match" class="page match-page">
+        <p id="active-tournament-name" style="color:#ffb36b; font-weight:bold; margin-bottom:8px;">بطولة سين وجيم</p>
+        <h1 id="match-round-title">المواجهة الأولى</h1>
+        <p>هذه المواجهة تحدد الفريق المتأهل. بعد التعرف على الفريقين اضغط لاختيار الفئات.</p>
+        <div class="match-vs">
+            <div class="match-team" id="match-team-right">فريق 1</div>
+            <div class="match-vs-label">ضد</div>
+            <div class="match-team" id="match-team-left">فريق 2</div>
+        </div>
+        <div class="match-progress" id="match-progress">الفائز يتأهل للمربع التالي</div>
+        <button class="main-orange-btn" onclick="startTournamentCategories()">اختيار الفئات للمواجهة</button>
+    </div>
+
+    <!-- 1. شاشة اختيار الفئات -->
+    <div id="page-select" class="page">
+        <h2 style="margin-bottom: 10px;">اختر 4 فئات للمواجهة</h2>
+        
+        <div class="selection-container">
+            <div class="selection-title-badge">الفئات المتاحة</div>
+
+            <div class="categories-grid-select">
+                <div class="cat-select-card selected" data-cat="عرب بيور" onclick="toggleCat(this)">
+                    <img src="512.gif" alt="شعار عرب بيور">
+                    <div class="card-label">عرب بيور</div>
+                </div>
+                <div class="cat-select-card selected" data-cat="تحدي الصور" onclick="toggleCat(this)">
+                    <img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=300">
+                    <div class="card-label">تحدي الصور</div>
+                </div>
+                <div class="cat-select-card selected" data-cat="أفلام" onclick="toggleCat(this)">
+                    <img src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=300">
+                    <div class="card-label">أفلام</div>
+                </div>
+                <div class="cat-select-card selected" data-cat="أعلام" onclick="toggleCat(this)">
+                    <img src="https://images.unsplash.com/photo-1532375810709-75b1da00537c?w=300">
+                    <div class="card-label">أعلام</div>
+                </div>
+                <div class="cat-select-card unselected" data-cat="اكمل المثل" onclick="toggleCat(this)">
+                    <img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?w=300">
+                    <div class="card-label">اكمل المثل</div>
+                </div>
+                <div class="cat-select-card unselected" data-cat="أسئلة عامة" onclick="toggleCat(this)">
+                    <img src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=300">
+                    <div class="card-label">أسئلة عامة</div>
+                </div>
+                <div class="cat-select-card unselected" data-cat="ألعاب" onclick="toggleCat(this)">
+                    <img src="https://images.unsplash.com/photo-1538481199705-c710c4e965fc?w=300">
+                    <div class="card-label">ألعاب</div>
+                </div>
+                <div class="cat-select-card unselected" data-cat="مسلسلات" onclick="toggleCat(this)">
+                    <img src="https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?w=300">
+                    <div class="card-label">مسلسلات</div>
+                </div>
+                <div class="cat-select-card unselected" data-cat="جغرافيا" onclick="toggleCat(this)">
+                    <img src="https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?w=300">
+                    <div class="card-label">جغرافيا</div>
+                </div>
+                <div class="cat-select-card unselected" data-cat="شعارات" onclick="toggleCat(this)">
+                    <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=300">
+                    <div class="card-label">شعارات</div>
+                </div>
+                <div class="cat-select-card unselected" data-cat="كورة ورياضة" onclick="toggleCat(this)">
+                    <img src="https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=300">
+                    <div class="card-label">كورة ورياضة</div>
+                </div>
+                <div class="cat-select-card unselected" data-cat="سيارات" onclick="toggleCat(this)">
+                    <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=300">
+                    <div class="card-label">سيارات</div>
+                </div>
+            </div>
+        </div>
+
+        <button class="main-orange-btn" onclick="goToSetup()">التالي</button>
+    </div>
+
+    <!-- 2. شاشة إعداد الفرق والأدوات -->
+    <div id="page-setup" class="page">
+        <div class="setup-box-old setup-form">
+            <h2 style="font-size: 26px;">إعداد الفرق والأدوات</h2>
+            <input id="game-name" class="team-custom-input game-name-input" maxlength="45" placeholder="اسم اللعبة أو البطولة">
+
+            <div class="team-count-row" id="team-count-row">
+                <label for="team-count">عدد فرق البطولة</label>
+                <select id="team-count" onchange="buildTournamentTeams()">
+                    <option value="4">4 فرق</option><option value="8">8 فرق</option><option value="16">16 فريقاً</option>
+                </select>
+            </div>
+
+            <div id="tournament-team-fields" class="team-names-grid"></div>
+            <div id="division-box" class="division-box"></div>
+
+            <div class="teams-row-old" id="normal-team-row">
+                <div class="team-input-group">
+                    <h3>الفريق الأول</h3>
+                    <input type="text" id="t1-name" class="team-custom-input" value="1" onchange="updateNames()">
+                    <span style="font-size: 12px; color: #888;">وسائل المساعدة:</span>
+                    <div class="helpers-row">
+                        <div class="helper-circle" title="تبديل السؤال" onclick="showHelperInfo('swap')">🔄</div>
+                        <div class="helper-circle" title="عرض تلميح" onclick="showHelperInfo('hint')">📞</div>
+                        <div class="helper-circle" title="مضاعفة النقاط" onclick="showHelperInfo('double')">✌️</div>
+                    </div>
+                </div>
+
+                <div class="team-input-group">
+                    <h3>الفريق الثاني</h3>
+                    <input type="text" id="t2-name" class="team-custom-input" value="2" onchange="updateNames()">
+                    <span style="font-size: 12px; color: #888;">وسائل المساعدة:</span>
+                    <div class="helpers-row">
+                        <div class="helper-circle" title="تبديل السؤال" onclick="showHelperInfo('swap')">💣</div>
+                        <div class="helper-circle" title="تخطي السؤال" onclick="showHelperInfo('skip')">✋</div>
+                        <div class="helper-circle" title="عرض تلميح" onclick="showHelperInfo('hint')">📞</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="setup-help">
+                <h3>كيف تعمل وسائل المساعدة؟</h3>
+                <div class="helper-guide">
+                    <div><strong>🔄 تبديل السؤال</strong>يرجعكم للوحة لاختيار سؤال آخر بدون احتساب نقاط.</div>
+                    <div><strong>📞 تلميح</strong>يعرض تلميحاً للسؤال الحالي مرة واحدة للفريق.</div>
+                    <div><strong>✌️ مضاعفة</strong>تجعل نقاط السؤال الحالي مضاعفة عند الإجابة الصحيحة.</div>
+                    <div><strong>✋ تخطي</strong>ينهي السؤال بدون نقاط ويعيدكم للوحة.</div>
+                </div>
+            </div>
+
+            <button class="main-orange-btn" onclick="startGame()">إبدأ اللعبة 🚀</button>
+        </div>
+    </div>
+
+    <!-- 3. لوحة الأسئلة الرئيسية -->
+    <div id="page-board" class="page">
+        <div class="board-container" id="board-grid">
+
+            <div class="board-column hidden" data-cat="عرب بيور">
+                <div class="cat-header-card"><img src="512.gif" alt="شعار عرب بيور"><div class="label">عرب بيور</div></div>
+                <div class="score-card-btn" onclick="openQ('عرب بيور', 'سهل', 'ما اللعبة الرئيسية لسيرفرات عرب بيور؟', 'GTA V (FiveM)', '', this, 200)">200</div>
+                <div class="score-card-btn" onclick="openQ('عرب بيور', 'متوسط', 'ما اسم سيرفر الحياة الواقعية التابع لهم؟', 'Arab Pure Roleplay', '', this, 400)">400</div>
+                <div class="score-card-btn" onclick="openQ('عرب بيور', 'صعب', 'ما اختصار اسم المجتمع؟', 'AP', '', this, 600)">600</div>
+            </div>
+
+            <div class="board-column hidden" data-cat="تحدي الصور">
+                <div class="cat-header-card"><img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=300"><div class="label">تحدي الصور</div></div>
+                <div class="score-card-btn" onclick="openQ('تحدي الصور', 'رياضة', 'ما اسم هذا اللاعب؟', 'تايجر وودز', 'https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=600', this, 200)">200</div>
+                <div class="score-card-btn" onclick="openQ('تحدي الصور', 'معالم', 'أين يقع هذا المكان؟', 'باريس', 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=600', this, 400)">400</div>
+                <div class="score-card-btn" onclick="openQ('تحدي الصور', 'صعب', 'سنة التأسيس؟', '1889', '', this, 600)">600</div>
+            </div>
+
+            <div class="board-column hidden" data-cat="أفلام">
+                <div class="cat-header-card"><img src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=300"><div class="label">أفلام</div></div>
+                <div class="score-card-btn" onclick="openQ('أفلام', 'إخراج', 'مخرج فيلم Inception؟', 'كريستوفر نولان', '', this, 200)">200</div>
+                <div class="score-card-btn" onclick="openQ('أفلام', 'أوسكار', 'فيلم حصد 11 جائزة أوسكار عن السفينة؟', 'تيتانيك', '', this, 400)">400</div>
+                <div class="score-card-btn" onclick="openQ('أفلام', 'خيال علمي', 'فيلم الفضاء Interstellar من إخراج؟', 'نولان', '', this, 600)">600</div>
+            </div>
+
+            <div class="board-column hidden" data-cat="أعلام">
+                <div class="cat-header-card"><img src="https://images.unsplash.com/photo-1532375810709-75b1da00537c?w=300"><div class="label">أعلام</div></div>
+                <div class="score-card-btn" onclick="openQ('أعلام', 'دول عربية', 'علم يتوسطه شجرة الأرز؟', 'لبنان 🇱🇧', '', this, 200)">200</div>
+                <div class="score-card-btn" onclick="openQ('أعلام', 'أسيا', 'علم يتوسطه عجلة باللون الأزرق؟', 'الهند 🇮🇳', '', this, 400)">400</div>
+                <div class="score-card-btn" onclick="openQ('أعلام', 'أوربا', 'علم من 3 ألوان أحمر أبيض أزرق طولي؟', 'فرنسا 🇫🇷', '', this, 600)">600</div>
+            </div>
+
+            <div class="board-column hidden" data-cat="اكمل المثل">
+                <div class="cat-header-card"><img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?w=300"><div class="label">اكمل المثل</div></div>
+                <div class="score-card-btn" onclick="openQ('اكمل المثل', 'أمثال شعبية', 'من شابه أباه فما ...؟', 'ظلم', '', this, 200)">200</div>
+                <div class="score-card-btn" onclick="openQ('اكمل المثل', 'أمثال شعبية', 'الربيع يظهر من ...؟', 'عنوانه', '', this, 400)">400</div>
+                <div class="score-card-btn" onclick="openQ('اكمل المثل', 'أمثال قديمة', 'إذا كان الكلام من فضة فالسكوت من ...؟', 'ذهب', '', this, 600)">600</div>
+            </div>
+
+            <div class="board-column hidden" data-cat="أسئلة عامة">
+                <div class="cat-header-card"><img src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=300"><div class="label">أسئلة عامة</div></div>
+                <div class="score-card-btn" onclick="openQ('أسئلة عامة', 'جغرافيا عامة', 'ما أطول نهر في العالم؟', 'نهر النيل', '', this, 200)">200</div>
+                <div class="score-card-btn" onclick="openQ('أسئلة عامة', 'علوم', 'ما هو أثقل كوكب في المجموعة الشمسية؟', 'المشتري', '', this, 400)">400</div>
+                <div class="score-card-btn" onclick="openQ('أسئلة عامة', 'تاريخ', 'ما عاصمة الدولة العباسية؟', 'بغداد', '', this, 600)">600</div>
+            </div>
+
+            <div class="board-column hidden" data-cat="ألعاب">
+                <div class="cat-header-card"><img src="https://images.unsplash.com/photo-1538481199705-c710c4e965fc?w=300"><div class="label">ألعاب</div></div>
+                <div class="score-card-btn" onclick="openQ('ألعاب', 'باتل رويال', 'لعبة بأسلوب Gloo Wall والوفاء؟', 'Free Fire', '', this, 200)">200</div>
+                <div class="score-card-btn" onclick="openQ('ألعاب', 'سولزبورن', 'لعبة تطوير FromSoftware حصري بلستيشن 4؟', 'Bloodborne', '', this, 400)">400</div>
+                <div class="score-card-btn" onclick="openQ('ألعاب', 'عالم مفتوح', 'لعبة GTA الشهيرة بشركة؟', 'Rockstar Games', '', this, 600)">600</div>
+            </div>
+
+            <div class="board-column hidden" data-cat="مسلسلات">
+                <div class="cat-header-card"><img src="https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?w=300"><div class="label">مسلسلات</div></div>
+                <div class="score-card-btn" onclick="openQ('مسلسلات', 'دراما', 'مسلسل البروفيسور والسرقة الإسباني؟', 'La Casa De Papel', '', this, 200)">200</div>
+                <div class="score-card-btn" onclick="openQ('مسلسلات', 'جريمة', 'مسلسل Breaking Bad في أي دولة؟', 'أمريكا', '', this, 400)">400</div>
+                <div class="score-card-btn" onclick="openQ('مسلسلات', 'أنمي', 'من منصات الأنمي الشهيرة؟', 'Crunchyroll', '', this, 600)">600</div>
+            </div>
+
+            <div class="board-column hidden" data-cat="جغرافيا">
+                <div class="cat-header-card"><img src="https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?w=300"><div class="label">جغرافيا</div></div>
+                <div class="score-card-btn" onclick="openQ('جغرافيا', 'دول', 'أكبر دولة مساحة في العالم؟', 'روسيا', '', this, 200)">200</div>
+                <div class="score-card-btn" onclick="openQ('جغرافيا', 'عواصم', 'عاصمة أستراليا؟', 'كانبرا', '', this, 400)">400</div>
+                <div class="score-card-btn" onclick="openQ('جغرافيا', 'تضاريس', 'أعلى قمة جبلية في العالم؟', 'إيفرست', '', this, 600)">600</div>
+            </div>
+
+            <div class="board-column hidden" data-cat="شعارات">
+                <div class="cat-header-card"><img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=300"><div class="label">شعارات</div></div>
+                <div class="score-card-btn" onclick="openQ('شعارات', 'تكنولوجيا', 'شعار التفاحة المأكولة؟', 'Apple', '', this, 200)">200</div>
+                <div class="score-card-btn" onclick="openQ('شعارات', 'برامج', 'شعار الكاميرا الملونة؟', 'Instagram', '', this, 400)">400</div>
+                <div class="score-card-btn" onclick="openQ('شعارات', 'مطاعم', 'شعار الحرف M الأصفر؟', 'McDonalds', '', this, 600)">600</div>
+            </div>
+
+            <div class="board-column hidden" data-cat="كورة ورياضة">
+                <div class="cat-header-card"><img src="https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=300"><div class="label">كورة ورياضة</div></div>
+                <div class="score-card-btn" onclick="openQ('كورة ورياضة', 'كرة قدم', 'عدد لاعبين الفريق في الملعب؟', '11 لاعب', '', this, 200)">200</div>
+                <div class="score-card-btn" onclick="openQ('كورة ورياضة', 'بطولات', 'أكثر منتخب تحقيقاً لكأس العالم؟', 'البرازيل', '', this, 400)">400</div>
+                <div class="score-card-btn" onclick="openQ('كورة ورياضة', 'أندية', 'نادي يلقب بالملكي؟', 'ريال مدريد', '', this, 600)">600</div>
+            </div>
+
+            <div class="board-column hidden" data-cat="سيارات">
+                <div class="cat-header-card"><img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=300"><div class="label">سيارات</div></div>
+                <div class="score-card-btn" onclick="openQ('سيارات', 'ماركات', 'شعار الـ 4 حلقات المتقاطعة؟', 'Audi', '', this, 200)">200</div>
+                <div class="score-card-btn" onclick="openQ('سيارات', 'فاخرة', 'شعار الحصان القافز الإيطالي؟', 'Ferrari', '', this, 400)">400</div>
+                <div class="score-card-btn" onclick="openQ('سيارات', 'محركات', 'بلد صُنع سيارات بورش؟', 'ألمانيا', '', this, 600)">600</div>
+            </div>
+
+        </div>
+
+        <!-- الشريط السفلي -->
+        <div class="bottom-bar-old">
+            <div class="team-score-badge">
+                <span class="team-btn-tag" id="t1-tag">1</span>
+                <div class="score-counter">
+                    <span style="color:#ff3b30; cursor:pointer;" onclick="changeScore(1, -100)">-</span>
+                    <span id="score-t1">0</span>
+                    <span style="color:#2bf076; cursor:pointer;" onclick="changeScore(1, 100)">+</span>
+                </div>
+            </div>
+
+            <div style="font-size: 12px; color: #666;">سين وجيم - 4 فئات مختارة</div>
+
+            <div class="team-score-badge">
+                <div class="score-counter">
+                    <span style="color:#ff3b30; cursor:pointer;" onclick="changeScore(2, -100)">-</span>
+                    <span id="score-t2">0</span>
+                    <span style="color:#2bf076; cursor:pointer;" onclick="changeScore(2, 100)">+</span>
+                </div>
+                <span class="team-btn-tag" id="t2-tag">2</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 4. شاشة السؤال الجديدة بالكامل (نفس تصميم الصورة بالضبط) -->
+    <div id="page-question" class="page">
+        <!-- المربع الرئيسي للسؤال -->
+        <div class="q-main-wrapper">
+            <div class="q-top-pts-badge" id="q-pts-badge">200 نقطة</div>
+
+            <!-- التايمر -->
+            <div class="timer-container">
+                <span class="timer-icon" onclick="toggleTimer()" id="timer-toggle-btn">▶</span>
+                <span id="timer-display">00:00</span>
+                <span class="timer-icon" onclick="resetTimer()">🔄</span>
+            </div>
+
+            <!-- منطقة المحتوى (السؤال والصورة) -->
+            <div class="q-content-area">
+                <div class="q-text-display" id="q-title">ما اسم هذا اللاعب ؟</div>
+                <img id="q-img" class="q-img-display" src="" style="display: none;">
+                <div id="inline-hint" class="inline-hint"></div>
+            </div>
+
+            <button class="q-bottom-ans-btn" onclick="showAns()">الإجابة</button>
+            <div class="q-bottom-prop-badge" id="q-prop-badge">رياضة</div>
+        </div>
+
+        <!-- الشريط الجانبي الأيمن لوسائل المساعدة والنقاط -->
+        <div class="q-sidebar-right">
+            <!-- الفريق الأول -->
+            <div class="team-side-card">
+                <div class="team-side-name-pill" id="side-t1-name">1</div>
+                <div class="team-side-score" id="side-t1-score">200</div>
+                <div class="team-side-helpers-title">وسائل المساعدة</div>
+                <div class="team-side-helpers-icons">
+                    <div class="side-helper-btn" onclick="useHelper(this, 'swap')">🔄</div>
+                    <div class="side-helper-btn" onclick="useHelper(this, 'hint')">📞</div>
+                    <div class="side-helper-btn" onclick="useHelper(this, 'double')">✌️</div>
+                </div>
+            </div>
+
+            <!-- الفريق الثاني -->
+            <div class="team-side-card">
+                <div class="team-side-name-pill" id="side-t2-name">2</div>
+                <div class="team-side-score" id="side-t2-score">0</div>
+                <div class="team-side-helpers-title">وسائل المساعدة</div>
+                <div class="team-side-helpers-icons">
+                    <div class="side-helper-btn" onclick="useHelper(this, 'swap')">💣</div>
+                    <div class="side-helper-btn" onclick="useHelper(this, 'skip')">✋</div>
+                    <div class="side-helper-btn" onclick="useHelper(this, 'hint')">📞</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 5. شاشة الإجابة والتحكيم -->
+    <div id="page-answer" class="page">
+        <div class="stage-box">
+            <div class="q-info-tag" id="ans-info-text">الإجابة الصحيحة</div>
+            <h1 id="ans-title" style="font-size: 32px; color: #2bf076; margin: 20px 0;">الإجابة</h1>
+
+            <div style="display: flex; gap: 15px; margin-top: 10px;">
+                <button id="answer-team-one-btn" class="main-orange-btn" style="padding: 10px 25px; font-size: 15px;" onclick="addPoints(1)">نقطة للفريق 1</button>
+                <button id="answer-team-two-btn" class="main-orange-btn" style="padding: 10px 25px; font-size: 15px; background: #007bff;" onclick="addPoints(2)">نقطة للفريق 2</button>
+                <button class="main-orange-btn" style="padding: 10px 25px; font-size: 15px; background: #555;" onclick="addPoints(0)">لا أحد</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="page-tournament-result" class="page match-page">
+        <div class="tournament-result">
+            <h1>انتهت المواجهة</h1>
+            <p id="tournament-result-message">الفريق المتأهل ينتقل إلى المواجهة التالية.</p>
+            <div class="result-matchup">
+                <div id="tournament-result-team-a" class="result-team"></div>
+                <div id="tournament-result-team-b" class="result-team"></div>
+            </div>
+            <button id="next-tournament-match-btn" class="main-orange-btn" onclick="nextTournamentMatch()">المباراة التالية</button>
+        </div>
+    </div>
+
+    <div id="page-tournament-round" class="page match-page">
+        <h1 id="tournament-round-title">نتائج الجولة</h1>
+        <p>تم تحديث مخطط البطولة. الفائزون باللون الأخضر والخاسرون باللون الأحمر.</p>
+        <div id="tournament-round-bracket" class="bracket-preview" style="display:block; width:100%; max-width:1100px;"></div>
+        <div id="tournament-round-summary" class="round-summary"></div>
+        <button class="main-orange-btn" onclick="startNextTournamentRound()">بدء الجولة التالية</button>
+    </div>
+
+    <div id="page-result" class="page">
+        <div class="stage-box result-card">
+            <div class="q-info-tag">النتيجة النهائية</div>
+            <h1 id="result-title">انتهت اللعبة</h1>
+            <div id="result-list" class="result-list"></div>
+            <div class="mode-actions">
+                <button class="main-orange-btn" style="margin-top: 0;" onclick="showHistory()">فتح سجل المباريات</button>
+                <button class="secondary-btn" onclick="exitToHome()">العودة للبداية</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="page-history" class="page">
+        <h2>سجل المباريات</h2>
+        <p style="color:#aaa; margin-top:8px;">السجل محفوظ على هذا الجهاز ويمكن الرجوع إليه لاحقاً.</p>
+        <div id="history-list" class="history-list"></div>
+        <div class="mode-actions">
+            <button class="main-orange-btn" style="margin-top: 0;" onclick="exitToHome()">لعبة جديدة</button>
+            <button class="danger-btn" onclick="clearHistory()">مسح السجل</button>
+        </div>
+    </div>
+
+    <script src="js/ui.js"></script>
+    <script src="js/storage.js"></script>
+    <script src="js/history.js"></script>
+    <script src="js/question-bank.js"></script>
+    <script src="js/board.js"></script>
+    <script src="js/tournament.js"></script>
+    <script src="js/question-tools.js"></script>
+    <script src="js/question.js"></script>
+    <script src="js/scoring.js"></script>
+    <script src="js/results.js"></script>
+    <script src="data/question-bank.js"></script>
+    <script src="data/games-questions.js"></script>
+    <script>
+        let scores = { t1: 0, t2: 0 };
+        let gameMode = 'normal';
+        let currentRound = 1;
+        let tournamentTeams = [];
+        let pendingTournamentNames = [];
+        let tournamentBracketTeams = [];
+        let tournamentWinners = [];
+        let tournamentRoundLosers = [];
+        let tournamentRoundMatches = [];
+        let tournamentAllMatches = [];
+        let tournamentMatchIndex = 0;
+        let tournamentMatch = { right: '', left: '' };
+        let gameTitle = '';
+        let tournamentSaved = false;
+        let activeHint = '';
+        let activeDifficulty = '';
+        let pointsDoubled = false;
+        let activePoints = 0;
+        let activeAns = '';
+        let activeCard = null;
+        const questionBank = SinJeemQuestionBank.items;
+        const questionKeys = SinJeemQuestionBank.keys;
+        const usedQuestionIds = new Set();
+        const normalizeQuestion = value => SinJeemQuestionBank.normalize(value);
+        const difficultyLabel = (value, points) => SinJeemQuestionBank.difficulty(value, points);
+        const addQuestion = question => SinJeemQuestionBank.add(question);
+        const addQuestions = questions => SinJeemQuestionBank.addMany(questions);
+        const questionBankStats = () => ({
+            total: questionBank.length,
+            categories: questionBank.reduce((stats, item) => {
+                stats[item.category] = (stats[item.category] || 0) + 1;
+                return stats;
+            }, {})
+        });
+        const registerOpenQuestion = (category, difficulty, question, answer, image, points) =>
+            addQuestion({ category, difficulty, question, answer, image, points });
+        const findBankQuestion = (question, category, answer) =>
+            SinJeemQuestionBank.find(question, category, answer);
+
+        addQuestions(window.questionBankSeed || []);
+        addQuestions(window.gamesQuestionSeed || []);
+
+        // متغيرات التايمر
+        let timerSeconds = 0;
+        let timerInterval = null;
+        let timerRunning = false;
+        const questionTimerState = {
+            get seconds() { return timerSeconds; },
+            set seconds(value) { timerSeconds = value; },
+            get interval() { return timerInterval; },
+            set interval(value) { timerInterval = value; },
+            get running() { return timerRunning; },
+            set running(value) { timerRunning = value; }
+        };
+
+        function chooseMode(mode) {
+            gameMode = mode;
+            const settings = document.getElementById('tournament-settings');
+            if (mode === 'tournament') {
+                settings.classList.add('visible');
+                buildTournamentPageTeams();
+                switchPage('page-tournament-bracket');
+                return;
+            }
+            settings.classList.remove('visible');
+            currentRound = 1;
+            continueToCategories();
+        }
+
+        function buildTournamentPageTeams() {
+            const fields = document.getElementById('bracket-page-team-fields');
+            const count = Number(document.getElementById('bracket-page-team-count').value);
+            const oldNames = Array.from(fields.querySelectorAll('input')).map(input => input.value);
+            fields.innerHTML = Array.from({ length: count }, (_, index) =>
+                `<input class="team-name-field" maxlength="24" value="${oldNames[index] || pendingTournamentNames[index] || `فريق ${index + 1}`}" placeholder="اسم الفريق ${index + 1}">`
+            ).join('');
+            document.getElementById('bracket-page-division-box').classList.remove('visible');
+        }
+
+        function showTournamentPageDivision() {
+            const names = Array.from(document.querySelectorAll('#bracket-page-team-fields input')).map((input, index) => input.value.trim() || `فريق ${index + 1}`);
+            const box = document.getElementById('bracket-page-division-box');
+            box.innerHTML = `<h3>طريق البطولة إلى النهائي</h3><div class="bracket-board">${buildBracketMarkup(names)}</div>`;
+            box.classList.add('visible');
+        }
+
+        function startTournamentSetup() {
+            const names = Array.from(document.querySelectorAll('#bracket-page-team-fields input')).map((input, index) => input.value.trim() || `فريق ${index + 1}`);
+            pendingTournamentNames = names;
+            gameTitle = document.getElementById('tournament-name').value.trim() || 'بطولة سين وجيم';
+            tournamentBracketTeams = names.slice();
+            tournamentWinners = [];
+            tournamentRoundLosers = [];
+            tournamentRoundMatches = [];
+            tournamentAllMatches = [];
+            tournamentSaved = false;
+            usedQuestionIds.clear();
+            tournamentMatchIndex = 0;
+            currentRound = 1;
+            document.getElementById('team-count').value = names.length;
+            startTournamentMatch();
+        }
+
+        function startTournamentMatch() {
+            if (tournamentMatchIndex >= tournamentBracketTeams.length / 2) {
+                showTournamentRoundSummary();
+                return;
+            }
+            const right = tournamentBracketTeams[tournamentMatchIndex * 2];
+            const left = tournamentBracketTeams[tournamentMatchIndex * 2 + 1];
+            tournamentMatch = { right, left };
+            scores = { t1: 0, t2: 0 };
+            currentRound = Math.max(1, Math.ceil(Math.log2(pendingTournamentNames.length / tournamentBracketTeams.length)) + 1);
+            document.getElementById('match-round-title').innerText = `المواجهة ${tournamentMatchIndex + 1}`;
+            document.getElementById('active-tournament-name').innerText = gameTitle;
+            document.getElementById('match-team-right').innerText = right;
+            document.getElementById('match-team-left').innerText = left;
+            document.getElementById('match-progress').innerText = `الجولة ${currentRound} - الفريق الذي يصل إلى 3000 نقطة يتأهل`;
+            switchPage('page-tournament-match');
+        }
+
+        function startTournamentCategories() {
+            switchPage('page-select');
+        }
+
+        function showTournamentChampion(champion) {
+            SinJeemResults.renderChampion(gameTitle, champion, tournamentAllMatches);
+            if (!tournamentSaved) {
+                saveHistory([{ name: champion, score: 3000, status: 'بطل البطولة' }, ...tournamentAllMatches.map(match => ({ name: match.winner, score: 0, status: 'متأهل' }))], pendingTournamentNames);
+                tournamentSaved = true;
+            }
+            switchPage('page-result');
+        }
+
+        function finishTournamentMatch(winnerNumber) {
+            const winner = winnerNumber === 1 ? tournamentMatch.right : tournamentMatch.left;
+            const loser = winnerNumber === 1 ? tournamentMatch.left : tournamentMatch.right;
+            tournamentWinners.push(winner);
+            tournamentRoundLosers.push(loser);
+            const matchRecord = { right: tournamentMatch.right, left: tournamentMatch.left, winner, loser, round: currentRound };
+            tournamentRoundMatches.push(matchRecord);
+            tournamentAllMatches.push(matchRecord);
+            SinJeemResults.renderMatch(tournamentMatch, winnerNumber);
+            switchPage('page-tournament-result');
+        }
+
+        function nextTournamentMatch() {
+            tournamentMatchIndex++;
+            if (tournamentMatchIndex < tournamentBracketTeams.length / 2) {
+                startTournamentMatch();
+            } else {
+                showTournamentRoundSummary();
+            }
+        }
+
+        function showTournamentRoundSummary() {
+            SinJeemResults.renderRound(currentRound, tournamentRoundMatches, buildBracketMarkup(tournamentBracketTeams));
+            switchPage('page-tournament-round');
+        }
+
+        function startNextTournamentRound() {
+            tournamentBracketTeams = tournamentWinners.slice();
+            tournamentWinners = [];
+            tournamentRoundLosers = [];
+            tournamentRoundMatches = [];
+            tournamentMatchIndex = 0;
+            currentRound++;
+            if (tournamentBracketTeams.length === 1) {
+                showTournamentChampion(tournamentBracketTeams[0]);
+                return;
+            }
+            startTournamentMatch();
+        }
+
+        function toggleSettings(event) {
+            event.stopPropagation();
+            document.getElementById('settings-menu').classList.toggle('visible');
+        }
+
+        function closeSettings() {
+            document.getElementById('settings-menu').classList.remove('visible');
+        }
+
+        function showGuide() {
+            alert('التنظيم المقترح:\n1) اكتب اسم اللعبة والفرق.\n2) اختر 4 فئات مناسبة.\n3) في البطولة تبدأ الفرق بمواجهات حسب العدد، ثم يتأهل الفائزون حتى النهائي.\n4) عند انتهاء اللعب تظهر النتيجة وتحفظ المباراة في السجل.');
+        }
+
+        function continueToCategories() {
+            if (gameMode === 'tournament') {
+                document.getElementById('team-count').value = document.getElementById('quick-team-count').value;
+                pendingTournamentNames = Array.from(document.querySelectorAll('#quick-team-fields input')).map((input, index) => input.value.trim() || `فريق ${index + 1}`);
+            }
+            switchPage('page-select');
+        }
+
+        function buildQuickTeams() {
+            const fields = document.getElementById('quick-team-fields');
+            const count = Number(document.getElementById('quick-team-count').value);
+            const oldNames = Array.from(fields.querySelectorAll('input')).map(input => input.value);
+            fields.innerHTML = Array.from({ length: count }, (_, index) =>
+                `<input class="team-name-field" maxlength="24" value="${oldNames[index] || pendingTournamentNames[index] || `فريق ${index + 1}`}" placeholder="اسم الفريق ${index + 1}">`
+            ).join('');
+            document.getElementById('quick-division-box').classList.remove('visible');
+        }
+
+        function showQuickDivision() {
+            const names = Array.from(document.querySelectorAll('#quick-team-fields input')).map((input, index) => input.value.trim() || `فريق ${index + 1}`);
+            const box = document.getElementById('quick-division-box');
+            box.innerHTML = `<h3>مخطط البطولة</h3><div class="bracket-board">${buildBracketMarkup(names)}</div>`;
+            box.classList.add('visible');
+        }
+
+        function toggleCat(card) {
+            const selectedCount = document.querySelectorAll('.cat-select-card.selected').length;
+            
+            if (card.classList.contains('selected')) {
+                card.classList.remove('selected');
+                card.classList.add('unselected');
+            } else {
+                if (selectedCount >= 4) {
+                    alert('يمكنك اختيار 4 فئات فقط للعب!');
+                    return;
+                }
+                card.classList.remove('unselected');
+                card.classList.add('selected');
+            }
+        }
+
+        function switchPage(pId) {
+            SinJeemUI.showPage(pId);
+        }
+
+        function goToSetup() {
+            const selectedCount = document.querySelectorAll('.cat-select-card.selected').length;
+            if (selectedCount !== 4) {
+                alert('يرجى اختيار 4 فئات بالضبط لبدء اللعبة');
+                return;
+            }
+            if (gameMode === 'tournament') {
+                startGame();
+                return;
+            }
+            document.getElementById('team-count-row').classList.toggle('visible', gameMode === 'tournament');
+            document.getElementById('normal-team-row').style.display = gameMode === 'tournament' ? 'none' : 'flex';
+            buildTournamentTeams();
+            switchPage('page-setup');
+        }
+
+        function buildTournamentTeams() {
+            const fields = document.getElementById('tournament-team-fields');
+            const divisionBox = document.getElementById('division-box');
+            if (gameMode !== 'tournament') {
+                fields.innerHTML = '';
+                divisionBox.classList.remove('visible');
+                return;
+            }
+            const count = Number(document.getElementById('team-count').value);
+            const oldNames = Array.from(fields.querySelectorAll('input')).map(input => input.value);
+            fields.innerHTML = Array.from({ length: count }, (_, index) =>
+                `<input class="team-name-field" maxlength="24" value="${oldNames[index] || pendingTournamentNames[index] || `فريق ${index + 1}`}" placeholder="اسم الفريق ${index + 1}" oninput="updateDivision()">`
+            ).join('');
+            document.getElementById('division-box').classList.remove('visible');
+        }
+
+        function updateDivision() {
+            if (gameMode !== 'tournament') return;
+            const names = Array.from(document.querySelectorAll('#tournament-team-fields input')).map((input, index) => input.value.trim() || `فريق ${index + 1}`);
+            const divisionBox = document.getElementById('division-box');
+            divisionBox.innerHTML = `<h3>مخطط البطولة</h3><div class="bracket-board">${buildBracketMarkup(names)}</div>`;
+            divisionBox.classList.add('visible');
+        }
+
+        function buildBracketMarkup(names) {
+            return SinJeemTournament.buildBracketMarkup(names);
+        }
+
+        function escapeHtml(value) {
+            return SinJeemTournament.escapeHtml(value);
+        }
+
+        function advanceWinner(button) {
+            const matchId = button.dataset.match;
+            const [side, roundText, indexText] = matchId.split('-');
+            const winnerName = button.textContent;
+            document.querySelectorAll(`[data-match="${matchId}"]`).forEach(team => team.classList.remove('selected'));
+            button.classList.add('selected');
+            if (side === 'F') {
+                document.querySelectorAll('[data-match="F-1-0"]').forEach(team => team.classList.remove('selected'));
+                button.classList.add('selected');
+                return;
+            }
+            const round = Number(roundText);
+            const index = Number(indexText);
+            const sideMatchCount = document.querySelectorAll('#quick-team-fields input').length / 4 || document.querySelectorAll('#tournament-team-fields input').length / 4;
+            const sideRoundCount = Math.log2(sideMatchCount) + 1;
+            const target = round < sideRoundCount ? `${side}-${round + 1}-${Math.floor(index / 2)}` : `F-1-${side === 'R' ? 0 : 1}`;
+            const targetSlot = round < sideRoundCount ? index % 2 : 0;
+            const targetButton = document.querySelector(`[data-match="${target}"][data-slot="${targetSlot}"]`);
+            if (targetButton) targetButton.textContent = winnerName;
+        }
+
+        function updateNames() {
+            const n1 = document.getElementById('t1-name').value || '1';
+            const n2 = document.getElementById('t2-name').value || '2';
+            document.getElementById('t1-tag').innerText = n1;
+            document.getElementById('t2-tag').innerText = n2;
+            document.getElementById('side-t1-name').innerText = n1;
+            document.getElementById('side-t2-name').innerText = n2;
+            document.getElementById('answer-team-one-btn').innerText = `نقطة لـ ${n1}`;
+            document.getElementById('answer-team-two-btn').innerText = `نقطة لـ ${n2}`;
+        }
+
+        function startGame() {
+            const selected = Array.from(document.querySelectorAll('.cat-select-card.selected')).map(c => c.getAttribute('data-cat'));
+            gameTitle = document.getElementById('game-name').value.trim() || (gameMode === 'tournament' ? 'بطولة سين وجيم' : 'لعبة سين وجيم');
+            if (gameMode !== 'tournament') usedQuestionIds.clear();
+            if (gameMode === 'tournament') {
+                tournamentTeams = [tournamentMatch.right, tournamentMatch.left];
+                document.getElementById('t1-name').value = tournamentMatch.right;
+                document.getElementById('t2-name').value = tournamentMatch.left;
+            } else {
+                tournamentTeams = [document.getElementById('t1-name').value.trim() || 'الفريق 1', document.getElementById('t2-name').value.trim() || 'الفريق 2'];
+            }
+            scores = { t1: 0, t2: 0 };
+            if (gameMode !== 'tournament') currentRound = 1;
+            resetTournamentBoard();
+            document.getElementById('score-t1').innerText = '0';
+            document.getElementById('score-t2').innerText = '0';
+            updateNames();
+            
+            document.querySelectorAll('.board-column').forEach(col => {
+                const cName = col.getAttribute('data-cat');
+                if (selected.includes(cName)) {
+                    col.classList.remove('hidden');
+                    SinJeemBoard.populateColumn(col, cName, questionBank, usedQuestionIds, difficultyLabel, (item, card) =>
+                        openQ(item.category, item.difficulty, item.question, item.answer, item.image, card, item.points));
+                } else {
+                    col.classList.add('hidden');
+                }
+            });
+
+            updateRoundLabel();
+            switchPage('page-board');
+        }
+
+        function resetTournamentBoard() {
+            SinJeemBoard.reset();
+            activeCard = null;
+            pointsDoubled = false;
+            activeHint = '';
+        }
+
+        function updateRoundLabel() {
+            const label = document.getElementById('turn-txt');
+            label.innerText = gameMode === 'tournament'
+                ? `البطولة: المرحلة ${currentRound}`
+                : 'لعبة عادية';
+        }
+
+        /* فتح شاشة السؤال مع إعداد البيانات والتايمر من صفر */
+        function openQ(cat, prop, q, a, imgUrl, card, pts) {
+            const bankQuestion = findBankQuestion(q, cat, a);
+            registerOpenQuestion(cat, prop, q, a, imgUrl, pts);
+            if (bankQuestion) usedQuestionIds.add(bankQuestion.id);
+            activePoints = pts;
+            activeAns = a;
+            activeCard = card;
+            activeDifficulty = bankQuestion?.difficulty || prop;
+            activeHint = bankQuestion?.hint || `لا يوجد تلميح مضاف لهذا السؤال حتى الآن.`;
+            pointsDoubled = false;
+            SinJeemQuestionTools.resetHint();
+
+            document.getElementById('q-pts-badge').innerText = `${pts} نقطة`;
+            document.getElementById('q-prop-badge').innerText = `${activeDifficulty} • ${pts} نقطة`;
+            document.getElementById('q-title').innerText = q;
+
+            const qImg = document.getElementById('q-img');
+            if (imgUrl && imgUrl.trim() !== '') {
+                qImg.src = imgUrl;
+                qImg.style.display = 'block';
+            } else {
+                qImg.style.display = 'none';
+            }
+
+            // تحديث وسائل المساعدة والنقاط على اليمين
+            updateNames();
+            document.getElementById('side-t1-score').innerText = scores.t1;
+            document.getElementById('side-t2-score').innerText = scores.t2;
+
+            // ضبط وإعادة تشغيل التايمر من 00:00
+            resetTimer();
+            startTimer();
+
+            switchPage('page-question');
+        }
+
+        /* أجهزة التايمر */
+        function startTimer() {
+            SinJeemQuestion.startTimer(questionTimerState);
+        }
+
+        function toggleTimer() {
+            SinJeemQuestion.toggleTimer(questionTimerState);
+        }
+
+        function resetTimer() {
+            SinJeemQuestion.resetTimer(questionTimerState);
+        }
+
+        function showHelperInfo(type) {
+            const descriptions = {
+                swap: 'تبديل السؤال: يعود الفريق إلى اللوحة لاختيار سؤال آخر، ولا تُحسب نقاط.',
+                hint: 'التلميح: يعرض معلومة مختصرة تساعد على التفكير في الإجابة.',
+                double: 'مضاعفة النقاط: تضاعف قيمة السؤال الحالي عند منح النقاط.',
+                skip: 'التخطي: ينهي السؤال الحالي بدون نقاط ويعيدكم إلى اللوحة.'
+            };
+            alert(descriptions[type]);
+        }
+
+        function useHelper(btn, type) {
+            if (btn.classList.contains('used')) return;
+            btn.classList.add('used');
+            if (type === 'hint') {
+                SinJeemQuestionTools.showHint(activeHint);
+                return;
+            }
+            if (type === 'double') {
+                pointsDoubled = true;
+                SinJeemQuestionTools.setDoublePoints(activePoints);
+                return;
+            }
+            clearInterval(timerInterval);
+            if (type === 'swap' || type === 'skip') {
+                if (type === 'skip' && activeCard) activeCard.classList.add('used');
+                switchPage('page-board');
+            }
+        }
+
+        function showAns() {
+            clearInterval(timerInterval);
+            document.getElementById('ans-info-text').innerText = document.getElementById('q-prop-badge').innerText;
+            document.getElementById('ans-title').innerText = activeAns;
+            switchPage('page-answer');
+        }
+
+        function addPoints(team) {
+            const awardedPoints = pointsDoubled ? activePoints * 2 : activePoints;
+            SinJeemScoring.award(scores, team, awardedPoints);
+
+            if (activeCard) activeCard.classList.add('used');
+            if (gameMode === 'tournament' && (scores.t1 >= 3000 || scores.t2 >= 3000)) {
+                finishTournamentMatch(scores.t1 >= 3000 ? 1 : 2);
+                return;
+            }
+            switchPage('page-board');
+        }
+
+        function changeScore(team, val) {
+            SinJeemScoring.change(scores, team, val);
+        }
+
+        function finishGame() {
+            clearInterval(timerInterval);
+            const teams = gameMode === 'tournament' ? tournamentTeams : [document.getElementById('t1-tag').innerText, document.getElementById('t2-tag').innerText];
+            const results = teams.map((name, index) => ({ name, score: index === 0 ? scores.t1 : index === 1 ? scores.t2 : 0 }));
+            results.sort((a, b) => b.score - a.score);
+            SinJeemResults.renderNormal(gameTitle, results);
+            saveHistory(results, teams);
+            switchPage('page-result');
+        }
+
+        function saveHistory(results, teams = tournamentTeams) {
+            SinJeemHistory.save(results, teams, gameTitle, gameMode);
+        }
+
+        function showHistory() {
+            SinJeemHistory.render();
+            switchPage('page-history');
+        }
+
+        function clearHistory() {
+            SinJeemHistory.clear();
+        }
+
+        function exitToHome() {
+            clearInterval(timerInterval);
+            scores = { t1: 0, t2: 0 };
+            currentRound = 1;
+            gameMode = 'normal';
+            document.getElementById('tournament-settings').classList.remove('visible');
+            switchPage('page-mode');
+        }
+    </script>
+</body>
+</html>
