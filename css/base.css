@@ -16,6 +16,7 @@ body {
 
 .top-bar {
     display: flex;
+    direction: ltr;
     justify-content: space-between;
     align-items: center;
     padding: 12px 25px;
@@ -25,6 +26,7 @@ body {
 
 .top-left-actions {
     display: flex;
+    direction: rtl;
     gap: 15px;
     font-size: 13px;
     color: #ccc;
@@ -56,6 +58,8 @@ body {
 .turn-badge.visible { display: block; }
 
 .logo-area {
+    order: 3;
+    direction: rtl;
     font-weight: 900;
     font-size: 22px;
     color: var(--primary-orange);
@@ -63,6 +67,8 @@ body {
     align-items: center;
     gap: 5px;
 }
+
+.turn-badge { order: 2; }
 
 .page { display: none; flex: 1; padding: 20px; }
 .page.active { display: flex; flex-direction: column; align-items: center; justify-content: center; }
