@@ -174,6 +174,8 @@
             border: 2px solid #3d3d3d;
             transition: all 0.2s;
             position: relative;
+            display: flex;
+            flex-direction: column;
         }
 
         .cat-select-card.selected {
@@ -188,9 +190,12 @@
 
         .cat-select-card img {
             width: 100%;
-            height: 85px;
+            height: 100px;
             object-fit: cover;
+            object-position: center;
+            padding: 0;
             display: block;
+            margin: 0;
         }
 
         .cat-select-card[data-cat="عرب بيور"] img,
@@ -204,9 +209,10 @@
             background: #343434;
             color: white;
             text-align: center;
-            padding: 5px 2px;
+            padding: 6px 2px 8px;
             font-size: 12px;
             font-weight: bold;
+            margin-top: 0;
         }
 
         .cat-select-card.selected .card-label {
@@ -713,47 +719,47 @@
                     <div class="card-label">عرب بيور</div>
                 </div>
                 <div class="cat-select-card selected" data-cat="تحدي الصور" onclick="toggleCat(this)">
-                    <img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=300">
+                    <img src="1743570879626-653531544.jpg" alt="تحدي الصور">
                     <div class="card-label">تحدي الصور</div>
                 </div>
                 <div class="cat-select-card selected" data-cat="أفلام" onclick="toggleCat(this)">
-                    <img src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=300">
+                    <img src="1746940722800-877807759.jpg" alt="أفلام">
                     <div class="card-label">أفلام</div>
                 </div>
                 <div class="cat-select-card selected" data-cat="أعلام" onclick="toggleCat(this)">
-                    <img src="https://images.unsplash.com/photo-1532375810709-75b1da00537c?w=300">
+                    <img src="1722983894998-509200770.jpg" alt="أعلام">
                     <div class="card-label">أعلام</div>
                 </div>
                 <div class="cat-select-card unselected" data-cat="اكمل المثل" onclick="toggleCat(this)">
-                    <img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?w=300">
+                    <img src="1738076222656-24201363.jpg" alt="اكمل المثل">
                     <div class="card-label">اكمل المثل</div>
                 </div>
                 <div class="cat-select-card unselected" data-cat="أسئلة عامة" onclick="toggleCat(this)">
-                    <img src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=300">
+                    <img src="1714490927962-855974365.jpg" alt="أسئلة عامة">
                     <div class="card-label">أسئلة عامة</div>
                 </div>
                 <div class="cat-select-card unselected" data-cat="ألعاب" onclick="toggleCat(this)">
-                    <img src="https://images.unsplash.com/photo-1538481199705-c710c4e965fc?w=300">
+                    <img src="1725499690630-47456155.jpg" alt="ألعاب">
                     <div class="card-label">ألعاب</div>
                 </div>
                 <div class="cat-select-card unselected" data-cat="مسلسلات" onclick="toggleCat(this)">
-                    <img src="https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?w=300">
+                    <img src="1740788686293-300365168.jpg" alt="مسلسلات">
                     <div class="card-label">مسلسلات</div>
                 </div>
                 <div class="cat-select-card unselected" data-cat="جغرافيا" onclick="toggleCat(this)">
-                    <img src="https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?w=300">
+                    <img src="1714490823112-594631607.jpg" alt="جغرافيا">
                     <div class="card-label">جغرافيا</div>
                 </div>
                 <div class="cat-select-card unselected" data-cat="شعارات" onclick="toggleCat(this)">
-                    <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=300">
+                    <img src="1742549852188-992634557.jpg" alt="شعارات">
                     <div class="card-label">شعارات</div>
                 </div>
                 <div class="cat-select-card unselected" data-cat="كورة ورياضة" onclick="toggleCat(this)">
-                    <img src="https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=300">
+                    <img src="1720613800271-887006408.jpg" alt="كورة ورياضة">
                     <div class="card-label">كورة ورياضة</div>
                 </div>
                 <div class="cat-select-card unselected" data-cat="سيارات" onclick="toggleCat(this)">
-                    <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=300">
+                    <img src="1714490889843-486344234.jpg" alt="سيارات">
                     <div class="card-label">سيارات</div>
                 </div>
             </div>
@@ -828,77 +834,77 @@
             </div>
 
             <div class="board-column hidden" data-cat="تحدي الصور">
-                <div class="cat-header-card"><img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=300"><div class="label">تحدي الصور</div></div>
+                <div class="cat-header-card"><img src="1743570879626-653531544.jpg" alt="تحدي الصور"><div class="label">تحدي الصور</div></div>
                 <div class="score-card-btn" onclick="openQ('تحدي الصور', 'رياضة', 'ما اسم هذا اللاعب؟', 'تايجر وودز', 'https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=600', this, 200)">200</div>
                 <div class="score-card-btn" onclick="openQ('تحدي الصور', 'معالم', 'أين يقع هذا المكان؟', 'باريس', 'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=600', this, 400)">400</div>
                 <div class="score-card-btn" onclick="openQ('تحدي الصور', 'صعب', 'سنة التأسيس؟', '1889', '', this, 600)">600</div>
             </div>
 
             <div class="board-column hidden" data-cat="أفلام">
-                <div class="cat-header-card"><img src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=300"><div class="label">أفلام</div></div>
+                <div class="cat-header-card"><img src="1746940722800-877807759.jpg" alt="أفلام"><div class="label">أفلام</div></div>
                 <div class="score-card-btn" onclick="openQ('أفلام', 'إخراج', 'مخرج فيلم Inception؟', 'كريستوفر نولان', '', this, 200)">200</div>
                 <div class="score-card-btn" onclick="openQ('أفلام', 'أوسكار', 'فيلم حصد 11 جائزة أوسكار عن السفينة؟', 'تيتانيك', '', this, 400)">400</div>
                 <div class="score-card-btn" onclick="openQ('أفلام', 'خيال علمي', 'فيلم الفضاء Interstellar من إخراج؟', 'نولان', '', this, 600)">600</div>
             </div>
 
             <div class="board-column hidden" data-cat="أعلام">
-                <div class="cat-header-card"><img src="https://images.unsplash.com/photo-1532375810709-75b1da00537c?w=300"><div class="label">أعلام</div></div>
+                <div class="cat-header-card"><img src="1722983894998-509200770.jpg" alt="أعلام"><div class="label">أعلام</div></div>
                 <div class="score-card-btn" onclick="openQ('أعلام', 'دول عربية', 'علم يتوسطه شجرة الأرز؟', 'لبنان 🇱🇧', '', this, 200)">200</div>
                 <div class="score-card-btn" onclick="openQ('أعلام', 'أسيا', 'علم يتوسطه عجلة باللون الأزرق؟', 'الهند 🇮🇳', '', this, 400)">400</div>
                 <div class="score-card-btn" onclick="openQ('أعلام', 'أوربا', 'علم من 3 ألوان أحمر أبيض أزرق طولي؟', 'فرنسا 🇫🇷', '', this, 600)">600</div>
             </div>
 
             <div class="board-column hidden" data-cat="اكمل المثل">
-                <div class="cat-header-card"><img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?w=300"><div class="label">اكمل المثل</div></div>
+                <div class="cat-header-card"><img src="1738076222656-24201363.jpg" alt="اكمل المثل"><div class="label">اكمل المثل</div></div>
                 <div class="score-card-btn" onclick="openQ('اكمل المثل', 'أمثال شعبية', 'من شابه أباه فما ...؟', 'ظلم', '', this, 200)">200</div>
                 <div class="score-card-btn" onclick="openQ('اكمل المثل', 'أمثال شعبية', 'الربيع يظهر من ...؟', 'عنوانه', '', this, 400)">400</div>
                 <div class="score-card-btn" onclick="openQ('اكمل المثل', 'أمثال قديمة', 'إذا كان الكلام من فضة فالسكوت من ...؟', 'ذهب', '', this, 600)">600</div>
             </div>
 
             <div class="board-column hidden" data-cat="أسئلة عامة">
-                <div class="cat-header-card"><img src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=300"><div class="label">أسئلة عامة</div></div>
+                <div class="cat-header-card"><img src="1714490927962-855974365.jpg" alt="أسئلة عامة"><div class="label">أسئلة عامة</div></div>
                 <div class="score-card-btn" onclick="openQ('أسئلة عامة', 'جغرافيا عامة', 'ما أطول نهر في العالم؟', 'نهر النيل', '', this, 200)">200</div>
                 <div class="score-card-btn" onclick="openQ('أسئلة عامة', 'علوم', 'ما هو أثقل كوكب في المجموعة الشمسية؟', 'المشتري', '', this, 400)">400</div>
                 <div class="score-card-btn" onclick="openQ('أسئلة عامة', 'تاريخ', 'ما عاصمة الدولة العباسية؟', 'بغداد', '', this, 600)">600</div>
             </div>
 
             <div class="board-column hidden" data-cat="ألعاب">
-                <div class="cat-header-card"><img src="https://images.unsplash.com/photo-1538481199705-c710c4e965fc?w=300"><div class="label">ألعاب</div></div>
+                <div class="cat-header-card"><img src="1725499690630-47456155.jpg" alt="ألعاب"><div class="label">ألعاب</div></div>
                 <div class="score-card-btn" onclick="openQ('ألعاب', 'باتل رويال', 'لعبة بأسلوب Gloo Wall والوفاء؟', 'Free Fire', '', this, 200)">200</div>
                 <div class="score-card-btn" onclick="openQ('ألعاب', 'سولزبورن', 'لعبة تطوير FromSoftware حصري بلستيشن 4؟', 'Bloodborne', '', this, 400)">400</div>
                 <div class="score-card-btn" onclick="openQ('ألعاب', 'عالم مفتوح', 'لعبة GTA الشهيرة بشركة؟', 'Rockstar Games', '', this, 600)">600</div>
             </div>
 
             <div class="board-column hidden" data-cat="مسلسلات">
-                <div class="cat-header-card"><img src="https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?w=300"><div class="label">مسلسلات</div></div>
+                <div class="cat-header-card"><img src="1740788686293-300365168.jpg" alt="مسلسلات"><div class="label">مسلسلات</div></div>
                 <div class="score-card-btn" onclick="openQ('مسلسلات', 'دراما', 'مسلسل البروفيسور والسرقة الإسباني؟', 'La Casa De Papel', '', this, 200)">200</div>
                 <div class="score-card-btn" onclick="openQ('مسلسلات', 'جريمة', 'مسلسل Breaking Bad في أي دولة؟', 'أمريكا', '', this, 400)">400</div>
                 <div class="score-card-btn" onclick="openQ('مسلسلات', 'أنمي', 'من منصات الأنمي الشهيرة؟', 'Crunchyroll', '', this, 600)">600</div>
             </div>
 
             <div class="board-column hidden" data-cat="جغرافيا">
-                <div class="cat-header-card"><img src="https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?w=300"><div class="label">جغرافيا</div></div>
+                <div class="cat-header-card"><img src="1714490823112-594631607.jpg" alt="جغرافيا"><div class="label">جغرافيا</div></div>
                 <div class="score-card-btn" onclick="openQ('جغرافيا', 'دول', 'أكبر دولة مساحة في العالم؟', 'روسيا', '', this, 200)">200</div>
                 <div class="score-card-btn" onclick="openQ('جغرافيا', 'عواصم', 'عاصمة أستراليا؟', 'كانبرا', '', this, 400)">400</div>
                 <div class="score-card-btn" onclick="openQ('جغرافيا', 'تضاريس', 'أعلى قمة جبلية في العالم؟', 'إيفرست', '', this, 600)">600</div>
             </div>
 
             <div class="board-column hidden" data-cat="شعارات">
-                <div class="cat-header-card"><img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=300"><div class="label">شعارات</div></div>
+                <div class="cat-header-card"><img src="1742549852188-992634557.jpg" alt="شعارات"><div class="label">شعارات</div></div>
                 <div class="score-card-btn" onclick="openQ('شعارات', 'تكنولوجيا', 'شعار التفاحة المأكولة؟', 'Apple', '', this, 200)">200</div>
                 <div class="score-card-btn" onclick="openQ('شعارات', 'برامج', 'شعار الكاميرا الملونة؟', 'Instagram', '', this, 400)">400</div>
                 <div class="score-card-btn" onclick="openQ('شعارات', 'مطاعم', 'شعار الحرف M الأصفر؟', 'McDonalds', '', this, 600)">600</div>
             </div>
 
             <div class="board-column hidden" data-cat="كورة ورياضة">
-                <div class="cat-header-card"><img src="https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=300"><div class="label">كورة ورياضة</div></div>
+                <div class="cat-header-card"><img src="1720613800271-887006408.jpg" alt="كورة ورياضة"><div class="label">كورة ورياضة</div></div>
                 <div class="score-card-btn" onclick="openQ('كورة ورياضة', 'كرة قدم', 'عدد لاعبين الفريق في الملعب؟', '11 لاعب', '', this, 200)">200</div>
                 <div class="score-card-btn" onclick="openQ('كورة ورياضة', 'بطولات', 'أكثر منتخب تحقيقاً لكأس العالم؟', 'البرازيل', '', this, 400)">400</div>
                 <div class="score-card-btn" onclick="openQ('كورة ورياضة', 'أندية', 'نادي يلقب بالملكي؟', 'ريال مدريد', '', this, 600)">600</div>
             </div>
 
             <div class="board-column hidden" data-cat="سيارات">
-                <div class="cat-header-card"><img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=300"><div class="label">سيارات</div></div>
+                <div class="cat-header-card"><img src="1714490889843-486344234.jpg" alt="سيارات"><div class="label">سيارات</div></div>
                 <div class="score-card-btn" onclick="openQ('سيارات', 'ماركات', 'شعار الـ 4 حلقات المتقاطعة؟', 'Audi', '', this, 200)">200</div>
                 <div class="score-card-btn" onclick="openQ('سيارات', 'فاخرة', 'شعار الحصان القافز الإيطالي؟', 'Ferrari', '', this, 400)">400</div>
                 <div class="score-card-btn" onclick="openQ('سيارات', 'محركات', 'بلد صُنع سيارات بورش؟', 'ألمانيا', '', this, 600)">600</div>
@@ -1050,6 +1056,12 @@
     <script src="js/results.js"></script>
     <script src="data/question-bank.js"></script>
     <script src="data/games-questions.js"></script>
+    <script src="data/general-questions.js"></script>
+    <script src="data/general-questions-3.js"></script>
+    <script src="data/general-questions-4.js"></script>
+    <script src="data/general-questions-5.js"></script>
+    <script src="data/general-questions-6.js"></script>
+    <script src="data/general-questions-7.js"></script>
     <script>
         let scores = { t1: 0, t2: 0 };
         let gameMode = 'normal';
@@ -1092,6 +1104,12 @@
 
         addQuestions(window.questionBankSeed || []);
         addQuestions(window.gamesQuestionSeed || []);
+        addQuestions(window.generalQuestionSeed || []);
+        addQuestions(window.generalQuestionThreeSeed || []);
+        addQuestions(window.generalQuestionFourSeed || []);
+        addQuestions(window.generalQuestionFiveSeed || []);
+        addQuestions(window.generalQuestionSixSeed || []);
+        addQuestions(window.generalQuestionSevenSeed || []);
 
         // متغيرات التايمر
         let timerSeconds = 0;
@@ -1190,7 +1208,7 @@
             const loser = winnerNumber === 1 ? tournamentMatch.left : tournamentMatch.right;
             tournamentWinners.push(winner);
             tournamentRoundLosers.push(loser);
-            const matchRecord = { right: tournamentMatch.right, left: tournamentMatch.left, winner, loser, round: currentRound };
+            const matchRecord = { right: tournamentMatch.right, left: tournamentMatch.left, winner, loser, round: currentRound, matchIndex: tournamentMatchIndex };
             tournamentRoundMatches.push(matchRecord);
             tournamentAllMatches.push(matchRecord);
             SinJeemResults.renderMatch(tournamentMatch, winnerNumber);
@@ -1207,7 +1225,16 @@
         }
 
         function showTournamentRoundSummary() {
-            SinJeemResults.renderRound(currentRound, tournamentRoundMatches, buildBracketMarkup(tournamentBracketTeams));
+            const finalMatch = tournamentBracketTeams.length === 2
+                ? tournamentAllMatches[tournamentAllMatches.length - 1]
+                : null;
+            const champion = finalMatch ? finalMatch.winner : '';
+            SinJeemResults.renderRound(currentRound, tournamentRoundMatches, buildBracketMarkup(pendingTournamentNames, tournamentAllMatches, champion));
+            const finalButtons = document.querySelectorAll('#tournament-round-bracket [data-match="F-1-0"]');
+            if (tournamentBracketTeams.length > 2 && tournamentWinners.length === 2) {
+                finalButtons[0].textContent = tournamentWinners[0];
+                finalButtons[1].textContent = tournamentWinners[1];
+            }
             switchPage('page-tournament-round');
         }
 
