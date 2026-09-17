@@ -184,8 +184,28 @@
         }
 
         .cat-select-card.unselected {
+            opacity: 1;
+            filter: none;
+        }
+
+        .categories-grid-select.has-four .cat-select-card.unselected {
             opacity: 0.35;
             filter: grayscale(80%);
+        }
+
+        .category-selection-status {
+            min-height: 20px;
+            margin-top: 12px;
+            color: #aaa;
+            text-align: center;
+            font-size: 12px;
+        }
+
+        #categories-next-btn:disabled {
+            opacity: 0.4;
+            filter: grayscale(70%);
+            cursor: not-allowed;
+            box-shadow: none;
         }
 
         .cat-select-card img {
@@ -714,19 +734,19 @@
             <div class="selection-title-badge">الفئات المتاحة</div>
 
             <div class="categories-grid-select">
-                <div class="cat-select-card selected" data-cat="عرب بيور" onclick="toggleCat(this)">
+                <div class="cat-select-card unselected" data-cat="عرب بيور" onclick="toggleCat(this)">
                     <img src="512.gif" alt="شعار عرب بيور">
                     <div class="card-label">عرب بيور</div>
                 </div>
-                <div class="cat-select-card selected" data-cat="تحدي الصور" onclick="toggleCat(this)">
+                <div class="cat-select-card unselected" data-cat="تحدي الصور" onclick="toggleCat(this)">
                     <img src="1743570879626-653531544.jpg" alt="تحدي الصور">
                     <div class="card-label">تحدي الصور</div>
                 </div>
-                <div class="cat-select-card selected" data-cat="أفلام" onclick="toggleCat(this)">
+                <div class="cat-select-card unselected" data-cat="أفلام" onclick="toggleCat(this)">
                     <img src="1746940722800-877807759.jpg" alt="أفلام">
                     <div class="card-label">أفلام</div>
                 </div>
-                <div class="cat-select-card selected" data-cat="أعلام" onclick="toggleCat(this)">
+                <div class="cat-select-card unselected" data-cat="أعلام" onclick="toggleCat(this)">
                     <img src="1722983894998-509200770.jpg" alt="أعلام">
                     <div class="card-label">أعلام</div>
                 </div>
@@ -763,9 +783,10 @@
                     <div class="card-label">سيارات</div>
                 </div>
             </div>
+            <div id="category-selection-status" class="category-selection-status" aria-live="polite">اختر 4 فئات للمتابعة</div>
         </div>
 
-        <button class="main-orange-btn" onclick="goToSetup()">التالي</button>
+        <button id="categories-next-btn" class="main-orange-btn" onclick="goToSetup()" disabled>التالي</button>
     </div>
 
     <!-- 2. شاشة إعداد الفرق والأدوات -->
@@ -1083,6 +1104,7 @@
         let activePoints = 0;
         let activeAns = '';
         let activeCard = null;
+        let categorySelectionLocked = false;
         const questionBank = SinJeemQuestionBank.items;
         const questionKeys = SinJeemQuestionBank.keys;
         const usedQuestionIds = new Set();
@@ -1191,6 +1213,7 @@
         }
 
         function startTournamentCategories() {
+            resetCategorySelection();
             switchPage('page-select');
         }
 
@@ -1270,6 +1293,7 @@
                 document.getElementById('team-count').value = document.getElementById('quick-team-count').value;
                 pendingTournamentNames = Array.from(document.querySelectorAll('#quick-team-fields input')).map((input, index) => input.value.trim() || `فريق ${index + 1}`);
             }
+            resetCategorySelection();
             switchPage('page-select');
         }
 
@@ -1291,6 +1315,9 @@
         }
 
         function toggleCat(card) {
+            if (categorySelectionLocked) return;
+            categorySelectionLocked = true;
+            window.setTimeout(() => { categorySelectionLocked = false; }, 180);
             const selectedCount = document.querySelectorAll('.cat-select-card.selected').length;
             
             if (card.classList.contains('selected')) {
@@ -1298,12 +1325,33 @@
                 card.classList.add('unselected');
             } else {
                 if (selectedCount >= 4) {
-                    alert('يمكنك اختيار 4 فئات فقط للعب!');
                     return;
                 }
                 card.classList.remove('unselected');
                 card.classList.add('selected');
             }
+            updateCategorySelectionState();
+        }
+
+        function updateCategorySelectionState() {
+            const selectedCount = document.querySelectorAll('.cat-select-card.selected').length;
+            const nextButton = document.getElementById('categories-next-btn');
+            const status = document.getElementById('category-selection-status');
+            const categoriesGrid = document.querySelector('.categories-grid-select');
+            if (nextButton) nextButton.disabled = selectedCount !== 4;
+            if (categoriesGrid) categoriesGrid.classList.toggle('has-four', selectedCount === 4);
+            if (status) status.textContent = selectedCount === 4
+                ? 'تم اختيار 4 فئات، يمكنك المتابعة'
+                : `تم اختيار ${selectedCount} من 4 فئات`;
+        }
+
+        function resetCategorySelection() {
+            categorySelectionLocked = false;
+            document.querySelectorAll('.cat-select-card').forEach(card => {
+                card.classList.remove('selected');
+                card.classList.add('unselected');
+            });
+            updateCategorySelectionState();
         }
 
         function switchPage(pId) {
@@ -1313,7 +1361,6 @@
         function goToSetup() {
             const selectedCount = document.querySelectorAll('.cat-select-card.selected').length;
             if (selectedCount !== 4) {
-                alert('يرجى اختيار 4 فئات بالضبط لبدء اللعبة');
                 return;
             }
             if (gameMode === 'tournament') {
