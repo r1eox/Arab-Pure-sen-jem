@@ -29,8 +29,12 @@ window.SinJeemQuestionBank = {
             points: Number(question.points) || 200,
             question: question.question,
             answer: question.answer,
+            brandName: question.brandName || question.answer,
             image: question.image || '',
-            hint: question.hint || ''
+            hint: question.hint || '',
+            level: question.level || question.difficulty || '',
+            options: Array.isArray(question.options) ? question.options.slice() : [],
+            region: question.region || ''
         });
         return true;
     },

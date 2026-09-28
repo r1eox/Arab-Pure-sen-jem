@@ -8,6 +8,7 @@ window.SinJeemQuestion = {
             const minutes = String(Math.floor(state.seconds / 60)).padStart(2, '0');
             const seconds = String(state.seconds % 60).padStart(2, '0');
             document.getElementById('timer-display').innerText = `${minutes}:${seconds}`;
+            window.saveActiveGame?.();
         }, 1000);
     },
 

@@ -5,8 +5,18 @@ window.SinJeemResults = {
         const leftBox = document.getElementById('tournament-result-team-b');
         rightBox.className = `result-team ${rightWinner ? 'winner' : 'loser'}`;
         leftBox.className = `result-team ${rightWinner ? 'loser' : 'winner'}`;
-        rightBox.innerHTML = `<strong>${match.right}</strong><span>${rightWinner ? 'متأهل' : 'خرج من البطولة'}</span>`;
-        leftBox.innerHTML = `<strong>${match.left}</strong><span>${rightWinner ? 'خرج من البطولة' : 'متأهل'}</span>`;
+        const renderTeam = (box, name, score, status) => {
+            box.replaceChildren();
+            const teamName = document.createElement('strong');
+            teamName.textContent = name;
+            const teamResult = document.createElement('span');
+            teamResult.textContent = `${score} نقطة • ${status}`;
+            box.append(teamName, teamResult);
+        };
+        renderTeam(rightBox, match.right, match.rightScore, rightWinner ? 'متأهل' : 'خرج من البطولة');
+        renderTeam(leftBox, match.left, match.leftScore, rightWinner ? 'خرج من البطولة' : 'متأهل');
+        const title = document.querySelector('#page-tournament-result h1');
+        if (title) title.textContent = `${match.roundTitle || 'انتهت المواجهة'} - المواجهة ${(Number(match.matchIndex) || 0) + 1}`;
         document.getElementById('tournament-result-message').innerText = `${rightWinner ? match.right : match.left} تأهل، و${rightWinner ? match.left : match.right} خرج من هذه المرحلة.`;
         document.getElementById('next-tournament-match-btn').innerText = 'المباراة التالية';
     },

@@ -11,6 +11,16 @@
 .inline-hint.visible { display: block; }
 .q-text-display { font-size: 26px; font-weight: bold; }
 .q-img-display { max-width: 80%; max-height: 350px; border-radius: 12px; object-fit: contain; }
+.q-img-display.logo-image-display { width: min(66vw, 320px); height: 240px; max-width: 100%; max-height: 36vh; padding: 16px; border: 1px solid #4a463e; background: #fff; object-fit: scale-down; }
+.q-img-fallback { width: min(80%, 520px); min-height: 100px; align-content: center; border: 1px dashed #655846; border-radius: 10px; color: #b9aa91; font-size: 13px; }
+.logo-options { display: none; width: min(100%, 680px); grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 9px; }
+.logo-options.visible { display: grid; }
+.logo-option { min-height: 44px; padding: 9px 12px; border: 1px solid #48443e; border-radius: 7px; background: #302e2a; color: #eee; cursor: pointer; font-size: 14px; font-weight: 700; }
+.logo-option:hover { border-color: var(--primary-orange); background: #39332b; }
+.logo-option.selected { border-color: #e7a044; background: #49351d; color: #ffe0af; }
+.answer-option-feedback { max-width: 620px; padding: 9px 14px; border: 1px solid #655846; border-radius: 7px; color: #ddd; background: #302e2a; }
+.answer-option-feedback.correct { border-color: #36d986; color: #baffd7; }
+.answer-option-feedback.incorrect { border-color: #d45a52; color: #ffc0bb; }
 .q-sidebar-right { order: 2; direction: rtl; width: 220px; display: flex; flex-direction: column; gap: 25px; justify-content: center; }
 .team-side-card { display: flex; flex-direction: column; align-items: center; gap: 8px; }
 .team-side-name-pill { background: var(--primary-orange); color: white; width: 100%; text-align: center; padding: 6px; border-radius: 15px; font-size: 14px; font-weight: bold; }
@@ -19,3 +29,9 @@
 .team-side-helpers-icons { display: flex; gap: 8px; }
 .side-helper-btn { width: 32px; height: 32px; border-radius: 50%; border: 1px solid #555; display: flex; align-items: center; justify-content: center; font-size: 13px; cursor: pointer; background: #2a2a2a; }
 .side-helper-btn.used { opacity: 0.3; text-decoration: line-through; cursor: not-allowed; }
+
+@media (max-width: 600px) {
+	.logo-options { grid-template-columns: 1fr; }
+	.q-img-display { max-width: 94%; }
+	.q-img-display.logo-image-display { width: min(72vw, 250px); height: 190px; max-height: 28vh; padding: 12px; }
+}

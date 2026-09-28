@@ -42,21 +42,46 @@ window.SinJeemBoard = {
                 ? freshQuestions
                 : unusedQuestions.length ? unusedQuestions : availableQuestions;
             const closestDistance = Math.min(...candidates.map(item => Math.abs(Number(item.points) - points)));
-            const closestQuestions = candidates.filter(item => Math.abs(Number(item.points) - points) === closestDistance);
+            let closestQuestions = candidates.filter(item => Math.abs(Number(item.points) - points) === closestDistance);
+            if (category === 'شعارات') {
+                const preferredRegion = points === 500 ? 'international' : 'arab';
+                const preferredQuestions = closestQuestions.filter(item => item.region === preferredRegion);
+                if (preferredQuestions.length) closestQuestions = preferredQuestions;
+            }
             const item = this.pickRandom(closestQuestions);
             if (item) {
                 usedInColumn.add(item.id);
-                const card = document.createElement('div');
-                card.className = 'score-card-btn';
-                card.innerText = points;
-                card.title = `${difficultyLabel(item.difficulty, points)} - ${item.question}`;
-                card.addEventListener('click', () => openQuestion({
+                const question = {
                     ...item,
                     points,
                     difficulty: difficultyLabel(item.difficulty, points)
-                }, card));
+                };
+                const card = document.createElement('div');
+                card.className = 'score-card-btn';
+                card.innerText = points;
+                card.dataset.questionId = item.id;
+                card.dataset.questionData = JSON.stringify(question);
+                card.title = `${question.difficulty} - ${item.question}`;
+                card.addEventListener('click', () => openQuestion(question, card));
                 column.appendChild(card);
             }
+        });
+    },
+
+    restoreColumn(column, savedCards, openQuestion) {
+        column.querySelectorAll('.score-card-btn').forEach(card => card.remove());
+        savedCards.forEach(savedCard => {
+            const question = savedCard.question;
+            if (!question) return;
+            const card = document.createElement('div');
+            card.className = 'score-card-btn';
+            card.innerText = question.points;
+            card.title = `${question.difficulty} - ${question.question}`;
+            card.dataset.questionId = question.id || '';
+            card.dataset.questionData = JSON.stringify(question);
+            if (savedCard.used) card.classList.add('used');
+            card.addEventListener('click', () => openQuestion(question, card));
+            column.appendChild(card);
         });
     },
 
