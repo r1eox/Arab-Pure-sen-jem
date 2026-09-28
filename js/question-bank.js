@@ -11,14 +11,17 @@ window.SinJeemQuestionBank = {
     },
 
     difficulty(value, points) {
-        const labels = { easy: 'سهل', medium: 'متوسط', hard: 'صعب' };
-        return labels[value] || value || (Number(points) === 200 ? 'سهل' : Number(points) === 400 ? 'متوسط' : 'صعب');
+        const score = Number(points) || 200;
+        if (score <= 200) return 'سهل';
+        if (score <= 400) return 'متوسط';
+        return 'صعب';
     },
 
     add(question) {
         const normalized = this.normalize(question.question);
-        if (!normalized || this.keys.has(normalized)) return false;
-        this.keys.add(normalized);
+        const key = question.image ? `${normalized}|${this.normalize(question.answer)}` : normalized;
+        if (!normalized || this.keys.has(key)) return false;
+        this.keys.add(key);
         this.items.push({
             id: question.id || `question-${this.items.length + 1}`,
             category: question.category,
@@ -47,8 +50,12 @@ window.SinJeemQuestionBank = {
 
     find(question, category, answer) {
         const normalized = this.normalize(question);
-        return this.items.find(item => this.normalize(item.question) === normalized)
-            || this.items.find(item => item.category === category && this.normalize(item.answer) === this.normalize(answer));
+        const normalizedAnswer = this.normalize(answer);
+        return this.items.find(item => item.category === category
+            && this.normalize(item.question) === normalized
+            && this.normalize(item.answer) === normalizedAnswer)
+            || this.items.find(item => this.normalize(item.question) === normalized)
+            || this.items.find(item => item.category === category && this.normalize(item.answer) === normalizedAnswer);
     },
 
     byCategory(category) {

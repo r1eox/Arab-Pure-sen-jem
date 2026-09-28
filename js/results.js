@@ -15,14 +15,7 @@ window.SinJeemResults = {
         document.getElementById('tournament-round-title').innerText = `نتائج الجولة ${round}`;
         const bracketBox = document.getElementById('tournament-round-bracket');
         bracketBox.innerHTML = `<h3>مخطط البطولة بعد الجولة ${round}</h3><div class="bracket-board">${bracketMarkup}</div>`;
-        bracketBox.querySelectorAll('.bracket-team').forEach(button => {
-            const teamName = button.textContent.trim();
-            const match = matches.find(item => item.right === teamName || item.left === teamName);
-            if (match) {
-                button.classList.add(match.winner === teamName ? 'selected' : 'eliminated');
-                button.disabled = true;
-            }
-        });
+        bracketBox.querySelectorAll('.bracket-team').forEach(button => button.disabled = true);
         document.getElementById('tournament-round-summary').innerHTML = matches.map((match, index) => `
             <div class="round-summary-card">
                 <h3>المواجهة ${index + 1}</h3>

@@ -1083,6 +1083,7 @@
     <script src="data/general-questions-5.js"></script>
     <script src="data/general-questions-6.js"></script>
     <script src="data/general-questions-7.js"></script>
+    <script src="data/flags-questions-static.js"></script>
     <script>
         let scores = { t1: 0, t2: 0 };
         let gameMode = 'normal';
@@ -1132,6 +1133,7 @@
         addQuestions(window.generalQuestionFiveSeed || []);
         addQuestions(window.generalQuestionSixSeed || []);
         addQuestions(window.generalQuestionSevenSeed || []);
+        addQuestions(window.flagsQuestionSeed || []);
 
         // متغيرات التايمر
         let timerSeconds = 0;
@@ -1397,8 +1399,8 @@
             divisionBox.classList.add('visible');
         }
 
-        function buildBracketMarkup(names) {
-            return SinJeemTournament.buildBracketMarkup(names);
+        function buildBracketMarkup(names, matches = [], champion = '') {
+            return SinJeemTournament.buildBracketMarkup(names, matches, champion);
         }
 
         function escapeHtml(value) {
@@ -1406,24 +1408,35 @@
         }
 
         function advanceWinner(button) {
+            const bracketBoard = button.closest('.bracket-board');
+            if (!bracketBoard) return;
             const matchId = button.dataset.match;
             const [side, roundText, indexText] = matchId.split('-');
-            const winnerName = button.textContent;
-            document.querySelectorAll(`[data-match="${matchId}"]`).forEach(team => team.classList.remove('selected'));
+            const winnerName = button.textContent.trim();
+            const matchTeams = Array.from(bracketBoard.querySelectorAll(`[data-match="${matchId}"]`));
+            matchTeams.forEach(team => team.classList.remove('selected', 'eliminated'));
             button.classList.add('selected');
+            matchTeams.filter(team => team !== button).forEach(team => team.classList.add('eliminated'));
             if (side === 'F') {
-                document.querySelectorAll('[data-match="F-1-0"]').forEach(team => team.classList.remove('selected'));
-                button.classList.add('selected');
+                const champion = bracketBoard.querySelector('.bracket-champion span');
+                if (champion) champion.textContent = winnerName;
                 return;
             }
             const round = Number(roundText);
             const index = Number(indexText);
-            const sideMatchCount = document.querySelectorAll('#quick-team-fields input').length / 4 || document.querySelectorAll('#tournament-team-fields input').length / 4;
+            const firstRoundMatches = Array.from(bracketBoard.querySelectorAll('.bracket-side'))
+                .reduce((total, sideBoard) => total + (sideBoard.querySelector('.bracket-column')?.querySelectorAll('.bracket-card').length || 0), 0);
+            const sideMatchCount = firstRoundMatches / 2;
             const sideRoundCount = Math.log2(sideMatchCount) + 1;
-            const target = round < sideRoundCount ? `${side}-${round + 1}-${Math.floor(index / 2)}` : `F-1-${side === 'R' ? 0 : 1}`;
-            const targetSlot = round < sideRoundCount ? index % 2 : 0;
-            const targetButton = document.querySelector(`[data-match="${target}"][data-slot="${targetSlot}"]`);
-            if (targetButton) targetButton.textContent = winnerName;
+            const target = round < sideRoundCount ? `${side}-${round + 1}-${Math.floor(index / 2)}` : 'F-1-0';
+            const targetSlot = round < sideRoundCount ? index % 2 : side === 'R' ? 0 : 1;
+            const targetButton = bracketBoard.querySelector(`[data-match="${target}"][data-slot="${targetSlot}"]`);
+            if (targetButton) {
+                bracketBoard.querySelectorAll(`[data-match="${target}"]`).forEach(team => team.classList.remove('selected', 'eliminated'));
+                targetButton.textContent = winnerName;
+                targetButton.title = winnerName;
+                targetButton.setAttribute('aria-label', winnerName);
+            }
         }
 
         function updateNames() {
@@ -1439,6 +1452,7 @@
 
         function startGame() {
             const selected = Array.from(document.querySelectorAll('.cat-select-card.selected')).map(c => c.getAttribute('data-cat'));
+            if (window.flagsQuestionSeed?.length) addQuestions(window.flagsQuestionSeed);
             gameTitle = document.getElementById('game-name').value.trim() || (gameMode === 'tournament' ? 'بطولة سين وجيم' : 'لعبة سين وجيم');
             if (gameMode !== 'tournament') usedQuestionIds.clear();
             if (gameMode === 'tournament') {
