@@ -19,7 +19,10 @@ window.SinJeemQuestionBank = {
 
     add(question) {
         const normalized = this.normalize(question.question);
-        const key = question.image ? `${normalized}|${this.normalize(question.answer)}` : normalized;
+        const category = this.normalize(question.category);
+        const key = question.image
+            ? `${category}|${normalized}|${this.normalize(question.answer)}`
+            : `${category}|${normalized}`;
         if (!normalized || this.keys.has(key)) return false;
         this.keys.add(key);
         this.items.push({
@@ -30,7 +33,11 @@ window.SinJeemQuestionBank = {
             question: question.question,
             answer: question.answer,
             brandName: question.brandName || question.answer,
+            imageAlt: question.imageAlt || question.brandName || question.answer,
             image: question.image || '',
+            imageKind: question.imageKind || '',
+            source: question.source || '',
+            imageSource: question.imageSource || '',
             hint: question.hint || '',
             level: question.level || question.difficulty || '',
             options: Array.isArray(question.options) ? question.options.slice() : [],

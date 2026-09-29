@@ -881,9 +881,6 @@
 
             <div class="board-column hidden" data-cat="أفلام">
                 <div class="cat-header-card"><img src="assets/images/categories/movies.jpg" alt="أفلام"><div class="label">أفلام</div></div>
-                <div class="score-card-btn" onclick="openQ('أفلام', 'إخراج', 'مخرج فيلم Inception؟', 'كريستوفر نولان', '', this, 200)">200</div>
-                <div class="score-card-btn" onclick="openQ('أفلام', 'أوسكار', 'فيلم حصد 11 جائزة أوسكار عن السفينة؟', 'تيتانيك', '', this, 400)">400</div>
-                <div class="score-card-btn" onclick="openQ('أفلام', 'خيال علمي', 'فيلم الفضاء Interstellar من إخراج؟', 'نولان', '', this, 600)">600</div>
             </div>
 
             <div class="board-column hidden" data-cat="أعلام">
@@ -916,16 +913,10 @@
 
             <div class="board-column hidden" data-cat="مسلسلات">
                 <div class="cat-header-card"><img src="assets/images/categories/series.jpg" alt="مسلسلات"><div class="label">مسلسلات</div></div>
-                <div class="score-card-btn" onclick="openQ('مسلسلات', 'دراما', 'مسلسل البروفيسور والسرقة الإسباني؟', 'La Casa De Papel', '', this, 200)">200</div>
-                <div class="score-card-btn" onclick="openQ('مسلسلات', 'جريمة', 'مسلسل Breaking Bad في أي دولة؟', 'أمريكا', '', this, 400)">400</div>
-                <div class="score-card-btn" onclick="openQ('مسلسلات', 'أنمي', 'من منصات الأنمي الشهيرة؟', 'Crunchyroll', '', this, 600)">600</div>
             </div>
 
             <div class="board-column hidden" data-cat="جغرافيا">
                 <div class="cat-header-card"><img src="assets/images/categories/geography.jpg" alt="جغرافيا"><div class="label">جغرافيا</div></div>
-                <div class="score-card-btn" onclick="openQ('جغرافيا', 'دول', 'أكبر دولة مساحة في العالم؟', 'روسيا', '', this, 200)">200</div>
-                <div class="score-card-btn" onclick="openQ('جغرافيا', 'عواصم', 'عاصمة أستراليا؟', 'كانبرا', '', this, 400)">400</div>
-                <div class="score-card-btn" onclick="openQ('جغرافيا', 'تضاريس', 'أعلى قمة جبلية في العالم؟', 'إيفرست', '', this, 600)">600</div>
             </div>
 
             <div class="board-column hidden" data-cat="شعارات">
@@ -937,16 +928,10 @@
 
             <div class="board-column hidden" data-cat="كورة ورياضة">
                 <div class="cat-header-card"><img src="assets/images/categories/sports.jpg" alt="كورة ورياضة"><div class="label">كورة ورياضة</div></div>
-                <div class="score-card-btn" onclick="openQ('كورة ورياضة', 'كرة قدم', 'عدد لاعبين الفريق في الملعب؟', '11 لاعب', '', this, 200)">200</div>
-                <div class="score-card-btn" onclick="openQ('كورة ورياضة', 'بطولات', 'أكثر منتخب تحقيقاً لكأس العالم؟', 'البرازيل', '', this, 400)">400</div>
-                <div class="score-card-btn" onclick="openQ('كورة ورياضة', 'أندية', 'نادي يلقب بالملكي؟', 'ريال مدريد', '', this, 600)">600</div>
             </div>
 
             <div class="board-column hidden" data-cat="سيارات">
                 <div class="cat-header-card"><img src="assets/images/categories/cars.jpg" alt="سيارات"><div class="label">سيارات</div></div>
-                <div class="score-card-btn" onclick="openQ('سيارات', 'ماركات', 'شعار الـ 4 حلقات المتقاطعة؟', 'Audi', '', this, 200)">200</div>
-                <div class="score-card-btn" onclick="openQ('سيارات', 'فاخرة', 'شعار الحصان القافز الإيطالي؟', 'Ferrari', '', this, 400)">400</div>
-                <div class="score-card-btn" onclick="openQ('سيارات', 'محركات', 'بلد صُنع سيارات بورش؟', 'ألمانيا', '', this, 600)">600</div>
             </div>
 
         </div>
@@ -992,7 +977,8 @@
             <div class="q-content-area">
                 <div class="q-text-display" id="q-title">ما اسم هذا اللاعب ؟</div>
                 <img id="q-img" class="q-img-display" src="" style="display: none;">
-                <div id="q-img-fallback" class="q-img-fallback" hidden>الصورة غير متاحة حالياً</div>
+                <a id="q-image-credit" class="q-image-credit" hidden target="_blank" rel="noopener noreferrer">مصدر الصورة</a>
+                <div id="q-img-fallback" class="q-img-fallback" hidden>لا تتوفر صورة مرتبطة بهذا السؤال حالياً</div>
                 <div id="q-choice-options" class="logo-options" aria-label="خيارات الإجابة"></div>
                 <div id="inline-hint" class="inline-hint"></div>
             </div>
@@ -1012,7 +998,7 @@
                     <div class="side-helper-btn" data-helper-key="t1-swap" title="تبديل السؤال" onclick="useHelper(this, 'swap')">🔄</div>
                     <div class="side-helper-btn" data-helper-key="t1-hint" title="عرض التلميح" onclick="useHelper(this, 'hint')">📞</div>
                     <div class="side-helper-btn" data-helper-key="t1-double" title="مضاعفة النقاط" onclick="useHelper(this, 'double')">✌️</div>
-                    <div class="side-helper-btn logo-options-helper" data-helper-key="t1-options" title="كشف الخيارات الأربعة" style="display:none" onclick="useHelper(this, 'options')">🔠</div>
+                    <div class="side-helper-btn question-options-helper" data-helper-key="t1-options" title="كشف الخيارات الأربعة" style="display:none" onclick="useHelper(this, 'options')">🔠</div>
                 </div>
             </div>
 
@@ -1025,7 +1011,7 @@
                     <div class="side-helper-btn" data-helper-key="t2-swap" title="تبديل السؤال" onclick="useHelper(this, 'swap')">💣</div>
                     <div class="side-helper-btn" data-helper-key="t2-skip" title="تخطي السؤال" onclick="useHelper(this, 'skip')">✋</div>
                     <div class="side-helper-btn" data-helper-key="t2-hint" title="عرض التلميح" onclick="useHelper(this, 'hint')">📞</div>
-                    <div class="side-helper-btn logo-options-helper" data-helper-key="t2-options" title="كشف الخيارات الأربعة" style="display:none" onclick="useHelper(this, 'options')">🔠</div>
+                    <div class="side-helper-btn question-options-helper" data-helper-key="t2-options" title="كشف الخيارات الأربعة" style="display:none" onclick="useHelper(this, 'options')">🔠</div>
                 </div>
             </div>
         </div>
@@ -1107,6 +1093,11 @@
     <script src="data/general-questions-6.js"></script>
     <script src="data/general-questions-7.js"></script>
     <script src="data/flags-questions-static.js"></script>
+    <script src="data/movies-questions.js"></script>
+    <script src="data/series-questions.js"></script>
+    <script src="data/geography-questions.js"></script>
+    <script src="data/sports-questions.js"></script>
+    <script src="data/cars-questions.js"></script>
     <script src="data/arab-logos-questions.js"></script>
     <script src="data/logos-questions.js"></script>
     <script>
@@ -1166,6 +1157,11 @@
         addQuestions(window.generalQuestionSixSeed || []);
         addQuestions(window.generalQuestionSevenSeed || []);
         addQuestions(window.flagsQuestionSeed || []);
+        addQuestions(window.moviesQuestionSeed || []);
+        addQuestions(window.seriesQuestionSeed || []);
+        addQuestions(window.geographyQuestionSeed || []);
+        addQuestions(window.sportsQuestionSeed || []);
+        addQuestions(window.carsQuestionSeed || []);
         addQuestions(window.arabLogoQuestionSeed || []);
         addQuestions(window.logosQuestionSeed || []);
 
@@ -1590,8 +1586,13 @@
 
         function restoreActiveQuestion(saved) {
             if (!activeQuestion) return;
-            const { category, difficulty, question, answer, image, points } = activeQuestion;
-            const bankQuestion = findBankQuestion(question, category, answer);
+            const { category, difficulty, question, answer, points } = activeQuestion;
+            const bankQuestion = findBankQuestion(question, category, answer)
+                || questionBank.find(item => item.id === activeQuestion.id);
+            activeQuestion.image ||= bankQuestion?.image || '';
+            activeQuestion.imageSource ||= bankQuestion?.imageSource || '';
+            activeQuestion.imageAlt ||= bankQuestion?.imageAlt || bankQuestion?.brandName || answer;
+            const image = activeQuestion.image;
             activeHint = bankQuestion?.hint || activeHint;
             activeOptions = [...(activeQuestion.options || bankQuestion?.options || [])];
             optionsRevealed = Boolean(saved.optionsRevealed);
@@ -1602,7 +1603,7 @@
             document.getElementById('q-title').textContent = question;
             const imageElement = document.getElementById('q-img');
             const imageFallback = document.getElementById('q-img-fallback');
-            imageElement.alt = activeQuestion.brandName || answer;
+            imageElement.alt = activeQuestion.imageAlt || activeQuestion.brandName || answer;
             imageElement.classList.toggle('logo-image-display', activeOptions.length > 0);
             imageElement.onerror = () => {
                 imageElement.style.display = 'none';
@@ -1616,6 +1617,7 @@
             };
             imageElement.src = image || '';
             imageElement.style.display = image ? 'block' : 'none';
+            setQuestionImageCredit(activeQuestion.imageSource || bankQuestion?.imageSource || '');
             imageFallback.hidden = !(image && imageElement.complete && imageElement.naturalWidth === 0);
             imageFallback.classList.toggle('visible', Boolean(image) && imageElement.complete && imageElement.naturalWidth === 0);
             renderLogoOptions(activeOptions, activeSelectedOption);
@@ -1773,7 +1775,8 @@
 
         /* فتح شاشة السؤال مع إعداد البيانات والتايمر من صفر */
         function openQ(cat, prop, q, a, imgUrl, card, pts) {
-            const bankQuestion = findBankQuestion(q, cat, a);
+            const bankQuestion = findBankQuestion(q, cat, a)
+                || questionBank.find(item => item.id === card?.dataset.questionId);
             registerOpenQuestion(cat, prop, q, a, imgUrl, pts);
             if (bankQuestion) usedQuestionIds.add(bankQuestion.id);
             activePoints = pts;
@@ -1785,7 +1788,9 @@
                 difficulty: difficultyLabel(prop, pts),
                 question: q,
                 answer: a,
-                image: imgUrl || '',
+                imageAlt: bankQuestion?.imageAlt || bankQuestion?.brandName || a,
+                image: imgUrl || bankQuestion?.image || '',
+                imageSource: bankQuestion?.imageSource || '',
                 points: Number(pts),
                 options: [...(bankQuestion?.options || [])],
                 level: bankQuestion?.level || ''
@@ -1810,7 +1815,7 @@
 
             const qImg = document.getElementById('q-img');
             const imageFallback = document.getElementById('q-img-fallback');
-            qImg.alt = bankQuestion?.brandName || a;
+            qImg.alt = bankQuestion?.imageAlt || bankQuestion?.brandName || a;
             qImg.classList.toggle('logo-image-display', activeOptions.length > 0);
             qImg.onerror = () => {
                 qImg.style.display = 'none';
@@ -1822,8 +1827,8 @@
                 imageFallback.classList.remove('visible');
                 qImg.style.display = 'block';
             };
-            if (imgUrl && imgUrl.trim() !== '') {
-                qImg.src = imgUrl;
+            if (activeQuestion.image && activeQuestion.image.trim() !== '') {
+                qImg.src = activeQuestion.image;
                 qImg.style.display = 'block';
                 imageFallback.hidden = true;
                 imageFallback.classList.remove('visible');
@@ -1833,6 +1838,7 @@
                 imageFallback.hidden = true;
                 imageFallback.classList.remove('visible');
             }
+            setQuestionImageCredit(bankQuestion?.imageSource || '');
 
             // تحديث وسائل المساعدة والنقاط على اليمين
             updateNames();
@@ -1865,8 +1871,15 @@
             });
         }
 
+        function setQuestionImageCredit(source) {
+            const credit = document.getElementById('q-image-credit');
+            credit.hidden = !source;
+            if (source) credit.href = source;
+            else credit.removeAttribute('href');
+        }
+
         function setLogoOptionsHelpersVisible(visible) {
-            document.querySelectorAll('.logo-options-helper').forEach(button => {
+            document.querySelectorAll('.question-options-helper').forEach(button => {
                 button.style.display = visible ? 'flex' : 'none';
             });
         }

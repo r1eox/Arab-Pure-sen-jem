@@ -24,18 +24,6 @@ window.questionBankSeed = [
         question: 'سنة التأسيس؟', answer: '1889', image: '', hint: 'سنة افتتاح برج شهير.'
     },
     {
-        id: 'movies-200', category: 'أفلام', difficulty: 'إخراج', points: 200,
-        question: 'مخرج فيلم Inception؟', answer: 'كريستوفر نولان', image: '', hint: 'مخرج فيلم Interstellar أيضاً.'
-    },
-    {
-        id: 'movies-400', category: 'أفلام', difficulty: 'أوسكار', points: 400,
-        question: 'فيلم حصد 11 جائزة أوسكار عن السفينة؟', answer: 'تيتانيك', image: '', hint: 'فيلم عن سفينة شهيرة.'
-    },
-    {
-        id: 'movies-600', category: 'أفلام', difficulty: 'خيال علمي', points: 600,
-        question: 'فيلم الفضاء Interstellar من إخراج؟', answer: 'نولان', image: '', hint: 'مخرج Inception.'
-    },
-    {
         id: 'flags-200', category: 'أعلام', difficulty: 'دول عربية', points: 200,
         question: 'علم يتوسطه شجرة الأرز؟', answer: 'لبنان', image: '', hint: 'دولة عربية على البحر المتوسط.'
     },
