@@ -21,13 +21,13 @@
 - `js/storage.js`: حفظ وقراءة ومسح سجل المباريات.
 - `data/question-bank.js`: الأسئلة الأساسية للفئات الحالية.
 - `data/games-questions.js`: أسئلة فئة الألعاب.
-- `data/movies-questions.js`, `data/series-questions.js`, `data/geography-questions.js`, `data/sports-questions.js`, `data/cars-questions.js`: بنوك مستقلة من 200 سؤال لكل فئة.
 - `data/README.md`: طريقة إضافة الأسئلة.
 - `views/README.md`: خطة قوالب HTML عند تشغيل المشروع عبر خادم محلي.
 - `pages/`: صفحات دخول مستقلة لكل جزء من التطبيق، مرتبطة بالتطبيق الحالي عبر hash.
 - `assets/images/branding/`: شعار عرب بيور والبانر.
 - `assets/images/categories/`: صور أغلفة الفئات، بأسماء تصف الفئة.
 - `data/source/`: مستندات المصدر الخام لبنوك الأسئلة.
+- البطولات تدعم 4 و8 و16 و32 فريقاً، مع حفظ ترتيب الجولات والمواجهات في حالة المباراة وسجلها.
 
 ## قاعدة التنظيم
 

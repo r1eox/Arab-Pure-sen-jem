@@ -682,7 +682,7 @@
                 <p>عدة جولات مع الاحتفاظ بالنقاط وإعلان البطل في نهاية المنافسة.</p>
             </button>
         </div>
-        <p style="max-width:760px; margin-top:18px; color:#999; font-size:13px;">اقتراح: للفعاليات الكبيرة استخدم بطولة من 8 أو 16 فريقاً، وللجلسات السريعة استخدم اللعبة العادية.</p>
+        <p style="max-width:760px; margin-top:18px; color:#999; font-size:13px;">اقتراح: للفعاليات الكبيرة استخدم بطولة من 8 أو 16 أو 32 فريقاً، وللجلسات السريعة استخدم اللعبة العادية.</p>
         <div id="tournament-settings" class="tournament-settings">
             <div class="mode-actions">
                 <button class="main-orange-btn" style="margin-top: 0;" onclick="continueToCategories()">اختيار الفئات</button>
@@ -694,7 +694,7 @@
                 <div class="team-count-row visible" style="margin: 10px 0;">
                     <label for="quick-team-count">عدد الفرق</label>
                     <select id="quick-team-count" onchange="buildQuickTeams()">
-                        <option value="4">4 فرق</option><option value="8" selected>8 فرق</option><option value="16">16 فريقاً</option>
+                        <option value="4">4 فرق</option><option value="8" selected>8 فرق</option><option value="16">16 فريقاً</option><option value="32">32 فريقاً</option>
                     </select>
                 </div>
                 <div id="quick-team-fields" class="quick-team-fields"></div>
@@ -716,7 +716,7 @@
         <div class="bracket-page-tools">
             <label for="bracket-page-team-count">عدد الفرق</label>
             <select id="bracket-page-team-count" onchange="buildTournamentPageTeams()">
-                <option value="4">4 فرق</option><option value="8" selected>8 فرق</option><option value="16">16 فريقاً</option>
+                <option value="4">4 فرق</option><option value="8" selected>8 فرق</option><option value="16">16 فريقاً</option><option value="32">32 فريقاً</option>
             </select>
         </div>
         <div id="bracket-page-team-fields" class="bracket-page-fields"></div>
@@ -815,7 +815,7 @@
             <div class="team-count-row" id="team-count-row">
                 <label for="team-count">عدد فرق البطولة</label>
                 <select id="team-count" onchange="buildTournamentTeams()">
-                    <option value="4">4 فرق</option><option value="8">8 فرق</option><option value="16">16 فريقاً</option>
+                    <option value="4">4 فرق</option><option value="8">8 فرق</option><option value="16">16 فريقاً</option><option value="32">32 فريقاً</option>
                 </select>
             </div>
 
@@ -852,7 +852,6 @@
                     <div><strong>🔄 تبديل السؤال</strong>يرجعكم للوحة لاختيار سؤال آخر بدون احتساب نقاط.</div>
                     <div><strong>📞 تلميح</strong>يعرض تلميحاً للسؤال الحالي مرة واحدة للفريق.</div>
                     <div><strong>✌️ مضاعفة</strong>تجعل نقاط السؤال الحالي مضاعفة عند الإجابة الصحيحة.</div>
-                    <div><strong>🔠 كشف الخيارات</strong>يفتح أربعة احتمالات في أسئلة الشعارات، مرة واحدة لكل فريق.</div>
                     <div><strong>✋ تخطي</strong>ينهي السؤال بدون نقاط ويعيدكم للوحة.</div>
                 </div>
             </div>
@@ -881,6 +880,9 @@
 
             <div class="board-column hidden" data-cat="أفلام">
                 <div class="cat-header-card"><img src="assets/images/categories/movies.jpg" alt="أفلام"><div class="label">أفلام</div></div>
+                <div class="score-card-btn" onclick="openQ('أفلام', 'إخراج', 'مخرج فيلم Inception؟', 'كريستوفر نولان', '', this, 200)">200</div>
+                <div class="score-card-btn" onclick="openQ('أفلام', 'أوسكار', 'فيلم حصد 11 جائزة أوسكار عن السفينة؟', 'تيتانيك', '', this, 400)">400</div>
+                <div class="score-card-btn" onclick="openQ('أفلام', 'خيال علمي', 'فيلم الفضاء Interstellar من إخراج؟', 'نولان', '', this, 600)">600</div>
             </div>
 
             <div class="board-column hidden" data-cat="أعلام">
@@ -913,10 +915,16 @@
 
             <div class="board-column hidden" data-cat="مسلسلات">
                 <div class="cat-header-card"><img src="assets/images/categories/series.jpg" alt="مسلسلات"><div class="label">مسلسلات</div></div>
+                <div class="score-card-btn" onclick="openQ('مسلسلات', 'دراما', 'مسلسل البروفيسور والسرقة الإسباني؟', 'La Casa De Papel', '', this, 200)">200</div>
+                <div class="score-card-btn" onclick="openQ('مسلسلات', 'جريمة', 'مسلسل Breaking Bad في أي دولة؟', 'أمريكا', '', this, 400)">400</div>
+                <div class="score-card-btn" onclick="openQ('مسلسلات', 'أنمي', 'من منصات الأنمي الشهيرة؟', 'Crunchyroll', '', this, 600)">600</div>
             </div>
 
             <div class="board-column hidden" data-cat="جغرافيا">
                 <div class="cat-header-card"><img src="assets/images/categories/geography.jpg" alt="جغرافيا"><div class="label">جغرافيا</div></div>
+                <div class="score-card-btn" onclick="openQ('جغرافيا', 'دول', 'أكبر دولة مساحة في العالم؟', 'روسيا', '', this, 200)">200</div>
+                <div class="score-card-btn" onclick="openQ('جغرافيا', 'عواصم', 'عاصمة أستراليا؟', 'كانبرا', '', this, 400)">400</div>
+                <div class="score-card-btn" onclick="openQ('جغرافيا', 'تضاريس', 'أعلى قمة جبلية في العالم؟', 'إيفرست', '', this, 600)">600</div>
             </div>
 
             <div class="board-column hidden" data-cat="شعارات">
@@ -928,10 +936,16 @@
 
             <div class="board-column hidden" data-cat="كورة ورياضة">
                 <div class="cat-header-card"><img src="assets/images/categories/sports.jpg" alt="كورة ورياضة"><div class="label">كورة ورياضة</div></div>
+                <div class="score-card-btn" onclick="openQ('كورة ورياضة', 'كرة قدم', 'عدد لاعبين الفريق في الملعب؟', '11 لاعب', '', this, 200)">200</div>
+                <div class="score-card-btn" onclick="openQ('كورة ورياضة', 'بطولات', 'أكثر منتخب تحقيقاً لكأس العالم؟', 'البرازيل', '', this, 400)">400</div>
+                <div class="score-card-btn" onclick="openQ('كورة ورياضة', 'أندية', 'نادي يلقب بالملكي؟', 'ريال مدريد', '', this, 600)">600</div>
             </div>
 
             <div class="board-column hidden" data-cat="سيارات">
                 <div class="cat-header-card"><img src="assets/images/categories/cars.jpg" alt="سيارات"><div class="label">سيارات</div></div>
+                <div class="score-card-btn" onclick="openQ('سيارات', 'ماركات', 'شعار الـ 4 حلقات المتقاطعة؟', 'Audi', '', this, 200)">200</div>
+                <div class="score-card-btn" onclick="openQ('سيارات', 'فاخرة', 'شعار الحصان القافز الإيطالي؟', 'Ferrari', '', this, 400)">400</div>
+                <div class="score-card-btn" onclick="openQ('سيارات', 'محركات', 'بلد صُنع سيارات بورش؟', 'ألمانيا', '', this, 600)">600</div>
             </div>
 
         </div>
@@ -977,9 +991,6 @@
             <div class="q-content-area">
                 <div class="q-text-display" id="q-title">ما اسم هذا اللاعب ؟</div>
                 <img id="q-img" class="q-img-display" src="" style="display: none;">
-                <a id="q-image-credit" class="q-image-credit" hidden target="_blank" rel="noopener noreferrer">مصدر الصورة</a>
-                <div id="q-img-fallback" class="q-img-fallback" hidden>لا تتوفر صورة مرتبطة بهذا السؤال حالياً</div>
-                <div id="q-choice-options" class="logo-options" aria-label="خيارات الإجابة"></div>
                 <div id="inline-hint" class="inline-hint"></div>
             </div>
 
@@ -995,10 +1006,9 @@
                 <div class="team-side-score" id="side-t1-score">200</div>
                 <div class="team-side-helpers-title">وسائل المساعدة</div>
                 <div class="team-side-helpers-icons">
-                    <div class="side-helper-btn" data-helper-key="t1-swap" title="تبديل السؤال" onclick="useHelper(this, 'swap')">🔄</div>
-                    <div class="side-helper-btn" data-helper-key="t1-hint" title="عرض التلميح" onclick="useHelper(this, 'hint')">📞</div>
-                    <div class="side-helper-btn" data-helper-key="t1-double" title="مضاعفة النقاط" onclick="useHelper(this, 'double')">✌️</div>
-                    <div class="side-helper-btn question-options-helper" data-helper-key="t1-options" title="كشف الخيارات الأربعة" style="display:none" onclick="useHelper(this, 'options')">🔠</div>
+                    <div class="side-helper-btn" onclick="useHelper(this, 'swap')">🔄</div>
+                    <div class="side-helper-btn" onclick="useHelper(this, 'hint')">📞</div>
+                    <div class="side-helper-btn" onclick="useHelper(this, 'double')">✌️</div>
                 </div>
             </div>
 
@@ -1008,10 +1018,9 @@
                 <div class="team-side-score" id="side-t2-score">0</div>
                 <div class="team-side-helpers-title">وسائل المساعدة</div>
                 <div class="team-side-helpers-icons">
-                    <div class="side-helper-btn" data-helper-key="t2-swap" title="تبديل السؤال" onclick="useHelper(this, 'swap')">💣</div>
-                    <div class="side-helper-btn" data-helper-key="t2-skip" title="تخطي السؤال" onclick="useHelper(this, 'skip')">✋</div>
-                    <div class="side-helper-btn" data-helper-key="t2-hint" title="عرض التلميح" onclick="useHelper(this, 'hint')">📞</div>
-                    <div class="side-helper-btn question-options-helper" data-helper-key="t2-options" title="كشف الخيارات الأربعة" style="display:none" onclick="useHelper(this, 'options')">🔠</div>
+                    <div class="side-helper-btn" onclick="useHelper(this, 'swap')">💣</div>
+                    <div class="side-helper-btn" onclick="useHelper(this, 'skip')">✋</div>
+                    <div class="side-helper-btn" onclick="useHelper(this, 'hint')">📞</div>
                 </div>
             </div>
         </div>
@@ -1022,7 +1031,6 @@
         <div class="stage-box">
             <div class="q-info-tag" id="ans-info-text">الإجابة الصحيحة</div>
             <h1 id="ans-title" style="font-size: 32px; color: #2bf076; margin: 20px 0;">الإجابة</h1>
-            <p id="answer-option-feedback" class="answer-option-feedback" hidden></p>
 
             <div style="display: flex; gap: 15px; margin-top: 10px;">
                 <button id="answer-team-one-btn" class="main-orange-btn" style="padding: 10px 25px; font-size: 15px;" onclick="addPoints(1)">نقطة للفريق 1</button>
@@ -1093,13 +1101,6 @@
     <script src="data/general-questions-6.js"></script>
     <script src="data/general-questions-7.js"></script>
     <script src="data/flags-questions-static.js"></script>
-    <script src="data/movies-questions.js"></script>
-    <script src="data/series-questions.js"></script>
-    <script src="data/geography-questions.js"></script>
-    <script src="data/sports-questions.js"></script>
-    <script src="data/cars-questions.js"></script>
-    <script src="data/arab-logos-questions.js"></script>
-    <script src="data/logos-questions.js"></script>
     <script>
         let scores = { t1: 0, t2: 0 };
         let gameMode = 'normal';
@@ -1120,9 +1121,6 @@
         let pointsDoubled = false;
         let activePoints = 0;
         let activeAns = '';
-        let activeOptions = [];
-        let activeSelectedOption = '';
-        let optionsRevealed = false;
         let activeCard = null;
         let categorySelectionLocked = false;
         const questionBank = SinJeemQuestionBank.items;
@@ -1157,13 +1155,6 @@
         addQuestions(window.generalQuestionSixSeed || []);
         addQuestions(window.generalQuestionSevenSeed || []);
         addQuestions(window.flagsQuestionSeed || []);
-        addQuestions(window.moviesQuestionSeed || []);
-        addQuestions(window.seriesQuestionSeed || []);
-        addQuestions(window.geographyQuestionSeed || []);
-        addQuestions(window.sportsQuestionSeed || []);
-        addQuestions(window.carsQuestionSeed || []);
-        addQuestions(window.arabLogoQuestionSeed || []);
-        addQuestions(window.logosQuestionSeed || []);
 
         // متغيرات التايمر
         let timerSeconds = 0;
@@ -1249,8 +1240,10 @@
         }
 
         function tournamentRoundLabel(round) {
-            const labels = pendingTournamentNames.length >= 16
-                ? ['', 'دور 16', 'ربع النهائي', 'نصف النهائي', 'النهائي']
+            const labels = pendingTournamentNames.length >= 32
+                ? ['', 'دور 32', 'دور 16', 'ربع النهائي', 'نصف النهائي', 'النهائي']
+                : pendingTournamentNames.length >= 16
+                    ? ['', 'دور 16', 'ربع النهائي', 'نصف النهائي', 'النهائي']
                 : pendingTournamentNames.length >= 8
                     ? ['', 'ربع النهائي', 'نصف النهائي', 'النهائي']
                     : ['', 'نصف النهائي', 'النهائي'];
@@ -1451,18 +1444,15 @@
                 activeQuestion,
                 activePoints,
                 activeAns,
-                activeOptions: [...activeOptions],
-                activeSelectedOption,
-                optionsRevealed,
                 activeHint,
                 activeDifficulty,
                 pointsDoubled,
                 timerSeconds,
                 timerRunning,
                 hintVisible: document.getElementById('inline-hint').classList.contains('visible'),
-                usedHelpers: Array.from(document.querySelectorAll('.side-helper-btn.used, .helper-circle.used'))
-                    .map(button => button.dataset.helperKey || '')
-                    .filter(Boolean)
+                usedHelpers: Array.from(document.querySelectorAll('.side-helper-btn, .helper-circle'))
+                    .map((button, index) => button.classList.contains('used') ? index : -1)
+                    .filter(index => index >= 0)
             };
         }
 
@@ -1520,9 +1510,6 @@
             activeQuestion = saved.activeQuestion || null;
             activePoints = saved.activePoints || 0;
             activeAns = saved.activeAns || '';
-            activeOptions = [...(saved.activeOptions || saved.activeQuestion?.options || [])];
-            activeSelectedOption = saved.activeSelectedOption || '';
-            optionsRevealed = Boolean(saved.optionsRevealed);
             activeHint = saved.activeHint || '';
             activeDifficulty = saved.activeDifficulty || '';
             pointsDoubled = Boolean(saved.pointsDoubled);
@@ -1549,10 +1536,7 @@
             });
             restoreActiveQuestion(saved);
             const helperButtons = document.querySelectorAll('.side-helper-btn, .helper-circle');
-            (saved.usedHelpers || []).forEach(helper => {
-                if (typeof helper === 'number') helperButtons[helper]?.classList.add('used');
-                else document.querySelector(`[data-helper-key="${helper}"]`)?.classList.add('used');
-            });
+            (saved.usedHelpers || []).forEach(index => helperButtons[index]?.classList.add('used'));
 
             if (saved.pageId === 'page-tournament-match') {
                 document.getElementById('active-tournament-name').textContent = gameTitle;
@@ -1566,7 +1550,6 @@
             } else if (saved.pageId === 'page-answer') {
                 document.getElementById('ans-info-text').textContent = document.getElementById('q-prop-badge').textContent;
                 document.getElementById('ans-title').textContent = activeAns;
-                updateAnswerOptionFeedback();
             } else if (saved.pageId === 'page-tournament-result') {
                 const lastMatch = tournamentRoundMatches[tournamentRoundMatches.length - 1];
                 if (lastMatch) SinJeemResults.renderMatch(lastMatch, lastMatch.winner === lastMatch.right ? 1 : 2);
@@ -1586,42 +1569,17 @@
 
         function restoreActiveQuestion(saved) {
             if (!activeQuestion) return;
-            const { category, difficulty, question, answer, points } = activeQuestion;
-            const bankQuestion = findBankQuestion(question, category, answer)
-                || questionBank.find(item => item.id === activeQuestion.id);
-            activeQuestion.image ||= bankQuestion?.image || '';
-            activeQuestion.imageSource ||= bankQuestion?.imageSource || '';
-            activeQuestion.imageAlt ||= bankQuestion?.imageAlt || bankQuestion?.brandName || answer;
-            const image = activeQuestion.image;
+            const { category, difficulty, question, answer, image, points } = activeQuestion;
+            const bankQuestion = findBankQuestion(question, category, answer);
             activeHint = bankQuestion?.hint || activeHint;
-            activeOptions = [...(activeQuestion.options || bankQuestion?.options || [])];
-            optionsRevealed = Boolean(saved.optionsRevealed);
             document.getElementById('q-pts-badge').textContent = pointsDoubled
                 ? `${points * 2} نقطة (مضاعفة)`
                 : `${points} نقطة`;
             document.getElementById('q-prop-badge').textContent = `${difficulty} • ${points} نقطة`;
             document.getElementById('q-title').textContent = question;
             const imageElement = document.getElementById('q-img');
-            const imageFallback = document.getElementById('q-img-fallback');
-            imageElement.alt = activeQuestion.imageAlt || activeQuestion.brandName || answer;
-            imageElement.classList.toggle('logo-image-display', activeOptions.length > 0);
-            imageElement.onerror = () => {
-                imageElement.style.display = 'none';
-                imageFallback.hidden = false;
-                imageFallback.classList.add('visible');
-            };
-            imageElement.onload = () => {
-                imageFallback.hidden = true;
-                imageFallback.classList.remove('visible');
-                imageElement.style.display = 'block';
-            };
             imageElement.src = image || '';
             imageElement.style.display = image ? 'block' : 'none';
-            setQuestionImageCredit(activeQuestion.imageSource || bankQuestion?.imageSource || '');
-            imageFallback.hidden = !(image && imageElement.complete && imageElement.naturalWidth === 0);
-            imageFallback.classList.toggle('visible', Boolean(image) && imageElement.complete && imageElement.naturalWidth === 0);
-            renderLogoOptions(activeOptions, activeSelectedOption);
-            setLogoOptionsHelpersVisible(activeOptions.length > 0);
             SinJeemQuestionTools.resetHint();
             if (saved.hintVisible) SinJeemQuestionTools.showHint(activeHint);
             activeCard = Array.from(document.querySelectorAll('.score-card-btn')).find(card => {
@@ -1775,8 +1733,7 @@
 
         /* فتح شاشة السؤال مع إعداد البيانات والتايمر من صفر */
         function openQ(cat, prop, q, a, imgUrl, card, pts) {
-            const bankQuestion = findBankQuestion(q, cat, a)
-                || questionBank.find(item => item.id === card?.dataset.questionId);
+            const bankQuestion = findBankQuestion(q, cat, a);
             registerOpenQuestion(cat, prop, q, a, imgUrl, pts);
             if (bankQuestion) usedQuestionIds.add(bankQuestion.id);
             activePoints = pts;
@@ -1788,16 +1745,9 @@
                 difficulty: difficultyLabel(prop, pts),
                 question: q,
                 answer: a,
-                imageAlt: bankQuestion?.imageAlt || bankQuestion?.brandName || a,
-                image: imgUrl || bankQuestion?.image || '',
-                imageSource: bankQuestion?.imageSource || '',
-                points: Number(pts),
-                options: [...(bankQuestion?.options || [])],
-                level: bankQuestion?.level || ''
+                image: imgUrl || '',
+                points: Number(pts)
             };
-            activeOptions = [...(bankQuestion?.options || [])];
-            activeSelectedOption = '';
-            optionsRevealed = false;
             activeDifficulty = bankQuestion?.difficulty || prop;
             activeHint = bankQuestion?.hint || `لا يوجد تلميح مضاف لهذا السؤال حتى الآن.`;
             pointsDoubled = false;
@@ -1806,39 +1756,14 @@
             document.getElementById('q-pts-badge').innerText = `${pts} نقطة`;
             document.getElementById('q-prop-badge').innerText = `${activeDifficulty} • ${pts} نقطة`;
             document.getElementById('q-title').innerText = q;
-            const answerFeedback = document.getElementById('answer-option-feedback');
-            answerFeedback.hidden = true;
-            answerFeedback.textContent = '';
-            answerFeedback.className = 'answer-option-feedback';
-            renderLogoOptions(activeOptions);
-            setLogoOptionsHelpersVisible(activeOptions.length > 0);
 
             const qImg = document.getElementById('q-img');
-            const imageFallback = document.getElementById('q-img-fallback');
-            qImg.alt = bankQuestion?.imageAlt || bankQuestion?.brandName || a;
-            qImg.classList.toggle('logo-image-display', activeOptions.length > 0);
-            qImg.onerror = () => {
-                qImg.style.display = 'none';
-                imageFallback.hidden = false;
-                imageFallback.classList.add('visible');
-            };
-            qImg.onload = () => {
-                imageFallback.hidden = true;
-                imageFallback.classList.remove('visible');
+            if (imgUrl && imgUrl.trim() !== '') {
+                qImg.src = imgUrl;
                 qImg.style.display = 'block';
-            };
-            if (activeQuestion.image && activeQuestion.image.trim() !== '') {
-                qImg.src = activeQuestion.image;
-                qImg.style.display = 'block';
-                imageFallback.hidden = true;
-                imageFallback.classList.remove('visible');
             } else {
-                qImg.removeAttribute('src');
                 qImg.style.display = 'none';
-                imageFallback.hidden = true;
-                imageFallback.classList.remove('visible');
             }
-            setQuestionImageCredit(bankQuestion?.imageSource || '');
 
             // تحديث وسائل المساعدة والنقاط على اليمين
             updateNames();
@@ -1850,56 +1775,6 @@
             startTimer();
 
             switchPage('page-question');
-        }
-
-        function renderLogoOptions(options, selected = '') {
-            const container = document.getElementById('q-choice-options');
-            container.replaceChildren();
-            container.classList.toggle('visible', options.length > 0 && optionsRevealed);
-            options.forEach(option => {
-                const button = document.createElement('button');
-                button.type = 'button';
-                button.className = `logo-option${option === selected ? ' selected' : ''}`;
-                button.textContent = option;
-                button.setAttribute('aria-pressed', String(option === selected));
-                button.addEventListener('click', () => {
-                    activeSelectedOption = option;
-                    renderLogoOptions(activeOptions, activeSelectedOption);
-                    saveActiveGame();
-                });
-                container.appendChild(button);
-            });
-        }
-
-        function setQuestionImageCredit(source) {
-            const credit = document.getElementById('q-image-credit');
-            credit.hidden = !source;
-            if (source) credit.href = source;
-            else credit.removeAttribute('href');
-        }
-
-        function setLogoOptionsHelpersVisible(visible) {
-            document.querySelectorAll('.question-options-helper').forEach(button => {
-                button.style.display = visible ? 'flex' : 'none';
-            });
-        }
-
-        function updateAnswerOptionFeedback() {
-            const feedback = document.getElementById('answer-option-feedback');
-            if (!activeOptions.length || !optionsRevealed) {
-                feedback.hidden = true;
-                feedback.textContent = '';
-                return;
-            }
-            feedback.hidden = false;
-            if (!activeSelectedOption) {
-                feedback.textContent = 'لم يتم اختيار إجابة من الخيارات.';
-                feedback.className = 'answer-option-feedback';
-                return;
-            }
-            const isCorrect = normalizeQuestion(activeSelectedOption) === normalizeQuestion(activeAns);
-            feedback.textContent = isCorrect ? 'اختيار صحيح!' : `اختيارك: ${activeSelectedOption} • الإجابة الصحيحة`;
-            feedback.className = `answer-option-feedback ${isCorrect ? 'correct' : 'incorrect'}`;
         }
 
         /* أجهزة التايمر */
@@ -1923,15 +1798,13 @@
                 swap: 'تبديل السؤال: يعود الفريق إلى اللوحة لاختيار سؤال آخر، ولا تُحسب نقاط.',
                 hint: 'التلميح: يعرض معلومة مختصرة تساعد على التفكير في الإجابة.',
                 double: 'مضاعفة النقاط: تضاعف قيمة السؤال الحالي عند منح النقاط.',
-                skip: 'التخطي: ينهي السؤال الحالي بدون نقاط ويعيدكم إلى اللوحة.',
-                options: 'كشف الخيارات: يعرض أربعة احتمالات للإجابة مرة واحدة لهذا الفريق.'
+                skip: 'التخطي: ينهي السؤال الحالي بدون نقاط ويعيدكم إلى اللوحة.'
             };
             alert(descriptions[type]);
         }
 
         function useHelper(btn, type) {
             if (btn.classList.contains('used')) return;
-            if (type === 'options' && !activeOptions.length) return;
             btn.classList.add('used');
             if (type === 'hint') {
                 SinJeemQuestionTools.showHint(activeHint);
@@ -1944,21 +1817,12 @@
                 saveActiveGame();
                 return;
             }
-            if (type === 'options') {
-                optionsRevealed = true;
-                renderLogoOptions(activeOptions, activeSelectedOption);
-                saveActiveGame();
-                return;
-            }
             clearInterval(timerInterval);
             timerRunning = false;
             if (type === 'swap' || type === 'skip') {
                 if (type === 'skip' && activeCard) activeCard.classList.add('used');
                 activeQuestion = null;
                 activeCard = null;
-                activeOptions = [];
-                activeSelectedOption = '';
-                optionsRevealed = false;
                 switchPage('page-board');
             }
         }
@@ -1968,7 +1832,6 @@
             timerRunning = false;
             document.getElementById('ans-info-text').innerText = document.getElementById('q-prop-badge').innerText;
             document.getElementById('ans-title').innerText = activeAns;
-            updateAnswerOptionFeedback();
             switchPage('page-answer');
         }
 
@@ -1979,9 +1842,6 @@
             if (activeCard) activeCard.classList.add('used');
             activeQuestion = null;
             activeCard = null;
-            activeOptions = [];
-            activeSelectedOption = '';
-            optionsRevealed = false;
             pointsDoubled = false;
             if (gameMode === 'tournament' && (scores.t1 >= 3000 || scores.t2 >= 3000)) {
                 finishTournamentMatch(scores.t1 >= 3000 ? 1 : 2);

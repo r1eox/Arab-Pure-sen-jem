@@ -10,7 +10,9 @@ window.SinJeemTournament = {
             ? ['نصف النهائي']
             : names.length === 8
                 ? ['ربع النهائي', 'نصف النهائي']
-                : ['دور 16', 'ربع النهائي', 'نصف النهائي'];
+                : names.length === 16
+                    ? ['دور 16', 'ربع النهائي', 'نصف النهائي']
+                    : ['دور 32', 'دور 16', 'ربع النهائي', 'نصف النهائي'];
         const bracketHeight = Math.max(300, sideMatchCount * 132);
         const labels = {};
         const roundResults = new Map();
