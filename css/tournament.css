@@ -64,7 +64,8 @@
 .match-page h1 { color: #ffb36b; margin-bottom: 10px; }
 .match-page p { color: #aaa; }
 .match-vs { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 22px; width: 100%; max-width: 760px; margin: 35px auto; }
-.match-team { padding: 28px 18px; border: 2px solid #555; border-radius: 16px; background: #292929; font-size: 22px; font-weight: bold; }
+.match-team { display: grid; gap: 8px; padding: 28px 18px; border: 2px solid #555; border-radius: 16px; background: #292929; font-size: 22px; font-weight: bold; }
+.match-team-members { display: block; color: #aaa; font-size: 12px; font-weight: 400; line-height: 1.6; }
 .match-team:first-child { border-color: #3288d8; }
 .match-team:last-child { border-color: var(--primary-orange); }
 .match-vs-label { color: #ffb36b; font-size: 24px; font-weight: bold; }
@@ -82,6 +83,24 @@
 .summary-team.winner { color: #2bf076; border: 1px solid #2bf076; }
 .summary-team.loser { color: #ff6b63; border: 1px solid #ff3b30; }
 
+#tournament-round-bracket .eighteen-team-summary { width: 100%; max-width: 100%; grid-template-columns: minmax(220px, .8fr) minmax(0, 1.2fr); align-items: start; }
+#tournament-round-bracket .eighteen-byes-card { grid-column: 1 / -1; }
+#tournament-round-bracket .eighteen-bye-list { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 6px; }
+#tournament-round-bracket .eighteen-bye-list .summary-team { display: block; min-width: 0; margin: 0; padding: 7px 8px; overflow-wrap: anywhere; font-size: 12px; }
+#tournament-round-bracket .eighteen-bye-list small { display: block; margin-top: 3px; color: #aaa; font-size: 10px; }
+#tournament-round-bracket .eighteen-match-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; }
+#tournament-round-bracket .eighteen-match-list .summary-team { display: grid; gap: 4px; min-width: 0; margin: 0; padding: 7px 8px; overflow-wrap: anywhere; font-size: 12px; }
+#tournament-round-bracket .eighteen-match-list .summary-team strong { grid-column: 1 / -1; }
+
+.eighteen-team-summary { grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: start; }
+.eighteen-byes-card { grid-column: 1 / -1; }
+.eighteen-bye-list { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 6px; }
+.eighteen-bye-list .summary-team { display: block; min-width: 0; margin: 0; padding: 7px 8px; overflow-wrap: anywhere; font-size: 12px; }
+.eighteen-bye-list small { display: block; margin-top: 3px; color: #aaa; font-size: 10px; }
+.eighteen-match-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; }
+.eighteen-match-list .summary-team { display: grid; gap: 4px; min-width: 0; margin: 0; padding: 7px 8px; overflow-wrap: anywhere; font-size: 12px; }
+.eighteen-match-list .summary-team strong { grid-column: 1 / -1; }
+
 @media (max-width: 650px) {
     .bracket-preview { padding: 12px; }
     .bracket-preview .bracket-board { min-width: max-content; justify-content: flex-start; gap: 8px; padding: 22px 8px 16px; }
@@ -89,4 +108,8 @@
     .bracket-preview .bracket-center { flex-basis: 150px; min-width: 150px; }
     .bracket-preview .bracket-connector-column { flex-basis: 12px; min-width: 12px; }
     .bracket-preview .bracket-team { min-height: 36px; font-size: 10px; }
+    #tournament-round-bracket .eighteen-team-summary,
+    #tournament-round-bracket .eighteen-match-list { grid-template-columns: 1fr; }
+    #tournament-round-bracket .eighteen-byes-card { grid-column: auto; }
+    #tournament-round-bracket .eighteen-bye-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }

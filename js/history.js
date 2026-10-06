@@ -10,7 +10,9 @@ window.SinJeemHistory = {
     },
 
     roundLabel(round, teamCount) {
-        const labels = teamCount >= 16
+        const labels = teamCount === 18
+            ? ['', 'الدور التمهيدي', 'دور 16', 'ربع النهائي', 'نصف النهائي', 'النهائي']
+            : teamCount >= 16
             ? ['', 'دور 16', 'ربع النهائي', 'نصف النهائي', 'النهائي']
             : teamCount >= 8
                 ? ['', 'ربع النهائي', 'نصف النهائي', 'النهائي']

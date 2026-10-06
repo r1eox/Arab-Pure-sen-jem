@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/tournament.css">
+    <link rel="stylesheet" href="css/team-roulette.css">
     <link rel="stylesheet" href="css/board.css">
     <link rel="stylesheet" href="css/question.css">
     <style>
@@ -657,6 +658,7 @@
         <div class="top-left-actions">
             <div class="top-btn" onclick="exitToHome()">🌐 الخروج</div>
             <div class="top-btn" onclick="switchPage('page-board')">🎛️ الرجوع للوحة</div>
+            <div class="top-btn" id="roulette-nav-button" onclick="switchPage('page-team-roulette')" hidden>🎲 جدول المواجهات</div>
             <div class="top-btn" onclick="finishGame()">🚪 انتهاء اللعبة</div>
             <div class="settings-wrap">
                 <button class="settings-btn" onclick="toggleSettings(event)">⚙️ الإعدادات</button>
@@ -747,6 +749,7 @@
         <div id="bracket-page-team-fields" class="bracket-page-fields"></div>
         <div class="bracket-page-actions">
             <button class="main-orange-btn" style="margin-top:0; padding:10px 28px;" onclick="showTournamentPageDivision()">عرض التقسيم</button>
+            <button class="secondary-btn" onclick="switchPage('page-team-roulette')">🎲 تجربة روليت الفرق</button>
             <button class="secondary-btn" onclick="exitToHome()">رجوع</button>
         </div>
         <div id="bracket-page-division-box" class="bracket-preview" style="width:100%; max-width:1100px;"></div>
@@ -755,14 +758,78 @@
         </div>
     </div>
 
+    <div id="page-team-roulette" class="page roulette-page">
+        <main class="roulette-shell">
+            <header class="roulette-header">
+                <div>
+                    <h1>🎲 تجربة روليت الفرق</h1>
+                    <p>أدخل فرق السيرفر وأعضاء كل فريق، ثم اسحب مواجهات البطولة.</p>
+                </div>
+                <button id="roulette-back-button" class="secondary-btn">العودة لإعداد البطولة</button>
+            </header>
+
+            <div class="roulette-editor">
+                <section class="roulette-form" aria-label="إعداد فرق القرعة">
+                    <div class="roulette-fields">
+                        <label class="roulette-field" for="roulette-title">
+                            اسم البطولة
+                            <input id="roulette-title" type="text" maxlength="45" placeholder="بطولة السيرفر">
+                        </label>
+                        <label class="roulette-field" for="roulette-team-count">
+                            عدد الفرق
+                            <select id="roulette-team-count">
+                                <option value="4">4 فرق</option>
+                                <option value="8">8 فرق</option>
+                                <option value="16" selected>16 فريقاً</option>
+                                <option value="32">32 فريقاً</option>
+                            </select>
+                        </label>
+                    </div>
+                    <label class="roulette-field" for="roulette-team-list">
+                        قائمة الفرق والأعضاء
+                        <textarea id="roulette-team-list" spellcheck="false" placeholder="الصق نموذج الفريق كما هو: اسم الفريق : شديقي&#10;الاعضاء :&#10;1- 955793219793354792&#10;فريق رقم كم بالبطولة : (1)"></textarea>
+                    </label>
+                    <p class="roulette-input-note">الصق استبيان كل فريق كما هو، أو اكتب فريقاً في كل سطر بهذا الشكل: اسم الفريق | العضو 1، العضو 2.</p>
+                    <div class="roulette-form-actions">
+                        <button id="roulette-spin-button" class="main-orange-btn" type="button">🎲 اسحب القرعة</button>
+                        <button id="roulette-demo-button" class="secondary-btn" type="button">ملء فرق تجريبية</button>
+                        <button id="roulette-clear-button" class="secondary-btn" type="button">مسح التجربة</button>
+                    </div>
+                    <p id="roulette-draw-status" class="roulette-status" role="status" aria-live="polite">أدخل الفرق لبدء القرعة.</p>
+                </section>
+
+                <aside class="roulette-display" aria-label="نتيجة روليت الفرق">
+                    <div class="roulette-wheel">
+                        <div>
+                            <span class="roulette-wheel-label">قرعة المواجهات</span>
+                            <strong id="roulette-wheel-team" class="roulette-wheel-team">جاهز للسحب</strong>
+                        </div>
+                    </div>
+                    <div class="roulette-statline">
+                        <span>4 أو 8 أو 16 أو 32 فريقاً</span>
+                        <span>قرعة إقصائية</span>
+                    </div>
+                </aside>
+            </div>
+            <section id="roulette-draw-panel" class="roulette-draw-panel" aria-label="جدول مواجهات البطولة" hidden>
+                <div id="roulette-draw-result" class="roulette-draw-result" hidden></div>
+                <div id="roulette-result-actions" class="roulette-result-actions" hidden>
+                    <button id="roulette-copy-button" class="secondary-btn" type="button">نسخ جدول المواجهات</button>
+                    <button id="roulette-accept-button" class="main-orange-btn" type="button">اعتماد القرعة وبدء البطولة</button>
+                    <button id="roulette-return-game-button" class="secondary-btn" type="button">العودة للمباراة</button>
+                </div>
+            </section>
+        </main>
+    </div>
+
     <div id="page-tournament-match" class="page match-page">
         <p id="active-tournament-name" style="color:#ffb36b; font-weight:bold; margin-bottom:8px;">بطولة سين وجيم</p>
         <h1 id="match-round-title">المواجهة الأولى</h1>
         <p>هذه المواجهة تحدد الفريق المتأهل. بعد التعرف على الفريقين اضغط لاختيار الفئات.</p>
         <div class="match-vs">
-            <div class="match-team" id="match-team-right">فريق 1</div>
+            <div class="match-team" id="match-team-right"><strong id="match-team-right-name">فريق 1</strong><small id="match-team-right-members" class="match-team-members"></small></div>
             <div class="match-vs-label">ضد</div>
-            <div class="match-team" id="match-team-left">فريق 2</div>
+            <div class="match-team" id="match-team-left"><strong id="match-team-left-name">فريق 2</strong><small id="match-team-left-members" class="match-team-members"></small></div>
         </div>
         <div class="match-progress" id="match-progress">الفائز يتأهل للمربع التالي</div>
         <button class="main-orange-btn" onclick="startTournamentCategories()">اختيار الفئات للمواجهة</button>
@@ -1136,13 +1203,17 @@
     <script src="data/cars-questions.js"></script>
     <script src="data/arab-logos-questions.js"></script>
     <script src="data/logos-questions.js"></script>
+    <script src="js/team-roulette.js"></script>
     <script>
         let scores = { t1: 0, t2: 0 };
         let gameMode = 'normal';
         let currentRound = 1;
         let tournamentTeams = [];
+        let tournamentMemberRoster = {};
         let pendingTournamentNames = [];
         let tournamentBracketTeams = [];
+        let tournamentByeTeams = [];
+        let tournamentFirstRoundByes = [];
         let tournamentWinners = [];
         let tournamentRoundLosers = [];
         let tournamentRoundMatches = [];
@@ -1237,18 +1308,44 @@
             document.getElementById('bracket-page-division-box').classList.remove('visible');
         }
 
+        function syncTournamentPageTeamFields() {
+            const fields = document.getElementById('bracket-page-team-fields');
+            const count = Number(document.getElementById('bracket-page-team-count').value);
+            if (fields.querySelectorAll('input').length !== count) buildTournamentPageTeams();
+            return Array.from(fields.querySelectorAll('input')).slice(0, count)
+                .map((input, index) => input.value.trim() || `فريق ${index + 1}`);
+        }
+
+        function eighteenTeamBracketMarkup(names, matches = []) {
+            const escape = value => SinJeemTournament.escapeHtml(value);
+            const preliminary = matches.filter(match => Number(match.round) === 1);
+            const firstRoundNames = names.slice(0, 4);
+            const preliminaryRows = preliminary.length
+                ? preliminary.map(match => `<div class="summary-team ${match.winner === match.right ? 'winner' : 'loser'}"><span>${escape(match.right)} (${match.rightScore})</span><span>ضد</span><span>${escape(match.left)} (${match.leftScore})</span><strong>المتأهل: ${escape(match.winner)}</strong></div>`).join('')
+                : Array.from({ length: 2 }, (_, index) => `<div class="summary-team"><span>${escape(firstRoundNames[index * 2])}</span><span>ضد</span><span>${escape(firstRoundNames[index * 2 + 1])}</span></div>`).join('');
+            const byes = preliminary.length ? tournamentFirstRoundByes : names.slice(4);
+            const laterRounds = [...new Set(matches.filter(match => Number(match.round) > 1).map(match => Number(match.round)))].sort((a, b) => a - b);
+            const laterMarkup = laterRounds.map(round => `<section class="round-summary-card eighteen-round-card"><h3>${tournamentRoundLabel(round)}</h3><div class="eighteen-match-list">${matches.filter(match => Number(match.round) === round).map(match => `<div class="summary-team ${match.winner === match.right ? 'winner' : 'loser'}"><span>${escape(match.right)} (${match.rightScore})</span><span>ضد</span><span>${escape(match.left)} (${match.leftScore})</span><strong>المتأهل: ${escape(match.winner)}</strong></div>`).join('')}</div></section>`).join('');
+            return `<div class="round-summary eighteen-team-summary"><section class="round-summary-card eighteen-round-card"><h3>الدور التمهيدي · مباراتان</h3><div class="eighteen-match-list">${preliminaryRows}</div></section>${laterMarkup}<section class="round-summary-card eighteen-byes-card"><h3>إعفاء مباشر إلى دور 16 · ${byes.length} فريقاً</h3><div class="eighteen-bye-list">${byes.map(name => `<div class="summary-team">${escape(name)} <small>تأهل مباشر</small></div>`).join('')}</div></section></div>`;
+        }
+
         function showTournamentPageDivision() {
-            const names = Array.from(document.querySelectorAll('#bracket-page-team-fields input')).map((input, index) => input.value.trim() || `فريق ${index + 1}`);
+            const names = syncTournamentPageTeamFields();
             const box = document.getElementById('bracket-page-division-box');
-            box.innerHTML = `<h3>طريق البطولة إلى النهائي</h3><div class="bracket-board">${buildBracketMarkup(names)}</div>`;
+            box.innerHTML = names.length === 18
+                ? `<h3>طريق البطولة إلى النهائي · 18 فريقاً</h3>${eighteenTeamBracketMarkup(names)}`
+                : `<h3>طريق البطولة إلى النهائي</h3><div class="bracket-board">${buildBracketMarkup(names)}</div>`;
             box.classList.add('visible');
         }
 
-        function startTournamentSetup() {
-            const names = Array.from(document.querySelectorAll('#bracket-page-team-fields input')).map((input, index) => input.value.trim() || `فريق ${index + 1}`);
+        function startTournamentSetup(memberRoster = {}) {
+            const names = syncTournamentPageTeamFields();
+            tournamentMemberRoster = { ...memberRoster };
             pendingTournamentNames = names;
             gameTitle = document.getElementById('tournament-name').value.trim() || 'بطولة سين وجيم';
-            tournamentBracketTeams = names.slice();
+            tournamentFirstRoundByes = names.length === 18 ? names.slice(4) : [];
+            tournamentByeTeams = [...tournamentFirstRoundByes];
+            tournamentBracketTeams = names.length === 18 ? names.slice(0, 4) : names.slice();
             tournamentWinners = [];
             tournamentRoundLosers = [];
             tournamentRoundMatches = [];
@@ -1262,6 +1359,19 @@
             startTournamentMatch();
         }
 
+        function startTournamentFromRoulette(names, title, memberRoster = {}) {
+            if (!Array.isArray(names) || ![4, 8, 16, 32].includes(names.length)) return;
+            if (activeGame && !confirm('بدء البطولة سيستبدل المباراة الحالية غير المكتملة. هل تريد المتابعة؟')) return;
+            gameMode = 'tournament';
+            document.getElementById('tournament-name').value = title || 'بطولة سين وجيم';
+            document.getElementById('bracket-page-team-count').value = String(names.length);
+            buildTournamentPageTeams();
+            document.querySelectorAll('#bracket-page-team-fields input').forEach((input, index) => {
+                input.value = names[index] || '';
+            });
+            startTournamentSetup(memberRoster);
+        }
+
         function startTournamentMatch() {
             if (tournamentMatchIndex >= tournamentBracketTeams.length / 2) {
                 showTournamentRoundSummary();
@@ -1270,13 +1380,23 @@
             const right = tournamentBracketTeams[tournamentMatchIndex * 2];
             const left = tournamentBracketTeams[tournamentMatchIndex * 2 + 1];
             tournamentMatch = { right, left };
+            document.getElementById('match-team-right-name').textContent = right;
+            document.getElementById('match-team-left-name').textContent = left;
+            const rightRoster = tournamentMemberRoster[right] || [];
+            const leftRoster = tournamentMemberRoster[left] || [];
+            const rightMembers = Array.isArray(rightRoster) ? rightRoster : rightRoster.members || [];
+            const leftMembers = Array.isArray(leftRoster) ? leftRoster : leftRoster.members || [];
+            const rightNumber = Array.isArray(rightRoster) ? null : rightRoster.teamNumber;
+            const leftNumber = Array.isArray(leftRoster) ? null : leftRoster.teamNumber;
+            document.getElementById('match-team-right-members').textContent = [rightNumber ? `رقم الفريق ${rightNumber}` : '', ...rightMembers].filter(Boolean).join(' · ');
+            document.getElementById('match-team-left-members').textContent = [leftNumber ? `رقم الفريق ${leftNumber}` : '', ...leftMembers].filter(Boolean).join(' · ');
             scores = { t1: 0, t2: 0 };
-            currentRound = Math.max(1, Math.ceil(Math.log2(pendingTournamentNames.length / tournamentBracketTeams.length)) + 1);
+            currentRound = pendingTournamentNames.length === 18 && tournamentByeTeams.length === 14
+                ? 1
+                : Math.max(1, Math.ceil(Math.log2(pendingTournamentNames.length / tournamentBracketTeams.length)) + 1);
             const roundLabel = tournamentRoundLabel(currentRound);
             document.getElementById('match-round-title').innerText = `${roundLabel} - المواجهة ${tournamentMatchIndex + 1}`;
             document.getElementById('active-tournament-name').innerText = gameTitle;
-            document.getElementById('match-team-right').innerText = right;
-            document.getElementById('match-team-left').innerText = left;
             document.getElementById('match-progress').innerText = roundLabel === 'النهائي'
                 ? 'الفائز بهذه المواجهة يتوّج بطلاً للبطولة'
                 : `الفائز بهذه المواجهة يتأهل إلى الدور التالي عند وصوله إلى ${tournamentWinScore} نقطة`;
@@ -1284,6 +1404,9 @@
         }
 
         function tournamentRoundLabel(round) {
+            if (pendingTournamentNames.length === 18) {
+                return ['', 'الدور التمهيدي', 'دور 16', 'ربع النهائي', 'نصف النهائي', 'النهائي'][round] || `الجولة ${round}`;
+            }
             const labels = pendingTournamentNames.length >= 32
                 ? ['', 'دور 32', 'دور 16', 'ربع النهائي', 'نصف النهائي', 'النهائي']
                 : pendingTournamentNames.length >= 16
@@ -1301,6 +1424,18 @@
 
         function showTournamentChampion(champion) {
             SinJeemResults.renderChampion(gameTitle, champion, tournamentAllMatches);
+            window.SinJeemTeamRoulette?.updateTournamentProgress({
+                pendingTournamentNames,
+                matches: tournamentAllMatches,
+                currentRound,
+                currentMatchIndex: tournamentMatchIndex,
+                currentMatch: tournamentMatch,
+                currentRoundLabel: tournamentRoundLabel(currentRound),
+                pageId: 'page-result',
+                scores,
+                completed: true,
+                champion
+            });
             if (!tournamentSaved) {
                 saveHistory([{ name: champion, score: tournamentWinScore, status: 'بطل البطولة' }, ...tournamentAllMatches.map(match => ({ name: match.winner, score: 0, status: 'متأهل' }))], pendingTournamentNames, tournamentAllMatches);
                 tournamentSaved = true;
@@ -1335,9 +1470,12 @@
                 ? tournamentAllMatches[tournamentAllMatches.length - 1]
                 : null;
             const champion = finalMatch ? finalMatch.winner : '';
-            SinJeemResults.renderRound(currentRound, tournamentRoundMatches, buildBracketMarkup(pendingTournamentNames, tournamentAllMatches, champion));
+            const bracket = pendingTournamentNames.length === 18
+                ? eighteenTeamBracketMarkup(pendingTournamentNames, tournamentAllMatches)
+                : buildBracketMarkup(pendingTournamentNames, tournamentAllMatches, champion);
+            SinJeemResults.renderRound(currentRound, tournamentRoundMatches, bracket);
             const finalButtons = document.querySelectorAll('#tournament-round-bracket [data-match="F-1-0"]');
-            if (tournamentBracketTeams.length > 2 && tournamentWinners.length === 2) {
+            if (pendingTournamentNames.length !== 18 && tournamentBracketTeams.length > 2 && tournamentWinners.length === 2) {
                 finalButtons[0].textContent = tournamentWinners[0];
                 finalButtons[1].textContent = tournamentWinners[1];
             }
@@ -1345,7 +1483,12 @@
         }
 
         function startNextTournamentRound() {
-            tournamentBracketTeams = tournamentWinners.slice();
+            tournamentBracketTeams = pendingTournamentNames.length === 18
+                && currentRound === 1
+                && tournamentByeTeams.length === 14
+                ? [...tournamentWinners, ...tournamentByeTeams]
+                : tournamentWinners.slice();
+            tournamentByeTeams = [];
             tournamentWinners = [];
             tournamentRoundLosers = [];
             tournamentRoundMatches = [];
@@ -1439,8 +1582,25 @@
         }
 
         function switchPage(pId) {
+            const currentPage = document.querySelector('.page.active')?.id;
             SinJeemUI.navigate(pId);
-            saveActiveGame(pId);
+            saveActiveGame(pId === 'page-team-roulette' ? currentPage : pId);
+            updateTournamentNavigation();
+        }
+
+        function updateTournamentNavigation() {
+            const button = document.getElementById('roulette-nav-button');
+            if (!button) return;
+            const savedDraw = (() => {
+                try {
+                    return JSON.parse(localStorage.getItem('sinJeemTeamRouletteResult') || 'null');
+                } catch {
+                    return null;
+                }
+            })();
+            const currentPage = document.querySelector('.page.active')?.id;
+            button.hidden = !(activeGame && gameMode === 'tournament' && savedDraw?.draw?.order?.length
+                && currentPage !== 'page-team-roulette');
         }
 
         function readSavedGame() {
@@ -1472,9 +1632,12 @@
                 currentRound,
                 gameTitle,
                 teams: [document.getElementById('t1-name').value, document.getElementById('t2-name').value],
+                tournamentMemberRoster: { ...tournamentMemberRoster },
                 tournamentTeams: [...tournamentTeams],
                 pendingTournamentNames: [...pendingTournamentNames],
                 tournamentBracketTeams: [...tournamentBracketTeams],
+                tournamentByeTeams: [...tournamentByeTeams],
+                tournamentFirstRoundByes: [...tournamentFirstRoundByes],
                 tournamentWinners: [...tournamentWinners],
                 tournamentRoundLosers: [...tournamentRoundLosers],
                 tournamentRoundMatches: [...tournamentRoundMatches],
@@ -1505,7 +1668,20 @@
             const page = pageId || document.querySelector('.page.active')?.id;
             if (!page || ['page-mode', 'page-result', 'page-history'].includes(page)) return;
             try {
-                localStorage.setItem(savedGameKey, JSON.stringify(captureActiveGame(page)));
+                const saved = captureActiveGame(page);
+                localStorage.setItem(savedGameKey, JSON.stringify(saved));
+                if (saved.gameMode === 'tournament') {
+                    window.SinJeemTeamRoulette?.updateTournamentProgress({
+                        pendingTournamentNames: saved.pendingTournamentNames,
+                        matches: saved.tournamentAllMatches,
+                        currentRound: saved.currentRound,
+                        currentMatchIndex: saved.tournamentMatchIndex,
+                        currentMatch: saved.tournamentMatch,
+                        currentRoundLabel: tournamentRoundLabel(saved.currentRound),
+                        pageId: saved.pageId,
+                        scores: saved.scores
+                    });
+                }
             } catch (error) {
                 console.warn('تعذر حفظ المباراة مؤقتاً.', error);
             }
@@ -1515,6 +1691,8 @@
             activeGame = false;
             localStorage.removeItem(savedGameKey);
             document.getElementById('resume-prompt')?.classList.remove('visible');
+            window.SinJeemTeamRoulette?.refreshReturnButton();
+            updateTournamentNavigation();
         }
 
         function showResumePrompt() {
@@ -1525,8 +1703,11 @@
             const score = saved.scores ? `${saved.scores.t1 || 0} - ${saved.scores.t2 || 0}` : '';
             const elapsed = Math.floor((Date.now() - saved.savedAt) / 60000);
             const elapsedLabel = elapsed < 1 ? 'الآن' : `قبل ${elapsed} د`;
+            const tournamentLocation = saved.gameMode === 'tournament'
+                ? ` • الجولة ${saved.currentRound}، المواجهة ${(saved.tournamentMatchIndex || 0) + 1}`
+                : '';
             document.getElementById('resume-prompt-summary').textContent =
-                `${teamNames || saved.gameTitle} • ${score} نقطة • آخر حفظ ${elapsedLabel}`;
+                `${teamNames || saved.gameTitle}${tournamentLocation} • ${score} نقطة • آخر حفظ ${elapsedLabel}`;
             prompt.classList.add('visible');
         }
 
@@ -1540,8 +1721,11 @@
             currentRound = saved.currentRound;
             gameTitle = saved.gameTitle;
             tournamentTeams = [...(saved.tournamentTeams || [])];
+            tournamentMemberRoster = { ...(saved.tournamentMemberRoster || {}) };
             pendingTournamentNames = [...(saved.pendingTournamentNames || [])];
             tournamentBracketTeams = [...(saved.tournamentBracketTeams || [])];
+            tournamentByeTeams = [...(saved.tournamentByeTeams || [])];
+            tournamentFirstRoundByes = [...(saved.tournamentFirstRoundByes || [])];
             tournamentWinners = [...(saved.tournamentWinners || [])];
             tournamentRoundLosers = [...(saved.tournamentRoundLosers || [])];
             tournamentRoundMatches = [...(saved.tournamentRoundMatches || [])];
@@ -1584,8 +1768,16 @@
 
             if (saved.pageId === 'page-tournament-match') {
                 document.getElementById('active-tournament-name').textContent = gameTitle;
-                document.getElementById('match-team-right').textContent = tournamentMatch.right;
-                document.getElementById('match-team-left').textContent = tournamentMatch.left;
+                document.getElementById('match-team-right-name').textContent = tournamentMatch.right;
+                document.getElementById('match-team-left-name').textContent = tournamentMatch.left;
+                const rightRoster = tournamentMemberRoster[tournamentMatch.right] || [];
+                const leftRoster = tournamentMemberRoster[tournamentMatch.left] || [];
+                const rightMembers = Array.isArray(rightRoster) ? rightRoster : rightRoster.members || [];
+                const leftMembers = Array.isArray(leftRoster) ? leftRoster : leftRoster.members || [];
+                const rightNumber = Array.isArray(rightRoster) ? null : rightRoster.teamNumber;
+                const leftNumber = Array.isArray(leftRoster) ? null : leftRoster.teamNumber;
+                document.getElementById('match-team-right-members').textContent = [rightNumber ? `رقم الفريق ${rightNumber}` : '', ...rightMembers].filter(Boolean).join(' · ');
+                document.getElementById('match-team-left-members').textContent = [leftNumber ? `رقم الفريق ${leftNumber}` : '', ...leftMembers].filter(Boolean).join(' · ');
                 const roundLabel = tournamentRoundLabel(currentRound);
                 document.getElementById('match-round-title').textContent = `${roundLabel} - المواجهة ${tournamentMatchIndex + 1}`;
                 document.getElementById('match-progress').textContent = roundLabel === 'النهائي'
@@ -1603,12 +1795,15 @@
                     ? tournamentAllMatches[tournamentAllMatches.length - 1]
                     : null;
                 SinJeemResults.renderRound(currentRound, tournamentRoundMatches,
-                    buildBracketMarkup(pendingTournamentNames, tournamentAllMatches, finalMatch?.winner || ''));
+                    pendingTournamentNames.length === 18
+                        ? eighteenTeamBracketMarkup(pendingTournamentNames, tournamentAllMatches)
+                        : buildBracketMarkup(pendingTournamentNames, tournamentAllMatches, finalMatch?.winner || ''));
             }
 
             restoringSavedGame = false;
             document.getElementById('resume-prompt').classList.remove('visible');
             switchPage(saved.pageId || 'page-board');
+            updateTournamentNavigation();
             if (saved.timerRunning && saved.pageId === 'page-question') startTimer();
         }
 

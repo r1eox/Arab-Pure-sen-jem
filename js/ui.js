@@ -1,6 +1,7 @@
 window.SinJeemUI = {
     pages: new Set([
         'page-mode',
+        'page-team-roulette',
         'page-tournament-bracket',
         'page-tournament-match',
         'page-select',

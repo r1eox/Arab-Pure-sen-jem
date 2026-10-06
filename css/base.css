@@ -45,6 +45,7 @@ body {
 }
 
 .top-btn:hover { opacity: 1; }
+#roulette-nav-button[hidden] { display: none !important; }
 
 .turn-badge {
     display: none;
