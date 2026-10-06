@@ -34,15 +34,26 @@ window.SinJeemBoard = {
         column.querySelectorAll('.score-card-btn').forEach(card => card.remove());
         if (!availableQuestions.length) return;
         const usedInColumn = new Set();
-        [100, 200, 300, 400, 500].forEach(points => {
+        for (const points of [100, 200, 300, 400, 500]) {
             const freshQuestions = availableQuestions.filter(item =>
                 !usedQuestionIds.has(item.id) && !usedInColumn.has(item.id));
             const unusedQuestions = availableQuestions.filter(item => !usedInColumn.has(item.id));
             const candidates = freshQuestions.length
                 ? freshQuestions
-                : unusedQuestions.length ? unusedQuestions : availableQuestions;
+                : unusedQuestions;
+            if (!candidates.length) break;
             const closestDistance = Math.min(...candidates.map(item => Math.abs(Number(item.points) - points)));
             let closestQuestions = candidates.filter(item => Math.abs(Number(item.points) - points) === closestDistance);
+            if (points >= 300 && category !== 'كورة ورياضة') {
+                const illustratedDistance = Math.min(...candidates.map(item => Math.abs(Number(item.points) - points)));
+                const sourcedQuestions = candidates.filter(item => item.image
+                    && item.imageKind !== 'illustration'
+                    && Math.abs(Number(item.points) - points) <= illustratedDistance + 100);
+                if (sourcedQuestions.length) {
+                    const sourcedDistance = Math.min(...sourcedQuestions.map(item => Math.abs(Number(item.points) - points)));
+                    closestQuestions = sourcedQuestions.filter(item => Math.abs(Number(item.points) - points) === sourcedDistance);
+                }
+            }
             if (category === 'شعارات') {
                 const preferredRegion = points === 500 ? 'international' : 'arab';
                 const preferredQuestions = closestQuestions.filter(item => item.region === preferredRegion);
@@ -65,7 +76,7 @@ window.SinJeemBoard = {
                 card.addEventListener('click', () => openQuestion(question, card));
                 column.appendChild(card);
             }
-        });
+        }
     },
 
     restoreColumn(column, savedCards, openQuestion) {

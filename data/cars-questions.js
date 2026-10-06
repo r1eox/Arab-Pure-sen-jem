@@ -14,9 +14,9 @@ window.carsQuestionSeed = [
         "imageKind": "commons",
         "factType": "legacy-manufacturer",
         "options": [
-            "شيري",
-            "برابوس",
-            "هامبر المحدودة",
+            "BMW",
+            "Mercedes-Benz",
+            "Volkswagen",
             "Audi"
         ]
     },
@@ -35,9 +35,9 @@ window.carsQuestionSeed = [
         "imageKind": "commons",
         "factType": "legacy-manufacturer",
         "options": [
-            "شيري",
-            "برابوس",
-            "هامبر المحدودة",
+            "Lamborghini",
+            "Maserati",
+            "Alfa Romeo",
             "Ferrari"
         ]
     },
@@ -57,9 +57,9 @@ window.carsQuestionSeed = [
         "factType": "legacy-country",
         "options": [
             "ألمانيا",
-            "دايملر",
-            "تسلا موتورز",
-            "رينو"
+            "إيطاليا",
+            "فرنسا",
+            "المملكة المتحدة"
         ]
     },
     {
@@ -77,10 +77,10 @@ window.carsQuestionSeed = [
         "imageAlt": "Audi Type K",
         "factType": "legacy-manufacturer",
         "options": [
-            "جي إم كوريا",
+            "أوبل",
             "أودي",
-            "General Motors do Brasil",
-            "مجموعة فولكسفاغن"
+            "زينفو",
+            "Zündapp"
         ]
     },
     {
@@ -98,9 +98,9 @@ window.carsQuestionSeed = [
         "imageAlt": "Peugeot Type 127",
         "factType": "legacy-manufacturer",
         "options": [
-            "تاتا موتورز",
-            "سوزوكي",
-            "Ford do Brasil",
+            "البينا",
+            "Universal Power Drives",
+            "زينفو",
             "بيجو"
         ]
     },
@@ -119,10 +119,10 @@ window.carsQuestionSeed = [
         "imageAlt": "ساب 9000",
         "factType": "legacy-manufacturer",
         "options": [
-            "إيسوزو",
-            "دودج",
+            "كيه جي موبيليتي",
+            "Bristol Cars",
             "ساب للسيارات",
-            "هيونداي موتور"
+            "Laurin & Klement"
         ]
     },
     {
@@ -140,10 +140,10 @@ window.carsQuestionSeed = [
         "imageAlt": "Kia Pride",
         "factType": "legacy-manufacturer",
         "options": [
-            "Zündapp",
+            "Mercedes-Benz Vans",
             "كيا",
-            "Universal Power Drives",
-            "زينفو"
+            "سوزوكي",
+            "Ford do Brasil"
         ]
     },
     {
@@ -161,9 +161,9 @@ window.carsQuestionSeed = [
         "imageAlt": "بوغاتي فيرون",
         "factType": "legacy-manufacturer",
         "options": [
-            "Mercedes-Benz Vans",
-            "BMW",
-            "Mercedes-Benz",
+            "رولزرويس موتور",
+            "هوندا",
+            "رينو كوريا موتورز",
             "بوغاتي"
         ]
     },
@@ -173,7 +173,7 @@ window.carsQuestionSeed = [
         "difficulty": "سهل",
         "points": 100,
         "question": "ما الشركة المصنّعة لطراز السيارة «Lancia Fulvia»؟",
-        "answer": "فيات",
+        "answer": "لانشيا",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/2006%20SAG%20-%20Lancia%20Fulvia%20Coup%C3%A9%20I%201967-01.JPG?width=900",
         "hint": "شركة إيطالية اشتهرت تاريخياً بالسيارات الصغيرة وشعارها اختصار لاسمها الصناعي.",
         "source": "https://www.wikidata.org/wiki/Q174104",
@@ -182,10 +182,10 @@ window.carsQuestionSeed = [
         "imageAlt": "Lancia Fulvia",
         "factType": "legacy-manufacturer",
         "options": [
-            "زيل",
             "فيات",
-            "هامبر المحدودة",
-            "زوتي أوتو"
+            "لانشيا",
+            "ألفا روميو",
+            "أوتوبيانكي"
         ]
     },
     {
@@ -203,10 +203,10 @@ window.carsQuestionSeed = [
         "imageAlt": "جاكوار إس إس 100",
         "factType": "legacy-manufacturer",
         "options": [
-            "ساب للسيارات",
-            "كيا",
+            "كيه جي موبيليتي",
+            "Bristol Cars",
             "سيارات جاغوار",
-            "بيجو"
+            "Laurin & Klement"
         ]
     },
     {
@@ -224,9 +224,9 @@ window.carsQuestionSeed = [
         "imageAlt": "ألفا روميو 147",
         "factType": "legacy-manufacturer",
         "options": [
-            "Bristol Cars",
-            "سيتروين",
-            "Vector Motors",
+            "دايهاتسو",
+            "دايملر",
+            "تسلا موتورز",
             "ألفا روميو"
         ]
     },
@@ -245,9 +245,9 @@ window.carsQuestionSeed = [
         "imageAlt": "MG 350",
         "factType": "legacy-manufacturer",
         "options": [
-            "زيل",
-            "داسيا",
-            "زاستافا",
+            "Champion",
+            "Studebaker",
+            "Mia electric",
             "MG Motor"
         ]
     },
@@ -266,10 +266,10 @@ window.carsQuestionSeed = [
         "imageAlt": "Mitsubishi Space Star",
         "factType": "legacy-manufacturer",
         "options": [
-            "جنرال موتورز",
+            "كيه جي موبيليتي",
             "ميتسوبيشي موتورز",
-            "هوندا",
-            "رينو كوريا موتورز"
+            "بورجوارد",
+            "Laurin & Klement"
         ]
     },
     {
@@ -287,10 +287,10 @@ window.carsQuestionSeed = [
         "imageAlt": "Ford LTD",
         "factType": "legacy-manufacturer",
         "options": [
-            "زينفو",
+            "جي إم كوريا",
             "شركة فورد",
-            "البينا",
-            "Universal Power Drives"
+            "General Motors do Brasil",
+            "مجموعة فولكسفاغن"
         ]
     },
     {
@@ -308,10 +308,10 @@ window.carsQuestionSeed = [
         "imageAlt": "لادا 2103",
         "factType": "legacy-manufacturer",
         "options": [
-            "رينو",
+            "Zato vehicles",
             "أوتوفاز",
-            "دايملر",
-            "تسلا موتورز"
+            "أوسترو دايملر",
+            "شركة دايملر"
         ]
     },
     {
@@ -329,10 +329,10 @@ window.carsQuestionSeed = [
         "imageAlt": "فيراري 288 دي تي أو",
         "factType": "legacy-manufacturer",
         "options": [
-            "المملكة المتحدة",
-            "اليابان",
+            "شيري",
+            "برابوس",
             "فيراري",
-            "فرنسا"
+            "كاديلاك"
         ]
     },
     {
@@ -351,9 +351,9 @@ window.carsQuestionSeed = [
         "factType": "legacy-manufacturer",
         "options": [
             "LMX vehicles",
-            "اليابان",
-            "Audi",
-            "Ferrari"
+            "سيارات فولفو",
+            "تي في آر",
+            "نيسان موتورز"
         ]
     },
     {
@@ -371,10 +371,10 @@ window.carsQuestionSeed = [
         "imageAlt": "تويوتا مارك إكس",
         "factType": "legacy-manufacturer",
         "options": [
-            "لامبورغيني",
+            "زينفو",
             "تويوتا",
-            "تسلا موتورز",
-            "رينو"
+            "البينا",
+            "Universal Power Drives"
         ]
     },
     {
@@ -392,10 +392,10 @@ window.carsQuestionSeed = [
         "imageAlt": "Adler Trumpf",
         "factType": "legacy-manufacturer",
         "options": [
-            "رينو كوريا موتورز",
+            "دودج",
             "أدلر",
-            "رولزرويس موتور",
-            "هوندا"
+            "هيونداي موتور",
+            "إيسوزو"
         ]
     },
     {
@@ -414,9 +414,9 @@ window.carsQuestionSeed = [
         "factType": "legacy-manufacturer",
         "options": [
             "هيونداي موتور",
-            "فرنسا",
-            "المملكة المتحدة",
-            "اليابان"
+            "MG Motor",
+            "ميتسوبيشي موتورز",
+            "شركة فورد"
         ]
     },
     {
@@ -434,10 +434,10 @@ window.carsQuestionSeed = [
         "imageAlt": "Isuzu Bellel",
         "factType": "legacy-manufacturer",
         "options": [
-            "Ford do Brasil",
-            "Mercedes-Benz Vans",
+            "شيري",
+            "برابوس",
             "إيسوزو",
-            "سوزوكي"
+            "كاديلاك"
         ]
     },
     {
@@ -455,10 +455,10 @@ window.carsQuestionSeed = [
         "imageAlt": "Lancia Epsilon",
         "factType": "legacy-manufacturer",
         "options": [
-            "Volkswagen",
-            "Porsche",
+            "Mercedes-Benz Vans",
+            "BMW",
             "فيات",
-            "Mercedes-Benz"
+            "Ford do Brasil"
         ]
     },
     {
@@ -477,9 +477,9 @@ window.carsQuestionSeed = [
         "factType": "legacy-manufacturer",
         "options": [
             "بيجو",
-            "داسيا",
-            "زاستافا",
-            "بياجيو"
+            "Universal Power Drives",
+            "زينفو",
+            "Zündapp"
         ]
     },
     {
@@ -497,10 +497,10 @@ window.carsQuestionSeed = [
         "imageAlt": "Dodge Omni 024",
         "factType": "legacy-manufacturer",
         "options": [
-            "Ford do Brasil",
-            "Mercedes-Benz Vans",
+            "Ford of Britain",
+            "بريتش ليلاند",
             "دودج",
-            "سوزوكي"
+            "نيسان موتورز"
         ]
     },
     {
@@ -518,10 +518,10 @@ window.carsQuestionSeed = [
         "imageAlt": "سكودا رابيد",
         "factType": "legacy-manufacturer",
         "options": [
-            "هامبر المحدودة",
-            "زوتي أوتو",
+            "زيل",
+            "داسيا",
             "سكودا أوتو",
-            "برابوس"
+            "زوتي أوتو"
         ]
     },
     {
@@ -539,10 +539,10 @@ window.carsQuestionSeed = [
         "imageAlt": "BMW 315",
         "factType": "legacy-manufacturer",
         "options": [
-            "Benz & Cie.",
+            "لامبورغيني",
             "بي إم دبليو",
-            "Studebaker",
-            "Mia electric"
+            "تسلا موتورز",
+            "رينو"
         ]
     },
     {
@@ -561,9 +561,9 @@ window.carsQuestionSeed = [
         "factType": "legacy-manufacturer",
         "options": [
             "بيجو",
-            "نيسان موتورز",
-            "Ford of Britain",
-            "بريتش ليلاند"
+            "أوتوفاز",
+            "فيراري",
+            "LMX vehicles"
         ]
     },
     {
@@ -581,10 +581,10 @@ window.carsQuestionSeed = [
         "imageAlt": "Wolseley 6/90",
         "factType": "legacy-manufacturer",
         "options": [
-            "هوندا",
-            "رينو كوريا موتورز",
+            "جي إم كوريا",
+            "شركة ريلي",
             "British Motor Corporation",
-            "رولزرويس موتور"
+            "مجموعة فولكسفاغن"
         ]
     },
     {
@@ -602,10 +602,10 @@ window.carsQuestionSeed = [
         "imageAlt": "Mazda Mazdago",
         "factType": "legacy-manufacturer",
         "options": [
-            "سيارات فولفو",
-            "تي في آر",
+            "كيه جي موبيليتي",
+            "Bristol Cars",
             "مازدا",
-            "أوبل"
+            "Laurin & Klement"
         ]
     },
     {
@@ -623,10 +623,10 @@ window.carsQuestionSeed = [
         "imageAlt": "Aston Martin DBS",
         "factType": "legacy-manufacturer",
         "options": [
-            "Studebaker",
+            "أوتوفاز",
             "آستون مارتن",
-            "ZAZ",
-            "Champion"
+            "ميتسوبيشي موتورز",
+            "شركة فورد"
         ]
     },
     {
@@ -666,9 +666,9 @@ window.carsQuestionSeed = [
         "factType": "legacy-manufacturer",
         "options": [
             "سوبارو",
-            "لامبورغيني",
-            "كاديلاك",
-            "شيري"
+            "Laurin & Klement",
+            "كيه جي موبيليتي",
+            "Bristol Cars"
         ]
     },
     {
@@ -686,10 +686,10 @@ window.carsQuestionSeed = [
         "imageAlt": "رولز رويس سيلفر رايث",
         "factType": "legacy-manufacturer",
         "options": [
-            "Volkswagen",
+            "سوبارو",
             "رولزرويس موتور",
-            "BMW",
-            "Mercedes-Benz"
+            "آستون مارتن",
+            "Checker Motors Corporation"
         ]
     },
     {
@@ -707,9 +707,9 @@ window.carsQuestionSeed = [
         "imageAlt": "فورد موديل تي",
         "factType": "legacy-manufacturer",
         "options": [
-            "تويوتا",
-            "أدلر",
-            "هيونداي موتور",
+            "دونغ فنغ موتور",
+            "ZAZ",
+            "Champion",
             "شركة فورد"
         ]
     },
@@ -728,10 +728,10 @@ window.carsQuestionSeed = [
         "imageAlt": "Honda That's",
         "factType": "legacy-manufacturer",
         "options": [
-            "شركة ريلي",
-            "جريت وول موتور",
+            "رينو كوريا موتورز",
+            "جنرال موتورز",
             "هوندا",
-            "جي إم كوريا"
+            "رولزرويس موتور"
         ]
     },
     {
@@ -749,10 +749,10 @@ window.carsQuestionSeed = [
         "imageAlt": "رينو سامسونج إس إم 5",
         "factType": "legacy-manufacturer",
         "options": [
-            "فرنسا",
+            "جريت وول موتور",
             "رينو كوريا موتورز",
-            "ألمانيا",
-            "إيطاليا"
+            "جي إم كوريا",
+            "شركة ريلي"
         ]
     },
     {
@@ -770,9 +770,9 @@ window.carsQuestionSeed = [
         "imageAlt": "Holden Coupe 60",
         "factType": "legacy-manufacturer",
         "options": [
-            "آستون مارتن",
-            "Checker Motors Corporation",
-            "سوبارو",
+            "دايملر بنز",
+            "هانوماغ",
+            "بورجوارد",
             "جنرال موتورز"
         ]
     },
@@ -791,9 +791,9 @@ window.carsQuestionSeed = [
         "imageAlt": "Alpina B10 Bi-Turbo",
         "factType": "legacy-manufacturer",
         "options": [
-            "جي إم كوريا",
-            "شركة ريلي",
-            "جريت وول موتور",
+            "آستون مارتن",
+            "Checker Motors Corporation",
+            "سوبارو",
             "البينا"
         ]
     },
@@ -812,10 +812,10 @@ window.carsQuestionSeed = [
         "imageAlt": "Lancia LC1",
         "factType": "legacy-manufacturer",
         "options": [
-            "Bristol Cars",
-            "سيتروين",
+            "شركة فورد",
+            "أوتوفاز",
             "فيات",
-            "كيه جي موبيليتي"
+            "ميتسوبيشي موتورز"
         ]
     },
     {
@@ -833,9 +833,9 @@ window.carsQuestionSeed = [
         "imageAlt": "Quasar-Unipower",
         "factType": "legacy-manufacturer",
         "options": [
-            "دايهاتسو",
-            "دايملر",
-            "تسلا موتورز",
+            "كيا",
+            "بوغاتي",
+            "فيات",
             "Universal Power Drives"
         ]
     },
@@ -855,9 +855,9 @@ window.carsQuestionSeed = [
         "factType": "legacy-manufacturer",
         "options": [
             "شركة فورد",
-            "شركة ريلي",
-            "جريت وول موتور",
-            "بي واي دي أوتو"
+            "هوندا",
+            "رينو كوريا موتورز",
+            "جنرال موتورز"
         ]
     },
     {
@@ -875,9 +875,9 @@ window.carsQuestionSeed = [
         "imageAlt": "Zenvo ST1",
         "factType": "legacy-manufacturer",
         "options": [
-            "بورجوارد",
-            "Laurin & Klement",
-            "كيه جي موبيليتي",
+            "آستون مارتن",
+            "Checker Motors Corporation",
+            "سوبارو",
             "زينفو"
         ]
     },
@@ -897,9 +897,9 @@ window.carsQuestionSeed = [
         "factType": "legacy-manufacturer",
         "options": [
             "أودي",
-            "Mercedes-Benz Vans",
-            "BMW",
-            "Mercedes-Benz"
+            "سوبارو",
+            "رولزرويس موتور",
+            "هوندا"
         ]
     },
     {
@@ -917,9 +917,9 @@ window.carsQuestionSeed = [
         "imageAlt": "Audi Type M",
         "factType": "legacy-manufacturer",
         "options": [
-            "أوسترو دايملر",
-            "شركة دايملر",
-            "Zato vehicles",
+            "Checker Motors Corporation",
+            "سوبارو",
+            "رولزرويس موتور",
             "أودي"
         ]
     },
@@ -938,10 +938,10 @@ window.carsQuestionSeed = [
         "imageAlt": "Audi Type R",
         "factType": "legacy-manufacturer",
         "options": [
-            "Mercedes-Benz",
+            "زينفو",
             "أودي",
-            "Mercedes-Benz Vans",
-            "BMW"
+            "البينا",
+            "Universal Power Drives"
         ]
     },
     {
@@ -960,9 +960,9 @@ window.carsQuestionSeed = [
         "factType": "legacy-manufacturer",
         "options": [
             "جنرال موتورز",
-            "زيل",
-            "داسيا",
-            "زاستافا"
+            "بوغاتي",
+            "فيات",
+            "سيارات جاغوار"
         ]
     },
     {
@@ -981,9 +981,9 @@ window.carsQuestionSeed = [
         "factType": "legacy-manufacturer",
         "options": [
             "أودي",
-            "سيارات فولفو",
-            "تي في آر",
-            "نيسان موتورز"
+            "تاتا موتورز",
+            "سوزوكي",
+            "Ford do Brasil"
         ]
     },
     {
@@ -1001,9 +1001,9 @@ window.carsQuestionSeed = [
         "imageAlt": "Buick Skyhawk",
         "factType": "legacy-manufacturer",
         "options": [
-            "زاستافا",
-            "بياجيو",
-            "General Motors do Brasil",
+            "هوندا",
+            "رينو كوريا موتورز",
+            "البينا",
             "جنرال موتورز"
         ]
     },
@@ -1022,10 +1022,10 @@ window.carsQuestionSeed = [
         "imageAlt": "Zündapp Janus",
         "factType": "legacy-manufacturer",
         "options": [
-            "المملكة المتحدة",
-            "اليابان",
+            "أوسترو دايملر",
+            "شركة دايملر",
             "Zündapp",
-            "فرنسا"
+            "Benz & Cie."
         ]
     },
     {
@@ -1043,9 +1043,9 @@ window.carsQuestionSeed = [
         "imageAlt": "أوبل 1.3 لتر",
         "factType": "legacy-manufacturer",
         "options": [
-            "سيارات جاغوار",
-            "ألفا روميو",
-            "MG Motor",
+            "جي إم كوريا",
+            "شركة ريلي",
+            "جريت وول موتور",
             "أوبل"
         ]
     },
@@ -1065,9 +1065,9 @@ window.carsQuestionSeed = [
         "factType": "legacy-manufacturer",
         "options": [
             "سيارات فولفو",
-            "Porsche",
-            "ألمانيا",
-            "إيطاليا"
+            "رينو",
+            "لامبورغيني",
+            "كاديلاك"
         ]
     },
     {
@@ -1086,9 +1086,9 @@ window.carsQuestionSeed = [
         "factType": "legacy-manufacturer",
         "options": [
             "كيا",
-            "Zato vehicles",
-            "تاتا موتورز",
-            "سوزوكي"
+            "Volkswagen",
+            "Porsche",
+            "Audi"
         ]
     },
     {
@@ -1107,9 +1107,9 @@ window.carsQuestionSeed = [
         "factType": "legacy-manufacturer",
         "options": [
             "شركة فورد",
-            "كيه جي موبيليتي",
-            "Bristol Cars",
-            "سيتروين"
+            "رينو",
+            "لامبورغيني",
+            "كاديلاك"
         ]
     },
     {
@@ -1127,10 +1127,10 @@ window.carsQuestionSeed = [
         "imageAlt": "Ford Laser",
         "factType": "legacy-manufacturer",
         "options": [
-            "دايملر",
+            "Ferrari",
             "مازدا",
-            "بريتش ليلاند",
-            "دايهاتسو"
+            "Porsche",
+            "Audi"
         ]
     },
     {
@@ -1149,9 +1149,9 @@ window.carsQuestionSeed = [
         "factType": "legacy-manufacturer",
         "options": [
             "تي في آر",
-            "فرنسا",
-            "المملكة المتحدة",
-            "اليابان"
+            "تويوتا",
+            "أدلر",
+            "هيونداي موتور"
         ]
     },
     {
@@ -1169,9 +1169,9 @@ window.carsQuestionSeed = [
         "imageAlt": "Volvo PV 60",
         "factType": "legacy-manufacturer",
         "options": [
-            "اليابان",
-            "Audi",
-            "Ferrari",
+            "ألفا روميو",
+            "MG Motor",
+            "ميتسوبيشي موتورز",
             "سيارات فولفو"
         ]
     },
@@ -1190,10 +1190,10 @@ window.carsQuestionSeed = [
         "imageAlt": "Mitsubishi Dignity",
         "factType": "legacy-manufacturer",
         "options": [
-            "فيراري",
+            "Mercedes-Benz",
             "نيسان موتورز",
-            "شركة فورد",
-            "أوتوفاز"
+            "Mercedes-Benz Vans",
+            "BMW"
         ]
     },
     {
@@ -1212,9 +1212,9 @@ window.carsQuestionSeed = [
         "factType": "legacy-manufacturer",
         "options": [
             "آستون مارتن",
-            "جنرال موتورز",
-            "البينا",
-            "Universal Power Drives"
+            "شركة ريلي",
+            "جريت وول موتور",
+            "بي واي دي أوتو"
         ]
     },
     {
@@ -1232,10 +1232,10 @@ window.carsQuestionSeed = [
         "imageAlt": "Ford Cortina",
         "factType": "legacy-manufacturer",
         "options": [
-            "British Motor Corporation",
-            "مازدا",
+            "Universal Power Drives",
+            "زينفو",
             "Ford of Britain",
-            "بي إم دبليو"
+            "البينا"
         ]
     },
     {
@@ -1253,10 +1253,10 @@ window.carsQuestionSeed = [
         "imageAlt": "Opel GT Roadster",
         "factType": "legacy-manufacturer",
         "options": [
-            "هامبر المحدودة",
+            "Universal Power Drives",
             "أوبل",
-            "شيري",
-            "برابوس"
+            "جنرال موتورز",
+            "البينا"
         ]
     },
     {
@@ -1274,10 +1274,10 @@ window.carsQuestionSeed = [
         "imageAlt": "Austin Allegro",
         "factType": "legacy-manufacturer",
         "options": [
-            "بي إم دبليو",
+            "ميتسوبيشي موتورز",
             "بريتش ليلاند",
-            "دودج",
-            "سكودا أوتو"
+            "ألفا روميو",
+            "MG Motor"
         ]
     },
     {
@@ -1295,10 +1295,10 @@ window.carsQuestionSeed = [
         "imageAlt": "Daihatsu Boon",
         "factType": "legacy-manufacturer",
         "options": [
-            "دونغ فنغ موتور",
+            "فيات",
             "دايهاتسو",
-            "سيتروين",
-            "Vector Motors"
+            "كيا",
+            "بوغاتي"
         ]
     },
     {
@@ -1316,10 +1316,10 @@ window.carsQuestionSeed = [
         "imageAlt": "أودي إيه8",
         "factType": "legacy-manufacturer",
         "options": [
-            "ميتسوبيشي موتورز",
+            "بورجوارد",
             "أودي",
-            "ألفا روميو",
-            "MG Motor"
+            "دايملر بنز",
+            "هانوماغ"
         ]
     },
     {
@@ -1337,10 +1337,10 @@ window.carsQuestionSeed = [
         "imageAlt": "مرسيدس-بنز إس إل آر ماكلارين",
         "factType": "legacy-manufacturer",
         "options": [
-            "أوتوفاز",
+            "هامبر المحدودة",
             "دايملر",
-            "ميتسوبيشي موتورز",
-            "شركة فورد"
+            "شيري",
+            "برابوس"
         ]
     },
     {
@@ -1358,10 +1358,10 @@ window.carsQuestionSeed = [
         "imageAlt": "بيجو 206",
         "factType": "legacy-manufacturer",
         "options": [
-            "زوتي أوتو",
+            "سوزوكي",
             "بيجو",
-            "برابوس",
-            "هامبر المحدودة"
+            "Zato vehicles",
+            "تاتا موتورز"
         ]
     },
     {
@@ -1379,10 +1379,10 @@ window.carsQuestionSeed = [
         "imageAlt": "Pontiac Chieftain",
         "factType": "legacy-manufacturer",
         "options": [
-            "زينفو",
-            "Zündapp",
+            "أوتوفاز",
+            "فيراري",
             "جنرال موتورز",
-            "Universal Power Drives"
+            "شركة فورد"
         ]
     },
     {
@@ -1442,9 +1442,9 @@ window.carsQuestionSeed = [
         "imageAlt": "Audi Cabriolet",
         "factType": "legacy-manufacturer",
         "options": [
-            "المملكة المتحدة",
-            "اليابان",
-            "Audi",
+            "ساب للسيارات",
+            "كيا",
+            "بوغاتي",
             "أودي"
         ]
     },
@@ -1463,10 +1463,10 @@ window.carsQuestionSeed = [
         "imageAlt": "Audi 225",
         "factType": "legacy-manufacturer",
         "options": [
-            "General Motors do Brasil",
+            "Mercedes-Benz Vans",
             "أودي",
-            "زاستافا",
-            "بياجيو"
+            "سوزوكي",
+            "Ford do Brasil"
         ]
     },
     {
@@ -1484,9 +1484,9 @@ window.carsQuestionSeed = [
         "imageAlt": "تيسلا رودستار",
         "factType": "legacy-manufacturer",
         "options": [
-            "زاستافا",
-            "بياجيو",
-            "General Motors do Brasil",
+            "LMX vehicles",
+            "تويوتا",
+            "أدلر",
             "تسلا موتورز"
         ]
     },
@@ -1506,9 +1506,9 @@ window.carsQuestionSeed = [
         "factType": "legacy-manufacturer",
         "options": [
             "أوبل",
-            "Universal Power Drives",
-            "زينفو",
-            "Zündapp"
+            "بي إم دبليو",
+            "British Motor Corporation",
+            "مازدا"
         ]
     },
     {
@@ -1527,9 +1527,9 @@ window.carsQuestionSeed = [
         "factType": "legacy-manufacturer",
         "options": [
             "فيات",
-            "تويوتا",
-            "أدلر",
-            "هيونداي موتور"
+            "بياجيو",
+            "General Motors do Brasil",
+            "مجموعة فولكسفاغن"
         ]
     },
     {
@@ -1548,9 +1548,9 @@ window.carsQuestionSeed = [
         "factType": "legacy-manufacturer",
         "options": [
             "بيجو",
-            "سيارات فولفو",
-            "تي في آر",
-            "نيسان موتورز"
+            "سوبارو",
+            "رولزرويس موتور",
+            "هوندا"
         ]
     },
     {
@@ -1568,10 +1568,10 @@ window.carsQuestionSeed = [
         "imageAlt": "بيجو 205",
         "factType": "legacy-manufacturer",
         "options": [
-            "بريتش ليلاند",
+            "البينا",
             "بيجو",
-            "نيسان موتورز",
-            "Ford of Britain"
+            "رينو كوريا موتورز",
+            "جنرال موتورز"
         ]
     },
     {
@@ -1589,9 +1589,9 @@ window.carsQuestionSeed = [
         "imageAlt": "بيجو 307",
         "factType": "legacy-manufacturer",
         "options": [
-            "Vector Motors",
-            "دونغ فنغ موتور",
-            "ZAZ",
+            "جريت وول موتور",
+            "بي واي دي أوتو",
+            "دايملر بنز",
             "بيجو"
         ]
     },
@@ -1610,9 +1610,9 @@ window.carsQuestionSeed = [
         "imageAlt": "رينو 25",
         "factType": "legacy-manufacturer",
         "options": [
+            "LMX vehicles",
+            "تويوتا",
             "أدلر",
-            "هيونداي موتور",
-            "إيسوزو",
             "رينو"
         ]
     },
@@ -1631,10 +1631,10 @@ window.carsQuestionSeed = [
         "imageAlt": "لامبورغيني مورسيلاغو",
         "factType": "legacy-manufacturer",
         "options": [
-            "إيطاليا",
-            "فرنسا",
+            "كيا",
+            "بوغاتي",
             "لامبورغيني",
-            "ألمانيا"
+            "ساب للسيارات"
         ]
     },
     {
@@ -1652,9 +1652,9 @@ window.carsQuestionSeed = [
         "imageAlt": "Isuzu Panther",
         "factType": "legacy-manufacturer",
         "options": [
-            "أوتوفاز",
-            "فيراري",
-            "LMX vehicles",
+            "Porsche",
+            "Audi",
+            "Ferrari",
             "إيسوزو"
         ]
     },
@@ -1673,9 +1673,9 @@ window.carsQuestionSeed = [
         "imageAlt": "Cadillac DTS",
         "factType": "legacy-manufacturer",
         "options": [
-            "جي إم كوريا",
-            "شركة ريلي",
-            "جريت وول موتور",
+            "زيل",
+            "داسيا",
+            "زاستافا",
             "كاديلاك"
         ]
     },
@@ -1695,9 +1695,9 @@ window.carsQuestionSeed = [
         "factType": "legacy-manufacturer",
         "options": [
             "شيري",
-            "برابوس",
-            "هامبر المحدودة",
-            "زوتي أوتو"
+            "تويوتا",
+            "أدلر",
+            "هيونداي موتور"
         ]
     },
     {
@@ -1715,10 +1715,10 @@ window.carsQuestionSeed = [
         "imageAlt": "Peugeot Type 88",
         "factType": "legacy-manufacturer",
         "options": [
-            "سيارات جاغوار",
-            "ألفا روميو",
+            "لامبورغيني",
+            "كاديلاك",
             "بيجو",
-            "فيات"
+            "رينو"
         ]
     },
     {
@@ -1736,9 +1736,9 @@ window.carsQuestionSeed = [
         "imageAlt": "Peugeot Type 31",
         "factType": "legacy-manufacturer",
         "options": [
-            "شيري",
-            "برابوس",
-            "هامبر المحدودة",
+            "مازدا",
+            "آستون مارتن",
+            "Checker Motors Corporation",
             "بيجو"
         ]
     },
@@ -1778,10 +1778,10 @@ window.carsQuestionSeed = [
         "imageAlt": "Brabus Rocket",
         "factType": "legacy-manufacturer",
         "options": [
-            "Ferrari",
-            "أودي",
+            "ألفا روميو",
+            "MG Motor",
             "برابوس",
-            "Audi"
+            "سيارات جاغوار"
         ]
     },
     {
@@ -1799,10 +1799,10 @@ window.carsQuestionSeed = [
         "imageAlt": "Aston Martin DB AR1",
         "factType": "legacy-manufacturer",
         "options": [
-            "هانوماغ",
-            "بورجوارد",
+            "هامبر المحدودة",
+            "زوتي أوتو",
             "آستون مارتن",
-            "دايملر بنز"
+            "برابوس"
         ]
     },
     {
@@ -1820,10 +1820,10 @@ window.carsQuestionSeed = [
         "imageAlt": "فيات مولتيبلا",
         "factType": "legacy-manufacturer",
         "options": [
-            "ZAZ",
-            "Champion",
+            "شركة فورد",
+            "أوتوفاز",
             "فيات",
-            "دونغ فنغ موتور"
+            "ميتسوبيشي موتورز"
         ]
     },
     {
@@ -1842,9 +1842,9 @@ window.carsQuestionSeed = [
         "factType": "legacy-manufacturer",
         "options": [
             "سكودا أوتو",
-            "هيونداي موتور",
-            "إيسوزو",
-            "دودج"
+            "بي واي دي أوتو",
+            "دايملر بنز",
+            "هانوماغ"
         ]
     },
     {
@@ -1862,9 +1862,9 @@ window.carsQuestionSeed = [
         "imageAlt": "Peugeot Type 105",
         "factType": "legacy-manufacturer",
         "options": [
-            "هانوماغ",
-            "بورجوارد",
-            "Laurin & Klement",
+            "زينفو",
+            "Zündapp",
+            "أوبل",
             "بيجو"
         ]
     },
@@ -1883,10 +1883,10 @@ window.carsQuestionSeed = [
         "imageAlt": "Alfa Romeo GTV and Spider",
         "factType": "legacy-manufacturer",
         "options": [
-            "Ford do Brasil",
+            "تويوتا",
             "ألفا روميو",
-            "تاتا موتورز",
-            "سوزوكي"
+            "فيراري",
+            "LMX vehicles"
         ]
     },
     {
@@ -1905,9 +1905,9 @@ window.carsQuestionSeed = [
         "factType": "legacy-manufacturer",
         "options": [
             "هامبر المحدودة",
-            "ألمانيا",
-            "إيطاليا",
-            "فرنسا"
+            "بي إم دبليو",
+            "British Motor Corporation",
+            "مازدا"
         ]
     },
     {
@@ -1925,10 +1925,10 @@ window.carsQuestionSeed = [
         "imageAlt": "شيفروليه إمبالا",
         "factType": "legacy-manufacturer",
         "options": [
-            "BMW",
-            "Mercedes-Benz",
+            "كيه جي موبيليتي",
+            "Bristol Cars",
             "جنرال موتورز",
-            "Mercedes-Benz Vans"
+            "Laurin & Klement"
         ]
     },
     {
@@ -1946,9 +1946,9 @@ window.carsQuestionSeed = [
         "imageAlt": "Zotye 2008",
         "factType": "legacy-manufacturer",
         "options": [
-            "بي واي دي أوتو",
-            "دايملر بنز",
-            "هانوماغ",
+            "فيات",
+            "سيارات جاغوار",
+            "ألفا روميو",
             "زوتي أوتو"
         ]
     },
@@ -1967,9 +1967,9 @@ window.carsQuestionSeed = [
         "imageAlt": "فيراري إف 430",
         "factType": "legacy-manufacturer",
         "options": [
-            "زوتي أوتو",
-            "زيل",
-            "داسيا",
+            "Zato vehicles",
+            "تاتا موتورز",
+            "سوزوكي",
             "فيراري"
         ]
     },
@@ -1988,10 +1988,10 @@ window.carsQuestionSeed = [
         "imageAlt": "BAV 485",
         "factType": "legacy-manufacturer",
         "options": [
-            "آستون مارتن",
+            "بيجو",
             "زيل",
-            "British Motor Corporation",
-            "مازدا"
+            "Ferrari",
+            "أودي"
         ]
     },
     {
@@ -2009,9 +2009,9 @@ window.carsQuestionSeed = [
         "imageAlt": "Pontiac Executive",
         "factType": "legacy-manufacturer",
         "options": [
-            "كيا",
-            "بوغاتي",
-            "فيات",
+            "تي في آر",
+            "نيسان موتورز",
+            "Ford of Britain",
             "جنرال موتورز"
         ]
     },
@@ -2030,9 +2030,9 @@ window.carsQuestionSeed = [
         "imageAlt": "Lada Largus",
         "factType": "legacy-manufacturer",
         "options": [
-            "دودج",
-            "سكودا أوتو",
-            "بي إم دبليو",
+            "نيسان موتورز",
+            "Ford of Britain",
+            "بريتش ليلاند",
             "داسيا"
         ]
     },
@@ -2052,9 +2052,9 @@ window.carsQuestionSeed = [
         "factType": "legacy-manufacturer",
         "options": [
             "زاستافا",
-            "فيات",
-            "سيارات جاغوار",
-            "ألفا روميو"
+            "تي في آر",
+            "نيسان موتورز",
+            "Ford of Britain"
         ]
     },
     {
@@ -2073,9 +2073,9 @@ window.carsQuestionSeed = [
         "factType": "legacy-manufacturer",
         "options": [
             "بياجيو",
-            "رولزرويس موتور",
-            "هوندا",
-            "رينو كوريا موتورز"
+            "ZAZ",
+            "Champion",
+            "Studebaker"
         ]
     },
     {
@@ -2093,10 +2093,10 @@ window.carsQuestionSeed = [
         "imageAlt": "لامبورغيني سيستو إليمينتو",
         "factType": "legacy-manufacturer",
         "options": [
-            "المملكة المتحدة",
-            "اليابان",
+            "أدلر",
+            "هيونداي موتور",
             "لامبورغيني",
-            "فرنسا"
+            "تويوتا"
         ]
     },
     {
@@ -2114,10 +2114,10 @@ window.carsQuestionSeed = [
         "imageAlt": "Chevrolet Spin",
         "factType": "legacy-manufacturer",
         "options": [
-            "دونغ فنغ موتور",
-            "ZAZ",
+            "Mia electric",
+            "Benz & Cie.",
             "General Motors do Brasil",
-            "Vector Motors"
+            "Studebaker"
         ]
     },
     {
@@ -2135,9 +2135,9 @@ window.carsQuestionSeed = [
         "imageAlt": "Volkswagen Passat B2",
         "factType": "legacy-manufacturer",
         "options": [
-            "فيات",
-            "سيارات جاغوار",
-            "ألفا روميو",
+            "برابوس",
+            "هامبر المحدودة",
+            "زوتي أوتو",
             "مجموعة فولكسفاغن"
         ]
     },
@@ -2156,10 +2156,10 @@ window.carsQuestionSeed = [
         "imageAlt": "Mitsubishi Pajero iO",
         "factType": "legacy-manufacturer",
         "options": [
-            "كيا",
-            "بوغاتي",
+            "زيل",
+            "داسيا",
             "ميتسوبيشي موتورز",
-            "ساب للسيارات"
+            "زوتي أوتو"
         ]
     },
     {
@@ -2178,9 +2178,9 @@ window.carsQuestionSeed = [
         "factType": "legacy-manufacturer",
         "options": [
             "جي إم كوريا",
-            "أدلر",
-            "هيونداي موتور",
-            "إيسوزو"
+            "شيري",
+            "برابوس",
+            "هامبر المحدودة"
         ]
     },
     {
@@ -2198,9 +2198,9 @@ window.carsQuestionSeed = [
         "imageAlt": "Riich M1",
         "factType": "legacy-manufacturer",
         "options": [
-            "ZAZ",
-            "Champion",
-            "Studebaker",
+            "إيسوزو",
+            "دودج",
+            "سكودا أوتو",
             "شيري"
         ]
     },
@@ -2219,10 +2219,10 @@ window.carsQuestionSeed = [
         "imageAlt": "ميني كوبر",
         "factType": "legacy-manufacturer",
         "options": [
-            "Laurin & Klement",
+            "كيه جي موبيليتي",
             "British Motor Corporation",
-            "هانوماغ",
-            "بورجوارد"
+            "بورجوارد",
+            "Laurin & Klement"
         ]
     },
     {
@@ -2240,9 +2240,9 @@ window.carsQuestionSeed = [
         "imageAlt": "Mitsubishi Colt CZC",
         "factType": "legacy-manufacturer",
         "options": [
-            "Audi",
-            "Ferrari",
-            "أودي",
+            "General Motors do Brasil",
+            "مجموعة فولكسفاغن",
+            "جي إم كوريا",
             "ميتسوبيشي موتورز"
         ]
     },
@@ -2261,10 +2261,10 @@ window.carsQuestionSeed = [
         "imageAlt": "Riley 10.8",
         "factType": "legacy-manufacturer",
         "options": [
-            "LMX vehicles",
+            "ميتسوبيشي موتورز",
             "شركة ريلي",
-            "أوتوفاز",
-            "فيراري"
+            "ألفا روميو",
+            "MG Motor"
         ]
     },
     {
@@ -2282,9 +2282,9 @@ window.carsQuestionSeed = [
         "imageAlt": "Riley 11.9",
         "factType": "legacy-manufacturer",
         "options": [
-            "LMX vehicles",
-            "تويوتا",
-            "أدلر",
+            "ميتسوبيشي موتورز",
+            "شركة فورد",
+            "أوتوفاز",
             "شركة ريلي"
         ]
     },
@@ -2303,9 +2303,9 @@ window.carsQuestionSeed = [
         "imageAlt": "Pontiac 6000",
         "factType": "legacy-manufacturer",
         "options": [
-            "رينو",
-            "لامبورغيني",
-            "كاديلاك",
+            "زينفو",
+            "Zündapp",
+            "أوبل",
             "جنرال موتورز"
         ]
     },
@@ -2325,9 +2325,9 @@ window.carsQuestionSeed = [
         "factType": "legacy-manufacturer",
         "options": [
             "جنرال موتورز",
-            "بياجيو",
-            "General Motors do Brasil",
-            "مجموعة فولكسفاغن"
+            "BMW",
+            "Mercedes-Benz",
+            "Volkswagen"
         ]
     },
     {
@@ -2345,10 +2345,10 @@ window.carsQuestionSeed = [
         "imageAlt": "Mazda Flair",
         "factType": "legacy-manufacturer",
         "options": [
-            "أوسترو دايملر",
+            "Zato vehicles",
             "مازدا",
-            "Mia electric",
-            "Benz & Cie."
+            "أوسترو دايملر",
+            "شركة دايملر"
         ]
     },
     {
@@ -2366,10 +2366,10 @@ window.carsQuestionSeed = [
         "imageAlt": "Chevrolet HHR",
         "factType": "legacy-manufacturer",
         "options": [
-            "كاديلاك",
+            "البينا",
             "جنرال موتورز",
-            "رينو",
-            "لامبورغيني"
+            "هوندا",
+            "رينو كوريا موتورز"
         ]
     },
     {
@@ -2408,9 +2408,9 @@ window.carsQuestionSeed = [
         "imageAlt": "BYD M6 (2010)",
         "factType": "legacy-manufacturer",
         "options": [
-            "بياجيو",
-            "General Motors do Brasil",
-            "مجموعة فولكسفاغن",
+            "Mercedes-Benz",
+            "Volkswagen",
+            "Porsche",
             "بي واي دي أوتو"
         ]
     },
@@ -2429,10 +2429,10 @@ window.carsQuestionSeed = [
         "imageAlt": "MG ZT",
         "factType": "legacy-manufacturer",
         "options": [
-            "المملكة المتحدة",
+            "أوسترو دايملر",
             "British Motor Corporation",
-            "إيطاليا",
-            "فرنسا"
+            "Mia electric",
+            "Benz & Cie."
         ]
     },
     {
@@ -2450,9 +2450,9 @@ window.carsQuestionSeed = [
         "imageAlt": "مرسيدس بنز دبليو136",
         "factType": "legacy-manufacturer",
         "options": [
-            "كيه جي موبيليتي",
-            "Bristol Cars",
-            "سيتروين",
+            "بيجو",
+            "ساب للسيارات",
+            "كيا",
             "دايملر بنز"
         ]
     },
@@ -2472,9 +2472,9 @@ window.carsQuestionSeed = [
         "factType": "legacy-manufacturer",
         "options": [
             "جنرال موتورز",
-            "دايهاتسو",
-            "دايملر",
-            "تسلا موتورز"
+            "دودج",
+            "سكودا أوتو",
+            "بي إم دبليو"
         ]
     },
     {
@@ -2492,9 +2492,9 @@ window.carsQuestionSeed = [
         "imageAlt": "مرسيدس بنز 260 دي",
         "factType": "legacy-manufacturer",
         "options": [
-            "ميتسوبيشي موتورز",
-            "شركة فورد",
-            "أوتوفاز",
+            "سيتروين",
+            "Vector Motors",
+            "دونغ فنغ موتور",
             "دايملر بنز"
         ]
     },
@@ -2513,10 +2513,10 @@ window.carsQuestionSeed = [
         "imageAlt": "Hanomag Rekord",
         "factType": "legacy-manufacturer",
         "options": [
-            "ZAZ",
+            "ألفا روميو",
             "هانوماغ",
-            "Vector Motors",
-            "دونغ فنغ موتور"
+            "فيات",
+            "سيارات جاغوار"
         ]
     },
     {
@@ -2534,10 +2534,10 @@ window.carsQuestionSeed = [
         "imageAlt": "Borgward Hansa 1500",
         "factType": "legacy-manufacturer",
         "options": [
-            "جريت وول موتور",
+            "سوزوكي",
             "بورجوارد",
-            "جي إم كوريا",
-            "شركة ريلي"
+            "Zato vehicles",
+            "تاتا موتورز"
         ]
     },
     {
@@ -2556,9 +2556,9 @@ window.carsQuestionSeed = [
         "factType": "legacy-manufacturer",
         "options": [
             "British Motor Corporation",
-            "بي واي دي أوتو",
-            "دايملر بنز",
-            "هانوماغ"
+            "Studebaker",
+            "Mia electric",
+            "Benz & Cie."
         ]
     },
     {
@@ -2576,10 +2576,10 @@ window.carsQuestionSeed = [
         "imageAlt": "Volkswagen Golf Mk7",
         "factType": "legacy-manufacturer",
         "options": [
-            "المملكة المتحدة",
+            "سوزوكي",
             "مجموعة فولكسفاغن",
-            "إيطاليا",
-            "فرنسا"
+            "Zato vehicles",
+            "تاتا موتورز"
         ]
     },
     {
@@ -2597,9 +2597,9 @@ window.carsQuestionSeed = [
         "imageAlt": "Adler Trumpf Junior",
         "factType": "legacy-manufacturer",
         "options": [
-            "ألمانيا",
-            "إيطاليا",
-            "فرنسا",
+            "سوزوكي",
+            "Ford do Brasil",
+            "Mercedes-Benz Vans",
             "أدلر"
         ]
     },
@@ -2618,10 +2618,10 @@ window.carsQuestionSeed = [
         "imageAlt": "Riley One-Point-Five",
         "factType": "legacy-manufacturer",
         "options": [
-            "فيراري",
+            "تسلا موتورز",
             "British Motor Corporation",
-            "شركة فورد",
-            "أوتوفاز"
+            "دايهاتسو",
+            "دايملر"
         ]
     },
     {
@@ -2661,9 +2661,9 @@ window.carsQuestionSeed = [
         "factType": "legacy-manufacturer",
         "options": [
             "دايملر بنز",
-            "أودي",
-            "بيجو",
-            "ساب للسيارات"
+            "General Motors do Brasil",
+            "مجموعة فولكسفاغن",
+            "جي إم كوريا"
         ]
     },
     {
@@ -2681,9 +2681,9 @@ window.carsQuestionSeed = [
         "imageAlt": "Pontiac Bonneville",
         "factType": "legacy-manufacturer",
         "options": [
-            "البينا",
-            "Universal Power Drives",
-            "زينفو",
+            "زيل",
+            "داسيا",
+            "زاستافا",
             "جنرال موتورز"
         ]
     },
@@ -2702,9 +2702,9 @@ window.carsQuestionSeed = [
         "imageAlt": "Laurin & Klement C",
         "factType": "legacy-manufacturer",
         "options": [
-            "بيجو",
-            "ساب للسيارات",
-            "كيا",
+            "سيتروين",
+            "Vector Motors",
+            "دونغ فنغ موتور",
             "Laurin & Klement"
         ]
     },
@@ -2723,10 +2723,10 @@ window.carsQuestionSeed = [
         "imageAlt": "Laurin & Klement A",
         "factType": "legacy-manufacturer",
         "options": [
-            "كيا",
-            "بوغاتي",
+            "دونغ فنغ موتور",
+            "ZAZ",
             "Laurin & Klement",
-            "ساب للسيارات"
+            "Vector Motors"
         ]
     },
     {
@@ -2744,10 +2744,10 @@ window.carsQuestionSeed = [
         "imageAlt": "Adler 2 Liter",
         "factType": "legacy-manufacturer",
         "options": [
-            "دونغ فنغ موتور",
+            "جي إم كوريا",
             "أدلر",
-            "سيتروين",
-            "Vector Motors"
+            "General Motors do Brasil",
+            "مجموعة فولكسفاغن"
         ]
     },
     {
@@ -2765,9 +2765,9 @@ window.carsQuestionSeed = [
         "imageAlt": "Riley Pathfinder",
         "factType": "legacy-manufacturer",
         "options": [
-            "داسيا",
-            "زاستافا",
-            "بياجيو",
+            "فيات",
+            "سيارات جاغوار",
+            "ألفا روميو",
             "British Motor Corporation"
         ]
     },
@@ -2787,9 +2787,9 @@ window.carsQuestionSeed = [
         "factType": "legacy-manufacturer",
         "options": [
             "كيه جي موبيليتي",
-            "إيطاليا",
-            "فرنسا",
-            "المملكة المتحدة"
+            "البينا",
+            "Universal Power Drives",
+            "زينفو"
         ]
     },
     {
@@ -2807,9 +2807,9 @@ window.carsQuestionSeed = [
         "imageAlt": "فيراري 360",
         "factType": "legacy-manufacturer",
         "options": [
-            "دونغ فنغ موتور",
-            "ZAZ",
-            "Champion",
+            "بورجوارد",
+            "Laurin & Klement",
+            "كيه جي موبيليتي",
             "فيراري"
         ]
     },
@@ -2828,10 +2828,10 @@ window.carsQuestionSeed = [
         "imageAlt": "Škoda 760",
         "factType": "legacy-manufacturer",
         "options": [
-            "جنرال موتورز",
+            "بيجو",
             "سكودا أوتو",
-            "هوندا",
-            "رينو كوريا موتورز"
+            "Ferrari",
+            "أودي"
         ]
     },
     {
@@ -2849,10 +2849,10 @@ window.carsQuestionSeed = [
         "imageAlt": "Bristol 400",
         "factType": "legacy-manufacturer",
         "options": [
-            "سكودا أوتو",
-            "بي إم دبليو",
+            "نيسان موتورز",
+            "Ford of Britain",
             "Bristol Cars",
-            "دودج"
+            "تي في آر"
         ]
     },
     {
@@ -2871,9 +2871,9 @@ window.carsQuestionSeed = [
         "factType": "legacy-manufacturer",
         "options": [
             "أودي",
-            "Champion",
-            "Studebaker",
-            "Mia electric"
+            "دايملر",
+            "تسلا موتورز",
+            "رينو"
         ]
     },
     {
@@ -2891,10 +2891,10 @@ window.carsQuestionSeed = [
         "imageAlt": "Chevrolet Parkwood",
         "factType": "legacy-manufacturer",
         "options": [
-            "سيتروين",
+            "تي في آر",
             "جنرال موتورز",
-            "كيه جي موبيليتي",
-            "Bristol Cars"
+            "أوبل",
+            "سيارات فولفو"
         ]
     },
     {
@@ -2912,9 +2912,9 @@ window.carsQuestionSeed = [
         "imageAlt": "Volkswagen Pointer",
         "factType": "legacy-manufacturer",
         "options": [
-            "سيتروين",
-            "Vector Motors",
-            "دونغ فنغ موتور",
+            "آستون مارتن",
+            "Checker Motors Corporation",
+            "سوبارو",
             "مجموعة فولكسفاغن"
         ]
     },
@@ -2933,10 +2933,10 @@ window.carsQuestionSeed = [
         "imageAlt": "Citroën C8",
         "factType": "legacy-manufacturer",
         "options": [
-            "General Motors do Brasil",
+            "Universal Power Drives",
             "سيتروين",
-            "زاستافا",
-            "بياجيو"
+            "جنرال موتورز",
+            "البينا"
         ]
     },
     {
@@ -2954,9 +2954,9 @@ window.carsQuestionSeed = [
         "imageAlt": "Mercury Cyclone",
         "factType": "legacy-manufacturer",
         "options": [
-            "أوسترو دايملر",
-            "شركة دايملر",
-            "Zato vehicles",
+            "Mercedes-Benz",
+            "Volkswagen",
+            "Porsche",
             "شركة فورد"
         ]
     },
@@ -2975,9 +2975,9 @@ window.carsQuestionSeed = [
         "imageAlt": "فيات 131",
         "factType": "legacy-manufacturer",
         "options": [
-            "ZAZ",
-            "Champion",
-            "Studebaker",
+            "دايهاتسو",
+            "دايملر",
+            "تسلا موتورز",
             "فيات"
         ]
     },
@@ -2996,9 +2996,9 @@ window.carsQuestionSeed = [
         "imageAlt": "Hyundai Scoupe",
         "factType": "legacy-manufacturer",
         "options": [
-            "زينفو",
-            "Zündapp",
-            "أوبل",
+            "بيجو",
+            "ساب للسيارات",
+            "كيا",
             "هيونداي موتور"
         ]
     },
@@ -3017,10 +3017,10 @@ window.carsQuestionSeed = [
         "imageAlt": "Nissan Junior",
         "factType": "legacy-manufacturer",
         "options": [
-            "كاديلاك",
+            "Zündapp",
             "نيسان موتورز",
-            "رينو",
-            "لامبورغيني"
+            "Universal Power Drives",
+            "زينفو"
         ]
     },
     {
@@ -3038,10 +3038,10 @@ window.carsQuestionSeed = [
         "imageAlt": "مازيراتي جران توريزمو",
         "factType": "legacy-manufacturer",
         "options": [
-            "Champion",
+            "تي في آر",
             "فيات",
-            "دونغ فنغ موتور",
-            "ZAZ"
+            "أوبل",
+            "سيارات فولفو"
         ]
     },
     {
@@ -3060,9 +3060,9 @@ window.carsQuestionSeed = [
         "factType": "legacy-manufacturer",
         "options": [
             "لامبورغيني",
-            "مازدا",
-            "آستون مارتن",
-            "Checker Motors Corporation"
+            "ساب للسيارات",
+            "كيا",
+            "بوغاتي"
         ]
     },
     {
@@ -3080,10 +3080,10 @@ window.carsQuestionSeed = [
         "imageAlt": "مازدا رودستر",
         "factType": "legacy-manufacturer",
         "options": [
-            "كيا",
-            "بوغاتي",
+            "أوبل",
+            "سيارات فولفو",
             "مازدا",
-            "ساب للسيارات"
+            "Zündapp"
         ]
     },
     {
@@ -3101,10 +3101,10 @@ window.carsQuestionSeed = [
         "imageAlt": "هوندا إنسباير",
         "factType": "legacy-manufacturer",
         "options": [
-            "دودج",
-            "سكودا أوتو",
+            "سوزوكي",
+            "Ford do Brasil",
             "هوندا",
-            "إيسوزو"
+            "تاتا موتورز"
         ]
     },
     {
@@ -3122,9 +3122,9 @@ window.carsQuestionSeed = [
         "imageAlt": "Vector W2",
         "factType": "legacy-manufacturer",
         "options": [
-            "Laurin & Klement",
-            "كيه جي موبيليتي",
-            "Bristol Cars",
+            "بريتش ليلاند",
+            "دايهاتسو",
+            "دايملر",
             "Vector Motors"
         ]
     },
@@ -3143,9 +3143,9 @@ window.carsQuestionSeed = [
         "imageAlt": "Vector W8",
         "factType": "legacy-manufacturer",
         "options": [
-            "تي في آر",
-            "نيسان موتورز",
-            "Ford of Britain",
+            "إيسوزو",
+            "دودج",
+            "سكودا أوتو",
             "Vector Motors"
         ]
     },
@@ -3164,9 +3164,9 @@ window.carsQuestionSeed = [
         "imageAlt": "Opel P4",
         "factType": "legacy-manufacturer",
         "options": [
-            "لامبورغيني",
-            "كاديلاك",
-            "شيري",
+            "كيه جي موبيليتي",
+            "Bristol Cars",
+            "سيتروين",
             "أوبل"
         ]
     },
@@ -3185,9 +3185,9 @@ window.carsQuestionSeed = [
         "imageAlt": "Fiat 509",
         "factType": "legacy-manufacturer",
         "options": [
-            "شركة ريلي",
-            "جريت وول موتور",
-            "بي واي دي أوتو",
+            "زينفو",
+            "Zündapp",
+            "أوبل",
             "فيات"
         ]
     },
@@ -3206,10 +3206,10 @@ window.carsQuestionSeed = [
         "imageAlt": "Dongfeng EQ2102",
         "factType": "legacy-manufacturer",
         "options": [
-            "برابوس",
+            "داسيا",
             "دونغ فنغ موتور",
-            "كاديلاك",
-            "شيري"
+            "زوتي أوتو",
+            "زيل"
         ]
     },
     {
@@ -3227,10 +3227,10 @@ window.carsQuestionSeed = [
         "imageAlt": "ZAZ Tavria",
         "factType": "legacy-manufacturer",
         "options": [
-            "Champion",
-            "Studebaker",
+            "بيجو",
+            "ساب للسيارات",
             "ZAZ",
-            "دونغ فنغ موتور"
+            "أودي"
         ]
     },
     {
@@ -3249,9 +3249,9 @@ window.carsQuestionSeed = [
         "factType": "legacy-manufacturer",
         "options": [
             "Champion",
-            "British Motor Corporation",
-            "مازدا",
-            "آستون مارتن"
+            "زيل",
+            "داسيا",
+            "زاستافا"
         ]
     },
     {
@@ -3269,10 +3269,10 @@ window.carsQuestionSeed = [
         "imageAlt": "ZIL-111",
         "factType": "legacy-manufacturer",
         "options": [
-            "البينا",
-            "Universal Power Drives",
+            "Champion",
+            "Studebaker",
             "زيل",
-            "جنرال موتورز"
+            "ZAZ"
         ]
     },
     {
@@ -3290,10 +3290,10 @@ window.carsQuestionSeed = [
         "imageAlt": "ZIL-41047",
         "factType": "legacy-manufacturer",
         "options": [
-            "فيات",
+            "زوتي أوتو",
             "زيل",
-            "كيا",
-            "بوغاتي"
+            "برابوس",
+            "هامبر المحدودة"
         ]
     },
     {
@@ -3311,10 +3311,10 @@ window.carsQuestionSeed = [
         "imageAlt": "ZIS-101",
         "factType": "legacy-manufacturer",
         "options": [
-            "Ford do Brasil",
-            "Mercedes-Benz Vans",
+            "Mia electric",
+            "Benz & Cie.",
             "زيل",
-            "سوزوكي"
+            "Studebaker"
         ]
     },
     {
@@ -3333,9 +3333,9 @@ window.carsQuestionSeed = [
         "factType": "legacy-manufacturer",
         "options": [
             "زيل",
-            "فيراري",
-            "LMX vehicles",
-            "تويوتا"
+            "شركة فورد",
+            "أوتوفاز",
+            "فيراري"
         ]
     },
     {
@@ -3354,9 +3354,9 @@ window.carsQuestionSeed = [
         "factType": "legacy-manufacturer",
         "options": [
             "زيل",
-            "هيونداي موتور",
-            "إيسوزو",
-            "دودج"
+            "تويوتا",
+            "أدلر",
+            "هيونداي موتور"
         ]
     },
     {
@@ -3374,10 +3374,10 @@ window.carsQuestionSeed = [
         "imageAlt": "Citroën Type B14",
         "factType": "legacy-manufacturer",
         "options": [
-            "Zato vehicles",
-            "تاتا موتورز",
+            "بريتش ليلاند",
+            "دايهاتسو",
             "سيتروين",
-            "شركة دايملر"
+            "Ford of Britain"
         ]
     },
     {
@@ -3395,10 +3395,10 @@ window.carsQuestionSeed = [
         "imageAlt": "Audi 920",
         "factType": "legacy-manufacturer",
         "options": [
-            "Ferrari",
+            "أوسترو دايملر",
             "أودي",
-            "اليابان",
-            "Audi"
+            "Mia electric",
+            "Benz & Cie."
         ]
     },
     {
@@ -3416,9 +3416,9 @@ window.carsQuestionSeed = [
         "imageAlt": "Studebaker Conestoga",
         "factType": "legacy-manufacturer",
         "options": [
-            "Champion",
-            "Mia electric",
-            "Benz & Cie.",
+            "سكودا أوتو",
+            "بي إم دبليو",
+            "British Motor Corporation",
             "Studebaker"
         ]
     },
@@ -3438,9 +3438,9 @@ window.carsQuestionSeed = [
         "factType": "legacy-manufacturer",
         "options": [
             "Mia electric",
-            "هامبر المحدودة",
-            "زوتي أوتو",
-            "زيل"
+            "Audi",
+            "Ferrari",
+            "أودي"
         ]
     },
     {
@@ -3458,9 +3458,9 @@ window.carsQuestionSeed = [
         "imageAlt": "Riley 2 ½",
         "factType": "legacy-manufacturer",
         "options": [
-            "سيارات جاغوار",
-            "ألفا روميو",
-            "MG Motor",
+            "بيجو",
+            "ساب للسيارات",
+            "كيا",
             "شركة ريلي"
         ]
     },
@@ -3480,9 +3480,9 @@ window.carsQuestionSeed = [
         "factType": "legacy-manufacturer",
         "options": [
             "Benz & Cie.",
-            "ألفا روميو",
-            "MG Motor",
-            "ميتسوبيشي موتورز"
+            "فيراري",
+            "LMX vehicles",
+            "تويوتا"
         ]
     },
     {
@@ -3500,9 +3500,9 @@ window.carsQuestionSeed = [
         "imageAlt": "Austro-Daimler ADM",
         "factType": "legacy-manufacturer",
         "options": [
+            "شركة ريلي",
             "جريت وول موتور",
             "بي واي دي أوتو",
-            "دايملر بنز",
             "أوسترو دايملر"
         ]
     },
@@ -3522,9 +3522,9 @@ window.carsQuestionSeed = [
         "factType": "legacy-manufacturer",
         "options": [
             "شركة دايملر",
-            "أوسترو دايملر",
-            "Zato vehicles",
-            "تاتا موتورز"
+            "شركة فورد",
+            "أوتوفاز",
+            "فيراري"
         ]
     },
     {
@@ -3543,9 +3543,9 @@ window.carsQuestionSeed = [
         "factType": "legacy-manufacturer",
         "options": [
             "كيا",
-            "شركة فورد",
-            "أوتوفاز",
-            "فيراري"
+            "BMW",
+            "Mercedes-Benz",
+            "Volkswagen"
         ]
     },
     {
@@ -3563,9 +3563,9 @@ window.carsQuestionSeed = [
         "imageAlt": "جاكوار مارك",
         "factType": "legacy-manufacturer",
         "options": [
-            "Mia electric",
-            "Benz & Cie.",
-            "أوسترو دايملر",
+            "بورجوارد",
+            "Laurin & Klement",
+            "كيه جي موبيليتي",
             "سيارات جاغوار"
         ]
     },
@@ -3584,10 +3584,10 @@ window.carsQuestionSeed = [
         "imageAlt": "Zastava 10",
         "factType": "legacy-manufacturer",
         "options": [
-            "شركة دايملر",
-            "Zato vehicles",
+            "Mercedes-Benz Vans",
+            "BMW",
             "زاستافا",
-            "أوسترو دايملر"
+            "Ford do Brasil"
         ]
     },
     {
@@ -3605,9 +3605,9 @@ window.carsQuestionSeed = [
         "imageAlt": "Zastava 750",
         "factType": "legacy-manufacturer",
         "options": [
-            "BMW",
-            "Mercedes-Benz",
-            "Volkswagen",
+            "Ferrari",
+            "أودي",
+            "بيجو",
             "زاستافا"
         ]
     },
@@ -3626,10 +3626,10 @@ window.carsQuestionSeed = [
         "imageAlt": "Zastava Skala",
         "factType": "legacy-manufacturer",
         "options": [
-            "دودج",
+            "Zündapp",
             "زاستافا",
-            "هيونداي موتور",
-            "إيسوزو"
+            "Universal Power Drives",
+            "زينفو"
         ]
     },
     {
@@ -3647,10 +3647,10 @@ window.carsQuestionSeed = [
         "imageAlt": "Zastava Florida",
         "factType": "legacy-manufacturer",
         "options": [
-            "هامبر المحدودة",
-            "زوتي أوتو",
+            "كيه جي موبيليتي",
+            "Bristol Cars",
             "زاستافا",
-            "برابوس"
+            "Laurin & Klement"
         ]
     },
     {
@@ -3669,9 +3669,9 @@ window.carsQuestionSeed = [
         "factType": "legacy-manufacturer",
         "options": [
             "Zato vehicles",
-            "ZAZ",
-            "Champion",
-            "Studebaker"
+            "Ford of Britain",
+            "بريتش ليلاند",
+            "دايهاتسو"
         ]
     },
     {
@@ -3689,10 +3689,10 @@ window.carsQuestionSeed = [
         "imageAlt": "Audi Type A",
         "factType": "legacy-manufacturer",
         "options": [
-            "Vector Motors",
-            "دونغ فنغ موتور",
+            "Checker Motors Corporation",
+            "سوبارو",
             "أودي",
-            "سيتروين"
+            "آستون مارتن"
         ]
     },
     {
@@ -3711,9 +3711,9 @@ window.carsQuestionSeed = [
         "factType": "legacy-manufacturer",
         "options": [
             "أودي",
-            "آستون مارتن",
-            "Checker Motors Corporation",
-            "سوبارو"
+            "سيارات فولفو",
+            "تي في آر",
+            "نيسان موتورز"
         ]
     },
     {
@@ -3731,10 +3731,10 @@ window.carsQuestionSeed = [
         "imageAlt": "Audi Type B",
         "factType": "legacy-manufacturer",
         "options": [
-            "رولزرويس موتور",
-            "هوندا",
+            "Ford of Britain",
+            "بريتش ليلاند",
             "أودي",
-            "سوبارو"
+            "نيسان موتورز"
         ]
     },
     {
@@ -3753,9 +3753,9 @@ window.carsQuestionSeed = [
         "factType": "legacy-manufacturer",
         "options": [
             "جنرال موتورز",
-            "سيارات فولفو",
-            "تي في آر",
-            "نيسان موتورز"
+            "بوغاتي",
+            "فيات",
+            "سيارات جاغوار"
         ]
     },
     {
@@ -3773,9 +3773,9 @@ window.carsQuestionSeed = [
         "imageAlt": "تاتا نانو",
         "factType": "legacy-manufacturer",
         "options": [
-            "British Motor Corporation",
-            "مازدا",
-            "آستون مارتن",
+            "أدلر",
+            "هيونداي موتور",
+            "إيسوزو",
             "تاتا موتورز"
         ]
     },
@@ -3794,9 +3794,9 @@ window.carsQuestionSeed = [
         "imageAlt": "لامبورغيني غالاردو",
         "factType": "legacy-manufacturer",
         "options": [
-            "تسلا موتورز",
-            "رينو",
-            "كاديلاك",
+            "جريت وول موتور",
+            "بي واي دي أوتو",
+            "دايملر بنز",
             "لامبورغيني"
         ]
     },
@@ -3815,9 +3815,9 @@ window.carsQuestionSeed = [
         "imageAlt": "فولكس فاغن بيتل",
         "factType": "legacy-manufacturer",
         "options": [
-            "رينو",
-            "لامبورغيني",
-            "كاديلاك",
+            "كيه جي موبيليتي",
+            "Bristol Cars",
+            "سيتروين",
             "مجموعة فولكسفاغن"
         ]
     },
@@ -3836,10 +3836,10 @@ window.carsQuestionSeed = [
         "imageAlt": "Suzuki Wagon R",
         "factType": "legacy-manufacturer",
         "options": [
-            "كيا",
-            "بوغاتي",
+            "جنرال موتورز",
+            "البينا",
             "سوزوكي",
-            "ساب للسيارات"
+            "رينو كوريا موتورز"
         ]
     },
     {
@@ -3858,9 +3858,9 @@ window.carsQuestionSeed = [
         "factType": "legacy-manufacturer",
         "options": [
             "أودي",
-            "بياجيو",
-            "General Motors do Brasil",
-            "مجموعة فولكسفاغن"
+            "Benz & Cie.",
+            "أوسترو دايملر",
+            "شركة دايملر"
         ]
     },
     {
@@ -3878,10 +3878,10 @@ window.carsQuestionSeed = [
         "imageAlt": "Volkswagen Phaeton",
         "factType": "legacy-manufacturer",
         "options": [
-            "Checker Motors Corporation",
-            "سوبارو",
+            "دايملر",
+            "تسلا موتورز",
             "مجموعة فولكسفاغن",
-            "آستون مارتن"
+            "دايهاتسو"
         ]
     },
     {
@@ -3899,9 +3899,9 @@ window.carsQuestionSeed = [
         "imageAlt": "Audi Type D",
         "factType": "legacy-manufacturer",
         "options": [
-            "بي إم دبليو",
-            "British Motor Corporation",
-            "مازدا",
+            "Porsche",
+            "Audi",
+            "Ferrari",
             "أودي"
         ]
     },
@@ -3920,10 +3920,10 @@ window.carsQuestionSeed = [
         "imageAlt": "Audi Type E",
         "factType": "legacy-manufacturer",
         "options": [
-            "Checker Motors Corporation",
+            "ساب للسيارات",
             "أودي",
-            "مازدا",
-            "آستون مارتن"
+            "Ferrari",
+            "بيجو"
         ]
     },
     {
@@ -3941,10 +3941,10 @@ window.carsQuestionSeed = [
         "imageAlt": "Audi Type G",
         "factType": "legacy-manufacturer",
         "options": [
-            "رينو كوريا موتورز",
+            "سيارات جاغوار",
             "أودي",
-            "رولزرويس موتور",
-            "هوندا"
+            "بوغاتي",
+            "فيات"
         ]
     },
     {
@@ -3963,9 +3963,9 @@ window.carsQuestionSeed = [
         "factType": "legacy-manufacturer",
         "options": [
             "Ford do Brasil",
-            "لامبورغيني",
-            "كاديلاك",
-            "شيري"
+            "Ford of Britain",
+            "بريتش ليلاند",
+            "دايهاتسو"
         ]
     },
     {
@@ -3983,10 +3983,10 @@ window.carsQuestionSeed = [
         "imageAlt": "Dodge 400",
         "factType": "legacy-manufacturer",
         "options": [
-            "ميتسوبيشي موتورز",
-            "شركة فورد",
+            "أوتوفاز",
+            "فيراري",
             "دودج",
-            "MG Motor"
+            "شركة فورد"
         ]
     },
     {
@@ -4005,9 +4005,9 @@ window.carsQuestionSeed = [
         "factType": "legacy-manufacturer",
         "options": [
             "هوندا",
-            "مجموعة فولكسفاغن",
-            "جي إم كوريا",
-            "شركة ريلي"
+            "هانوماغ",
+            "بورجوارد",
+            "Laurin & Klement"
         ]
     },
     {
@@ -4026,9 +4026,9 @@ window.carsQuestionSeed = [
         "factType": "legacy-manufacturer",
         "options": [
             "هوندا",
-            "فرنسا",
-            "المملكة المتحدة",
-            "اليابان"
+            "سيارات جاغوار",
+            "ألفا روميو",
+            "MG Motor"
         ]
     },
     {
@@ -4046,9 +4046,9 @@ window.carsQuestionSeed = [
         "imageAlt": "Acura EL",
         "factType": "legacy-manufacturer",
         "options": [
-            "ألمانيا",
-            "إيطاليا",
-            "فرنسا",
+            "ميتسوبيشي موتورز",
+            "شركة فورد",
+            "أوتوفاز",
             "هوندا"
         ]
     },
@@ -4067,9 +4067,9 @@ window.carsQuestionSeed = [
         "imageAlt": "Acura RDX",
         "factType": "legacy-manufacturer",
         "options": [
-            "رولزرويس موتور",
-            "رينو كوريا موتورز",
-            "جنرال موتورز",
+            "هامبر المحدودة",
+            "زوتي أوتو",
+            "زيل",
             "هوندا"
         ]
     },
@@ -4088,10 +4088,10 @@ window.carsQuestionSeed = [
         "imageAlt": "Acura RL",
         "factType": "legacy-manufacturer",
         "options": [
-            "سيارات فولفو",
+            "جي إم كوريا",
             "هوندا",
-            "Zündapp",
-            "أوبل"
+            "General Motors do Brasil",
+            "مجموعة فولكسفاغن"
         ]
     },
     {
@@ -4109,10 +4109,10 @@ window.carsQuestionSeed = [
         "imageAlt": "هوندا فيجور",
         "factType": "legacy-manufacturer",
         "options": [
-            "تويوتا",
+            "Zato vehicles",
             "هوندا",
-            "فيراري",
-            "LMX vehicles"
+            "أوسترو دايملر",
+            "شركة دايملر"
         ]
     },
     {
@@ -4130,10 +4130,10 @@ window.carsQuestionSeed = [
         "imageAlt": "Acura TL",
         "factType": "legacy-manufacturer",
         "options": [
-            "برابوس",
+            "British Motor Corporation",
             "هوندا",
-            "كاديلاك",
-            "شيري"
+            "سكودا أوتو",
+            "بي إم دبليو"
         ]
     },
     {
@@ -4151,9 +4151,9 @@ window.carsQuestionSeed = [
         "imageAlt": "Acura ZDX (2009)",
         "factType": "legacy-manufacturer",
         "options": [
-            "شركة دايملر",
-            "Zato vehicles",
-            "تاتا موتورز",
+            "زيل",
+            "داسيا",
+            "زاستافا",
             "هوندا"
         ]
     },
@@ -4172,10 +4172,10 @@ window.carsQuestionSeed = [
         "imageAlt": "مرسيدس بنز فيتو",
         "factType": "legacy-manufacturer",
         "options": [
-            "Zündapp",
+            "Ford do Brasil",
             "Mercedes-Benz Vans",
-            "Universal Power Drives",
-            "زينفو"
+            "تاتا موتورز",
+            "سوزوكي"
         ]
     },
     {
@@ -4193,9 +4193,9 @@ window.carsQuestionSeed = [
         "imageAlt": "Pontiac Fiero",
         "factType": "legacy-manufacturer",
         "options": [
-            "سكودا أوتو",
-            "بي إم دبليو",
-            "British Motor Corporation",
+            "LMX vehicles",
+            "تويوتا",
+            "أدلر",
             "جنرال موتورز"
         ]
     }

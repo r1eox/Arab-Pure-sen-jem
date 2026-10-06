@@ -1,47 +1,5 @@
 window.seriesQuestionSeed = [
     {
-        "id": "series-legacy-money-heist",
-        "category": "مسلسلات",
-        "difficulty": "سهل",
-        "points": 200,
-        "question": "ما اسم المسلسل الإسباني الذي تدور قصته حول سرقة دار سك العملة؟",
-        "answer": "La Casa de Papel",
-        "imageAlt": "La Casa de Papel",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3ELa%20Casa%20de%20Papel%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "بطولة ألبارو مورتي، واشتهر فيه فريق يرتدي الأحمر ويستخدم أقنعة مستوحاة من سلفادور دالي.",
-        "source": "https://www.wikidata.org/wiki/Q29647346",
-        "imageSource": "",
-        "imageKind": "illustration",
-        "factType": "legacy-title",
-        "options": [
-            "La Casa de Papel",
-            "Roman Wilhelmi",
-            "ديفيد جيونتولي",
-            "ميشيل أوباما"
-        ]
-    },
-    {
-        "id": "series-legacy-breaking-bad",
-        "category": "مسلسلات",
-        "difficulty": "متوسط",
-        "points": 400,
-        "question": "في أي دولة تدور أحداث مسلسل Breaking Bad؟",
-        "answer": "الولايات المتحدة",
-        "imageAlt": "Breaking Bad",
-        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Flag_of_the_United_States_%28DDD-F-416E_specifications%29.svg/960px-Flag_of_the_United_States_%28DDD-F-416E_specifications%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "hint": "تدور الأحداث حول والتر وايت وجيسي بينكمان في مدينة ألباكركي بولاية نيومكسيكو.",
-        "source": "https://www.wikidata.org/wiki/Q30",
-        "imageSource": "https://en.wikipedia.org/wiki/United_States",
-        "imageKind": "article",
-        "factType": "country",
-        "options": [
-            "ليندسي لوهان",
-            "الولايات المتحدة",
-            "SuChin Pak",
-            "لورا كارمين"
-        ]
-    },
-    {
         "id": "series-legacy-anime-platform",
         "category": "مسلسلات",
         "difficulty": "صعب",
@@ -57,9 +15,9 @@ window.seriesQuestionSeed = [
         "factType": "platform",
         "options": [
             "Crunchyroll",
-            "الإنجليزية",
-            "الكورية",
-            "الإسبانية"
+            "Netflix",
+            "Funimation",
+            "HIDIVE"
         ]
     },
     {
@@ -77,10 +35,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "بيكمان ورلد",
         "factType": "year",
         "options": [
-            "كندا",
+            "1978",
             "1992",
-            "بولندا",
-            "فنلندا"
+            "2002",
+            "1974"
         ],
         "clueFacts": {
             "cast": "إيليزا شنايدر",
@@ -96,7 +54,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "سهل",
         "points": 100,
-        "question": "ما أحد تصنيفات مسلسل «Rookie Blue»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: ما أحد تصنيفات مسلسل «Rookie Blue»؟",
         "answer": "دراما تلفزيونية",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3ERookie%20Blue%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين غريغوري سميث، بلد الإنتاج كندا.",
@@ -107,9 +65,9 @@ window.seriesQuestionSeed = [
         "factType": "genre",
         "options": [
             "دراما تلفزيونية",
-            "Sherlock",
-            "الولايات المتحدة",
-            "بولندا"
+            "sketch comedy",
+            "television talk show",
+            "دراما قانونية"
         ],
         "clueFacts": {
             "cast": "غريغوري سميث",
@@ -125,7 +83,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر إحدى دول إنتاج مسلسل «More Than Life at Stake».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى دول إنتاج مسلسل «More Than Life at Stake».",
         "answer": "بولندا",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EMore%20Than%20Life%20at%20Stake%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين يان إنجليرت، المبتكر Zbigniew Safjan.",
@@ -136,9 +94,9 @@ window.seriesQuestionSeed = [
         "factType": "country",
         "options": [
             "بولندا",
-            "Linda Wallem",
-            "لاري ديفيد",
-            "ناثان إتش. جوران"
+            "اليابان",
+            "ألمانيا الشرقية",
+            "إيران"
         ],
         "clueFacts": {
             "cast": "يان إنجليرت",
@@ -154,7 +112,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر أحد الممثلين المشاركين في مسلسل «Czterej pancerni i pies».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد الممثلين المشاركين في مسلسل «Czterej pancerni i pies».",
         "answer": "Roman Wilhelmi",
         "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Premiera_serialu_%22Czterej_Pancerni_i_pies%22_w_Sali_Kongresowej_Pa%C5%82acu_Kultury_i_Nauki_%281966%29_%28cropped%29.jpg/960px-Premiera_serialu_%22Czterej_Pancerni_i_pies%22_w_Sali_Kongresowej_Pa%C5%82acu_Kultury_i_Nauki_%281966%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "hint": "قرائن عن العمل: بلد الإنتاج جمهورية بولندا الشعبية، التصنيف مسلسل مغامرات.",
@@ -165,9 +123,9 @@ window.seriesQuestionSeed = [
         "factType": "cast",
         "options": [
             "Roman Wilhelmi",
-            "أوبرا الفضاء",
-            "مسلسل كوميدي",
-            "music television"
+            "كارستن بيورنلند",
+            "بام فيريس",
+            "ديفيد جيونتولي"
         ],
         "clueFacts": {
             "cast": "Roman Wilhelmi",
@@ -182,7 +140,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر أحد مبتكري مسلسل «ستار تريك: السلسلة الأصلية».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد مبتكري مسلسل «ستار تريك: السلسلة الأصلية».",
         "answer": "جين رودينبيري",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Star%20Trek%20crew%20members.jpg?width=900",
         "hint": "قرائن عن العمل: أحد الممثلين وليم شتنر، بلد الإنتاج الولايات المتحدة.",
@@ -192,10 +150,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "ستار تريك: السلسلة الأصلية",
         "factType": "creator",
         "options": [
-            "كارستن بيورنلند",
+            "Jeff Eastin",
             "جين رودينبيري",
-            "جوليان مكمان",
-            "توني أولر"
+            "لاري ديفيد",
+            "ناثان إتش. جوران"
         ],
         "clueFacts": {
             "cast": "وليم شتنر",
@@ -221,9 +179,9 @@ window.seriesQuestionSeed = [
         "imageAlt": "اختلال ضال",
         "factType": "language",
         "options": [
-            "سيدني شيلدون",
-            "سوزان هاريس",
-            "غلين لارسون",
+            "الألمانية",
+            "الفنلندية",
+            "اليابانية",
             "الإنجليزية الأمريكية"
         ],
         "clueFacts": {
@@ -250,10 +208,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "توين بيكس",
         "factType": "year",
         "options": [
-            "اليابانية",
+            "2002",
             "1990",
-            "الألمانية",
-            "الفنلندية"
+            "2005",
+            "1999"
         ],
         "clueFacts": {
             "cast": "ديفيد لينش",
@@ -269,7 +227,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "سهل",
         "points": 100,
-        "question": "ما أحد تصنيفات مسلسل «تشاك»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: ما أحد تصنيفات مسلسل «تشاك»؟",
         "answer": "مسلسل أكشن",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D8%AA%D8%B4%D8%A7%D9%83%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين عيسى مصطفى، بلد الإنتاج الولايات المتحدة.",
@@ -279,10 +237,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "تشاك",
         "factType": "genre",
         "options": [
-            "ديفيد بينيوف",
-            "Linda Wallem",
+            "music television",
+            "تلفزيون الواقع",
             "مسلسل أكشن",
-            "ميشيل كينغ"
+            "مسلسل كوميدي"
         ],
         "clueFacts": {
             "cast": "عيسى مصطفى",
@@ -298,7 +256,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر إحدى دول إنتاج مسلسل «الملفات الغامضة».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى دول إنتاج مسلسل «الملفات الغامضة».",
         "answer": "الولايات المتحدة",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20X-Files%20Office.jpg?width=900",
         "hint": "قرائن عن العمل: أحد الممثلين ديف غرول، المبتكر كريس كارتر.",
@@ -308,9 +266,9 @@ window.seriesQuestionSeed = [
         "imageAlt": "الملفات الغامضة",
         "factType": "country",
         "options": [
-            "Robert L. Collins",
-            "Ian Mackintosh",
-            "مايكل روس",
+            "بولندا",
+            "فنلندا",
+            "كندا",
             "الولايات المتحدة"
         ],
         "clueFacts": {
@@ -327,7 +285,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر أحد الممثلين المشاركين في مسلسل «مسلسل غريم».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد الممثلين المشاركين في مسلسل «مسلسل غريم».",
         "answer": "ديفيد جيونتولي",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D9%85%D8%B3%D9%84%D8%B3%D9%84%20%D8%BA%D8%B1%D9%8A%D9%85%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: بلد الإنتاج الولايات المتحدة، المبتكر David Greenwalt.",
@@ -337,9 +295,9 @@ window.seriesQuestionSeed = [
         "imageAlt": "مسلسل غريم",
         "factType": "cast",
         "options": [
-            "Rolf Honold",
-            "ديفيد جاكوبس",
-            "الإنجليزية الأمريكية",
+            "عيسى مصطفى",
+            "جيجي برويتي",
+            "مايكل بلومبيرغ",
             "ديفيد جيونتولي"
         ],
         "clueFacts": {
@@ -356,7 +314,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر أحد مبتكري مسلسل «آي كارلي».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد مبتكري مسلسل «آي كارلي».",
         "answer": "دان شنايدر",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/ICarly%20Cast%202012.jpg?width=900",
         "hint": "قرائن عن العمل: أحد الممثلين جينيت مكوردي، بلد الإنتاج الولايات المتحدة.",
@@ -366,10 +324,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "آي كارلي",
         "factType": "creator",
         "options": [
-            "كارستن بيورنلند",
+            "سوزان هاريس",
             "دان شنايدر",
-            "جوليان مكمان",
-            "توني أولر"
+            "غريغ غارسيا",
+            "سيدني شيلدون"
         ],
         "clueFacts": {
             "cast": "جينيت مكوردي",
@@ -395,9 +353,9 @@ window.seriesQuestionSeed = [
         "imageAlt": "فرينج",
         "factType": "language",
         "options": [
-            "Funimation",
-            "HIDIVE",
-            "Disney+",
+            "الألمانية",
+            "الفنلندية",
+            "اليابانية",
             "الإنجليزية"
         ],
         "clueFacts": {
@@ -424,10 +382,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "دونت تراست ذا بي---- إن أبارتمينت 23",
         "factType": "year",
         "options": [
-            "دراما تاريخية",
+            "1971",
             "2012",
-            "خيال تاريخي",
-            "مسلسل جريمة"
+            "2013",
+            "2008"
         ],
         "clueFacts": {
             "cast": "كريستين ريتر",
@@ -442,7 +400,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "سهل",
         "points": 100,
-        "question": "ما أحد تصنيفات مسلسل «Rizzoli & Isles»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: ما أحد تصنيفات مسلسل «Rizzoli & Isles»؟",
         "answer": "دراما تلفزيونية",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3ERizzoli%20%26amp%3B%20Isles%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين لورين براكو، بلد الإنتاج الولايات المتحدة.",
@@ -452,9 +410,9 @@ window.seriesQuestionSeed = [
         "imageAlt": "Rizzoli & Isles",
         "factType": "genre",
         "options": [
-            "الكورية",
-            "الإسبانية",
-            "الألمانية",
+            "كوميديا درامية",
+            "كوميديا الموقف",
+            "برنامج مسابقات",
             "دراما تلفزيونية"
         ],
         "clueFacts": {
@@ -471,7 +429,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر إحدى دول إنتاج مسلسل «فريداي نايت لايتس».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى دول إنتاج مسلسل «فريداي نايت لايتس».",
         "answer": "الولايات المتحدة",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D9%81%D8%B1%D9%8A%D8%AF%D8%A7%D9%8A%20%D9%86%D8%A7%D9%8A%D8%AA%20%D9%84%D8%A7%D9%8A%D8%AA%D8%B3%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين زاك جيلفورد، المبتكر بيتر بيرغ.",
@@ -482,9 +440,9 @@ window.seriesQuestionSeed = [
         "factType": "country",
         "options": [
             "الولايات المتحدة",
-            "دايفيد دي فريس",
-            "Rolf Honold",
-            "ديفيد جاكوبس"
+            "كندا",
+            "المملكة المتحدة",
+            "كوريا الجنوبية"
         ],
         "clueFacts": {
             "cast": "زاك جيلفورد",
@@ -496,40 +454,11 @@ window.seriesQuestionSeed = [
         }
     },
     {
-        "id": "series-fact-Q4525",
-        "category": "مسلسلات",
-        "difficulty": "سهل",
-        "points": 100,
-        "question": "اذكر أحد الممثلين المشاركين في مسلسل «ن سي أي س».",
-        "answer": "ميشيل أوباما",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D9%86%20%D8%B3%D9%8A%20%D8%A3%D9%8A%20%D8%B3%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "قرائن عن العمل: بلد الإنتاج الولايات المتحدة، المبتكر دونالد بيليساريو.",
-        "source": "https://www.wikidata.org/wiki/Q4525",
-        "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "ن سي أي س",
-        "factType": "cast",
-        "options": [
-            "ميشيل أوباما",
-            "2012",
-            "1988",
-            "2010"
-        ],
-        "clueFacts": {
-            "cast": "ميشيل أوباما",
-            "country": "الولايات المتحدة",
-            "creator": "دونالد بيليساريو",
-            "genre": "مسلسل أكشن",
-            "language": "الإنجليزية",
-            "year": "2003"
-        }
-    },
-    {
         "id": "series-fact-Q4529",
         "category": "مسلسلات",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر أحد مبتكري مسلسل «فيرونيكا مارس».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد مبتكري مسلسل «فيرونيكا مارس».",
         "answer": "روب توماس",
         "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Veronica_Mars_2004_logo.svg/960px-Veronica_Mars_2004_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "hint": "قرائن عن العمل: أحد الممثلين كايلا إيويل، بلد الإنتاج الولايات المتحدة.",
@@ -540,9 +469,9 @@ window.seriesQuestionSeed = [
         "factType": "creator",
         "options": [
             "روب توماس",
-            "1989",
-            "2013",
-            "2008"
+            "Robert L. Collins",
+            "Ian Mackintosh",
+            "مايكل روس"
         ],
         "clueFacts": {
             "cast": "كايلا إيويل",
@@ -568,9 +497,9 @@ window.seriesQuestionSeed = [
         "imageAlt": "فيكتوريوس",
         "factType": "language",
         "options": [
-            "جون بارومان",
-            "ريتشارد باسهارت",
-            "ديفيد هيلويت",
+            "الكورية",
+            "الإسبانية",
+            "الألمانية",
             "الإنجليزية"
         ],
         "clueFacts": {
@@ -597,10 +526,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "ريد دوارف",
         "factType": "year",
         "options": [
-            "Jeff Eastin",
-            "راسيل ديفيز",
+            "1987",
+            "2011",
             "1988",
-            "ناثان إتش. جوران"
+            "2010"
         ],
         "clueFacts": {
             "cast": "روبرت ليويلين",
@@ -616,7 +545,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "سهل",
         "points": 100,
-        "question": "ما أحد تصنيفات مسلسل «نمبرز»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: ما أحد تصنيفات مسلسل «نمبرز»؟",
         "answer": "دراما تلفزيونية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Numb3rs%20title%20screen%20capture.jpg?width=900",
         "hint": "قرائن عن العمل: أحد الممثلين نافي روات، بلد الإنتاج الولايات المتحدة.",
@@ -626,10 +555,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "نمبرز",
         "factType": "genre",
         "options": [
-            "باربرا كيلرمان",
-            "عيسى مصطفى",
+            "television talk show",
+            "دراما قانونية",
             "دراما تلفزيونية",
-            "لوكاس كروكشانك"
+            "sketch comedy"
         ],
         "clueFacts": {
             "cast": "نافي روات",
@@ -645,7 +574,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر إحدى دول إنتاج مسلسل «إن سي آي إس: لوس أنجلوس».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى دول إنتاج مسلسل «إن سي آي إس: لوس أنجلوس».",
         "answer": "الولايات المتحدة",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D8%A5%D9%86%20%D8%B3%D9%8A%20%D8%A2%D9%8A%20%D8%A5%D8%B3%3A%20%D9%84%D9%88%D8%B3%20%D8%A3%D9%86%D8%AC%D9%84%D9%88%D8%B3%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين كلير فورلاني، المبتكر شين برينار.",
@@ -655,10 +584,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "إن سي آي إس: لوس أنجلوس",
         "factType": "country",
         "options": [
-            "1974",
-            "1978",
+            "إيران",
+            "بولندا",
             "الولايات المتحدة",
-            "2002"
+            "ألمانيا الشرقية"
         ],
         "clueFacts": {
             "cast": "كلير فورلاني",
@@ -674,7 +603,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر أحد مبتكري مسلسل «TV total».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد مبتكري مسلسل «TV total».",
         "answer": "ستيفان راب",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3ETV%20total%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: بلد الإنتاج ألمانيا، التصنيف كوميديا.",
@@ -685,9 +614,9 @@ window.seriesQuestionSeed = [
         "factType": "creator",
         "options": [
             "ستيفان راب",
-            "تلفزيون الواقع",
-            "كوميديا درامية",
-            "كوميديا الموقف"
+            "لاري ديفيد",
+            "ناثان إتش. جوران",
+            "Jeff Eastin"
         ],
         "clueFacts": {
             "country": "ألمانيا",
@@ -712,10 +641,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "نظرية الانفجار العظيم",
         "factType": "language",
         "options": [
-            "الألمانية",
-            "الإنجليزية",
             "الكورية",
-            "الإسبانية"
+            "الإنجليزية",
+            "اليابانية",
+            "الإنجليزية الأمريكية"
         ],
         "clueFacts": {
             "cast": "كالي كوكو",
@@ -742,9 +671,9 @@ window.seriesQuestionSeed = [
         "factType": "year",
         "options": [
             "2010",
-            "ديفيد هيلويت",
-            "Michael Jayston",
-            "لوكاس كروكشانك"
+            "2007",
+            "1992",
+            "1990"
         ],
         "clueFacts": {
             "cast": "وليم شتنر",
@@ -760,7 +689,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "سهل",
         "points": 100,
-        "question": "ما أحد تصنيفات مسلسل «فايرفلاي (مسلسل)»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: ما أحد تصنيفات مسلسل «فايرفلاي (مسلسل)»؟",
         "answer": "أوبرا الفضاء",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D9%81%D8%A7%D9%8A%D8%B1%D9%81%D9%84%D8%A7%D9%8A%20(%D9%85%D8%B3%D9%84%D8%B3%D9%84)%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين كرستينا هندريكس، بلد الإنتاج الولايات المتحدة.",
@@ -770,10 +699,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "فايرفلاي (مسلسل)",
         "factType": "genre",
         "options": [
-            "فنلندا",
-            "كندا",
+            "دراما تاريخية",
+            "دراما",
             "أوبرا الفضاء",
-            "بولندا"
+            "مسلسل جريمة"
         ],
         "clueFacts": {
             "cast": "كرستينا هندريكس",
@@ -789,7 +718,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر إحدى دول إنتاج مسلسل «Big Brother».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى دول إنتاج مسلسل «Big Brother».",
         "answer": "فنلندا",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EBig%20Brother%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين آنا آبرو، لغة العمل الفنلندية.",
@@ -799,10 +728,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "Big Brother",
         "factType": "country",
         "options": [
-            "جين رودينبيري",
+            "ألمانيا",
             "فنلندا",
-            "كارستن بيورنلند",
-            "بام فيريس"
+            "المملكة المتحدة",
+            "كوريا الجنوبية"
         ],
         "clueFacts": {
             "cast": "آنا آبرو",
@@ -816,7 +745,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر أحد الممثلين المشاركين في مسلسل «Idols».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد الممثلين المشاركين في مسلسل «Idols».",
         "answer": "Ellen Jokikunnas",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EIdols%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: بلد الإنتاج فنلندا، لغة العمل الفنلندية.",
@@ -826,9 +755,9 @@ window.seriesQuestionSeed = [
         "imageAlt": "Idols",
         "factType": "cast",
         "options": [
-            "اليابانية",
-            "Roman Wilhelmi",
-            "ديفيد جيونتولي",
+            "جون رايز-ديفيس",
+            "ديفيد دينمان",
+            "سورين مولينج",
             "Ellen Jokikunnas"
         ],
         "clueFacts": {
@@ -843,7 +772,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر أحد مبتكري مسلسل «The World at War».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد مبتكري مسلسل «The World at War».",
         "answer": "جيريمي إيزاك",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EThe%20World%20at%20War%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: بلد الإنتاج المملكة المتحدة، التصنيف برنامج وثائقي.",
@@ -853,10 +782,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "The World at War",
         "factType": "creator",
         "options": [
-            "1999",
-            "2002",
+            "Linda Wallem",
+            "لاري ديفيد",
             "جيريمي إيزاك",
-            "2005"
+            "ديفيد بينيوف"
         ],
         "clueFacts": {
             "country": "المملكة المتحدة",
@@ -881,9 +810,9 @@ window.seriesQuestionSeed = [
         "imageAlt": "ساترداي نايت لايف",
         "factType": "language",
         "options": [
-            "الولايات المتحدة",
-            "بولندا",
-            "فنلندا",
+            "الألمانية",
+            "الفنلندية",
+            "اليابانية",
             "الإنجليزية"
         ],
         "clueFacts": {
@@ -911,9 +840,9 @@ window.seriesQuestionSeed = [
         "factType": "year",
         "options": [
             "1987",
-            "2012",
-            "1988",
-            "2010"
+            "1992",
+            "1990",
+            "2012"
         ],
         "clueFacts": {
             "cast": "باتريك ستيوارت",
@@ -929,7 +858,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "سهل",
         "points": 100,
-        "question": "ما أحد تصنيفات مسلسل «سيرك مونتي بايثون الطائر»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: ما أحد تصنيفات مسلسل «سيرك مونتي بايثون الطائر»؟",
         "answer": "مسلسل كوميدي",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D8%B3%D9%8A%D8%B1%D9%83%20%D9%85%D9%88%D9%86%D8%AA%D9%8A%20%D8%A8%D8%A7%D9%8A%D8%AB%D9%88%D9%86%20%D8%A7%D9%84%D8%B7%D8%A7%D8%A6%D8%B1%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين غراهام تشابمان، بلد الإنتاج المملكة المتحدة.",
@@ -940,9 +869,9 @@ window.seriesQuestionSeed = [
         "factType": "genre",
         "options": [
             "مسلسل كوميدي",
-            "Sherlock",
-            "الولايات المتحدة",
-            "بولندا"
+            "مسلسل جريمة",
+            "دراما تاريخية",
+            "دراما"
         ],
         "clueFacts": {
             "cast": "غراهام تشابمان",
@@ -958,7 +887,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر إحدى دول إنتاج مسلسل «مودرن فاميلي».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى دول إنتاج مسلسل «مودرن فاميلي».",
         "answer": "الولايات المتحدة",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D9%85%D9%88%D8%AF%D8%B1%D9%86%20%D9%81%D8%A7%D9%85%D9%8A%D9%84%D9%8A%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين فريد آرميسين، المبتكر ستيفن ليفيتان.",
@@ -968,10 +897,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "مودرن فاميلي",
         "factType": "country",
         "options": [
-            "دراما تاريخية",
+            "كوريا الجنوبية",
             "الولايات المتحدة",
-            "خيال تاريخي",
-            "مسلسل جريمة"
+            "كندا",
+            "المملكة المتحدة"
         ],
         "clueFacts": {
             "cast": "فريد آرميسين",
@@ -987,7 +916,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر أحد الممثلين المشاركين في مسلسل «دبليو دبليو إي راو».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد الممثلين المشاركين في مسلسل «دبليو دبليو إي راو».",
         "answer": "شون مايكلز",
         "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/WWE_RAW_Logo_2025.svg/960px-WWE_RAW_Logo_2025.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "hint": "قرائن عن العمل: بلد الإنتاج الولايات المتحدة، المبتكر فينس مكمان.",
@@ -997,10 +926,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "دبليو دبليو إي راو",
         "factType": "cast",
         "options": [
-            "جون رايز-ديفيس",
+            "Ellen Jokikunnas",
             "شون مايكلز",
-            "كلانسي براون",
-            "سنوب دوغ"
+            "ديفيد جيونتولي",
+            "ميشيل أوباما"
         ],
         "clueFacts": {
             "cast": "شون مايكلز",
@@ -1026,10 +955,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "Pair of Kings",
         "factType": "language",
         "options": [
-            "2005",
-            "1999",
+            "الألمانية",
+            "الفنلندية",
             "الإنجليزية",
-            "2011"
+            "الإسبانية"
         ],
         "clueFacts": {
             "cast": "لوغان هندرسون",
@@ -1054,10 +983,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "Protect the Boss",
         "factType": "year",
         "options": [
-            "Ellen Jokikunnas",
-            "شون مايكلز",
+            "1992",
+            "1990",
             "2011",
-            "ميشيل أوباما"
+            "2007"
         ],
         "clueFacts": {
             "cast": "اهن ناي سانغ",
@@ -1072,7 +1001,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "سهل",
         "points": 100,
-        "question": "ما أحد تصنيفات مسلسل «I'm in the Band»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: ما أحد تصنيفات مسلسل «I'm in the Band»؟",
         "answer": "music television",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EI%26apos%3Bm%20in%20the%20Band%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين ستيفن فول، بلد الإنتاج الولايات المتحدة.",
@@ -1082,9 +1011,9 @@ window.seriesQuestionSeed = [
         "imageAlt": "I'm in the Band",
         "factType": "genre",
         "options": [
-            "لاري ديفيد",
-            "ناثان إتش. جوران",
-            "Jeff Eastin",
+            "كوميديا درامية",
+            "كوميديا الموقف",
+            "برنامج مسابقات",
             "music television"
         ],
         "clueFacts": {
@@ -1100,7 +1029,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر إحدى دول إنتاج مسلسل «Aaron Stone».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى دول إنتاج مسلسل «Aaron Stone».",
         "answer": "كندا",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EAaron%20Stone%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين شونا ماكدونالد، التصنيف مسلسل أكشن.",
@@ -1111,9 +1040,9 @@ window.seriesQuestionSeed = [
         "factType": "country",
         "options": [
             "كندا",
-            "ستيفان راب",
-            "جيريمي إيزاك",
-            "ميشيل كينغ"
+            "ألمانيا الشرقية",
+            "إيران",
+            "الولايات المتحدة"
         ],
         "clueFacts": {
             "cast": "شونا ماكدونالد",
@@ -1128,7 +1057,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "سهل",
         "points": 200,
-        "question": "اذكر أحد الممثلين المشاركين في مسلسل «Pirate Islands».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد الممثلين المشاركين في مسلسل «Pirate Islands».",
         "answer": "إليزا تايلور",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EPirate%20Islands%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: بلد الإنتاج أستراليا، المبتكر Jonathan M. Shiff.",
@@ -1139,9 +1068,9 @@ window.seriesQuestionSeed = [
         "factType": "cast",
         "options": [
             "إليزا تايلور",
-            "راسيل ديفيز",
-            "غريغ غارسيا",
-            "سيدني شيلدون"
+            "ريتشارد باسهارت",
+            "ديفيد هيلويت",
+            "Michael Jayston"
         ],
         "clueFacts": {
             "cast": "إليزا تايلور",
@@ -1157,7 +1086,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "سهل",
         "points": 200,
-        "question": "اذكر أحد مبتكري مسلسل «ذا غود وايف».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد مبتكري مسلسل «ذا غود وايف».",
         "answer": "ميشيل كينغ",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D8%B0%D8%A7%20%D8%BA%D9%88%D8%AF%20%D9%88%D8%A7%D9%8A%D9%81%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين بيل مار، بلد الإنتاج الولايات المتحدة.",
@@ -1167,10 +1096,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "ذا غود وايف",
         "factType": "creator",
         "options": [
-            "ليندسي لوهان",
-            "جون بارومان",
+            "Linda Wallem",
+            "لاري ديفيد",
             "ميشيل كينغ",
-            "لورا كارمين"
+            "ديفيد بينيوف"
         ],
         "clueFacts": {
             "cast": "بيل مار",
@@ -1196,10 +1125,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "ذا يونغ توركس",
         "factType": "language",
         "options": [
-            "شون مايكلز",
-            "إليزا تايلور",
+            "الكورية",
+            "الإسبانية",
             "الإنجليزية",
-            "Ellen Jokikunnas"
+            "الإنجليزية الأمريكية"
         ],
         "clueFacts": {
             "cast": "تشينك أويغر",
@@ -1225,10 +1154,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "تحدي بلا حدود",
         "factType": "year",
         "options": [
-            "جوليان مكمان",
+            "1990",
             "2005",
-            "ستان لي",
-            "دوين جونسون"
+            "2007",
+            "1992"
         ],
         "clueFacts": {
             "cast": "Noh Hong-chul",
@@ -1244,7 +1173,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "سهل",
         "points": 200,
-        "question": "ما أحد تصنيفات مسلسل «رانينغ مان»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: ما أحد تصنيفات مسلسل «رانينغ مان»؟",
         "answer": "تلفزيون الواقع",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D8%B1%D8%A7%D9%86%D9%8A%D9%86%D8%BA%20%D9%85%D8%A7%D9%86%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين كيم جونغ كوك، بلد الإنتاج كوريا الجنوبية.",
@@ -1254,10 +1183,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "رانينغ مان",
         "factType": "genre",
         "options": [
-            "جيريمي إيزاك",
+            "كوميديا درامية",
             "تلفزيون الواقع",
-            "روب توماس",
-            "ستيفان راب"
+            "مسلسل كوميدي",
+            "music television"
         ],
         "clueFacts": {
             "cast": "كيم جونغ كوك",
@@ -1272,7 +1201,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "سهل",
         "points": 200,
-        "question": "اذكر إحدى دول إنتاج مسلسل «سانتا باربرا».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى دول إنتاج مسلسل «سانتا باربرا».",
         "answer": "الولايات المتحدة",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D8%B3%D8%A7%D9%86%D8%AA%D8%A7%20%D8%A8%D8%A7%D8%B1%D8%A8%D8%B1%D8%A7%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين ليوناردو دي كابريو، المبتكر Bridget and Jerome Dobson.",
@@ -1282,9 +1211,9 @@ window.seriesQuestionSeed = [
         "imageAlt": "سانتا باربرا",
         "factType": "country",
         "options": [
-            "ليندسي لوهان",
-            "جون بارومان",
-            "ريتشارد باسهارت",
+            "ألمانيا الشرقية",
+            "إيران",
+            "بولندا",
             "الولايات المتحدة"
         ],
         "clueFacts": {
@@ -1311,10 +1240,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "The RTL Comedy Week",
         "factType": "year",
         "options": [
-            "HIDIVE",
-            "Disney+",
+            "1974",
+            "1978",
             "2012",
-            "Funimation"
+            "2002"
         ],
         "clueFacts": {
             "country": "ألمانيا",
@@ -1327,7 +1256,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "سهل",
         "points": 200,
-        "question": "ما أحد تصنيفات مسلسل «لوي»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: ما أحد تصنيفات مسلسل «لوي»؟",
         "answer": "كوميديا درامية",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D9%84%D9%88%D9%8A%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين لويس سي.كي.، بلد الإنتاج الولايات المتحدة.",
@@ -1337,10 +1266,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "لوي",
         "factType": "genre",
         "options": [
-            "ألمانيا الشرقية",
+            "مسلسل أكشن",
             "كوميديا درامية",
-            "ألمانيا",
-            "اليابان"
+            "تيلينوفيلا",
+            "دراما تلفزيونية"
         ],
         "clueFacts": {
             "cast": "لويس سي.كي.",
@@ -1356,7 +1285,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "سهل",
         "points": 200,
-        "question": "اذكر إحدى دول إنتاج مسلسل «هاوس».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى دول إنتاج مسلسل «هاوس».",
         "answer": "الولايات المتحدة",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D9%87%D8%A7%D9%88%D8%B3%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين كايلا إيويل، المبتكر ديفيد شور.",
@@ -1366,10 +1295,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "هاوس",
         "factType": "country",
         "options": [
-            "لاري ديفيد",
+            "كندا",
             "الولايات المتحدة",
-            "ديفيد بينيوف",
-            "Linda Wallem"
+            "بولندا",
+            "فنلندا"
         ],
         "clueFacts": {
             "cast": "كايلا إيويل",
@@ -1385,7 +1314,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "سهل",
         "points": 200,
-        "question": "اذكر أحد الممثلين المشاركين في مسلسل «الضياع».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد الممثلين المشاركين في مسلسل «الضياع».",
         "answer": "كلانسي براون",
         "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Lost_main_title.svg/960px-Lost_main_title.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "hint": "قرائن عن العمل: بلد الإنتاج الولايات المتحدة، المبتكر جاي جاي أبرامز.",
@@ -1395,9 +1324,9 @@ window.seriesQuestionSeed = [
         "imageAlt": "الضياع",
         "factType": "cast",
         "options": [
-            "جون رايز-ديفيس",
-            "ديفيد دينمان",
-            "سورين مولينج",
+            "عيسى مصطفى",
+            "جيجي برويتي",
+            "مايكل بلومبيرغ",
             "كلانسي براون"
         ],
         "clueFacts": {
@@ -1410,330 +1339,11 @@ window.seriesQuestionSeed = [
         }
     },
     {
-        "id": "series-fact-Q23572",
-        "category": "مسلسلات",
-        "difficulty": "سهل",
-        "points": 200,
-        "question": "اذكر أحد مبتكري مسلسل «صراع العروش».",
-        "answer": "ديفيد بينيوف",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D8%B5%D8%B1%D8%A7%D8%B9%20%D8%A7%D9%84%D8%B9%D8%B1%D9%88%D8%B4%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "قرائن عن العمل: أحد الممثلين توم والشيها، بلد الإنتاج الولايات المتحدة.",
-        "source": "https://www.wikidata.org/wiki/Q23572",
-        "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "صراع العروش",
-        "factType": "creator",
-        "options": [
-            "إيران",
-            "ديفيد بينيوف",
-            "اليابان",
-            "ألمانيا الشرقية"
-        ],
-        "clueFacts": {
-            "cast": "توم والشيها",
-            "country": "الولايات المتحدة",
-            "creator": "ديفيد بينيوف",
-            "genre": "مسلسل أكشن",
-            "language": "الإنجليزية",
-            "year": "2011"
-        }
-    },
-    {
-        "id": "series-fact-Q23577",
-        "category": "مسلسلات",
-        "difficulty": "سهل",
-        "points": 200,
-        "question": "ما اللغة الأصلية لمسلسل «ديكستر»؟",
-        "answer": "الإنجليزية",
-        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Dexter_Logo.svg/960px-Dexter_Logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "hint": "قرائن عن العمل: أحد الممثلين مايكل ك. هول، بلد الإنتاج الولايات المتحدة.",
-        "source": "https://www.wikidata.org/wiki/Q23577",
-        "imageSource": "https://en.wikipedia.org/wiki/Dexter_(TV_series)",
-        "imageKind": "article",
-        "imageAlt": "ديكستر",
-        "factType": "language",
-        "options": [
-            "الإنجليزية",
-            "2006",
-            "1989",
-            "2013"
-        ],
-        "clueFacts": {
-            "cast": "مايكل ك. هول",
-            "country": "الولايات المتحدة",
-            "creator": "James Manos Jr.",
-            "genre": "إثارة",
-            "language": "الإنجليزية",
-            "year": "2006"
-        }
-    },
-    {
-        "id": "series-fact-Q23594",
-        "category": "مسلسلات",
-        "difficulty": "سهل",
-        "points": 200,
-        "question": "في أي سنة بدأ عرض مسلسل «أرض الوطن»؟",
-        "answer": "2011",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D8%A3%D8%B1%D8%B6%20%D8%A7%D9%84%D9%88%D8%B7%D9%86%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "قرائن عن العمل: أحد الممثلين سيباستيان كوخ، بلد الإنتاج الولايات المتحدة.",
-        "source": "https://www.wikidata.org/wiki/Q23594",
-        "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "أرض الوطن",
-        "factType": "year",
-        "options": [
-            "غريغ غارسيا",
-            "2011",
-            "Jeff Eastin",
-            "راسيل ديفيز"
-        ],
-        "clueFacts": {
-            "cast": "سيباستيان كوخ",
-            "country": "الولايات المتحدة",
-            "creator": "Alex Gansa",
-            "genre": "دراما تلفزيونية",
-            "language": "الإنجليزية",
-            "year": "2011"
-        }
-    },
-    {
-        "id": "series-fact-Q23599",
-        "category": "مسلسلات",
-        "difficulty": "سهل",
-        "points": 200,
-        "question": "ما أحد تصنيفات مسلسل «بلا خجل»؟",
-        "answer": "كوميديا درامية",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D8%A8%D9%84%D8%A7%20%D8%AE%D8%AC%D9%84%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "قرائن عن العمل: أحد الممثلين إيمي روسوم، بلد الإنتاج الولايات المتحدة.",
-        "source": "https://www.wikidata.org/wiki/Q23599",
-        "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "بلا خجل",
-        "factType": "genre",
-        "options": [
-            "كوميديا درامية",
-            "غلين لارسون",
-            "Robert L. Collins",
-            "Ian Mackintosh"
-        ],
-        "clueFacts": {
-            "cast": "إيمي روسوم",
-            "country": "الولايات المتحدة",
-            "creator": "بول أبوت",
-            "genre": "كوميديا درامية",
-            "language": "الإنجليزية",
-            "year": "2011"
-        }
-    },
-    {
-        "id": "series-fact-Q23605",
-        "category": "مسلسلات",
-        "difficulty": "سهل",
-        "points": 200,
-        "question": "اذكر إحدى دول إنتاج مسلسل «وقح (مسلسل بريطاني)».",
-        "answer": "المملكة المتحدة",
-        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Shameless_2004_Intertitle.png/960px-Shameless_2004_Intertitle.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "hint": "قرائن عن العمل: أحد الممثلين سياران غريفيثز، المبتكر بول أبوت.",
-        "source": "https://www.wikidata.org/wiki/Q23605",
-        "imageSource": "https://en.wikipedia.org/wiki/Shameless_(British_TV_series)",
-        "imageKind": "article",
-        "imageAlt": "وقح (مسلسل بريطاني)",
-        "factType": "country",
-        "options": [
-            "كارستن بيورنلند",
-            "بام فيريس",
-            "المملكة المتحدة",
-            "توني أولر"
-        ],
-        "clueFacts": {
-            "cast": "سياران غريفيثز",
-            "country": "المملكة المتحدة",
-            "creator": "بول أبوت",
-            "genre": "كوميديا درامية",
-            "language": "الإنجليزية البريطانية",
-            "year": "2004"
-        }
-    },
-    {
-        "id": "series-fact-Q23609",
-        "category": "مسلسلات",
-        "difficulty": "سهل",
-        "points": 200,
-        "question": "اذكر أحد الممثلين المشاركين في مسلسل «ويدز».",
-        "answer": "سنوب دوغ",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D9%88%D9%8A%D8%AF%D8%B2%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "قرائن عن العمل: بلد الإنتاج الولايات المتحدة، المبتكر Jenji Kohan.",
-        "source": "https://www.wikidata.org/wiki/Q23609",
-        "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "ويدز",
-        "factType": "cast",
-        "options": [
-            "روب توماس",
-            "ستيفان راب",
-            "سنوب دوغ",
-            "دان شنايدر"
-        ],
-        "clueFacts": {
-            "cast": "سنوب دوغ",
-            "country": "الولايات المتحدة",
-            "creator": "Jenji Kohan",
-            "genre": "كوميديا درامية",
-            "language": "الإنجليزية",
-            "year": "2005"
-        }
-    },
-    {
-        "id": "series-fact-Q23614",
-        "category": "مسلسلات",
-        "difficulty": "سهل",
-        "points": 200,
-        "question": "اذكر أحد مبتكري مسلسل «الممرضة جاكي».",
-        "answer": "Linda Wallem",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D8%A7%D9%84%D9%85%D9%85%D8%B1%D8%B6%D8%A9%20%D8%AC%D8%A7%D9%83%D9%8A%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "قرائن عن العمل: أحد الممثلين دومينيك فموسا، بلد الإنتاج الولايات المتحدة.",
-        "source": "https://www.wikidata.org/wiki/Q23614",
-        "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "الممرضة جاكي",
-        "factType": "creator",
-        "options": [
-            "Linda Wallem",
-            "الفنلندية",
-            "اليابانية",
-            "جين رودينبيري"
-        ],
-        "clueFacts": {
-            "cast": "دومينيك فموسا",
-            "country": "الولايات المتحدة",
-            "creator": "Linda Wallem",
-            "genre": "كوميديا درامية",
-            "language": "الإنجليزية",
-            "year": "2009"
-        }
-    },
-    {
-        "id": "series-fact-Q23619",
-        "category": "مسلسلات",
-        "difficulty": "سهل",
-        "points": 200,
-        "question": "ما اللغة الأصلية لمسلسل «الكوير تماما مثل الناس الاخرين»؟",
-        "answer": "الإنجليزية",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Queer_As_Folk.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "hint": "قرائن عن العمل: أحد الممثلين شارون جليس، بلد الإنتاج كندا.",
-        "source": "https://www.wikidata.org/wiki/Q23619",
-        "imageSource": "https://en.wikipedia.org/wiki/Queer_as_Folk_(2000_TV_series)",
-        "imageKind": "article",
-        "imageAlt": "الكوير تماما مثل الناس الاخرين",
-        "factType": "language",
-        "options": [
-            "الألمانية",
-            "الفنلندية",
-            "اليابانية",
-            "الإنجليزية"
-        ],
-        "clueFacts": {
-            "cast": "شارون جليس",
-            "country": "كندا",
-            "creator": "راسيل ديفيز",
-            "genre": "كوميديا درامية",
-            "language": "الإنجليزية",
-            "year": "2000"
-        }
-    },
-    {
-        "id": "series-fact-Q23623",
-        "category": "مسلسلات",
-        "difficulty": "سهل",
-        "points": 200,
-        "question": "في أي سنة بدأ عرض مسلسل «Queer as Folk»؟",
-        "answer": "1999",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EQueer%20as%20Folk%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "قرائن عن العمل: أحد الممثلين تشارلي هونام، بلد الإنتاج المملكة المتحدة.",
-        "source": "https://www.wikidata.org/wiki/Q23623",
-        "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "Queer as Folk",
-        "factType": "year",
-        "options": [
-            "كوريا الجنوبية",
-            "ألمانيا",
-            "1999",
-            "المملكة المتحدة"
-        ],
-        "clueFacts": {
-            "cast": "تشارلي هونام",
-            "country": "المملكة المتحدة",
-            "creator": "راسيل ديفيز",
-            "genre": "دراما تلفزيونية",
-            "language": "الإنجليزية",
-            "year": "1999"
-        }
-    },
-    {
-        "id": "series-fact-Q23628",
-        "category": "مسلسلات",
-        "difficulty": "سهل",
-        "points": 200,
-        "question": "ما أحد تصنيفات مسلسل «آل سوبرانو»؟",
-        "answer": "دراما تلفزيونية",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tony%20Soprano%20(The%20Sopranos%20Family%20Tree).jpg?width=900",
-        "hint": "قرائن عن العمل: أحد الممثلين ستيف بوشيمي، بلد الإنتاج الولايات المتحدة.",
-        "source": "https://www.wikidata.org/wiki/Q23628",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Tony_Soprano_(The_Sopranos_Family_Tree).jpg",
-        "imageKind": "commons",
-        "imageAlt": "آل سوبرانو",
-        "factType": "genre",
-        "options": [
-            "Funimation",
-            "دراما تلفزيونية",
-            "Crunchyroll",
-            "Netflix"
-        ],
-        "clueFacts": {
-            "cast": "ستيف بوشيمي",
-            "country": "الولايات المتحدة",
-            "creator": "ديفيد تشيس",
-            "genre": "دراما تلفزيونية",
-            "language": "الإنجليزية",
-            "year": "1999"
-        }
-    },
-    {
-        "id": "series-fact-Q23670",
-        "category": "مسلسلات",
-        "difficulty": "سهل",
-        "points": 200,
-        "question": "اذكر إحدى دول إنتاج مسلسل «فيلادلفيا دائما مشمسة».",
-        "answer": "الولايات المتحدة",
-        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/IASIPTC.svg/960px-IASIPTC.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "hint": "قرائن عن العمل: أحد الممثلين داني ديفيتو، المبتكر روب ماكيلهيني.",
-        "source": "https://www.wikidata.org/wiki/Q23670",
-        "imageSource": "https://en.wikipedia.org/wiki/It's_Always_Sunny_in_Philadelphia",
-        "imageKind": "article",
-        "imageAlt": "فيلادلفيا دائما مشمسة",
-        "factType": "country",
-        "options": [
-            "سنوب دوغ",
-            "جون رايز-ديفيس",
-            "الولايات المتحدة",
-            "كلانسي براون"
-        ],
-        "clueFacts": {
-            "cast": "داني ديفيتو",
-            "country": "الولايات المتحدة",
-            "creator": "روب ماكيلهيني",
-            "genre": "كوميديا الموقف",
-            "language": "الإنجليزية",
-            "year": "2005"
-        }
-    },
-    {
         "id": "series-fact-Q23673",
         "category": "مسلسلات",
         "difficulty": "سهل",
         "points": 200,
-        "question": "اذكر أحد الممثلين المشاركين في مسلسل «كان ياما كان».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد الممثلين المشاركين في مسلسل «كان ياما كان».",
         "answer": "جون رايز-ديفيس",
         "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Once_Upon_A_Time_logo.svg/960px-Once_Upon_A_Time_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "hint": "قرائن عن العمل: بلد الإنتاج الولايات المتحدة، المبتكر إدوارد كتسس.",
@@ -1743,9 +1353,9 @@ window.seriesQuestionSeed = [
         "imageAlt": "كان ياما كان",
         "factType": "cast",
         "options": [
-            "2007",
-            "دراما تلفزيونية",
-            "مسلسل أكشن",
+            "بام فيريس",
+            "Roman Wilhelmi",
+            "ديفيد جيونتولي",
             "جون رايز-ديفيس"
         ],
         "clueFacts": {
@@ -1755,35 +1365,6 @@ window.seriesQuestionSeed = [
             "genre": "دراما تلفزيونية",
             "language": "الإنجليزية",
             "year": "2011"
-        }
-    },
-    {
-        "id": "series-fact-Q23722",
-        "category": "مسلسلات",
-        "difficulty": "سهل",
-        "points": 200,
-        "question": "اذكر أحد مبتكري مسلسل «اكبح حماسك».",
-        "answer": "لاري ديفيد",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D8%A7%D9%83%D8%A8%D8%AD%20%D8%AD%D9%85%D8%A7%D8%B3%D9%83%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "قرائن عن العمل: بلد الإنتاج الولايات المتحدة، التصنيف كوميديا الموقف.",
-        "source": "https://www.wikidata.org/wiki/Q23722",
-        "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "اكبح حماسك",
-        "factType": "creator",
-        "options": [
-            "دراما تلفزيونية",
-            "مسلسل أكشن",
-            "لاري ديفيد",
-            "2007"
-        ],
-        "clueFacts": {
-            "cast": "لاري ديفيد",
-            "country": "الولايات المتحدة",
-            "creator": "لاري ديفيد",
-            "genre": "كوميديا الموقف",
-            "language": "الإنجليزية",
-            "year": "2000"
         }
     },
     {
@@ -1801,10 +1382,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "ساينفيلد",
         "factType": "language",
         "options": [
-            "بام فيريس",
-            "جين رودينبيري",
+            "اليابانية",
+            "الإنجليزية الأمريكية",
             "الإنجليزية",
-            "كارستن بيورنلند"
+            "الفنلندية"
         ],
         "clueFacts": {
             "cast": "جيري ساينفيلد",
@@ -1816,69 +1397,11 @@ window.seriesQuestionSeed = [
         }
     },
     {
-        "id": "series-fact-Q23823",
-        "category": "مسلسلات",
-        "difficulty": "سهل",
-        "points": 200,
-        "question": "في أي سنة بدأ عرض مسلسل «Life's Too Short»؟",
-        "answer": "2011",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3ELife%26apos%3Bs%20Too%20Short%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "قرائن عن العمل: أحد الممثلين ريكي جيرفيه، بلد الإنتاج الولايات المتحدة.",
-        "source": "https://www.wikidata.org/wiki/Q23823",
-        "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "Life's Too Short",
-        "factType": "year",
-        "options": [
-            "2011",
-            "Linda Wallem",
-            "لاري ديفيد",
-            "ناثان إتش. جوران"
-        ],
-        "clueFacts": {
-            "cast": "ريكي جيرفيه",
-            "country": "الولايات المتحدة",
-            "creator": "ريكي جيرفيه",
-            "genre": "كوميديا الموقف",
-            "language": "الإنجليزية",
-            "year": "2011"
-        }
-    },
-    {
-        "id": "series-fact-Q23826",
-        "category": "مسلسلات",
-        "difficulty": "سهل",
-        "points": 200,
-        "question": "ما أحد تصنيفات مسلسل «Extras»؟",
-        "answer": "كوميديا الموقف",
-        "image": "https://upload.wikimedia.org/wikipedia/en/4/48/Extras_title_card.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "hint": "قرائن عن العمل: أحد الممثلين ريكي جيرفيه، بلد الإنتاج المملكة المتحدة.",
-        "source": "https://www.wikidata.org/wiki/Q23826",
-        "imageSource": "https://en.wikipedia.org/wiki/Extras_(TV_series)",
-        "imageKind": "article",
-        "imageAlt": "Extras",
-        "factType": "genre",
-        "options": [
-            "غريغ غارسيا",
-            "كوميديا الموقف",
-            "Jeff Eastin",
-            "راسيل ديفيز"
-        ],
-        "clueFacts": {
-            "cast": "ريكي جيرفيه",
-            "country": "المملكة المتحدة",
-            "creator": "ريكي جيرفيه",
-            "genre": "كوميديا الموقف",
-            "language": "الإنجليزية",
-            "year": "2005"
-        }
-    },
-    {
         "id": "series-fact-Q23829",
         "category": "مسلسلات",
         "difficulty": "سهل",
         "points": 200,
-        "question": "اذكر إحدى دول إنتاج مسلسل «المكتب (مسلسل بريطاني)».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى دول إنتاج مسلسل «المكتب (مسلسل بريطاني)».",
         "answer": "المملكة المتحدة",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Theofficelogo2001.jpg?width=900",
         "hint": "قرائن عن العمل: أحد الممثلين ريكي جيرفيه، المبتكر ريكي جيرفيه.",
@@ -1888,10 +1411,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "المكتب (مسلسل بريطاني)",
         "factType": "country",
         "options": [
-            "سوزان هاريس",
-            "غلين لارسون",
+            "فنلندا",
+            "كندا",
             "المملكة المتحدة",
-            "سيدني شيلدون"
+            "بولندا"
         ],
         "clueFacts": {
             "cast": "ريكي جيرفيه",
@@ -1907,7 +1430,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "سهل",
         "points": 200,
-        "question": "اذكر أحد الممثلين المشاركين في مسلسل «المكتب».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد الممثلين المشاركين في مسلسل «المكتب».",
         "answer": "ديفيد دينمان",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: بلد الإنتاج الولايات المتحدة، التصنيف كوميديا الموقف.",
@@ -1917,9 +1440,9 @@ window.seriesQuestionSeed = [
         "imageAlt": "المكتب",
         "factType": "cast",
         "options": [
-            "سنوب دوغ",
-            "جون رايز-ديفيس",
-            "سورين مولينج",
+            "Ellen Jokikunnas",
+            "شون مايكلز",
+            "إليزا تايلور",
             "ديفيد دينمان"
         ],
         "clueFacts": {
@@ -1945,10 +1468,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "American Guns",
         "factType": "language",
         "options": [
-            "بام فيريس",
-            "جين رودينبيري",
+            "اليابانية",
+            "الإنجليزية الأمريكية",
             "الإنجليزية",
-            "كارستن بيورنلند"
+            "الفنلندية"
         ],
         "clueFacts": {
             "country": "الولايات المتحدة",
@@ -1972,9 +1495,9 @@ window.seriesQuestionSeed = [
         "imageAlt": "The Future Is Wild",
         "factType": "year",
         "options": [
-            "إليزا تايلور",
-            "كلانسي براون",
-            "سنوب دوغ",
+            "2005",
+            "1999",
+            "1974",
             "2002"
         ],
         "clueFacts": {
@@ -1990,7 +1513,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "سهل",
         "points": 200,
-        "question": "ما أحد تصنيفات مسلسل «Due South»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: ما أحد تصنيفات مسلسل «Due South»؟",
         "answer": "كوميديا درامية",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EDue%20South%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين مارك رافالو، بلد الإنتاج الولايات المتحدة.",
@@ -2000,10 +1523,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "Due South",
         "factType": "genre",
         "options": [
-            "تلفزيون الواقع",
-            "كوميديا الموقف",
+            "برنامج مسابقات",
+            "برنامج حواري",
             "كوميديا درامية",
-            "music television"
+            "كوميديا الموقف"
         ],
         "clueFacts": {
             "cast": "مارك رافالو",
@@ -2019,7 +1542,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "سهل",
         "points": 200,
-        "question": "اذكر إحدى دول إنتاج مسلسل «Family Tools».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى دول إنتاج مسلسل «Family Tools».",
         "answer": "الولايات المتحدة",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EFamily%20Tools%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين جي كي سيمونز، التصنيف كوميديا الموقف.",
@@ -2029,10 +1552,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "Family Tools",
         "factType": "country",
         "options": [
-            "مايكل روس",
-            "دايفيد دي فريس",
+            "إيران",
+            "بولندا",
             "الولايات المتحدة",
-            "Ian Mackintosh"
+            "ألمانيا الشرقية"
         ],
         "clueFacts": {
             "cast": "جي كي سيمونز",
@@ -2047,7 +1570,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "سهل",
         "points": 200,
-        "question": "اذكر أحد الممثلين المشاركين في مسلسل «Taxa».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد الممثلين المشاركين في مسلسل «Taxa».",
         "answer": "سورين مولينج",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3ETaxa%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: بلد الإنتاج الدنمارك، التصنيف دراما تلفزيونية.",
@@ -2057,10 +1580,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "Taxa",
         "factType": "cast",
         "options": [
-            "Funimation",
-            "HIDIVE",
+            "إليزا تايلور",
+            "كلانسي براون",
             "سورين مولينج",
-            "Netflix"
+            "شون مايكلز"
         ],
         "clueFacts": {
             "cast": "سورين مولينج",
@@ -2085,9 +1608,9 @@ window.seriesQuestionSeed = [
         "imageAlt": "غايباك",
         "factType": "language",
         "options": [
-            "Funimation",
-            "HIDIVE",
-            "Disney+",
+            "الإنجليزية",
+            "الإسبانية",
+            "الألمانية",
             "الكورية"
         ],
         "clueFacts": {
@@ -2114,9 +1637,9 @@ window.seriesQuestionSeed = [
         "factType": "year",
         "options": [
             "2005",
-            "Roman Wilhelmi",
-            "ديفيد جيونتولي",
-            "ميشيل أوباما"
+            "1991",
+            "1983",
+            "2007"
         ],
         "clueFacts": {
             "cast": "Dirk Galuba",
@@ -2131,7 +1654,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "سهل",
         "points": 200,
-        "question": "ما أحد تصنيفات مسلسل «اكذب علي»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: ما أحد تصنيفات مسلسل «اكذب علي»؟",
         "answer": "دراما تلفزيونية",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D8%A7%D9%83%D8%B0%D8%A8%20%D8%B9%D9%84%D9%8A%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين جوانا برادي، بلد الإنتاج الولايات المتحدة.",
@@ -2142,9 +1665,9 @@ window.seriesQuestionSeed = [
         "factType": "genre",
         "options": [
             "دراما تلفزيونية",
-            "كوميديا الموقف",
-            "برنامج مسابقات",
-            "برنامج حواري"
+            "دراما قانونية",
+            "تيلينوفيلا",
+            "مسلسل أكشن"
         ],
         "clueFacts": {
             "cast": "جوانا برادي",
@@ -2160,7 +1683,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "سهل",
         "points": 200,
-        "question": "اذكر إحدى دول إنتاج مسلسل «Here Comes Mr. Oh».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى دول إنتاج مسلسل «Here Comes Mr. Oh».",
         "answer": "كوريا الجنوبية",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EHere%20Comes%20Mr.%20Oh%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين Lee Jang-woo، التصنيف فلم عائلي.",
@@ -2171,9 +1694,9 @@ window.seriesQuestionSeed = [
         "factType": "country",
         "options": [
             "كوريا الجنوبية",
-            "شون مايكلز",
-            "إليزا تايلور",
-            "كلانسي براون"
+            "فنلندا",
+            "كندا",
+            "المملكة المتحدة"
         ],
         "clueFacts": {
             "cast": "Lee Jang-woo",
@@ -2181,33 +1704,6 @@ window.seriesQuestionSeed = [
             "genre": "فلم عائلي",
             "language": "الكورية",
             "year": "2012"
-        }
-    },
-    {
-        "id": "series-fact-Q27261",
-        "category": "مسلسلات",
-        "difficulty": "سهل",
-        "points": 200,
-        "question": "ما اللغة الأصلية لمسلسل «1000 طريقة للموت»؟",
-        "answer": "الإنجليزية",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E1000%20%D8%B7%D8%B1%D9%8A%D9%82%D8%A9%20%D9%84%D9%84%D9%85%D9%88%D8%AA%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "قرائن عن العمل: بلد الإنتاج الولايات المتحدة، التصنيف فلم كوميدي.",
-        "source": "https://www.wikidata.org/wiki/Q27261",
-        "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "1000 طريقة للموت",
-        "factType": "language",
-        "options": [
-            "الإنجليزية",
-            "music television",
-            "تلفزيون الواقع",
-            "كوميديا درامية"
-        ],
-        "clueFacts": {
-            "country": "الولايات المتحدة",
-            "genre": "فلم كوميدي",
-            "language": "الإنجليزية",
-            "year": "2008"
         }
     },
     {
@@ -2225,10 +1721,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "القتل",
         "factType": "year",
         "options": [
-            "الكورية",
+            "1978",
             "2011",
-            "الإنجليزية الأمريكية",
-            "الإنجليزية"
+            "2002",
+            "1974"
         ],
         "clueFacts": {
             "cast": "ميرايل إينوس",
@@ -2244,7 +1740,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "سهل",
         "points": 200,
-        "question": "ما أحد تصنيفات مسلسل «LAST HOPE»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: ما أحد تصنيفات مسلسل «LAST HOPE»؟",
         "answer": "دراما تلفزيونية",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3ELAST%20HOPE%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: بلد الإنتاج اليابان، لغة العمل اليابانية.",
@@ -2255,9 +1751,9 @@ window.seriesQuestionSeed = [
         "factType": "genre",
         "options": [
             "دراما تلفزيونية",
-            "ستيفان راب",
-            "جيريمي إيزاك",
-            "ميشيل كينغ"
+            "كوميديا الموقف",
+            "برنامج مسابقات",
+            "برنامج حواري"
         ],
         "clueFacts": {
             "country": "اليابان",
@@ -2271,7 +1767,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "متوسط",
         "points": 300,
-        "question": "اذكر إحدى دول إنتاج مسلسل «يوميات مصاص دماء».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى دول إنتاج مسلسل «يوميات مصاص دماء».",
         "answer": "الولايات المتحدة",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D9%8A%D9%88%D9%85%D9%8A%D8%A7%D8%AA%20%D9%85%D8%B5%D8%A7%D8%B5%20%D8%AF%D9%85%D8%A7%D8%A1%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين كايلا إيويل، المبتكر كيفين ويليامسون.",
@@ -2281,10 +1777,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "يوميات مصاص دماء",
         "factType": "country",
         "options": [
-            "music television",
+            "ألمانيا الشرقية",
             "الولايات المتحدة",
-            "أوبرا الفضاء",
-            "مسلسل كوميدي"
+            "ألمانيا",
+            "اليابان"
         ],
         "clueFacts": {
             "cast": "كايلا إيويل",
@@ -2300,7 +1796,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "متوسط",
         "points": 300,
-        "question": "اذكر أحد الممثلين المشاركين في مسلسل «True Life».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد الممثلين المشاركين في مسلسل «True Life».",
         "answer": "SuChin Pak",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3ETrue%20Life%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: بلد الإنتاج الولايات المتحدة، التصنيف برنامج وثائقي.",
@@ -2311,9 +1807,9 @@ window.seriesQuestionSeed = [
         "factType": "cast",
         "options": [
             "SuChin Pak",
-            "كوميديا درامية",
-            "كوميديا الموقف",
-            "برنامج مسابقات"
+            "باربرا كيلرمان",
+            "عيسى مصطفى",
+            "جيجي برويتي"
         ],
         "clueFacts": {
             "cast": "SuChin Pak",
@@ -2328,7 +1824,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "متوسط",
         "points": 300,
-        "question": "اذكر أحد مبتكري مسلسل «غان سموك».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد مبتكري مسلسل «غان سموك».",
         "answer": "ناثان إتش. جوران",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gunsmoke%20cast%201963.JPG?width=900",
         "hint": "قرائن عن العمل: أحد الممثلين بيرت رينولدز، بلد الإنتاج الولايات المتحدة.",
@@ -2339,9 +1835,9 @@ window.seriesQuestionSeed = [
         "factType": "creator",
         "options": [
             "ناثان إتش. جوران",
-            "دراما قانونية",
-            "تيلينوفيلا",
-            "Roman Wilhelmi"
+            "مايكل روس",
+            "دايفيد دي فريس",
+            "Rolf Honold"
         ],
         "clueFacts": {
             "cast": "بيرت رينولدز",
@@ -2350,33 +1846,6 @@ window.seriesQuestionSeed = [
             "genre": "الغرب الأمريكي في التلفاز",
             "language": "الإنجليزية",
             "year": "1955"
-        }
-    },
-    {
-        "id": "series-fact-Q29886",
-        "category": "مسلسلات",
-        "difficulty": "متوسط",
-        "points": 300,
-        "question": "ما اللغة الأصلية لمسلسل «Gandía Shore»؟",
-        "answer": "الإسبانية",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EGand%C3%ADa%20Shore%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "قرائن عن العمل: بلد الإنتاج إسبانيا، التصنيف تلفزيون الواقع.",
-        "source": "https://www.wikidata.org/wiki/Q29886",
-        "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "Gandía Shore",
-        "factType": "language",
-        "options": [
-            "1991",
-            "الإسبانية",
-            "2008",
-            "1971"
-        ],
-        "clueFacts": {
-            "country": "إسبانيا",
-            "genre": "تلفزيون الواقع",
-            "language": "الإسبانية",
-            "year": "2012"
         }
     },
     {
@@ -2394,10 +1863,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "Q & Q",
         "factType": "year",
         "options": [
-            "SuChin Pak",
-            "لورا كارمين",
+            "1991",
+            "1983",
             "1974",
-            "سورين مولينج"
+            "1971"
         ],
         "clueFacts": {
             "cast": "Bob de Lange",
@@ -2412,7 +1881,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "متوسط",
         "points": 300,
-        "question": "ما أحد تصنيفات مسلسل «Hana no Ran»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: ما أحد تصنيفات مسلسل «Hana no Ran»؟",
         "answer": "دراما تلفزيونية",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EHana%20no%20Ran%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين مانسا نومورا، بلد الإنتاج اليابان.",
@@ -2423,9 +1892,9 @@ window.seriesQuestionSeed = [
         "factType": "genre",
         "options": [
             "دراما تلفزيونية",
-            "لورا كارمين",
-            "ليندسي لوهان",
-            "جون بارومان"
+            "sketch comedy",
+            "television talk show",
+            "دراما قانونية"
         ],
         "clueFacts": {
             "cast": "مانسا نومورا",
@@ -2440,7 +1909,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "متوسط",
         "points": 300,
-        "question": "اذكر إحدى دول إنتاج مسلسل «تاور بريب».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى دول إنتاج مسلسل «تاور بريب».",
         "answer": "كندا",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D8%AA%D8%A7%D9%88%D8%B1%20%D8%A8%D8%B1%D9%8A%D8%A8%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين ريان بينكستون، المبتكر باول ديني.",
@@ -2450,9 +1919,9 @@ window.seriesQuestionSeed = [
         "imageAlt": "تاور بريب",
         "factType": "country",
         "options": [
-            "television talk show",
-            "دراما قانونية",
-            "تيلينوفيلا",
+            "المملكة المتحدة",
+            "كوريا الجنوبية",
+            "ألمانيا",
             "كندا"
         ],
         "clueFacts": {
@@ -2469,7 +1938,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "متوسط",
         "points": 300,
-        "question": "اذكر أحد الممثلين المشاركين في مسلسل «¿Quién Eres Tú?».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد الممثلين المشاركين في مسلسل «¿Quién Eres Tú?».",
         "answer": "لورا كارمين",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%C2%BFQui%C3%A9n%20Eres%20T%C3%BA%3F%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: بلد الإنتاج كولومبيا، التصنيف تيلينوفيلا.",
@@ -2479,9 +1948,9 @@ window.seriesQuestionSeed = [
         "imageAlt": "¿Quién Eres Tú?",
         "factType": "cast",
         "options": [
-            "1978",
-            "2006",
-            "1989",
+            "SuChin Pak",
+            "ليندسي لوهان",
+            "جون بارومان",
             "لورا كارمين"
         ],
         "clueFacts": {
@@ -2497,7 +1966,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "متوسط",
         "points": 300,
-        "question": "اذكر أحد مبتكري مسلسل «White Collar».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد مبتكري مسلسل «White Collar».",
         "answer": "Jeff Eastin",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EWhite%20Collar%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين هيلاري بورتون، بلد الإنتاج الولايات المتحدة.",
@@ -2507,10 +1976,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "White Collar",
         "factType": "creator",
         "options": [
-            "خيال تاريخي",
+            "جيريمي إيزاك",
             "Jeff Eastin",
-            "برنامج مسابقات",
-            "برنامج حواري"
+            "روب توماس",
+            "ستيفان راب"
         ],
         "clueFacts": {
             "cast": "هيلاري بورتون",
@@ -2536,10 +2005,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "الخريف في قلبي",
         "factType": "language",
         "options": [
-            "دوين جونسون",
-            "جوليان مكمان",
+            "الألمانية",
+            "الفنلندية",
             "الكورية",
-            "ستان لي"
+            "الإسبانية"
         ],
         "clueFacts": {
             "cast": "مون غيون يونغ",
@@ -2550,39 +2019,11 @@ window.seriesQuestionSeed = [
         }
     },
     {
-        "id": "series-fact-Q32443",
-        "category": "مسلسلات",
-        "difficulty": "متوسط",
-        "points": 300,
-        "question": "في أي سنة بدأ عرض مسلسل «On Death Row»؟",
-        "answer": "2012",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EOn%20Death%20Row%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "قرائن عن العمل: أحد الممثلين فرنر هرتزوغ، بلد الإنتاج الولايات المتحدة.",
-        "source": "https://www.wikidata.org/wiki/Q32443",
-        "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "On Death Row",
-        "factType": "year",
-        "options": [
-            "2012",
-            "ستيفان راب",
-            "جيريمي إيزاك",
-            "ميشيل كينغ"
-        ],
-        "clueFacts": {
-            "cast": "فرنر هرتزوغ",
-            "country": "الولايات المتحدة",
-            "genre": "فلم وثائقي",
-            "language": "الإنجليزية",
-            "year": "2012"
-        }
-    },
-    {
         "id": "series-fact-Q32445",
         "category": "مسلسلات",
         "difficulty": "متوسط",
         "points": 300,
-        "question": "ما أحد تصنيفات مسلسل «Arctic Air»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: ما أحد تصنيفات مسلسل «Arctic Air»؟",
         "answer": "دراما تلفزيونية",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EArctic%20Air%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين أدم بيتش، بلد الإنتاج كندا.",
@@ -2592,10 +2033,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "Arctic Air",
         "factType": "genre",
         "options": [
-            "ديفيد بينيوف",
-            "Linda Wallem",
+            "تيلينوفيلا",
+            "مسلسل أكشن",
             "دراما تلفزيونية",
-            "ميشيل كينغ"
+            "دراما قانونية"
         ],
         "clueFacts": {
             "cast": "أدم بيتش",
@@ -2610,7 +2051,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "متوسط",
         "points": 300,
-        "question": "اذكر إحدى دول إنتاج مسلسل «الكاذبات الصغيرات الجميلات».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى دول إنتاج مسلسل «الكاذبات الصغيرات الجميلات».",
         "answer": "الولايات المتحدة",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D8%A7%D9%84%D9%83%D8%A7%D8%B0%D8%A8%D8%A7%D8%AA%20%D8%A7%D9%84%D8%B5%D8%BA%D9%8A%D8%B1%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AC%D9%85%D9%8A%D9%84%D8%A7%D8%AA%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين كلير هولت، التصنيف دراما تلفزيونية.",
@@ -2621,9 +2062,9 @@ window.seriesQuestionSeed = [
         "factType": "country",
         "options": [
             "الولايات المتحدة",
-            "كندا",
-            "المملكة المتحدة",
-            "كوريا الجنوبية"
+            "اليابان",
+            "ألمانيا الشرقية",
+            "إيران"
         ],
         "clueFacts": {
             "cast": "كلير هولت",
@@ -2638,7 +2079,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "متوسط",
         "points": 300,
-        "question": "اذكر أحد الممثلين المشاركين في مسلسل «فتاتان مفلستان».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد الممثلين المشاركين في مسلسل «فتاتان مفلستان».",
         "answer": "ليندسي لوهان",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/2%20Broke%20Girls%20Logo.png?width=900",
         "hint": "قرائن عن العمل: بلد الإنتاج الولايات المتحدة، المبتكر مايكل كينغ.",
@@ -2648,9 +2089,9 @@ window.seriesQuestionSeed = [
         "imageAlt": "فتاتان مفلستان",
         "factType": "cast",
         "options": [
-            "Robert L. Collins",
-            "Ian Mackintosh",
-            "مايكل روس",
+            "ديفيد هيلويت",
+            "Michael Jayston",
+            "لوكاس كروكشانك",
             "ليندسي لوهان"
         ],
         "clueFacts": {
@@ -2667,7 +2108,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "متوسط",
         "points": 300,
-        "question": "اذكر أحد مبتكري مسلسل «مغامرات سارة جين».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد مبتكري مسلسل «مغامرات سارة جين».",
         "answer": "راسيل ديفيز",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Elisabeth%20Sladen.jpg?width=900",
         "hint": "قرائن عن العمل: أحد الممثلين إليزابيث سلايدن، بلد الإنتاج المملكة المتحدة.",
@@ -2677,10 +2118,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "مغامرات سارة جين",
         "factType": "creator",
         "options": [
-            "مايكل روس",
-            "دايفيد دي فريس",
+            "دان شنايدر",
+            "روب توماس",
             "راسيل ديفيز",
-            "Ian Mackintosh"
+            "جين رودينبيري"
         ],
         "clueFacts": {
             "cast": "إليزابيث سلايدن",
@@ -2706,10 +2147,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "Goosebumps",
         "factType": "language",
         "options": [
-            "مسلسل أكشن",
+            "الكورية",
             "الإنجليزية",
-            "2007",
-            "دراما تلفزيونية"
+            "اليابانية",
+            "الإنجليزية الأمريكية"
         ],
         "clueFacts": {
             "country": "كندا",
@@ -2734,9 +2175,9 @@ window.seriesQuestionSeed = [
         "imageAlt": "توب جير",
         "factType": "year",
         "options": [
-            "اليابان",
-            "ألمانيا الشرقية",
-            "إيران",
+            "1978",
+            "2006",
+            "1989",
             "2002"
         ],
         "clueFacts": {
@@ -2752,7 +2193,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "متوسط",
         "points": 300,
-        "question": "ما أحد تصنيفات مسلسل «ساسورال سيمار كا»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: ما أحد تصنيفات مسلسل «ساسورال سيمار كا»؟",
         "answer": "دراما تلفزيونية",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D8%B3%D8%A7%D8%B3%D9%88%D8%B1%D8%A7%D9%84%20%D8%B3%D9%8A%D9%85%D8%A7%D8%B1%20%D9%83%D8%A7%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين Jayati Bhatia، بلد الإنتاج الهند.",
@@ -2762,10 +2203,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "ساسورال سيمار كا",
         "factType": "genre",
         "options": [
-            "Crunchyroll",
-            "Netflix",
+            "television talk show",
+            "دراما قانونية",
             "دراما تلفزيونية",
-            "إيران"
+            "sketch comedy"
         ],
         "clueFacts": {
             "cast": "Jayati Bhatia",
@@ -2780,7 +2221,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "متوسط",
         "points": 300,
-        "question": "اذكر إحدى دول إنتاج مسلسل «كل شخص يكره كريس».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى دول إنتاج مسلسل «كل شخص يكره كريس».",
         "answer": "الولايات المتحدة",
         "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Everybodyhateschrislogo.svg/960px-Everybodyhateschrislogo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "hint": "قرائن عن العمل: أحد الممثلين تيري كروز، التصنيف كوميديا الموقف.",
@@ -2791,9 +2232,9 @@ window.seriesQuestionSeed = [
         "factType": "country",
         "options": [
             "الولايات المتحدة",
-            "ستيفان راب",
-            "جيريمي إيزاك",
-            "ميشيل كينغ"
+            "بولندا",
+            "فنلندا",
+            "كندا"
         ],
         "clueFacts": {
             "cast": "تيري كروز",
@@ -2808,7 +2249,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "متوسط",
         "points": 300,
-        "question": "اذكر أحد الممثلين المشاركين في مسلسل «دكتور هو».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد الممثلين المشاركين في مسلسل «دكتور هو».",
         "answer": "جون بارومان",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D8%AF%D9%83%D8%AA%D9%88%D8%B1%20%D9%87%D9%88%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: بلد الإنتاج المملكة المتحدة، المبتكر دونالد ويلسون.",
@@ -2818,10 +2259,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "دكتور هو",
         "factType": "cast",
         "options": [
-            "Crunchyroll",
+            "SuChin Pak",
             "جون بارومان",
-            "ألمانيا الشرقية",
-            "إيران"
+            "ديفيد دينمان",
+            "سورين مولينج"
         ],
         "clueFacts": {
             "cast": "جون بارومان",
@@ -2837,7 +2278,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "متوسط",
         "points": 300,
-        "question": "اذكر أحد مبتكري مسلسل «اسمي إيرل».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد مبتكري مسلسل «اسمي إيرل».",
         "answer": "غريغ غارسيا",
         "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/My_Name_is_Earl_%2820th_Century_Fox_Television%29_logo.svg/960px-My_Name_is_Earl_%2820th_Century_Fox_Television%29_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "hint": "قرائن عن العمل: أحد الممثلين كلوي غرايس موريتز، بلد الإنتاج الولايات المتحدة.",
@@ -2847,9 +2288,9 @@ window.seriesQuestionSeed = [
         "imageAlt": "اسمي إيرل",
         "factType": "creator",
         "options": [
-            "إيران",
-            "Crunchyroll",
-            "Netflix",
+            "Ian Mackintosh",
+            "مايكل روس",
+            "دايفيد دي فريس",
             "غريغ غارسيا"
         ],
         "clueFacts": {
@@ -2876,9 +2317,9 @@ window.seriesQuestionSeed = [
         "imageAlt": "بيفرلي هيلز 90210",
         "factType": "language",
         "options": [
-            "جون بارومان",
-            "ريتشارد باسهارت",
-            "ديفيد هيلويت",
+            "الكورية",
+            "الإسبانية",
+            "الألمانية",
             "الإنجليزية"
         ],
         "clueFacts": {
@@ -2905,10 +2346,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "Birds of Prey",
         "factType": "year",
         "options": [
-            "ليندسي لوهان",
+            "2013",
             "2002",
-            "SuChin Pak",
-            "لورا كارمين"
+            "2006",
+            "1989"
         ],
         "clueFacts": {
             "cast": "دينا ماير",
@@ -2924,7 +2365,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "متوسط",
         "points": 300,
-        "question": "ما أحد تصنيفات مسلسل «ألعاب قناة ديزني»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: ما أحد تصنيفات مسلسل «ألعاب قناة ديزني»؟",
         "answer": "برنامج مسابقات",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D8%A3%D9%84%D8%B9%D8%A7%D8%A8%20%D9%82%D9%86%D8%A7%D8%A9%20%D8%AF%D9%8A%D8%B2%D9%86%D9%8A%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: بلد الإنتاج الولايات المتحدة، لغة العمل الإنجليزية.",
@@ -2934,10 +2375,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "ألعاب قناة ديزني",
         "factType": "genre",
         "options": [
-            "كارستن بيورنلند",
-            "بام فيريس",
+            "docu-soap",
+            "sketch comedy",
             "برنامج مسابقات",
-            "توني أولر"
+            "دراما"
         ],
         "clueFacts": {
             "country": "الولايات المتحدة",
@@ -2951,7 +2392,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "متوسط",
         "points": 300,
-        "question": "اذكر إحدى دول إنتاج مسلسل «Psi Factor».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى دول إنتاج مسلسل «Psi Factor».",
         "answer": "كندا",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EPsi%20Factor%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين Nancy Anne Sakovich، المبتكر Peter Aykroyd.",
@@ -2961,9 +2402,9 @@ window.seriesQuestionSeed = [
         "imageAlt": "Psi Factor",
         "factType": "country",
         "options": [
-            "جيريمي إيزاك",
-            "ميشيل كينغ",
-            "ديفيد بينيوف",
+            "إيران",
+            "الولايات المتحدة",
+            "بولندا",
             "كندا"
         ],
         "clueFacts": {
@@ -2980,7 +2421,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "متوسط",
         "points": 300,
-        "question": "اذكر أحد الممثلين المشاركين في مسلسل «Voyage to the Bottom of the Sea».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد الممثلين المشاركين في مسلسل «Voyage to the Bottom of the Sea».",
         "answer": "ريتشارد باسهارت",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Voyage%20to%20the%20bottom%20of%20the%20sea%201968.JPG?width=900",
         "hint": "قرائن عن العمل: بلد الإنتاج الولايات المتحدة، المبتكر جين ألين.",
@@ -2990,10 +2431,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "Voyage to the Bottom of the Sea",
         "factType": "cast",
         "options": [
-            "2007",
+            "دوين جونسون",
             "ريتشارد باسهارت",
-            "1991",
-            "1983"
+            "مايكل بلومبيرغ",
+            "ستان لي"
         ],
         "clueFacts": {
             "cast": "ريتشارد باسهارت",
@@ -3020,9 +2461,9 @@ window.seriesQuestionSeed = [
         "factType": "language",
         "options": [
             "الإنجليزية",
-            "Rolf Honold",
-            "ديفيد جاكوبس",
-            "الإنجليزية الأمريكية"
+            "الإسبانية",
+            "الألمانية",
+            "الفنلندية"
         ],
         "clueFacts": {
             "cast": "جوينيث باول",
@@ -3047,10 +2488,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "Top Model O Reality",
         "factType": "year",
         "options": [
-            "Netflix",
+            "1988",
             "2012",
-            "إيران",
-            "Crunchyroll"
+            "1992",
+            "1990"
         ],
         "clueFacts": {
             "country": "البرازيل",
@@ -3064,7 +2505,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "متوسط",
         "points": 300,
-        "question": "ما أحد تصنيفات مسلسل «Budgie»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: ما أحد تصنيفات مسلسل «Budgie»؟",
         "answer": "كوميديا درامية",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EBudgie%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين آدم فيث، بلد الإنتاج المملكة المتحدة.",
@@ -3074,9 +2515,9 @@ window.seriesQuestionSeed = [
         "imageAlt": "Budgie",
         "factType": "genre",
         "options": [
-            "ديفيد دينمان",
-            "سورين مولينج",
-            "SuChin Pak",
+            "television talk show",
+            "دراما قانونية",
+            "تيلينوفيلا",
             "كوميديا درامية"
         ],
         "clueFacts": {
@@ -3093,7 +2534,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "متوسط",
         "points": 300,
-        "question": "اذكر إحدى دول إنتاج مسلسل «هانا مونتانا».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى دول إنتاج مسلسل «هانا مونتانا».",
         "answer": "الولايات المتحدة",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D9%87%D8%A7%D9%86%D8%A7%20%D9%85%D9%88%D9%86%D8%AA%D8%A7%D9%86%D8%A7%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين مايلي سايرس، المبتكر Michael Poryes.",
@@ -3103,10 +2544,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "هانا مونتانا",
         "factType": "country",
         "options": [
-            "الكورية",
+            "إيران",
             "الولايات المتحدة",
-            "الإنجليزية الأمريكية",
-            "الإنجليزية"
+            "اليابان",
+            "ألمانيا الشرقية"
         ],
         "clueFacts": {
             "cast": "مايلي سايرس",
@@ -3122,7 +2563,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "متوسط",
         "points": 300,
-        "question": "اذكر أحد الممثلين المشاركين في مسلسل «Urban Legends».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد الممثلين المشاركين في مسلسل «Urban Legends».",
         "answer": "ديفيد هيلويت",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EUrban%20Legends%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: بلد الإنتاج الولايات المتحدة، التصنيف فلم جريمة.",
@@ -3132,10 +2573,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "Urban Legends",
         "factType": "cast",
         "options": [
-            "1988",
+            "Ellen Jokikunnas",
             "ديفيد هيلويت",
-            "1990",
-            "2012"
+            "ديفيد جيونتولي",
+            "ميشيل أوباما"
         ],
         "clueFacts": {
             "cast": "ديفيد هيلويت",
@@ -3150,7 +2591,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "متوسط",
         "points": 300,
-        "question": "اذكر أحد مبتكري مسلسل «آي دريم أوف جيني».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد مبتكري مسلسل «آي دريم أوف جيني».",
         "answer": "سيدني شيلدون",
         "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/I_Dream_of_Jeannie_%281965_NBC_network_television_series_logo%29.svg/960px-I_Dream_of_Jeannie_%281965_NBC_network_television_series_logo%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "hint": "قرائن عن العمل: أحد الممثلين لاري هاغمان، بلد الإنتاج الولايات المتحدة.",
@@ -3160,9 +2601,9 @@ window.seriesQuestionSeed = [
         "imageAlt": "آي دريم أوف جيني",
         "factType": "creator",
         "options": [
-            "الكورية",
-            "الإسبانية",
-            "الألمانية",
+            "Linda Wallem",
+            "لاري ديفيد",
+            "ناثان إتش. جوران",
             "سيدني شيلدون"
         ],
         "clueFacts": {
@@ -3189,10 +2630,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "Zum Stanglwirt",
         "factType": "language",
         "options": [
-            "الإنجليزية",
-            "الكورية",
+            "اليابانية",
+            "الإنجليزية الأمريكية",
             "الألمانية",
-            "الإنجليزية الأمريكية"
+            "الفنلندية"
         ],
         "clueFacts": {
             "cast": "بيتر شتاينر",
@@ -3217,10 +2658,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "SOKO 5113",
         "factType": "year",
         "options": [
-            "2006",
+            "1989",
             "1978",
-            "2002",
-            "1974"
+            "1974",
+            "2006"
         ],
         "clueFacts": {
             "cast": "فيلفريد كلاوس",
@@ -3236,7 +2677,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "متوسط",
         "points": 300,
-        "question": "ما أحد تصنيفات مسلسل «The Adventures of Black Beauty»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: ما أحد تصنيفات مسلسل «The Adventures of Black Beauty»؟",
         "answer": "دراما تلفزيونية",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EThe%20Adventures%20of%20Black%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22483%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EBeauty%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين جودي بوكر، بلد الإنتاج المملكة المتحدة.",
@@ -3246,10 +2687,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "The Adventures of Black Beauty",
         "factType": "genre",
         "options": [
-            "2007",
-            "Roman Wilhelmi",
+            "docu-soap",
+            "sketch comedy",
             "دراما تلفزيونية",
-            "1983"
+            "دراما"
         ],
         "clueFacts": {
             "cast": "جودي بوكر",
@@ -3265,7 +2706,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "متوسط",
         "points": 300,
-        "question": "اذكر إحدى دول إنتاج مسلسل «Beasts».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى دول إنتاج مسلسل «Beasts».",
         "answer": "المملكة المتحدة",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EBeasts%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين Pauline Quirke، المبتكر نايجل نيل.",
@@ -3275,10 +2716,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "Beasts",
         "factType": "country",
         "options": [
-            "روب توماس",
-            "ستيفان راب",
+            "الولايات المتحدة",
+            "بولندا",
             "المملكة المتحدة",
-            "دان شنايدر"
+            "إيران"
         ],
         "clueFacts": {
             "cast": "Pauline Quirke",
@@ -3294,7 +2735,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "متوسط",
         "points": 300,
-        "question": "اذكر أحد الممثلين المشاركين في مسلسل «Quiller».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد الممثلين المشاركين في مسلسل «Quiller».",
         "answer": "Michael Jayston",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EQuiller%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: بلد الإنتاج المملكة المتحدة، التصنيف دراما تلفزيونية.",
@@ -3304,10 +2745,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "Quiller",
         "factType": "cast",
         "options": [
-            "اليابانية",
+            "بام فيريس",
             "Michael Jayston",
-            "الألمانية",
-            "الفنلندية"
+            "توني أولر",
+            "كارستن بيورنلند"
         ],
         "clueFacts": {
             "cast": "Michael Jayston",
@@ -3332,10 +2773,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "New Scotland Yard",
         "factType": "language",
         "options": [
-            "2005",
-            "1999",
+            "الألمانية",
+            "الفنلندية",
             "الإنجليزية",
-            "2011"
+            "الإسبانية"
         ],
         "clueFacts": {
             "cast": "جون وودفين",
@@ -3360,10 +2801,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "Within These Walls",
         "factType": "year",
         "options": [
-            "Ellen Jokikunnas",
-            "شون مايكلز",
+            "2013",
+            "2008",
             "1974",
-            "ميشيل أوباما"
+            "1989"
         ],
         "clueFacts": {
             "cast": "جوجي ويذرز",
@@ -3379,7 +2820,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "متوسط",
         "points": 300,
-        "question": "ما أحد تصنيفات مسلسل «Dixon of Dock Green»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: ما أحد تصنيفات مسلسل «Dixon of Dock Green»؟",
         "answer": "دراما تلفزيونية",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EDixon%20of%20Dock%20Green%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين جاك وارنر، بلد الإنتاج المملكة المتحدة.",
@@ -3390,9 +2831,9 @@ window.seriesQuestionSeed = [
         "factType": "genre",
         "options": [
             "دراما تلفزيونية",
-            "sketch comedy",
-            "television talk show",
-            "دراما قانونية"
+            "مسلسل أكشن",
+            "أوبرا الفضاء",
+            "مسلسل كوميدي"
         ],
         "clueFacts": {
             "cast": "جاك وارنر",
@@ -3408,7 +2849,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "صعب",
         "points": 400,
-        "question": "اذكر إحدى دول إنتاج مسلسل «الايمان».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى دول إنتاج مسلسل «الايمان».",
         "answer": "كوريا الجنوبية",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D8%A7%D9%84%D8%A7%D9%8A%D9%85%D8%A7%D9%86%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين لي مين هو، التصنيف دراما تلفزيونية.",
@@ -3418,9 +2859,9 @@ window.seriesQuestionSeed = [
         "imageAlt": "الايمان",
         "factType": "country",
         "options": [
-            "ليندسي لوهان",
-            "جون بارومان",
-            "ريتشارد باسهارت",
+            "ألمانيا",
+            "اليابان",
+            "ألمانيا الشرقية",
             "كوريا الجنوبية"
         ],
         "clueFacts": {
@@ -3436,7 +2877,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "صعب",
         "points": 400,
-        "question": "اذكر أحد الممثلين المشاركين في مسلسل «فريد: ذا شو».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد الممثلين المشاركين في مسلسل «فريد: ذا شو».",
         "answer": "لوكاس كروكشانك",
         "image": "https://upload.wikimedia.org/wikipedia/commons/2/28/Fred_The_Show_logo.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
         "hint": "قرائن عن العمل: بلد الإنتاج الولايات المتحدة، التصنيف فلم خيال.",
@@ -3446,9 +2887,9 @@ window.seriesQuestionSeed = [
         "imageAlt": "فريد: ذا شو",
         "factType": "cast",
         "options": [
-            "Robert L. Collins",
-            "Ian Mackintosh",
-            "مايكل روس",
+            "دوين جونسون",
+            "جوليان مكمان",
+            "توني أولر",
             "لوكاس كروكشانك"
         ],
         "clueFacts": {
@@ -3465,7 +2906,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "صعب",
         "points": 400,
-        "question": "اذكر أحد مبتكري مسلسل «إمبتي نيست».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد مبتكري مسلسل «إمبتي نيست».",
         "answer": "سوزان هاريس",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D8%A5%D9%85%D8%A8%D8%AA%D9%8A%20%D9%86%D9%8A%D8%B3%D8%AA%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين إستيل غيتي، بلد الإنتاج الولايات المتحدة.",
@@ -3475,10 +2916,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "إمبتي نيست",
         "factType": "creator",
         "options": [
-            "ستان لي",
+            "Robert L. Collins",
             "سوزان هاريس",
-            "جيجي برويتي",
-            "مايكل بلومبيرغ"
+            "سيدني شيلدون",
+            "غلين لارسون"
         ],
         "clueFacts": {
             "cast": "إستيل غيتي",
@@ -3505,9 +2946,9 @@ window.seriesQuestionSeed = [
         "factType": "language",
         "options": [
             "الإنجليزية",
-            "دراما تاريخية",
-            "دراما",
-            "docu-soap"
+            "الإنجليزية الأمريكية",
+            "الكورية",
+            "الإسبانية"
         ],
         "clueFacts": {
             "cast": "أوسريك تشاو",
@@ -3534,9 +2975,9 @@ window.seriesQuestionSeed = [
         "factType": "year",
         "options": [
             "2006",
-            "دايفيد دي فريس",
-            "Rolf Honold",
-            "ديفيد جاكوبس"
+            "2012",
+            "1988",
+            "2010"
         ],
         "clueFacts": {
             "cast": "كلير هولت",
@@ -3552,7 +2993,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "صعب",
         "points": 400,
-        "question": "ما أحد تصنيفات مسلسل «اليوم (الولايات المتحدة الأمريكية)»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: ما أحد تصنيفات مسلسل «اليوم (الولايات المتحدة الأمريكية)»؟",
         "answer": "برنامج حواري",
         "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Today_2023.svg/960px-Today_2023.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "hint": "قرائن عن العمل: بلد الإنتاج الولايات المتحدة، المبتكر سيلفستر ويفر.",
@@ -3562,10 +3003,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "اليوم (الولايات المتحدة الأمريكية)",
         "factType": "genre",
         "options": [
-            "كوميديا الموقف",
+            "خيال تاريخي",
             "برنامج حواري",
-            "تلفزيون الواقع",
-            "كوميديا درامية"
+            "كوميديا الموقف",
+            "برنامج مسابقات"
         ],
         "clueFacts": {
             "country": "الولايات المتحدة",
@@ -3580,7 +3021,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "صعب",
         "points": 400,
-        "question": "اذكر إحدى دول إنتاج مسلسل «ميوزيك بانك».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى دول إنتاج مسلسل «ميوزيك بانك».",
         "answer": "كوريا الجنوبية",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D9%85%D9%8A%D9%88%D8%B2%D9%8A%D9%83%20%D8%A8%D8%A7%D9%86%D9%83%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: التصنيف برنامج موسيقي، لغة العمل الكورية.",
@@ -3590,10 +3031,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "ميوزيك بانك",
         "factType": "country",
         "options": [
-            "كوميديا درامية",
-            "كوميديا الموقف",
+            "فنلندا",
+            "كندا",
             "كوريا الجنوبية",
-            "تلفزيون الواقع"
+            "بولندا"
         ],
         "clueFacts": {
             "country": "كوريا الجنوبية",
@@ -3607,7 +3048,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "صعب",
         "points": 400,
-        "question": "اذكر أحد الممثلين المشاركين في مسلسل «ربات بيوت يائسات».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد الممثلين المشاركين في مسلسل «ربات بيوت يائسات».",
         "answer": "جون بارومان",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D8%B1%D8%A8%D8%A7%D8%AA%20%D8%A8%D9%8A%D9%88%D8%AA%20%D9%8A%D8%A7%D8%A6%D8%B3%D8%A7%D8%AA%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: بلد الإنتاج الولايات المتحدة، المبتكر مارك تشيري.",
@@ -3617,10 +3058,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "ربات بيوت يائسات",
         "factType": "cast",
         "options": [
-            "ديفيد هيلويت",
+            "بام فيريس",
             "جون بارومان",
-            "ليندسي لوهان",
-            "ريتشارد باسهارت"
+            "توني أولر",
+            "كارستن بيورنلند"
         ],
         "clueFacts": {
             "cast": "جون بارومان",
@@ -3636,7 +3077,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "صعب",
         "points": 400,
-        "question": "اذكر أحد مبتكري مسلسل «The Highwayman».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد مبتكري مسلسل «The Highwayman».",
         "answer": "غلين لارسون",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EThe%20Highwayman%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين جين بادلر، بلد الإنتاج الولايات المتحدة.",
@@ -3647,9 +3088,9 @@ window.seriesQuestionSeed = [
         "factType": "creator",
         "options": [
             "غلين لارسون",
-            "ألمانيا الشرقية",
-            "إيران",
-            "Crunchyroll"
+            "Robert L. Collins",
+            "Ian Mackintosh",
+            "مايكل روس"
         ],
         "clueFacts": {
             "cast": "جين بادلر",
@@ -3675,10 +3116,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "الحياة السرية",
         "factType": "language",
         "options": [
-            "1978",
-            "2006",
+            "الإسبانية",
+            "الألمانية",
             "الفنلندية",
-            "1974"
+            "الكورية"
         ],
         "clueFacts": {
             "country": "فنلندا",
@@ -3704,9 +3145,9 @@ window.seriesQuestionSeed = [
         "factType": "year",
         "options": [
             "2012",
-            "فنلندا",
-            "كندا",
-            "المملكة المتحدة"
+            "2011",
+            "2005",
+            "1999"
         ],
         "clueFacts": {
             "cast": "ديبرا ميسينغ",
@@ -3722,7 +3163,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "صعب",
         "points": 400,
-        "question": "ما أحد تصنيفات مسلسل «جوهرة القصر»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: ما أحد تصنيفات مسلسل «جوهرة القصر»؟",
         "answer": "خيال تاريخي",
         "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Korea-Dae_Jang_Geum_Theme_Park-41.jpg/960px-Korea-Dae_Jang_Geum_Theme_Park-41.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "hint": "قرائن عن العمل: أحد الممثلين لي يونغ أي، بلد الإنتاج كوريا الجنوبية.",
@@ -3732,10 +3173,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "جوهرة القصر",
         "factType": "genre",
         "options": [
-            "docu-soap",
-            "sketch comedy",
+            "تيلينوفيلا",
+            "دراما تلفزيونية",
             "خيال تاريخي",
-            "دراما"
+            "دراما قانونية"
         ],
         "clueFacts": {
             "cast": "لي يونغ أي",
@@ -3750,7 +3191,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "صعب",
         "points": 400,
-        "question": "اذكر إحدى دول إنتاج مسلسل «See Dad Run».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى دول إنتاج مسلسل «See Dad Run».",
         "answer": "الولايات المتحدة",
         "image": "https://upload.wikimedia.org/wikipedia/commons/8/8e/See_Dad_Run.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
         "hint": "قرائن عن العمل: أحد الممثلين سكوت بايو، المبتكر ميخائيل جاكوبس.",
@@ -3761,9 +3202,9 @@ window.seriesQuestionSeed = [
         "factType": "country",
         "options": [
             "الولايات المتحدة",
-            "اليابان",
-            "ألمانيا الشرقية",
-            "إيران"
+            "كندا",
+            "المملكة المتحدة",
+            "كوريا الجنوبية"
         ],
         "clueFacts": {
             "cast": "سكوت بايو",
@@ -3779,7 +3220,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "صعب",
         "points": 400,
-        "question": "اذكر أحد الممثلين المشاركين في مسلسل «1990».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد الممثلين المشاركين في مسلسل «1990».",
         "answer": "باربرا كيلرمان",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E1990%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: بلد الإنتاج المملكة المتحدة، المبتكر Wilfred Greatorex.",
@@ -3790,9 +3231,9 @@ window.seriesQuestionSeed = [
         "factType": "cast",
         "options": [
             "باربرا كيلرمان",
-            "غلين لارسون",
-            "Robert L. Collins",
-            "Ian Mackintosh"
+            "جون بارومان",
+            "ريتشارد باسهارت",
+            "ديفيد هيلويت"
         ],
         "clueFacts": {
             "cast": "باربرا كيلرمان",
@@ -3819,9 +3260,9 @@ window.seriesQuestionSeed = [
         "factType": "language",
         "options": [
             "اليابانية",
-            "ليندسي لوهان",
-            "جون بارومان",
-            "ريتشارد باسهارت"
+            "الألمانية",
+            "الفنلندية",
+            "الإنجليزية الأمريكية"
         ],
         "clueFacts": {
             "country": "اليابان",
@@ -3846,9 +3287,9 @@ window.seriesQuestionSeed = [
         "factType": "year",
         "options": [
             "2010",
-            "الفنلندية",
-            "اليابانية",
-            "1992"
+            "2013",
+            "2008",
+            "1971"
         ],
         "clueFacts": {
             "country": "الولايات المتحدة",
@@ -3862,7 +3303,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "صعب",
         "points": 400,
-        "question": "ما أحد تصنيفات مسلسل «Wedding Band»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: ما أحد تصنيفات مسلسل «Wedding Band»؟",
         "answer": "كوميديا الموقف",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EWedding%20Band%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين ميلورا هاردن، بلد الإنتاج الولايات المتحدة.",
@@ -3873,9 +3314,9 @@ window.seriesQuestionSeed = [
         "factType": "genre",
         "options": [
             "كوميديا الموقف",
-            "غلين لارسون",
-            "Robert L. Collins",
-            "Ian Mackintosh"
+            "كوميديا درامية",
+            "برنامج مسابقات",
+            "برنامج حواري"
         ],
         "clueFacts": {
             "cast": "ميلورا هاردن",
@@ -3890,7 +3331,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "صعب",
         "points": 400,
-        "question": "اذكر إحدى دول إنتاج مسلسل «ZDF-Hitparade».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى دول إنتاج مسلسل «ZDF-Hitparade».",
         "answer": "ألمانيا",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EZDF-Hitparade%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: التصنيف entertainment television program، لغة العمل الألمانية.",
@@ -3900,9 +3341,9 @@ window.seriesQuestionSeed = [
         "imageAlt": "ZDF-Hitparade",
         "factType": "country",
         "options": [
-            "television talk show",
-            "دراما قانونية",
-            "تيلينوفيلا",
+            "اليابان",
+            "ألمانيا الشرقية",
+            "إيران",
             "ألمانيا"
         ],
         "clueFacts": {
@@ -3927,10 +3368,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "ZDF-Mittagsmagazin",
         "factType": "year",
         "options": [
-            "جوليان مكمان",
+            "1983",
             "1989",
-            "ستان لي",
-            "دوين جونسون"
+            "1971",
+            "1991"
         ],
         "clueFacts": {
             "country": "ألمانيا",
@@ -3942,7 +3383,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "صعب",
         "points": 400,
-        "question": "ما أحد تصنيفات مسلسل «الهارب»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: ما أحد تصنيفات مسلسل «الهارب»؟",
         "answer": "مسلسل جريمة",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/David%20Janssen%20The%20Fugitive%20final%20episode%201967.JPG?width=900",
         "hint": "قرائن عن العمل: أحد الممثلين دايفيد جانسين، بلد الإنتاج الولايات المتحدة.",
@@ -3953,9 +3394,9 @@ window.seriesQuestionSeed = [
         "factType": "genre",
         "options": [
             "مسلسل جريمة",
-            "1971",
-            "1991",
-            "1983"
+            "برنامج مسابقات",
+            "برنامج حواري",
+            "خيال تاريخي"
         ],
         "clueFacts": {
             "cast": "دايفيد جانسين",
@@ -3971,7 +3412,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "صعب",
         "points": 400,
-        "question": "اذكر إحدى دول إنتاج مسلسل «Mr. Dressup».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى دول إنتاج مسلسل «Mr. Dressup».",
         "answer": "كندا",
         "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/MrDressUp_TreehouseSet.jpg/960px-MrDressUp_TreehouseSet.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "hint": "قرائن عن العمل: أحد الممثلين Ernie Coombs، المبتكر Ernie Coombs.",
@@ -3982,9 +3423,9 @@ window.seriesQuestionSeed = [
         "factType": "country",
         "options": [
             "كندا",
-            "Roman Wilhelmi",
-            "ديفيد جيونتولي",
-            "ميشيل أوباما"
+            "اليابان",
+            "ألمانيا الشرقية",
+            "إيران"
         ],
         "clueFacts": {
             "cast": "Ernie Coombs",
@@ -3999,7 +3440,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "صعب",
         "points": 400,
-        "question": "اذكر أحد الممثلين المشاركين في مسلسل «ملائكة تشارلي (مسلسل 2011)».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد الممثلين المشاركين في مسلسل «ملائكة تشارلي (مسلسل 2011)».",
         "answer": "عيسى مصطفى",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D9%85%D9%84%D8%A7%D8%A6%D9%83%D8%A9%20%D8%AA%D8%B4%D8%A7%D8%B1%D9%84%D9%8A%20(%D9%85%D8%B3%D9%84%D8%B3%D9%84%202011)%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: بلد الإنتاج الولايات المتحدة، المبتكر إيفان غوف.",
@@ -4009,10 +3450,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "ملائكة تشارلي (مسلسل 2011)",
         "factType": "cast",
         "options": [
-            "2002",
-            "1974",
+            "ليندسي لوهان",
+            "جون بارومان",
             "عيسى مصطفى",
-            "1999"
+            "لورا كارمين"
         ],
         "clueFacts": {
             "cast": "عيسى مصطفى",
@@ -4028,7 +3469,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "صعب",
         "points": 400,
-        "question": "اذكر أحد مبتكري مسلسل «Police Woman».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد مبتكري مسلسل «Police Woman».",
         "answer": "Robert L. Collins",
         "image": "https://upload.wikimedia.org/wikipedia/commons/a/af/Police_Woman_%281974_TV_series%29_logo.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
         "hint": "قرائن عن العمل: أحد الممثلين انجي ديكنسون، بلد الإنتاج الولايات المتحدة.",
@@ -4038,10 +3479,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "Police Woman",
         "factType": "creator",
         "options": [
-            "Ellen Jokikunnas",
+            "دايفيد دي فريس",
             "Robert L. Collins",
-            "ديفيد جيونتولي",
-            "ميشيل أوباما"
+            "Ian Mackintosh",
+            "مايكل روس"
         ],
         "clueFacts": {
             "cast": "انجي ديكنسون",
@@ -4067,10 +3508,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "Bucket & Skinner's Epic Adventures",
         "factType": "language",
         "options": [
-            "2005",
-            "1999",
+            "الألمانية",
+            "الفنلندية",
             "الإنجليزية",
-            "2011"
+            "الإسبانية"
         ],
         "clueFacts": {
             "country": "الولايات المتحدة",
@@ -4095,9 +3536,9 @@ window.seriesQuestionSeed = [
         "factType": "year",
         "options": [
             "2013",
-            "مسلسل جريمة",
-            "دراما تاريخية",
-            "دراما"
+            "2008",
+            "1971",
+            "1991"
         ],
         "clueFacts": {
             "cast": "جانغ هيوك",
@@ -4112,7 +3553,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "صعب",
         "points": 400,
-        "question": "ما أحد تصنيفات مسلسل «طبيب الملك»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: ما أحد تصنيفات مسلسل «طبيب الملك»؟",
         "answer": "دراما تاريخية",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D8%B7%D8%A8%D9%8A%D8%A8%20%D8%A7%D9%84%D9%85%D9%84%D9%83%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: بلد الإنتاج كوريا الجنوبية، لغة العمل الكورية.",
@@ -4122,9 +3563,9 @@ window.seriesQuestionSeed = [
         "imageAlt": "طبيب الملك",
         "factType": "genre",
         "options": [
-            "إليزا تايلور",
-            "كلانسي براون",
-            "سنوب دوغ",
+            "مسلسل جريمة",
+            "دراما",
+            "docu-soap",
             "دراما تاريخية"
         ],
         "clueFacts": {
@@ -4139,7 +3580,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "صعب",
         "points": 400,
-        "question": "اذكر إحدى دول إنتاج مسلسل «Priceless».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى دول إنتاج مسلسل «Priceless».",
         "answer": "اليابان",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EPriceless%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين تاكويا كيمورا، التصنيف دراما تلفزيونية.",
@@ -4149,10 +3590,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "Priceless",
         "factType": "country",
         "options": [
-            "كوميديا درامية",
-            "كوميديا الموقف",
+            "كندا",
+            "المملكة المتحدة",
             "اليابان",
-            "تلفزيون الواقع"
+            "فنلندا"
         ],
         "clueFacts": {
             "cast": "تاكويا كيمورا",
@@ -4177,9 +3618,9 @@ window.seriesQuestionSeed = [
         "imageAlt": "Zack! Comedy nach Maß",
         "factType": "language",
         "options": [
-            "دان شنايدر",
-            "روب توماس",
-            "ستيفان راب",
+            "الإنجليزية",
+            "الكورية",
+            "الإسبانية",
             "الألمانية"
         ],
         "clueFacts": {
@@ -4204,10 +3645,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "ذا سويت لايف أون ديك",
         "factType": "year",
         "options": [
-            "ستان لي",
-            "دوين جونسون",
+            "2007",
+            "1992",
             "2008",
-            "مايكل بلومبيرغ"
+            "1983"
         ],
         "clueFacts": {
             "cast": "تشارلز شوغنيسي",
@@ -4223,7 +3664,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "صعب",
         "points": 400,
-        "question": "ما أحد تصنيفات مسلسل «La Mujer del Presidente»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: ما أحد تصنيفات مسلسل «La Mujer del Presidente»؟",
         "answer": "دراما",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3ELa%20Mujer%20del%20Presidente%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين Robinzon Díaz، بلد الإنتاج كولومبيا.",
@@ -4233,10 +3674,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "La Mujer del Presidente",
         "factType": "genre",
         "options": [
-            "1978",
-            "2006",
+            "برنامج حواري",
+            "خيال تاريخي",
             "دراما",
-            "1974"
+            "برنامج مسابقات"
         ],
         "clueFacts": {
             "cast": "Robinzon Díaz",
@@ -4250,7 +3691,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "صعب",
         "points": 400,
-        "question": "اذكر إحدى دول إنتاج مسلسل «Zahn um Zahn».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى دول إنتاج مسلسل «Zahn um Zahn».",
         "answer": "ألمانيا الشرقية",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EZahn%20um%20Zahn%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين Alfred Struwe، المبتكر Gerhard Jäckel.",
@@ -4260,10 +3701,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "Zahn um Zahn",
         "factType": "country",
         "options": [
-            "2012",
-            "1988",
+            "بولندا",
+            "فنلندا",
             "ألمانيا الشرقية",
-            "1990"
+            "الولايات المتحدة"
         ],
         "clueFacts": {
             "cast": "Alfred Struwe",
@@ -4279,7 +3720,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "صعب",
         "points": 400,
-        "question": "اذكر أحد الممثلين المشاركين في مسلسل «Il maresciallo Rocca».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد الممثلين المشاركين في مسلسل «Il maresciallo Rocca».",
         "answer": "جيجي برويتي",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EIl%20maresciallo%20Rocca%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: بلد الإنتاج إيطاليا، المبتكر Laura Toscano.",
@@ -4289,9 +3730,9 @@ window.seriesQuestionSeed = [
         "imageAlt": "Il maresciallo Rocca",
         "factType": "cast",
         "options": [
-            "2007",
-            "دراما تلفزيونية",
-            "مسلسل أكشن",
+            "باربرا كيلرمان",
+            "عيسى مصطفى",
+            "مايكل بلومبيرغ",
             "جيجي برويتي"
         ],
         "clueFacts": {
@@ -4318,9 +3759,9 @@ window.seriesQuestionSeed = [
         "imageAlt": "Doña Bella",
         "factType": "language",
         "options": [
-            "توني أولر",
-            "كارستن بيورنلند",
-            "بام فيريس",
+            "الإنجليزية",
+            "الكورية",
+            "الألمانية",
             "الإسبانية"
         ],
         "clueFacts": {
@@ -4347,9 +3788,9 @@ window.seriesQuestionSeed = [
         "factType": "year",
         "options": [
             "2012",
-            "الفنلندية",
-            "اليابانية",
-            "1992"
+            "2002",
+            "1974",
+            "1978"
         ],
         "clueFacts": {
             "cast": "لاو دان",
@@ -4364,7 +3805,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "صعب",
         "points": 400,
-        "question": "ما أحد تصنيفات مسلسل «A Shot at Love with Tila Tequila»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: ما أحد تصنيفات مسلسل «A Shot at Love with Tila Tequila»؟",
         "answer": "تلفزيون الواقع",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EA%20Shot%20at%20Love%20with%20Tila%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22483%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3ETequila%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين تيلا تيكيلا، بلد الإنتاج الولايات المتحدة.",
@@ -4374,9 +3815,9 @@ window.seriesQuestionSeed = [
         "imageAlt": "A Shot at Love with Tila Tequila",
         "factType": "genre",
         "options": [
-            "1989",
-            "2013",
-            "2008",
+            "television talk show",
+            "دراما قانونية",
+            "تيلينوفيلا",
             "تلفزيون الواقع"
         ],
         "clueFacts": {
@@ -4392,7 +3833,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "صعب",
         "points": 400,
-        "question": "اذكر إحدى دول إنتاج مسلسل «زهراء ذات العيون الزرقاء».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى دول إنتاج مسلسل «زهراء ذات العيون الزرقاء».",
         "answer": "إيران",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D8%B2%D9%87%D8%B1%D8%A7%D8%A1%20%D8%B0%D8%A7%D8%AA%20%D8%A7%D9%84%D8%B9%D9%8A%D9%88%D9%86%20%D8%A7%D9%84%D8%B2%D8%B1%D9%82%D8%A7%D8%A1%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين جهانبخش سلطاني، التصنيف دراما.",
@@ -4402,10 +3843,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "زهراء ذات العيون الزرقاء",
         "factType": "country",
         "options": [
-            "دراما تلفزيونية",
+            "بولندا",
             "إيران",
-            "1983",
-            "2007"
+            "ألمانيا الشرقية",
+            "الولايات المتحدة"
         ],
         "clueFacts": {
             "cast": "جهانبخش سلطاني",
@@ -4420,7 +3861,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "صعب",
         "points": 400,
-        "question": "اذكر أحد الممثلين المشاركين في مسلسل «كيف قابلت أمكما».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد الممثلين المشاركين في مسلسل «كيف قابلت أمكما».",
         "answer": "مايكل بلومبيرغ",
         "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/HowIMetYourMother.svg/960px-HowIMetYourMother.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "hint": "قرائن عن العمل: بلد الإنتاج الولايات المتحدة، المبتكر كارتر بايز.",
@@ -4431,9 +3872,9 @@ window.seriesQuestionSeed = [
         "factType": "cast",
         "options": [
             "مايكل بلومبيرغ",
-            "2012",
-            "1988",
-            "2010"
+            "لوكاس كروكشانك",
+            "باربرا كيلرمان",
+            "عيسى مصطفى"
         ],
         "clueFacts": {
             "cast": "مايكل بلومبيرغ",
@@ -4449,7 +3890,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "صعب",
         "points": 400,
-        "question": "اذكر أحد مبتكري مسلسل «Warship».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد مبتكري مسلسل «Warship».",
         "answer": "Ian Mackintosh",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EWarship%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: بلد الإنتاج المملكة المتحدة، التصنيف دراما تلفزيونية.",
@@ -4459,10 +3900,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "Warship",
         "factType": "creator",
         "options": [
-            "بولندا",
+            "دايفيد دي فريس",
             "Ian Mackintosh",
-            "Sherlock",
-            "الولايات المتحدة"
+            "Robert L. Collins",
+            "مايكل روس"
         ],
         "clueFacts": {
             "country": "المملكة المتحدة",
@@ -4487,9 +3928,9 @@ window.seriesQuestionSeed = [
         "imageAlt": "Hausmeister Krause – Ordnung muss sein",
         "factType": "language",
         "options": [
-            "دراما",
-            "docu-soap",
-            "sketch comedy",
+            "الإسبانية",
+            "الفنلندية",
+            "اليابانية",
             "الألمانية"
         ],
         "clueFacts": {
@@ -4515,10 +3956,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "Die Sendung mit der Maus",
         "factType": "year",
         "options": [
-            "ستان لي",
-            "دوين جونسون",
+            "1992",
+            "1990",
             "1971",
-            "مايكل بلومبيرغ"
+            "2007"
         ],
         "clueFacts": {
             "country": "ألمانيا",
@@ -4533,7 +3974,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "صعب",
         "points": 500,
-        "question": "ما أحد تصنيفات مسلسل «مواكبة عائلة كارداشيان»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: ما أحد تصنيفات مسلسل «مواكبة عائلة كارداشيان»؟",
         "answer": "docu-soap",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D9%85%D9%88%D8%A7%D9%83%D8%A8%D8%A9%20%D8%B9%D8%A7%D8%A6%D9%84%D8%A9%20%D9%83%D8%A7%D8%B1%D8%AF%D8%A7%D8%B4%D9%8A%D8%A7%D9%86%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين كانييه ويست، بلد الإنتاج الولايات المتحدة.",
@@ -4543,10 +3984,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "مواكبة عائلة كارداشيان",
         "factType": "genre",
         "options": [
-            "جيجي برويتي",
+            "مسلسل كوميدي",
             "docu-soap",
-            "باربرا كيلرمان",
-            "عيسى مصطفى"
+            "مسلسل أكشن",
+            "أوبرا الفضاء"
         ],
         "clueFacts": {
             "cast": "كانييه ويست",
@@ -4562,7 +4003,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر إحدى دول إنتاج مسلسل «غلي».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى دول إنتاج مسلسل «غلي».",
         "answer": "الولايات المتحدة",
         "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Glee_%28Ryan_Murphy_Television%29_logo.svg/960px-Glee_%28Ryan_Murphy_Television%29_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "hint": "قرائن عن العمل: أحد الممثلين جوينيث بالترو، المبتكر براد فالتشوك.",
@@ -4573,9 +4014,9 @@ window.seriesQuestionSeed = [
         "factType": "country",
         "options": [
             "الولايات المتحدة",
-            "شون مايكلز",
-            "إليزا تايلور",
-            "كلانسي براون"
+            "كندا",
+            "المملكة المتحدة",
+            "كوريا الجنوبية"
         ],
         "clueFacts": {
             "cast": "جوينيث بالترو",
@@ -4591,7 +4032,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر أحد الممثلين المشاركين في مسلسل «Stan Lee's Superhumans».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد الممثلين المشاركين في مسلسل «Stan Lee's Superhumans».",
         "answer": "ستان لي",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EStan%20Lee%26apos%3Bs%20Superhumans%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: بلد الإنتاج الولايات المتحدة، لغة العمل الإنجليزية.",
@@ -4601,9 +4042,9 @@ window.seriesQuestionSeed = [
         "imageAlt": "Stan Lee's Superhumans",
         "factType": "cast",
         "options": [
-            "2007",
-            "دراما تلفزيونية",
-            "مسلسل أكشن",
+            "بام فيريس",
+            "Roman Wilhelmi",
+            "ديفيد جيونتولي",
             "ستان لي"
         ],
         "clueFacts": {
@@ -4618,7 +4059,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر أحد مبتكري مسلسل «ذا جيفرسونز».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد مبتكري مسلسل «ذا جيفرسونز».",
         "answer": "مايكل روس",
         "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/The_Jeffersons_title.svg/960px-The_Jeffersons_title.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "hint": "قرائن عن العمل: أحد الممثلين مارلا جيبس، بلد الإنتاج الولايات المتحدة.",
@@ -4629,9 +4070,9 @@ window.seriesQuestionSeed = [
         "factType": "creator",
         "options": [
             "مايكل روس",
-            "ألمانيا الشرقية",
-            "إيران",
-            "Crunchyroll"
+            "جيريمي إيزاك",
+            "ميشيل كينغ",
+            "ديفيد بينيوف"
         ],
         "clueFacts": {
             "cast": "مارلا جيبس",
@@ -4657,9 +4098,9 @@ window.seriesQuestionSeed = [
         "imageAlt": "الحب الممنوع",
         "factType": "language",
         "options": [
-            "ألمانيا الشرقية",
-            "إيران",
-            "Crunchyroll",
+            "اليابانية",
+            "الإنجليزية الأمريكية",
+            "الإنجليزية",
             "الألمانية"
         ],
         "clueFacts": {
@@ -4686,10 +4127,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "Meet the Barkers",
         "factType": "year",
         "options": [
-            "باربرا كيلرمان",
-            "عيسى مصطفى",
+            "2010",
+            "1987",
             "2005",
-            "لوكاس كروكشانك"
+            "1988"
         ],
         "clueFacts": {
             "cast": "ترافيس باركر",
@@ -4704,7 +4145,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "صعب",
         "points": 500,
-        "question": "ما أحد تصنيفات مسلسل «شارع سمسم»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: ما أحد تصنيفات مسلسل «شارع سمسم»؟",
         "answer": "sketch comedy",
         "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Sesame_Street_logo.svg/960px-Sesame_Street_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "hint": "قرائن عن العمل: أحد الممثلين ميشيل أوباما، بلد الإنتاج الولايات المتحدة.",
@@ -4715,9 +4156,9 @@ window.seriesQuestionSeed = [
         "factType": "genre",
         "options": [
             "sketch comedy",
-            "خيال تاريخي",
-            "مسلسل جريمة",
-            "دراما تاريخية"
+            "دراما تاريخية",
+            "دراما",
+            "docu-soap"
         ],
         "clueFacts": {
             "cast": "ميشيل أوباما",
@@ -4733,7 +4174,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر إحدى دول إنتاج مسلسل «Alarm for Cobra 11 – The Highway Police».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى دول إنتاج مسلسل «Alarm for Cobra 11 – The Highway Police».",
         "answer": "ألمانيا",
         "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Alarm_f%C3%BCr_Cobra_11_Logo_2020.svg/960px-Alarm_f%C3%BCr_Cobra_11_Logo_2020.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "hint": "قرائن عن العمل: أحد الممثلين Nina Bott، المبتكر هيرمان جحا.",
@@ -4743,10 +4184,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "Alarm for Cobra 11 – The Highway Police",
         "factType": "country",
         "options": [
-            "2006",
+            "اليابان",
             "ألمانيا",
-            "1974",
-            "1978"
+            "المملكة المتحدة",
+            "كوريا الجنوبية"
         ],
         "clueFacts": {
             "cast": "Nina Bott",
@@ -4762,7 +4203,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر أحد الممثلين المشاركين في مسلسل «ستار تريك: فوياجر».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد الممثلين المشاركين في مسلسل «ستار تريك: فوياجر».",
         "answer": "دوين جونسون",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D8%B3%D8%AA%D8%A7%D8%B1%20%D8%AA%D8%B1%D9%8A%D9%83%3A%20%D9%81%D9%88%D9%8A%D8%A7%D8%AC%D8%B1%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: بلد الإنتاج الولايات المتحدة، المبتكر جيري تايلور.",
@@ -4773,9 +4214,9 @@ window.seriesQuestionSeed = [
         "factType": "cast",
         "options": [
             "دوين جونسون",
-            "كلانسي براون",
-            "سنوب دوغ",
-            "جون رايز-ديفيس"
+            "كارستن بيورنلند",
+            "بام فيريس",
+            "Roman Wilhelmi"
         ],
         "clueFacts": {
             "cast": "دوين جونسون",
@@ -4791,7 +4232,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر أحد مبتكري مسلسل «لايف آفتر بيبول».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد مبتكري مسلسل «لايف آفتر بيبول».",
         "answer": "دايفيد دي فريس",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D9%84%D8%A7%D9%8A%D9%81%20%D8%A2%D9%81%D8%AA%D8%B1%20%D8%A8%D9%8A%D8%A8%D9%88%D9%84%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: بلد الإنتاج الولايات المتحدة، التصنيف فلم وثائقي.",
@@ -4801,9 +4242,9 @@ window.seriesQuestionSeed = [
         "imageAlt": "لايف آفتر بيبول",
         "factType": "creator",
         "options": [
-            "كارستن بيورنلند",
-            "بام فيريس",
-            "الإنجليزية الأمريكية",
+            "دان شنايدر",
+            "روب توماس",
+            "ستيفان راب",
             "دايفيد دي فريس"
         ],
         "clueFacts": {
@@ -4829,10 +4270,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "Lockdown",
         "factType": "language",
         "options": [
-            "الولايات المتحدة",
+            "اليابانية",
             "الإنجليزية",
-            "Lupin",
-            "Sherlock"
+            "الألمانية",
+            "الفنلندية"
         ],
         "clueFacts": {
             "country": "الولايات المتحدة",
@@ -4856,10 +4297,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "0137",
         "factType": "year",
         "options": [
-            "docu-soap",
-            "sketch comedy",
+            "1992",
+            "1990",
             "1991",
-            "دراما"
+            "2007"
         ],
         "clueFacts": {
             "country": "ألمانيا",
@@ -4872,7 +4313,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "صعب",
         "points": 500,
-        "question": "ما أحد تصنيفات مسلسل «0137 Night Talk»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: ما أحد تصنيفات مسلسل «0137 Night Talk»؟",
         "answer": "television talk show",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E0137%20Night%20Talk%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: بلد الإنتاج ألمانيا، سنة الإصدار 1993.",
@@ -4882,10 +4323,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "0137 Night Talk",
         "factType": "genre",
         "options": [
-            "1991",
+            "sketch comedy",
             "television talk show",
-            "2008",
-            "1971"
+            "دراما",
+            "docu-soap"
         ],
         "clueFacts": {
             "country": "ألمانيا",
@@ -4898,7 +4339,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر إحدى دول إنتاج مسلسل «Runaround».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى دول إنتاج مسلسل «Runaround».",
         "answer": "الولايات المتحدة",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3ERunaround%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: المبتكر Heatter-Quigley Productions، التصنيف مسلسلات الأطفال التلفزية.",
@@ -4909,9 +4350,9 @@ window.seriesQuestionSeed = [
         "factType": "country",
         "options": [
             "الولايات المتحدة",
-            "الفنلندية",
-            "اليابانية",
-            "بولندا"
+            "المملكة المتحدة",
+            "كوريا الجنوبية",
+            "ألمانيا"
         ],
         "clueFacts": {
             "country": "الولايات المتحدة",
@@ -4925,7 +4366,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر أحد الممثلين المشاركين في مسلسل «المسحورات».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد الممثلين المشاركين في مسلسل «المسحورات».",
         "answer": "جوليان مكمان",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/House%20at%201329%20Carroll%20Ave.%2C%20Los%20Angeles%20(Charmed%20House).JPG?width=900",
         "hint": "قرائن عن العمل: بلد الإنتاج الولايات المتحدة، المبتكر Constance M. Burge.",
@@ -4936,9 +4377,9 @@ window.seriesQuestionSeed = [
         "factType": "cast",
         "options": [
             "جوليان مكمان",
-            "2012",
-            "1988",
-            "2010"
+            "كلانسي براون",
+            "سنوب دوغ",
+            "جون رايز-ديفيس"
         ],
         "clueFacts": {
             "cast": "جوليان مكمان",
@@ -4965,9 +4406,9 @@ window.seriesQuestionSeed = [
         "factType": "year",
         "options": [
             "1987",
-            "Roman Wilhelmi",
-            "ديفيد جيونتولي",
-            "ميشيل أوباما"
+            "1988",
+            "2010",
+            "2011"
         ],
         "clueFacts": {
             "cast": "Grit Boettcher",
@@ -4980,7 +4421,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "صعب",
         "points": 500,
-        "question": "ما أحد تصنيفات مسلسل «10-8: Officers on Duty»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: ما أحد تصنيفات مسلسل «10-8: Officers on Duty»؟",
         "answer": "دراما تلفزيونية",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E10-8%3A%20Officers%20on%20Duty%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين داني نوتشي، بلد الإنتاج الولايات المتحدة.",
@@ -4990,10 +4431,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "10-8: Officers on Duty",
         "factType": "genre",
         "options": [
-            "تيلينوفيلا",
-            "La Casa de Papel",
+            "television talk show",
+            "دراما قانونية",
             "دراما تلفزيونية",
-            "دراما قانونية"
+            "sketch comedy"
         ],
         "clueFacts": {
             "cast": "داني نوتشي",
@@ -5008,7 +4449,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر إحدى دول إنتاج مسلسل «Doctor Doctor».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى دول إنتاج مسلسل «Doctor Doctor».",
         "answer": "الولايات المتحدة",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EDoctor%20Doctor%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين مات فريور، التصنيف كوميديا الموقف.",
@@ -5018,10 +4459,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "Doctor Doctor",
         "factType": "country",
         "options": [
-            "2011",
-            "2005",
+            "بولندا",
+            "فنلندا",
             "الولايات المتحدة",
-            "1987"
+            "إيران"
         ],
         "clueFacts": {
             "cast": "مات فريور",
@@ -5046,10 +4487,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "1000 Meisterwerke",
         "factType": "language",
         "options": [
-            "1990",
+            "اليابانية",
             "الألمانية",
-            "Disney+",
-            "1992"
+            "الإسبانية",
+            "الفنلندية"
         ],
         "clueFacts": {
             "country": "ألمانيا",
@@ -5073,10 +4514,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "100 Jahre – Der Countdown",
         "factType": "year",
         "options": [
-            "1971",
+            "1974",
             "1999",
-            "2013",
-            "2008"
+            "2005",
+            "2002"
         ],
         "clueFacts": {
             "cast": "Guido Knopp",
@@ -5091,7 +4532,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "صعب",
         "points": 500,
-        "question": "ما أحد تصنيفات مسلسل «بيري ماسون»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: ما أحد تصنيفات مسلسل «بيري ماسون»؟",
         "answer": "دراما قانونية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Raymond%20Burr%20Barbara%20Hale%20Perry%20Mason%201958.jpg?width=900",
         "hint": "قرائن عن العمل: أحد الممثلين باربرا هيل، بلد الإنتاج الولايات المتحدة.",
@@ -5102,9 +4543,9 @@ window.seriesQuestionSeed = [
         "factType": "genre",
         "options": [
             "دراما قانونية",
-            "1999",
-            "2002",
-            "1974"
+            "music television",
+            "تلفزيون الواقع",
+            "كوميديا درامية"
         ],
         "clueFacts": {
             "cast": "باربرا هيل",
@@ -5120,7 +4561,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر إحدى دول إنتاج مسلسل «Moonshiners».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى دول إنتاج مسلسل «Moonshiners».",
         "answer": "الولايات المتحدة",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EMoonshiners%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: التصنيف docu-soap، لغة العمل الإنجليزية.",
@@ -5130,9 +4571,9 @@ window.seriesQuestionSeed = [
         "imageAlt": "Moonshiners",
         "factType": "country",
         "options": [
-            "المملكة المتحدة",
-            "كوريا الجنوبية",
-            "ألمانيا",
+            "بولندا",
+            "فنلندا",
+            "كندا",
             "الولايات المتحدة"
         ],
         "clueFacts": {
@@ -5147,7 +4588,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر أحد الممثلين المشاركين في مسلسل «As the Bell Rings».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد الممثلين المشاركين في مسلسل «As the Bell Rings».",
         "answer": "توني أولر",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EAs%20the%20Bell%20Rings%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: بلد الإنتاج الولايات المتحدة، التصنيف كوميديا الموقف.",
@@ -5157,10 +4598,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "As the Bell Rings",
         "factType": "cast",
         "options": [
-            "ديفيد دينمان",
-            "سورين مولينج",
+            "جوليان مكمان",
+            "كارستن بيورنلند",
             "توني أولر",
-            "جون رايز-ديفيس"
+            "دوين جونسون"
         ],
         "clueFacts": {
             "cast": "توني أولر",
@@ -5175,7 +4616,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر أحد مبتكري مسلسل «دورية الفضاء - المغامرات الرائعة لسفينة الفضاء أوريون».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد مبتكري مسلسل «دورية الفضاء - المغامرات الرائعة لسفينة الفضاء أوريون».",
         "answer": "Rolf Honold",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D8%AF%D9%88%D8%B1%D9%8A%D8%A9%20%D8%A7%D9%84%D9%81%D8%B6%D8%A7%D8%A1%20-%20%D8%A7%D9%84%D9%85%D8%BA%D8%A7%D9%85%D8%B1%D8%A7%D8%AA%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22483%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D8%A7%D9%84%D8%B1%D8%A7%D8%A6%D8%B9%D8%A9%20%D9%84%D8%B3%D9%81%D9%8A%D9%86%D8%A9%20%D8%A7%D9%84%D9%81%D8%B6%D8%A7%D8%A1%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين Wolfgang Völz، بلد الإنتاج ألمانيا.",
@@ -5185,9 +4626,9 @@ window.seriesQuestionSeed = [
         "imageAlt": "دورية الفضاء - المغامرات الرائعة لسفينة الفضاء أوريون",
         "factType": "creator",
         "options": [
-            "Dark",
-            "Lupin",
-            "Sherlock",
+            "ديفيد بينيوف",
+            "Linda Wallem",
+            "لاري ديفيد",
             "Rolf Honold"
         ],
         "clueFacts": {
@@ -5215,9 +4656,9 @@ window.seriesQuestionSeed = [
         "factType": "language",
         "options": [
             "الإنجليزية",
-            "1971",
-            "1991",
-            "1983"
+            "الإسبانية",
+            "الألمانية",
+            "الفنلندية"
         ],
         "clueFacts": {
             "cast": "جيمس غارنر",
@@ -5243,10 +4684,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "Live with Kelly and Mark",
         "factType": "year",
         "options": [
-            "television talk show",
+            "2013",
             "1983",
-            "docu-soap",
-            "sketch comedy"
+            "2006",
+            "1989"
         ],
         "clueFacts": {
             "cast": "ريجيس فيلبين",
@@ -5262,7 +4703,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "صعب",
         "points": 500,
-        "question": "ما أحد تصنيفات مسلسل «كاساندرا»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: ما أحد تصنيفات مسلسل «كاساندرا»؟",
         "answer": "تيلينوفيلا",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D9%83%D8%A7%D8%B3%D8%A7%D9%86%D8%AF%D8%B1%D8%A7%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين أوسفالدو ريوس، بلد الإنتاج فنزويلا.",
@@ -5272,10 +4713,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "كاساندرا",
         "factType": "genre",
         "options": [
-            "Crunchyroll",
-            "Netflix",
+            "تلفزيون الواقع",
+            "كوميديا درامية",
             "تيلينوفيلا",
-            "إيران"
+            "music television"
         ],
         "clueFacts": {
             "cast": "أوسفالدو ريوس",
@@ -5291,7 +4732,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر إحدى دول إنتاج مسلسل «باريتا».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى دول إنتاج مسلسل «باريتا».",
         "answer": "الولايات المتحدة",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Robert%20Blake%20Baretta%20and%20Fred%201976.JPG?width=900",
         "hint": "قرائن عن العمل: أحد الممثلين توم إيويل، المبتكر ستيفن جيه كانيل.",
@@ -5301,9 +4742,9 @@ window.seriesQuestionSeed = [
         "imageAlt": "باريتا",
         "factType": "country",
         "options": [
-            "music television",
-            "تلفزيون الواقع",
-            "كوميديا درامية",
+            "بولندا",
+            "فنلندا",
+            "كندا",
             "الولايات المتحدة"
         ],
         "clueFacts": {
@@ -5320,7 +4761,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر أحد الممثلين المشاركين في مسلسل «Pagten».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد الممثلين المشاركين في مسلسل «Pagten».",
         "answer": "كارستن بيورنلند",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EPagten%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: بلد الإنتاج الدنمارك، التصنيف مسلسلات الأطفال التلفزية.",
@@ -5331,9 +4772,9 @@ window.seriesQuestionSeed = [
         "factType": "cast",
         "options": [
             "كارستن بيورنلند",
-            "تيلينوفيلا",
-            "جين رودينبيري",
-            "دان شنايدر"
+            "كلانسي براون",
+            "سنوب دوغ",
+            "جون رايز-ديفيس"
         ],
         "clueFacts": {
             "cast": "كارستن بيورنلند",
@@ -5348,7 +4789,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر أحد مبتكري مسلسل «دالاس».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد مبتكري مسلسل «دالاس».",
         "answer": "ديفيد جاكوبس",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/SouthForkFront.jpg?width=900",
         "hint": "قرائن عن العمل: أحد الممثلين جريجوري إيتزن، بلد الإنتاج الولايات المتحدة.",
@@ -5359,9 +4800,9 @@ window.seriesQuestionSeed = [
         "factType": "creator",
         "options": [
             "ديفيد جاكوبس",
-            "دراما قانونية",
-            "تيلينوفيلا",
-            "Roman Wilhelmi"
+            "لاري ديفيد",
+            "ناثان إتش. جوران",
+            "Jeff Eastin"
         ],
         "clueFacts": {
             "cast": "جريجوري إيتزن",
@@ -5387,9 +4828,9 @@ window.seriesQuestionSeed = [
         "imageAlt": "10 أشياء أكرهها بشأنك",
         "factType": "language",
         "options": [
-            "1989",
-            "2013",
-            "2008",
+            "اليابانية",
+            "الإنجليزية الأمريكية",
+            "الكورية",
             "الإنجليزية"
         ],
         "clueFacts": {
@@ -5415,9 +4856,9 @@ window.seriesQuestionSeed = [
         "imageAlt": "The Real Superhumans",
         "factType": "year",
         "options": [
-            "إليزا تايلور",
-            "كلانسي براون",
-            "سنوب دوغ",
+            "1971",
+            "1991",
+            "1983",
             "2007"
         ],
         "clueFacts": {
@@ -5430,7 +4871,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "صعب",
         "points": 500,
-        "question": "ما أحد تصنيفات مسلسل «Shiritsu Bakaleya Koukou»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: ما أحد تصنيفات مسلسل «Shiritsu Bakaleya Koukou»؟",
         "answer": "دراما تلفزيونية",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EShiritsu%20Bakaleya%20Koukou%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: بلد الإنتاج اليابان، لغة العمل اليابانية.",
@@ -5440,10 +4881,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "Shiritsu Bakaleya Koukou",
         "factType": "genre",
         "options": [
-            "غريغ غارسيا",
+            "docu-soap",
             "دراما تلفزيونية",
-            "Jeff Eastin",
-            "راسيل ديفيز"
+            "دراما تاريخية",
+            "دراما"
         ],
         "clueFacts": {
             "country": "اليابان",
@@ -5457,7 +4898,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر إحدى دول إنتاج مسلسل «قانوني بإنصاف».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى دول إنتاج مسلسل «قانوني بإنصاف».",
         "answer": "الولايات المتحدة",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D9%82%D8%A7%D9%86%D9%88%D9%86%D9%8A%20%D8%A8%D8%A5%D9%86%D8%B5%D8%A7%D9%81%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين ريتشارد دين أندرسون، التصنيف كوميديا درامية.",
@@ -5468,9 +4909,9 @@ window.seriesQuestionSeed = [
         "factType": "country",
         "options": [
             "الولايات المتحدة",
-            "2005",
-            "1999",
-            "2002"
+            "فنلندا",
+            "كندا",
+            "المملكة المتحدة"
         ],
         "clueFacts": {
             "cast": "ريتشارد دين أندرسون",
@@ -5495,10 +4936,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "تراجع المليون",
         "factType": "language",
         "options": [
-            "دراما قانونية",
+            "الألمانية",
             "الإنجليزية",
-            "sketch comedy",
-            "television talk show"
+            "الكورية",
+            "الإسبانية"
         ],
         "clueFacts": {
             "country": "المملكة المتحدة",
@@ -5523,9 +4964,9 @@ window.seriesQuestionSeed = [
         "factType": "year",
         "options": [
             "2010",
-            "ستيفان راب",
-            "جيريمي إيزاك",
-            "ميشيل كينغ"
+            "1992",
+            "1990",
+            "2012"
         ],
         "clueFacts": {
             "cast": "تاكويا كيمورا",
@@ -5540,7 +4981,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "صعب",
         "points": 500,
-        "question": "ما أحد تصنيفات مسلسل «Porque el amor manda»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: ما أحد تصنيفات مسلسل «Porque el amor manda»؟",
         "answer": "تيلينوفيلا",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EPorque%20el%20amor%20manda%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين فرناندو كولونجا، بلد الإنتاج المكسيك.",
@@ -5550,10 +4991,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "Porque el amor manda",
         "factType": "genre",
         "options": [
-            "مسلسل جريمة",
+            "تلفزيون الواقع",
             "تيلينوفيلا",
-            "برنامج حواري",
-            "خيال تاريخي"
+            "مسلسل كوميدي",
+            "music television"
         ],
         "clueFacts": {
             "cast": "فرناندو كولونجا",
@@ -5568,7 +5009,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر إحدى دول إنتاج مسلسل «112 – Sie retten dein Leben».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى دول إنتاج مسلسل «112 – Sie retten dein Leben».",
         "answer": "ألمانيا",
         "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/112_%E2%80%93_Sie_retten_dein_Leben-Logo.svg/960px-112_%E2%80%93_Sie_retten_dein_Leben-Logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "hint": "قرائن عن العمل: التصنيف مسلسل تلفزيوني طويل، لغة العمل الألمانية.",
@@ -5578,10 +5019,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "112 – Sie retten dein Leben",
         "factType": "country",
         "options": [
-            "بولندا",
-            "فنلندا",
+            "المملكة المتحدة",
+            "كوريا الجنوبية",
             "ألمانيا",
-            "الولايات المتحدة"
+            "كندا"
         ],
         "clueFacts": {
             "country": "ألمانيا",
@@ -5595,7 +5036,7 @@ window.seriesQuestionSeed = [
         "category": "مسلسلات",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر أحد الممثلين المشاركين في مسلسل «Call the Midwife».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد الممثلين المشاركين في مسلسل «Call the Midwife».",
         "answer": "بام فيريس",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2324423c%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23efc66b%22%20opacity%3D%22.12%22%2F%3E%3Crect%20x%3D%2276%22%20y%3D%2250%22%20width%3D%22220%22%20height%3D%22150%22%20rx%3D%2218%22%20fill%3D%22%23142b2a%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%2F%3E%3Crect%20x%3D%2294%22%20y%3D%2267%22%20width%3D%22184%22%20height%3D%22112%22%20rx%3D%228%22%20fill%3D%22%233e8370%22%2F%3E%3Cpath%20d%3D%22M155%20202v25m62-25v25m-85%208h110%22%20stroke%3D%22%23f1d37d%22%20stroke-width%3D%229%22%20stroke-linecap%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23efc66b%22%3ESERIES%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3ECall%20the%20Midwife%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23efc66b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: بلد الإنتاج المملكة المتحدة، المبتكر هايدي توماس.",
@@ -5605,10 +5046,10 @@ window.seriesQuestionSeed = [
         "imageAlt": "Call the Midwife",
         "factType": "cast",
         "options": [
-            "2005",
+            "SuChin Pak",
             "بام فيريس",
-            "1987",
-            "2011"
+            "ديفيد دينمان",
+            "سورين مولينج"
         ],
         "clueFacts": {
             "cast": "بام فيريس",
@@ -5635,9 +5076,9 @@ window.seriesQuestionSeed = [
         "factType": "language",
         "options": [
             "الإسبانية",
-            "جين رودينبيري",
-            "دان شنايدر",
-            "روب توماس"
+            "الإنجليزية الأمريكية",
+            "الإنجليزية",
+            "الكورية"
         ],
         "clueFacts": {
             "cast": "أندريس بارا",

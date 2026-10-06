@@ -15,9 +15,12 @@ window.geographyQuestionSeed = [
         "factType": "legacy-largest-country",
         "options": [
             "روسيا",
-            "راند جنوب إفريقي",
-            "دينار جزائري",
-            "سوم أوزبكستاني"
+            "الولايات المتحدة",
+            "البرازيل",
+            "كندا"
+        ],
+        "acceptedAnswers": [
+            "روسيا"
         ]
     },
     {
@@ -35,10 +38,13 @@ window.geographyQuestionSeed = [
         "imageKind": "flag",
         "factType": "legacy-capital",
         "options": [
-            "الجورجية",
+            "أديلايد",
             "كانبرا",
-            "الأذرية",
-            "الكتالونية"
+            "ملبورن",
+            "بيرث"
+        ],
+        "acceptedAnswers": [
+            "كانبرا"
         ]
     },
     {
@@ -56,10 +62,13 @@ window.geographyQuestionSeed = [
         "imageKind": "article",
         "factType": "legacy-mountain",
         "options": [
-            "لو ملداوي",
+            "لوتسي",
             "إيفرست",
-            "هريفنا أوكرانية",
-            "كرونة تشيكية"
+            "كي 2",
+            "كانغشينجونغا"
+        ],
+        "acceptedAnswers": [
+            "إيفرست"
         ]
     },
     {
@@ -67,7 +76,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «كندا»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «كندا»؟",
         "answer": "الفرنسية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Canada%20(Pantone).svg?width=900",
         "hint": "تنتمي إلى عائلة اللغات الرومانسية المتحدرة من اللاتينية.",
@@ -78,9 +87,13 @@ window.geographyQuestionSeed = [
         "factType": "language",
         "options": [
             "الفرنسية",
-            "هريفنا أوكرانية",
-            "كرونة تشيكية",
-            "لو ملداوي"
+            "اللغة اليونانية",
+            "التركية",
+            "البرتغالية"
+        ],
+        "acceptedAnswers": [
+            "الفرنسية",
+            "الإنجليزية"
         ]
     },
     {
@@ -88,7 +101,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «اليابان»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «اليابان»؟",
         "answer": "اليابانية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Japan.svg?width=900",
         "hint": "تكتب بمزيج من الكانجي ومقاطع الهيراغانا والكاتاكانا.",
@@ -98,9 +111,12 @@ window.geographyQuestionSeed = [
         "imageAlt": "اليابان",
         "factType": "language",
         "options": [
-            "كرونة تشيكية",
-            "لو ملداوي",
-            "ليو روماني",
+            "التركية",
+            "البرتغالية",
+            "الهولندية",
+            "اليابانية"
+        ],
+        "acceptedAnswers": [
             "اليابانية"
         ]
     },
@@ -109,7 +125,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «النرويج»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «النرويج»؟",
         "answer": "النرويجية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Norway.svg?width=900",
         "hint": "تنتمي إلى الفرع الجرماني من اللغات الهندوأوروبية.",
@@ -119,10 +135,16 @@ window.geographyQuestionSeed = [
         "imageAlt": "النرويج",
         "factType": "language",
         "options": [
-            "الإسبانية",
-            "الفنلندية",
-            "السويدية",
+            "الإندونيسية",
+            "الفرنسية",
+            "اليابانية",
             "النرويجية"
+        ],
+        "acceptedAnswers": [
+            "النرويجية",
+            "بوكمول",
+            "لغات السامي",
+            "ني نوشك"
         ]
     },
     {
@@ -130,7 +152,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «أيرلندا»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «أيرلندا»؟",
         "answer": "الإنجليزية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ireland.svg?width=900",
         "hint": "تنتمي إلى الفرع الجرماني من اللغات الهندوأوروبية.",
@@ -141,9 +163,13 @@ window.geographyQuestionSeed = [
         "factType": "language",
         "options": [
             "الإنجليزية",
-            "الألمانية",
-            "اللغة اليونانية",
-            "التركية"
+            "السويدية",
+            "الدنماركية",
+            "البولندية"
+        ],
+        "acceptedAnswers": [
+            "الإنجليزية",
+            "الأيرلندية"
         ]
     },
     {
@@ -151,7 +177,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «المجر»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «المجر»؟",
         "answer": "المجرية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Hungary.svg?width=900",
         "hint": "تنتمي إلى الفرع الفيني الأوغري، لا إلى اللغات السلافية المجاورة.",
@@ -161,9 +187,12 @@ window.geographyQuestionSeed = [
         "imageAlt": "المجر",
         "factType": "language",
         "options": [
-            "اللغة اليونانية",
-            "التركية",
-            "البرتغالية",
+            "الدنماركية",
+            "البولندية",
+            "اللتوانية",
+            "المجرية"
+        ],
+        "acceptedAnswers": [
             "المجرية"
         ]
     },
@@ -172,7 +201,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «إسبانيا»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «إسبانيا»؟",
         "answer": "الإسبانية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Spain.svg?width=900",
         "hint": "تنتمي إلى عائلة اللغات الرومانسية المتحدرة من اللاتينية.",
@@ -182,10 +211,17 @@ window.geographyQuestionSeed = [
         "imageAlt": "إسبانيا",
         "factType": "language",
         "options": [
-            "البرتغالية",
-            "الهولندية",
+            "اللتوانية",
+            "الإيطالية",
             "الإسبانية",
-            "التركية"
+            "البولندية"
+        ],
+        "acceptedAnswers": [
+            "الإسبانية",
+            "الجليقية",
+            "البشكنشية",
+            "الكتالونية",
+            "القسطانية"
         ]
     },
     {
@@ -193,7 +229,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «الولايات المتحدة»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «الولايات المتحدة»؟",
         "answer": "الإسبانية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20United%20States%20(1959%E2%80%931960).svg?width=900",
         "hint": "تنتمي إلى عائلة اللغات الرومانسية المتحدرة من اللاتينية.",
@@ -204,9 +240,17 @@ window.geographyQuestionSeed = [
         "factType": "language",
         "options": [
             "الإسبانية",
-            "المونتنغرية",
-            "اللاتينية",
-            "الإندونيسية"
+            "الغرينلاندية",
+            "الكرواتية",
+            "الأذرية"
+        ],
+        "acceptedAnswers": [
+            "الإسبانية",
+            "الإنجليزية",
+            "هاوائية",
+            "الساموية",
+            "لغة تشاموروية",
+            "Carolinian"
         ]
     },
     {
@@ -214,7 +258,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «بلجيكا»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «بلجيكا»؟",
         "answer": "الفرنسية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Belgium%20(civil).svg?width=900",
         "hint": "تنتمي إلى عائلة اللغات الرومانسية المتحدرة من اللاتينية.",
@@ -224,10 +268,15 @@ window.geographyQuestionSeed = [
         "imageAlt": "بلجيكا",
         "factType": "language",
         "options": [
-            "اللاتينية",
-            "الإندونيسية",
-            "روسيا",
+            "الكرواتية",
+            "الأذرية",
+            "الكتالونية",
             "الفرنسية"
+        ],
+        "acceptedAnswers": [
+            "الفرنسية",
+            "الهولندية",
+            "الألمانية"
         ]
     },
     {
@@ -235,7 +284,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «لوكسمبورغ»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «لوكسمبورغ»؟",
         "answer": "الفرنسية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Luxembourg.svg?width=900",
         "hint": "تنتمي إلى عائلة اللغات الرومانسية المتحدرة من اللاتينية.",
@@ -245,10 +294,15 @@ window.geographyQuestionSeed = [
         "imageAlt": "لوكسمبورغ",
         "factType": "language",
         "options": [
-            "روسيا",
-            "كندا",
+            "الكتالونية",
+            "الجورجية",
             "الفرنسية",
-            "الإندونيسية"
+            "الأذرية"
+        ],
+        "acceptedAnswers": [
+            "الفرنسية",
+            "اللوكسمبورغية",
+            "الألمانية"
         ]
     },
     {
@@ -256,7 +310,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «فنلندا»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «فنلندا»؟",
         "answer": "الفنلندية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Finland.svg?width=900",
         "hint": "تنتمي إلى الفرع الفيني الأوغري، لا إلى اللغات السلافية المجاورة.",
@@ -266,10 +320,14 @@ window.geographyQuestionSeed = [
         "imageAlt": "فنلندا",
         "factType": "language",
         "options": [
-            "الصين",
+            "المونتنغرية",
             "الفنلندية",
-            "روسيا",
-            "كندا"
+            "الكتالونية",
+            "الجورجية"
+        ],
+        "acceptedAnswers": [
+            "الفنلندية",
+            "السويدية"
         ]
     },
     {
@@ -277,7 +335,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «السويد»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «السويد»؟",
         "answer": "السويدية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Sweden.svg?width=900",
         "hint": "تنتمي إلى الفرع الجرماني من اللغات الهندوأوروبية.",
@@ -288,9 +346,17 @@ window.geographyQuestionSeed = [
         "factType": "language",
         "options": [
             "السويدية",
-            "كندا",
-            "الصين",
-            "الولايات المتحدة"
+            "الجورجية",
+            "المونتنغرية",
+            "اللاتينية"
+        ],
+        "acceptedAnswers": [
+            "السويدية",
+            "لغات السامي",
+            "الفنلندية",
+            "منكيلي",
+            "الرومنية",
+            "اليديشية"
         ]
     },
     {
@@ -298,7 +364,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «الدنمارك»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «الدنمارك»؟",
         "answer": "الدنماركية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Denmark.svg?width=900",
         "hint": "تنتمي إلى الفرع الجرماني من اللغات الهندوأوروبية.",
@@ -308,9 +374,12 @@ window.geographyQuestionSeed = [
         "imageAlt": "الدنمارك",
         "factType": "language",
         "options": [
-            "الصين",
-            "الولايات المتحدة",
-            "البرازيل",
+            "المونتنغرية",
+            "اللاتينية",
+            "الإندونيسية",
+            "الدنماركية"
+        ],
+        "acceptedAnswers": [
             "الدنماركية"
         ]
     },
@@ -319,7 +388,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «بولندا»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «بولندا»؟",
         "answer": "البولندية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Poland.svg?width=900",
         "hint": "تنتمي إلى عائلة اللغات السلافية.",
@@ -329,10 +398,16 @@ window.geographyQuestionSeed = [
         "imageAlt": "بولندا",
         "factType": "language",
         "options": [
-            "البرازيل",
-            "كانبرا",
+            "الإندونيسية",
+            "الفرنسية",
             "البولندية",
-            "الولايات المتحدة"
+            "اللاتينية"
+        ],
+        "acceptedAnswers": [
+            "البولندية",
+            "البيلاروسية",
+            "السيليزية",
+            "الكاشوبية"
         ]
     },
     {
@@ -340,7 +415,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «لتوانيا»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «لتوانيا»؟",
         "answer": "اللتوانية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Lithuania.svg?width=900",
         "hint": "تُتحدث في الدولة المذكورة، واسمها يبدأ بحرف «ا».",
@@ -350,10 +425,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "لتوانيا",
         "factType": "language",
         "options": [
-            "سيدني",
+            "اليابانية",
             "اللتوانية",
-            "البرازيل",
-            "كانبرا"
+            "الإندونيسية",
+            "الفرنسية"
+        ],
+        "acceptedAnswers": [
+            "اللتوانية"
         ]
     },
     {
@@ -361,7 +439,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «إيطاليا»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «إيطاليا»؟",
         "answer": "الإيطالية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Italy.svg?width=900",
         "hint": "تنتمي إلى عائلة اللغات الرومانسية المتحدرة من اللاتينية.",
@@ -372,9 +450,12 @@ window.geographyQuestionSeed = [
         "factType": "language",
         "options": [
             "الإيطالية",
-            "كانبرا",
-            "سيدني",
-            "ملبورن"
+            "الفرنسية",
+            "اليابانية",
+            "النرويجية"
+        ],
+        "acceptedAnswers": [
+            "الإيطالية"
         ]
     },
     {
@@ -382,7 +463,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «سويسرا»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «سويسرا»؟",
         "answer": "الفرنسية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Switzerland%20(Pantone).svg?width=900",
         "hint": "تنتمي إلى عائلة اللغات الرومانسية المتحدرة من اللاتينية.",
@@ -392,10 +473,16 @@ window.geographyQuestionSeed = [
         "imageAlt": "سويسرا",
         "factType": "language",
         "options": [
-            "سيدني",
-            "ملبورن",
-            "بيرث",
+            "النرويجية",
+            "الإنجليزية",
+            "المجرية",
             "الفرنسية"
+        ],
+        "acceptedAnswers": [
+            "الفرنسية",
+            "الألمانية",
+            "الإيطالية",
+            "الرومانشية"
         ]
     },
     {
@@ -403,7 +490,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «النمسا»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «النمسا»؟",
         "answer": "الألمانية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Austria.svg?width=900",
         "hint": "تنتمي إلى الفرع الجرماني من اللغات الهندوأوروبية.",
@@ -413,10 +500,14 @@ window.geographyQuestionSeed = [
         "imageAlt": "النمسا",
         "factType": "language",
         "options": [
-            "هريفنا أوكرانية",
+            "السلوفاكية",
             "الألمانية",
-            "روبل بيلاروسي",
-            "كرونة آيسلندية"
+            "الأوكرانية",
+            "التشيكية"
+        ],
+        "acceptedAnswers": [
+            "الألمانية",
+            "لغة الإشارة النمساوية"
         ]
     },
     {
@@ -424,7 +515,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «اليونان»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «اليونان»؟",
         "answer": "اللغة اليونانية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Greek%20Independence%201821.svg?width=900",
         "hint": "لها أبجدية خاصة وتاريخ كتابي موثق يمتد لآلاف السنين.",
@@ -435,9 +526,14 @@ window.geographyQuestionSeed = [
         "factType": "language",
         "options": [
             "اللغة اليونانية",
-            "كرونة آيسلندية",
-            "هريفنا أوكرانية",
-            "كرونة تشيكية"
+            "التشيكية",
+            "السلوفاكية",
+            "السلوفينية"
+        ],
+        "acceptedAnswers": [
+            "اللغة اليونانية",
+            "اليونانية الديموطيقية",
+            "اليونانية الحديثة"
         ]
     },
     {
@@ -445,7 +541,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «تركيا»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «تركيا»؟",
         "answer": "التركية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Turkey.svg?width=900",
         "hint": "تنتمي إلى عائلة لغوية واسعة تنتشر من الأناضول إلى آسيا الوسطى، وتستخدم تناغماً صوتياً.",
@@ -455,10 +551,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "تركيا",
         "factType": "language",
         "options": [
-            "لو ملداوي",
-            "ليو روماني",
+            "الرومانية",
+            "البلغارية",
             "التركية",
-            "كرونة تشيكية"
+            "السلوفينية"
+        ],
+        "acceptedAnswers": [
+            "التركية"
         ]
     },
     {
@@ -466,7 +565,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «البرتغال»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «البرتغال»؟",
         "answer": "البرتغالية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Portugal%20(official).svg?width=900",
         "hint": "تنتمي إلى عائلة اللغات الرومانسية المتحدرة من اللاتينية.",
@@ -477,9 +576,13 @@ window.geographyQuestionSeed = [
         "factType": "language",
         "options": [
             "البرتغالية",
-            "ليو روماني",
-            "دينار مقدوني",
-            "ليك ألباني"
+            "البلغارية",
+            "الألبانية",
+            "الغرينلاندية"
+        ],
+        "acceptedAnswers": [
+            "البرتغالية",
+            "الميراندية"
         ]
     },
     {
@@ -487,7 +590,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «هولندا»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «هولندا»؟",
         "answer": "الهولندية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Netherlands.svg?width=900",
         "hint": "تنتمي إلى الفرع الجرماني من اللغات الهندوأوروبية.",
@@ -497,10 +600,17 @@ window.geographyQuestionSeed = [
         "imageAlt": "هولندا",
         "factType": "language",
         "options": [
-            "البرتغالية",
+            "الأوكرانية",
             "الهولندية",
-            "اللغة اليونانية",
-            "التركية"
+            "الإستونية",
+            "اللاتفية"
+        ],
+        "acceptedAnswers": [
+            "الهولندية",
+            "الفريزية الغربية",
+            "بابيامنتو",
+            "الإنجليزية",
+            "Dutch Sign Language"
         ]
     },
     {
@@ -508,7 +618,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «مصر»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «مصر»؟",
         "answer": "العربية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Egypt.svg?width=900",
         "hint": "لغة سامية تكتب من اليمين إلى اليسار، وتنتشر في الشرق الأوسط وشمال أفريقيا.",
@@ -518,9 +628,12 @@ window.geographyQuestionSeed = [
         "imageAlt": "مصر",
         "factType": "language",
         "options": [
-            "بيزو كوبي",
-            "دولار بليزي",
-            "دولار بربادوسي",
+            "الإيطالية",
+            "الألمانية",
+            "اللغة اليونانية",
+            "العربية"
+        ],
+        "acceptedAnswers": [
             "العربية"
         ]
     },
@@ -529,7 +642,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «المكسيك»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «المكسيك»؟",
         "answer": "الإسبانية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Mexico.svg?width=900",
         "hint": "تنتمي إلى عائلة اللغات الرومانسية المتحدرة من اللاتينية.",
@@ -540,9 +653,14 @@ window.geographyQuestionSeed = [
         "factType": "language",
         "options": [
             "الإسبانية",
-            "كي 2",
-            "كانغشينجونغا",
-            "لوتسي"
+            "الأذرية",
+            "الكتالونية",
+            "الجورجية"
+        ],
+        "acceptedAnswers": [
+            "الإسبانية",
+            "ناواتل",
+            "لغة المايا اليوكاتية"
         ]
     },
     {
@@ -550,7 +668,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «كينيا»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «كينيا»؟",
         "answer": "الإنجليزية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kenya.svg?width=900",
         "hint": "تنتمي إلى الفرع الجرماني من اللغات الهندوأوروبية.",
@@ -560,10 +678,14 @@ window.geographyQuestionSeed = [
         "imageAlt": "كينيا",
         "factType": "language",
         "options": [
-            "دولار بليزي",
-            "دولار بربادوسي",
-            "روبية إندونيسية",
+            "الأمهرية",
+            "Putonghua",
+            "الروسية",
             "الإنجليزية"
+        ],
+        "acceptedAnswers": [
+            "الإنجليزية",
+            "السواحلية"
         ]
     },
     {
@@ -571,7 +693,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «إثيوبيا»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «إثيوبيا»؟",
         "answer": "الأمهرية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ethiopia.svg?width=900",
         "hint": "لغة سامية تكتب بنظام أبوجيدا المشتق من الجعزية.",
@@ -581,10 +703,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "إثيوبيا",
         "factType": "language",
         "options": [
-            "روبية إندونيسية",
-            "راند جنوب إفريقي",
+            "الروسية",
+            "الآيسلندية",
             "الأمهرية",
-            "دولار بربادوسي"
+            "Putonghua"
+        ],
+        "acceptedAnswers": [
+            "الأمهرية"
         ]
     },
     {
@@ -592,7 +717,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «غانا»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «غانا»؟",
         "answer": "الإنجليزية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ghana.svg?width=900",
         "hint": "تنتمي إلى الفرع الجرماني من اللغات الهندوأوروبية.",
@@ -603,9 +728,12 @@ window.geographyQuestionSeed = [
         "factType": "language",
         "options": [
             "الإنجليزية",
-            "راند جنوب إفريقي",
-            "دينار جزائري",
-            "سوم أوزبكستاني"
+            "الآيسلندية",
+            "الإستونية",
+            "اللاتفية"
+        ],
+        "acceptedAnswers": [
+            "الإنجليزية"
         ]
     },
     {
@@ -613,20 +741,23 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «فرنسا»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «فرنسا»؟",
         "answer": "الفرنسية",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20France%20(XII-XIII).svg?width=900",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_France.svg?width=900",
         "hint": "تنتمي إلى عائلة اللغات الرومانسية المتحدرة من اللاتينية.",
         "source": "https://www.wikidata.org/wiki/Q142",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Flag_of_France_(XII-XIII).svg",
+        "imageSource": "https://commons.wikimedia.org/wiki/File:Flag_of_France.svg",
         "imageKind": "flag",
         "imageAlt": "فرنسا",
         "factType": "language",
         "options": [
             "الفرنسية",
-            "روبية إندونيسية",
-            "راند جنوب إفريقي",
-            "دينار جزائري"
+            "الأذرية",
+            "الكتالونية",
+            "الجورجية"
+        ],
+        "acceptedAnswers": [
+            "الفرنسية"
         ]
     },
     {
@@ -634,7 +765,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «المملكة المتحدة»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «المملكة المتحدة»؟",
         "answer": "الإنجليزية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20United%20Kingdom%20(3-5).svg?width=900",
         "hint": "تنتمي إلى الفرع الجرماني من اللغات الهندوأوروبية.",
@@ -644,10 +775,20 @@ window.geographyQuestionSeed = [
         "imageAlt": "المملكة المتحدة",
         "factType": "language",
         "options": [
-            "دولار سنغافوري",
+            "الإندونيسية",
             "الإنجليزية",
-            "سوم أوزبكستاني",
-            "بيزو تشيلي"
+            "المونتنغرية",
+            "اللاتينية"
+        ],
+        "acceptedAnswers": [
+            "الإنجليزية",
+            "الويلزية",
+            "الغيلية الإسكتلندية",
+            "إسكتلندية",
+            "الكورنية",
+            "الأيرلندية",
+            "الأولسترية الاسكتلندية",
+            "لغة الإشارة البريطانية"
         ]
     },
     {
@@ -655,7 +796,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «الصين»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «الصين»؟",
         "answer": "Putonghua",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20People's%20Republic%20of%20China.svg?width=900",
         "hint": "تُتحدث في الدولة المذكورة، واسمها يبدأ بحرف «P».",
@@ -665,10 +806,16 @@ window.geographyQuestionSeed = [
         "imageAlt": "الصين",
         "factType": "language",
         "options": [
-            "الفرنسية",
             "اليابانية",
+            "النرويجية",
             "Putonghua",
-            "فرنك سويسري"
+            "الفرنسية"
+        ],
+        "acceptedAnswers": [
+            "Putonghua",
+            "الصينية القياسية",
+            "الصينية",
+            "لغات الصين"
         ]
     },
     {
@@ -676,7 +823,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «البرازيل»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «البرازيل»؟",
         "answer": "البرتغالية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Brazil.svg?width=900",
         "hint": "تنتمي إلى عائلة اللغات الرومانسية المتحدرة من اللاتينية.",
@@ -686,10 +833,14 @@ window.geographyQuestionSeed = [
         "imageAlt": "البرازيل",
         "factType": "language",
         "options": [
-            "البلغارية",
             "الألبانية",
+            "الغرينلاندية",
             "البرتغالية",
-            "الرومانية"
+            "البلغارية"
+        ],
+        "acceptedAnswers": [
+            "البرتغالية",
+            "Brazilian Sign Language"
         ]
     },
     {
@@ -697,7 +848,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «روسيا»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «روسيا»؟",
         "answer": "الروسية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Russia.svg?width=900",
         "hint": "تنتمي إلى عائلة اللغات السلافية.",
@@ -707,10 +858,48 @@ window.geographyQuestionSeed = [
         "imageAlt": "روسيا",
         "factType": "language",
         "options": [
-            "الأذرية",
             "الكتالونية",
+            "الجورجية",
             "الروسية",
-            "الكرواتية"
+            "الأذرية"
+        ],
+        "acceptedAnswers": [
+            "الروسية",
+            "الأباظية",
+            "الأديغية",
+            "Southern Altai",
+            "الباشقيرية",
+            "البورياتية",
+            "الإنغوشية",
+            "القبردينية",
+            "اللغة القلميقية",
+            "القراشاية البلقارية",
+            "الكومية",
+            "تتارية القرم",
+            "لغة مارية",
+            "لغة الموكشا",
+            "لغة نوغاي",
+            "الأوسيتية",
+            "التترية",
+            "اللغة التوفانية",
+            "الأدمورتية",
+            "الأوكرانية",
+            "الخاكاسية",
+            "الشيشانية",
+            "التشوفاشية",
+            "الإرزية",
+            "الياقوتية",
+            "الأوارية",
+            "الأغولية",
+            "الأذرية",
+            "لغة درغينية",
+            "القموقية",
+            "لغة لاك",
+            "لغة ليزغينية",
+            "الرتولية",
+            "التباسرانية",
+            "لغة تات",
+            "لغة تساخورية"
         ]
     },
     {
@@ -718,7 +907,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «ألمانيا»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «ألمانيا»؟",
         "answer": "الألمانية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Germany.svg?width=900",
         "hint": "تنتمي إلى الفرع الجرماني من اللغات الهندوأوروبية.",
@@ -728,9 +917,12 @@ window.geographyQuestionSeed = [
         "imageAlt": "ألمانيا",
         "factType": "language",
         "options": [
-            "الألبانية",
-            "الغرينلاندية",
-            "الكرواتية",
+            "الإسبانية",
+            "الفنلندية",
+            "السويدية",
+            "الألمانية"
+        ],
+        "acceptedAnswers": [
             "الألمانية"
         ]
     },
@@ -739,7 +931,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «بيلاروس»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «بيلاروس»؟",
         "answer": "الروسية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Belarus.svg?width=900",
         "hint": "تنتمي إلى عائلة اللغات السلافية.",
@@ -749,10 +941,14 @@ window.geographyQuestionSeed = [
         "imageAlt": "بيلاروس",
         "factType": "language",
         "options": [
-            "الكرواتية",
-            "الأذرية",
+            "السويدية",
+            "الدنماركية",
             "الروسية",
-            "الغرينلاندية"
+            "الفنلندية"
+        ],
+        "acceptedAnswers": [
+            "الروسية",
+            "البيلاروسية"
         ]
     },
     {
@@ -760,7 +956,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «آيسلندا»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «آيسلندا»؟",
         "answer": "الآيسلندية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Iceland.svg?width=900",
         "hint": "تنتمي إلى الفرع الجرماني من اللغات الهندوأوروبية.",
@@ -770,10 +966,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "آيسلندا",
         "factType": "language",
         "options": [
-            "الإندونيسية",
+            "اللغة اليونانية",
             "الآيسلندية",
-            "المونتنغرية",
-            "اللاتينية"
+            "الإيطالية",
+            "الألمانية"
+        ],
+        "acceptedAnswers": [
+            "الآيسلندية"
         ]
     },
     {
@@ -781,7 +980,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «إستونيا»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «إستونيا»؟",
         "answer": "الإستونية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Estonia.svg?width=900",
         "hint": "تنتمي إلى الفرع الفيني الأوغري، لا إلى اللغات السلافية المجاورة.",
@@ -791,10 +990,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "إستونيا",
         "factType": "language",
         "options": [
-            "جزيرة أوقيانوسيا",
-            "فرنك باسيفيكي",
+            "المونتنغرية",
+            "اللاتينية",
             "الإستونية",
-            "أوقيانوسيا"
+            "الجورجية"
+        ],
+        "acceptedAnswers": [
+            "الإستونية"
         ]
     },
     {
@@ -802,7 +1004,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «لاتفيا»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «لاتفيا»؟",
         "answer": "اللاتفية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Latvia.svg?width=900",
         "hint": "تُتحدث في الدولة المذكورة، واسمها يبدأ بحرف «ا».",
@@ -812,10 +1014,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "لاتفيا",
         "factType": "language",
         "options": [
-            "جنيه إسترليني",
+            "الرومانية",
             "اللاتفية",
-            "جزيرة أوقيانوسيا",
-            "فرنك باسيفيكي"
+            "السلوفاكية",
+            "السلوفينية"
+        ],
+        "acceptedAnswers": [
+            "اللاتفية"
         ]
     },
     {
@@ -823,7 +1028,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «أوكرانيا»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «أوكرانيا»؟",
         "answer": "الأوكرانية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ukraine.svg?width=900",
         "hint": "تنتمي إلى عائلة اللغات السلافية.",
@@ -834,9 +1039,12 @@ window.geographyQuestionSeed = [
         "factType": "language",
         "options": [
             "الأوكرانية",
-            "فرنك باسيفيكي",
-            "جنيه إسترليني",
-            "رنمينبي"
+            "السلوفينية",
+            "الرومانية",
+            "البلغارية"
+        ],
+        "acceptedAnswers": [
+            "الأوكرانية"
         ]
     },
     {
@@ -844,7 +1052,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 200,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «جمهورية التشيك»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «جمهورية التشيك»؟",
         "answer": "التشيكية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Czech%20Republic.svg?width=900",
         "hint": "تنتمي إلى عائلة اللغات السلافية.",
@@ -854,9 +1062,12 @@ window.geographyQuestionSeed = [
         "imageAlt": "جمهورية التشيك",
         "factType": "language",
         "options": [
-            "جنيه إسترليني",
-            "رنمينبي",
-            "ريال برازيلي",
+            "الرومانية",
+            "البلغارية",
+            "الألبانية",
+            "التشيكية"
+        ],
+        "acceptedAnswers": [
             "التشيكية"
         ]
     },
@@ -865,7 +1076,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 200,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «سلوفاكيا»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «سلوفاكيا»؟",
         "answer": "السلوفاكية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Slovakia.svg?width=900",
         "hint": "تنتمي إلى عائلة اللغات السلافية.",
@@ -875,10 +1086,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "سلوفاكيا",
         "factType": "language",
         "options": [
-            "ريال برازيلي",
-            "روبل روسي",
+            "الألبانية",
+            "الغرينلاندية",
             "السلوفاكية",
-            "رنمينبي"
+            "البلغارية"
+        ],
+        "acceptedAnswers": [
+            "السلوفاكية"
         ]
     },
     {
@@ -886,7 +1100,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 200,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «سلوفينيا»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «سلوفينيا»؟",
         "answer": "السلوفينية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Slovenia.svg?width=900",
         "hint": "تنتمي إلى عائلة اللغات السلافية.",
@@ -896,10 +1110,15 @@ window.geographyQuestionSeed = [
         "imageAlt": "سلوفينيا",
         "factType": "language",
         "options": [
-            "يورو",
+            "الكرواتية",
             "السلوفينية",
-            "ريال برازيلي",
-            "روبل روسي"
+            "الألبانية",
+            "الغرينلاندية"
+        ],
+        "acceptedAnswers": [
+            "السلوفينية",
+            "الإيطالية",
+            "المجرية"
         ]
     },
     {
@@ -907,7 +1126,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 200,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «مولدوفا»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «مولدوفا»؟",
         "answer": "الرومانية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Moldova.svg?width=900",
         "hint": "تنتمي إلى عائلة اللغات الرومانسية المتحدرة من اللاتينية.",
@@ -917,10 +1136,14 @@ window.geographyQuestionSeed = [
         "imageAlt": "مولدوفا",
         "factType": "language",
         "options": [
-            "يورو",
-            "روبل بيلاروسي",
-            "كرونة آيسلندية",
+            "الكرواتية",
+            "الأذرية",
+            "الكتالونية",
             "الرومانية"
+        ],
+        "acceptedAnswers": [
+            "الرومانية",
+            "الملداوية"
         ]
     },
     {
@@ -928,7 +1151,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 200,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «رومانيا»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «رومانيا»؟",
         "answer": "الرومانية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Romania.svg?width=900",
         "hint": "تنتمي إلى عائلة اللغات الرومانسية المتحدرة من اللاتينية.",
@@ -938,10 +1161,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "رومانيا",
         "factType": "language",
         "options": [
-            "كرونة آيسلندية",
-            "هريفنا أوكرانية",
+            "الكتالونية",
+            "الجورجية",
             "الرومانية",
-            "روبل بيلاروسي"
+            "الأذرية"
+        ],
+        "acceptedAnswers": [
+            "الرومانية"
         ]
     },
     {
@@ -949,7 +1175,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 200,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «بلغاريا»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «بلغاريا»؟",
         "answer": "البلغارية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bulgaria.svg?width=900",
         "hint": "تنتمي إلى عائلة اللغات السلافية.",
@@ -959,10 +1185,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "بلغاريا",
         "factType": "language",
         "options": [
-            "كرونة تشيكية",
+            "المونتنغرية",
             "البلغارية",
-            "كرونة آيسلندية",
-            "هريفنا أوكرانية"
+            "الكتالونية",
+            "الجورجية"
+        ],
+        "acceptedAnswers": [
+            "البلغارية"
         ]
     },
     {
@@ -970,7 +1199,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 200,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «مقدونيا الشمالية»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «مقدونيا الشمالية»؟",
         "answer": "الألبانية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20North%20Macedonia.svg?width=900",
         "hint": "تُتحدث في الدولة المذكورة، واسمها يبدأ بحرف «ا».",
@@ -980,10 +1209,14 @@ window.geographyQuestionSeed = [
         "imageAlt": "مقدونيا الشمالية",
         "factType": "language",
         "options": [
-            "النرويجية",
-            "الإنجليزية",
+            "Putonghua",
+            "الروسية",
             "الألبانية",
-            "اليابانية"
+            "الأمهرية"
+        ],
+        "acceptedAnswers": [
+            "الألبانية",
+            "المقدونية"
         ]
     },
     {
@@ -991,7 +1224,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 200,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «ألبانيا»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «ألبانيا»؟",
         "answer": "الألبانية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Albania.svg?width=900",
         "hint": "تُتحدث في الدولة المذكورة، واسمها يبدأ بحرف «ا».",
@@ -1001,10 +1234,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "ألبانيا",
         "factType": "language",
         "options": [
-            "المجرية",
+            "الآيسلندية",
             "الألبانية",
-            "النرويجية",
-            "الإنجليزية"
+            "Putonghua",
+            "الروسية"
+        ],
+        "acceptedAnswers": [
+            "الألبانية"
         ]
     },
     {
@@ -1012,7 +1248,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 200,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «غرينلاند»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «غرينلاند»؟",
         "answer": "الغرينلاندية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Greenland.svg?width=900",
         "hint": "تُتحدث في الدولة المذكورة، واسمها يبدأ بحرف «ا».",
@@ -1023,9 +1259,12 @@ window.geographyQuestionSeed = [
         "factType": "language",
         "options": [
             "الغرينلاندية",
-            "الإنجليزية",
-            "المجرية",
-            "الإسبانية"
+            "الروسية",
+            "الآيسلندية",
+            "الإستونية"
+        ],
+        "acceptedAnswers": [
+            "الغرينلاندية"
         ]
     },
     {
@@ -1033,7 +1272,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 200,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «كرواتيا»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «كرواتيا»؟",
         "answer": "الكرواتية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Croatia.svg?width=900",
         "hint": "تنتمي إلى عائلة اللغات السلافية.",
@@ -1043,9 +1282,12 @@ window.geographyQuestionSeed = [
         "imageAlt": "كرواتيا",
         "factType": "language",
         "options": [
-            "المجرية",
-            "الإسبانية",
-            "الفنلندية",
+            "الآيسلندية",
+            "الإستونية",
+            "اللاتفية",
+            "الكرواتية"
+        ],
+        "acceptedAnswers": [
             "الكرواتية"
         ]
     },
@@ -1054,7 +1296,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 200,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «البوسنة والهرسك»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «البوسنة والهرسك»؟",
         "answer": "الكرواتية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bosnia%20and%20Herzegovina.svg?width=900",
         "hint": "تنتمي إلى عائلة اللغات السلافية.",
@@ -1064,10 +1306,15 @@ window.geographyQuestionSeed = [
         "imageAlt": "البوسنة والهرسك",
         "factType": "language",
         "options": [
-            "الفنلندية",
-            "السويدية",
+            "اللاتفية",
+            "الأوكرانية",
             "الكرواتية",
-            "الإسبانية"
+            "الإستونية"
+        ],
+        "acceptedAnswers": [
+            "الكرواتية",
+            "البوسنية",
+            "الصربية"
         ]
     },
     {
@@ -1075,7 +1322,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 200,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «أذربيجان»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «أذربيجان»؟",
         "answer": "الأذرية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Azerbaijan.svg?width=900",
         "hint": "تنتمي إلى عائلة لغوية واسعة تنتشر من الأناضول إلى آسيا الوسطى، وتستخدم تناغماً صوتياً.",
@@ -1086,9 +1333,13 @@ window.geographyQuestionSeed = [
         "factType": "language",
         "options": [
             "الأذرية",
-            "السويدية",
-            "الدنماركية",
-            "البولندية"
+            "الأوكرانية",
+            "التشيكية",
+            "السلوفاكية"
+        ],
+        "acceptedAnswers": [
+            "الأذرية",
+            "Azerbaijani Sign Language"
         ]
     },
     {
@@ -1096,7 +1347,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 200,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «أندورا»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «أندورا»؟",
         "answer": "الكتالونية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Andorra.svg?width=900",
         "hint": "تنتمي إلى عائلة اللغات الرومانسية المتحدرة من اللاتينية.",
@@ -1106,9 +1357,12 @@ window.geographyQuestionSeed = [
         "imageAlt": "أندورا",
         "factType": "language",
         "options": [
-            "الدنماركية",
-            "البولندية",
-            "اللتوانية",
+            "التشيكية",
+            "السلوفاكية",
+            "السلوفينية",
+            "الكتالونية"
+        ],
+        "acceptedAnswers": [
             "الكتالونية"
         ]
     },
@@ -1117,7 +1371,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 200,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «قبرص»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «قبرص»؟",
         "answer": "التركية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Cyprus.svg?width=900",
         "hint": "تنتمي إلى عائلة لغوية واسعة تنتشر من الأناضول إلى آسيا الوسطى، وتستخدم تناغماً صوتياً.",
@@ -1127,10 +1381,14 @@ window.geographyQuestionSeed = [
         "imageAlt": "قبرص",
         "factType": "language",
         "options": [
-            "اللتوانية",
-            "الإيطالية",
+            "الرومانية",
+            "البلغارية",
             "التركية",
-            "البولندية"
+            "السلوفينية"
+        ],
+        "acceptedAnswers": [
+            "التركية",
+            "اليونانية الحديثة"
         ]
     },
     {
@@ -1138,7 +1396,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 200,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «جورجيا»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «جورجيا»؟",
         "answer": "الجورجية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Georgia.svg?width=900",
         "hint": "تُتحدث في الدولة المذكورة، واسمها يبدأ بحرف «ا».",
@@ -1149,9 +1407,13 @@ window.geographyQuestionSeed = [
         "factType": "language",
         "options": [
             "الجورجية",
-            "الغرينلاندية",
-            "الكرواتية",
-            "الأذرية"
+            "اللتوانية",
+            "الإيطالية",
+            "الألمانية"
+        ],
+        "acceptedAnswers": [
+            "الجورجية",
+            "الأبخازية"
         ]
     },
     {
@@ -1159,7 +1421,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 200,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «كازاخستان»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «كازاخستان»؟",
         "answer": "الروسية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kazakhstan.svg?width=900",
         "hint": "تنتمي إلى عائلة اللغات السلافية.",
@@ -1169,10 +1431,14 @@ window.geographyQuestionSeed = [
         "imageAlt": "كازاخستان",
         "factType": "language",
         "options": [
-            "الجورجية",
-            "المونتنغرية",
+            "اللغة اليونانية",
+            "التركية",
             "الروسية",
-            "الكتالونية"
+            "الألمانية"
+        ],
+        "acceptedAnswers": [
+            "الروسية",
+            "القزاقية"
         ]
     },
     {
@@ -1180,7 +1446,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 200,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «مالطا»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «مالطا»؟",
         "answer": "الإنجليزية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Malta.svg?width=900",
         "hint": "تنتمي إلى الفرع الجرماني من اللغات الهندوأوروبية.",
@@ -1190,10 +1456,14 @@ window.geographyQuestionSeed = [
         "imageAlt": "مالطا",
         "factType": "language",
         "options": [
-            "اللاتينية",
+            "الهولندية",
             "الإنجليزية",
-            "الجورجية",
-            "المونتنغرية"
+            "التركية",
+            "البرتغالية"
+        ],
+        "acceptedAnswers": [
+            "الإنجليزية",
+            "المالطية"
         ]
     },
     {
@@ -1201,7 +1471,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 200,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «موناكو»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «موناكو»؟",
         "answer": "الفرنسية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Monaco.svg?width=900",
         "hint": "تنتمي إلى عائلة اللغات الرومانسية المتحدرة من اللاتينية.",
@@ -1211,9 +1481,12 @@ window.geographyQuestionSeed = [
         "imageAlt": "موناكو",
         "factType": "language",
         "options": [
-            "اللاتينية",
-            "الإندونيسية",
-            "روسيا",
+            "الهولندية",
+            "العربية",
+            "الأمهرية",
+            "الفرنسية"
+        ],
+        "acceptedAnswers": [
             "الفرنسية"
         ]
     },
@@ -1222,7 +1495,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 200,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «الجبل الأسود»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «الجبل الأسود»؟",
         "answer": "المونتنغرية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Montenegro.svg?width=900",
         "hint": "تنتمي إلى عائلة اللغات السلافية.",
@@ -1232,10 +1505,17 @@ window.geographyQuestionSeed = [
         "imageAlt": "الجبل الأسود",
         "factType": "language",
         "options": [
-            "روسيا",
-            "كندا",
+            "العربية",
+            "الأمهرية",
             "المونتنغرية",
-            "الإندونيسية"
+            "الهولندية"
+        ],
+        "acceptedAnswers": [
+            "المونتنغرية",
+            "الصربية",
+            "الكرواتية",
+            "البوسنية",
+            "الألبانية"
         ]
     },
     {
@@ -1243,7 +1523,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 200,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «الفاتيكان»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «الفاتيكان»؟",
         "answer": "اللاتينية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Vatican%20City%20(2023%E2%80%93present).svg?width=900",
         "hint": "لغة قديمة أصبحت أساساً لعدد من اللغات الأوروبية الحديثة.",
@@ -1253,10 +1533,15 @@ window.geographyQuestionSeed = [
         "imageAlt": "الفاتيكان",
         "factType": "language",
         "options": [
-            "الصين",
+            "Putonghua",
             "اللاتينية",
-            "روسيا",
-            "كندا"
+            "العربية",
+            "الأمهرية"
+        ],
+        "acceptedAnswers": [
+            "اللاتينية",
+            "الإيطالية",
+            "الفرنسية"
         ]
     },
     {
@@ -1264,7 +1549,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 200,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «سان مارينو»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «سان مارينو»؟",
         "answer": "الإيطالية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20San%20Marino.svg?width=900",
         "hint": "تنتمي إلى عائلة اللغات الرومانسية المتحدرة من اللاتينية.",
@@ -1275,9 +1560,12 @@ window.geographyQuestionSeed = [
         "factType": "language",
         "options": [
             "الإيطالية",
-            "كندا",
-            "الصين",
-            "الولايات المتحدة"
+            "Putonghua",
+            "الروسية",
+            "الآيسلندية"
+        ],
+        "acceptedAnswers": [
+            "الإيطالية"
         ]
     },
     {
@@ -1285,7 +1573,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 200,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «كوبا»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «كوبا»؟",
         "answer": "الإسبانية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Cuba.svg?width=900",
         "hint": "تنتمي إلى عائلة اللغات الرومانسية المتحدرة من اللاتينية.",
@@ -1296,9 +1584,12 @@ window.geographyQuestionSeed = [
         "factType": "language",
         "options": [
             "الإسبانية",
-            "ريال برازيلي",
-            "روبل روسي",
-            "يورو"
+            "المجرية",
+            "الفنلندية",
+            "السويدية"
+        ],
+        "acceptedAnswers": [
+            "الإسبانية"
         ]
     },
     {
@@ -1306,7 +1597,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 200,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «بليز»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «بليز»؟",
         "answer": "الإنجليزية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Belize.svg?width=900",
         "hint": "تنتمي إلى الفرع الجرماني من اللغات الهندوأوروبية.",
@@ -1316,9 +1607,12 @@ window.geographyQuestionSeed = [
         "imageAlt": "بليز",
         "factType": "language",
         "options": [
-            "روبل روسي",
-            "يورو",
-            "روبل بيلاروسي",
+            "الفنلندية",
+            "السويدية",
+            "الدنماركية",
+            "الإنجليزية"
+        ],
+        "acceptedAnswers": [
             "الإنجليزية"
         ]
     },
@@ -1327,7 +1621,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 200,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «باربادوس»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «باربادوس»؟",
         "answer": "الإنجليزية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Barbados.svg?width=900",
         "hint": "تنتمي إلى الفرع الجرماني من اللغات الهندوأوروبية.",
@@ -1337,10 +1631,14 @@ window.geographyQuestionSeed = [
         "imageAlt": "باربادوس",
         "factType": "language",
         "options": [
-            "هريفنا أوكرانية",
+            "اللتوانية",
             "الإنجليزية",
-            "روبل بيلاروسي",
-            "كرونة آيسلندية"
+            "الدنماركية",
+            "البولندية"
+        ],
+        "acceptedAnswers": [
+            "الإنجليزية",
+            "Bajan Creole"
         ]
     },
     {
@@ -1348,7 +1646,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 200,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «إندونيسيا»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «إندونيسيا»؟",
         "answer": "الإندونيسية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Indonesia.svg?width=900",
         "hint": "تُعرف باسم باهاسا إندونيسيا وتستخدم الأبجدية اللاتينية.",
@@ -1359,9 +1657,12 @@ window.geographyQuestionSeed = [
         "factType": "language",
         "options": [
             "الإندونيسية",
-            "الفنلندية",
-            "السويدية",
-            "الدنماركية"
+            "المونتنغرية",
+            "اللاتينية",
+            "الفرنسية"
+        ],
+        "acceptedAnswers": [
+            "الإندونيسية"
         ]
     },
     {
@@ -1369,7 +1670,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "سهل",
         "points": 200,
-        "question": "اذكر إحدى اللغات الرسمية في دولة «جنوب إفريقيا»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى اللغات الرسمية في دولة «جنوب إفريقيا»؟",
         "answer": "الإنجليزية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20South%20Africa.svg?width=900",
         "hint": "تنتمي إلى الفرع الجرماني من اللغات الهندوأوروبية.",
@@ -1379,10 +1680,24 @@ window.geographyQuestionSeed = [
         "imageAlt": "جنوب إفريقيا",
         "factType": "language",
         "options": [
-            "التركية",
-            "البرتغالية",
+            "الفنلندية",
+            "السويدية",
             "الإنجليزية",
-            "اللغة اليونانية"
+            "الإسبانية"
+        ],
+        "acceptedAnswers": [
+            "الإنجليزية",
+            "الأفريقانية",
+            "لغة نديبلي جنوبية",
+            "لغة سوثو شمالية",
+            "لغة سوتية",
+            "السوازية",
+            "لغة تسونجا",
+            "التسوانية",
+            "الفيندية",
+            "الكوسية",
+            "الزولوية",
+            "South African Sign Language"
         ]
     },
     {
@@ -1400,10 +1715,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "كندا",
         "factType": "continent",
         "options": [
-            "بيزو كوبي",
-            "دولار بليزي",
+            "إفريقيا",
+            "أوقيانوسيا",
             "أمريكا الشمالية",
-            "تنك قزاقستاني"
+            "أمريكا الجنوبية"
+        ],
+        "acceptedAnswers": [
+            "أمريكا الشمالية"
         ]
     },
     {
@@ -1421,10 +1739,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "اليابان",
         "factType": "continent",
         "options": [
-            "دولار بربادوسي",
+            "جزيرة أوقيانوسيا",
             "آسيا",
-            "بيزو كوبي",
-            "دولار بليزي"
+            "إفريقيا",
+            "أوقيانوسيا"
+        ],
+        "acceptedAnswers": [
+            "آسيا"
         ]
     },
     {
@@ -1442,10 +1763,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "النرويج",
         "factType": "continent",
         "options": [
-            "إيفرست",
+            "جزيرة أوقيانوسيا",
             "أوروبا",
-            "بيرث",
-            "أديلايد"
+            "إفريقيا",
+            "أوقيانوسيا"
+        ],
+        "acceptedAnswers": [
+            "أوروبا"
         ]
     },
     {
@@ -1463,10 +1787,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "أيرلندا",
         "factType": "continent",
         "options": [
-            "اليابانية",
-            "النرويجية",
+            "جزيرة أوقيانوسيا",
+            "أمريكا الشمالية",
             "أوروبا",
-            "الفرنسية"
+            "أوقيانوسيا"
+        ],
+        "acceptedAnswers": [
+            "أوروبا"
         ]
     },
     {
@@ -1484,10 +1811,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "المجر",
         "factType": "continent",
         "options": [
-            "الإنجليزية",
+            "آسيا",
             "أوروبا",
-            "اليابانية",
-            "النرويجية"
+            "جزيرة أوقيانوسيا",
+            "أمريكا الشمالية"
+        ],
+        "acceptedAnswers": [
+            "أوروبا"
         ]
     },
     {
@@ -1506,9 +1836,12 @@ window.geographyQuestionSeed = [
         "factType": "continent",
         "options": [
             "أوروبا",
-            "النرويجية",
-            "الإنجليزية",
-            "المجرية"
+            "أمريكا الشمالية",
+            "آسيا",
+            "أمريكا الجنوبية"
+        ],
+        "acceptedAnswers": [
+            "أوروبا"
         ]
     },
     {
@@ -1526,10 +1859,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "الولايات المتحدة",
         "factType": "continent",
         "options": [
-            "التشيكية",
-            "السلوفاكية",
+            "جزيرة أوقيانوسيا",
+            "آسيا",
             "أمريكا الشمالية",
-            "الأوكرانية"
+            "أوقيانوسيا"
+        ],
+        "acceptedAnswers": [
+            "أمريكا الشمالية"
         ]
     },
     {
@@ -1547,10 +1883,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "بلجيكا",
         "factType": "continent",
         "options": [
-            "السلوفينية",
+            "آسيا",
             "أوروبا",
-            "التشيكية",
-            "السلوفاكية"
+            "جزيرة أوقيانوسيا",
+            "أمريكا الشمالية"
+        ],
+        "acceptedAnswers": [
+            "أوروبا"
         ]
     },
     {
@@ -1569,9 +1908,12 @@ window.geographyQuestionSeed = [
         "factType": "continent",
         "options": [
             "أوروبا",
-            "السلوفاكية",
-            "السلوفينية",
-            "الرومانية"
+            "أمريكا الشمالية",
+            "آسيا",
+            "أمريكا الجنوبية"
+        ],
+        "acceptedAnswers": [
+            "أوروبا"
         ]
     },
     {
@@ -1589,9 +1931,12 @@ window.geographyQuestionSeed = [
         "imageAlt": "فنلندا",
         "factType": "continent",
         "options": [
-            "السلوفينية",
-            "الرومانية",
-            "البلغارية",
+            "آسيا",
+            "أمريكا الجنوبية",
+            "إفريقيا",
+            "أوروبا"
+        ],
+        "acceptedAnswers": [
             "أوروبا"
         ]
     },
@@ -1610,10 +1955,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "السويد",
         "factType": "continent",
         "options": [
-            "البلغارية",
-            "الألبانية",
+            "إفريقيا",
+            "أوقيانوسيا",
             "أوروبا",
-            "الرومانية"
+            "أمريكا الجنوبية"
+        ],
+        "acceptedAnswers": [
+            "أوروبا"
         ]
     },
     {
@@ -1631,10 +1979,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "الدنمارك",
         "factType": "continent",
         "options": [
-            "الغرينلاندية",
+            "جزيرة أوقيانوسيا",
             "أوروبا",
-            "البلغارية",
-            "الألبانية"
+            "إفريقيا",
+            "أوقيانوسيا"
+        ],
+        "acceptedAnswers": [
+            "أوروبا"
         ]
     },
     {
@@ -1653,9 +2004,12 @@ window.geographyQuestionSeed = [
         "factType": "continent",
         "options": [
             "أوروبا",
-            "الألبانية",
-            "الغرينلاندية",
-            "الكرواتية"
+            "أوقيانوسيا",
+            "جزيرة أوقيانوسيا",
+            "أمريكا الشمالية"
+        ],
+        "acceptedAnswers": [
+            "أوروبا"
         ]
     },
     {
@@ -1673,9 +2027,12 @@ window.geographyQuestionSeed = [
         "imageAlt": "لتوانيا",
         "factType": "continent",
         "options": [
-            "الغرينلاندية",
-            "الكرواتية",
-            "الأذرية",
+            "جزيرة أوقيانوسيا",
+            "أمريكا الشمالية",
+            "آسيا",
+            "أوروبا"
+        ],
+        "acceptedAnswers": [
             "أوروبا"
         ]
     },
@@ -1694,10 +2051,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "إيطاليا",
         "factType": "continent",
         "options": [
-            "الأذرية",
-            "الكتالونية",
+            "آسيا",
+            "أمريكا الجنوبية",
             "أوروبا",
-            "الكرواتية"
+            "أمريكا الشمالية"
+        ],
+        "acceptedAnswers": [
+            "أوروبا"
         ]
     },
     {
@@ -1715,10 +2075,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "سويسرا",
         "factType": "continent",
         "options": [
-            "الجورجية",
+            "إفريقيا",
             "أوروبا",
-            "الأذرية",
-            "الكتالونية"
+            "آسيا",
+            "أمريكا الجنوبية"
+        ],
+        "acceptedAnswers": [
+            "أوروبا"
         ]
     },
     {
@@ -1736,9 +2099,12 @@ window.geographyQuestionSeed = [
         "imageAlt": "النمسا",
         "factType": "continent",
         "options": [
-            "مانات أذربيجاني",
-            "لاري جورجي",
-            "تنك قزاقستاني",
+            "جزيرة أوقيانوسيا",
+            "أمريكا الشمالية",
+            "آسيا",
+            "أوروبا"
+        ],
+        "acceptedAnswers": [
             "أوروبا"
         ]
     },
@@ -1757,10 +2123,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "اليونان",
         "factType": "continent",
         "options": [
-            "تنك قزاقستاني",
-            "بيزو كوبي",
+            "آسيا",
+            "أمريكا الجنوبية",
             "أوروبا",
-            "لاري جورجي"
+            "أمريكا الشمالية"
+        ],
+        "acceptedAnswers": [
+            "أوروبا"
         ]
     },
     {
@@ -1779,9 +2148,12 @@ window.geographyQuestionSeed = [
         "factType": "continent",
         "options": [
             "أوروبا",
-            "بيزو كوبي",
-            "دولار بليزي",
-            "دولار بربادوسي"
+            "أمريكا الجنوبية",
+            "إفريقيا",
+            "أوقيانوسيا"
+        ],
+        "acceptedAnswers": [
+            "أوروبا"
         ]
     },
     {
@@ -1799,10 +2171,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "البرتغال",
         "factType": "continent",
         "options": [
-            "روبية إندونيسية",
-            "راند جنوب إفريقي",
+            "جزيرة أوقيانوسيا",
+            "أمريكا الشمالية",
             "أوروبا",
-            "دولار بربادوسي"
+            "أوقيانوسيا"
+        ],
+        "acceptedAnswers": [
+            "أوروبا"
         ]
     },
     {
@@ -1820,9 +2195,12 @@ window.geographyQuestionSeed = [
         "imageAlt": "هولندا",
         "factType": "continent",
         "options": [
-            "النرويجية",
-            "الإنجليزية",
-            "المجرية",
+            "جزيرة أوقيانوسيا",
+            "أمريكا الشمالية",
+            "آسيا",
+            "أوروبا"
+        ],
+        "acceptedAnswers": [
             "أوروبا"
         ]
     },
@@ -1841,9 +2219,12 @@ window.geographyQuestionSeed = [
         "imageAlt": "الأوروغواي",
         "factType": "continent",
         "options": [
-            "دولار سنغافوري",
-            "فرنك سويسري",
-            "أمريكا الشمالية",
+            "إفريقيا",
+            "أوقيانوسيا",
+            "جزيرة أوقيانوسيا",
+            "أمريكا الجنوبية"
+        ],
+        "acceptedAnswers": [
             "أمريكا الجنوبية"
         ]
     },
@@ -1862,10 +2243,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "مصر",
         "factType": "continent",
         "options": [
-            "أوروبا",
+            "آسيا",
             "إفريقيا",
-            "أمريكا الشمالية",
-            "آسيا"
+            "جزيرة أوقيانوسيا",
+            "أمريكا الشمالية"
+        ],
+        "acceptedAnswers": [
+            "إفريقيا"
         ]
     },
     {
@@ -1883,10 +2267,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "المكسيك",
         "factType": "continent",
         "options": [
-            "فرنك باسيفيكي",
-            "جنيه إسترليني",
+            "جزيرة أوقيانوسيا",
+            "آسيا",
             "أمريكا الشمالية",
-            "الإندونيسية"
+            "أوقيانوسيا"
+        ],
+        "acceptedAnswers": [
+            "أمريكا الشمالية"
         ]
     },
     {
@@ -1904,10 +2291,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "كينيا",
         "factType": "continent",
         "options": [
-            "أوروبا",
+            "آسيا",
             "إفريقيا",
-            "أمريكا الشمالية",
-            "آسيا"
+            "جزيرة أوقيانوسيا",
+            "أمريكا الشمالية"
+        ],
+        "acceptedAnswers": [
+            "إفريقيا"
         ]
     },
     {
@@ -1926,9 +2316,12 @@ window.geographyQuestionSeed = [
         "factType": "continent",
         "options": [
             "إفريقيا",
+            "أمريكا الشمالية",
             "آسيا",
-            "أوروبا",
-            "أمريكا الجنوبية"
+            "أوروبا"
+        ],
+        "acceptedAnswers": [
+            "إفريقيا"
         ]
     },
     {
@@ -1946,10 +2339,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "غانا",
         "factType": "continent",
         "options": [
+            "أمريكا الجنوبية",
             "أوقيانوسيا",
-            "جزيرة أوقيانوسيا",
             "إفريقيا",
-            "أمريكا الجنوبية"
+            "أوروبا"
+        ],
+        "acceptedAnswers": [
+            "إفريقيا"
         ]
     },
     {
@@ -1959,18 +2355,21 @@ window.geographyQuestionSeed = [
         "points": 300,
         "question": "إلى أي قارة تنتمي دولة «فرنسا»؟",
         "answer": "أوروبا",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20France%20(XII-XIII).svg?width=900",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_France.svg?width=900",
         "hint": "تقع غرب آسيا، وتضم دولاً كثيرة متقاربة المساحة.",
         "source": "https://www.wikidata.org/wiki/Q142",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Flag_of_France_(XII-XIII).svg",
+        "imageSource": "https://commons.wikimedia.org/wiki/File:Flag_of_France.svg",
         "imageKind": "flag",
         "imageAlt": "فرنسا",
         "factType": "continent",
         "options": [
-            "إفريقيا",
-            "أوقيانوسيا",
+            "آسيا",
+            "أمريكا الجنوبية",
             "أوروبا",
-            "أمريكا الجنوبية"
+            "أمريكا الشمالية"
+        ],
+        "acceptedAnswers": [
+            "أوروبا"
         ]
     },
     {
@@ -1988,9 +2387,12 @@ window.geographyQuestionSeed = [
         "imageAlt": "المملكة المتحدة",
         "factType": "continent",
         "options": [
+            "إفريقيا",
+            "أوقيانوسيا",
             "جزيرة أوقيانوسيا",
-            "روسيا",
-            "كندا",
+            "أوروبا"
+        ],
+        "acceptedAnswers": [
             "أوروبا"
         ]
     },
@@ -2010,9 +2412,12 @@ window.geographyQuestionSeed = [
         "factType": "continent",
         "options": [
             "آسيا",
-            "الصين",
-            "الولايات المتحدة",
-            "البرازيل"
+            "أمريكا الشمالية",
+            "أوروبا",
+            "أمريكا الجنوبية"
+        ],
+        "acceptedAnswers": [
+            "آسيا"
         ]
     },
     {
@@ -2031,9 +2436,12 @@ window.geographyQuestionSeed = [
         "factType": "continent",
         "options": [
             "أمريكا الجنوبية",
-            "البرتغالية",
-            "الهولندية",
-            "العربية"
+            "أوقيانوسيا",
+            "جزيرة أوقيانوسيا",
+            "أمريكا الشمالية"
+        ],
+        "acceptedAnswers": [
+            "أمريكا الجنوبية"
         ]
     },
     {
@@ -2052,9 +2460,12 @@ window.geographyQuestionSeed = [
         "factType": "continent",
         "options": [
             "أوروبا",
-            "Putonghua",
-            "الروسية",
-            "الآيسلندية"
+            "أمريكا الجنوبية",
+            "إفريقيا",
+            "أوقيانوسيا"
+        ],
+        "acceptedAnswers": [
+            "أوروبا"
         ]
     },
     {
@@ -2072,10 +2483,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "ألمانيا",
         "factType": "continent",
         "options": [
-            "Putonghua",
+            "آسيا",
             "أوروبا",
-            "العربية",
-            "الأمهرية"
+            "جزيرة أوقيانوسيا",
+            "أمريكا الشمالية"
+        ],
+        "acceptedAnswers": [
+            "أوروبا"
         ]
     },
     {
@@ -2094,9 +2508,12 @@ window.geographyQuestionSeed = [
         "factType": "continent",
         "options": [
             "أوروبا",
-            "الأمهرية",
-            "Putonghua",
-            "الروسية"
+            "أمريكا الشمالية",
+            "آسيا",
+            "أمريكا الجنوبية"
+        ],
+        "acceptedAnswers": [
+            "أوروبا"
         ]
     },
     {
@@ -2114,9 +2531,12 @@ window.geographyQuestionSeed = [
         "imageAlt": "آيسلندا",
         "factType": "continent",
         "options": [
-            "اللاتفية",
-            "الأوكرانية",
-            "التشيكية",
+            "جزيرة أوقيانوسيا",
+            "أمريكا الشمالية",
+            "آسيا",
+            "أوروبا"
+        ],
+        "acceptedAnswers": [
             "أوروبا"
         ]
     },
@@ -2136,9 +2556,12 @@ window.geographyQuestionSeed = [
         "factType": "continent",
         "options": [
             "أوروبا",
-            "كرونة آيسلندية",
-            "هريفنا أوكرانية",
-            "كرونة تشيكية"
+            "أوقيانوسيا",
+            "جزيرة أوقيانوسيا",
+            "أمريكا الشمالية"
+        ],
+        "acceptedAnswers": [
+            "أوروبا"
         ]
     },
     {
@@ -2156,9 +2579,12 @@ window.geographyQuestionSeed = [
         "imageAlt": "لاتفيا",
         "factType": "continent",
         "options": [
-            "هريفنا أوكرانية",
-            "كرونة تشيكية",
-            "لو ملداوي",
+            "إفريقيا",
+            "أوقيانوسيا",
+            "جزيرة أوقيانوسيا",
+            "أوروبا"
+        ],
+        "acceptedAnswers": [
             "أوروبا"
         ]
     },
@@ -2177,10 +2603,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "أوكرانيا",
         "factType": "continent",
         "options": [
-            "لو ملداوي",
-            "ليو روماني",
+            "جزيرة أوقيانوسيا",
+            "أمريكا الشمالية",
             "أوروبا",
-            "كرونة تشيكية"
+            "أوقيانوسيا"
+        ],
+        "acceptedAnswers": [
+            "أوروبا"
         ]
     },
     {
@@ -2198,10 +2627,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "جمهورية التشيك",
         "factType": "continent",
         "options": [
-            "دينار مقدوني",
+            "آسيا",
             "أوروبا",
-            "لو ملداوي",
-            "ليو روماني"
+            "جزيرة أوقيانوسيا",
+            "أمريكا الشمالية"
+        ],
+        "acceptedAnswers": [
+            "أوروبا"
         ]
     },
     {
@@ -2220,9 +2652,12 @@ window.geographyQuestionSeed = [
         "factType": "continent",
         "options": [
             "أوروبا",
-            "ليو روماني",
-            "دينار مقدوني",
-            "ليك ألباني"
+            "أمريكا الشمالية",
+            "آسيا",
+            "أمريكا الجنوبية"
+        ],
+        "acceptedAnswers": [
+            "أوروبا"
         ]
     },
     {
@@ -2240,9 +2675,12 @@ window.geographyQuestionSeed = [
         "imageAlt": "سلوفينيا",
         "factType": "continent",
         "options": [
-            "دينار مقدوني",
-            "ليك ألباني",
-            "كرونة دنماركية",
+            "آسيا",
+            "أمريكا الجنوبية",
+            "إفريقيا",
+            "أوروبا"
+        ],
+        "acceptedAnswers": [
             "أوروبا"
         ]
     },
@@ -2261,10 +2699,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "مولدوفا",
         "factType": "continent",
         "options": [
-            "مانات أذربيجاني",
+            "جزيرة أوقيانوسيا",
             "أوروبا",
-            "كرونة دنماركية",
-            "مارك بوسني"
+            "إفريقيا",
+            "أوقيانوسيا"
+        ],
+        "acceptedAnswers": [
+            "أوروبا"
         ]
     },
     {
@@ -2283,9 +2724,12 @@ window.geographyQuestionSeed = [
         "factType": "continent",
         "options": [
             "أوروبا",
-            "مارك بوسني",
-            "مانات أذربيجاني",
-            "لاري جورجي"
+            "أوقيانوسيا",
+            "جزيرة أوقيانوسيا",
+            "أمريكا الشمالية"
+        ],
+        "acceptedAnswers": [
+            "أوروبا"
         ]
     },
     {
@@ -2303,9 +2747,12 @@ window.geographyQuestionSeed = [
         "imageAlt": "بلغاريا",
         "factType": "continent",
         "options": [
-            "مانات أذربيجاني",
-            "لاري جورجي",
-            "تنك قزاقستاني",
+            "جزيرة أوقيانوسيا",
+            "أمريكا الشمالية",
+            "آسيا",
+            "أوروبا"
+        ],
+        "acceptedAnswers": [
             "أوروبا"
         ]
     },
@@ -2325,9 +2772,12 @@ window.geographyQuestionSeed = [
         "factType": "continent",
         "options": [
             "أوروبا",
-            "البرازيل",
-            "كانبرا",
-            "سيدني"
+            "أوقيانوسيا",
+            "جزيرة أوقيانوسيا",
+            "أمريكا الشمالية"
+        ],
+        "acceptedAnswers": [
+            "أوروبا"
         ]
     },
     {
@@ -2345,9 +2795,12 @@ window.geographyQuestionSeed = [
         "imageAlt": "ألبانيا",
         "factType": "continent",
         "options": [
-            "كانبرا",
-            "سيدني",
-            "ملبورن",
+            "جزيرة أوقيانوسيا",
+            "أمريكا الشمالية",
+            "آسيا",
+            "أوروبا"
+        ],
+        "acceptedAnswers": [
             "أوروبا"
         ]
     },
@@ -2366,10 +2819,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "غرينلاند",
         "factType": "continent",
         "options": [
-            "ملبورن",
-            "بيرث",
+            "أوروبا",
+            "أمريكا الجنوبية",
             "أمريكا الشمالية",
-            "سيدني"
+            "آسيا"
+        ],
+        "acceptedAnswers": [
+            "أمريكا الشمالية"
         ]
     },
     {
@@ -2387,10 +2843,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "كرواتيا",
         "factType": "continent",
         "options": [
-            "أديلايد",
+            "إفريقيا",
             "أوروبا",
-            "ملبورن",
-            "بيرث"
+            "آسيا",
+            "أمريكا الجنوبية"
+        ],
+        "acceptedAnswers": [
+            "أوروبا"
         ]
     },
     {
@@ -2409,9 +2868,12 @@ window.geographyQuestionSeed = [
         "factType": "continent",
         "options": [
             "أوروبا",
-            "بيرث",
-            "أديلايد",
-            "إيفرست"
+            "أمريكا الجنوبية",
+            "إفريقيا",
+            "أوقيانوسيا"
+        ],
+        "acceptedAnswers": [
+            "أوروبا"
         ]
     },
     {
@@ -2429,10 +2891,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "أذربيجان",
         "factType": "continent",
         "options": [
-            "كي 2",
-            "كانغشينجونغا",
+            "جزيرة أوقيانوسيا",
+            "أمريكا الشمالية",
             "آسيا",
-            "إيفرست"
+            "أوقيانوسيا"
+        ],
+        "acceptedAnswers": [
+            "آسيا"
         ]
     },
     {
@@ -2450,10 +2915,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "أندورا",
         "factType": "continent",
         "options": [
-            "لوتسي",
+            "آسيا",
             "أوروبا",
-            "كي 2",
-            "كانغشينجونغا"
+            "جزيرة أوقيانوسيا",
+            "أمريكا الشمالية"
+        ],
+        "acceptedAnswers": [
+            "أوروبا"
         ]
     },
     {
@@ -2472,9 +2940,12 @@ window.geographyQuestionSeed = [
         "factType": "continent",
         "options": [
             "أوروبا",
-            "كانغشينجونغا",
-            "لوتسي",
-            "ماكالو"
+            "أمريكا الشمالية",
+            "آسيا",
+            "أمريكا الجنوبية"
+        ],
+        "acceptedAnswers": [
+            "أوروبا"
         ]
     },
     {
@@ -2492,10 +2963,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "جورجيا",
         "factType": "continent",
         "options": [
-            "الروسية",
-            "الآيسلندية",
+            "جزيرة أوقيانوسيا",
+            "أمريكا الشمالية",
             "أوروبا",
-            "Putonghua"
+            "أوقيانوسيا"
+        ],
+        "acceptedAnswers": [
+            "أوروبا"
         ]
     },
     {
@@ -2514,9 +2988,12 @@ window.geographyQuestionSeed = [
         "factType": "continent",
         "options": [
             "أوروبا",
-            "الآيسلندية",
-            "الإستونية",
-            "اللاتفية"
+            "أمريكا الشمالية",
+            "آسيا",
+            "أمريكا الجنوبية"
+        ],
+        "acceptedAnswers": [
+            "أوروبا"
         ]
     },
     {
@@ -2534,9 +3011,12 @@ window.geographyQuestionSeed = [
         "imageAlt": "مالطا",
         "factType": "continent",
         "options": [
-            "الإستونية",
-            "اللاتفية",
-            "الأوكرانية",
+            "آسيا",
+            "أمريكا الجنوبية",
+            "إفريقيا",
+            "أوروبا"
+        ],
+        "acceptedAnswers": [
             "أوروبا"
         ]
     },
@@ -2555,10 +3035,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "موناكو",
         "factType": "continent",
         "options": [
-            "السلوفاكية",
+            "جزيرة أوقيانوسيا",
             "أوروبا",
-            "الأوكرانية",
-            "التشيكية"
+            "إفريقيا",
+            "أوقيانوسيا"
+        ],
+        "acceptedAnswers": [
+            "أوروبا"
         ]
     },
     {
@@ -2577,9 +3060,12 @@ window.geographyQuestionSeed = [
         "factType": "continent",
         "options": [
             "أوروبا",
-            "التشيكية",
-            "السلوفاكية",
-            "السلوفينية"
+            "أوقيانوسيا",
+            "جزيرة أوقيانوسيا",
+            "أمريكا الشمالية"
+        ],
+        "acceptedAnswers": [
+            "أوروبا"
         ]
     },
     {
@@ -2597,9 +3083,12 @@ window.geographyQuestionSeed = [
         "imageAlt": "الفاتيكان",
         "factType": "continent",
         "options": [
-            "السلوفاكية",
-            "السلوفينية",
-            "الرومانية",
+            "جزيرة أوقيانوسيا",
+            "أمريكا الشمالية",
+            "آسيا",
+            "أوروبا"
+        ],
+        "acceptedAnswers": [
             "أوروبا"
         ]
     },
@@ -2618,10 +3107,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "سان مارينو",
         "factType": "continent",
         "options": [
-            "الرومانية",
-            "البلغارية",
+            "آسيا",
+            "أمريكا الجنوبية",
             "أوروبا",
-            "السلوفينية"
+            "أمريكا الشمالية"
+        ],
+        "acceptedAnswers": [
+            "أوروبا"
         ]
     },
     {
@@ -2639,10 +3131,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "كوبا",
         "factType": "continent",
         "options": [
-            "ليك ألباني",
-            "كرونة دنماركية",
+            "أوروبا",
+            "أمريكا الجنوبية",
             "أمريكا الشمالية",
-            "دينار مقدوني"
+            "آسيا"
+        ],
+        "acceptedAnswers": [
+            "أمريكا الشمالية"
         ]
     },
     {
@@ -2660,10 +3155,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "بليز",
         "factType": "continent",
         "options": [
-            "مارك بوسني",
+            "إفريقيا",
             "أمريكا الشمالية",
-            "ليك ألباني",
-            "كرونة دنماركية"
+            "أوروبا",
+            "أمريكا الجنوبية"
+        ],
+        "acceptedAnswers": [
+            "أمريكا الشمالية"
         ]
     },
     {
@@ -2681,9 +3179,12 @@ window.geographyQuestionSeed = [
         "imageAlt": "باربادوس",
         "factType": "continent",
         "options": [
-            "مارك بوسني",
-            "مانات أذربيجاني",
-            "لاري جورجي",
+            "إفريقيا",
+            "أوقيانوسيا",
+            "جزيرة أوقيانوسيا",
+            "أمريكا الشمالية"
+        ],
+        "acceptedAnswers": [
             "أمريكا الشمالية"
         ]
     },
@@ -2702,10 +3203,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "إندونيسيا",
         "factType": "continent",
         "options": [
-            "إيفرست",
-            "كي 2",
+            "إفريقيا",
+            "أوقيانوسيا",
             "آسيا",
-            "أديلايد"
+            "أمريكا الجنوبية"
+        ],
+        "acceptedAnswers": [
+            "آسيا"
         ]
     },
     {
@@ -2724,9 +3228,12 @@ window.geographyQuestionSeed = [
         "factType": "continent",
         "options": [
             "إفريقيا",
-            "الفرنسية",
-            "اليابانية",
-            "النرويجية"
+            "أوروبا",
+            "أمريكا الجنوبية",
+            "أوقيانوسيا"
+        ],
+        "acceptedAnswers": [
+            "إفريقيا"
         ]
     },
     {
@@ -2744,9 +3251,12 @@ window.geographyQuestionSeed = [
         "imageAlt": "الجزائر",
         "factType": "continent",
         "options": [
-            "التشيكية",
-            "السلوفاكية",
-            "السلوفينية",
+            "أمريكا الجنوبية",
+            "أوقيانوسيا",
+            "جزيرة أوقيانوسيا",
+            "إفريقيا"
+        ],
+        "acceptedAnswers": [
             "إفريقيا"
         ]
     },
@@ -2766,9 +3276,12 @@ window.geographyQuestionSeed = [
         "factType": "continent",
         "options": [
             "آسيا",
-            "الرومانية",
-            "البلغارية",
-            "الألبانية"
+            "أمريكا الشمالية",
+            "أوروبا",
+            "أمريكا الجنوبية"
+        ],
+        "acceptedAnswers": [
+            "آسيا"
         ]
     },
     {
@@ -2787,9 +3300,12 @@ window.geographyQuestionSeed = [
         "factType": "continent",
         "options": [
             "أمريكا الجنوبية",
-            "الجورجية",
-            "المونتنغرية",
-            "اللاتينية"
+            "أمريكا الشمالية",
+            "آسيا",
+            "أوروبا"
+        ],
+        "acceptedAnswers": [
+            "أمريكا الجنوبية"
         ]
     },
     {
@@ -2807,10 +3323,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "سنغافورة",
         "factType": "continent",
         "options": [
-            "السويدية",
+            "جزيرة أوقيانوسيا",
             "آسيا",
-            "الإسبانية",
-            "الفنلندية"
+            "إفريقيا",
+            "أوقيانوسيا"
+        ],
+        "acceptedAnswers": [
+            "آسيا"
         ]
     },
     {
@@ -2828,9 +3347,12 @@ window.geographyQuestionSeed = [
         "imageAlt": "ليختنشتاين",
         "factType": "continent",
         "options": [
-            "فرنك باسيفيكي",
-            "جنيه إسترليني",
-            "رنمينبي",
+            "آسيا",
+            "أمريكا الجنوبية",
+            "إفريقيا",
+            "أوروبا"
+        ],
+        "acceptedAnswers": [
             "أوروبا"
         ]
     },
@@ -2849,9 +3371,12 @@ window.geographyQuestionSeed = [
         "imageAlt": "البحرين",
         "factType": "continent",
         "options": [
-            "العربية",
-            "الأمهرية",
-            "Putonghua",
+            "أوروبا",
+            "أمريكا الجنوبية",
+            "إفريقيا",
+            "آسيا"
+        ],
+        "acceptedAnswers": [
             "آسيا"
         ]
     },
@@ -2870,10 +3395,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "أرمينيا",
         "factType": "continent",
         "options": [
-            "Putonghua",
-            "الروسية",
+            "إفريقيا",
+            "أوقيانوسيا",
             "آسيا",
-            "الأمهرية"
+            "أمريكا الجنوبية"
+        ],
+        "acceptedAnswers": [
+            "آسيا"
         ]
     },
     {
@@ -2891,10 +3419,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "صربيا",
         "factType": "continent",
         "options": [
-            "أوقيانوسيا",
-            "جزيرة أوقيانوسيا",
+            "آسيا",
+            "أمريكا الجنوبية",
             "أوروبا",
-            "إفريقيا"
+            "أمريكا الشمالية"
+        ],
+        "acceptedAnswers": [
+            "أوروبا"
         ]
     },
     {
@@ -2912,10 +3443,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "أستراليا",
         "factType": "continent",
         "options": [
-            "البرازيل",
+            "آسيا",
             "أوقيانوسيا",
-            "الصين",
-            "الولايات المتحدة"
+            "جزيرة أوقيانوسيا",
+            "أمريكا الشمالية"
+        ],
+        "acceptedAnswers": [
+            "أوقيانوسيا"
         ]
     },
     {
@@ -2933,10 +3467,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "الأرجنتين",
         "factType": "continent",
         "options": [
-            "البرتغالية",
-            "الهولندية",
+            "إفريقيا",
+            "أوقيانوسيا",
             "أمريكا الجنوبية",
-            "التركية"
+            "أوروبا"
+        ],
+        "acceptedAnswers": [
+            "أمريكا الجنوبية"
         ]
     },
     {
@@ -2954,10 +3491,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "بيرو",
         "factType": "continent",
         "options": [
-            "الآيسلندية",
+            "إفريقيا",
             "أمريكا الجنوبية",
-            "Putonghua",
-            "الروسية"
+            "آسيا",
+            "أوروبا"
+        ],
+        "acceptedAnswers": [
+            "أمريكا الجنوبية"
         ]
     },
     {
@@ -2976,9 +3516,12 @@ window.geographyQuestionSeed = [
         "factType": "continent",
         "options": [
             "آسيا",
-            "يورو",
-            "روبل بيلاروسي",
-            "كرونة آيسلندية"
+            "أمريكا الجنوبية",
+            "إفريقيا",
+            "أوقيانوسيا"
+        ],
+        "acceptedAnswers": [
+            "آسيا"
         ]
     },
     {
@@ -2996,9 +3539,12 @@ window.geographyQuestionSeed = [
         "imageAlt": "كمبوديا",
         "factType": "continent",
         "options": [
-            "روبل بيلاروسي",
-            "كرونة آيسلندية",
-            "هريفنا أوكرانية",
+            "إفريقيا",
+            "أوقيانوسيا",
+            "جزيرة أوقيانوسيا",
+            "آسيا"
+        ],
+        "acceptedAnswers": [
             "آسيا"
         ]
     },
@@ -3017,9 +3563,12 @@ window.geographyQuestionSeed = [
         "imageAlt": "تيمور الشرقية",
         "factType": "continent",
         "options": [
-            "المجرية",
-            "الإسبانية",
-            "الفنلندية",
+            "إفريقيا",
+            "أوقيانوسيا",
+            "جزيرة أوقيانوسيا",
+            "آسيا"
+        ],
+        "acceptedAnswers": [
             "آسيا"
         ]
     },
@@ -3038,10 +3587,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "تشاد",
         "factType": "continent",
         "options": [
-            "الأمهرية",
+            "آسيا",
             "إفريقيا",
-            "الهولندية",
-            "العربية"
+            "جزيرة أوقيانوسيا",
+            "أمريكا الشمالية"
+        ],
+        "acceptedAnswers": [
+            "إفريقيا"
         ]
     },
     {
@@ -3059,10 +3611,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "نيوزيلندا",
         "factType": "continent",
         "options": [
-            "كرونة آيسلندية",
+            "جزيرة أوقيانوسيا",
             "أوقيانوسيا",
-            "يورو",
-            "روبل بيلاروسي"
+            "أمريكا الجنوبية",
+            "إفريقيا"
+        ],
+        "acceptedAnswers": [
+            "أوقيانوسيا"
         ]
     },
     {
@@ -3080,10 +3635,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "الهند",
         "factType": "continent",
         "options": [
-            "ليو روماني",
+            "إفريقيا",
             "آسيا",
-            "كرونة تشيكية",
-            "لو ملداوي"
+            "أوروبا",
+            "أمريكا الجنوبية"
+        ],
+        "acceptedAnswers": [
+            "آسيا"
         ]
     },
     {
@@ -3102,9 +3660,12 @@ window.geographyQuestionSeed = [
         "factType": "continent",
         "options": [
             "جزيرة أوقيانوسيا",
-            "أوقيانوسيا",
-            "روسيا",
-            "كندا"
+            "أوروبا",
+            "أمريكا الجنوبية",
+            "إفريقيا"
+        ],
+        "acceptedAnswers": [
+            "جزيرة أوقيانوسيا"
         ]
     },
     {
@@ -3122,10 +3683,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "تونغا",
         "factType": "continent",
         "options": [
-            "سيدني",
-            "ملبورن",
+            "أمريكا الجنوبية",
+            "إفريقيا",
             "أوقيانوسيا",
-            "كانبرا"
+            "أوروبا"
+        ],
+        "acceptedAnswers": [
+            "أوقيانوسيا"
         ]
     },
     {
@@ -3144,9 +3708,12 @@ window.geographyQuestionSeed = [
         "factType": "continent",
         "options": [
             "أوقيانوسيا",
-            "الهولندية",
-            "العربية",
-            "الأمهرية"
+            "إفريقيا",
+            "جزيرة أوقيانوسيا",
+            "أمريكا الشمالية"
+        ],
+        "acceptedAnswers": [
+            "أوقيانوسيا"
         ]
     },
     {
@@ -3164,10 +3731,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "جزر سليمان",
         "factType": "continent",
         "options": [
-            "Putonghua",
-            "الروسية",
+            "آسيا",
+            "أوروبا",
             "جزيرة أوقيانوسيا",
-            "الأمهرية"
+            "أمريكا الشمالية"
+        ],
+        "acceptedAnswers": [
+            "جزيرة أوقيانوسيا"
         ]
     },
     {
@@ -3185,10 +3755,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "فانواتو",
         "factType": "continent",
         "options": [
-            "الآيسلندية",
+            "أمريكا الجنوبية",
             "جزيرة أوقيانوسيا",
-            "Putonghua",
-            "الروسية"
+            "آسيا",
+            "أوروبا"
+        ],
+        "acceptedAnswers": [
+            "جزيرة أوقيانوسيا"
         ]
     },
     {
@@ -3206,9 +3779,12 @@ window.geographyQuestionSeed = [
         "imageAlt": "بابوا غينيا الجديدة",
         "factType": "continent",
         "options": [
-            "روبل بيلاروسي",
-            "كرونة آيسلندية",
-            "هريفنا أوكرانية",
+            "أمريكا الجنوبية",
+            "إفريقيا",
+            "جزيرة أوقيانوسيا",
+            "أوقيانوسيا"
+        ],
+        "acceptedAnswers": [
             "أوقيانوسيا"
         ]
     },
@@ -3227,9 +3803,12 @@ window.geographyQuestionSeed = [
         "imageAlt": "بالاو",
         "factType": "continent",
         "options": [
-            "لو ملداوي",
-            "ليو روماني",
-            "دينار مقدوني",
+            "آسيا",
+            "أوروبا",
+            "أمريكا الجنوبية",
+            "جزيرة أوقيانوسيا"
+        ],
+        "acceptedAnswers": [
             "جزيرة أوقيانوسيا"
         ]
     },
@@ -3248,10 +3827,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "ناورو",
         "factType": "continent",
         "options": [
-            "كرونة دنماركية",
+            "جزيرة أوقيانوسيا",
             "أوقيانوسيا",
-            "دينار مقدوني",
-            "ليك ألباني"
+            "أمريكا الجنوبية",
+            "إفريقيا"
+        ],
+        "acceptedAnswers": [
+            "أوقيانوسيا"
         ]
     },
     {
@@ -3270,9 +3852,12 @@ window.geographyQuestionSeed = [
         "factType": "continent",
         "options": [
             "أوقيانوسيا",
-            "الهولندية",
-            "العربية",
-            "الأمهرية"
+            "أوروبا",
+            "أمريكا الجنوبية",
+            "إفريقيا"
+        ],
+        "acceptedAnswers": [
+            "أوقيانوسيا"
         ]
     },
     {
@@ -3290,10 +3875,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "جزر مارشال",
         "factType": "continent",
         "options": [
-            "التشيكية",
+            "جزيرة أوقيانوسيا",
             "أوقيانوسيا",
-            "اللاتفية",
-            "الأوكرانية"
+            "أمريكا الجنوبية",
+            "إفريقيا"
+        ],
+        "acceptedAnswers": [
+            "أوقيانوسيا"
         ]
     },
     {
@@ -3311,9 +3899,12 @@ window.geographyQuestionSeed = [
         "imageAlt": "كيريباتي",
         "factType": "continent",
         "options": [
-            "روبل بيلاروسي",
-            "كرونة آيسلندية",
-            "هريفنا أوكرانية",
+            "آسيا",
+            "أوروبا",
+            "أمريكا الجنوبية",
+            "جزيرة أوقيانوسيا"
+        ],
+        "acceptedAnswers": [
             "جزيرة أوقيانوسيا"
         ]
     },
@@ -3322,20 +3913,26 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "صعب",
         "points": 400,
-        "question": "اذكر إحدى العملات الرسمية لدولة «فرنسا»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى العملات الرسمية لدولة «فرنسا»؟",
         "answer": "فرنك باسيفيكي",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20France%20(XII-XIII).svg?width=900",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_France.svg?width=900",
         "hint": "اسم نقدي تاريخي ما زال مستخدماً في بعض الدول والمناطق.",
         "source": "https://www.wikidata.org/wiki/Q142",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Flag_of_France_(XII-XIII).svg",
+        "imageSource": "https://commons.wikimedia.org/wiki/File:Flag_of_France.svg",
         "imageKind": "flag",
         "imageAlt": "فرنسا",
         "factType": "currency",
         "options": [
-            "البرازيل",
+            "فرنك سويسري",
             "فرنك باسيفيكي",
-            "الصين",
-            "الولايات المتحدة"
+            "بيزو تشيلي",
+            "دولار سنغافوري"
+        ],
+        "acceptedAnswers": [
+            "فرنك باسيفيكي",
+            "يورو",
+            "فرنك فرنسي",
+            "livre tournois"
         ]
     },
     {
@@ -3343,7 +3940,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "صعب",
         "points": 400,
-        "question": "اذكر إحدى العملات الرسمية لدولة «المملكة المتحدة»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى العملات الرسمية لدولة «المملكة المتحدة»؟",
         "answer": "جنيه إسترليني",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20United%20Kingdom%20(3-5).svg?width=900",
         "hint": "عملة بريطانية قديمة، ورمزها الشائع £.",
@@ -3353,10 +3950,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "المملكة المتحدة",
         "factType": "currency",
         "options": [
-            "سيدني",
-            "ملبورن",
+            "رنمينبي",
+            "ريال برازيلي",
             "جنيه إسترليني",
-            "كانبرا"
+            "فرنك باسيفيكي"
+        ],
+        "acceptedAnswers": [
+            "جنيه إسترليني"
         ]
     },
     {
@@ -3364,7 +3964,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر إحدى العملات الرسمية لدولة «الصين»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى العملات الرسمية لدولة «الصين»؟",
         "answer": "رنمينبي",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20People's%20Republic%20of%20China.svg?width=900",
         "hint": "العملة الصينية الرسمية، ووحدتها الأساسية تسمى اليوان.",
@@ -3374,9 +3974,12 @@ window.geographyQuestionSeed = [
         "imageAlt": "الصين",
         "factType": "currency",
         "options": [
-            "بيرث",
-            "أديلايد",
-            "إيفرست",
+            "روبل روسي",
+            "يورو",
+            "روبل بيلاروسي",
+            "رنمينبي"
+        ],
+        "acceptedAnswers": [
             "رنمينبي"
         ]
     },
@@ -3385,7 +3988,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر إحدى العملات الرسمية لدولة «البرازيل»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى العملات الرسمية لدولة «البرازيل»؟",
         "answer": "ريال برازيلي",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Brazil.svg?width=900",
         "hint": "تبدأ العملة بحرف «ر»، وتُستخدم رسمياً في الدولة المذكورة.",
@@ -3395,10 +3998,21 @@ window.geographyQuestionSeed = [
         "imageAlt": "البرازيل",
         "factType": "currency",
         "options": [
-            "الآيسلندية",
-            "الإستونية",
-            "اللاتفية",
+            "روبل روسي",
+            "يورو",
+            "روبل بيلاروسي",
             "ريال برازيلي"
+        ],
+        "acceptedAnswers": [
+            "ريال برازيلي",
+            "كروزيرو ريال برازيلي",
+            "كروزيرو البرازيلية (1990–1993)",
+            "البرازيلي كروزادو نوفو",
+            "كروزادو برازيلي",
+            "cruzeiro novo",
+            "كروزيرو البرازيلية (1942–1967)",
+            "الريال البرازيلي (قديم)",
+            "cruzeiro"
         ]
     },
     {
@@ -3406,7 +4020,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر إحدى العملات الرسمية لدولة «روسيا»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى العملات الرسمية لدولة «روسيا»؟",
         "answer": "روبل روسي",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Russia.svg?width=900",
         "hint": "عملة مستخدمة في أجزاء من أوروبا الشرقية وشمال آسيا.",
@@ -3416,10 +4030,14 @@ window.geographyQuestionSeed = [
         "imageAlt": "روسيا",
         "factType": "currency",
         "options": [
-            "التشيكية",
-            "السلوفاكية",
-            "السلوفينية",
+            "هريفنا أوكرانية",
+            "كرونة تشيكية",
+            "لو ملداوي",
             "روبل روسي"
+        ],
+        "acceptedAnswers": [
+            "روبل روسي",
+            "روبل سوفياتي"
         ]
     },
     {
@@ -3427,7 +4045,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر إحدى العملات الرسمية لدولة «ألمانيا»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى العملات الرسمية لدولة «ألمانيا»؟",
         "answer": "يورو",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Germany.svg?width=900",
         "hint": "عملة موحدة تتعامل بها دول كثيرة أعضاء في الاتحاد الأوروبي.",
@@ -3438,9 +4056,12 @@ window.geographyQuestionSeed = [
         "factType": "currency",
         "options": [
             "يورو",
-            "اللاتفية",
-            "الأوكرانية",
-            "التشيكية"
+            "ليو روماني",
+            "دينار مقدوني",
+            "ليك ألباني"
+        ],
+        "acceptedAnswers": [
+            "يورو"
         ]
     },
     {
@@ -3448,7 +4069,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر إحدى العملات الرسمية لدولة «بيلاروس»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى العملات الرسمية لدولة «بيلاروس»؟",
         "answer": "روبل بيلاروسي",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Belarus.svg?width=900",
         "hint": "عملة مستخدمة في أجزاء من أوروبا الشرقية وشمال آسيا.",
@@ -3458,10 +4079,15 @@ window.geographyQuestionSeed = [
         "imageAlt": "بيلاروس",
         "factType": "currency",
         "options": [
-            "الأوكرانية",
-            "التشيكية",
-            "السلوفاكية",
+            "دينار مقدوني",
+            "ليك ألباني",
+            "كرونة دنماركية",
             "روبل بيلاروسي"
+        ],
+        "acceptedAnswers": [
+            "روبل بيلاروسي",
+            "روبل بلاروسي (2000-2016)",
+            "Belarusian ruble"
         ]
     },
     {
@@ -3469,7 +4095,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر إحدى العملات الرسمية لدولة «آيسلندا»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى العملات الرسمية لدولة «آيسلندا»؟",
         "answer": "كرونة آيسلندية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Iceland.svg?width=900",
         "hint": "اسم عملة تستخدمه عدة دول شمالية أو وسط أوروبية.",
@@ -3479,10 +4105,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "آيسلندا",
         "factType": "currency",
         "options": [
-            "الألبانية",
-            "الغرينلاندية",
+            "تنك قزاقستاني",
+            "بيزو كوبي",
             "كرونة آيسلندية",
-            "البلغارية"
+            "لاري جورجي"
+        ],
+        "acceptedAnswers": [
+            "كرونة آيسلندية"
         ]
     },
     {
@@ -3490,7 +4119,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر إحدى العملات الرسمية لدولة «إستونيا»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى العملات الرسمية لدولة «إستونيا»؟",
         "answer": "يورو",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Estonia.svg?width=900",
         "hint": "عملة موحدة تتعامل بها دول كثيرة أعضاء في الاتحاد الأوروبي.",
@@ -3500,10 +4129,15 @@ window.geographyQuestionSeed = [
         "imageAlt": "إستونيا",
         "factType": "currency",
         "options": [
-            "كرونة آيسلندية",
-            "هريفنا أوكرانية",
-            "كرونة تشيكية",
+            "دينار مقدوني",
+            "ليك ألباني",
+            "كرونة دنماركية",
             "يورو"
+        ],
+        "acceptedAnswers": [
+            "يورو",
+            "كرون إستوني",
+            "المارك الإستوني"
         ]
     },
     {
@@ -3511,7 +4145,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر إحدى العملات الرسمية لدولة «لاتفيا»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى العملات الرسمية لدولة «لاتفيا»؟",
         "answer": "يورو",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Latvia.svg?width=900",
         "hint": "عملة موحدة تتعامل بها دول كثيرة أعضاء في الاتحاد الأوروبي.",
@@ -3521,10 +4155,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "لاتفيا",
         "factType": "currency",
         "options": [
-            "كرونة تشيكية",
-            "لو ملداوي",
+            "بيزو تشيلي",
+            "دولار سنغافوري",
             "يورو",
-            "هريفنا أوكرانية"
+            "سوم أوزبكستاني"
+        ],
+        "acceptedAnswers": [
+            "يورو"
         ]
     },
     {
@@ -3532,7 +4169,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر إحدى العملات الرسمية لدولة «أوكرانيا»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى العملات الرسمية لدولة «أوكرانيا»؟",
         "answer": "هريفنا أوكرانية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ukraine.svg?width=900",
         "hint": "تبدأ العملة بحرف «ه»، وتُستخدم رسمياً في الدولة المذكورة.",
@@ -3542,10 +4179,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "أوكرانيا",
         "factType": "currency",
         "options": [
-            "ليو روماني",
+            "فرنك سويسري",
             "هريفنا أوكرانية",
-            "كرونة تشيكية",
-            "لو ملداوي"
+            "بيزو تشيلي",
+            "دولار سنغافوري"
+        ],
+        "acceptedAnswers": [
+            "هريفنا أوكرانية"
         ]
     },
     {
@@ -3553,7 +4193,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر إحدى العملات الرسمية لدولة «جمهورية التشيك»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى العملات الرسمية لدولة «جمهورية التشيك»؟",
         "answer": "كرونة تشيكية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20Czech%20Republic.svg?width=900",
         "hint": "اسم عملة تستخدمه عدة دول شمالية أو وسط أوروبية.",
@@ -3564,9 +4204,12 @@ window.geographyQuestionSeed = [
         "factType": "currency",
         "options": [
             "كرونة تشيكية",
-            "لو ملداوي",
-            "ليو روماني",
-            "دينار مقدوني"
+            "دولار سنغافوري",
+            "فرنك سويسري",
+            "فرنك باسيفيكي"
+        ],
+        "acceptedAnswers": [
+            "كرونة تشيكية"
         ]
     },
     {
@@ -3574,7 +4217,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر إحدى العملات الرسمية لدولة «سلوفاكيا»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى العملات الرسمية لدولة «سلوفاكيا»؟",
         "answer": "يورو",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Slovakia.svg?width=900",
         "hint": "عملة موحدة تتعامل بها دول كثيرة أعضاء في الاتحاد الأوروبي.",
@@ -3584,10 +4227,14 @@ window.geographyQuestionSeed = [
         "imageAlt": "سلوفاكيا",
         "factType": "currency",
         "options": [
-            "ليو روماني",
-            "دينار مقدوني",
-            "ليك ألباني",
+            "فرنك سويسري",
+            "فرنك باسيفيكي",
+            "جنيه إسترليني",
             "يورو"
+        ],
+        "acceptedAnswers": [
+            "يورو",
+            "كرونة سلوفاكية"
         ]
     },
     {
@@ -3595,7 +4242,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر إحدى العملات الرسمية لدولة «سلوفينيا»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى العملات الرسمية لدولة «سلوفينيا»؟",
         "answer": "يورو",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Slovenia.svg?width=900",
         "hint": "عملة موحدة تتعامل بها دول كثيرة أعضاء في الاتحاد الأوروبي.",
@@ -3605,10 +4252,14 @@ window.geographyQuestionSeed = [
         "imageAlt": "سلوفينيا",
         "factType": "currency",
         "options": [
-            "ليك ألباني",
-            "كرونة دنماركية",
+            "جنيه إسترليني",
+            "رنمينبي",
             "يورو",
-            "دينار مقدوني"
+            "فرنك باسيفيكي"
+        ],
+        "acceptedAnswers": [
+            "يورو",
+            "تولار سلوفيني"
         ]
     },
     {
@@ -3616,7 +4267,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر إحدى العملات الرسمية لدولة «مولدوفا»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى العملات الرسمية لدولة «مولدوفا»؟",
         "answer": "لو ملداوي",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Moldova.svg?width=900",
         "hint": "تبدأ العملة بحرف «ل»، وتُستخدم رسمياً في الدولة المذكورة.",
@@ -3627,9 +4278,12 @@ window.geographyQuestionSeed = [
         "factType": "currency",
         "options": [
             "لو ملداوي",
-            "كرونة دنماركية",
-            "مارك بوسني",
-            "مانات أذربيجاني"
+            "رنمينبي",
+            "ريال برازيلي",
+            "روبل روسي"
+        ],
+        "acceptedAnswers": [
+            "لو ملداوي"
         ]
     },
     {
@@ -3637,7 +4291,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر إحدى العملات الرسمية لدولة «رومانيا»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى العملات الرسمية لدولة «رومانيا»؟",
         "answer": "ليو روماني",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Romania.svg?width=900",
         "hint": "تبدأ العملة بحرف «ل»، وتُستخدم رسمياً في الدولة المذكورة.",
@@ -3647,9 +4301,12 @@ window.geographyQuestionSeed = [
         "imageAlt": "رومانيا",
         "factType": "currency",
         "options": [
-            "مارك بوسني",
-            "مانات أذربيجاني",
-            "لاري جورجي",
+            "ريال برازيلي",
+            "روبل روسي",
+            "يورو",
+            "ليو روماني"
+        ],
+        "acceptedAnswers": [
             "ليو روماني"
         ]
     },
@@ -3658,7 +4315,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر إحدى العملات الرسمية لدولة «بلغاريا»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى العملات الرسمية لدولة «بلغاريا»؟",
         "answer": "يورو",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bulgaria.svg?width=900",
         "hint": "عملة موحدة تتعامل بها دول كثيرة أعضاء في الاتحاد الأوروبي.",
@@ -3668,10 +4325,14 @@ window.geographyQuestionSeed = [
         "imageAlt": "بلغاريا",
         "factType": "currency",
         "options": [
-            "لاري جورجي",
-            "تنك قزاقستاني",
+            "روبل بيلاروسي",
+            "كرونة آيسلندية",
             "يورو",
-            "مانات أذربيجاني"
+            "روبل روسي"
+        ],
+        "acceptedAnswers": [
+            "يورو",
+            "ليف بلغاري"
         ]
     },
     {
@@ -3679,7 +4340,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر إحدى العملات الرسمية لدولة «مقدونيا الشمالية»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى العملات الرسمية لدولة «مقدونيا الشمالية»؟",
         "answer": "دينار مقدوني",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20North%20Macedonia.svg?width=900",
         "hint": "اسم عملة شائع في عدد من الدول العربية والبلقانية.",
@@ -3689,9 +4350,12 @@ window.geographyQuestionSeed = [
         "imageAlt": "مقدونيا الشمالية",
         "factType": "currency",
         "options": [
-            "إيفرست",
-            "كي 2",
-            "كانغشينجونغا",
+            "فرنك سويسري",
+            "فرنك باسيفيكي",
+            "جنيه إسترليني",
+            "دينار مقدوني"
+        ],
+        "acceptedAnswers": [
             "دينار مقدوني"
         ]
     },
@@ -3700,7 +4364,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر إحدى العملات الرسمية لدولة «ألبانيا»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى العملات الرسمية لدولة «ألبانيا»؟",
         "answer": "ليك ألباني",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Albania.svg?width=900",
         "hint": "تبدأ العملة بحرف «ل»، وتُستخدم رسمياً في الدولة المذكورة.",
@@ -3710,10 +4374,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "ألبانيا",
         "factType": "currency",
         "options": [
-            "كانغشينجونغا",
-            "لوتسي",
+            "جنيه إسترليني",
+            "رنمينبي",
             "ليك ألباني",
-            "كي 2"
+            "فرنك باسيفيكي"
+        ],
+        "acceptedAnswers": [
+            "ليك ألباني"
         ]
     },
     {
@@ -3721,7 +4388,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر إحدى العملات الرسمية لدولة «غرينلاند»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى العملات الرسمية لدولة «غرينلاند»؟",
         "answer": "كرونة دنماركية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Greenland.svg?width=900",
         "hint": "اسم عملة تستخدمه عدة دول شمالية أو وسط أوروبية.",
@@ -3731,10 +4398,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "غرينلاند",
         "factType": "currency",
         "options": [
-            "ماكالو",
+            "ريال برازيلي",
             "كرونة دنماركية",
-            "كانغشينجونغا",
-            "لوتسي"
+            "جنيه إسترليني",
+            "رنمينبي"
+        ],
+        "acceptedAnswers": [
+            "كرونة دنماركية"
         ]
     },
     {
@@ -3742,7 +4412,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر إحدى العملات الرسمية لدولة «كرواتيا»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى العملات الرسمية لدولة «كرواتيا»؟",
         "answer": "يورو",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Croatia.svg?width=900",
         "hint": "عملة موحدة تتعامل بها دول كثيرة أعضاء في الاتحاد الأوروبي.",
@@ -3753,9 +4423,14 @@ window.geographyQuestionSeed = [
         "factType": "currency",
         "options": [
             "يورو",
-            "لوتسي",
-            "ماكالو",
-            "الفرنسية"
+            "رنمينبي",
+            "ريال برازيلي",
+            "روبل روسي"
+        ],
+        "acceptedAnswers": [
+            "يورو",
+            "دينار كرواتي",
+            "كونا كرواتية"
         ]
     },
     {
@@ -3763,7 +4438,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر إحدى العملات الرسمية لدولة «البوسنة والهرسك»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى العملات الرسمية لدولة «البوسنة والهرسك»؟",
         "answer": "مارك بوسني",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bosnia%20and%20Herzegovina.svg?width=900",
         "hint": "تبدأ العملة بحرف «م»، وتُستخدم رسمياً في الدولة المذكورة.",
@@ -3773,10 +4448,14 @@ window.geographyQuestionSeed = [
         "imageAlt": "البوسنة والهرسك",
         "factType": "currency",
         "options": [
-            "ماكالو",
-            "الفرنسية",
-            "اليابانية",
+            "ريال برازيلي",
+            "روبل روسي",
+            "يورو",
             "مارك بوسني"
+        ],
+        "acceptedAnswers": [
+            "مارك بوسني",
+            "دينار البوسنة والهرسك"
         ]
     },
     {
@@ -3784,7 +4463,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر إحدى العملات الرسمية لدولة «أذربيجان»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى العملات الرسمية لدولة «أذربيجان»؟",
         "answer": "مانات أذربيجاني",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Azerbaijan.svg?width=900",
         "hint": "تبدأ العملة بحرف «م»، وتُستخدم رسمياً في الدولة المذكورة.",
@@ -3794,10 +4473,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "أذربيجان",
         "factType": "currency",
         "options": [
-            "الإنجليزية",
+            "كرونة آيسلندية",
             "مانات أذربيجاني",
-            "اليابانية",
-            "النرويجية"
+            "يورو",
+            "روبل بيلاروسي"
+        ],
+        "acceptedAnswers": [
+            "مانات أذربيجاني"
         ]
     },
     {
@@ -3805,7 +4487,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر إحدى العملات الرسمية لدولة «أندورا»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى العملات الرسمية لدولة «أندورا»؟",
         "answer": "يورو",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Andorra.svg?width=900",
         "hint": "عملة موحدة تتعامل بها دول كثيرة أعضاء في الاتحاد الأوروبي.",
@@ -3816,9 +4498,12 @@ window.geographyQuestionSeed = [
         "factType": "currency",
         "options": [
             "يورو",
-            "النرويجية",
-            "الإنجليزية",
-            "المجرية"
+            "كرونة آيسلندية",
+            "هريفنا أوكرانية",
+            "كرونة تشيكية"
+        ],
+        "acceptedAnswers": [
+            "يورو"
         ]
     },
     {
@@ -3826,7 +4511,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر إحدى العملات الرسمية لدولة «قبرص»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى العملات الرسمية لدولة «قبرص»؟",
         "answer": "يورو",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Cyprus.svg?width=900",
         "hint": "عملة موحدة تتعامل بها دول كثيرة أعضاء في الاتحاد الأوروبي.",
@@ -3836,10 +4521,15 @@ window.geographyQuestionSeed = [
         "imageAlt": "قبرص",
         "factType": "currency",
         "options": [
-            "الإنجليزية",
-            "المجرية",
-            "الإسبانية",
+            "هريفنا أوكرانية",
+            "كرونة تشيكية",
+            "لو ملداوي",
             "يورو"
+        ],
+        "acceptedAnswers": [
+            "يورو",
+            "جنيه قبرصي",
+            "All-Russian Classifier of Currencies"
         ]
     },
     {
@@ -3847,7 +4537,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر إحدى العملات الرسمية لدولة «جورجيا»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى العملات الرسمية لدولة «جورجيا»؟",
         "answer": "لاري جورجي",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Georgia.svg?width=900",
         "hint": "تبدأ العملة بحرف «ل»، وتُستخدم رسمياً في الدولة المذكورة.",
@@ -3857,10 +4547,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "جورجيا",
         "factType": "currency",
         "options": [
-            "السلوفينية",
+            "ريال برازيلي",
             "لاري جورجي",
-            "التشيكية",
-            "السلوفاكية"
+            "جنيه إسترليني",
+            "رنمينبي"
+        ],
+        "acceptedAnswers": [
+            "لاري جورجي"
         ]
     },
     {
@@ -3868,7 +4561,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر إحدى العملات الرسمية لدولة «كازاخستان»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى العملات الرسمية لدولة «كازاخستان»؟",
         "answer": "تنك قزاقستاني",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kazakhstan.svg?width=900",
         "hint": "تبدأ العملة بحرف «ت»، وتُستخدم رسمياً في الدولة المذكورة.",
@@ -3878,9 +4571,12 @@ window.geographyQuestionSeed = [
         "imageAlt": "كازاخستان",
         "factType": "currency",
         "options": [
-            "السلوفينية",
-            "الرومانية",
-            "البلغارية",
+            "ريال برازيلي",
+            "روبل روسي",
+            "يورو",
+            "تنك قزاقستاني"
+        ],
+        "acceptedAnswers": [
             "تنك قزاقستاني"
         ]
     },
@@ -3889,7 +4585,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر إحدى العملات الرسمية لدولة «مالطا»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى العملات الرسمية لدولة «مالطا»؟",
         "answer": "يورو",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Malta.svg?width=900",
         "hint": "عملة موحدة تتعامل بها دول كثيرة أعضاء في الاتحاد الأوروبي.",
@@ -3899,10 +4595,14 @@ window.geographyQuestionSeed = [
         "imageAlt": "مالطا",
         "factType": "currency",
         "options": [
-            "البلغارية",
-            "الألبانية",
+            "روبل بيلاروسي",
+            "كرونة آيسلندية",
             "يورو",
-            "الرومانية"
+            "روبل روسي"
+        ],
+        "acceptedAnswers": [
+            "يورو",
+            "ليرة مالطية"
         ]
     },
     {
@@ -3910,7 +4610,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر إحدى العملات الرسمية لدولة «موناكو»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى العملات الرسمية لدولة «موناكو»؟",
         "answer": "يورو",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Monaco.svg?width=900",
         "hint": "عملة موحدة تتعامل بها دول كثيرة أعضاء في الاتحاد الأوروبي.",
@@ -3921,9 +4621,13 @@ window.geographyQuestionSeed = [
         "factType": "currency",
         "options": [
             "يورو",
-            "الألبانية",
-            "الغرينلاندية",
-            "الكرواتية"
+            "كرونة آيسلندية",
+            "هريفنا أوكرانية",
+            "كرونة تشيكية"
+        ],
+        "acceptedAnswers": [
+            "يورو",
+            "فرنك موناكو"
         ]
     },
     {
@@ -3931,7 +4635,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر إحدى العملات الرسمية لدولة «الجبل الأسود»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى العملات الرسمية لدولة «الجبل الأسود»؟",
         "answer": "يورو",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Montenegro.svg?width=900",
         "hint": "عملة موحدة تتعامل بها دول كثيرة أعضاء في الاتحاد الأوروبي.",
@@ -3941,9 +4645,12 @@ window.geographyQuestionSeed = [
         "imageAlt": "الجبل الأسود",
         "factType": "currency",
         "options": [
-            "الغرينلاندية",
-            "الكرواتية",
-            "الأذرية",
+            "هريفنا أوكرانية",
+            "كرونة تشيكية",
+            "لو ملداوي",
+            "يورو"
+        ],
+        "acceptedAnswers": [
             "يورو"
         ]
     },
@@ -3952,7 +4659,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر إحدى العملات الرسمية لدولة «الفاتيكان»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى العملات الرسمية لدولة «الفاتيكان»؟",
         "answer": "يورو",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Vatican%20City%20(2023%E2%80%93present).svg?width=900",
         "hint": "عملة موحدة تتعامل بها دول كثيرة أعضاء في الاتحاد الأوروبي.",
@@ -3962,10 +4669,14 @@ window.geographyQuestionSeed = [
         "imageAlt": "الفاتيكان",
         "factType": "currency",
         "options": [
-            "الأذرية",
-            "الكتالونية",
+            "لو ملداوي",
+            "ليو روماني",
             "يورو",
-            "الكرواتية"
+            "كرونة تشيكية"
+        ],
+        "acceptedAnswers": [
+            "يورو",
+            "ليرة فاتيكانية"
         ]
     },
     {
@@ -3973,7 +4684,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر إحدى العملات الرسمية لدولة «سان مارينو»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى العملات الرسمية لدولة «سان مارينو»؟",
         "answer": "يورو",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20San%20Marino.svg?width=900",
         "hint": "عملة موحدة تتعامل بها دول كثيرة أعضاء في الاتحاد الأوروبي.",
@@ -3983,10 +4694,14 @@ window.geographyQuestionSeed = [
         "imageAlt": "سان مارينو",
         "factType": "currency",
         "options": [
-            "الجورجية",
+            "دينار مقدوني",
             "يورو",
-            "الأذرية",
-            "الكتالونية"
+            "لو ملداوي",
+            "ليو روماني"
+        ],
+        "acceptedAnswers": [
+            "يورو",
+            "ليرة سان مارينو"
         ]
     },
     {
@@ -3994,7 +4709,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر إحدى العملات الرسمية لدولة «كوبا»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى العملات الرسمية لدولة «كوبا»؟",
         "answer": "بيزو كوبي",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Cuba.svg?width=900",
         "hint": "تبدأ العملة بحرف «ب»، وتُستخدم رسمياً في الدولة المذكورة.",
@@ -4004,10 +4719,14 @@ window.geographyQuestionSeed = [
         "imageAlt": "كوبا",
         "factType": "currency",
         "options": [
-            "ليك ألباني",
+            "كرونة آيسلندية",
             "بيزو كوبي",
-            "ليو روماني",
-            "دينار مقدوني"
+            "يورو",
+            "روبل بيلاروسي"
+        ],
+        "acceptedAnswers": [
+            "بيزو كوبي",
+            "بيزو كوبي قابل للتحويل"
         ]
     },
     {
@@ -4015,7 +4734,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر إحدى العملات الرسمية لدولة «بليز»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى العملات الرسمية لدولة «بليز»؟",
         "answer": "دولار بليزي",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Belize.svg?width=900",
         "hint": "عملة اسمها مشترك بين دول متعددة، لذا انتبه إلى الدولة في السؤال.",
@@ -4026,9 +4745,12 @@ window.geographyQuestionSeed = [
         "factType": "currency",
         "options": [
             "دولار بليزي",
-            "دينار مقدوني",
-            "ليك ألباني",
-            "كرونة دنماركية"
+            "روبل بيلاروسي",
+            "كرونة آيسلندية",
+            "هريفنا أوكرانية"
+        ],
+        "acceptedAnswers": [
+            "دولار بليزي"
         ]
     },
     {
@@ -4036,7 +4758,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر إحدى العملات الرسمية لدولة «باربادوس»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى العملات الرسمية لدولة «باربادوس»؟",
         "answer": "دولار بربادوسي",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Barbados.svg?width=900",
         "hint": "عملة اسمها مشترك بين دول متعددة، لذا انتبه إلى الدولة في السؤال.",
@@ -4046,10 +4768,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "باربادوس",
         "factType": "currency",
         "options": [
-            "مارك بوسني",
-            "مانات أذربيجاني",
+            "كرونة تشيكية",
+            "لو ملداوي",
             "دولار بربادوسي",
-            "كرونة دنماركية"
+            "هريفنا أوكرانية"
+        ],
+        "acceptedAnswers": [
+            "دولار بربادوسي"
         ]
     },
     {
@@ -4057,7 +4782,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر إحدى العملات الرسمية لدولة «إندونيسيا»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى العملات الرسمية لدولة «إندونيسيا»؟",
         "answer": "روبية إندونيسية",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Indonesia.svg?width=900",
         "hint": "تبدأ العملة بحرف «ر»، وتُستخدم رسمياً في الدولة المذكورة.",
@@ -4067,10 +4792,13 @@ window.geographyQuestionSeed = [
         "imageAlt": "إندونيسيا",
         "factType": "currency",
         "options": [
-            "النرويجية",
+            "ليو روماني",
             "روبية إندونيسية",
-            "الفرنسية",
-            "اليابانية"
+            "كرونة تشيكية",
+            "لو ملداوي"
+        ],
+        "acceptedAnswers": [
+            "روبية إندونيسية"
         ]
     },
     {
@@ -4078,7 +4806,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر إحدى العملات الرسمية لدولة «جنوب إفريقيا»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى العملات الرسمية لدولة «جنوب إفريقيا»؟",
         "answer": "راند جنوب إفريقي",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20South%20Africa.svg?width=900",
         "hint": "تبدأ العملة بحرف «ر»، وتُستخدم رسمياً في الدولة المذكورة.",
@@ -4088,9 +4816,12 @@ window.geographyQuestionSeed = [
         "imageAlt": "جنوب إفريقيا",
         "factType": "currency",
         "options": [
-            "الفنلندية",
-            "السويدية",
-            "الدنماركية",
+            "مارك بوسني",
+            "مانات أذربيجاني",
+            "لاري جورجي",
+            "راند جنوب إفريقي"
+        ],
+        "acceptedAnswers": [
             "راند جنوب إفريقي"
         ]
     },
@@ -4099,7 +4830,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر إحدى العملات الرسمية لدولة «الجزائر»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى العملات الرسمية لدولة «الجزائر»؟",
         "answer": "دينار جزائري",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Algeria.svg?width=900",
         "hint": "اسم عملة شائع في عدد من الدول العربية والبلقانية.",
@@ -4109,10 +4840,14 @@ window.geographyQuestionSeed = [
         "imageAlt": "الجزائر",
         "factType": "currency",
         "options": [
-            "الكرواتية",
-            "الأذرية",
+            "ليك ألباني",
+            "كرونة دنماركية",
             "دينار جزائري",
-            "الغرينلاندية"
+            "دينار مقدوني"
+        ],
+        "acceptedAnswers": [
+            "دينار جزائري",
+            "الفرنك الجزائري"
         ]
     },
     {
@@ -4120,7 +4855,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر إحدى العملات الرسمية لدولة «أوزبكستان»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى العملات الرسمية لدولة «أوزبكستان»؟",
         "answer": "سوم أوزبكستاني",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Uzbekistan.svg?width=900",
         "hint": "تبدأ العملة بحرف «س»، وتُستخدم رسمياً في الدولة المذكورة.",
@@ -4130,10 +4865,14 @@ window.geographyQuestionSeed = [
         "imageAlt": "أوزبكستان",
         "factType": "currency",
         "options": [
-            "الكتالونية",
-            "الجورجية",
-            "المونتنغرية",
+            "مارك بوسني",
+            "مانات أذربيجاني",
+            "لاري جورجي",
             "سوم أوزبكستاني"
+        ],
+        "acceptedAnswers": [
+            "سوم أوزبكستاني",
+            "Banknotes of Uzbekistan, 1992"
         ]
     },
     {
@@ -4141,7 +4880,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر إحدى العملات الرسمية لدولة «تشيلي»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى العملات الرسمية لدولة «تشيلي»؟",
         "answer": "بيزو تشيلي",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Chile.svg?width=900",
         "hint": "تبدأ العملة بحرف «ب»، وتُستخدم رسمياً في الدولة المذكورة.",
@@ -4151,10 +4890,15 @@ window.geographyQuestionSeed = [
         "imageAlt": "تشيلي",
         "factType": "currency",
         "options": [
-            "أوروبا",
-            "أمريكا الجنوبية",
-            "إفريقيا",
+            "فرنك سويسري",
+            "فرنك باسيفيكي",
+            "جنيه إسترليني",
             "بيزو تشيلي"
+        ],
+        "acceptedAnswers": [
+            "بيزو تشيلي",
+            "وحدة حساب تشيلية",
+            "الإسكودو التشيلي"
         ]
     },
     {
@@ -4162,7 +4906,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر إحدى العملات الرسمية لدولة «سنغافورة»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى العملات الرسمية لدولة «سنغافورة»؟",
         "answer": "دولار سنغافوري",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Singapore.svg?width=900",
         "hint": "عملة اسمها مشترك بين دول متعددة، لذا انتبه إلى الدولة في السؤال.",
@@ -4173,9 +4917,12 @@ window.geographyQuestionSeed = [
         "factType": "currency",
         "options": [
             "دولار سنغافوري",
-            "الإيطالية",
-            "الألمانية",
-            "اللغة اليونانية"
+            "كرونة دنماركية",
+            "مارك بوسني",
+            "مانات أذربيجاني"
+        ],
+        "acceptedAnswers": [
+            "دولار سنغافوري"
         ]
     },
     {
@@ -4183,7 +4930,7 @@ window.geographyQuestionSeed = [
         "category": "جغرافيا",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر إحدى العملات الرسمية لدولة «ليختنشتاين»؟",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر إحدى العملات الرسمية لدولة «ليختنشتاين»؟",
         "answer": "فرنك سويسري",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Liechtenstein.svg?width=900",
         "hint": "اسم نقدي تاريخي ما زال مستخدماً في بعض الدول والمناطق.",
@@ -4193,10 +4940,14 @@ window.geographyQuestionSeed = [
         "imageAlt": "ليختنشتاين",
         "factType": "currency",
         "options": [
-            "فرنك باسيفيكي",
-            "جنيه إسترليني",
+            "دولار بربادوسي",
+            "روبية إندونيسية",
             "فرنك سويسري",
-            "جزيرة أوقيانوسيا"
+            "دولار بليزي"
+        ],
+        "acceptedAnswers": [
+            "فرنك سويسري",
+            "Austrian krone"
         ]
     }
 ];

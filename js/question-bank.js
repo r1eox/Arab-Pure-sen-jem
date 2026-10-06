@@ -41,6 +41,9 @@ window.SinJeemQuestionBank = {
             hint: question.hint || '',
             level: question.level || question.difficulty || '',
             options: Array.isArray(question.options) ? question.options.slice() : [],
+            acceptedAnswers: Array.isArray(question.acceptedAnswers)
+                ? [...new Set(question.acceptedAnswers.map(answer => String(answer).trim()).filter(Boolean))]
+                : [String(question.answer)],
             region: question.region || ''
         });
         return true;

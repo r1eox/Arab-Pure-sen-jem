@@ -14,9 +14,9 @@ window.moviesQuestionSeed = [
         "imageKind": "commons",
         "factType": "director",
         "options": [
-            "بين ويلسون",
-            "جون مالكوفيتش",
-            "ميرايل إينوس",
+            "Gonzalo López-Gallego",
+            "أوليفييه مارشال",
+            "كارول ريد",
             "كريستوفر نولان"
         ]
     },
@@ -35,10 +35,10 @@ window.moviesQuestionSeed = [
         "imageKind": "illustration",
         "factType": "legacy-title",
         "options": [
-            "فرنسا",
-            "هونغ كونغ",
+            "سيد الخواتم: عودة الملك",
+            "ويست سايد ستوري",
             "تيتانيك",
-            "الهند"
+            "بن هور"
         ]
     },
     {
@@ -47,7 +47,7 @@ window.moviesQuestionSeed = [
         "difficulty": "صعب",
         "points": 600,
         "question": "فيلم الفضاء Interstellar من إخراج؟",
-        "answer": "نولان",
+        "answer": "كريستوفر نولان",
         "imageAlt": "Interstellar",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2317324d%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e79c43%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M90%2090h180v110H90z%22%20fill%3D%22%23152333%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M90%2090l28-45h180l-28%2045z%22%20fill%3D%22%23b9573f%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M145%2048l-27%2042m80-42-28%2042m80-42-28%2042%22%20stroke%3D%22%23fff0d1%22%20stroke-width%3D%2210%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e79c43%22%3EFILM%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EInterstellar%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e79c43%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "أخرج أيضاً Inception وثلاثية فارس الظلام، وتدور أفلامه كثيراً حول الزمن والفضاء.",
@@ -56,10 +56,10 @@ window.moviesQuestionSeed = [
         "imageKind": "illustration",
         "factType": "director",
         "options": [
-            "كوميدي رعب",
-            "فيلم ما بعد الكارثة",
-            "فلم وثائقي",
-            "نولان"
+            "ستيفن سبيلبرغ",
+            "كريستوفر نولان",
+            "جيمس كاميرون",
+            "بيتر جاكسون"
         ]
     },
     {
@@ -67,7 +67,7 @@ window.moviesQuestionSeed = [
         "category": "أفلام",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر أحد مخرجي فيلم «غودزيلا».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد مخرجي فيلم «غودزيلا».",
         "answer": "رولان إيميريش",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2317324d%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e79c43%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M90%2090h180v110H90z%22%20fill%3D%22%23152333%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M90%2090l28-45h180l-28%2045z%22%20fill%3D%22%23b9573f%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M145%2048l-27%2042m80-42-28%2042m80-42-28%2042%22%20stroke%3D%22%23fff0d1%22%20stroke-width%3D%2210%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e79c43%22%3EFILM%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D8%BA%D9%88%D8%AF%D8%B2%D9%8A%D9%84%D8%A7%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e79c43%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين ماثيو برودريك، بلد الإنتاج الولايات المتحدة.",
@@ -78,9 +78,9 @@ window.moviesQuestionSeed = [
         "factType": "director",
         "options": [
             "رولان إيميريش",
-            "1996",
-            "2012",
-            "2000"
+            "أوليفييه مارشال",
+            "كارول ريد",
+            "Velu Prabhakaran"
         ],
         "clueFacts": {
             "cast": "ماثيو برودريك",
@@ -106,10 +106,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "Alligator II – The Mutation",
         "factType": "genre",
         "options": [
-            "Inception",
+            "فيلم ما بعد الكارثة",
             "فلم رعب",
-            "ياش تشوبرا",
-            "تيتانيك"
+            "فلم غربي",
+            "كوميدي رعب"
         ],
         "clueFacts": {
             "cast": "هولي غانيه",
@@ -135,10 +135,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "Van Diemen's Land",
         "factType": "country",
         "options": [
-            "فلم رعب",
-            "فلم كوميدي",
+            "ألمانيا",
+            "الهند",
             "أستراليا",
-            "Avatar"
+            "المملكة المتحدة"
         ],
         "clueFacts": {
             "cast": "غريغ ستون",
@@ -165,9 +165,9 @@ window.moviesQuestionSeed = [
         "factType": "language",
         "options": [
             "الإسبانية",
-            "فلم غربي",
-            "كوميدي رعب",
-            "فيلم ما بعد الكارثة"
+            "اليابانية",
+            "الإنجليزية",
+            "الإيطالية"
         ],
         "clueFacts": {
             "cast": "ألكسندرا ستيوارت",
@@ -183,7 +183,7 @@ window.moviesQuestionSeed = [
         "category": "أفلام",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر أحد الممثلين المشاركين في فيلم «Visions of Light».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد الممثلين المشاركين في فيلم «Visions of Light».",
         "answer": "كالب ديشانيل",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2317324d%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e79c43%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M90%2090h180v110H90z%22%20fill%3D%22%23152333%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M90%2090l28-45h180l-28%2045z%22%20fill%3D%22%23b9573f%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M145%2048l-27%2042m80-42-28%2042m80-42-28%2042%22%20stroke%3D%22%23fff0d1%22%20stroke-width%3D%2210%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e79c43%22%3EFILM%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EVisions%20of%20Light%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e79c43%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: بلد الإنتاج اليابان، المخرج تود مكارثي.",
@@ -193,10 +193,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "Visions of Light",
         "factType": "cast",
         "options": [
-            "كريس موريس",
+            "هاريسون فورد",
             "كالب ديشانيل",
-            "Velu Prabhakaran",
-            "رالف طوماس"
+            "ديبرا وينجر",
+            "غراهام تشابمان"
         ],
         "clueFacts": {
             "cast": "كالب ديشانيل",
@@ -241,7 +241,7 @@ window.moviesQuestionSeed = [
         "category": "أفلام",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر أحد مخرجي فيلم «Shaolin».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد مخرجي فيلم «Shaolin».",
         "answer": "بيني تشان",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2317324d%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e79c43%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M90%2090h180v110H90z%22%20fill%3D%22%23152333%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M90%2090l28-45h180l-28%2045z%22%20fill%3D%22%23b9573f%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M145%2048l-27%2042m80-42-28%2042m80-42-28%2042%22%20stroke%3D%22%23fff0d1%22%20stroke-width%3D%2210%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e79c43%22%3EFILM%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EShaolin%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e79c43%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين أندي لاو، بلد الإنتاج الصين.",
@@ -251,10 +251,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "Shaolin",
         "factType": "director",
         "options": [
-            "أستراليا",
+            "كارول ريد",
             "بيني تشان",
-            "فلم وثائقي",
-            "نيو-نوار"
+            "Gonzalo López-Gallego",
+            "أوليفييه مارشال"
         ],
         "clueFacts": {
             "cast": "أندي لاو",
@@ -281,9 +281,9 @@ window.moviesQuestionSeed = [
         "factType": "genre",
         "options": [
             "فلم كوميدي",
-            "لوكاس كازان",
-            "والتر لانغ",
-            "براين سينغر"
+            "فلم وثائقي",
+            "نيو-نوار",
+            "فلم رعب"
         ],
         "clueFacts": {
             "cast": "أنابيلا",
@@ -309,10 +309,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "Jaded",
         "factType": "country",
         "options": [
-            "فلم أكشن",
+            "أستراليا",
             "الولايات المتحدة",
-            "فلم إثارة",
-            "فلم كوميدي رومانسي"
+            "إيطاليا",
+            "إسبانيا"
         ],
         "clueFacts": {
             "cast": "آيدا تورتورو",
@@ -328,7 +328,7 @@ window.moviesQuestionSeed = [
         "category": "أفلام",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر أحد الممثلين المشاركين في فيلم «The Broken Coin».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد الممثلين المشاركين في فيلم «The Broken Coin».",
         "answer": "جون فورد",
         "image": "https://upload.wikimedia.org/wikipedia/commons/9/96/Broken_Coin_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
         "hint": "قرائن عن العمل: بلد الإنتاج الولايات المتحدة، المخرج فرنسيس فورد.",
@@ -339,9 +339,9 @@ window.moviesQuestionSeed = [
         "factType": "cast",
         "options": [
             "جون فورد",
-            "1996",
-            "2012",
-            "2000"
+            "ماركو زارور",
+            "فنسنت برايس",
+            "Klaus Löwitsch"
         ],
         "clueFacts": {
             "cast": "جون فورد",
@@ -366,10 +366,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "المواطن كين",
         "factType": "year",
         "options": [
-            "جوزيف كوزينسكي",
-            "روبيرتو بينيني",
+            "1983",
+            "1999",
             "1941",
-            "سناء حمري"
+            "1991"
         ],
         "clueFacts": {
             "cast": "أورسن ويلز",
@@ -385,7 +385,7 @@ window.moviesQuestionSeed = [
         "category": "أفلام",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر أحد مخرجي فيلم «أفاتار».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد مخرجي فيلم «أفاتار».",
         "answer": "جيمس كاميرون",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Avatar%20Flight%20of%20Passage%20(33825582954).jpg?width=900",
         "hint": "قرائن عن العمل: أحد الممثلين سام ورذينجتن، بلد الإنتاج الولايات المتحدة.",
@@ -396,9 +396,9 @@ window.moviesQuestionSeed = [
         "factType": "director",
         "options": [
             "جيمس كاميرون",
-            "2003",
-            "2008",
-            "1965"
+            "كريس موريس",
+            "Stephen Herek",
+            "فيديريكو فليني"
         ],
         "clueFacts": {
             "cast": "سام ورذينجتن",
@@ -424,10 +424,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "Aftermath",
         "factType": "genre",
         "options": [
-            "The Godfather",
-            "Avatar",
+            "فلم خيال",
+            "فلم إثارة",
             "فلم دراما",
-            "Interstellar"
+            "فلم كوميدي"
         ],
         "clueFacts": {
             "cast": "صوفيا جرابول",
@@ -453,10 +453,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "The Last Winter",
         "factType": "country",
         "options": [
-            "فلم دراما",
+            "فرنسا",
             "الدنمارك",
-            "فلم رعب",
-            "فلم كوميدي"
+            "ألمانيا",
+            "الهند"
         ],
         "clueFacts": {
             "cast": "Dieter Eppler",
@@ -482,10 +482,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "The Haunted Castle",
         "factType": "language",
         "options": [
-            "2008",
+            "الإسبانية",
             "الألمانية",
-            "1939",
-            "2003"
+            "الإيطالية",
+            "الهندية"
         ],
         "clueFacts": {
             "cast": "هانس ريختر",
@@ -497,69 +497,11 @@ window.moviesQuestionSeed = [
         }
     },
     {
-        "id": "movies-fact-Q24953",
-        "category": "أفلام",
-        "difficulty": "سهل",
-        "points": 100,
-        "question": "اذكر أحد الممثلين المشاركين في فيلم «حياة براين».",
-        "answer": "جورج هاريسون",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2317324d%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e79c43%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M90%2090h180v110H90z%22%20fill%3D%22%23152333%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M90%2090l28-45h180l-28%2045z%22%20fill%3D%22%23b9573f%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M145%2048l-27%2042m80-42-28%2042m80-42-28%2042%22%20stroke%3D%22%23fff0d1%22%20stroke-width%3D%2210%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e79c43%22%3EFILM%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D8%AD%D9%8A%D8%A7%D8%A9%20%D8%A8%D8%B1%D8%A7%D9%8A%D9%86%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e79c43%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "قرائن عن العمل: بلد الإنتاج المملكة المتحدة، المخرج تيري جونز.",
-        "source": "https://www.wikidata.org/wiki/Q24953",
-        "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "حياة براين",
-        "factType": "cast",
-        "options": [
-            "كريس موريس",
-            "Stephen Herek",
-            "فيديريكو فليني",
-            "جورج هاريسون"
-        ],
-        "clueFacts": {
-            "cast": "جورج هاريسون",
-            "country": "المملكة المتحدة",
-            "director": "تيري جونز",
-            "genre": "فلم كوميدي",
-            "language": "الإنجليزية",
-            "year": "1979"
-        }
-    },
-    {
-        "id": "movies-fact-Q24980",
-        "category": "أفلام",
-        "difficulty": "سهل",
-        "points": 100,
-        "question": "في أي سنة صدر فيلم «Monty Python's The Meaning of Life»؟",
-        "answer": "1983",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2317324d%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e79c43%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M90%2090h180v110H90z%22%20fill%3D%22%23152333%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M90%2090l28-45h180l-28%2045z%22%20fill%3D%22%23b9573f%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M145%2048l-27%2042m80-42-28%2042m80-42-28%2042%22%20stroke%3D%22%23fff0d1%22%20stroke-width%3D%2210%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e79c43%22%3EFILM%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EMonty%20Python%26apos%3Bs%20The%20Meaning%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22483%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3Eof%20Life%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e79c43%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "قرائن عن العمل: أحد الممثلين غراهام تشابمان، بلد الإنتاج المملكة المتحدة.",
-        "source": "https://www.wikidata.org/wiki/Q24980",
-        "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "Monty Python's The Meaning of Life",
-        "factType": "year",
-        "options": [
-            "2010",
-            "1983",
-            "1951",
-            "1998"
-        ],
-        "clueFacts": {
-            "cast": "غراهام تشابمان",
-            "country": "المملكة المتحدة",
-            "director": "تيري جونز",
-            "genre": "فلم كوميدي",
-            "language": "الإنجليزية",
-            "year": "1983"
-        }
-    },
-    {
         "id": "movies-fact-Q25005",
         "category": "أفلام",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر أحد مخرجي فيلم «ريو تيتا».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد مخرجي فيلم «ريو تيتا».",
         "answer": "إس. سيمون",
         "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Rio_Rita_poster.jpg/960px-Rio_Rita_poster.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "hint": "قرائن عن العمل: أحد الممثلين لو كوستيلو، بلد الإنتاج الولايات المتحدة.",
@@ -569,10 +511,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "ريو تيتا",
         "factType": "director",
         "options": [
-            "فلم أكشن",
-            "فلم غربي",
+            "والتر لانغ",
+            "براين سينغر",
             "إس. سيمون",
-            "فلم كوميدي رومانسي"
+            "لوكاس كازان"
         ],
         "clueFacts": {
             "cast": "لو كوستيلو",
@@ -599,9 +541,9 @@ window.moviesQuestionSeed = [
         "factType": "genre",
         "options": [
             "فلم خيال",
-            "تيتانيك",
-            "Inception",
-            "Interstellar"
+            "فلم وثائقي",
+            "نيو-نوار",
+            "فلم رعب"
         ],
         "clueFacts": {
             "cast": "غراهام تشابمان",
@@ -627,10 +569,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "البرازيل",
         "factType": "country",
         "options": [
-            "هنري فوندا",
+            "الولايات المتحدة",
             "المملكة المتحدة",
-            "ميرايل إينوس",
-            "توم هانكس"
+            "إسبانيا",
+            "أستراليا"
         ],
         "clueFacts": {
             "cast": "تيري غيليام",
@@ -657,9 +599,9 @@ window.moviesQuestionSeed = [
         "factType": "language",
         "options": [
             "الألمانية",
-            "2003",
-            "2008",
-            "1965"
+            "الفرنسية",
+            "التملية",
+            "اليابانية"
         ],
         "clueFacts": {
             "cast": "غوتفريد يوحنا",
@@ -675,7 +617,7 @@ window.moviesQuestionSeed = [
         "category": "أفلام",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر أحد الممثلين المشاركين في فيلم «Pay or Die».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد الممثلين المشاركين في فيلم «Pay or Die».",
         "answer": "إيرنست بورغنين",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2317324d%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e79c43%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M90%2090h180v110H90z%22%20fill%3D%22%23152333%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M90%2090l28-45h180l-28%2045z%22%20fill%3D%22%23b9573f%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M145%2048l-27%2042m80-42-28%2042m80-42-28%2042%22%20stroke%3D%22%23fff0d1%22%20stroke-width%3D%2210%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e79c43%22%3EFILM%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EPay%20or%20Die%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e79c43%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: بلد الإنتاج الولايات المتحدة، المخرج ريتشارد ويلسون.",
@@ -685,10 +627,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "Pay or Die",
         "factType": "cast",
         "options": [
-            "كريس موريس",
+            "هاريسون فورد",
             "إيرنست بورغنين",
-            "Velu Prabhakaran",
-            "رالف طوماس"
+            "ديبرا وينجر",
+            "غراهام تشابمان"
         ],
         "clueFacts": {
             "cast": "إيرنست بورغنين",
@@ -700,40 +642,11 @@ window.moviesQuestionSeed = [
         }
     },
     {
-        "id": "movies-fact-Q25139",
-        "category": "أفلام",
-        "difficulty": "سهل",
-        "points": 100,
-        "question": "في أي سنة صدر فيلم «جمال أمريكي»؟",
-        "answer": "1999",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Americanbeautylogo.gif?width=900",
-        "hint": "قرائن عن العمل: أحد الممثلين كيفين سبيسي، بلد الإنتاج الولايات المتحدة.",
-        "source": "https://www.wikidata.org/wiki/Q25139",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Americanbeautylogo.gif",
-        "imageKind": "commons",
-        "imageAlt": "جمال أمريكي",
-        "factType": "year",
-        "options": [
-            "1999",
-            "1969",
-            "1978",
-            "1932"
-        ],
-        "clueFacts": {
-            "cast": "كيفين سبيسي",
-            "country": "الولايات المتحدة",
-            "director": "سام ميندز",
-            "genre": "فلم دراما",
-            "language": "الإنجليزية",
-            "year": "1999"
-        }
-    },
-    {
         "id": "movies-fact-Q25157",
         "category": "أفلام",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر أحد مخرجي فيلم «Aliens vs Avatars».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد مخرجي فيلم «Aliens vs Avatars».",
         "answer": "Lewis Schoenbrun",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2317324d%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e79c43%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M90%2090h180v110H90z%22%20fill%3D%22%23152333%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M90%2090l28-45h180l-28%2045z%22%20fill%3D%22%23b9573f%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M145%2048l-27%2042m80-42-28%2042m80-42-28%2042%22%20stroke%3D%22%23fff0d1%22%20stroke-width%3D%2210%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e79c43%22%3EFILM%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EAliens%20vs%20Avatars%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e79c43%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين ديلان فوكس، بلد الإنتاج الولايات المتحدة.",
@@ -744,9 +657,9 @@ window.moviesQuestionSeed = [
         "factType": "director",
         "options": [
             "Lewis Schoenbrun",
-            "توم هانكس",
-            "هنري فوندا",
-            "ميريل ستريب"
+            "Velu Prabhakaran",
+            "رالف طوماس",
+            "كريس موريس"
         ],
         "clueFacts": {
             "cast": "ديلان فوكس",
@@ -772,10 +685,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "استهلال",
         "factType": "genre",
         "options": [
-            "فرنسا",
-            "هونغ كونغ",
+            "فلم رعب",
+            "فلم كوميدي",
             "فلم دراما",
-            "الهند"
+            "نيو-نوار"
         ],
         "clueFacts": {
             "cast": "ماريون كوتيار",
@@ -802,9 +715,9 @@ window.moviesQuestionSeed = [
         "factType": "country",
         "options": [
             "ألمانيا",
-            "توم هانكس",
-            "هنري فوندا",
-            "ميريل ستريب"
+            "هونغ كونغ",
+            "إيطاليا",
+            "إسبانيا"
         ],
         "clueFacts": {
             "cast": "هلموت كول",
@@ -830,10 +743,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "36 Views from the Pic Saint-Loup",
         "factType": "language",
         "options": [
-            "2012",
+            "التملية",
             "الفرنسية",
-            "1920",
-            "1996"
+            "الإسبانية",
+            "الألمانية"
         ],
         "clueFacts": {
             "cast": "جاين بيركين",
@@ -849,7 +762,7 @@ window.moviesQuestionSeed = [
         "category": "أفلام",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر أحد الممثلين المشاركين في فيلم «Invitation to a Gunfighter».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد الممثلين المشاركين في فيلم «Invitation to a Gunfighter».",
         "answer": "يول براينر",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2317324d%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e79c43%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M90%2090h180v110H90z%22%20fill%3D%22%23152333%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M90%2090l28-45h180l-28%2045z%22%20fill%3D%22%23b9573f%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M145%2048l-27%2042m80-42-28%2042m80-42-28%2042%22%20stroke%3D%22%23fff0d1%22%20stroke-width%3D%2210%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e79c43%22%3EFILM%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EInvitation%20to%20a%20Gunfighter%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e79c43%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: بلد الإنتاج الولايات المتحدة، المخرج ريتشارد ويلسون.",
@@ -859,9 +772,9 @@ window.moviesQuestionSeed = [
         "imageAlt": "Invitation to a Gunfighter",
         "factType": "cast",
         "options": [
-            "2008",
-            "1965",
-            "1955",
+            "هاريسون فورد",
+            "أنتوني كوين",
+            "بريجيت باردو",
             "يول براينر"
         ],
         "clueFacts": {
@@ -888,10 +801,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "Gang of Four",
         "factType": "year",
         "options": [
-            "جودي دينش",
+            "1978",
             "1989",
-            "بريجيت باردو",
-            "Dan van Husen"
+            "1955",
+            "1969"
         ],
         "clueFacts": {
             "cast": "البرت دوبونتل",
@@ -907,7 +820,7 @@ window.moviesQuestionSeed = [
         "category": "أفلام",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر أحد مخرجي فيلم «Escape from Zahrain».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد مخرجي فيلم «Escape from Zahrain».",
         "answer": "رونالد نيوم",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2317324d%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e79c43%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M90%2090h180v110H90z%22%20fill%3D%22%23152333%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M90%2090l28-45h180l-28%2045z%22%20fill%3D%22%23b9573f%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M145%2048l-27%2042m80-42-28%2042m80-42-28%2042%22%20stroke%3D%22%23fff0d1%22%20stroke-width%3D%2210%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e79c43%22%3EFILM%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EEscape%20from%20Zahrain%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e79c43%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين يول براينر، بلد الإنتاج الولايات المتحدة.",
@@ -946,10 +859,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "Bommalattam",
         "factType": "genre",
         "options": [
-            "Gonzalo López-Gallego",
+            "فلم أكشن",
             "فلم إثارة",
-            "جاسون كونري",
-            "Roland Suso Richter"
+            "فلم خيال",
+            "فلم كوميدي رومانسي"
         ],
         "clueFacts": {
             "cast": "نانا بيتكار",
@@ -975,10 +888,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "Ammavin Kaipesi",
         "factType": "country",
         "options": [
-            "فلم أكشن",
+            "أستراليا",
             "الهند",
-            "فلم إثارة",
-            "فلم كوميدي رومانسي"
+            "إيطاليا",
+            "إسبانيا"
         ],
         "clueFacts": {
             "cast": "إنايا",
@@ -1004,9 +917,9 @@ window.moviesQuestionSeed = [
         "imageAlt": "Aarohanam",
         "factType": "language",
         "options": [
-            "هنري فوندا",
-            "ميريل ستريب",
-            "ماركو زارور",
+            "اليابانية",
+            "الإنجليزية",
+            "الإيطالية",
             "التملية"
         ],
         "clueFacts": {
@@ -1023,7 +936,7 @@ window.moviesQuestionSeed = [
         "category": "أفلام",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر أحد الممثلين المشاركين في فيلم «Le Pont du Nord».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد الممثلين المشاركين في فيلم «Le Pont du Nord».",
         "answer": "بول أوجيي",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2317324d%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e79c43%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M90%2090h180v110H90z%22%20fill%3D%22%23152333%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M90%2090l28-45h180l-28%2045z%22%20fill%3D%22%23b9573f%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M145%2048l-27%2042m80-42-28%2042m80-42-28%2042%22%20stroke%3D%22%23fff0d1%22%20stroke-width%3D%2210%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e79c43%22%3EFILM%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3ELe%20Pont%20du%20Nord%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e79c43%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: بلد الإنتاج فرنسا، المخرج جاك ريفيت.",
@@ -1033,9 +946,9 @@ window.moviesQuestionSeed = [
         "imageAlt": "Le Pont du Nord",
         "factType": "cast",
         "options": [
-            "براين سينغر",
-            "جاسون كونري",
-            "Roland Suso Richter",
+            "روبيرتو بينيني",
+            "هنري فوندا",
+            "ميريل ستريب",
             "بول أوجيي"
         ],
         "clueFacts": {
@@ -1063,9 +976,9 @@ window.moviesQuestionSeed = [
         "factType": "year",
         "options": [
             "1964",
-            "Stephen Herek",
-            "فيديريكو فليني",
-            "سناء حمري"
+            "1998",
+            "2010",
+            "1991"
         ],
         "clueFacts": {
             "cast": "يول براينر",
@@ -1081,7 +994,7 @@ window.moviesQuestionSeed = [
         "category": "أفلام",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر أحد مخرجي فيلم «Love on the Ground».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد مخرجي فيلم «Love on the Ground».",
         "answer": "جاك ريفيت",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2317324d%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e79c43%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M90%2090h180v110H90z%22%20fill%3D%22%23152333%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M90%2090l28-45h180l-28%2045z%22%20fill%3D%22%23b9573f%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M145%2048l-27%2042m80-42-28%2042m80-42-28%2042%22%20stroke%3D%22%23fff0d1%22%20stroke-width%3D%2210%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e79c43%22%3EFILM%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3ELove%20on%20the%20Ground%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e79c43%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين جاين بيركين، بلد الإنتاج فرنسا.",
@@ -1091,10 +1004,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "Love on the Ground",
         "factType": "director",
         "options": [
-            "الدنمارك",
-            "المملكة المتحدة",
+            "رالف طوماس",
+            "كريس موريس",
             "جاك ريفيت",
-            "الولايات المتحدة"
+            "Velu Prabhakaran"
         ],
         "clueFacts": {
             "cast": "جاين بيركين",
@@ -1120,10 +1033,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "Noroît",
         "factType": "genre",
         "options": [
-            "Carlo Lizzani",
-            "غولدي هاون",
+            "فلم كوميدي",
+            "فلم خيال",
             "فلم دراما",
-            "هارك بوم"
+            "فلم رعب"
         ],
         "clueFacts": {
             "cast": "جيرالدين تشابلن",
@@ -1150,9 +1063,9 @@ window.moviesQuestionSeed = [
         "factType": "country",
         "options": [
             "فرنسا",
-            "غولدي هاون",
-            "بين ويلسون",
-            "جون مالكوفيتش"
+            "الهند",
+            "هونغ كونغ",
+            "إيطاليا"
         ],
         "clueFacts": {
             "cast": "جان لوك غودار",
@@ -1178,9 +1091,9 @@ window.moviesQuestionSeed = [
         "imageAlt": "Charisma",
         "factType": "language",
         "options": [
-            "هنري فوندا",
-            "ميريل ستريب",
-            "ماركو زارور",
+            "الفرنسية",
+            "التملية",
+            "الإنجليزية",
             "اليابانية"
         ],
         "clueFacts": {
@@ -1197,7 +1110,7 @@ window.moviesQuestionSeed = [
         "category": "أفلام",
         "difficulty": "سهل",
         "points": 200,
-        "question": "اذكر أحد الممثلين المشاركين في فيلم «Merry-Go-Round».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد الممثلين المشاركين في فيلم «Merry-Go-Round».",
         "answer": "ماريا شنايدر",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2317324d%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e79c43%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M90%2090h180v110H90z%22%20fill%3D%22%23152333%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M90%2090l28-45h180l-28%2045z%22%20fill%3D%22%23b9573f%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M145%2048l-27%2042m80-42-28%2042m80-42-28%2042%22%20stroke%3D%22%23fff0d1%22%20stroke-width%3D%2210%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e79c43%22%3EFILM%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EMerry-Go-Round%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e79c43%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: بلد الإنتاج فرنسا، المخرج جاك ريفيت.",
@@ -1207,10 +1120,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "Merry-Go-Round",
         "factType": "cast",
         "options": [
-            "ألمانيا",
-            "الهند",
+            "هاريسون فورد",
+            "أنتوني كوين",
             "ماريا شنايدر",
-            "المملكة المتحدة"
+            "غراهام تشابمان"
         ],
         "clueFacts": {
             "cast": "ماريا شنايدر",
@@ -1236,9 +1149,9 @@ window.moviesQuestionSeed = [
         "imageAlt": "Testament of Orpheus",
         "factType": "year",
         "options": [
-            "توم هانكس",
-            "هنري فوندا",
-            "ميريل ستريب",
+            "1953",
+            "2009",
+            "1920",
             "1960"
         ],
         "clueFacts": {
@@ -1255,7 +1168,7 @@ window.moviesQuestionSeed = [
         "category": "أفلام",
         "difficulty": "سهل",
         "points": 200,
-        "question": "اذكر أحد مخرجي فيلم «Hurlevent».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد مخرجي فيلم «Hurlevent».",
         "answer": "جاك ريفيت",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2317324d%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e79c43%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M90%2090h180v110H90z%22%20fill%3D%22%23152333%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M90%2090l28-45h180l-28%2045z%22%20fill%3D%22%23b9573f%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M145%2048l-27%2042m80-42-28%2042m80-42-28%2042%22%20stroke%3D%22%23fff0d1%22%20stroke-width%3D%2210%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e79c43%22%3EFILM%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EHurlevent%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e79c43%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين لوكا بلفو، بلد الإنتاج فرنسا.",
@@ -1266,9 +1179,9 @@ window.moviesQuestionSeed = [
         "factType": "director",
         "options": [
             "جاك ريفيت",
-            "1996",
-            "2012",
-            "2000"
+            "أوليفييه مارشال",
+            "كارول ريد",
+            "Velu Prabhakaran"
         ],
         "clueFacts": {
             "cast": "لوكا بلفو",
@@ -1295,9 +1208,9 @@ window.moviesQuestionSeed = [
         "factType": "genre",
         "options": [
             "فلم كوميدي رومانسي",
-            "لوكاس كازان",
-            "والتر لانغ",
-            "براين سينغر"
+            "فلم إثارة",
+            "فلم أكشن",
+            "فلم غربي"
         ],
         "clueFacts": {
             "cast": "فيفيك",
@@ -1323,10 +1236,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "Top Secret",
         "factType": "country",
         "options": [
-            "هنري فوندا",
+            "ألمانيا",
             "فرنسا",
-            "ميرايل إينوس",
-            "توم هانكس"
+            "الدنمارك",
+            "المملكة المتحدة"
         ],
         "clueFacts": {
             "cast": "ساندرين بونير",
@@ -1352,9 +1265,9 @@ window.moviesQuestionSeed = [
         "imageAlt": "Emil and the Detectives",
         "factType": "language",
         "options": [
-            "أنتوني كوين",
-            "بريجيت باردو",
-            "Dan van Husen",
+            "الإيطالية",
+            "الهندية",
+            "الإسبانية",
             "الألمانية"
         ],
         "clueFacts": {
@@ -1371,7 +1284,7 @@ window.moviesQuestionSeed = [
         "category": "أفلام",
         "difficulty": "سهل",
         "points": 200,
-        "question": "اذكر أحد الممثلين المشاركين في فيلم «الجندي الأمريكي».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد الممثلين المشاركين في فيلم «الجندي الأمريكي».",
         "answer": "هارك بوم",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2317324d%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e79c43%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M90%2090h180v110H90z%22%20fill%3D%22%23152333%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M90%2090l28-45h180l-28%2045z%22%20fill%3D%22%23b9573f%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M145%2048l-27%2042m80-42-28%2042m80-42-28%2042%22%20stroke%3D%22%23fff0d1%22%20stroke-width%3D%2210%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e79c43%22%3EFILM%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D8%A7%D9%84%D8%AC%D9%86%D8%AF%D9%8A%20%D8%A7%D9%84%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D9%8A%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e79c43%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: بلد الإنتاج ألمانيا، المخرج راينر فاسبيندر.",
@@ -1381,10 +1294,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "الجندي الأمريكي",
         "factType": "cast",
         "options": [
-            "براين سينغر",
+            "روبيرتو بينيني",
             "هارك بوم",
-            "لوكاس كازان",
-            "والتر لانغ"
+            "ميرايل إينوس",
+            "توم هانكس"
         ],
         "clueFacts": {
             "cast": "هارك بوم",
@@ -1410,9 +1323,9 @@ window.moviesQuestionSeed = [
         "imageAlt": "Up, Down, Fragile",
         "factType": "year",
         "options": [
-            "هونغ كونغ",
-            "إيطاليا",
-            "إسبانيا",
+            "1953",
+            "2009",
+            "1920",
             "1995"
         ],
         "clueFacts": {
@@ -1429,7 +1342,7 @@ window.moviesQuestionSeed = [
         "category": "أفلام",
         "difficulty": "سهل",
         "points": 200,
-        "question": "اذكر أحد مخرجي فيلم «Terminal Velocity».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد مخرجي فيلم «Terminal Velocity».",
         "answer": "ديران سارافيان",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2317324d%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e79c43%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M90%2090h180v110H90z%22%20fill%3D%22%23152333%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M90%2090l28-45h180l-28%2045z%22%20fill%3D%22%23b9573f%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M145%2048l-27%2042m80-42-28%2042m80-42-28%2042%22%20stroke%3D%22%23fff0d1%22%20stroke-width%3D%2210%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e79c43%22%3EFILM%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3ETerminal%20Velocity%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e79c43%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين ناستازيا كينسكي، بلد الإنتاج الولايات المتحدة.",
@@ -1439,10 +1352,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "Terminal Velocity",
         "factType": "director",
         "options": [
-            "1939",
-            "2003",
+            "رالف طوماس",
+            "كريس موريس",
             "ديران سارافيان",
-            "2000"
+            "Velu Prabhakaran"
         ],
         "clueFacts": {
             "cast": "ناستازيا كينسكي",
@@ -1468,10 +1381,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "في ظل العمالقة",
         "factType": "genre",
         "options": [
-            "والتر لانغ",
+            "فلم إثارة",
             "فلم دراما",
-            "Vignesh Shivan",
-            "لوكاس كازان"
+            "فلم كوميدي",
+            "فلم خيال"
         ],
         "clueFacts": {
             "cast": "ونستون تشرشل",
@@ -1498,9 +1411,9 @@ window.moviesQuestionSeed = [
         "factType": "country",
         "options": [
             "الولايات المتحدة",
-            "هاريسون فورد",
-            "أنتوني كوين",
-            "بريجيت باردو"
+            "المملكة المتحدة",
+            "ألمانيا",
+            "الهند"
         ],
         "clueFacts": {
             "cast": "جيمس كوبورن",
@@ -1526,9 +1439,9 @@ window.moviesQuestionSeed = [
         "imageAlt": "Strike Commando 2",
         "factType": "language",
         "options": [
-            "أستراليا",
-            "الولايات المتحدة",
-            "الدنمارك",
+            "اليابانية",
+            "الإيطالية",
+            "الهندية",
             "الإنجليزية"
         ],
         "clueFacts": {
@@ -1545,7 +1458,7 @@ window.moviesQuestionSeed = [
         "category": "أفلام",
         "difficulty": "سهل",
         "points": 200,
-        "question": "اذكر أحد الممثلين المشاركين في فيلم «Bandits in Milan».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد الممثلين المشاركين في فيلم «Bandits in Milan».",
         "answer": "Carlo Lizzani",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Banditi%20a%20Milano.JPG?width=900",
         "hint": "قرائن عن العمل: بلد الإنتاج إيطاليا، التصنيف فلم دراما.",
@@ -1555,9 +1468,9 @@ window.moviesQuestionSeed = [
         "imageAlt": "Bandits in Milan",
         "factType": "cast",
         "options": [
-            "الإسبانية",
-            "الألمانية",
-            "الفرنسية",
+            "اكيرا ايموتو",
+            "يويكا كيدوح",
+            "جولي أدامز",
             "Carlo Lizzani"
         ],
         "clueFacts": {
@@ -1603,7 +1516,7 @@ window.moviesQuestionSeed = [
         "category": "أفلام",
         "difficulty": "سهل",
         "points": 200,
-        "question": "اذكر أحد مخرجي فيلم «Podaa Podi».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد مخرجي فيلم «Podaa Podi».",
         "answer": "Vignesh Shivan",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2317324d%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e79c43%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M90%2090h180v110H90z%22%20fill%3D%22%23152333%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M90%2090l28-45h180l-28%2045z%22%20fill%3D%22%23b9573f%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M145%2048l-27%2042m80-42-28%2042m80-42-28%2042%22%20stroke%3D%22%23fff0d1%22%20stroke-width%3D%2210%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e79c43%22%3EFILM%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EPodaa%20Podi%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e79c43%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين سيلامباراسان، بلد الإنتاج الهند.",
@@ -1642,9 +1555,9 @@ window.moviesQuestionSeed = [
         "imageAlt": "العالم الرائع",
         "factType": "genre",
         "options": [
-            "جاك ريفيت",
-            "ديران سارافيان",
-            "Vignesh Shivan",
+            "كوميدي رعب",
+            "فيلم ما بعد الكارثة",
+            "فلم وثائقي",
             "فلم خيال"
         ],
         "clueFacts": {
@@ -1671,10 +1584,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "Knight Moves",
         "factType": "country",
         "options": [
-            "2008",
+            "هونغ كونغ",
             "الولايات المتحدة",
-            "1939",
-            "2003"
+            "الهند",
+            "فرنسا"
         ],
         "clueFacts": {
             "cast": "Ferdy Mayne",
@@ -1700,10 +1613,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "What Ever Happened to Baby Jane?",
         "factType": "language",
         "options": [
-            "ماركو زارور",
-            "فنسنت برايس",
+            "الفرنسية",
+            "التملية",
             "الإنجليزية",
-            "ميريل ستريب"
+            "الألمانية"
         ],
         "clueFacts": {
             "cast": "جوان كراوفورد",
@@ -1719,7 +1632,7 @@ window.moviesQuestionSeed = [
         "category": "أفلام",
         "difficulty": "سهل",
         "points": 200,
-        "question": "اذكر أحد الممثلين المشاركين في فيلم «Wildcats».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد الممثلين المشاركين في فيلم «Wildcats».",
         "answer": "غولدي هاون",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2317324d%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e79c43%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M90%2090h180v110H90z%22%20fill%3D%22%23152333%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M90%2090l28-45h180l-28%2045z%22%20fill%3D%22%23b9573f%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M145%2048l-27%2042m80-42-28%2042m80-42-28%2042%22%20stroke%3D%22%23fff0d1%22%20stroke-width%3D%2210%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e79c43%22%3EFILM%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EWildcats%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e79c43%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: بلد الإنتاج الولايات المتحدة، المخرج مايكل ريتشي.",
@@ -1758,10 +1671,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "قمر",
         "factType": "year",
         "options": [
-            "هاريسون فورد",
+            "2008",
             "2009",
-            "ديبرا وينجر",
-            "غراهام تشابمان"
+            "1939",
+            "2003"
         ],
         "clueFacts": {
             "cast": "كايا سكوديلاريو",
@@ -1777,7 +1690,7 @@ window.moviesQuestionSeed = [
         "category": "أفلام",
         "difficulty": "سهل",
         "points": 200,
-        "question": "اذكر أحد مخرجي فيلم «The Men I Wanted».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد مخرجي فيلم «The Men I Wanted».",
         "answer": "لوكاس كازان",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2317324d%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e79c43%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M90%2090h180v110H90z%22%20fill%3D%22%23152333%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M90%2090l28-45h180l-28%2045z%22%20fill%3D%22%23b9573f%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M145%2048l-27%2042m80-42-28%2042m80-42-28%2042%22%20stroke%3D%22%23fff0d1%22%20stroke-width%3D%2210%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e79c43%22%3EFILM%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EThe%20Men%20I%20Wanted%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e79c43%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين جيان فرانكو، بلد الإنتاج إيطاليا.",
@@ -1787,9 +1700,9 @@ window.moviesQuestionSeed = [
         "imageAlt": "The Men I Wanted",
         "factType": "director",
         "options": [
-            "بين ويلسون",
-            "جون مالكوفيتش",
-            "ميرايل إينوس",
+            "Gonzalo López-Gallego",
+            "أوليفييه مارشال",
+            "كارول ريد",
             "لوكاس كازان"
         ],
         "clueFacts": {
@@ -1815,10 +1728,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "رحلة ممتعة",
         "factType": "genre",
         "options": [
-            "فرنسا",
-            "هونغ كونغ",
+            "كوميدي رعب",
+            "فيلم ما بعد الكارثة",
             "فلم أكشن",
-            "الهند"
+            "فلم غربي"
         ],
         "clueFacts": {
             "cast": "جيم بيفر",
@@ -1845,9 +1758,9 @@ window.moviesQuestionSeed = [
         "factType": "country",
         "options": [
             "الولايات المتحدة",
-            "فلم كوميدي رومانسي",
-            "فلم أكشن",
-            "فلم غربي"
+            "فرنسا",
+            "هونغ كونغ",
+            "إيطاليا"
         ],
         "clueFacts": {
             "cast": "لون تشاني",
@@ -1873,10 +1786,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "The Hawk's Trail",
         "factType": "language",
         "options": [
-            "فلم أكشن",
-            "فلم غربي",
+            "التملية",
+            "اليابانية",
             "الإنجليزية",
-            "فلم كوميدي رومانسي"
+            "الفرنسية"
         ],
         "clueFacts": {
             "cast": "كينغ باغوت",
@@ -1892,7 +1805,7 @@ window.moviesQuestionSeed = [
         "category": "أفلام",
         "difficulty": "سهل",
         "points": 200,
-        "question": "اذكر أحد الممثلين المشاركين في فيلم «The Screaming Shadow».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد الممثلين المشاركين في فيلم «The Screaming Shadow».",
         "answer": "بين ويلسون",
         "image": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Ben_Wilson_in_The_Screaming_Shadow_by_Ben_F._Wilson_and_Duke_Worne_Film_Daily_1920.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
         "hint": "قرائن عن العمل: بلد الإنتاج الولايات المتحدة، التصنيف فلم أكشن.",
@@ -1902,9 +1815,9 @@ window.moviesQuestionSeed = [
         "imageAlt": "The Screaming Shadow",
         "factType": "cast",
         "options": [
-            "فلم أكشن",
-            "فلم غربي",
-            "كوميدي رعب",
+            "ميرايل إينوس",
+            "توم هانكس",
+            "روبيرتو بينيني",
             "بين ويلسون"
         ],
         "clueFacts": {
@@ -1931,10 +1844,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "King of the Circus",
         "factType": "year",
         "options": [
-            "المملكة المتحدة",
+            "1999",
             "1920",
-            "الولايات المتحدة",
-            "الدنمارك"
+            "1941",
+            "1983"
         ],
         "clueFacts": {
             "cast": "Eddie Polo",
@@ -1949,7 +1862,7 @@ window.moviesQuestionSeed = [
         "category": "أفلام",
         "difficulty": "سهل",
         "points": 200,
-        "question": "اذكر أحد مخرجي فيلم «الملك وأنا».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد مخرجي فيلم «الملك وأنا».",
         "answer": "والتر لانغ",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2317324d%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e79c43%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M90%2090h180v110H90z%22%20fill%3D%22%23152333%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M90%2090l28-45h180l-28%2045z%22%20fill%3D%22%23b9573f%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M145%2048l-27%2042m80-42-28%2042m80-42-28%2042%22%20stroke%3D%22%23fff0d1%22%20stroke-width%3D%2210%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e79c43%22%3EFILM%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D8%A7%D9%84%D9%85%D9%84%D9%83%20%D9%88%D8%A3%D9%86%D8%A7%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e79c43%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين يول براينر، بلد الإنتاج الولايات المتحدة.",
@@ -1959,9 +1872,9 @@ window.moviesQuestionSeed = [
         "imageAlt": "الملك وأنا",
         "factType": "director",
         "options": [
-            "2008",
-            "1965",
-            "1955",
+            "Stephen Herek",
+            "فيديريكو فليني",
+            "سناء حمري",
             "والتر لانغ"
         ],
         "clueFacts": {
@@ -1988,9 +1901,9 @@ window.moviesQuestionSeed = [
         "imageAlt": "هاملت",
         "factType": "genre",
         "options": [
-            "Klaus Löwitsch",
-            "ديبرا وينجر",
-            "غراهام تشابمان",
+            "كوميدي رعب",
+            "فيلم ما بعد الكارثة",
+            "فلم وثائقي",
             "فلم دراما"
         ],
         "clueFacts": {
@@ -2017,9 +1930,9 @@ window.moviesQuestionSeed = [
         "imageAlt": "عش ودعهم يموتون",
         "factType": "country",
         "options": [
-            "1953",
-            "2009",
-            "1920",
+            "الدنمارك",
+            "المملكة المتحدة",
+            "ألمانيا",
             "الولايات المتحدة"
         ],
         "clueFacts": {
@@ -2032,40 +1945,11 @@ window.moviesQuestionSeed = [
         }
     },
     {
-        "id": "movies-fact-Q27338",
-        "category": "أفلام",
-        "difficulty": "سهل",
-        "points": 200,
-        "question": "ما اللغة الأصلية لفيلم «The People Under the Stairs»؟",
-        "answer": "الإنجليزية",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2317324d%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e79c43%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M90%2090h180v110H90z%22%20fill%3D%22%23152333%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M90%2090l28-45h180l-28%2045z%22%20fill%3D%22%23b9573f%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M145%2048l-27%2042m80-42-28%2042m80-42-28%2042%22%20stroke%3D%22%23fff0d1%22%20stroke-width%3D%2210%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e79c43%22%3EFILM%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EThe%20People%20Under%20the%20Stairs%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e79c43%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "قرائن عن العمل: أحد الممثلين أيه. جيه. لانجر، بلد الإنتاج الولايات المتحدة.",
-        "source": "https://www.wikidata.org/wiki/Q27338",
-        "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "The People Under the Stairs",
-        "factType": "language",
-        "options": [
-            "Klaus Löwitsch",
-            "الإنجليزية",
-            "ماركو زارور",
-            "فنسنت برايس"
-        ],
-        "clueFacts": {
-            "cast": "أيه. جيه. لانجر",
-            "country": "الولايات المتحدة",
-            "director": "ويس كرافن",
-            "genre": "فلم كوميدي",
-            "language": "الإنجليزية",
-            "year": "1991"
-        }
-    },
-    {
         "id": "movies-fact-Q27343",
         "category": "أفلام",
         "difficulty": "سهل",
         "points": 200,
-        "question": "اذكر أحد الممثلين المشاركين في فيلم «أجسام دافئة».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد الممثلين المشاركين في فيلم «أجسام دافئة».",
         "answer": "جون مالكوفيتش",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2317324d%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e79c43%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M90%2090h180v110H90z%22%20fill%3D%22%23152333%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M90%2090l28-45h180l-28%2045z%22%20fill%3D%22%23b9573f%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M145%2048l-27%2042m80-42-28%2042m80-42-28%2042%22%20stroke%3D%22%23fff0d1%22%20stroke-width%3D%2210%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e79c43%22%3EFILM%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D8%A3%D8%AC%D8%B3%D8%A7%D9%85%20%D8%AF%D8%A7%D9%81%D8%A6%D8%A9%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e79c43%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: بلد الإنتاج الولايات المتحدة، المخرج Jonathan Levine.",
@@ -2075,9 +1959,9 @@ window.moviesQuestionSeed = [
         "imageAlt": "أجسام دافئة",
         "factType": "cast",
         "options": [
-            "2012",
-            "2000",
-            "1939",
+            "فنسنت برايس",
+            "Klaus Löwitsch",
+            "ديبرا وينجر",
             "جون مالكوفيتش"
         ],
         "clueFacts": {
@@ -2090,40 +1974,11 @@ window.moviesQuestionSeed = [
         }
     },
     {
-        "id": "movies-fact-Q27411",
-        "category": "أفلام",
-        "difficulty": "سهل",
-        "points": 200,
-        "question": "في أي سنة صدر فيلم «صرخة»؟",
-        "answer": "1996",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Scream%20logo.jpg?width=900",
-        "hint": "قرائن عن العمل: أحد الممثلين ماثيو ليلارد، بلد الإنتاج الولايات المتحدة.",
-        "source": "https://www.wikidata.org/wiki/Q27411",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Scream_logo.jpg",
-        "imageKind": "commons",
-        "imageAlt": "صرخة",
-        "factType": "year",
-        "options": [
-            "2008",
-            "1996",
-            "1939",
-            "2003"
-        ],
-        "clueFacts": {
-            "cast": "ماثيو ليلارد",
-            "country": "الولايات المتحدة",
-            "director": "ويس كرافن",
-            "genre": "فلم كوميدي",
-            "language": "الإنجليزية",
-            "year": "1996"
-        }
-    },
-    {
         "id": "movies-fact-Q27513",
         "category": "أفلام",
         "difficulty": "سهل",
         "points": 200,
-        "question": "اذكر أحد مخرجي فيلم «جاك قاتل العمالقة».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد مخرجي فيلم «جاك قاتل العمالقة».",
         "answer": "براين سينغر",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2317324d%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e79c43%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M90%2090h180v110H90z%22%20fill%3D%22%23152333%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M90%2090l28-45h180l-28%2045z%22%20fill%3D%22%23b9573f%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M145%2048l-27%2042m80-42-28%2042m80-42-28%2042%22%20stroke%3D%22%23fff0d1%22%20stroke-width%3D%2210%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e79c43%22%3EFILM%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D8%AC%D8%A7%D9%83%20%D9%82%D8%A7%D8%AA%D9%84%20%D8%A7%D9%84%D8%B9%D9%85%D8%A7%D9%84%D9%82%D8%A9%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e79c43%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين إيدي مارسان، بلد الإنتاج الولايات المتحدة.",
@@ -2148,35 +2003,6 @@ window.moviesQuestionSeed = [
         }
     },
     {
-        "id": "movies-fact-Q27536",
-        "category": "أفلام",
-        "difficulty": "سهل",
-        "points": 200,
-        "question": "إلى أي نوع سينمائي ينتمي فيلم «التلال لها عيون 2»؟",
-        "answer": "فلم رعب",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2317324d%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e79c43%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M90%2090h180v110H90z%22%20fill%3D%22%23152333%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M90%2090l28-45h180l-28%2045z%22%20fill%3D%22%23b9573f%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M145%2048l-27%2042m80-42-28%2042m80-42-28%2042%22%20stroke%3D%22%23fff0d1%22%20stroke-width%3D%2210%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e79c43%22%3EFILM%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D8%A7%D9%84%D8%AA%D9%84%D8%A7%D9%84%20%D9%84%D9%87%D8%A7%20%D8%B9%D9%8A%D9%88%D9%86%202%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e79c43%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "قرائن عن العمل: أحد الممثلين بيني جونسون جيرالد، بلد الإنتاج الولايات المتحدة.",
-        "source": "https://www.wikidata.org/wiki/Q27536",
-        "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "التلال لها عيون 2",
-        "factType": "genre",
-        "options": [
-            "Klaus Löwitsch",
-            "فلم رعب",
-            "ماركو زارور",
-            "فنسنت برايس"
-        ],
-        "clueFacts": {
-            "cast": "بيني جونسون جيرالد",
-            "country": "الولايات المتحدة",
-            "director": "ويس كرافن",
-            "genre": "فلم رعب",
-            "language": "الإنجليزية",
-            "year": "1984"
-        }
-    },
-    {
         "id": "movies-fact-Q27751",
         "category": "أفلام",
         "difficulty": "سهل",
@@ -2191,10 +2017,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "فرقة العصابات",
         "factType": "country",
         "options": [
-            "والتر لانغ",
-            "براين سينغر",
+            "أستراليا",
+            "الدنمارك",
             "الولايات المتحدة",
-            "لوكاس كازان"
+            "إسبانيا"
         ],
         "clueFacts": {
             "cast": "ميرايل إينوس",
@@ -2220,9 +2046,9 @@ window.moviesQuestionSeed = [
         "imageAlt": "العالم الجديد",
         "factType": "language",
         "options": [
-            "كوميدي رعب",
-            "فيلم ما بعد الكارثة",
-            "فلم وثائقي",
+            "التملية",
+            "اليابانية",
+            "الإيطالية",
             "الإنجليزية"
         ],
         "clueFacts": {
@@ -2239,7 +2065,7 @@ window.moviesQuestionSeed = [
         "category": "أفلام",
         "difficulty": "سهل",
         "points": 200,
-        "question": "اذكر أحد الممثلين المشاركين في فيلم «حرب الزومبي العالمية».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد الممثلين المشاركين في فيلم «حرب الزومبي العالمية».",
         "answer": "ميرايل إينوس",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/World%20War%20Z%20in%20Glasgow%20030%20(9194785674).jpg?width=900",
         "hint": "قرائن عن العمل: بلد الإنتاج الولايات المتحدة، المخرج مارك فورستر.",
@@ -2250,9 +2076,9 @@ window.moviesQuestionSeed = [
         "factType": "cast",
         "options": [
             "ميرايل إينوس",
-            "سناء حمري",
-            "جوزيف كوزينسكي",
-            "أندرو في. مكلاغلن"
+            "Dan van Husen",
+            "جودي دينش",
+            "كارستا لوك"
         ],
         "clueFacts": {
             "cast": "ميرايل إينوس",
@@ -2278,9 +2104,9 @@ window.moviesQuestionSeed = [
         "imageAlt": "البؤساء",
         "factType": "year",
         "options": [
-            "فنسنت برايس",
-            "Klaus Löwitsch",
-            "ديبرا وينجر",
+            "1996",
+            "2000",
+            "1939",
             "2012"
         ],
         "clueFacts": {
@@ -2297,7 +2123,7 @@ window.moviesQuestionSeed = [
         "category": "أفلام",
         "difficulty": "متوسط",
         "points": 300,
-        "question": "اذكر أحد مخرجي فيلم «51».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد مخرجي فيلم «51».",
         "answer": "جاسون كونري",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2317324d%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e79c43%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M90%2090h180v110H90z%22%20fill%3D%22%23152333%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M90%2090l28-45h180l-28%2045z%22%20fill%3D%22%23b9573f%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M145%2048l-27%2042m80-42-28%2042m80-42-28%2042%22%20stroke%3D%22%23fff0d1%22%20stroke-width%3D%2210%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e79c43%22%3EFILM%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E51%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e79c43%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين جون شيا، بلد الإنتاج الولايات المتحدة.",
@@ -2307,9 +2133,9 @@ window.moviesQuestionSeed = [
         "imageAlt": "51",
         "factType": "director",
         "options": [
-            "Klaus Löwitsch",
-            "ديبرا وينجر",
-            "غراهام تشابمان",
+            "سناء حمري",
+            "جوزيف كوزينسكي",
+            "روبيرتو بينيني",
             "جاسون كونري"
         ],
         "clueFacts": {
@@ -2336,9 +2162,9 @@ window.moviesQuestionSeed = [
         "imageAlt": "اعتراف بالقتل",
         "factType": "genre",
         "options": [
-            "Gonzalo López-Gallego",
-            "أوليفييه مارشال",
-            "كارول ريد",
+            "فلم دراما",
+            "فلم خيال",
+            "فلم إثارة",
             "فلم أكشن"
         ],
         "clueFacts": {
@@ -2348,35 +2174,6 @@ window.moviesQuestionSeed = [
             "genre": "فلم أكشن",
             "language": "الكورية",
             "year": "2012"
-        }
-    },
-    {
-        "id": "movies-fact-Q28312",
-        "category": "أفلام",
-        "difficulty": "متوسط",
-        "points": 300,
-        "question": "في أي دولة أُنتج فيلم «The Master»؟",
-        "answer": "هونغ كونغ",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jet%20Li%20-%20Annual%20Meeting%20of%20the%20New%20Champions%20Tianjin%202008.jpg?width=900",
-        "hint": "قرائن عن العمل: أحد الممثلين جت لي، المخرج تسوي هارك.",
-        "source": "https://www.wikidata.org/wiki/Q28312",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Jet_Li_-_Annual_Meeting_of_the_New_Champions_Tianjin_2008.jpg",
-        "imageKind": "commons",
-        "imageAlt": "The Master",
-        "factType": "country",
-        "options": [
-            "فلم رعب",
-            "فلم كوميدي",
-            "هونغ كونغ",
-            "Avatar"
-        ],
-        "clueFacts": {
-            "cast": "جت لي",
-            "country": "هونغ كونغ",
-            "director": "تسوي هارك",
-            "genre": "فلم أكشن",
-            "language": "الصينية اليؤوية",
-            "year": "1989"
         }
     },
     {
@@ -2395,8 +2192,8 @@ window.moviesQuestionSeed = [
         "factType": "language",
         "options": [
             "الإنجليزية",
-            "1998",
-            "2010",
+            "الإيطالية",
+            "الهندية",
             "الإسبانية"
         ],
         "clueFacts": {
@@ -2406,35 +2203,6 @@ window.moviesQuestionSeed = [
             "genre": "فلم دراما",
             "language": "الإنجليزية",
             "year": "2003"
-        }
-    },
-    {
-        "id": "movies-fact-Q28936",
-        "category": "أفلام",
-        "difficulty": "متوسط",
-        "points": 300,
-        "question": "اذكر أحد الممثلين المشاركين في فيلم «سحابة الأطلس».",
-        "answer": "توم هانكس",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2317324d%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e79c43%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M90%2090h180v110H90z%22%20fill%3D%22%23152333%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M90%2090l28-45h180l-28%2045z%22%20fill%3D%22%23b9573f%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M145%2048l-27%2042m80-42-28%2042m80-42-28%2042%22%20stroke%3D%22%23fff0d1%22%20stroke-width%3D%2210%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e79c43%22%3EFILM%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D8%B3%D8%AD%D8%A7%D8%A8%D8%A9%20%D8%A7%D9%84%D8%A3%D8%B7%D9%84%D8%B3%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e79c43%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "قرائن عن العمل: بلد الإنتاج إسبانيا، المخرج توم تيكوير.",
-        "source": "https://www.wikidata.org/wiki/Q28936",
-        "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "سحابة الأطلس",
-        "factType": "cast",
-        "options": [
-            "1951",
-            "1998",
-            "توم هانكس",
-            "1932"
-        ],
-        "clueFacts": {
-            "cast": "توم هانكس",
-            "country": "إسبانيا",
-            "director": "توم تيكوير",
-            "genre": "فلم دراما",
-            "language": "الإنجليزية",
-            "year": "2012"
         }
     },
     {
@@ -2452,10 +2220,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "المراقبة",
         "factType": "year",
         "options": [
-            "الهند",
-            "فرنسا",
+            "1964",
+            "1960",
             "2012",
-            "ألمانيا"
+            "1989"
         ],
         "clueFacts": {
             "cast": "ميل رودريغيز",
@@ -2471,7 +2239,7 @@ window.moviesQuestionSeed = [
         "category": "أفلام",
         "difficulty": "متوسط",
         "points": 300,
-        "question": "اذكر أحد مخرجي فيلم «The Tunnel».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد مخرجي فيلم «The Tunnel».",
         "answer": "Roland Suso Richter",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2317324d%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e79c43%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M90%2090h180v110H90z%22%20fill%3D%22%23152333%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M90%2090l28-45h180l-28%2045z%22%20fill%3D%22%23b9573f%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M145%2048l-27%2042m80-42-28%2042m80-42-28%2042%22%20stroke%3D%22%23fff0d1%22%20stroke-width%3D%2210%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e79c43%22%3EFILM%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EThe%20Tunnel%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e79c43%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين سيباستيان كوخ، بلد الإنتاج ألمانيا.",
@@ -2481,9 +2249,9 @@ window.moviesQuestionSeed = [
         "imageAlt": "The Tunnel",
         "factType": "director",
         "options": [
-            "2008",
-            "1965",
-            "1955",
+            "Stephen Herek",
+            "فيديريكو فليني",
+            "سناء حمري",
             "Roland Suso Richter"
         ],
         "clueFacts": {
@@ -2510,10 +2278,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "ماما",
         "factType": "genre",
         "options": [
-            "إيطاليا",
+            "فلم وثائقي",
             "فلم خيال",
-            "فرنسا",
-            "هونغ كونغ"
+            "كوميدي رعب",
+            "فيلم ما بعد الكارثة"
         ],
         "clueFacts": {
             "cast": "جيسيكا شاستاين",
@@ -2539,10 +2307,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "Aimée & Jaguar",
         "factType": "country",
         "options": [
-            "فلم دراما",
+            "الدنمارك",
             "ألمانيا",
-            "فلم رعب",
-            "فلم كوميدي"
+            "أستراليا",
+            "الولايات المتحدة"
         ],
         "clueFacts": {
             "cast": "يوهانا فوكاليك",
@@ -2554,40 +2322,11 @@ window.moviesQuestionSeed = [
         }
     },
     {
-        "id": "movies-fact-Q29603",
-        "category": "أفلام",
-        "difficulty": "متوسط",
-        "points": 300,
-        "question": "ما اللغة الأصلية لفيلم «Pretty Things»؟",
-        "answer": "الفرنسية",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2317324d%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e79c43%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M90%2090h180v110H90z%22%20fill%3D%22%23152333%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M90%2090l28-45h180l-28%2045z%22%20fill%3D%22%23b9573f%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M145%2048l-27%2042m80-42-28%2042m80-42-28%2042%22%20stroke%3D%22%23fff0d1%22%20stroke-width%3D%2210%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e79c43%22%3EFILM%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EPretty%20Things%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e79c43%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "قرائن عن العمل: أحد الممثلين ماريون كوتيار، بلد الإنتاج فرنسا.",
-        "source": "https://www.wikidata.org/wiki/Q29603",
-        "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "Pretty Things",
-        "factType": "language",
-        "options": [
-            "فلم أكشن",
-            "فلم غربي",
-            "الفرنسية",
-            "فلم كوميدي رومانسي"
-        ],
-        "clueFacts": {
-            "cast": "ماريون كوتيار",
-            "country": "فرنسا",
-            "director": "جيل باكيه برينر",
-            "genre": "فلم دراما",
-            "language": "الفرنسية",
-            "year": "2001"
-        }
-    },
-    {
         "id": "movies-fact-Q29658",
         "category": "أفلام",
         "difficulty": "متوسط",
         "points": 300,
-        "question": "اذكر أحد الممثلين المشاركين في فيلم «إلى روما مع الحب».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد الممثلين المشاركين في فيلم «إلى روما مع الحب».",
         "answer": "روبيرتو بينيني",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/To%20Rome%20with%20Love.png?width=900",
         "hint": "قرائن عن العمل: بلد الإنتاج إسبانيا، المخرج وودي آلن.",
@@ -2597,10 +2336,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "إلى روما مع الحب",
         "factType": "cast",
         "options": [
-            "الفرنسية",
-            "التملية",
+            "جولي أدامز",
+            "كالب ديشانيل",
             "روبيرتو بينيني",
-            "الألمانية"
+            "يويكا كيدوح"
         ],
         "clueFacts": {
             "cast": "روبيرتو بينيني",
@@ -2626,9 +2365,9 @@ window.moviesQuestionSeed = [
         "imageAlt": "The Broken Hearts Club",
         "factType": "year",
         "options": [
-            "جون فورد",
-            "جورج هاريسون",
-            "إيرنست بورغنين",
+            "1978",
+            "1932",
+            "1951",
             "2000"
         ],
         "clueFacts": {
@@ -2645,7 +2384,7 @@ window.moviesQuestionSeed = [
         "category": "أفلام",
         "difficulty": "متوسط",
         "points": 300,
-        "question": "اذكر أحد مخرجي فيلم «أبولو 18».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد مخرجي فيلم «أبولو 18».",
         "answer": "Gonzalo López-Gallego",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2317324d%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e79c43%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M90%2090h180v110H90z%22%20fill%3D%22%23152333%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M90%2090l28-45h180l-28%2045z%22%20fill%3D%22%23b9573f%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M145%2048l-27%2042m80-42-28%2042m80-42-28%2042%22%20stroke%3D%22%23fff0d1%22%20stroke-width%3D%2210%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e79c43%22%3EFILM%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D8%A3%D8%A8%D9%88%D9%84%D9%88%2018%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e79c43%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين ريان روبنز، بلد الإنتاج كندا.",
@@ -2684,10 +2423,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "Mother",
         "factType": "genre",
         "options": [
-            "غراهام تشابمان",
-            "هاريسون فورد",
+            "فيلم ما بعد الكارثة",
+            "فلم وثائقي",
             "فلم دراما",
-            "ديبرا وينجر"
+            "كوميدي رعب"
         ],
         "clueFacts": {
             "cast": "ماريو أدورف",
@@ -2742,10 +2481,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "حياة أو شيء ما مثلها",
         "factType": "language",
         "options": [
-            "رالف طوماس",
+            "التملية",
             "الإنجليزية",
-            "كارول ريد",
-            "Velu Prabhakaran"
+            "الألمانية",
+            "الفرنسية"
         ],
         "clueFacts": {
             "cast": "أنجلينا جولي",
@@ -2771,10 +2510,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "نحن نعيش في العلن",
         "factType": "year",
         "options": [
-            "الهند",
-            "فرنسا",
+            "1964",
+            "1960",
             "2009",
-            "ألمانيا"
+            "1989"
         ],
         "clueFacts": {
             "country": "الولايات المتحدة",
@@ -2789,7 +2528,7 @@ window.moviesQuestionSeed = [
         "category": "أفلام",
         "difficulty": "متوسط",
         "points": 300,
-        "question": "اذكر أحد مخرجي فيلم «قصة عصابة».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد مخرجي فيلم «قصة عصابة».",
         "answer": "أوليفييه مارشال",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2317324d%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e79c43%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M90%2090h180v110H90z%22%20fill%3D%22%23152333%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M90%2090l28-45h180l-28%2045z%22%20fill%3D%22%23b9573f%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M145%2048l-27%2042m80-42-28%2042m80-42-28%2042%22%20stroke%3D%22%23fff0d1%22%20stroke-width%3D%2210%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e79c43%22%3EFILM%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D9%82%D8%B5%D8%A9%20%D8%B9%D8%B5%D8%A7%D8%A8%D8%A9%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e79c43%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين Étienne Chicot، بلد الإنتاج بلجيكا.",
@@ -2828,9 +2567,9 @@ window.moviesQuestionSeed = [
         "imageAlt": "المنبوذون",
         "factType": "genre",
         "options": [
-            "والتر لانغ",
-            "براين سينغر",
-            "جاسون كونري",
+            "فيلم ما بعد الكارثة",
+            "فلم وثائقي",
+            "نيو-نوار",
             "فلم دراما"
         ],
         "clueFacts": {
@@ -2857,9 +2596,9 @@ window.moviesQuestionSeed = [
         "imageAlt": "جرف بعيدا",
         "factType": "country",
         "options": [
-            "Klaus Löwitsch",
-            "ديبرا وينجر",
-            "غراهام تشابمان",
+            "الهند",
+            "فرنسا",
+            "هونغ كونغ",
             "إيطاليا"
         ],
         "clueFacts": {
@@ -2886,9 +2625,9 @@ window.moviesQuestionSeed = [
         "imageAlt": "كيك-آس",
         "factType": "language",
         "options": [
-            "فلم رعب",
-            "فلم كوميدي",
-            "فلم دراما",
+            "التملية",
+            "اليابانية",
+            "الإيطالية",
             "الإنجليزية"
         ],
         "clueFacts": {
@@ -2905,7 +2644,7 @@ window.moviesQuestionSeed = [
         "category": "أفلام",
         "difficulty": "متوسط",
         "points": 300,
-        "question": "اذكر أحد الممثلين المشاركين في فيلم «12 رجلا غاضبا».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد الممثلين المشاركين في فيلم «12 رجلا غاضبا».",
         "answer": "هنري فوندا",
         "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/12_Angry_Men_%281957_film_poster%29.jpg/960px-12_Angry_Men_%281957_film_poster%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "hint": "قرائن عن العمل: بلد الإنتاج الولايات المتحدة، المخرج سيدني لوميت.",
@@ -2915,10 +2654,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "12 رجلا غاضبا",
         "factType": "cast",
         "options": [
-            "فيديريكو فليني",
-            "سناء حمري",
+            "بريجيت باردو",
+            "Dan van Husen",
             "هنري فوندا",
-            "Stephen Herek"
+            "أنتوني كوين"
         ],
         "clueFacts": {
             "cast": "هنري فوندا",
@@ -2945,9 +2684,9 @@ window.moviesQuestionSeed = [
         "factType": "year",
         "options": [
             "1939",
-            "Lewis Schoenbrun",
-            "رونالد نيوم",
-            "جاك ريفيت"
+            "1960",
+            "1995",
+            "1953"
         ],
         "clueFacts": {
             "cast": "كلارك غيبل",
@@ -2963,7 +2702,7 @@ window.moviesQuestionSeed = [
         "category": "أفلام",
         "difficulty": "متوسط",
         "points": 300,
-        "question": "اذكر أحد مخرجي فيلم «الرجل بينهما».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد مخرجي فيلم «الرجل بينهما».",
         "answer": "كارول ريد",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2317324d%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e79c43%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M90%2090h180v110H90z%22%20fill%3D%22%23152333%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M90%2090l28-45h180l-28%2045z%22%20fill%3D%22%23b9573f%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M145%2048l-27%2042m80-42-28%2042m80-42-28%2042%22%20stroke%3D%22%23fff0d1%22%20stroke-width%3D%2210%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e79c43%22%3EFILM%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D8%A7%D9%84%D8%B1%D8%AC%D9%84%20%D8%A8%D9%8A%D9%86%D9%87%D9%85%D8%A7%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e79c43%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين هيلديجارد نيف، بلد الإنتاج المملكة المتحدة.",
@@ -2973,10 +2712,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "الرجل بينهما",
         "factType": "director",
         "options": [
-            "1955",
-            "1969",
+            "سناء حمري",
+            "جوزيف كوزينسكي",
             "كارول ريد",
-            "1965"
+            "فيديريكو فليني"
         ],
         "clueFacts": {
             "cast": "هيلديجارد نيف",
@@ -3002,9 +2741,9 @@ window.moviesQuestionSeed = [
         "imageAlt": "ليلة عصيبة في أريحا",
         "factType": "genre",
         "options": [
-            "أنتوني كوين",
-            "بريجيت باردو",
-            "Dan van Husen",
+            "فلم كوميدي رومانسي",
+            "فلم أكشن",
+            "كوميدي رعب",
             "فلم غربي"
         ],
         "clueFacts": {
@@ -3031,10 +2770,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "غزاة الفضائيين",
         "factType": "country",
         "options": [
-            "Klaus Löwitsch",
+            "إسبانيا",
             "الولايات المتحدة",
-            "ماركو زارور",
-            "فنسنت برايس"
+            "هونغ كونغ",
+            "إيطاليا"
         ],
         "clueFacts": {
             "cast": "كارلوس بيرنارد",
@@ -3060,9 +2799,9 @@ window.moviesQuestionSeed = [
         "imageAlt": "A Fantastic Fear of Everything",
         "factType": "language",
         "options": [
-            "هنري فوندا",
-            "ميريل ستريب",
-            "ماركو زارور",
+            "الألمانية",
+            "الفرنسية",
+            "التملية",
             "الإنجليزية"
         ],
         "clueFacts": {
@@ -3079,7 +2818,7 @@ window.moviesQuestionSeed = [
         "category": "أفلام",
         "difficulty": "متوسط",
         "points": 300,
-        "question": "اذكر أحد الممثلين المشاركين في فيلم «المرشح المنشوري».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد الممثلين المشاركين في فيلم «المرشح المنشوري».",
         "answer": "ميريل ستريب",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Themanchuriancandidate-logo.svg?width=900",
         "hint": "قرائن عن العمل: بلد الإنتاج الولايات المتحدة، المخرج جوناثان ديم.",
@@ -3089,10 +2828,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "المرشح المنشوري",
         "factType": "cast",
         "options": [
-            "1991",
+            "بول أوجيي",
             "ميريل ستريب",
-            "الإيطالية",
-            "الهندية"
+            "إيرنست بورغنين",
+            "يول براينر"
         ],
         "clueFacts": {
             "cast": "ميريل ستريب",
@@ -3137,7 +2876,7 @@ window.moviesQuestionSeed = [
         "category": "أفلام",
         "difficulty": "متوسط",
         "points": 300,
-        "question": "اذكر أحد مخرجي فيلم «أديسايا مانيثان».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد مخرجي فيلم «أديسايا مانيثان».",
         "answer": "Velu Prabhakaran",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2317324d%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e79c43%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M90%2090h180v110H90z%22%20fill%3D%22%23152333%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M90%2090l28-45h180l-28%2045z%22%20fill%3D%22%23b9573f%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M145%2048l-27%2042m80-42-28%2042m80-42-28%2042%22%20stroke%3D%22%23fff0d1%22%20stroke-width%3D%2210%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e79c43%22%3EFILM%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D8%A3%D8%AF%D9%8A%D8%B3%D8%A7%D9%8A%D8%A7%20%D9%85%D8%A7%D9%86%D9%8A%D8%AB%D8%A7%D9%86%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e79c43%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين سيلك سميثا، بلد الإنتاج الهند.",
@@ -3176,9 +2915,9 @@ window.moviesQuestionSeed = [
         "imageAlt": "كليوباترا",
         "factType": "genre",
         "options": [
-            "هنري فوندا",
-            "ميريل ستريب",
-            "ماركو زارور",
+            "فلم كوميدي",
+            "فلم خيال",
+            "فلم إثارة",
             "فلم دراما"
         ],
         "clueFacts": {
@@ -3206,9 +2945,9 @@ window.moviesQuestionSeed = [
         "factType": "country",
         "options": [
             "الولايات المتحدة",
-            "1969",
-            "1978",
-            "1932"
+            "هونغ كونغ",
+            "إيطاليا",
+            "إسبانيا"
         ],
         "clueFacts": {
             "cast": "أنجلينا جولي",
@@ -3234,10 +2973,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "Delirious",
         "factType": "language",
         "options": [
-            "غراهام تشابمان",
-            "هاريسون فورد",
+            "الهندية",
+            "الإسبانية",
             "الإنجليزية",
-            "ديبرا وينجر"
+            "الإيطالية"
         ],
         "clueFacts": {
             "cast": "أليسون لوهمان",
@@ -3253,7 +2992,7 @@ window.moviesQuestionSeed = [
         "category": "أفلام",
         "difficulty": "متوسط",
         "points": 300,
-        "question": "اذكر أحد الممثلين المشاركين في فيلم «رجل السراب».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد الممثلين المشاركين في فيلم «رجل السراب».",
         "answer": "ماركو زارور",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mirageman.PNG?width=900",
         "hint": "قرائن عن العمل: بلد الإنتاج تشيلي، المخرج إيرنيستو دياز إسبينوزا.",
@@ -3263,10 +3002,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "رجل السراب",
         "factType": "cast",
         "options": [
-            "الإيطالية",
-            "الهندية",
+            "إيرنست بورغنين",
+            "يول براينر",
             "ماركو زارور",
-            "الإنجليزية"
+            "جورج هاريسون"
         ],
         "clueFacts": {
             "cast": "ماركو زارور",
@@ -3293,9 +3032,9 @@ window.moviesQuestionSeed = [
         "factType": "year",
         "options": [
             "2003",
-            "اليابانية",
-            "الإنجليزية",
-            "الإيطالية"
+            "1939",
+            "2008",
+            "1965"
         ],
         "clueFacts": {
             "cast": "أليسون لوهمان",
@@ -3311,7 +3050,7 @@ window.moviesQuestionSeed = [
         "category": "أفلام",
         "difficulty": "متوسط",
         "points": 300,
-        "question": "اذكر أحد مخرجي فيلم «Percy».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد مخرجي فيلم «Percy».",
         "answer": "رالف طوماس",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2317324d%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e79c43%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M90%2090h180v110H90z%22%20fill%3D%22%23152333%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M90%2090l28-45h180l-28%2045z%22%20fill%3D%22%23b9573f%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M145%2048l-27%2042m80-42-28%2042m80-42-28%2042%22%20stroke%3D%22%23fff0d1%22%20stroke-width%3D%2210%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e79c43%22%3EFILM%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EPercy%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e79c43%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين جورج بست، بلد الإنتاج المملكة المتحدة.",
@@ -3322,9 +3061,9 @@ window.moviesQuestionSeed = [
         "factType": "director",
         "options": [
             "رالف طوماس",
-            "تيتانيك",
-            "Inception",
-            "Interstellar"
+            "كريستوفر نولان",
+            "نولان",
+            "رولان إيميريش"
         ],
         "clueFacts": {
             "cast": "جورج بست",
@@ -3350,10 +3089,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "حمام دم في بيت الموت",
         "factType": "genre",
         "options": [
-            "أنتوني كوين",
+            "فلم غربي",
             "كوميدي رعب",
-            "غراهام تشابمان",
-            "هاريسون فورد"
+            "فلم كوميدي رومانسي",
+            "فلم أكشن"
         ],
         "clueFacts": {
             "cast": "فنسنت برايس",
@@ -3379,9 +3118,9 @@ window.moviesQuestionSeed = [
         "imageAlt": "البرتقال",
         "factType": "country",
         "options": [
-            "كارستا لوك",
-            "اكيرا ايموتو",
-            "يويكا كيدوح",
+            "الدنمارك",
+            "المملكة المتحدة",
+            "ألمانيا",
             "الولايات المتحدة"
         ],
         "clueFacts": {
@@ -3408,10 +3147,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "Das wandernde Bild",
         "factType": "language",
         "options": [
-            "2010",
+            "الإسبانية",
             "الألمانية",
-            "1951",
-            "1998"
+            "الإيطالية",
+            "الهندية"
         ],
         "clueFacts": {
             "cast": "Rudolf Klein-Rogge",
@@ -3427,7 +3166,7 @@ window.moviesQuestionSeed = [
         "category": "أفلام",
         "difficulty": "متوسط",
         "points": 300,
-        "question": "اذكر أحد الممثلين المشاركين في فيلم «Percy's Progress».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد الممثلين المشاركين في فيلم «Percy's Progress».",
         "answer": "فنسنت برايس",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2317324d%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e79c43%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M90%2090h180v110H90z%22%20fill%3D%22%23152333%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M90%2090l28-45h180l-28%2045z%22%20fill%3D%22%23b9573f%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M145%2048l-27%2042m80-42-28%2042m80-42-28%2042%22%20stroke%3D%22%23fff0d1%22%20stroke-width%3D%2210%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e79c43%22%3EFILM%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EPercy%26apos%3Bs%20Progress%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e79c43%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: بلد الإنتاج المملكة المتحدة، المخرج رالف طوماس.",
@@ -3466,10 +3205,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "سكايفول",
         "factType": "year",
         "options": [
-            "اكيرا ايموتو",
-            "يويكا كيدوح",
+            "1951",
+            "1998",
             "2012",
-            "كارستا لوك"
+            "1932"
         ],
         "clueFacts": {
             "cast": "دانيال كريغ",
@@ -3485,7 +3224,7 @@ window.moviesQuestionSeed = [
         "category": "أفلام",
         "difficulty": "صعب",
         "points": 400,
-        "question": "اذكر أحد مخرجي فيلم «أربعة أسود».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد مخرجي فيلم «أربعة أسود».",
         "answer": "كريس موريس",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2317324d%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e79c43%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M90%2090h180v110H90z%22%20fill%3D%22%23152333%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M90%2090l28-45h180l-28%2045z%22%20fill%3D%22%23b9573f%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M145%2048l-27%2042m80-42-28%2042m80-42-28%2042%22%20stroke%3D%22%23fff0d1%22%20stroke-width%3D%2210%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e79c43%22%3EFILM%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D8%A3%D8%B1%D8%A8%D8%B9%D8%A9%20%D8%A3%D8%B3%D9%88%D8%AF%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e79c43%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين بيندكت كامبرباتش، بلد الإنتاج المملكة المتحدة.",
@@ -3495,10 +3234,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "أربعة أسود",
         "factType": "director",
         "options": [
-            "الفرنسية",
+            "ياش تشوبرا",
             "كريس موريس",
-            "الإسبانية",
-            "الألمانية"
+            "غرانت هارفي",
+            "أنجيلا بيتيس"
         ],
         "clueFacts": {
             "cast": "بيندكت كامبرباتش",
@@ -3524,10 +3263,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "ثاء رمزا للثأر",
         "factType": "genre",
         "options": [
-            "اليابانية",
-            "الإنجليزية",
+            "فلم وثائقي",
+            "نيو-نوار",
             "فيلم ما بعد الكارثة",
-            "التملية"
+            "كوميدي رعب"
         ],
         "clueFacts": {
             "cast": "ناتالي بورتمان",
@@ -3553,10 +3292,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "حرب النجوم: القوة تنهض",
         "factType": "country",
         "options": [
-            "كارول ريد",
+            "ألمانيا",
             "الولايات المتحدة",
-            "Gonzalo López-Gallego",
-            "أوليفييه مارشال"
+            "الدنمارك",
+            "المملكة المتحدة"
         ],
         "clueFacts": {
             "cast": "دانيال كريغ",
@@ -3568,40 +3307,11 @@ window.moviesQuestionSeed = [
         }
     },
     {
-        "id": "movies-fact-Q7216",
-        "category": "أفلام",
-        "difficulty": "صعب",
-        "points": 400,
-        "question": "ما اللغة الأصلية لفيلم «Pirates II: Stagnetti's Revenge»؟",
-        "answer": "الإنجليزية",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2317324d%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e79c43%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M90%2090h180v110H90z%22%20fill%3D%22%23152333%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M90%2090l28-45h180l-28%2045z%22%20fill%3D%22%23b9573f%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M145%2048l-27%2042m80-42-28%2042m80-42-28%2042%22%20stroke%3D%22%23fff0d1%22%20stroke-width%3D%2210%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e79c43%22%3EFILM%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EPirates%20II%3A%20Stagnetti%26apos%3Bs%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22483%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3ERevenge%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e79c43%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "قرائن عن العمل: أحد الممثلين ساشا غري، بلد الإنتاج الولايات المتحدة.",
-        "source": "https://www.wikidata.org/wiki/Q7216",
-        "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "Pirates II: Stagnetti's Revenge",
-        "factType": "language",
-        "options": [
-            "الإنجليزية",
-            "1969",
-            "1978",
-            "1932"
-        ],
-        "clueFacts": {
-            "cast": "ساشا غري",
-            "country": "الولايات المتحدة",
-            "director": "Joone",
-            "genre": "فلم كوميدي",
-            "language": "الإنجليزية",
-            "year": "2008"
-        }
-    },
-    {
         "id": "movies-fact-Q8328",
         "category": "أفلام",
         "difficulty": "صعب",
         "points": 400,
-        "question": "اذكر أحد الممثلين المشاركين في فيلم «Gotcha!».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد الممثلين المشاركين في فيلم «Gotcha!».",
         "answer": "Klaus Löwitsch",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2317324d%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e79c43%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M90%2090h180v110H90z%22%20fill%3D%22%23152333%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M90%2090l28-45h180l-28%2045z%22%20fill%3D%22%23b9573f%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M145%2048l-27%2042m80-42-28%2042m80-42-28%2042%22%20stroke%3D%22%23fff0d1%22%20stroke-width%3D%2210%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e79c43%22%3EFILM%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EGotcha!%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e79c43%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: بلد الإنتاج الولايات المتحدة، المخرج Jeff Kanew.",
@@ -3611,9 +3321,9 @@ window.moviesQuestionSeed = [
         "imageAlt": "Gotcha!",
         "factType": "cast",
         "options": [
-            "ياش تشوبرا",
-            "تيتانيك",
-            "Inception",
+            "جولي أدامز",
+            "كالب ديشانيل",
+            "جون فورد",
             "Klaus Löwitsch"
         ],
         "clueFacts": {
@@ -3658,7 +3368,7 @@ window.moviesQuestionSeed = [
         "category": "أفلام",
         "difficulty": "صعب",
         "points": 400,
-        "question": "اذكر أحد مخرجي فيلم «101 مرقش».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد مخرجي فيلم «101 مرقش».",
         "answer": "Stephen Herek",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2317324d%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e79c43%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M90%2090h180v110H90z%22%20fill%3D%22%23152333%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M90%2090l28-45h180l-28%2045z%22%20fill%3D%22%23b9573f%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M145%2048l-27%2042m80-42-28%2042m80-42-28%2042%22%20stroke%3D%22%23fff0d1%22%20stroke-width%3D%2210%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e79c43%22%3EFILM%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E101%20%D9%85%D8%B1%D9%82%D8%B4%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e79c43%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين هيو لوري، بلد الإنتاج الولايات المتحدة.",
@@ -3669,9 +3379,9 @@ window.moviesQuestionSeed = [
         "factType": "director",
         "options": [
             "Stephen Herek",
-            "Avatar",
-            "فلم رعب",
-            "فلم كوميدي"
+            "جيمس كاميرون",
+            "إس. سيمون",
+            "Lewis Schoenbrun"
         ],
         "clueFacts": {
             "cast": "هيو لوري",
@@ -3726,10 +3436,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "ذا لاست إيربندر",
         "factType": "country",
         "options": [
-            "هنري فوندا",
+            "الهند",
             "الولايات المتحدة",
-            "ميرايل إينوس",
-            "توم هانكس"
+            "المملكة المتحدة",
+            "ألمانيا"
         ],
         "clueFacts": {
             "cast": "شاون طوب",
@@ -3755,9 +3465,9 @@ window.moviesQuestionSeed = [
         "imageAlt": "رأس ممحاة",
         "factType": "language",
         "options": [
-            "بين ويلسون",
-            "جون مالكوفيتش",
-            "ميرايل إينوس",
+            "اليابانية",
+            "الإيطالية",
+            "الهندية",
             "الإنجليزية"
         ],
         "clueFacts": {
@@ -3774,7 +3484,7 @@ window.moviesQuestionSeed = [
         "category": "أفلام",
         "difficulty": "صعب",
         "points": 400,
-        "question": "اذكر أحد الممثلين المشاركين في فيلم «إي تي».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد الممثلين المشاركين في فيلم «إي تي».",
         "answer": "ديبرا وينجر",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/E.T.%20figure%20at%20Madame%20Tussauds%20London.jpg?width=900",
         "hint": "قرائن عن العمل: بلد الإنتاج الولايات المتحدة، المخرج ستيفن سبيلبرغ.",
@@ -3784,9 +3494,9 @@ window.moviesQuestionSeed = [
         "imageAlt": "إي تي",
         "factType": "cast",
         "options": [
-            "1989",
-            "1964",
-            "1960",
+            "غولدي هاون",
+            "بين ويلسون",
+            "جون مالكوفيتش",
             "ديبرا وينجر"
         ],
         "clueFacts": {
@@ -3813,10 +3523,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "الصوت الحاسم",
         "factType": "year",
         "options": [
-            "هاريسون فورد",
+            "2003",
             "2008",
-            "ديبرا وينجر",
-            "غراهام تشابمان"
+            "2000",
+            "1939"
         ],
         "clueFacts": {
             "cast": "بيل مار",
@@ -3832,7 +3542,7 @@ window.moviesQuestionSeed = [
         "category": "أفلام",
         "difficulty": "صعب",
         "points": 400,
-        "question": "اذكر أحد مخرجي فيلم «8½».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد مخرجي فيلم «8½».",
         "answer": "فيديريكو فليني",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2317324d%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e79c43%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M90%2090h180v110H90z%22%20fill%3D%22%23152333%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M90%2090l28-45h180l-28%2045z%22%20fill%3D%22%23b9573f%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M145%2048l-27%2042m80-42-28%2042m80-42-28%2042%22%20stroke%3D%22%23fff0d1%22%20stroke-width%3D%2210%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e79c43%22%3EFILM%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E8%C2%BD%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e79c43%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين مارسيلو ماستروياني، بلد الإنتاج إيطاليا.",
@@ -3842,10 +3552,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "8½",
         "factType": "director",
         "options": [
-            "1960",
-            "1995",
+            "لوكاس كازان",
+            "والتر لانغ",
             "فيديريكو فليني",
-            "1964"
+            "Vignesh Shivan"
         ],
         "clueFacts": {
             "cast": "مارسيلو ماستروياني",
@@ -3871,10 +3581,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "قراصنة",
         "factType": "genre",
         "options": [
-            "2008",
+            "فلم أكشن",
             "فلم دراما",
-            "1939",
-            "2003"
+            "فلم إثارة",
+            "فلم كوميدي رومانسي"
         ],
         "clueFacts": {
             "cast": "جوني لي ميلر",
@@ -3900,10 +3610,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "اليوم بعد الغد",
         "factType": "country",
         "options": [
-            "يول براينر",
-            "بول أوجيي",
+            "هونغ كونغ",
+            "إيطاليا",
             "الولايات المتحدة",
-            "إيرنست بورغنين"
+            "فرنسا"
         ],
         "clueFacts": {
             "cast": "إيمي روسوم",
@@ -3929,9 +3639,9 @@ window.moviesQuestionSeed = [
         "imageAlt": "Oxygen",
         "factType": "language",
         "options": [
-            "هنري فوندا",
-            "ميريل ستريب",
-            "ماركو زارور",
+            "الإسبانية",
+            "الألمانية",
+            "الفرنسية",
             "الإنجليزية"
         ],
         "clueFacts": {
@@ -3948,7 +3658,7 @@ window.moviesQuestionSeed = [
         "category": "أفلام",
         "difficulty": "صعب",
         "points": 400,
-        "question": "اذكر أحد الممثلين المشاركين في فيلم «And Now for Something Completely Different».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد الممثلين المشاركين في فيلم «And Now for Something Completely Different».",
         "answer": "غراهام تشابمان",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/And%20Now%20for%20Something%20Completely%20Different%20-%20US%20re-release%20poster.jpg?width=900",
         "hint": "قرائن عن العمل: بلد الإنتاج المملكة المتحدة، المخرج إيان ماكنوتون.",
@@ -3958,10 +3668,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "And Now for Something Completely Different",
         "factType": "cast",
         "options": [
-            "كوميدي رعب",
-            "فيلم ما بعد الكارثة",
+            "توم هانكس",
+            "روبيرتو بينيني",
             "غراهام تشابمان",
-            "فلم غربي"
+            "ميرايل إينوس"
         ],
         "clueFacts": {
             "cast": "غراهام تشابمان",
@@ -3987,9 +3697,9 @@ window.moviesQuestionSeed = [
         "imageAlt": "Bichhoo",
         "factType": "year",
         "options": [
-            "فنسنت برايس",
-            "Klaus Löwitsch",
-            "ديبرا وينجر",
+            "1996",
+            "2012",
+            "1939",
             "2000"
         ],
         "clueFacts": {
@@ -4006,7 +3716,7 @@ window.moviesQuestionSeed = [
         "category": "أفلام",
         "difficulty": "صعب",
         "points": 400,
-        "question": "اذكر أحد مخرجي فيلم «The Sisterhood of the Traveling Pants 2».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد مخرجي فيلم «The Sisterhood of the Traveling Pants 2».",
         "answer": "سناء حمري",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2317324d%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e79c43%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M90%2090h180v110H90z%22%20fill%3D%22%23152333%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M90%2090l28-45h180l-28%2045z%22%20fill%3D%22%23b9573f%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M145%2048l-27%2042m80-42-28%2042m80-42-28%2042%22%20stroke%3D%22%23fff0d1%22%20stroke-width%3D%2210%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e79c43%22%3EFILM%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EThe%20Sisterhood%20of%20the%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22483%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3ETraveling%20Pants%202%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e79c43%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين جيسي وليمز، بلد الإنتاج الولايات المتحدة.",
@@ -4016,10 +3726,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "The Sisterhood of the Traveling Pants 2",
         "factType": "director",
         "options": [
-            "1955",
-            "1969",
+            "فيديريكو فليني",
+            "جوزيف كوزينسكي",
             "سناء حمري",
-            "1965"
+            "Stephen Herek"
         ],
         "clueFacts": {
             "cast": "جيسي وليمز",
@@ -4045,9 +3755,9 @@ window.moviesQuestionSeed = [
         "imageAlt": "Thursday",
         "factType": "genre",
         "options": [
-            "2012",
-            "2000",
-            "1939",
+            "فلم خيال",
+            "فلم إثارة",
+            "فلم كوميدي رومانسي",
             "نيو-نوار"
         ],
         "clueFacts": {
@@ -4075,9 +3785,9 @@ window.moviesQuestionSeed = [
         "factType": "country",
         "options": [
             "إسبانيا",
-            "فنسنت برايس",
-            "Klaus Löwitsch",
-            "ديبرا وينجر"
+            "هونغ كونغ",
+            "إيطاليا",
+            "أستراليا"
         ],
         "clueFacts": {
             "cast": "رايان رينولدز",
@@ -4103,9 +3813,9 @@ window.moviesQuestionSeed = [
         "imageAlt": "iGo to Japan",
         "factType": "language",
         "options": [
-            "جاك ريفيت",
-            "ديران سارافيان",
-            "Vignesh Shivan",
+            "الإيطالية",
+            "الهندية",
+            "الإسبانية",
             "الإنجليزية"
         ],
         "clueFacts": {
@@ -4122,7 +3832,7 @@ window.moviesQuestionSeed = [
         "category": "أفلام",
         "difficulty": "صعب",
         "points": 400,
-        "question": "اذكر أحد الممثلين المشاركين في فيلم «حرب النجوم».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد الممثلين المشاركين في فيلم «حرب النجوم».",
         "answer": "هاريسون فورد",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2317324d%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e79c43%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M90%2090h180v110H90z%22%20fill%3D%22%23152333%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M90%2090l28-45h180l-28%2045z%22%20fill%3D%22%23b9573f%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M145%2048l-27%2042m80-42-28%2042m80-42-28%2042%22%20stroke%3D%22%23fff0d1%22%20stroke-width%3D%2210%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e79c43%22%3EFILM%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D8%AD%D8%B1%D8%A8%20%D8%A7%D9%84%D9%86%D8%AC%D9%88%D9%85%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e79c43%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: بلد الإنتاج الولايات المتحدة، المخرج جورج لوكاس.",
@@ -4132,10 +3842,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "حرب النجوم",
         "factType": "cast",
         "options": [
-            "إيطاليا",
-            "إسبانيا",
+            "جودي دينش",
+            "كارستا لوك",
             "هاريسون فورد",
-            "هونغ كونغ"
+            "Dan van Husen"
         ],
         "clueFacts": {
             "cast": "هاريسون فورد",
@@ -4161,10 +3871,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "Docking the Boat",
         "factType": "year",
         "options": [
-            "ميريل ستريب",
-            "ماركو زارور",
+            "2009",
+            "1920",
             "1965",
-            "هنري فوندا"
+            "1953"
         ],
         "clueFacts": {
             "cast": "Monica Zetterlund",
@@ -4180,7 +3890,7 @@ window.moviesQuestionSeed = [
         "category": "أفلام",
         "difficulty": "صعب",
         "points": 400,
-        "question": "اذكر أحد مخرجي فيلم «Variety Lights».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد مخرجي فيلم «Variety Lights».",
         "answer": "فيديريكو فليني",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Giulietta%20Masina%2C%20Peppino%20De%20Filippo%20e%20Gina%20Mascetti%20in%20%22Luci%20del%20variet%C3%A0%22%20(Lattuada%2C%20Fellini%201951).jpg?width=900",
         "hint": "قرائن عن العمل: أحد الممثلين صوفيا لورين، بلد الإنتاج إيطاليا.",
@@ -4191,9 +3901,9 @@ window.moviesQuestionSeed = [
         "factType": "director",
         "options": [
             "فيديريكو فليني",
-            "هونغ كونغ",
-            "إيطاليا",
-            "إسبانيا"
+            "جوزيف كوزينسكي",
+            "روبيرتو بينيني",
+            "أندرو في. مكلاغلن"
         ],
         "clueFacts": {
             "cast": "صوفيا لورين",
@@ -4219,10 +3929,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "The White Sheik",
         "factType": "genre",
         "options": [
-            "الإسبانية",
-            "الألمانية",
+            "فلم وثائقي",
+            "نيو-نوار",
             "فلم دراما",
-            "إسبانيا"
+            "فيلم ما بعد الكارثة"
         ],
         "clueFacts": {
             "cast": "ألبرتو سوردي",
@@ -4249,9 +3959,9 @@ window.moviesQuestionSeed = [
         "factType": "country",
         "options": [
             "إيطاليا",
-            "الألمانية",
-            "الفرنسية",
-            "التملية"
+            "الولايات المتحدة",
+            "الدنمارك",
+            "المملكة المتحدة"
         ],
         "clueFacts": {
             "cast": "ألبرتو سوردي",
@@ -4277,10 +3987,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "Love in the City",
         "factType": "language",
         "options": [
-            "Lewis Schoenbrun",
-            "رونالد نيوم",
+            "الإنجليزية",
+            "الهندية",
             "الإيطالية",
-            "إس. سيمون"
+            "اليابانية"
         ],
         "clueFacts": {
             "cast": "Marco Ferreri",
@@ -4296,7 +4006,7 @@ window.moviesQuestionSeed = [
         "category": "أفلام",
         "difficulty": "صعب",
         "points": 400,
-        "question": "اذكر أحد الممثلين المشاركين في فيلم «الطريق».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد الممثلين المشاركين في فيلم «الطريق».",
         "answer": "أنتوني كوين",
         "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/La_strada_ddr_poster.webp/960px-La_strada_ddr_poster.webp?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "hint": "قرائن عن العمل: بلد الإنتاج إيطاليا، المخرج فيديريكو فليني.",
@@ -4354,7 +4064,7 @@ window.moviesQuestionSeed = [
         "category": "أفلام",
         "difficulty": "صعب",
         "points": 400,
-        "question": "اذكر أحد مخرجي فيلم «ليالي كابيريا».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد مخرجي فيلم «ليالي كابيريا».",
         "answer": "فيديريكو فليني",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cabiria.png?width=900",
         "hint": "قرائن عن العمل: أحد الممثلين جيوليتا ماسينا، بلد الإنتاج إيطاليا.",
@@ -4394,9 +4104,9 @@ window.moviesQuestionSeed = [
         "factType": "genre",
         "options": [
             "فلم دراما",
-            "رونالد نيوم",
-            "جاك ريفيت",
-            "ديران سارافيان"
+            "فيلم ما بعد الكارثة",
+            "فلم وثائقي",
+            "نيو-نوار"
         ],
         "clueFacts": {
             "cast": "نيكو",
@@ -4422,10 +4132,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "Boccaccio '70",
         "factType": "country",
         "options": [
-            "والتر لانغ",
-            "براين سينغر",
+            "أستراليا",
+            "الولايات المتحدة",
             "إيطاليا",
-            "لوكاس كازان"
+            "إسبانيا"
         ],
         "clueFacts": {
             "cast": "صوفيا لورين",
@@ -4451,9 +4161,9 @@ window.moviesQuestionSeed = [
         "imageAlt": "Juliet of the Spirits",
         "factType": "language",
         "options": [
-            "فلم رعب",
-            "فلم كوميدي",
-            "فلم دراما",
+            "الإسبانية",
+            "الألمانية",
+            "الفرنسية",
             "الإيطالية"
         ],
         "clueFacts": {
@@ -4470,7 +4180,7 @@ window.moviesQuestionSeed = [
         "category": "أفلام",
         "difficulty": "صعب",
         "points": 400,
-        "question": "اذكر أحد الممثلين المشاركين في فيلم «أرواح الموتى».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد الممثلين المشاركين في فيلم «أرواح الموتى».",
         "answer": "بريجيت باردو",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jane%20Fonda%20in%20Tre%20passi%20nel%20delirio.jpg?width=900",
         "hint": "قرائن عن العمل: بلد الإنتاج إيطاليا، المخرج فيديريكو فليني.",
@@ -4480,9 +4190,9 @@ window.moviesQuestionSeed = [
         "imageAlt": "أرواح الموتى",
         "factType": "cast",
         "options": [
-            "أوليفييه مارشال",
-            "كارول ريد",
-            "Velu Prabhakaran",
+            "ماركو زارور",
+            "فنسنت برايس",
+            "Klaus Löwitsch",
             "بريجيت باردو"
         ],
         "clueFacts": {
@@ -4509,10 +4219,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "Satyricon",
         "factType": "year",
         "options": [
-            "جوزيف كوزينسكي",
-            "روبيرتو بينيني",
+            "1941",
+            "1983",
             "1969",
-            "سناء حمري"
+            "1991"
         ],
         "clueFacts": {
             "cast": "Tanya Lopert",
@@ -4528,7 +4238,7 @@ window.moviesQuestionSeed = [
         "category": "أفلام",
         "difficulty": "صعب",
         "points": 400,
-        "question": "اذكر أحد مخرجي فيلم «Fellini: A Director's Notebook».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد مخرجي فيلم «Fellini: A Director's Notebook».",
         "answer": "فيديريكو فليني",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2317324d%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e79c43%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M90%2090h180v110H90z%22%20fill%3D%22%23152333%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M90%2090l28-45h180l-28%2045z%22%20fill%3D%22%23b9573f%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M145%2048l-27%2042m80-42-28%2042m80-42-28%2042%22%20stroke%3D%22%23fff0d1%22%20stroke-width%3D%2210%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e79c43%22%3EFILM%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EFellini%3A%20A%20Director%26apos%3Bs%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22483%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3ENotebook%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e79c43%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: بلد الإنتاج الولايات المتحدة، التصنيف فلم وثائقي.",
@@ -4539,9 +4249,9 @@ window.moviesQuestionSeed = [
         "factType": "director",
         "options": [
             "فيديريكو فليني",
-            "المملكة المتحدة",
-            "ألمانيا",
-            "الهند"
+            "رالف طوماس",
+            "كريس موريس",
+            "Stephen Herek"
         ],
         "clueFacts": {
             "cast": "فيديريكو فليني",
@@ -4568,9 +4278,9 @@ window.moviesQuestionSeed = [
         "factType": "genre",
         "options": [
             "فلم وثائقي",
-            "غولدي هاون",
-            "بين ويلسون",
-            "جون مالكوفيتش"
+            "فيلم ما بعد الكارثة",
+            "نيو-نوار",
+            "فلم رعب"
         ],
         "clueFacts": {
             "cast": "فيديريكو فليني",
@@ -4596,10 +4306,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "Roma",
         "factType": "country",
         "options": [
-            "ميرايل إينوس",
-            "توم هانكس",
+            "الدنمارك",
+            "المملكة المتحدة",
             "إيطاليا",
-            "جون مالكوفيتش"
+            "الولايات المتحدة"
         ],
         "clueFacts": {
             "cast": "فيديريكو فليني",
@@ -4625,10 +4335,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "أماركورد",
         "factType": "language",
         "options": [
-            "Klaus Löwitsch",
+            "الإنجليزية",
             "الإيطالية",
-            "ماركو زارور",
-            "فنسنت برايس"
+            "التملية",
+            "اليابانية"
         ],
         "clueFacts": {
             "cast": "Francesco Maselli",
@@ -4644,7 +4354,7 @@ window.moviesQuestionSeed = [
         "category": "أفلام",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر أحد الممثلين المشاركين في فيلم «كازانوفا فلليني».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد الممثلين المشاركين في فيلم «كازانوفا فلليني».",
         "answer": "Dan van Husen",
         "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Museo%20Cinema%20Torino%20-%20Fellini%20Casanova%20script.jpg?width=900",
         "hint": "قرائن عن العمل: بلد الإنتاج إيطاليا، المخرج فيديريكو فليني.",
@@ -4655,9 +4365,9 @@ window.moviesQuestionSeed = [
         "factType": "cast",
         "options": [
             "Dan van Husen",
-            "الهند",
-            "فرنسا",
-            "هونغ كونغ"
+            "هاريسون فورد",
+            "أنتوني كوين",
+            "بريجيت باردو"
         ],
         "clueFacts": {
             "cast": "Dan van Husen",
@@ -4683,10 +4393,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "Orchestra Rehearsal",
         "factType": "year",
         "options": [
-            "فنسنت برايس",
+            "1996",
             "1978",
-            "ميريل ستريب",
-            "ماركو زارور"
+            "2009",
+            "1920"
         ],
         "clueFacts": {
             "cast": "فيديريكو فليني",
@@ -4702,7 +4412,7 @@ window.moviesQuestionSeed = [
         "category": "أفلام",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر أحد مخرجي فيلم «City of Women».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد مخرجي فيلم «City of Women».",
         "answer": "فيديريكو فليني",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2317324d%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e79c43%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M90%2090h180v110H90z%22%20fill%3D%22%23152333%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M90%2090l28-45h180l-28%2045z%22%20fill%3D%22%23b9573f%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M145%2048l-27%2042m80-42-28%2042m80-42-28%2042%22%20stroke%3D%22%23fff0d1%22%20stroke-width%3D%2210%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e79c43%22%3EFILM%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3ECity%20of%20Women%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e79c43%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين مارسيلو ماستروياني، بلد الإنتاج إيطاليا.",
@@ -4712,9 +4422,9 @@ window.moviesQuestionSeed = [
         "imageAlt": "City of Women",
         "factType": "director",
         "options": [
-            "2012",
-            "2000",
-            "1939",
+            "أوليفييه مارشال",
+            "كارول ريد",
+            "Velu Prabhakaran",
             "فيديريكو فليني"
         ],
         "clueFacts": {
@@ -4741,9 +4451,9 @@ window.moviesQuestionSeed = [
         "imageAlt": "And the Ship Sails On",
         "factType": "genre",
         "options": [
-            "2008",
-            "1965",
-            "1955",
+            "فلم خيال",
+            "فلم إثارة",
+            "فلم كوميدي رومانسي",
             "فلم دراما"
         ],
         "clueFacts": {
@@ -4770,10 +4480,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "Ginger and Fred",
         "factType": "country",
         "options": [
-            "1978",
+            "ألمانيا",
             "إيطاليا",
-            "1955",
-            "1969"
+            "الدنمارك",
+            "المملكة المتحدة"
         ],
         "clueFacts": {
             "cast": "مارسيلو ماستروياني",
@@ -4799,10 +4509,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "Intervista",
         "factType": "language",
         "options": [
-            "Vignesh Shivan",
-            "لوكاس كازان",
+            "التملية",
+            "اليابانية",
             "الإيطالية",
-            "ديران سارافيان"
+            "الفرنسية"
         ],
         "clueFacts": {
             "cast": "فيديريكو فليني",
@@ -4818,7 +4528,7 @@ window.moviesQuestionSeed = [
         "category": "أفلام",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر أحد الممثلين المشاركين في فيلم «The Voice of the Moon».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد الممثلين المشاركين في فيلم «The Voice of the Moon».",
         "answer": "روبيرتو بينيني",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2317324d%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e79c43%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M90%2090h180v110H90z%22%20fill%3D%22%23152333%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M90%2090l28-45h180l-28%2045z%22%20fill%3D%22%23b9573f%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M145%2048l-27%2042m80-42-28%2042m80-42-28%2042%22%20stroke%3D%22%23fff0d1%22%20stroke-width%3D%2210%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e79c43%22%3EFILM%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EThe%20Voice%20of%20the%20Moon%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e79c43%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: بلد الإنتاج إيطاليا، المخرج فيديريكو فليني.",
@@ -4876,7 +4586,7 @@ window.moviesQuestionSeed = [
         "category": "أفلام",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر أحد مخرجي فيلم «ترون: الإرث».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد مخرجي فيلم «ترون: الإرث».",
         "answer": "جوزيف كوزينسكي",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2317324d%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e79c43%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M90%2090h180v110H90z%22%20fill%3D%22%23152333%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M90%2090l28-45h180l-28%2045z%22%20fill%3D%22%23b9573f%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M145%2048l-27%2042m80-42-28%2042m80-42-28%2042%22%20stroke%3D%22%23fff0d1%22%20stroke-width%3D%2210%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e79c43%22%3EFILM%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D8%AA%D8%B1%D9%88%D9%86%3A%20%D8%A7%D9%84%D8%A5%D8%B1%D8%AB%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e79c43%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين جيف بريدجز، بلد الإنتاج الولايات المتحدة.",
@@ -4886,9 +4596,9 @@ window.moviesQuestionSeed = [
         "imageAlt": "ترون: الإرث",
         "factType": "director",
         "options": [
-            "إيطاليا",
-            "إسبانيا",
-            "الإسبانية",
+            "روبيرتو بينيني",
+            "أندرو في. مكلاغلن",
+            "غرانت هارفي",
             "جوزيف كوزينسكي"
         ],
         "clueFacts": {
@@ -4916,9 +4626,9 @@ window.moviesQuestionSeed = [
         "factType": "genre",
         "options": [
             "فلم دراما",
-            "هاريسون فورد",
-            "أنتوني كوين",
-            "بريجيت باردو"
+            "فلم خيال",
+            "فلم إثارة",
+            "فلم كوميدي رومانسي"
         ],
         "clueFacts": {
             "cast": "نيكول كيدمان",
@@ -4944,10 +4654,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "فان ويلدر",
         "factType": "country",
         "options": [
-            "كارستا لوك",
+            "الهند",
             "الولايات المتحدة",
-            "Dan van Husen",
-            "جودي دينش"
+            "المملكة المتحدة",
+            "ألمانيا"
         ],
         "clueFacts": {
             "cast": "رايان رينولدز",
@@ -4973,10 +4683,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "السبعة الرائعون",
         "factType": "language",
         "options": [
-            "1978",
+            "الفرنسية",
             "الإنجليزية",
-            "1955",
-            "1969"
+            "الإسبانية",
+            "الألمانية"
         ],
         "clueFacts": {
             "cast": "جيمس كوبورن",
@@ -4992,7 +4702,7 @@ window.moviesQuestionSeed = [
         "category": "أفلام",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر أحد الممثلين المشاركين في فيلم «العين الذهبية».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد الممثلين المشاركين في فيلم «العين الذهبية».",
         "answer": "جودي دينش",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2317324d%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e79c43%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M90%2090h180v110H90z%22%20fill%3D%22%23152333%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M90%2090l28-45h180l-28%2045z%22%20fill%3D%22%23b9573f%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M145%2048l-27%2042m80-42-28%2042m80-42-28%2042%22%20stroke%3D%22%23fff0d1%22%20stroke-width%3D%2210%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e79c43%22%3EFILM%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D8%A7%D9%84%D8%B9%D9%8A%D9%86%20%D8%A7%D9%84%D8%B0%D9%87%D8%A8%D9%8A%D8%A9%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e79c43%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: بلد الإنتاج الولايات المتحدة، المخرج مارتن كامبل.",
@@ -5002,9 +4712,9 @@ window.moviesQuestionSeed = [
         "imageAlt": "العين الذهبية",
         "factType": "cast",
         "options": [
-            "جوزيف كوزينسكي",
-            "أندرو في. مكلاغلن",
-            "غرانت هارفي",
+            "Dan van Husen",
+            "كارستا لوك",
+            "اكيرا ايموتو",
             "جودي دينش"
         ],
         "clueFacts": {
@@ -5032,9 +4742,9 @@ window.moviesQuestionSeed = [
         "factType": "year",
         "options": [
             "1978",
-            "Dan van Husen",
-            "جودي دينش",
-            "كارستا لوك"
+            "1955",
+            "1969",
+            "1932"
         ],
         "clueFacts": {
             "cast": "باميلا ميلر",
@@ -5050,7 +4760,7 @@ window.moviesQuestionSeed = [
         "category": "أفلام",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر أحد مخرجي فيلم «Tu mi turbi».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد مخرجي فيلم «Tu mi turbi».",
         "answer": "روبيرتو بينيني",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2317324d%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e79c43%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M90%2090h180v110H90z%22%20fill%3D%22%23152333%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M90%2090l28-45h180l-28%2045z%22%20fill%3D%22%23b9573f%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M145%2048l-27%2042m80-42-28%2042m80-42-28%2042%22%20stroke%3D%22%23fff0d1%22%20stroke-width%3D%2210%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e79c43%22%3EFILM%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3ETu%20mi%20turbi%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e79c43%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: بلد الإنتاج إيطاليا، التصنيف فلم كوميدي.",
@@ -5089,10 +4799,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "Farewell to Enrico Berlinguer",
         "factType": "genre",
         "options": [
-            "The Godfather",
-            "Avatar",
+            "فلم إثارة",
+            "فلم كوميدي رومانسي",
             "فلم وثائقي",
-            "Interstellar"
+            "فلم خيال"
         ],
         "clueFacts": {
             "country": "إيطاليا",
@@ -5117,10 +4827,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "اللامتخرج",
         "factType": "country",
         "options": [
-            "فلم إثارة",
-            "فلم كوميدي رومانسي",
+            "إيطاليا",
+            "إسبانيا",
             "الولايات المتحدة",
-            "فلم خيال"
+            "هونغ كونغ"
         ],
         "clueFacts": {
             "cast": "شيش مارين",
@@ -5132,40 +4842,11 @@ window.moviesQuestionSeed = [
         }
     },
     {
-        "id": "movies-fact-Q73279",
-        "category": "أفلام",
-        "difficulty": "صعب",
-        "points": 500,
-        "question": "ما اللغة الأصلية لفيلم «إيفل ديد»؟",
-        "answer": "الإنجليزية",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Evil%20Dead%20logo.png?width=900",
-        "hint": "قرائن عن العمل: أحد الممثلين لورنزو لاماس، بلد الإنتاج الولايات المتحدة.",
-        "source": "https://www.wikidata.org/wiki/Q73279",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Evil_Dead_logo.png",
-        "imageKind": "commons",
-        "imageAlt": "إيفل ديد",
-        "factType": "language",
-        "options": [
-            "الإنجليزية",
-            "هاريسون فورد",
-            "أنتوني كوين",
-            "بريجيت باردو"
-        ],
-        "clueFacts": {
-            "cast": "لورنزو لاماس",
-            "country": "الولايات المتحدة",
-            "director": "فيدي ألفاريز",
-            "genre": "فلم رعب",
-            "language": "الإنجليزية",
-            "year": "2013"
-        }
-    },
-    {
         "id": "movies-fact-Q73451",
         "category": "أفلام",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر أحد الممثلين المشاركين في فيلم «Kampfgeschwader Lützow».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد الممثلين المشاركين في فيلم «Kampfgeschwader Lützow».",
         "answer": "كارستا لوك",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2317324d%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e79c43%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M90%2090h180v110H90z%22%20fill%3D%22%23152333%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M90%2090l28-45h180l-28%2045z%22%20fill%3D%22%23b9573f%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M145%2048l-27%2042m80-42-28%2042m80-42-28%2042%22%20stroke%3D%22%23fff0d1%22%20stroke-width%3D%2210%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e79c43%22%3EFILM%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EKampfgeschwader%20L%C3%BCtzow%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e79c43%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: بلد الإنتاج ألمانيا النازية، المخرج هانس برترام.",
@@ -5204,10 +4885,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "The Year 1914",
         "factType": "year",
         "options": [
-            "نولان",
-            "رولان إيميريش",
+            "1941",
+            "1983",
             "1932",
-            "كريستوفر نولان"
+            "1991"
         ],
         "clueFacts": {
             "cast": "ويتولد كونتي",
@@ -5223,7 +4904,7 @@ window.moviesQuestionSeed = [
         "category": "أفلام",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر أحد مخرجي فيلم «Return from the River Kwai».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد مخرجي فيلم «Return from the River Kwai».",
         "answer": "أندرو في. مكلاغلن",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2317324d%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e79c43%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M90%2090h180v110H90z%22%20fill%3D%22%23152333%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M90%2090l28-45h180l-28%2045z%22%20fill%3D%22%23b9573f%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M145%2048l-27%2042m80-42-28%2042m80-42-28%2042%22%20stroke%3D%22%23fff0d1%22%20stroke-width%3D%2210%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e79c43%22%3EFILM%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EReturn%20from%20the%20River%20Kwai%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e79c43%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين جورج تاكي، بلد الإنتاج الولايات المتحدة.",
@@ -5234,9 +4915,9 @@ window.moviesQuestionSeed = [
         "factType": "director",
         "options": [
             "أندرو في. مكلاغلن",
-            "1969",
-            "1978",
-            "1932"
+            "سناء حمري",
+            "جوزيف كوزينسكي",
+            "روبيرتو بينيني"
         ],
         "clueFacts": {
             "cast": "جورج تاكي",
@@ -5262,10 +4943,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "Cirque du Soleil: Worlds Away",
         "factType": "genre",
         "options": [
-            "إيطاليا",
+            "كوميدي رعب",
             "فلم خيال",
-            "فرنسا",
-            "هونغ كونغ"
+            "فلم أكشن",
+            "فلم غربي"
         ],
         "clueFacts": {
             "cast": "Dallas Barnett",
@@ -5291,10 +4972,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "Double Jeopardy",
         "factType": "country",
         "options": [
-            "والتر لانغ",
-            "براين سينغر",
+            "أستراليا",
+            "الدنمارك",
             "الولايات المتحدة",
-            "لوكاس كازان"
+            "إسبانيا"
         ],
         "clueFacts": {
             "cast": "تومي لي جونز",
@@ -5320,10 +5001,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "صدأ وعظم",
         "factType": "language",
         "options": [
-            "2008",
+            "اليابانية",
             "الفرنسية",
-            "1939",
-            "2003"
+            "الألمانية",
+            "التملية"
         ],
         "clueFacts": {
             "cast": "ماريون كوتيار",
@@ -5339,7 +5020,7 @@ window.moviesQuestionSeed = [
         "category": "أفلام",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر أحد الممثلين المشاركين في فيلم «The Friends».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد الممثلين المشاركين في فيلم «The Friends».",
         "answer": "اكيرا ايموتو",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2317324d%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e79c43%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M90%2090h180v110H90z%22%20fill%3D%22%23152333%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M90%2090l28-45h180l-28%2045z%22%20fill%3D%22%23b9573f%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M145%2048l-27%2042m80-42-28%2042m80-42-28%2042%22%20stroke%3D%22%23fff0d1%22%20stroke-width%3D%2210%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e79c43%22%3EFILM%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EThe%20Friends%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e79c43%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: بلد الإنتاج اليابان، المخرج Shinji Sōmai.",
@@ -5349,10 +5030,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "The Friends",
         "factType": "cast",
         "options": [
-            "1978",
+            "Dan van Husen",
             "اكيرا ايموتو",
-            "1955",
-            "1969"
+            "أنتوني كوين",
+            "بريجيت باردو"
         ],
         "clueFacts": {
             "cast": "اكيرا ايموتو",
@@ -5378,9 +5059,9 @@ window.moviesQuestionSeed = [
         "imageAlt": "Two Tickets to Broadway",
         "factType": "year",
         "options": [
-            "جودي دينش",
-            "كارستا لوك",
-            "اكيرا ايموتو",
+            "1969",
+            "1978",
+            "1932",
             "1951"
         ],
         "clueFacts": {
@@ -5390,35 +5071,6 @@ window.moviesQuestionSeed = [
             "genre": "فلم موسيقي",
             "language": "الإنجليزية",
             "year": "1951"
-        }
-    },
-    {
-        "id": "movies-fact-Q74014",
-        "category": "أفلام",
-        "difficulty": "صعب",
-        "points": 500,
-        "question": "اذكر أحد مخرجي فيلم «جينجر سنابس باك: البداية».",
-        "answer": "غرانت هارفي",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2317324d%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e79c43%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M90%2090h180v110H90z%22%20fill%3D%22%23152333%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M90%2090l28-45h180l-28%2045z%22%20fill%3D%22%23b9573f%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M145%2048l-27%2042m80-42-28%2042m80-42-28%2042%22%20stroke%3D%22%23fff0d1%22%20stroke-width%3D%2210%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e79c43%22%3EFILM%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2230%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D8%AC%D9%8A%D9%86%D8%AC%D8%B1%20%D8%B3%D9%86%D8%A7%D8%A8%D8%B3%20%D8%A8%D8%A7%D9%83%3A%20%D8%A7%D9%84%D8%A8%D8%AF%D8%A7%D9%8A%D8%A9%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e79c43%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "قرائن عن العمل: أحد الممثلين كاثرين إيزابيل، بلد الإنتاج كندا.",
-        "source": "https://www.wikidata.org/wiki/Q74014",
-        "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "جينجر سنابس باك: البداية",
-        "factType": "director",
-        "options": [
-            "فلم وثائقي",
-            "نيو-نوار",
-            "غرانت هارفي",
-            "فيلم ما بعد الكارثة"
-        ],
-        "clueFacts": {
-            "cast": "كاثرين إيزابيل",
-            "country": "كندا",
-            "director": "غرانت هارفي",
-            "genre": "فلم دراما",
-            "language": "الإنجليزية",
-            "year": "2004"
         }
     },
     {
@@ -5436,10 +5088,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "الصقر المالطي",
         "factType": "genre",
         "options": [
-            "الدنمارك",
-            "المملكة المتحدة",
+            "فيلم ما بعد الكارثة",
+            "فلم وثائقي",
             "فلم دراما",
-            "الولايات المتحدة"
+            "كوميدي رعب"
         ],
         "clueFacts": {
             "cast": "بيبي دانيلز",
@@ -5465,10 +5117,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "Dark Tide",
         "factType": "country",
         "options": [
-            "كوميدي رعب",
-            "فيلم ما بعد الكارثة",
+            "إسبانيا",
+            "أستراليا",
             "الولايات المتحدة",
-            "فلم غربي"
+            "إيطاليا"
         ],
         "clueFacts": {
             "cast": "رالف براون",
@@ -5494,10 +5146,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "Phagun",
         "factType": "language",
         "options": [
-            "والتر لانغ",
+            "الفرنسية",
             "الهندية",
-            "Vignesh Shivan",
-            "لوكاس كازان"
+            "الإسبانية",
+            "الألمانية"
         ],
         "clueFacts": {
             "cast": "دارمندرا ديول",
@@ -5513,7 +5165,7 @@ window.moviesQuestionSeed = [
         "category": "أفلام",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر أحد الممثلين المشاركين في فيلم «Typhoon Club».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد الممثلين المشاركين في فيلم «Typhoon Club».",
         "answer": "يويكا كيدوح",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2317324d%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e79c43%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M90%2090h180v110H90z%22%20fill%3D%22%23152333%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M90%2090l28-45h180l-28%2045z%22%20fill%3D%22%23b9573f%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M145%2048l-27%2042m80-42-28%2042m80-42-28%2042%22%20stroke%3D%22%23fff0d1%22%20stroke-width%3D%2210%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e79c43%22%3EFILM%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3ETyphoon%20Club%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e79c43%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: بلد الإنتاج اليابان، المخرج Shinji Sōmai.",
@@ -5523,10 +5175,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "Typhoon Club",
         "factType": "cast",
         "options": [
-            "1978",
+            "Dan van Husen",
             "يويكا كيدوح",
-            "1955",
-            "1969"
+            "أنتوني كوين",
+            "بريجيت باردو"
         ],
         "clueFacts": {
             "cast": "يويكا كيدوح",
@@ -5567,35 +5219,6 @@ window.moviesQuestionSeed = [
         }
     },
     {
-        "id": "movies-fact-Q74535",
-        "category": "أفلام",
-        "difficulty": "صعب",
-        "points": 500,
-        "question": "اذكر أحد مخرجي فيلم «أبجديات الموت».",
-        "answer": "أنجيلا بيتيس",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2317324d%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e79c43%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M90%2090h180v110H90z%22%20fill%3D%22%23152333%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M90%2090l28-45h180l-28%2045z%22%20fill%3D%22%23b9573f%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M145%2048l-27%2042m80-42-28%2042m80-42-28%2042%22%20stroke%3D%22%23fff0d1%22%20stroke-width%3D%2210%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e79c43%22%3EFILM%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D8%A3%D8%A8%D8%AC%D8%AF%D9%8A%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D9%88%D8%AA%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e79c43%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "قرائن عن العمل: أحد الممثلين إنغريد بولسو بردال، بلد الإنتاج اليابان.",
-        "source": "https://www.wikidata.org/wiki/Q74535",
-        "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "أبجديات الموت",
-        "factType": "director",
-        "options": [
-            "1955",
-            "1969",
-            "أنجيلا بيتيس",
-            "1965"
-        ],
-        "clueFacts": {
-            "cast": "إنغريد بولسو بردال",
-            "country": "اليابان",
-            "director": "أنجيلا بيتيس",
-            "genre": "فلم كوميدي",
-            "language": "الفرنسية",
-            "year": "2012"
-        }
-    },
-    {
         "id": "movies-fact-Q74568",
         "category": "أفلام",
         "difficulty": "صعب",
@@ -5610,10 +5233,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "Sadko",
         "factType": "genre",
         "options": [
-            "Dan van Husen",
-            "جودي دينش",
+            "فلم وثائقي",
+            "نيو-نوار",
             "فلم خيال",
-            "بريجيت باردو"
+            "فيلم ما بعد الكارثة"
         ],
         "clueFacts": {
             "cast": "Sergei Stolyarov",
@@ -5669,9 +5292,9 @@ window.moviesQuestionSeed = [
         "factType": "language",
         "options": [
             "الإنجليزية",
-            "1969",
-            "1978",
-            "1932"
+            "الألمانية",
+            "الفرنسية",
+            "التملية"
         ],
         "clueFacts": {
             "cast": "كيت بيكينسيل",
@@ -5680,35 +5303,6 @@ window.moviesQuestionSeed = [
             "genre": "فلم أكشن",
             "language": "الإنجليزية",
             "year": "2009"
-        }
-    },
-    {
-        "id": "movies-fact-Q74643",
-        "category": "أفلام",
-        "difficulty": "صعب",
-        "points": 500,
-        "question": "اذكر أحد الممثلين المشاركين في فيلم «القاتل جو».",
-        "answer": "جولي أدامز",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2317324d%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e79c43%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M90%2090h180v110H90z%22%20fill%3D%22%23152333%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M90%2090l28-45h180l-28%2045z%22%20fill%3D%22%23b9573f%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M145%2048l-27%2042m80-42-28%2042m80-42-28%2042%22%20stroke%3D%22%23fff0d1%22%20stroke-width%3D%2210%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e79c43%22%3EFILM%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D8%A7%D9%84%D9%82%D8%A7%D8%AA%D9%84%20%D8%AC%D9%88%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e79c43%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "قرائن عن العمل: بلد الإنتاج الولايات المتحدة، المخرج وليم فريدكن.",
-        "source": "https://www.wikidata.org/wiki/Q74643",
-        "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "القاتل جو",
-        "factType": "cast",
-        "options": [
-            "جولي أدامز",
-            "هاريسون فورد",
-            "أنتوني كوين",
-            "بريجيت باردو"
-        ],
-        "clueFacts": {
-            "cast": "جولي أدامز",
-            "country": "الولايات المتحدة",
-            "director": "وليم فريدكن",
-            "genre": "فلم دراما",
-            "language": "الإنجليزية",
-            "year": "2011"
         }
     },
     {
@@ -5726,10 +5320,10 @@ window.moviesQuestionSeed = [
         "imageAlt": "يوميات طفل مستضعف",
         "factType": "year",
         "options": [
-            "جودي دينش",
+            "1969",
             "2010",
-            "بريجيت باردو",
-            "Dan van Husen"
+            "1965",
+            "1955"
         ],
         "clueFacts": {
             "cast": "كلوي غرايس موريتز",
@@ -5745,7 +5339,7 @@ window.moviesQuestionSeed = [
         "category": "أفلام",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر أحد مخرجي فيلم «Dhool Ka Phool».",
+        "question": "اختر الإجابة الصحيحة من الخيارات: اذكر أحد مخرجي فيلم «Dhool Ka Phool».",
         "answer": "ياش تشوبرا",
         "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%2317324d%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e79c43%22%20opacity%3D%22.12%22%2F%3E%3Cpath%20d%3D%22M90%2090h180v110H90z%22%20fill%3D%22%23152333%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M90%2090l28-45h180l-28%2045z%22%20fill%3D%22%23b9573f%22%20stroke%3D%22%23f0bd73%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M145%2048l-27%2042m80-42-28%2042m80-42-28%2042%22%20stroke%3D%22%23fff0d1%22%20stroke-width%3D%2210%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e79c43%22%3EFILM%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EDhool%20Ka%20Phool%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e79c43%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
         "hint": "قرائن عن العمل: أحد الممثلين محمود علي، بلد الإنتاج الهند.",
@@ -5755,9 +5349,9 @@ window.moviesQuestionSeed = [
         "imageAlt": "Dhool Ka Phool",
         "factType": "director",
         "options": [
-            "ألمانيا",
-            "الهند",
-            "فرنسا",
+            "كريس موريس",
+            "Stephen Herek",
+            "فيديريكو فليني",
             "ياش تشوبرا"
         ],
         "clueFacts": {

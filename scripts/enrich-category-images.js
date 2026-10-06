@@ -8,7 +8,8 @@ const categories = [
     { name: 'series', file: 'series-questions.js', global: 'seriesQuestionSeed' },
     { name: 'geography', file: 'geography-questions.js', global: 'geographyQuestionSeed' },
     { name: 'sports', file: 'sports-questions.js', global: 'sportsQuestionSeed' },
-    { name: 'cars', file: 'cars-questions.js', global: 'carsQuestionSeed' }
+    { name: 'cars', file: 'cars-questions.js', global: 'carsQuestionSeed' },
+    { name: 'games', file: 'games-questions.js', global: 'gamesQuestionSeed' }
 ];
 
 const dataDirectory = path.join(__dirname, '..', 'data');
@@ -74,7 +75,8 @@ function illustrationCard(category, subject) {
         series: ['#24423c', '#efc66b', 'SERIES'],
         geography: ['#173f47', '#56b5a2', 'PLACE'],
         sports: ['#493321', '#e87e4b', 'SPORT'],
-        cars: ['#343d4c', '#e7a34a', 'AUTO']
+        cars: ['#343d4c', '#e7a34a', 'AUTO'],
+        games: ['#25334d', '#70c3aa', 'GAME']
     };
     const [background, accent, label] = palettes[category];
     const symbols = {
@@ -82,7 +84,8 @@ function illustrationCard(category, subject) {
         series: '<rect x="76" y="50" width="220" height="150" rx="18" fill="#142b2a" stroke="#f1d37d" stroke-width="9"/><rect x="94" y="67" width="184" height="112" rx="8" fill="#3e8370"/><path d="M155 202v25m62-25v25m-85 8h110" stroke="#f1d37d" stroke-width="9" stroke-linecap="round"/>',
         geography: '<circle cx="185" cy="125" r="90" fill="#26798a" stroke="#b2ead4" stroke-width="8"/><path d="M95 125h180M185 35c-48 48-48 132 0 180m0-180c48 48 48 132 0 180M112 76h146M112 174h146" fill="none" stroke="#b2ead4" stroke-width="7"/>',
         sports: '<circle cx="185" cy="125" r="88" fill="#f7eee0" stroke="#e98d58" stroke-width="9"/><path d="M185 82l38 28-15 45h-47l-15-45zM185 82l-30-23m68 51 42-3m-57 73 8 37m-61-64-37 20m75-91 23-35" fill="#343d4c" stroke="#343d4c" stroke-width="13" stroke-linejoin="round"/>',
-        cars: '<path d="M75 145l24-48q9-18 31-18h94q23 0 39 18l38 48 28 12v51H63v-45z" fill="#de694b" stroke="#ffe0ad" stroke-width="8"/><path d="M119 101h102l31 39H99z" fill="#b7dce0" stroke="#ffe0ad" stroke-width="6"/><circle cx="112" cy="205" r="25" fill="#17232e" stroke="#f3c171" stroke-width="8"/><circle cx="270" cy="205" r="25" fill="#17232e" stroke="#f3c171" stroke-width="8"/>'
+        cars: '<path d="M75 145l24-48q9-18 31-18h94q23 0 39 18l38 48 28 12v51H63v-45z" fill="#de694b" stroke="#ffe0ad" stroke-width="8"/><path d="M119 101h102l31 39H99z" fill="#b7dce0" stroke="#ffe0ad" stroke-width="6"/><circle cx="112" cy="205" r="25" fill="#17232e" stroke="#f3c171" stroke-width="8"/><circle cx="270" cy="205" r="25" fill="#17232e" stroke="#f3c171" stroke-width="8"/>',
+        games: '<path d="M115 90h140q27 0 36 30l24 80q8 28-18 28h-24l-34-37h-72l-34 37h-24q-26 0-18-28l24-80q9-30 34-30z" fill="#19243a" stroke="#8de1c6" stroke-width="9"/><path d="M126 133v50m-25-25h50" stroke="#f2c46d" stroke-width="12" stroke-linecap="round"/><circle cx="245" cy="143" r="9" fill="#e8765d"/><circle cx="271" cy="169" r="9" fill="#70c3aa"/>'
     };
     const words = String(subject).trim().split(/\s+/);
     const lines = [];
@@ -210,7 +213,7 @@ async function enrichCategory(category) {
     for (const row of rows) {
         const id = qidFromSource(row.source);
         const image = selectedImages.get(id);
-        row.imageAlt ||= subjectFromQuestion(row.question);
+        row.imageAlt ||= row.brandName || row.answer || subjectFromQuestion(row.question);
         if (image) {
             row.image = image.image;
             verifiedImageCount++;

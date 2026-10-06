@@ -532,6 +532,31 @@
             font-weight: bold;
         }
 
+        .q-options-display {
+            display: none;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 8px;
+            width: min(94%, 700px);
+            color: #f1e8da;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        .q-options-display.visible { display: grid; }
+
+        .q-option-item {
+            padding: 8px 12px;
+            border: 1px solid #60594f;
+            border-radius: 7px;
+            background: #302d29;
+            text-align: right;
+        }
+
+        @media (max-width: 520px) {
+            .q-options-display { grid-template-columns: 1fr; font-size: 14px; }
+            .q-text-display { font-size: 21px; }
+        }
+
         .q-img-display {
             max-width: 80%;
             max-height: 350px;
@@ -990,6 +1015,7 @@
             <!-- منطقة المحتوى (السؤال والصورة) -->
             <div class="q-content-area">
                 <div class="q-text-display" id="q-title">ما اسم هذا اللاعب ؟</div>
+                <div class="q-options-display" id="q-options" aria-label="خيارات الإجابة"></div>
                 <img id="q-img" class="q-img-display" src="" style="display: none;">
                 <div id="inline-hint" class="inline-hint"></div>
             </div>
@@ -1031,6 +1057,7 @@
         <div class="stage-box">
             <div class="q-info-tag" id="ans-info-text">الإجابة الصحيحة</div>
             <h1 id="ans-title" style="font-size: 32px; color: #2bf076; margin: 20px 0;">الإجابة</h1>
+            <p id="ans-accepted-answers" hidden style="max-width: 720px; color: #d8e8d9; line-height: 1.7;"></p>
 
             <div style="display: flex; gap: 15px; margin-top: 10px;">
                 <button id="answer-team-one-btn" class="main-orange-btn" style="padding: 10px 25px; font-size: 15px;" onclick="addPoints(1)">نقطة للفريق 1</button>
@@ -1094,6 +1121,7 @@
     <script src="js/results.js"></script>
     <script src="data/question-bank.js"></script>
     <script src="data/games-questions.js"></script>
+    <script src="data/proverbs-questions.js"></script>
     <script src="data/general-questions.js"></script>
     <script src="data/general-questions-3.js"></script>
     <script src="data/general-questions-4.js"></script>
@@ -1101,6 +1129,13 @@
     <script src="data/general-questions-6.js"></script>
     <script src="data/general-questions-7.js"></script>
     <script src="data/flags-questions-static.js"></script>
+    <script src="data/movies-questions.js"></script>
+    <script src="data/series-questions.js"></script>
+    <script src="data/geography-questions.js"></script>
+    <script src="data/sports-questions.js"></script>
+    <script src="data/cars-questions.js"></script>
+    <script src="data/arab-logos-questions.js"></script>
+    <script src="data/logos-questions.js"></script>
     <script>
         let scores = { t1: 0, t2: 0 };
         let gameMode = 'normal';
@@ -1114,6 +1149,7 @@
         let tournamentAllMatches = [];
         let tournamentMatchIndex = 0;
         let tournamentMatch = { right: '', left: '' };
+        const tournamentWinScore = 2000;
         let gameTitle = '';
         let tournamentSaved = false;
         let activeHint = '';
@@ -1148,6 +1184,7 @@
 
         addQuestions(window.questionBankSeed || []);
         addQuestions(window.gamesQuestionSeed || []);
+        addQuestions(window.proverbQuestionSeed || []);
         addQuestions(window.generalQuestionSeed || []);
         addQuestions(window.generalQuestionThreeSeed || []);
         addQuestions(window.generalQuestionFourSeed || []);
@@ -1155,6 +1192,13 @@
         addQuestions(window.generalQuestionSixSeed || []);
         addQuestions(window.generalQuestionSevenSeed || []);
         addQuestions(window.flagsQuestionSeed || []);
+        addQuestions(window.moviesQuestionSeed || []);
+        addQuestions(window.seriesQuestionSeed || []);
+        addQuestions(window.geographyQuestionSeed || []);
+        addQuestions(window.sportsQuestionSeed || []);
+        addQuestions(window.carsQuestionSeed || []);
+        addQuestions(window.arabLogoQuestionSeed || []);
+        addQuestions(window.logosQuestionSeed || []);
 
         // متغيرات التايمر
         let timerSeconds = 0;
@@ -1235,7 +1279,7 @@
             document.getElementById('match-team-left').innerText = left;
             document.getElementById('match-progress').innerText = roundLabel === 'النهائي'
                 ? 'الفائز بهذه المواجهة يتوّج بطلاً للبطولة'
-                : 'الفائز بهذه المواجهة يتأهل إلى الدور التالي عند وصوله إلى 3000 نقطة';
+                : `الفائز بهذه المواجهة يتأهل إلى الدور التالي عند وصوله إلى ${tournamentWinScore} نقطة`;
             switchPage('page-tournament-match');
         }
 
@@ -1258,7 +1302,7 @@
         function showTournamentChampion(champion) {
             SinJeemResults.renderChampion(gameTitle, champion, tournamentAllMatches);
             if (!tournamentSaved) {
-                saveHistory([{ name: champion, score: 3000, status: 'بطل البطولة' }, ...tournamentAllMatches.map(match => ({ name: match.winner, score: 0, status: 'متأهل' }))], pendingTournamentNames, tournamentAllMatches);
+                saveHistory([{ name: champion, score: tournamentWinScore, status: 'بطل البطولة' }, ...tournamentAllMatches.map(match => ({ name: match.winner, score: 0, status: 'متأهل' }))], pendingTournamentNames, tournamentAllMatches);
                 tournamentSaved = true;
             }
             clearSavedGame();
@@ -1546,10 +1590,11 @@
                 document.getElementById('match-round-title').textContent = `${roundLabel} - المواجهة ${tournamentMatchIndex + 1}`;
                 document.getElementById('match-progress').textContent = roundLabel === 'النهائي'
                     ? 'الفائز بهذه المواجهة يتوّج بطلاً للبطولة'
-                    : `الفائز يتأهل عند وصوله إلى 3000 نقطة في ${tournamentRoundLabel(currentRound + 1)}`;
+                    : `الفائز يتأهل عند وصوله إلى ${tournamentWinScore} نقطة في ${tournamentRoundLabel(currentRound + 1)}`;
             } else if (saved.pageId === 'page-answer') {
                 document.getElementById('ans-info-text').textContent = document.getElementById('q-prop-badge').textContent;
                 document.getElementById('ans-title').textContent = activeAns;
+                updateAcceptedAnswers();
             } else if (saved.pageId === 'page-tournament-result') {
                 const lastMatch = tournamentRoundMatches[tournamentRoundMatches.length - 1];
                 if (lastMatch) SinJeemResults.renderMatch(lastMatch, lastMatch.winner === lastMatch.right ? 1 : 2);
@@ -1571,15 +1616,20 @@
             if (!activeQuestion) return;
             const { category, difficulty, question, answer, image, points } = activeQuestion;
             const bankQuestion = findBankQuestion(question, category, answer);
+            activeQuestion.image = bankQuestion?.imageKind === 'illustration'
+                ? ''
+                : bankQuestion?.image || image || '';
+            if (bankQuestion?.options?.length) activeQuestion.options = bankQuestion.options;
             activeHint = bankQuestion?.hint || activeHint;
             document.getElementById('q-pts-badge').textContent = pointsDoubled
                 ? `${points * 2} نقطة (مضاعفة)`
                 : `${points} نقطة`;
             document.getElementById('q-prop-badge').textContent = `${difficulty} • ${points} نقطة`;
             document.getElementById('q-title').textContent = question;
+            renderQuestionOptions(bankQuestion?.options || activeQuestion.options || [], question);
             const imageElement = document.getElementById('q-img');
-            imageElement.src = image || '';
-            imageElement.style.display = image ? 'block' : 'none';
+            imageElement.src = activeQuestion.image;
+            imageElement.style.display = activeQuestion.image ? 'block' : 'none';
             SinJeemQuestionTools.resetHint();
             if (saved.hintVisible) SinJeemQuestionTools.showHint(activeHint);
             activeCard = Array.from(document.querySelectorAll('.score-card-btn')).find(card => {
@@ -1734,7 +1784,8 @@
         /* فتح شاشة السؤال مع إعداد البيانات والتايمر من صفر */
         function openQ(cat, prop, q, a, imgUrl, card, pts) {
             const bankQuestion = findBankQuestion(q, cat, a);
-            registerOpenQuestion(cat, prop, q, a, imgUrl, pts);
+            const displayImage = bankQuestion?.imageKind === 'illustration' ? '' : imgUrl;
+            registerOpenQuestion(cat, prop, q, a, displayImage, pts);
             if (bankQuestion) usedQuestionIds.add(bankQuestion.id);
             activePoints = pts;
             activeAns = a;
@@ -1745,7 +1796,9 @@
                 difficulty: difficultyLabel(prop, pts),
                 question: q,
                 answer: a,
-                image: imgUrl || '',
+                acceptedAnswers: bankQuestion?.acceptedAnswers || [a],
+                options: bankQuestion?.options || [],
+                image: displayImage || '',
                 points: Number(pts)
             };
             activeDifficulty = bankQuestion?.difficulty || prop;
@@ -1756,10 +1809,11 @@
             document.getElementById('q-pts-badge').innerText = `${pts} نقطة`;
             document.getElementById('q-prop-badge').innerText = `${activeDifficulty} • ${pts} نقطة`;
             document.getElementById('q-title').innerText = q;
+            renderQuestionOptions(bankQuestion?.options || [], q);
 
             const qImg = document.getElementById('q-img');
-            if (imgUrl && imgUrl.trim() !== '') {
-                qImg.src = imgUrl;
+            if (displayImage && displayImage.trim() !== '') {
+                qImg.src = displayImage;
                 qImg.style.display = 'block';
             } else {
                 qImg.style.display = 'none';
@@ -1775,6 +1829,23 @@
             startTimer();
 
             switchPage('page-question');
+        }
+
+        function renderQuestionOptions(options, question) {
+            const container = document.getElementById('q-options');
+            container.replaceChildren();
+            if (!String(question || '').startsWith('اختر الإجابة الصحيحة من الخيارات:')
+                || !Array.isArray(options) || options.length < 2) {
+                container.classList.remove('visible');
+                return;
+            }
+            options.slice(0, 4).forEach((option, index) => {
+                const item = document.createElement('div');
+                item.className = 'q-option-item';
+                item.textContent = `${index + 1}. ${option}`;
+                container.appendChild(item);
+            });
+            container.classList.add('visible');
         }
 
         /* أجهزة التايمر */
@@ -1832,7 +1903,21 @@
             timerRunning = false;
             document.getElementById('ans-info-text').innerText = document.getElementById('q-prop-badge').innerText;
             document.getElementById('ans-title').innerText = activeAns;
+            updateAcceptedAnswers();
             switchPage('page-answer');
+        }
+
+        function updateAcceptedAnswers() {
+            const element = document.getElementById('ans-accepted-answers');
+            const normalize = value => SinJeemQuestionBank.normalize(value);
+            const alternatives = (activeQuestion?.acceptedAnswers || [])
+                .filter(answer => normalize(answer) !== normalize(activeAns));
+            const displayedAlternatives = alternatives.slice(0, 6);
+            const remainingCount = alternatives.length - displayedAlternatives.length;
+            element.textContent = alternatives.length
+                ? `إجابات أخرى مقبولة: ${displayedAlternatives.join('، ')}${remainingCount > 0 ? `، و${remainingCount} إجابات أخرى` : ''}`
+                : '';
+            element.hidden = alternatives.length === 0;
         }
 
         function addPoints(team) {
@@ -1843,8 +1928,8 @@
             activeQuestion = null;
             activeCard = null;
             pointsDoubled = false;
-            if (gameMode === 'tournament' && (scores.t1 >= 3000 || scores.t2 >= 3000)) {
-                finishTournamentMatch(scores.t1 >= 3000 ? 1 : 2);
+            if (gameMode === 'tournament' && (scores.t1 >= tournamentWinScore || scores.t2 >= tournamentWinScore)) {
+                finishTournamentMatch(scores.t1 >= tournamentWinScore ? 1 : 2);
                 return;
             }
             switchPage('page-board');

@@ -9,7 +9,9 @@ const groups = [
     { category: 'مسلسلات', file: 'series-questions.js', global: 'seriesQuestionSeed' },
     { category: 'جغرافيا', file: 'geography-questions.js', global: 'geographyQuestionSeed' },
     { category: 'كورة ورياضة', file: 'sports-questions.js', global: 'sportsQuestionSeed' },
-    { category: 'سيارات', file: 'cars-questions.js', global: 'carsQuestionSeed' }
+    { category: 'سيارات', file: 'cars-questions.js', global: 'carsQuestionSeed' },
+    { category: 'ألعاب', file: 'games-questions.js', global: 'gamesQuestionSeed' },
+    { category: 'اكمل المثل', file: 'proverbs-questions.js', global: 'proverbQuestionSeed', baseFile: 'question-bank.js', baseGlobal: 'questionBankSeed' }
 ];
 
 const legacyOptions = {
@@ -249,6 +251,47 @@ function carHint(row) {
     return clue || `اسم الشركة المصنّعة يبدأ بحرف «${String(row.answer).trim()[0]}»؛ ركّز على العلامة التي بنت طراز السؤال.`;
 }
 
+function proverbHint(row) {
+    const stem = row.question
+        .replace(/^أكمل المثل:\s*/, '')
+        .replace(/(?:\.\.\.|…|\?+)\s*$/, '')
+        .trim();
+    const text = normalize(stem);
+    const clues = [
+        [/الوقت|السيف/, 'يتناول قيمة الوقت وأن التأخر في استغلاله يجعل اللحاق به صعباً.'],
+        [/عصفور|الشجر/, 'يقارن بين شيء مضمون الآن وأشياء كثيرة ما زالت بعيدة المنال.'],
+        [/الصديق|الضيق/, 'يتحدث عن ظهور معدن الصديق وقت الشدة لا في أوقات الراحة.'],
+        [/يد واحدة|تصفق/, 'يوضح أن بعض الأعمال لا تنجح بجهد شخص واحد فقط.'],
+        [/الخباز|الخبز|خبازه/, 'ينصح بالرجوع إلى صاحب الخبرة في مهنته.'],
+        [/جدار|زجاج|حجر/, 'يحذر من إيذاء الآخرين إذا كان المرء معرضاً للضرر نفسه.'],
+        [/الماء|التيمم/, 'عند حضور الأصل لا تبقى حاجة للبديل.'],
+        [/اللسان|الكلام|الصمت/, 'ينبه إلى أثر الكلام وأن ضبط اللسان قد يكون أسلم.'],
+        [/عين|قلب|غياب/, 'يربط بين طول الغياب وضعف القرب والمودة.'],
+        [/زرع|حصد|جد|وجد/, 'يؤكد أن النتيجة ترتبط بما يقدمه المرء من جهد.'],
+        [/الشوك|العنب/, 'لا تنتظر ثمرة طيبة من أصل مؤذٍ أو غير مناسب.'],
+        [/الصبر|فرج/, 'يشجع على احتمال الشدة لأن انفراجها يحتاج وقتاً.'],
+        [/نار|رماد/, 'يشير إلى أن النتيجة قد تكشف طبيعة السبب الذي أدى إليها.'],
+        [/باب|ريح|استريح/, 'يتعلق بإغلاق مصدر الإزعاج لتجنب استمرار أثره.'],
+        [/مقام|مقال/, 'لكل موقف أسلوب الكلام المناسب له.'],
+        [/قشة|بعير|السيل|الزبى/, 'صورة بلاغية عن تراكم الأمور الصغيرة حتى تبلغ حد الاحتمال.'],
+        [/ذئب|راعي/, 'يتعلق بالحذر ممن يحاول الجمع بين مصلحة طرفين متعارضين.'],
+        [/عرقوب|وعد/, 'يقال فيمن يَعِد ثم يخلف ولا يفي بما قال.'],
+        [/قدر|فرصة|أوان/, 'يحذر من استعجال الشيء قبل وقته أو ترك الفرصة حتى تفوت.'],
+        [/كلب|جوع/, 'ينبه إلى أن القسوة المفرطة قد ترتد على صاحبها.'],
+        [/ذهب|فضة/, 'يقارن بين الكلام والصمت، ويفضل الصمت في بعض المواقف.'],
+        [/الجار|بيت|دار/, 'يرتبط بحق الجوار وما يقدمه القريب من منفعة أو أذى.'],
+        [/ريح|مرج|ثلج/, 'يقال عند انكشاف الحقيقة بعد زوال ما كان يحجبها.'],
+        [/قط|فأر/, 'يصف ما يحدث عندما يغيب الرقيب أو صاحب السلطة.'],
+        [/بحر|سمك/, 'يحذر من شراء شيء أو طلبه من مكان تتوفر فيه أمثاله بسهولة.'],
+        [/لسان|حصان/, 'يشبه اللسان بدابة تحتاج إلى ضبط حتى لا تجر صاحبها إلى المتاعب.']
+    ];
+    const clue = clues.find(([pattern]) => pattern.test(text))?.[1];
+    if (clue) return clue;
+    const words = stem.split(/\s+/).filter(Boolean);
+    const subject = words.slice(-2).join(' ');
+    return `يرسم المثل صورة عن «${subject}» ويستخلص منها نصيحة عملية؛ ركّز على العاقبة التي يوحي بها صدره.`;
+}
+
 function contextualHint(row, category) {
     if (category === 'أفلام' || category === 'مسلسلات') {
         const otherFacts = Object.entries(row.clueFacts || {})
@@ -264,11 +307,14 @@ function contextualHint(row, category) {
     if (category === 'جغرافيا') return geographyHint(row);
     if (category === 'كورة ورياضة') return sportHint(row.answer);
     if (category === 'سيارات') return carHint(row);
+    if (category === 'اكمل المثل') return proverbHint(row);
     return initialHint(row.answer);
 }
 
 function classify(row, category) {
     if (row.factType) return row.factType;
+    if (category === 'ألعاب') return 'games-legacy';
+    if (category === 'اكمل المثل') return 'proverb-ending';
     const question = normalize(row.question);
     if (category === 'أفلام') {
         if (row.id === 'movies-legacy-titanic') return 'legacy-title';
@@ -343,6 +389,18 @@ function hintFor(category, type) {
             legacy: 'ابحث عن الشركة التي طورت الطراز، لا بلد تصنيعه.',
             'legacy-manufacturer': 'ابحث عن العلامة التي ينتمي إليها هذا الطراز.',
             'legacy-country': 'الشركة معروفة بسياراتها الرياضية ومقرها في أوروبا.'
+        },
+        'ألعاب': {
+            developer: 'ابحث عن الاستوديو الذي صمم اللعبة، لا الشركة التي وزعتها.',
+            publisher: 'الناشر يتولى إصدار اللعبة وتسويقها؛ وقد يختلف عن المطور.',
+            genre: 'فكّر في أسلوب اللعب الأساسي: مغامرة، تقمص أدوار، سباق أو غير ذلك.',
+            platform: 'المقصود جهاز أو نظام التشغيل الذي صدرت عليه اللعبة.',
+            year: 'تذكّر جيل الأجهزة والفترة التي ظهرت فيها اللعبة لأول مرة.',
+            series: 'اللعبة جزء من سلسلة لها أجزاء أو عناوين أخرى.',
+            'games-legacy': 'استحضر الشخصية أو العالم أو أسلوب اللعب المذكور في السؤال.'
+        },
+        'اكمل المثل': {
+            'proverb-ending': 'تأمل صورة المثل ومعناه، ثم أكمل خاتمته المتداولة.'
         }
     };
     return hints[category]?.[type] || hints[category]?.legacy || 'استعن باسم الموضوع والسياق العام للسؤال لتضييق الاحتمالات.';
@@ -374,10 +432,18 @@ function buildPools(rows, category) {
 }
 
 function makeOptions(row, pools, category, index) {
+    if (legacyOptions[row.id]) {
+        const curated = [...new Set(legacyOptions[row.id])];
+        if (curated.length === 4 && curated.some(value => normalize(value) === normalize(row.answer))) {
+            const shift = seededIndex(`${row.id}-curated-order`, curated.length);
+            return curated.map((_, position) => curated[(position + shift) % curated.length]);
+        }
+    }
     const normalizedAnswer = normalize(row.answer);
     const typePool = pools.get(row.factType) || [];
-    const categoryPool = [...pools.values()].flat();
-    const candidates = [...new Set([...typePool, ...(extraDistractors[`${groups.find(group => group.category === category).global.replace('QuestionSeed', '')}:${row.factType}`] || []), ...categoryPool])]
+    const groupName = groups.find(group => group.category === category).global.replace('QuestionSeed', '');
+    const curatedDistractors = extraDistractors[`${groupName}:${row.factType}`] || [];
+    const candidates = [...new Set([...typePool, ...curatedDistractors])]
         .filter(value => normalize(value) && normalize(value) !== normalizedAnswer);
     if (candidates.length < 3) throw new Error(`${row.id}: fewer than 3 distractors for ${row.factType}`);
     const start = seededIndex(row.id, candidates.length);
@@ -394,17 +460,36 @@ function makeOptions(row, pools, category, index) {
 }
 
 async function main() {
-    for (const group of groups) require(path.join(directory, group.file));
+    const baseRowsByGroup = new Map();
     for (const group of groups) {
-        const rows = window[group.global];
+        require(path.join(directory, group.file));
+        if (group.baseFile) {
+            require(path.join(directory, group.baseFile));
+            baseRowsByGroup.set(group.global, window[group.baseGlobal].filter(row => row.category === group.category));
+        }
+    }
+    for (const group of groups) {
+        const baseRows = baseRowsByGroup.get(group.global) || [];
+        const rows = [...baseRows, ...window[group.global]];
         const pools = buildPools(rows, group.category);
         const usage = {};
         for (const [index, row] of rows.entries()) {
-            row.hint = contextualHint(row, group.category);
+            row.hint = group.category === 'اكمل المثل' && row.id.startsWith('proverb-wikiquote-')
+                ? proverbHint(row)
+                : row.hint || contextualHint(row, group.category);
             row.options = makeOptions(row, pools, group.category, index);
+            if (/\u0627\u0630\u0643\u0631|\u0623\u0630\u0643\u0631|\u0645\u0627\s+\u0623\u062d\u062f|\u0625\u062d\u062f\u0649/i.test(row.question)
+                && !row.question.startsWith('اختر الإجابة الصحيحة من الخيارات:')) {
+                row.question = `اختر الإجابة الصحيحة من الخيارات: ${row.question}`;
+            }
             usage[row.factType] = (usage[row.factType] || 0) + 1;
         }
-        await fs.writeFile(path.join(directory, group.file), `window.${group.global} = ${JSON.stringify(rows, null, 4)};\n`, 'utf8');
+        if (group.baseFile) {
+            const enrichedById = new Map(rows.map(row => [row.id, row]));
+            window[group.baseGlobal] = window[group.baseGlobal].map(row => enrichedById.get(row.id) || row);
+            await fs.writeFile(path.join(directory, group.baseFile), `window.${group.baseGlobal} = ${JSON.stringify(window[group.baseGlobal], null, 4)};\n`, 'utf8');
+        }
+        await fs.writeFile(path.join(directory, group.file), `window.${group.global} = ${JSON.stringify(window[group.global], null, 4)};\n`, 'utf8');
         console.log(`${group.category}: ${rows.length} questions enriched; ${JSON.stringify(usage)}`);
     }
 }

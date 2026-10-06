@@ -14,9 +14,9 @@ window.sportsQuestionSeed = [
         "imageKind": "commons",
         "factType": "legacy-team-size",
         "options": [
-            "المصارعة الحرة",
-            "الجمباز الإيقاعي",
-            "كرة الماء",
+            "10 لاعبين",
+            "12 لاعباً",
+            "9 لاعبين",
             "11 لاعباً"
         ]
     },
@@ -35,17 +35,17 @@ window.sportsQuestionSeed = [
         "imageKind": "commons",
         "factType": "legacy-champion",
         "options": [
-            "برشلونة",
+            "الأرجنتين",
             "البرازيل",
-            "8 لاعبين",
-            "ريال مدريد"
+            "ألمانيا",
+            "إيطاليا"
         ]
     },
     {
         "id": "sports-legacy-real-madrid",
         "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 600,
+        "difficulty": "سهل",
+        "points": 200,
         "question": "ما النادي الإسباني المعروف بلقب النادي الملكي؟",
         "answer": "ريال مدريد",
         "imageAlt": "ريال مدريد",
@@ -57,4146 +57,5381 @@ window.sportsQuestionSeed = [
         "factType": "legacy-club",
         "options": [
             "ريال مدريد",
-            "التزلج السريع",
-            "التزلج الفني على الجليد",
-            "الجمباز الفني"
+            "برشلونة",
+            "أتلتيكو مدريد",
+            "إشبيلية"
         ]
     },
     {
-        "id": "sports-fact-Q77102",
+        "id": "sports-football-champion-uefa-champions-league-Q124024430",
         "category": "كورة ورياضة",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «ماكس شميلينج».",
-        "answer": "الملاكمة",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Max-schmeling.jpg?width=900",
-        "hint": "رياضة نزال فردي تعتمد على اللكمات داخل الحلبة والقفازات.",
-        "source": "https://www.wikidata.org/wiki/Q77102",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Max-schmeling.jpg",
-        "imageKind": "commons",
-        "imageAlt": "ماكس شميلينج",
-        "factType": "sport",
-        "options": [
-            "الغولف",
-            "الملاكمة",
-            "الجمباز",
-            "ركوب الأمواج"
-        ]
-    },
-    {
-        "id": "sports-fact-Q77136",
-        "category": "كورة ورياضة",
-        "difficulty": "سهل",
-        "points": 100,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «كاتي فيلهلم».",
-        "answer": "البياثلون",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/2018-12-13%20Pressekonferenz%20zur%20Vorbereitung%20des%20Biathlon-Weltcups%20und%20der%20Umbenennung%20der%20Ski-Arena%20StP%207404%20LR10%20by%20Stepro.jpg?width=900",
-        "hint": "تجمع بين التزلج الريفي لمسافات طويلة والرماية بالبندقية.",
-        "source": "https://www.wikidata.org/wiki/Q77136",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:2018-12-13_Pressekonferenz_zur_Vorbereitung_des_Biathlon-Weltcups_und_der_Umbenennung_der_Ski-Arena_StP_7404_LR10_by_Stepro.jpg",
-        "imageKind": "commons",
-        "imageAlt": "كاتي فيلهلم",
-        "factType": "sport",
-        "options": [
-            "البياثلون",
-            "كانو-كاياك",
-            "ألعاب القوى",
-            "رياضة دراجات نارية"
-        ]
-    },
-    {
-        "id": "sports-fact-Q77178",
-        "category": "كورة ورياضة",
-        "difficulty": "سهل",
-        "points": 100,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «أنجليك كيربر».",
-        "answer": "كرة المضرب",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Australian%20Open%202020%20(49836755508)%20(cropped).jpg?width=900",
-        "hint": "تُلعب بمضرب وكرة فوق شبكة، فردياً أو بين زوجين.",
-        "source": "https://www.wikidata.org/wiki/Q77178",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Australian_Open_2020_(49836755508)_(cropped).jpg",
-        "imageKind": "commons",
-        "imageAlt": "أنجليك كيربر",
-        "factType": "sport",
-        "options": [
-            "التزحلف",
-            "رفع الأثقال",
-            "كرة المضرب",
-            "رياضة دراجات هوائية"
-        ]
-    },
-    {
-        "id": "sports-fact-Q77356",
-        "category": "كورة ورياضة",
-        "difficulty": "سهل",
-        "points": 100,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Peter Joppich».",
-        "answer": "مبارزة السلاح",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Peter%20Joppich%20CIP%202015%20teams%20t131210.jpg?width=900",
-        "hint": "رياضة نزال بالسيف، ولها أسلحة أولمبية بثلاثة أنواع.",
-        "source": "https://www.wikidata.org/wiki/Q77356",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Peter_Joppich_CIP_2015_teams_t131210.jpg",
-        "imageKind": "commons",
-        "imageAlt": "Peter Joppich",
-        "factType": "sport",
-        "options": [
-            "مبارزة السلاح",
-            "مصارعة الهواة",
-            "كرة القدم الأمريكية",
-            "الطيران الشراعي المظلي"
-        ]
-    },
-    {
-        "id": "sports-fact-Q77389",
-        "category": "كورة ورياضة",
-        "difficulty": "سهل",
-        "points": 100,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «روبرت هوبنر».",
-        "answer": "الشطرنج",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dhr.%20Robert%20H%C3%BCbner%2C%20Bestanddeelnr%20932-7315.jpg?width=900",
-        "hint": "لعبة ذهنية على رقعة من 64 مربعاً، وهدفها حصر ملك الخصم.",
-        "source": "https://www.wikidata.org/wiki/Q77389",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Dhr._Robert_H%C3%BCbner%2C_Bestanddeelnr_932-7315.jpg",
-        "imageKind": "commons",
-        "imageAlt": "روبرت هوبنر",
-        "factType": "sport",
-        "options": [
-            "الشطرنج",
-            "رفع الأثقال",
-            "التجديف",
-            "ركوب الدراجات على المضمار"
-        ]
-    },
-    {
-        "id": "sports-fact-Q77560",
-        "category": "كورة ورياضة",
-        "difficulty": "سهل",
-        "points": 100,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «ميخائيل جونغ».",
-        "answer": "فروسية",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Michael%20Jung%2C%20Medal%20ceremony%2C%20EM%20Vielseitigkeit%202011.JPG?width=900",
-        "hint": "تُمارس على ظهور الخيل، وتتضمن منافسات قفز الحواجز أو الترويض.",
-        "source": "https://www.wikidata.org/wiki/Q77560",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Michael_Jung%2C_Medal_ceremony%2C_EM_Vielseitigkeit_2011.JPG",
-        "imageKind": "commons",
-        "imageAlt": "ميخائيل جونغ",
-        "factType": "sport",
-        "options": [
-            "المصارعة الحرة",
-            "فروسية",
-            "الغولف",
-            "التزلج الألبي"
-        ]
-    },
-    {
-        "id": "sports-fact-Q77727",
-        "category": "كورة ورياضة",
-        "difficulty": "سهل",
-        "points": 100,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Cornelia Hanisch».",
-        "answer": "مبارزة السلاح",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%23493321%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e87e4b%22%20opacity%3D%22.12%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22125%22%20r%3D%2288%22%20fill%3D%22%23f7eee0%22%20stroke%3D%22%23e98d58%22%20stroke-width%3D%229%22%2F%3E%3Cpath%20d%3D%22M185%2082l38%2028-15%2045h-47l-15-45zM185%2082l-30-23m68%2051%2042-3m-57%2073%208%2037m-61-64-37%2020m75-91%2023-35%22%20fill%3D%22%23343d4c%22%20stroke%3D%22%23343d4c%22%20stroke-width%3D%2213%22%20stroke-linejoin%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e87e4b%22%3ESPORT%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3ECornelia%20Hanisch%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e87e4b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "رياضة نزال بالسيف، ولها أسلحة أولمبية بثلاثة أنواع.",
-        "source": "https://www.wikidata.org/wiki/Q77727",
+        "question": "من بطل دوري أبطال أوروبا في موسم 2025–26؟",
+        "answer": "باريس سان جيرمان",
+        "imageAlt": "دوري أبطال أوروبا",
+        "image": "",
         "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "Cornelia Hanisch",
-        "factType": "sport",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2025–26 في دوري أبطال أوروبا.",
+        "source": "https://www.wikidata.org/wiki/Q124024430",
+        "factType": "football-champion",
+        "footballCompetition": "uefa-champions-league",
         "options": [
-            "مبارزة السلاح",
-            "رياضة دراجات نارية",
-            "جمباز القفز",
-            "رياضة دراجات هوائية"
+            "باير 04 ليفركوزن",
+            "نادي الاتحاد",
+            "إيه سي ميلان",
+            "باريس سان جيرمان"
+        ],
+        "acceptedAnswers": [
+            "باريس سان جيرمان"
         ]
     },
     {
-        "id": "sports-fact-Q77739",
+        "id": "sports-football-champion-ligue-1-Q133456023",
         "category": "كورة ورياضة",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «هارالد هاين».",
-        "answer": "مبارزة السلاح",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%23493321%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e87e4b%22%20opacity%3D%22.12%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22125%22%20r%3D%2288%22%20fill%3D%22%23f7eee0%22%20stroke%3D%22%23e98d58%22%20stroke-width%3D%229%22%2F%3E%3Cpath%20d%3D%22M185%2082l38%2028-15%2045h-47l-15-45zM185%2082l-30-23m68%2051%2042-3m-57%2073%208%2037m-61-64-37%2020m75-91%2023-35%22%20fill%3D%22%23343d4c%22%20stroke%3D%22%23343d4c%22%20stroke-width%3D%2213%22%20stroke-linejoin%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e87e4b%22%3ESPORT%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D9%87%D8%A7%D8%B1%D8%A7%D9%84%D8%AF%20%D9%87%D8%A7%D9%8A%D9%86%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e87e4b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "رياضة نزال بالسيف، ولها أسلحة أولمبية بثلاثة أنواع.",
-        "source": "https://www.wikidata.org/wiki/Q77739",
+        "question": "من بطل الدوري الفرنسي في موسم 2025–26؟",
+        "answer": "باريس سان جيرمان",
+        "imageAlt": "الدوري الفرنسي",
+        "image": "",
         "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "هارالد هاين",
-        "factType": "sport",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2025–26 في الدوري الفرنسي.",
+        "source": "https://www.wikidata.org/wiki/Q133456023",
+        "factType": "football-champion",
+        "footballCompetition": "ligue-1",
         "options": [
-            "الزلاجة الجماعية",
-            "القفز التزلجي",
-            "11 لاعباً",
-            "مبارزة السلاح"
+            "نادي برشلونة",
+            "نادي النصر السعودي",
+            "باريس سان جيرمان",
+            "بايرن ميونخ"
+        ],
+        "acceptedAnswers": [
+            "باريس سان جيرمان"
         ]
     },
     {
-        "id": "sports-fact-Q78502",
+        "id": "sports-football-champion-bundesliga-Q133455988",
         "category": "كورة ورياضة",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «غيرهارد بيرغر».",
-        "answer": "سباقات السيارات",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerhard%20Berger%201991USA.jpg?width=900",
-        "hint": "رياضة محركات تعتمد على السرعة والتحكم بمركبة آلية على مضمار.",
-        "source": "https://www.wikidata.org/wiki/Q78502",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Gerhard_Berger_1991USA.jpg",
-        "imageKind": "commons",
-        "imageAlt": "غيرهارد بيرغر",
-        "factType": "sport",
-        "options": [
-            "إشبيلية",
-            "فالنسيا",
-            "سباقات السيارات",
-            "أتلتيكو مدريد"
-        ]
-    },
-    {
-        "id": "sports-fact-Q78625",
-        "category": "كورة ورياضة",
-        "difficulty": "سهل",
-        "points": 100,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Szabolcs Sáfár».",
-        "answer": "كرة القدم",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Szabolcs%20Safar%20-%20FK%20Austria%20Wien%20(Bild%202).jpg?width=900",
-        "hint": "رياضة جماعية يحاول فيها اللاعبون تسجيل الأهداف بالقدم، باستثناء الحارس.",
-        "source": "https://www.wikidata.org/wiki/Q78625",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Szabolcs_Safar_-_FK_Austria_Wien_(Bild_2).jpg",
-        "imageKind": "commons",
-        "imageAlt": "Szabolcs Sáfár",
-        "factType": "sport",
-        "options": [
-            "كرة القدم",
-            "10 لاعبين",
-            "12 لاعباً",
-            "9 لاعبين"
-        ]
-    },
-    {
-        "id": "sports-fact-Q78851",
-        "category": "كورة ورياضة",
-        "difficulty": "سهل",
-        "points": 100,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «أندرياس مونزر».",
-        "answer": "كمال الأجسام",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%23493321%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e87e4b%22%20opacity%3D%22.12%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22125%22%20r%3D%2288%22%20fill%3D%22%23f7eee0%22%20stroke%3D%22%23e98d58%22%20stroke-width%3D%229%22%2F%3E%3Cpath%20d%3D%22M185%2082l38%2028-15%2045h-47l-15-45zM185%2082l-30-23m68%2051%2042-3m-57%2073%208%2037m-61-64-37%2020m75-91%2023-35%22%20fill%3D%22%23343d4c%22%20stroke%3D%22%23343d4c%22%20stroke-width%3D%2213%22%20stroke-linejoin%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e87e4b%22%3ESPORT%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D8%A3%D9%86%D8%AF%D8%B1%D9%8A%D8%A7%D8%B3%20%D9%85%D9%88%D9%86%D8%B2%D8%B1%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e87e4b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "رياضة تعتمد على بناء العضلات وتقييم التناسق والتحديد العضلي.",
-        "source": "https://www.wikidata.org/wiki/Q78851",
+        "question": "من بطل الدوري الألماني في موسم 2025–26؟",
+        "answer": "بايرن ميونخ",
+        "imageAlt": "الدوري الألماني",
+        "image": "",
         "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "أندرياس مونزر",
-        "factType": "sport",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2025–26 في الدوري الألماني.",
+        "source": "https://www.wikidata.org/wiki/Q133455988",
+        "factType": "football-champion",
+        "footballCompetition": "bundesliga",
         "options": [
-            "10 لاعبين",
-            "كمال الأجسام",
-            "القفز التزلجي",
-            "11 لاعباً"
+            "نادي آرسنال",
+            "بايرن ميونخ",
+            "نادي النصر السعودي",
+            "نادي إنتر ميلان"
+        ],
+        "acceptedAnswers": [
+            "بايرن ميونخ"
         ]
     },
     {
-        "id": "sports-fact-Q80030",
+        "id": "sports-football-champion-laliga-Q134006053",
         "category": "كورة ورياضة",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «بيتينا دكا».",
-        "answer": "كرة اليد",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%23493321%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e87e4b%22%20opacity%3D%22.12%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22125%22%20r%3D%2288%22%20fill%3D%22%23f7eee0%22%20stroke%3D%22%23e98d58%22%20stroke-width%3D%229%22%2F%3E%3Cpath%20d%3D%22M185%2082l38%2028-15%2045h-47l-15-45zM185%2082l-30-23m68%2051%2042-3m-57%2073%208%2037m-61-64-37%2020m75-91%2023-35%22%20fill%3D%22%23343d4c%22%20stroke%3D%22%23343d4c%22%20stroke-width%3D%2213%22%20stroke-linejoin%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e87e4b%22%3ESPORT%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D8%A8%D9%8A%D8%AA%D9%8A%D9%86%D8%A7%20%D8%AF%D9%83%D8%A7%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e87e4b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "رياضة صالات سريعة، يسجل فيها اللاعبون برمي الكرة إلى مرمى الخصم.",
-        "source": "https://www.wikidata.org/wiki/Q80030",
+        "question": "من بطل الدوري الإسباني في موسم 2025–26؟",
+        "answer": "نادي برشلونة",
+        "imageAlt": "الدوري الإسباني",
+        "image": "",
         "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "بيتينا دكا",
-        "factType": "sport",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2025–26 في الدوري الإسباني.",
+        "source": "https://www.wikidata.org/wiki/Q134006053",
+        "factType": "football-champion",
+        "footballCompetition": "laliga",
         "options": [
-            "ألعاب القوى ذات قدرة على التحمل",
-            "ترويض الخيول",
-            "سباقات الدراجات على الطريق",
-            "كرة اليد"
+            "بايرن ميونخ",
+            "نادي النصر السعودي",
+            "نادي إنتر ميلان",
+            "نادي برشلونة"
+        ],
+        "acceptedAnswers": [
+            "نادي برشلونة"
         ]
     },
     {
-        "id": "sports-fact-Q80761",
+        "id": "sports-football-champion-saudi-Q134602323",
         "category": "كورة ورياضة",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «دانتي بونفيم».",
-        "answer": "كرة القدم",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dante%20asse%20ogcn%202425.png?width=900",
-        "hint": "رياضة جماعية يحاول فيها اللاعبون تسجيل الأهداف بالقدم، باستثناء الحارس.",
-        "source": "https://www.wikidata.org/wiki/Q80761",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Dante_asse_ogcn_2425.png",
-        "imageKind": "commons",
-        "imageAlt": "دانتي بونفيم",
-        "factType": "sport",
+        "question": "من بطل الدوري السعودي للمحترفين في موسم 2025–26؟",
+        "answer": "نادي النصر السعودي",
+        "imageAlt": "الدوري السعودي للمحترفين",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2025–26 في الدوري السعودي للمحترفين.",
+        "source": "https://www.wikidata.org/wiki/Q134602323",
+        "factType": "football-champion",
+        "footballCompetition": "saudi",
         "options": [
-            "رياضة دراجات نارية",
-            "جمباز القفز",
-            "كرة القدم",
-            "ألعاب القوى"
+            "أتلتيكو مدريد",
+            "يوفنتوس",
+            "نادي موناكو",
+            "نادي النصر السعودي"
+        ],
+        "acceptedAnswers": [
+            "نادي النصر السعودي"
         ]
     },
     {
-        "id": "sports-fact-Q81496",
+        "id": "sports-football-champion-serie-a-Q133730427",
         "category": "كورة ورياضة",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Adam van Koeverden».",
-        "answer": "كانو-كاياك",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Adam%20van%20Koeverden.jpg?width=900",
-        "hint": "رياضة مائية تستخدم قارباً ومجاديف، وتقام سباقاتها في مسارات مائية.",
-        "source": "https://www.wikidata.org/wiki/Q81496",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Adam_van_Koeverden.jpg",
-        "imageKind": "commons",
-        "imageAlt": "Adam van Koeverden",
-        "factType": "sport",
+        "question": "من بطل الدوري الإيطالي في موسم 2025–26؟",
+        "answer": "نادي إنتر ميلان",
+        "imageAlt": "الدوري الإيطالي",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2025–26 في الدوري الإيطالي.",
+        "source": "https://www.wikidata.org/wiki/Q133730427",
+        "factType": "football-champion",
+        "footballCompetition": "serie-a",
         "options": [
-            "كانو-كاياك",
-            "الأرجنتين",
-            "فرنسا",
+            "نادي الشباب السعودي",
+            "باريس سان جيرمان",
+            "بايرن ميونخ",
+            "نادي إنتر ميلان"
+        ],
+        "acceptedAnswers": [
+            "نادي إنتر ميلان"
+        ]
+    },
+    {
+        "id": "sports-football-champion-epl-Q132674557",
+        "category": "كورة ورياضة",
+        "difficulty": "سهل",
+        "points": 100,
+        "question": "من بطل الدوري الإنجليزي الممتاز في موسم 2025–26؟",
+        "answer": "نادي آرسنال",
+        "imageAlt": "الدوري الإنجليزي الممتاز",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2025–26 في الدوري الإنجليزي الممتاز.",
+        "source": "https://www.wikidata.org/wiki/Q132674557",
+        "factType": "football-champion",
+        "footballCompetition": "epl",
+        "options": [
+            "ريال مدريد",
+            "مانشستر سيتي",
+            "نادي آرسنال",
+            "نادي نابولي"
+        ],
+        "acceptedAnswers": [
+            "نادي آرسنال"
+        ]
+    },
+    {
+        "id": "sports-football-champion-uefa-champions-league-Q117008008",
+        "category": "كورة ورياضة",
+        "difficulty": "سهل",
+        "points": 100,
+        "question": "من بطل دوري أبطال أوروبا في موسم 2024–25؟",
+        "answer": "باريس سان جيرمان",
+        "imageAlt": "دوري أبطال أوروبا",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2024–25 في دوري أبطال أوروبا.",
+        "source": "https://www.wikidata.org/wiki/Q117008008",
+        "factType": "football-champion",
+        "footballCompetition": "uefa-champions-league",
+        "options": [
+            "ليستر سيتي",
+            "نادي الفتح السعودي",
+            "باريس سان جيرمان",
+            "النادي الأهلي (السعودية)"
+        ],
+        "acceptedAnswers": [
+            "باريس سان جيرمان"
+        ]
+    },
+    {
+        "id": "sports-football-champion-laliga-Q124538312",
+        "category": "كورة ورياضة",
+        "difficulty": "سهل",
+        "points": 100,
+        "question": "من بطل الدوري الإسباني في موسم 2024–25؟",
+        "answer": "نادي برشلونة",
+        "imageAlt": "الدوري الإسباني",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2024–25 في الدوري الإسباني.",
+        "source": "https://www.wikidata.org/wiki/Q124538312",
+        "factType": "football-champion",
+        "footballCompetition": "laliga",
+        "options": [
+            "نادي برشلونة",
+            "ريال مدريد",
+            "مانشستر سيتي",
+            "نادي الهلال"
+        ],
+        "acceptedAnswers": [
+            "نادي برشلونة"
+        ]
+    },
+    {
+        "id": "sports-football-champion-bundesliga-Q123992332",
+        "category": "كورة ورياضة",
+        "difficulty": "سهل",
+        "points": 100,
+        "question": "من بطل الدوري الألماني في موسم 2024–25؟",
+        "answer": "FC Bayern München",
+        "imageAlt": "الدوري الألماني",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2024–25 في الدوري الألماني.",
+        "source": "https://www.wikidata.org/wiki/Q123992332",
+        "factType": "football-champion",
+        "footballCompetition": "bundesliga",
+        "options": [
+            "نادي ليل",
+            "FC Bayern München",
+            "إيه سي ميلان",
+            "نادي تشيلسي"
+        ],
+        "acceptedAnswers": [
+            "FC Bayern München"
+        ]
+    },
+    {
+        "id": "sports-football-champion-epl-Q124371422",
+        "category": "كورة ورياضة",
+        "difficulty": "سهل",
+        "points": 100,
+        "question": "من بطل الدوري الإنجليزي الممتاز في موسم 2024–25؟",
+        "answer": "نادي ليفربول",
+        "imageAlt": "الدوري الإنجليزي الممتاز",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2024–25 في الدوري الإنجليزي الممتاز.",
+        "source": "https://www.wikidata.org/wiki/Q124371422",
+        "factType": "football-champion",
+        "footballCompetition": "epl",
+        "options": [
+            "نادي ليفربول",
+            "نادي النصر السعودي",
+            "نادي إنتر ميلان",
+            "نادي آرسنال"
+        ],
+        "acceptedAnswers": [
+            "نادي ليفربول"
+        ]
+    },
+    {
+        "id": "sports-football-champion-serie-a-Q125315770",
+        "category": "كورة ورياضة",
+        "difficulty": "سهل",
+        "points": 100,
+        "question": "من بطل الدوري الإيطالي في موسم 2024–25؟",
+        "answer": "نادي نابولي",
+        "imageAlt": "الدوري الإيطالي",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2024–25 في الدوري الإيطالي.",
+        "source": "https://www.wikidata.org/wiki/Q125315770",
+        "factType": "football-champion",
+        "footballCompetition": "serie-a",
+        "options": [
+            "نادي نابولي",
+            "النادي الأهلي (السعودية)",
+            "ليستر سيتي",
+            "نادي الفتح السعودي"
+        ],
+        "acceptedAnswers": [
+            "نادي نابولي"
+        ]
+    },
+    {
+        "id": "sports-football-champion-ligue-1-Q117008002",
+        "category": "كورة ورياضة",
+        "difficulty": "سهل",
+        "points": 100,
+        "question": "من بطل الدوري الفرنسي في موسم 2023–24؟",
+        "answer": "باريس سان جيرمان",
+        "imageAlt": "الدوري الفرنسي",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2023–24 في الدوري الفرنسي.",
+        "source": "https://www.wikidata.org/wiki/Q117008002",
+        "factType": "football-champion",
+        "footballCompetition": "ligue-1",
+        "options": [
+            "نادي النصر السعودي",
+            "نادي إنتر ميلان",
+            "باريس سان جيرمان",
+            "نادي برشلونة"
+        ],
+        "acceptedAnswers": [
+            "باريس سان جيرمان"
+        ]
+    },
+    {
+        "id": "sports-football-champion-uefa-champions-league-Q111309338",
+        "category": "كورة ورياضة",
+        "difficulty": "سهل",
+        "points": 100,
+        "question": "من بطل دوري أبطال أوروبا في موسم 2023–24؟",
+        "answer": "ريال مدريد",
+        "imageAlt": "دوري أبطال أوروبا",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2023–24 في دوري أبطال أوروبا.",
+        "source": "https://www.wikidata.org/wiki/Q111309338",
+        "factType": "football-champion",
+        "footballCompetition": "uefa-champions-league",
+        "options": [
+            "ريال مدريد",
+            "أتلتيكو مدريد",
+            "يوفنتوس",
+            "نادي موناكو"
+        ],
+        "acceptedAnswers": [
             "ريال مدريد"
         ]
     },
     {
-        "id": "sports-fact-Q83837",
+        "id": "sports-football-champion-laliga-Q117246391",
         "category": "كورة ورياضة",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «ليزا كارينجتون».",
-        "answer": "كانو-كاياك",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lisa%20Carrington%202013-09-01%20Kanu%20Renn%20WM%202013%20by%20Olaf%20Kosinsky-134%20(cropped).jpg?width=900",
-        "hint": "رياضة مائية تستخدم قارباً ومجاديف، وتقام سباقاتها في مسارات مائية.",
-        "source": "https://www.wikidata.org/wiki/Q83837",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Lisa_Carrington_2013-09-01_Kanu_Renn_WM_2013_by_Olaf_Kosinsky-134_(cropped).jpg",
-        "imageKind": "commons",
-        "imageAlt": "ليزا كارينجتون",
-        "factType": "sport",
-        "options": [
-            "المصارعة الحرة",
-            "الجمباز الإيقاعي",
-            "كرة الماء",
-            "كانو-كاياك"
-        ]
-    },
-    {
-        "id": "sports-fact-Q84323",
-        "category": "كورة ورياضة",
-        "difficulty": "سهل",
-        "points": 100,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «جوزيف هيكرسبيرغر».",
-        "answer": "كرة القدم",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/AUT%20vs.%20MDA%202015-09-05%20(209).jpg?width=900",
-        "hint": "رياضة جماعية يحاول فيها اللاعبون تسجيل الأهداف بالقدم، باستثناء الحارس.",
-        "source": "https://www.wikidata.org/wiki/Q84323",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:AUT_vs._MDA_2015-09-05_(209).jpg",
-        "imageKind": "commons",
-        "imageAlt": "جوزيف هيكرسبيرغر",
-        "factType": "sport",
-        "options": [
-            "كرة القدم",
-            "كرة الماء",
-            "مصارعة الهواة",
-            "كرة القدم الأمريكية"
-        ]
-    },
-    {
-        "id": "sports-fact-Q84392",
-        "category": "كورة ورياضة",
-        "difficulty": "سهل",
-        "points": 100,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Thomas Wessinghage».",
-        "answer": "ألعاب القوى",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/ThomasWessinghage.jpg?width=900",
-        "hint": "تندرج ضمن مسابقات المضمار والميدان مثل الجري والقفز والرمي.",
-        "source": "https://www.wikidata.org/wiki/Q84392",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:ThomasWessinghage.jpg",
-        "imageKind": "commons",
-        "imageAlt": "Thomas Wessinghage",
-        "factType": "sport",
-        "options": [
-            "ألعاب القوى",
-            "جمباز القفز",
-            "رياضة دراجات هوائية",
-            "التزحلف"
-        ]
-    },
-    {
-        "id": "sports-fact-Q84426",
-        "category": "كورة ورياضة",
-        "difficulty": "سهل",
-        "points": 100,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «إيغون مولر».",
-        "answer": "رياضة دراجات نارية",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Egon%20Mueller%202018.jpg?width=900",
-        "hint": "رياضة محركات تعتمد على السرعة والتحكم بمركبة آلية على مضمار.",
-        "source": "https://www.wikidata.org/wiki/Q84426",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Egon_Mueller_2018.jpg",
-        "imageKind": "commons",
-        "imageAlt": "إيغون مولر",
-        "factType": "sport",
-        "options": [
-            "رياضة دراجات نارية",
-            "الجمباز الفني",
-            "كرة الطاولة",
-            "نبالة"
-        ]
-    },
-    {
-        "id": "sports-fact-Q84759",
-        "category": "كورة ورياضة",
-        "difficulty": "سهل",
-        "points": 100,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «جيرهارد فايفر».",
-        "answer": "الشطرنج",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%23493321%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e87e4b%22%20opacity%3D%22.12%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22125%22%20r%3D%2288%22%20fill%3D%22%23f7eee0%22%20stroke%3D%22%23e98d58%22%20stroke-width%3D%229%22%2F%3E%3Cpath%20d%3D%22M185%2082l38%2028-15%2045h-47l-15-45zM185%2082l-30-23m68%2051%2042-3m-57%2073%208%2037m-61-64-37%2020m75-91%2023-35%22%20fill%3D%22%23343d4c%22%20stroke%3D%22%23343d4c%22%20stroke-width%3D%2213%22%20stroke-linejoin%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e87e4b%22%3ESPORT%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D8%AC%D9%8A%D8%B1%D9%87%D8%A7%D8%B1%D8%AF%20%D9%81%D8%A7%D9%8A%D9%81%D8%B1%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e87e4b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "لعبة ذهنية على رقعة من 64 مربعاً، وهدفها حصر ملك الخصم.",
-        "source": "https://www.wikidata.org/wiki/Q84759",
+        "question": "من بطل الدوري الإسباني في موسم 2023–24؟",
+        "answer": "ريال مدريد",
+        "imageAlt": "الدوري الإسباني",
+        "image": "",
         "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "جيرهارد فايفر",
-        "factType": "sport",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2023–24 في الدوري الإسباني.",
+        "source": "https://www.wikidata.org/wiki/Q117246391",
+        "factType": "football-champion",
+        "footballCompetition": "laliga",
         "options": [
-            "الوثب الطويل",
-            "الشطرنج",
-            "جودو",
-            "الرماية"
+            "ليستر سيتي",
+            "نادي الفتح السعودي",
+            "نادي الشباب السعودي",
+            "ريال مدريد"
+        ],
+        "acceptedAnswers": [
+            "ريال مدريد"
         ]
     },
     {
-        "id": "sports-fact-Q84865",
+        "id": "sports-football-champion-epl-Q116977381",
         "category": "كورة ورياضة",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Herbert Steffny».",
-        "answer": "ألعاب القوى",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Herbert%20Steffny%2C%202013%20(cropped).jpg?width=900",
-        "hint": "تندرج ضمن مسابقات المضمار والميدان مثل الجري والقفز والرمي.",
-        "source": "https://www.wikidata.org/wiki/Q84865",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Herbert_Steffny%2C_2013_(cropped).jpg",
-        "imageKind": "commons",
-        "imageAlt": "Herbert Steffny",
-        "factType": "sport",
-        "options": [
-            "السباحة",
-            "ألعاب القوى",
-            "نبالة",
-            "هوكي الجليد"
-        ]
-    },
-    {
-        "id": "sports-fact-Q85007",
-        "category": "كورة ورياضة",
-        "difficulty": "سهل",
-        "points": 100,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Monika Sozanska».",
-        "answer": "مبارزة السلاح",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Monika%20Sozanska.jpeg?width=900",
-        "hint": "رياضة نزال بالسيف، ولها أسلحة أولمبية بثلاثة أنواع.",
-        "source": "https://www.wikidata.org/wiki/Q85007",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Monika_Sozanska.jpeg",
-        "imageKind": "commons",
-        "imageAlt": "Monika Sozanska",
-        "factType": "sport",
-        "options": [
-            "البرازيل",
-            "ألمانيا",
-            "مبارزة السلاح",
-            "8 لاعبين"
-        ]
-    },
-    {
-        "id": "sports-fact-Q85462",
-        "category": "كورة ورياضة",
-        "difficulty": "سهل",
-        "points": 100,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Wilhelm Dörr».",
-        "answer": "ألعاب القوى",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%23493321%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e87e4b%22%20opacity%3D%22.12%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22125%22%20r%3D%2288%22%20fill%3D%22%23f7eee0%22%20stroke%3D%22%23e98d58%22%20stroke-width%3D%229%22%2F%3E%3Cpath%20d%3D%22M185%2082l38%2028-15%2045h-47l-15-45zM185%2082l-30-23m68%2051%2042-3m-57%2073%208%2037m-61-64-37%2020m75-91%2023-35%22%20fill%3D%22%23343d4c%22%20stroke%3D%22%23343d4c%22%20stroke-width%3D%2213%22%20stroke-linejoin%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e87e4b%22%3ESPORT%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EWilhelm%20D%C3%B6rr%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e87e4b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "تندرج ضمن مسابقات المضمار والميدان مثل الجري والقفز والرمي.",
-        "source": "https://www.wikidata.org/wiki/Q85462",
+        "question": "من بطل الدوري الإنجليزي الممتاز في موسم 2023–24؟",
+        "answer": "مانشستر سيتي",
+        "imageAlt": "الدوري الإنجليزي الممتاز",
+        "image": "",
         "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "Wilhelm Dörr",
-        "factType": "sport",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2023–24 في الدوري الإنجليزي الممتاز.",
+        "source": "https://www.wikidata.org/wiki/Q116977381",
+        "factType": "football-champion",
+        "footballCompetition": "epl",
         "options": [
-            "البرازيل",
-            "ألعاب القوى",
-            "9 لاعبين",
-            "8 لاعبين"
+            "نادي الشباب السعودي",
+            "مانشستر سيتي",
+            "ليستر سيتي",
+            "نادي الفتح السعودي"
+        ],
+        "acceptedAnswers": [
+            "مانشستر سيتي"
         ]
     },
     {
-        "id": "sports-fact-Q85612",
+        "id": "sports-football-champion-saudi-Q118947128",
         "category": "كورة ورياضة",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «هيلغا ميس».",
-        "answer": "مبارزة السلاح",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%23493321%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e87e4b%22%20opacity%3D%22.12%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22125%22%20r%3D%2288%22%20fill%3D%22%23f7eee0%22%20stroke%3D%22%23e98d58%22%20stroke-width%3D%229%22%2F%3E%3Cpath%20d%3D%22M185%2082l38%2028-15%2045h-47l-15-45zM185%2082l-30-23m68%2051%2042-3m-57%2073%208%2037m-61-64-37%2020m75-91%2023-35%22%20fill%3D%22%23343d4c%22%20stroke%3D%22%23343d4c%22%20stroke-width%3D%2213%22%20stroke-linejoin%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e87e4b%22%3ESPORT%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D9%87%D9%8A%D9%84%D8%BA%D8%A7%20%D9%85%D9%8A%D8%B3%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e87e4b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "رياضة نزال بالسيف، ولها أسلحة أولمبية بثلاثة أنواع.",
-        "source": "https://www.wikidata.org/wiki/Q85612",
+        "question": "من بطل الدوري السعودي للمحترفين في موسم 2023–24؟",
+        "answer": "نادي الهلال",
+        "imageAlt": "الدوري السعودي للمحترفين",
+        "image": "",
         "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "هيلغا ميس",
-        "factType": "sport",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2023–24 في الدوري السعودي للمحترفين.",
+        "source": "https://www.wikidata.org/wiki/Q118947128",
+        "factType": "football-champion",
+        "footballCompetition": "saudi",
         "options": [
-            "12 لاعباً",
-            "9 لاعبين",
-            "مبارزة السلاح",
-            "10 لاعبين"
+            "نادي تشيلسي",
+            "نادي ليل",
+            "نادي الهلال",
+            "إيه سي ميلان"
+        ],
+        "acceptedAnswers": [
+            "نادي الهلال"
         ]
     },
     {
-        "id": "sports-fact-Q86299",
+        "id": "sports-football-champion-serie-a-Q116998560",
         "category": "كورة ورياضة",
         "difficulty": "سهل",
         "points": 100,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «كارل آدم».",
-        "answer": "الملاكمة",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Karl%20Adam%201968.jpg?width=900",
-        "hint": "رياضة نزال فردي تعتمد على اللكمات داخل الحلبة والقفازات.",
-        "source": "https://www.wikidata.org/wiki/Q86299",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Karl_Adam_1968.jpg",
-        "imageKind": "commons",
-        "imageAlt": "كارل آدم",
-        "factType": "sport",
-        "options": [
-            "الملاكمة",
-            "الرماية",
-            "الوثب الطويل",
-            "ألعاب القوى ذات قدرة على التحمل"
-        ]
-    },
-    {
-        "id": "sports-fact-Q86746",
-        "category": "كورة ورياضة",
-        "difficulty": "سهل",
-        "points": 100,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «كارل غال».",
-        "answer": "رياضة دراجات نارية",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%23493321%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e87e4b%22%20opacity%3D%22.12%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22125%22%20r%3D%2288%22%20fill%3D%22%23f7eee0%22%20stroke%3D%22%23e98d58%22%20stroke-width%3D%229%22%2F%3E%3Cpath%20d%3D%22M185%2082l38%2028-15%2045h-47l-15-45zM185%2082l-30-23m68%2051%2042-3m-57%2073%208%2037m-61-64-37%2020m75-91%2023-35%22%20fill%3D%22%23343d4c%22%20stroke%3D%22%23343d4c%22%20stroke-width%3D%2213%22%20stroke-linejoin%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e87e4b%22%3ESPORT%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D9%83%D8%A7%D8%B1%D9%84%20%D8%BA%D8%A7%D9%84%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e87e4b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "رياضة محركات تعتمد على السرعة والتحكم بمركبة آلية على مضمار.",
-        "source": "https://www.wikidata.org/wiki/Q86746",
+        "question": "من بطل الدوري الإيطالي في موسم 2023–24؟",
+        "answer": "نادي إنتر ميلان",
+        "imageAlt": "الدوري الإيطالي",
+        "image": "",
         "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "كارل غال",
-        "factType": "sport",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2023–24 في الدوري الإيطالي.",
+        "source": "https://www.wikidata.org/wiki/Q116998560",
+        "factType": "football-champion",
+        "footballCompetition": "serie-a",
         "options": [
-            "السباحة",
-            "رياضة دراجات نارية",
-            "نبالة",
-            "هوكي الجليد"
+            "نادي إنتر ميلان",
+            "يوفنتوس",
+            "نادي موناكو",
+            "النادي الأهلي (السعودية)"
+        ],
+        "acceptedAnswers": [
+            "نادي إنتر ميلان"
         ]
     },
     {
-        "id": "sports-fact-Q86933",
+        "id": "sports-football-champion-bundesliga-Q113514522",
         "category": "كورة ورياضة",
         "difficulty": "سهل",
-        "points": 100,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Eduard Schönecker».",
-        "answer": "ألعاب القوى",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%23493321%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e87e4b%22%20opacity%3D%22.12%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22125%22%20r%3D%2288%22%20fill%3D%22%23f7eee0%22%20stroke%3D%22%23e98d58%22%20stroke-width%3D%229%22%2F%3E%3Cpath%20d%3D%22M185%2082l38%2028-15%2045h-47l-15-45zM185%2082l-30-23m68%2051%2042-3m-57%2073%208%2037m-61-64-37%2020m75-91%2023-35%22%20fill%3D%22%23343d4c%22%20stroke%3D%22%23343d4c%22%20stroke-width%3D%2213%22%20stroke-linejoin%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e87e4b%22%3ESPORT%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EEduard%20Sch%C3%B6necker%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e87e4b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "تندرج ضمن مسابقات المضمار والميدان مثل الجري والقفز والرمي.",
-        "source": "https://www.wikidata.org/wiki/Q86933",
+        "points": 200,
+        "question": "من بطل الدوري الألماني في موسم 2023–24؟",
+        "answer": "باير 04 ليفركوزن",
+        "imageAlt": "الدوري الألماني",
+        "image": "",
         "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "Eduard Schönecker",
-        "factType": "sport",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2023–24 في الدوري الألماني.",
+        "source": "https://www.wikidata.org/wiki/Q113514522",
+        "factType": "football-champion",
+        "footballCompetition": "bundesliga",
         "options": [
-            "كرة الطاولة",
-            "ألعاب القوى",
-            "التزلج الفني على الجليد",
-            "الجمباز الفني"
+            "مانشستر سيتي",
+            "نادي الهلال",
+            "نادي الاتحاد",
+            "باير 04 ليفركوزن"
+        ],
+        "acceptedAnswers": [
+            "باير 04 ليفركوزن"
         ]
     },
     {
-        "id": "sports-fact-Q87442",
+        "id": "sports-football-champion-ligue-1-Q112744803",
         "category": "كورة ورياضة",
         "difficulty": "سهل",
-        "points": 100,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Anna Dogonadze».",
-        "answer": "جمباز القفز",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Anna%20Dogonadze.jpg?width=900",
-        "hint": "رياضة أداء بدني على أجهزة أو بساط، تقيس القوة والمرونة والدقة.",
-        "source": "https://www.wikidata.org/wiki/Q87442",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Anna_Dogonadze.jpg",
-        "imageKind": "commons",
-        "imageAlt": "Anna Dogonadze",
-        "factType": "sport",
-        "options": [
-            "ركوب الأمواج",
-            "جمباز القفز",
-            "المصارعة المحترفة",
-            "الجمباز"
-        ]
-    },
-    {
-        "id": "sports-fact-Q87709",
-        "category": "كورة ورياضة",
-        "difficulty": "سهل",
-        "points": 100,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Ronny Rockel».",
-        "answer": "كمال الأجسام",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%23493321%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e87e4b%22%20opacity%3D%22.12%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22125%22%20r%3D%2288%22%20fill%3D%22%23f7eee0%22%20stroke%3D%22%23e98d58%22%20stroke-width%3D%229%22%2F%3E%3Cpath%20d%3D%22M185%2082l38%2028-15%2045h-47l-15-45zM185%2082l-30-23m68%2051%2042-3m-57%2073%208%2037m-61-64-37%2020m75-91%2023-35%22%20fill%3D%22%23343d4c%22%20stroke%3D%22%23343d4c%22%20stroke-width%3D%2213%22%20stroke-linejoin%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e87e4b%22%3ESPORT%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3ERonny%20Rockel%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e87e4b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "رياضة تعتمد على بناء العضلات وتقييم التناسق والتحديد العضلي.",
-        "source": "https://www.wikidata.org/wiki/Q87709",
+        "points": 200,
+        "question": "من بطل الدوري الفرنسي في موسم 2022–23؟",
+        "answer": "باريس سان جيرمان",
+        "imageAlt": "الدوري الفرنسي",
+        "image": "",
         "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "Ronny Rockel",
-        "factType": "sport",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2022–23 في الدوري الفرنسي.",
+        "source": "https://www.wikidata.org/wiki/Q112744803",
+        "factType": "football-champion",
+        "footballCompetition": "ligue-1",
         "options": [
-            "الأرجنتين",
-            "فرنسا",
+            "نادي نابولي",
+            "باريس سان جيرمان",
+            "FC Bayern München",
+            "نادي ليفربول"
+        ],
+        "acceptedAnswers": [
+            "باريس سان جيرمان"
+        ]
+    },
+    {
+        "id": "sports-football-champion-laliga-Q111134893",
+        "category": "كورة ورياضة",
+        "difficulty": "سهل",
+        "points": 200,
+        "question": "من بطل الدوري الإسباني في موسم 2022–23؟",
+        "answer": "نادي برشلونة",
+        "imageAlt": "الدوري الإسباني",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2022–23 في الدوري الإسباني.",
+        "source": "https://www.wikidata.org/wiki/Q111134893",
+        "factType": "football-champion",
+        "footballCompetition": "laliga",
+        "options": [
+            "نادي برشلونة",
+            "أتلتيكو مدريد",
+            "يوفنتوس",
+            "نادي موناكو"
+        ],
+        "acceptedAnswers": [
+            "نادي برشلونة"
+        ]
+    },
+    {
+        "id": "sports-football-champion-epl-Q111134726",
+        "category": "كورة ورياضة",
+        "difficulty": "سهل",
+        "points": 200,
+        "question": "من بطل الدوري الإنجليزي الممتاز في موسم 2022–23؟",
+        "answer": "مانشستر سيتي",
+        "imageAlt": "الدوري الإنجليزي الممتاز",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2022–23 في الدوري الإنجليزي الممتاز.",
+        "source": "https://www.wikidata.org/wiki/Q111134726",
+        "factType": "football-champion",
+        "footballCompetition": "epl",
+        "options": [
+            "مانشستر سيتي",
+            "نادي النصر السعودي",
+            "نادي إنتر ميلان",
+            "نادي آرسنال"
+        ],
+        "acceptedAnswers": [
+            "مانشستر سيتي"
+        ]
+    },
+    {
+        "id": "sports-football-champion-uefa-champions-league-Q106086340",
+        "category": "كورة ورياضة",
+        "difficulty": "سهل",
+        "points": 200,
+        "question": "من بطل دوري أبطال أوروبا في موسم 2022–23؟",
+        "answer": "مانشستر سيتي",
+        "imageAlt": "دوري أبطال أوروبا",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2022–23 في دوري أبطال أوروبا.",
+        "source": "https://www.wikidata.org/wiki/Q106086340",
+        "factType": "football-champion",
+        "footballCompetition": "uefa-champions-league",
+        "options": [
+            "بايرن ميونخ",
+            "مانشستر سيتي",
+            "نادي الشباب السعودي",
+            "باريس سان جيرمان"
+        ],
+        "acceptedAnswers": [
+            "مانشستر سيتي"
+        ]
+    },
+    {
+        "id": "sports-football-champion-bundesliga-Q81085686",
+        "category": "كورة ورياضة",
+        "difficulty": "سهل",
+        "points": 200,
+        "question": "من بطل الدوري الألماني في موسم 2022–23؟",
+        "answer": "FC Bayern München",
+        "imageAlt": "الدوري الألماني",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2022–23 في الدوري الألماني.",
+        "source": "https://www.wikidata.org/wiki/Q81085686",
+        "factType": "football-champion",
+        "footballCompetition": "bundesliga",
+        "options": [
             "ريال مدريد",
-            "كمال الأجسام"
+            "مانشستر سيتي",
+            "نادي الهلال",
+            "FC Bayern München"
+        ],
+        "acceptedAnswers": [
+            "FC Bayern München"
         ]
     },
     {
-        "id": "sports-fact-Q87853",
+        "id": "sports-football-champion-saudi-Q113134473",
         "category": "كورة ورياضة",
         "difficulty": "سهل",
-        "points": 100,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Peter Lichtner-Hoyer».",
-        "answer": "فروسية",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Peter%20Lichtner-Hoyer%20(1962).jpg?width=900",
-        "hint": "تُمارس على ظهور الخيل، وتتضمن منافسات قفز الحواجز أو الترويض.",
-        "source": "https://www.wikidata.org/wiki/Q87853",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Peter_Lichtner-Hoyer_(1962).jpg",
-        "imageKind": "commons",
-        "imageAlt": "Peter Lichtner-Hoyer",
-        "factType": "sport",
-        "options": [
-            "كمال الأجسام",
-            "فروسية",
-            "سباقات السيارات",
-            "كرة القدم"
-        ]
-    },
-    {
-        "id": "sports-fact-Q88637",
-        "category": "كورة ورياضة",
-        "difficulty": "سهل",
-        "points": 100,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «ميخائيل روث».",
-        "answer": "كرة اليد",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Michael%20Roth%2001%20.jpg?width=900",
-        "hint": "رياضة صالات سريعة، يسجل فيها اللاعبون برمي الكرة إلى مرمى الخصم.",
-        "source": "https://www.wikidata.org/wiki/Q88637",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Michael_Roth_01_.jpg",
-        "imageKind": "commons",
-        "imageAlt": "ميخائيل روث",
-        "factType": "sport",
-        "options": [
-            "البياثلون",
-            "كرة المضرب",
-            "كرة اليد",
-            "الملاكمة"
-        ]
-    },
-    {
-        "id": "sports-fact-Q88685",
-        "category": "كورة ورياضة",
-        "difficulty": "سهل",
-        "points": 100,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «فولفغانغ بوهمه».",
-        "answer": "كرة اليد",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%23493321%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e87e4b%22%20opacity%3D%22.12%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22125%22%20r%3D%2288%22%20fill%3D%22%23f7eee0%22%20stroke%3D%22%23e98d58%22%20stroke-width%3D%229%22%2F%3E%3Cpath%20d%3D%22M185%2082l38%2028-15%2045h-47l-15-45zM185%2082l-30-23m68%2051%2042-3m-57%2073%208%2037m-61-64-37%2020m75-91%2023-35%22%20fill%3D%22%23343d4c%22%20stroke%3D%22%23343d4c%22%20stroke-width%3D%2213%22%20stroke-linejoin%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e87e4b%22%3ESPORT%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D9%81%D9%88%D9%84%D9%81%D8%BA%D8%A7%D9%86%D8%BA%20%D8%A8%D9%88%D9%87%D9%85%D9%87%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e87e4b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "رياضة صالات سريعة، يسجل فيها اللاعبون برمي الكرة إلى مرمى الخصم.",
-        "source": "https://www.wikidata.org/wiki/Q88685",
+        "points": 200,
+        "question": "من بطل الدوري السعودي للمحترفين في موسم 2022–23؟",
+        "answer": "نادي الاتحاد",
+        "imageAlt": "الدوري السعودي للمحترفين",
+        "image": "",
         "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "فولفغانغ بوهمه",
-        "factType": "sport",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2022–23 في الدوري السعودي للمحترفين.",
+        "source": "https://www.wikidata.org/wiki/Q113134473",
+        "factType": "football-champion",
+        "footballCompetition": "saudi",
         "options": [
-            "المصارعة المحترفة",
-            "كرة اليد",
-            "هوكي الجليد",
-            "السباحة"
+            "نادي الاتحاد",
+            "أتلتيكو مدريد",
+            "يوفنتوس",
+            "نادي موناكو"
+        ],
+        "acceptedAnswers": [
+            "نادي الاتحاد"
         ]
     },
     {
-        "id": "sports-fact-Q88996",
+        "id": "sports-football-champion-serie-a-Q111136037",
         "category": "كورة ورياضة",
         "difficulty": "سهل",
-        "points": 100,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Franz Dusika».",
-        "answer": "رياضة دراجات هوائية",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Franz%20Dusika%2C%201933.jpeg?width=900",
-        "hint": "تعتمد على دراجة، وتتنوع بين سباقات الطريق والمضمار والطرق الوعرة.",
-        "source": "https://www.wikidata.org/wiki/Q88996",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Franz_Dusika%2C_1933.jpeg",
-        "imageKind": "commons",
-        "imageAlt": "Franz Dusika",
-        "factType": "sport",
-        "options": [
-            "الرماية",
-            "الوثب الطويل",
-            "رياضة دراجات هوائية",
-            "جودو"
-        ]
-    },
-    {
-        "id": "sports-fact-Q89267",
-        "category": "كورة ورياضة",
-        "difficulty": "سهل",
-        "points": 100,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «كارل هاينز كلي».",
-        "answer": "التزحلف",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%23493321%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e87e4b%22%20opacity%3D%22.12%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22125%22%20r%3D%2288%22%20fill%3D%22%23f7eee0%22%20stroke%3D%22%23e98d58%22%20stroke-width%3D%229%22%2F%3E%3Cpath%20d%3D%22M185%2082l38%2028-15%2045h-47l-15-45zM185%2082l-30-23m68%2051%2042-3m-57%2073%208%2037m-61-64-37%2020m75-91%2023-35%22%20fill%3D%22%23343d4c%22%20stroke%3D%22%23343d4c%22%20stroke-width%3D%2213%22%20stroke-linejoin%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e87e4b%22%3ESPORT%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D9%83%D8%A7%D8%B1%D9%84%20%D9%87%D8%A7%D9%8A%D9%86%D8%B2%20%D9%83%D9%84%D9%8A%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e87e4b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "رياضة شتوية تُمارس على الثلج أو الجليد باستخدام الزلاجات.",
-        "source": "https://www.wikidata.org/wiki/Q89267",
+        "points": 200,
+        "question": "من بطل الدوري الإيطالي في موسم 2022–23؟",
+        "answer": "نادي نابولي",
+        "imageAlt": "الدوري الإيطالي",
+        "image": "",
         "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "كارل هاينز كلي",
-        "factType": "sport",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2022–23 في الدوري الإيطالي.",
+        "source": "https://www.wikidata.org/wiki/Q111136037",
+        "factType": "football-champion",
+        "footballCompetition": "serie-a",
         "options": [
-            "فرنسا",
+            "نادي نابولي",
+            "نادي إنتر ميلان",
+            "نادي آرسنال",
+            "FC Bayern München"
+        ],
+        "acceptedAnswers": [
+            "نادي نابولي"
+        ]
+    },
+    {
+        "id": "sports-football-champion-ligue-1-Q104555110",
+        "category": "كورة ورياضة",
+        "difficulty": "سهل",
+        "points": 200,
+        "question": "من بطل الدوري الفرنسي في موسم 2021–22؟",
+        "answer": "باريس سان جيرمان",
+        "imageAlt": "الدوري الفرنسي",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2021–22 في الدوري الفرنسي.",
+        "source": "https://www.wikidata.org/wiki/Q104555110",
+        "factType": "football-champion",
+        "footballCompetition": "ligue-1",
+        "options": [
+            "نادي ليل",
+            "أتلتيكو مدريد",
+            "يوفنتوس",
+            "باريس سان جيرمان"
+        ],
+        "acceptedAnswers": [
+            "باريس سان جيرمان"
+        ]
+    },
+    {
+        "id": "sports-football-champion-laliga-Q105770426",
+        "category": "كورة ورياضة",
+        "difficulty": "سهل",
+        "points": 200,
+        "question": "من بطل الدوري الإسباني في موسم 2021–22؟",
+        "answer": "ريال مدريد",
+        "imageAlt": "الدوري الإسباني",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2021–22 في الدوري الإسباني.",
+        "source": "https://www.wikidata.org/wiki/Q105770426",
+        "factType": "football-champion",
+        "footballCompetition": "laliga",
+        "options": [
+            "نادي برشلونة",
+            "نادي النصر السعودي",
+            "نادي إنتر ميلان",
+            "ريال مدريد"
+        ],
+        "acceptedAnswers": [
+            "ريال مدريد"
+        ]
+    },
+    {
+        "id": "sports-football-champion-uefa-champions-league-Q96621465",
+        "category": "كورة ورياضة",
+        "difficulty": "سهل",
+        "points": 200,
+        "question": "من بطل دوري أبطال أوروبا في موسم 2021–22؟",
+        "answer": "ريال مدريد",
+        "imageAlt": "دوري أبطال أوروبا",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2021–22 في دوري أبطال أوروبا.",
+        "source": "https://www.wikidata.org/wiki/Q96621465",
+        "factType": "football-champion",
+        "footballCompetition": "uefa-champions-league",
+        "options": [
+            "أتلتيكو مدريد",
+            "يوفنتوس",
             "ريال مدريد",
-            "التزحلف",
-            "الأرجنتين"
+            "نادي ليل"
+        ],
+        "acceptedAnswers": [
+            "ريال مدريد"
         ]
     },
     {
-        "id": "sports-fact-Q89505",
-        "category": "كورة ورياضة",
-        "difficulty": "سهل",
-        "points": 100,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Hermann Eppenhoff».",
-        "answer": "كرة القدم",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%23493321%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e87e4b%22%20opacity%3D%22.12%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22125%22%20r%3D%2288%22%20fill%3D%22%23f7eee0%22%20stroke%3D%22%23e98d58%22%20stroke-width%3D%229%22%2F%3E%3Cpath%20d%3D%22M185%2082l38%2028-15%2045h-47l-15-45zM185%2082l-30-23m68%2051%2042-3m-57%2073%208%2037m-61-64-37%2020m75-91%2023-35%22%20fill%3D%22%23343d4c%22%20stroke%3D%22%23343d4c%22%20stroke-width%3D%2213%22%20stroke-linejoin%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e87e4b%22%3ESPORT%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EHermann%20Eppenhoff%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e87e4b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "رياضة جماعية يحاول فيها اللاعبون تسجيل الأهداف بالقدم، باستثناء الحارس.",
-        "source": "https://www.wikidata.org/wiki/Q89505",
-        "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "Hermann Eppenhoff",
-        "factType": "sport",
-        "options": [
-            "الشطرنج",
-            "فروسية",
-            "سباقات السيارات",
-            "كرة القدم"
-        ]
-    },
-    {
-        "id": "sports-fact-Q90120",
-        "category": "كورة ورياضة",
-        "difficulty": "سهل",
-        "points": 100,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «جوسيف شتاينباخ».",
-        "answer": "رفع الأثقال",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Josef%20Steinbach.jpg?width=900",
-        "hint": "رياضة أولمبية يحاول فيها المتنافس رفع أثقل وزن ممكن في رفعتين.",
-        "source": "https://www.wikidata.org/wiki/Q90120",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Josef_Steinbach.jpg",
-        "imageKind": "commons",
-        "imageAlt": "جوسيف شتاينباخ",
-        "factType": "sport",
-        "options": [
-            "رفع الأثقال",
-            "ركوب الدراجات على المضمار",
-            "جودو",
-            "الرماية"
-        ]
-    },
-    {
-        "id": "sports-fact-Q90277",
-        "category": "كورة ورياضة",
-        "difficulty": "سهل",
-        "points": 100,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «بيرند هاينريش».",
-        "answer": "ألعاب القوى",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%23493321%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e87e4b%22%20opacity%3D%22.12%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22125%22%20r%3D%2288%22%20fill%3D%22%23f7eee0%22%20stroke%3D%22%23e98d58%22%20stroke-width%3D%229%22%2F%3E%3Cpath%20d%3D%22M185%2082l38%2028-15%2045h-47l-15-45zM185%2082l-30-23m68%2051%2042-3m-57%2073%208%2037m-61-64-37%2020m75-91%2023-35%22%20fill%3D%22%23343d4c%22%20stroke%3D%22%23343d4c%22%20stroke-width%3D%2213%22%20stroke-linejoin%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e87e4b%22%3ESPORT%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D8%A8%D9%8A%D8%B1%D9%86%D8%AF%20%D9%87%D8%A7%D9%8A%D9%86%D8%B1%D9%8A%D8%B4%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e87e4b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "تندرج ضمن مسابقات المضمار والميدان مثل الجري والقفز والرمي.",
-        "source": "https://www.wikidata.org/wiki/Q90277",
-        "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "بيرند هاينريش",
-        "factType": "sport",
-        "options": [
-            "الزلاجة الجماعية",
-            "ألعاب القوى",
-            "كرة القدم الأمريكية",
-            "الطيران الشراعي المظلي"
-        ]
-    },
-    {
-        "id": "sports-fact-Q90339",
-        "category": "كورة ورياضة",
-        "difficulty": "سهل",
-        "points": 100,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Walter Volle».",
-        "answer": "التجديف",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%23493321%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e87e4b%22%20opacity%3D%22.12%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22125%22%20r%3D%2288%22%20fill%3D%22%23f7eee0%22%20stroke%3D%22%23e98d58%22%20stroke-width%3D%229%22%2F%3E%3Cpath%20d%3D%22M185%2082l38%2028-15%2045h-47l-15-45zM185%2082l-30-23m68%2051%2042-3m-57%2073%208%2037m-61-64-37%2020m75-91%2023-35%22%20fill%3D%22%23343d4c%22%20stroke%3D%22%23343d4c%22%20stroke-width%3D%2213%22%20stroke-linejoin%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e87e4b%22%3ESPORT%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EWalter%20Volle%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e87e4b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "رياضة مائية تستخدم قارباً ومجاديف، وتقام سباقاتها في مسارات مائية.",
-        "source": "https://www.wikidata.org/wiki/Q90339",
-        "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "Walter Volle",
-        "factType": "sport",
-        "options": [
-            "الجمباز الفني",
-            "كرة الطاولة",
-            "التجديف",
-            "التزلج الفني على الجليد"
-        ]
-    },
-    {
-        "id": "sports-fact-Q90405",
+        "id": "sports-football-champion-epl-Q105718943",
         "category": "كورة ورياضة",
         "difficulty": "سهل",
         "points": 200,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Klaus Bugdahl».",
-        "answer": "ركوب الدراجات على المضمار",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Klaus%20Bugdahl%201969.jpg?width=900",
-        "hint": "تعتمد على دراجة، وتتنوع بين سباقات الطريق والمضمار والطرق الوعرة.",
-        "source": "https://www.wikidata.org/wiki/Q90405",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Klaus_Bugdahl_1969.jpg",
-        "imageKind": "commons",
-        "imageAlt": "Klaus Bugdahl",
-        "factType": "sport",
-        "options": [
-            "المصارعة الحرة",
-            "الجمباز الإيقاعي",
-            "ركوب الدراجات على المضمار",
-            "التزلج الألبي"
-        ]
-    },
-    {
-        "id": "sports-fact-Q90451",
-        "category": "كورة ورياضة",
-        "difficulty": "سهل",
-        "points": 200,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Joelle Franzmann».",
-        "answer": "ألعاب القوى",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Joelle%20Franzmann.jpg?width=900",
-        "hint": "تندرج ضمن مسابقات المضمار والميدان مثل الجري والقفز والرمي.",
-        "source": "https://www.wikidata.org/wiki/Q90451",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Joelle_Franzmann.jpg",
-        "imageKind": "commons",
-        "imageAlt": "Joelle Franzmann",
-        "factType": "sport",
-        "options": [
-            "فروسية",
-            "سباقات السيارات",
-            "كرة القدم",
-            "ألعاب القوى"
-        ]
-    },
-    {
-        "id": "sports-fact-Q90726",
-        "category": "كورة ورياضة",
-        "difficulty": "سهل",
-        "points": 200,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «ساندرا كوبن».",
-        "answer": "جودو",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%23493321%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e87e4b%22%20opacity%3D%22.12%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22125%22%20r%3D%2288%22%20fill%3D%22%23f7eee0%22%20stroke%3D%22%23e98d58%22%20stroke-width%3D%229%22%2F%3E%3Cpath%20d%3D%22M185%2082l38%2028-15%2045h-47l-15-45zM185%2082l-30-23m68%2051%2042-3m-57%2073%208%2037m-61-64-37%2020m75-91%2023-35%22%20fill%3D%22%23343d4c%22%20stroke%3D%22%23343d4c%22%20stroke-width%3D%2213%22%20stroke-linejoin%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e87e4b%22%3ESPORT%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D8%B3%D8%A7%D9%86%D8%AF%D8%B1%D8%A7%20%D9%83%D9%88%D8%A8%D9%86%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e87e4b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "فن قتالي ياباني أولمبي يعتمد على الرميات والتثبيت، لا اللكمات.",
-        "source": "https://www.wikidata.org/wiki/Q90726",
+        "question": "من بطل الدوري الإنجليزي الممتاز في موسم 2021–22؟",
+        "answer": "مانشستر سيتي",
+        "imageAlt": "الدوري الإنجليزي الممتاز",
+        "image": "",
         "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "ساندرا كوبن",
-        "factType": "sport",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2021–22 في الدوري الإنجليزي الممتاز.",
+        "source": "https://www.wikidata.org/wiki/Q105718943",
+        "factType": "football-champion",
+        "footballCompetition": "epl",
         "options": [
-            "جودو",
-            "فرنسا",
+            "نادي آرسنال",
+            "FC Bayern München",
+            "مانشستر سيتي",
+            "نادي إنتر ميلان"
+        ],
+        "acceptedAnswers": [
+            "مانشستر سيتي"
+        ]
+    },
+    {
+        "id": "sports-football-champion-bundesliga-Q103834639",
+        "category": "كورة ورياضة",
+        "difficulty": "سهل",
+        "points": 200,
+        "question": "من بطل الدوري الألماني في موسم 2021–22؟",
+        "answer": "FC Bayern München",
+        "imageAlt": "الدوري الألماني",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2021–22 في الدوري الألماني.",
+        "source": "https://www.wikidata.org/wiki/Q103834639",
+        "factType": "football-champion",
+        "footballCompetition": "bundesliga",
+        "options": [
+            "FC Bayern München",
+            "نادي ليفربول",
+            "نادي نابولي",
+            "ريال مدريد"
+        ],
+        "acceptedAnswers": [
+            "FC Bayern München"
+        ]
+    },
+    {
+        "id": "sports-football-champion-serie-a-Q104599603",
+        "category": "كورة ورياضة",
+        "difficulty": "سهل",
+        "points": 200,
+        "question": "من بطل الدوري الإيطالي في موسم 2021–22؟",
+        "answer": "إيه سي ميلان",
+        "imageAlt": "الدوري الإيطالي",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2021–22 في الدوري الإيطالي.",
+        "source": "https://www.wikidata.org/wiki/Q104599603",
+        "factType": "football-champion",
+        "footballCompetition": "serie-a",
+        "options": [
+            "إيه سي ميلان",
+            "بايرن ميونخ",
+            "نادي برشلونة",
+            "نادي النصر السعودي"
+        ],
+        "acceptedAnswers": [
+            "إيه سي ميلان"
+        ]
+    },
+    {
+        "id": "sports-football-champion-epl-Q69622172",
+        "category": "كورة ورياضة",
+        "difficulty": "سهل",
+        "points": 200,
+        "question": "من بطل الدوري الإنجليزي الممتاز في موسم 2020–21؟",
+        "answer": "مانشستر سيتي",
+        "imageAlt": "الدوري الإنجليزي الممتاز",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2020–21 في الدوري الإنجليزي الممتاز.",
+        "source": "https://www.wikidata.org/wiki/Q69622172",
+        "factType": "football-champion",
+        "footballCompetition": "epl",
+        "options": [
+            "يوفنتوس",
+            "نادي موناكو",
+            "النادي الأهلي (السعودية)",
+            "مانشستر سيتي"
+        ],
+        "acceptedAnswers": [
+            "مانشستر سيتي"
+        ]
+    },
+    {
+        "id": "sports-football-champion-bundesliga-Q66742754",
+        "category": "كورة ورياضة",
+        "difficulty": "سهل",
+        "points": 200,
+        "question": "من بطل الدوري الألماني في موسم 2020–21؟",
+        "answer": "FC Bayern München",
+        "imageAlt": "الدوري الألماني",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2020–21 في الدوري الألماني.",
+        "source": "https://www.wikidata.org/wiki/Q66742754",
+        "factType": "football-champion",
+        "footballCompetition": "bundesliga",
+        "options": [
+            "نادي نابولي",
             "ريال مدريد",
-            "برشلونة"
+            "FC Bayern München",
+            "نادي ليفربول"
+        ],
+        "acceptedAnswers": [
+            "FC Bayern München"
         ]
     },
     {
-        "id": "sports-fact-Q91188",
+        "id": "sports-football-champion-uefa-champions-league-Q63088790",
         "category": "كورة ورياضة",
         "difficulty": "سهل",
         "points": 200,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Anni Biechl».",
-        "answer": "ألعاب القوى",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%23493321%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e87e4b%22%20opacity%3D%22.12%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22125%22%20r%3D%2288%22%20fill%3D%22%23f7eee0%22%20stroke%3D%22%23e98d58%22%20stroke-width%3D%229%22%2F%3E%3Cpath%20d%3D%22M185%2082l38%2028-15%2045h-47l-15-45zM185%2082l-30-23m68%2051%2042-3m-57%2073%208%2037m-61-64-37%2020m75-91%2023-35%22%20fill%3D%22%23343d4c%22%20stroke%3D%22%23343d4c%22%20stroke-width%3D%2213%22%20stroke-linejoin%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e87e4b%22%3ESPORT%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EAnni%20Biechl%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e87e4b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "تندرج ضمن مسابقات المضمار والميدان مثل الجري والقفز والرمي.",
-        "source": "https://www.wikidata.org/wiki/Q91188",
+        "question": "من بطل دوري أبطال أوروبا في موسم 2020–21؟",
+        "answer": "نادي تشيلسي",
+        "imageAlt": "دوري أبطال أوروبا",
+        "image": "",
         "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "Anni Biechl",
-        "factType": "sport",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2020–21 في دوري أبطال أوروبا.",
+        "source": "https://www.wikidata.org/wiki/Q63088790",
+        "factType": "football-champion",
+        "footballCompetition": "uefa-champions-league",
         "options": [
-            "البرازيل",
-            "ألمانيا",
-            "إيطاليا",
-            "ألعاب القوى"
+            "نادي آرسنال",
+            "FC Bayern München",
+            "نادي تشيلسي",
+            "نادي إنتر ميلان"
+        ],
+        "acceptedAnswers": [
+            "نادي تشيلسي"
         ]
     },
     {
-        "id": "sports-fact-Q91408",
+        "id": "sports-football-champion-serie-a-Q92922210",
         "category": "كورة ورياضة",
         "difficulty": "سهل",
         "points": 200,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Sonja Pfeilschifter».",
-        "answer": "الرماية",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/12-06-28-s01-sonja-pfeilschifter-02.jpg?width=900",
-        "hint": "رياضة دقة وتصويب؛ إحداهما تستخدم القوس والأخرى سلاحاً نارياً.",
-        "source": "https://www.wikidata.org/wiki/Q91408",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:12-06-28-s01-sonja-pfeilschifter-02.jpg",
-        "imageKind": "commons",
-        "imageAlt": "Sonja Pfeilschifter",
-        "factType": "sport",
-        "options": [
-            "الرماية",
-            "كرة المضرب",
-            "مبارزة السلاح",
-            "الشطرنج"
-        ]
-    },
-    {
-        "id": "sports-fact-Q91448",
-        "category": "كورة ورياضة",
-        "difficulty": "سهل",
-        "points": 200,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Ines Geipel».",
-        "answer": "الوثب الطويل",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ines%20Geipel.jpg?width=900",
-        "hint": "تندرج ضمن مسابقات المضمار والميدان مثل الجري والقفز والرمي.",
-        "source": "https://www.wikidata.org/wiki/Q91448",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Ines_Geipel.jpg",
-        "imageKind": "commons",
-        "imageAlt": "Ines Geipel",
-        "factType": "sport",
-        "options": [
-            "الوثب الطويل",
-            "الشطرنج",
-            "فروسية",
-            "سباقات السيارات"
-        ]
-    },
-    {
-        "id": "sports-fact-Q91485",
-        "category": "كورة ورياضة",
-        "difficulty": "سهل",
-        "points": 200,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Willy Arend».",
-        "answer": "ركوب الدراجات على المضمار",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Willy%20Arend.jpg?width=900",
-        "hint": "تعتمد على دراجة، وتتنوع بين سباقات الطريق والمضمار والطرق الوعرة.",
-        "source": "https://www.wikidata.org/wiki/Q91485",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Willy_Arend.jpg",
-        "imageKind": "commons",
-        "imageAlt": "Willy Arend",
-        "factType": "sport",
-        "options": [
-            "مبارزة السلاح",
-            "الشطرنج",
-            "فروسية",
-            "ركوب الدراجات على المضمار"
-        ]
-    },
-    {
-        "id": "sports-fact-Q91710",
-        "category": "كورة ورياضة",
-        "difficulty": "سهل",
-        "points": 200,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Heinz Melkus».",
-        "answer": "سباقات السيارات",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20183-82487-0007%2C%20Internationale%20Halle-Saale-Schleife.jpg?width=900",
-        "hint": "رياضة محركات تعتمد على السرعة والتحكم بمركبة آلية على مضمار.",
-        "source": "https://www.wikidata.org/wiki/Q91710",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-82487-0007%2C_Internationale_Halle-Saale-Schleife.jpg",
-        "imageKind": "commons",
-        "imageAlt": "Heinz Melkus",
-        "factType": "sport",
-        "options": [
-            "كرة القدم الأمريكية",
-            "الطيران الشراعي المظلي",
-            "سباقات السيارات",
-            "مصارعة الهواة"
-        ]
-    },
-    {
-        "id": "sports-fact-Q91718",
-        "category": "كورة ورياضة",
-        "difficulty": "سهل",
-        "points": 200,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Heidi Schüller».",
-        "answer": "ألعاب القوى",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Heidi%20Schuller%20Torino%201972%20REST.png?width=900",
-        "hint": "تندرج ضمن مسابقات المضمار والميدان مثل الجري والقفز والرمي.",
-        "source": "https://www.wikidata.org/wiki/Q91718",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Heidi_Schuller_Torino_1972_REST.png",
-        "imageKind": "commons",
-        "imageAlt": "Heidi Schüller",
-        "factType": "sport",
-        "options": [
-            "8 لاعبين",
-            "البرازيل",
-            "ألعاب القوى",
-            "9 لاعبين"
-        ]
-    },
-    {
-        "id": "sports-fact-Q91736",
-        "category": "كورة ورياضة",
-        "difficulty": "سهل",
-        "points": 200,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «ويلي فوجيرير».",
-        "answer": "ركوب الدراجات على المضمار",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Willi%20Fuggerer%20(FRG)%201964.jpg?width=900",
-        "hint": "تعتمد على دراجة، وتتنوع بين سباقات الطريق والمضمار والطرق الوعرة.",
-        "source": "https://www.wikidata.org/wiki/Q91736",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Willi_Fuggerer_(FRG)_1964.jpg",
-        "imageKind": "commons",
-        "imageAlt": "ويلي فوجيرير",
-        "factType": "sport",
-        "options": [
-            "9 لاعبين",
-            "8 لاعبين",
-            "ركوب الدراجات على المضمار",
-            "12 لاعباً"
-        ]
-    },
-    {
-        "id": "sports-fact-Q92281",
-        "category": "كورة ورياضة",
-        "difficulty": "سهل",
-        "points": 200,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Heinz Ollesch».",
-        "answer": "ألعاب القوى ذات قدرة على التحمل",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%23493321%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e87e4b%22%20opacity%3D%22.12%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22125%22%20r%3D%2288%22%20fill%3D%22%23f7eee0%22%20stroke%3D%22%23e98d58%22%20stroke-width%3D%229%22%2F%3E%3Cpath%20d%3D%22M185%2082l38%2028-15%2045h-47l-15-45zM185%2082l-30-23m68%2051%2042-3m-57%2073%208%2037m-61-64-37%2020m75-91%2023-35%22%20fill%3D%22%23343d4c%22%20stroke%3D%22%23343d4c%22%20stroke-width%3D%2213%22%20stroke-linejoin%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e87e4b%22%3ESPORT%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EHeinz%20Ollesch%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e87e4b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "تندرج ضمن مسابقات المضمار والميدان مثل الجري والقفز والرمي.",
-        "source": "https://www.wikidata.org/wiki/Q92281",
+        "question": "من بطل الدوري الإيطالي في موسم 2020–21؟",
+        "answer": "نادي إنتر ميلان",
+        "imageAlt": "الدوري الإيطالي",
+        "image": "",
         "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "Heinz Ollesch",
-        "factType": "sport",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2020–21 في الدوري الإيطالي.",
+        "source": "https://www.wikidata.org/wiki/Q92922210",
+        "factType": "football-champion",
+        "footballCompetition": "serie-a",
         "options": [
-            "إيطاليا",
-            "الأرجنتين",
-            "ألعاب القوى ذات قدرة على التحمل",
-            "ألمانيا"
-        ]
-    },
-    {
-        "id": "sports-fact-Q92441",
-        "category": "كورة ورياضة",
-        "difficulty": "سهل",
-        "points": 200,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Gunther Tiersch».",
-        "answer": "التجديف",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%23493321%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e87e4b%22%20opacity%3D%22.12%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22125%22%20r%3D%2288%22%20fill%3D%22%23f7eee0%22%20stroke%3D%22%23e98d58%22%20stroke-width%3D%229%22%2F%3E%3Cpath%20d%3D%22M185%2082l38%2028-15%2045h-47l-15-45zM185%2082l-30-23m68%2051%2042-3m-57%2073%208%2037m-61-64-37%2020m75-91%2023-35%22%20fill%3D%22%23343d4c%22%20stroke%3D%22%23343d4c%22%20stroke-width%3D%2213%22%20stroke-linejoin%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e87e4b%22%3ESPORT%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EGunther%20Tiersch%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e87e4b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "رياضة مائية تستخدم قارباً ومجاديف، وتقام سباقاتها في مسارات مائية.",
-        "source": "https://www.wikidata.org/wiki/Q92441",
-        "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "Gunther Tiersch",
-        "factType": "sport",
-        "options": [
-            "التجديف",
-            "الوثب الطويل",
-            "ألعاب القوى ذات قدرة على التحمل",
-            "ترويض الخيول"
-        ]
-    },
-    {
-        "id": "sports-fact-Q92491",
-        "category": "كورة ورياضة",
-        "difficulty": "سهل",
-        "points": 200,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «بيرند مارتن».",
-        "answer": "كرة القدم",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%23493321%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e87e4b%22%20opacity%3D%22.12%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22125%22%20r%3D%2288%22%20fill%3D%22%23f7eee0%22%20stroke%3D%22%23e98d58%22%20stroke-width%3D%229%22%2F%3E%3Cpath%20d%3D%22M185%2082l38%2028-15%2045h-47l-15-45zM185%2082l-30-23m68%2051%2042-3m-57%2073%208%2037m-61-64-37%2020m75-91%2023-35%22%20fill%3D%22%23343d4c%22%20stroke%3D%22%23343d4c%22%20stroke-width%3D%2213%22%20stroke-linejoin%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e87e4b%22%3ESPORT%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D8%A8%D9%8A%D8%B1%D9%86%D8%AF%20%D9%85%D8%A7%D8%B1%D8%AA%D9%86%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e87e4b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "رياضة جماعية يحاول فيها اللاعبون تسجيل الأهداف بالقدم، باستثناء الحارس.",
-        "source": "https://www.wikidata.org/wiki/Q92491",
-        "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "بيرند مارتن",
-        "factType": "sport",
-        "options": [
-            "فرنسا",
-            "كرة القدم",
-            "إيطاليا",
-            "الأرجنتين"
-        ]
-    },
-    {
-        "id": "sports-fact-Q93507",
-        "category": "كورة ورياضة",
-        "difficulty": "سهل",
-        "points": 200,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «أوتو هيرشمان».",
-        "answer": "مبارزة السلاح",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%23493321%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e87e4b%22%20opacity%3D%22.12%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22125%22%20r%3D%2288%22%20fill%3D%22%23f7eee0%22%20stroke%3D%22%23e98d58%22%20stroke-width%3D%229%22%2F%3E%3Cpath%20d%3D%22M185%2082l38%2028-15%2045h-47l-15-45zM185%2082l-30-23m68%2051%2042-3m-57%2073%208%2037m-61-64-37%2020m75-91%2023-35%22%20fill%3D%22%23343d4c%22%20stroke%3D%22%23343d4c%22%20stroke-width%3D%2213%22%20stroke-linejoin%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e87e4b%22%3ESPORT%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D8%A3%D9%88%D8%AA%D9%88%20%D9%87%D9%8A%D8%B1%D8%B4%D9%85%D8%A7%D9%86%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e87e4b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "رياضة نزال بالسيف، ولها أسلحة أولمبية بثلاثة أنواع.",
-        "source": "https://www.wikidata.org/wiki/Q93507",
-        "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "أوتو هيرشمان",
-        "factType": "sport",
-        "options": [
-            "المصارعة المحترفة",
-            "الجمباز",
-            "مبارزة السلاح",
-            "السباحة"
-        ]
-    },
-    {
-        "id": "sports-fact-Q95173",
-        "category": "كورة ورياضة",
-        "difficulty": "سهل",
-        "points": 200,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «هيدي شميد».",
-        "answer": "مبارزة السلاح",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Heidi%20Schmid%201960.jpg?width=900",
-        "hint": "رياضة نزال بالسيف، ولها أسلحة أولمبية بثلاثة أنواع.",
-        "source": "https://www.wikidata.org/wiki/Q95173",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Heidi_Schmid_1960.jpg",
-        "imageKind": "commons",
-        "imageAlt": "هيدي شميد",
-        "factType": "sport",
-        "options": [
-            "11 لاعباً",
-            "10 لاعبين",
-            "12 لاعباً",
-            "مبارزة السلاح"
-        ]
-    },
-    {
-        "id": "sports-fact-Q95309",
-        "category": "كورة ورياضة",
-        "difficulty": "سهل",
-        "points": 200,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Anthony Baffoe».",
-        "answer": "كرة القدم",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%23493321%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e87e4b%22%20opacity%3D%22.12%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22125%22%20r%3D%2288%22%20fill%3D%22%23f7eee0%22%20stroke%3D%22%23e98d58%22%20stroke-width%3D%229%22%2F%3E%3Cpath%20d%3D%22M185%2082l38%2028-15%2045h-47l-15-45zM185%2082l-30-23m68%2051%2042-3m-57%2073%208%2037m-61-64-37%2020m75-91%2023-35%22%20fill%3D%22%23343d4c%22%20stroke%3D%22%23343d4c%22%20stroke-width%3D%2213%22%20stroke-linejoin%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e87e4b%22%3ESPORT%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EAnthony%20Baffoe%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e87e4b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "رياضة جماعية يحاول فيها اللاعبون تسجيل الأهداف بالقدم، باستثناء الحارس.",
-        "source": "https://www.wikidata.org/wiki/Q95309",
-        "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "Anthony Baffoe",
-        "factType": "sport",
-        "options": [
-            "كرة القدم",
-            "9 لاعبين",
-            "8 لاعبين",
-            "البرازيل"
-        ]
-    },
-    {
-        "id": "sports-fact-Q95519",
-        "category": "كورة ورياضة",
-        "difficulty": "سهل",
-        "points": 200,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Klaus Balkenhol».",
-        "answer": "ترويض الخيول",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bianca%20Kasselmann%20und%20Klaus%20Balkenhol%20-%20Hamburg%202013.JPG?width=900",
-        "hint": "تُمارس على ظهور الخيل، وتتضمن منافسات قفز الحواجز أو الترويض.",
-        "source": "https://www.wikidata.org/wiki/Q95519",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Bianca_Kasselmann_und_Klaus_Balkenhol_-_Hamburg_2013.JPG",
-        "imageKind": "commons",
-        "imageAlt": "Klaus Balkenhol",
-        "factType": "sport",
-        "options": [
-            "8 لاعبين",
-            "البرازيل",
-            "ألمانيا",
-            "ترويض الخيول"
-        ]
-    },
-    {
-        "id": "sports-fact-Q96010",
-        "category": "كورة ورياضة",
-        "difficulty": "سهل",
-        "points": 200,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «شتيفان شميد».",
-        "answer": "ألعاب القوى",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%23493321%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e87e4b%22%20opacity%3D%22.12%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22125%22%20r%3D%2288%22%20fill%3D%22%23f7eee0%22%20stroke%3D%22%23e98d58%22%20stroke-width%3D%229%22%2F%3E%3Cpath%20d%3D%22M185%2082l38%2028-15%2045h-47l-15-45zM185%2082l-30-23m68%2051%2042-3m-57%2073%208%2037m-61-64-37%2020m75-91%2023-35%22%20fill%3D%22%23343d4c%22%20stroke%3D%22%23343d4c%22%20stroke-width%3D%2213%22%20stroke-linejoin%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e87e4b%22%3ESPORT%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D8%B4%D8%AA%D9%8A%D9%81%D8%A7%D9%86%20%D8%B4%D9%85%D9%8A%D8%AF%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e87e4b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "تندرج ضمن مسابقات المضمار والميدان مثل الجري والقفز والرمي.",
-        "source": "https://www.wikidata.org/wiki/Q96010",
-        "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "شتيفان شميد",
-        "factType": "sport",
-        "options": [
-            "جودو",
-            "الرماية",
-            "ألعاب القوى",
-            "ركوب الدراجات على المضمار"
-        ]
-    },
-    {
-        "id": "sports-fact-Q96088",
-        "category": "كورة ورياضة",
-        "difficulty": "سهل",
-        "points": 200,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Kristin Boese».",
-        "answer": "كرة اليد",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kristin%20Boese%20KB%20signature%20board.jpg?width=900",
-        "hint": "رياضة صالات سريعة، يسجل فيها اللاعبون برمي الكرة إلى مرمى الخصم.",
-        "source": "https://www.wikidata.org/wiki/Q96088",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Kristin_Boese_KB_signature_board.jpg",
-        "imageKind": "commons",
-        "imageAlt": "Kristin Boese",
-        "factType": "sport",
-        "options": [
-            "الملاكمة",
-            "كرة اليد",
-            "إشبيلية",
-            "فالنسيا"
-        ]
-    },
-    {
-        "id": "sports-fact-Q97040",
-        "category": "كورة ورياضة",
-        "difficulty": "سهل",
-        "points": 200,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «ايغون أدلر».",
-        "answer": "سباقات الدراجات على الطريق",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Egon%20Adler%2C%20XIII.%20Friedensfahrt.jpg?width=900",
-        "hint": "تعتمد على دراجة، وتتنوع بين سباقات الطريق والمضمار والطرق الوعرة.",
-        "source": "https://www.wikidata.org/wiki/Q97040",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Egon_Adler%2C_XIII._Friedensfahrt.jpg",
-        "imageKind": "commons",
-        "imageAlt": "ايغون أدلر",
-        "factType": "sport",
-        "options": [
-            "رياضة دراجات نارية",
-            "جمباز القفز",
-            "سباقات الدراجات على الطريق",
-            "ألعاب القوى"
-        ]
-    },
-    {
-        "id": "sports-fact-Q97714",
-        "category": "كورة ورياضة",
-        "difficulty": "سهل",
-        "points": 200,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Paul Gnaier».",
-        "answer": "مبارزة السلاح",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%23493321%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e87e4b%22%20opacity%3D%22.12%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22125%22%20r%3D%2288%22%20fill%3D%22%23f7eee0%22%20stroke%3D%22%23e98d58%22%20stroke-width%3D%229%22%2F%3E%3Cpath%20d%3D%22M185%2082l38%2028-15%2045h-47l-15-45zM185%2082l-30-23m68%2051%2042-3m-57%2073%208%2037m-61-64-37%2020m75-91%2023-35%22%20fill%3D%22%23343d4c%22%20stroke%3D%22%23343d4c%22%20stroke-width%3D%2213%22%20stroke-linejoin%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e87e4b%22%3ESPORT%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EPaul%20Gnaier%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e87e4b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "رياضة نزال بالسيف، ولها أسلحة أولمبية بثلاثة أنواع.",
-        "source": "https://www.wikidata.org/wiki/Q97714",
-        "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "Paul Gnaier",
-        "factType": "sport",
-        "options": [
-            "مبارزة السلاح",
-            "الملاكمة",
-            "البياثلون",
-            "كرة المضرب"
-        ]
-    },
-    {
-        "id": "sports-fact-Q97752",
-        "category": "كورة ورياضة",
-        "difficulty": "سهل",
-        "points": 200,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Katharina Bullin».",
-        "answer": "الكرة الطائرة",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%23493321%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e87e4b%22%20opacity%3D%22.12%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22125%22%20r%3D%2288%22%20fill%3D%22%23f7eee0%22%20stroke%3D%22%23e98d58%22%20stroke-width%3D%229%22%2F%3E%3Cpath%20d%3D%22M185%2082l38%2028-15%2045h-47l-15-45zM185%2082l-30-23m68%2051%2042-3m-57%2073%208%2037m-61-64-37%2020m75-91%2023-35%22%20fill%3D%22%23343d4c%22%20stroke%3D%22%23343d4c%22%20stroke-width%3D%2213%22%20stroke-linejoin%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e87e4b%22%3ESPORT%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EKatharina%20Bullin%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e87e4b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "يتبادل فريقان الكرة فوق شبكة، ويُمنع إمساكها أو حملها.",
-        "source": "https://www.wikidata.org/wiki/Q97752",
-        "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "Katharina Bullin",
-        "factType": "sport",
-        "options": [
-            "البياثلون",
-            "كرة المضرب",
-            "الكرة الطائرة",
-            "الملاكمة"
-        ]
-    },
-    {
-        "id": "sports-fact-Q97849",
-        "category": "كورة ورياضة",
-        "difficulty": "سهل",
-        "points": 200,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Hans-Michael Holczer».",
-        "answer": "سباقات الدراجات على الطريق",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/HMHolczer%202011.JPG?width=900",
-        "hint": "تعتمد على دراجة، وتتنوع بين سباقات الطريق والمضمار والطرق الوعرة.",
-        "source": "https://www.wikidata.org/wiki/Q97849",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:HMHolczer_2011.JPG",
-        "imageKind": "commons",
-        "imageAlt": "Hans-Michael Holczer",
-        "factType": "sport",
-        "options": [
-            "الكرة الطائرة",
-            "سباقات الدراجات على الطريق",
-            "ألعاب القوى ذات قدرة على التحمل",
-            "ترويض الخيول"
-        ]
-    },
-    {
-        "id": "sports-fact-Q98306",
-        "category": "كورة ورياضة",
-        "difficulty": "سهل",
-        "points": 200,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Armin Emrich».",
-        "answer": "كرة اليد",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Armin%20Emrich%2001.jpg?width=900",
-        "hint": "رياضة صالات سريعة، يسجل فيها اللاعبون برمي الكرة إلى مرمى الخصم.",
-        "source": "https://www.wikidata.org/wiki/Q98306",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Armin_Emrich_01.jpg",
-        "imageKind": "commons",
-        "imageAlt": "Armin Emrich",
-        "factType": "sport",
-        "options": [
-            "فرنسا",
+            "نادي إنتر ميلان",
+            "نادي نابولي",
             "ريال مدريد",
-            "كرة اليد",
-            "الأرجنتين"
+            "مانشستر سيتي"
+        ],
+        "acceptedAnswers": [
+            "نادي إنتر ميلان"
         ]
     },
     {
-        "id": "sports-fact-Q98491",
-        "category": "كورة ورياضة",
-        "difficulty": "سهل",
-        "points": 200,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «كلاوس امبلر».",
-        "answer": "رياضة دراجات هوائية",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Klaus%20Ampler%202.jpg?width=900",
-        "hint": "تعتمد على دراجة، وتتنوع بين سباقات الطريق والمضمار والطرق الوعرة.",
-        "source": "https://www.wikidata.org/wiki/Q98491",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Klaus_Ampler_2.jpg",
-        "imageKind": "commons",
-        "imageAlt": "كلاوس امبلر",
-        "factType": "sport",
-        "options": [
-            "كمال الأجسام",
-            "كرة اليد",
-            "كانو-كاياك",
-            "رياضة دراجات هوائية"
-        ]
-    },
-    {
-        "id": "sports-fact-Q99285",
-        "category": "كورة ورياضة",
-        "difficulty": "سهل",
-        "points": 200,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «هاينز روزنر».",
-        "answer": "رياضة دراجات نارية",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Heinz%20Rosner%2C%202010%20(cropped).jpg?width=900",
-        "hint": "رياضة محركات تعتمد على السرعة والتحكم بمركبة آلية على مضمار.",
-        "source": "https://www.wikidata.org/wiki/Q99285",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Heinz_Rosner%2C_2010_(cropped).jpg",
-        "imageKind": "commons",
-        "imageAlt": "هاينز روزنر",
-        "factType": "sport",
-        "options": [
-            "الغولف",
-            "رياضة دراجات نارية",
-            "الجمباز",
-            "ركوب الأمواج"
-        ]
-    },
-    {
-        "id": "sports-fact-Q99417",
-        "category": "كورة ورياضة",
-        "difficulty": "سهل",
-        "points": 200,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Roland Baar».",
-        "answer": "التجديف",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%23493321%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e87e4b%22%20opacity%3D%22.12%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22125%22%20r%3D%2288%22%20fill%3D%22%23f7eee0%22%20stroke%3D%22%23e98d58%22%20stroke-width%3D%229%22%2F%3E%3Cpath%20d%3D%22M185%2082l38%2028-15%2045h-47l-15-45zM185%2082l-30-23m68%2051%2042-3m-57%2073%208%2037m-61-64-37%2020m75-91%2023-35%22%20fill%3D%22%23343d4c%22%20stroke%3D%22%23343d4c%22%20stroke-width%3D%2213%22%20stroke-linejoin%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e87e4b%22%3ESPORT%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3ERoland%20Baar%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e87e4b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "رياضة مائية تستخدم قارباً ومجاديف، وتقام سباقاتها في مسارات مائية.",
-        "source": "https://www.wikidata.org/wiki/Q99417",
-        "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "Roland Baar",
-        "factType": "sport",
-        "options": [
-            "الجمباز",
-            "ركوب الأمواج",
-            "التجديف",
-            "المصارعة المحترفة"
-        ]
-    },
-    {
-        "id": "sports-fact-Q99754",
-        "category": "كورة ورياضة",
-        "difficulty": "سهل",
-        "points": 200,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «ساشا ماير».",
-        "answer": "كرة القدم",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%23493321%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e87e4b%22%20opacity%3D%22.12%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22125%22%20r%3D%2288%22%20fill%3D%22%23f7eee0%22%20stroke%3D%22%23e98d58%22%20stroke-width%3D%229%22%2F%3E%3Cpath%20d%3D%22M185%2082l38%2028-15%2045h-47l-15-45zM185%2082l-30-23m68%2051%2042-3m-57%2073%208%2037m-61-64-37%2020m75-91%2023-35%22%20fill%3D%22%23343d4c%22%20stroke%3D%22%23343d4c%22%20stroke-width%3D%2213%22%20stroke-linejoin%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e87e4b%22%3ESPORT%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D8%B3%D8%A7%D8%B4%D8%A7%20%D9%85%D8%A7%D9%8A%D8%B1%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e87e4b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "رياضة جماعية يحاول فيها اللاعبون تسجيل الأهداف بالقدم، باستثناء الحارس.",
-        "source": "https://www.wikidata.org/wiki/Q99754",
-        "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "ساشا ماير",
-        "factType": "sport",
-        "options": [
-            "9 لاعبين",
-            "8 لاعبين",
-            "كرة القدم",
-            "12 لاعباً"
-        ]
-    },
-    {
-        "id": "sports-fact-Q101498",
-        "category": "كورة ورياضة",
-        "difficulty": "سهل",
-        "points": 200,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «مارتينا ويلينغ».",
-        "answer": "البياثلون",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/2024%20UEC%20Track%20Jun%20%26%20U23%20European%20Championships%20017.jpg?width=900",
-        "hint": "تجمع بين التزلج الريفي لمسافات طويلة والرماية بالبندقية.",
-        "source": "https://www.wikidata.org/wiki/Q101498",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:2024_UEC_Track_Jun_%26_U23_European_Championships_017.jpg",
-        "imageKind": "commons",
-        "imageAlt": "مارتينا ويلينغ",
-        "factType": "sport",
-        "options": [
-            "مصارعة الهواة",
-            "كرة القدم الأمريكية",
-            "الطيران الشراعي المظلي",
-            "البياثلون"
-        ]
-    },
-    {
-        "id": "sports-fact-Q101839",
-        "category": "كورة ورياضة",
-        "difficulty": "سهل",
-        "points": 200,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «بول ألبرت».",
-        "answer": "رياضة دراجات هوائية",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Paul%20Albert.jpg?width=900",
-        "hint": "تعتمد على دراجة، وتتنوع بين سباقات الطريق والمضمار والطرق الوعرة.",
-        "source": "https://www.wikidata.org/wiki/Q101839",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Paul_Albert.jpg",
-        "imageKind": "commons",
-        "imageAlt": "بول ألبرت",
-        "factType": "sport",
-        "options": [
-            "رياضة دراجات هوائية",
-            "كرة الماء",
-            "مصارعة الهواة",
-            "كرة القدم الأمريكية"
-        ]
-    },
-    {
-        "id": "sports-fact-Q101942",
-        "category": "كورة ورياضة",
-        "difficulty": "سهل",
-        "points": 200,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «بآفو نورمي».",
-        "answer": "ألعاب القوى",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Paavo%20Nurmi%20(Antwerp%201920).jpg?width=900",
-        "hint": "تندرج ضمن مسابقات المضمار والميدان مثل الجري والقفز والرمي.",
-        "source": "https://www.wikidata.org/wiki/Q101942",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Paavo_Nurmi_(Antwerp_1920).jpg",
-        "imageKind": "commons",
-        "imageAlt": "بآفو نورمي",
-        "factType": "sport",
-        "options": [
-            "9 لاعبين",
-            "8 لاعبين",
-            "البرازيل",
-            "ألعاب القوى"
-        ]
-    },
-    {
-        "id": "sports-fact-Q102391",
-        "category": "كورة ورياضة",
-        "difficulty": "سهل",
-        "points": 200,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Andreas Schweiger».",
-        "answer": "البياثلون",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%23493321%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e87e4b%22%20opacity%3D%22.12%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22125%22%20r%3D%2288%22%20fill%3D%22%23f7eee0%22%20stroke%3D%22%23e98d58%22%20stroke-width%3D%229%22%2F%3E%3Cpath%20d%3D%22M185%2082l38%2028-15%2045h-47l-15-45zM185%2082l-30-23m68%2051%2042-3m-57%2073%208%2037m-61-64-37%2020m75-91%2023-35%22%20fill%3D%22%23343d4c%22%20stroke%3D%22%23343d4c%22%20stroke-width%3D%2213%22%20stroke-linejoin%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e87e4b%22%3ESPORT%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EAndreas%20Schweiger%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e87e4b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "تجمع بين التزلج الريفي لمسافات طويلة والرماية بالبندقية.",
-        "source": "https://www.wikidata.org/wiki/Q102391",
-        "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "Andreas Schweiger",
-        "factType": "sport",
-        "options": [
-            "البياثلون",
-            "رياضة دراجات نارية",
-            "جمباز القفز",
-            "رياضة دراجات هوائية"
-        ]
-    },
-    {
-        "id": "sports-fact-Q102618",
-        "category": "كورة ورياضة",
-        "difficulty": "سهل",
-        "points": 200,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Kurt Pinkall».",
-        "answer": "كرة القدم",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%23493321%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e87e4b%22%20opacity%3D%22.12%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22125%22%20r%3D%2288%22%20fill%3D%22%23f7eee0%22%20stroke%3D%22%23e98d58%22%20stroke-width%3D%229%22%2F%3E%3Cpath%20d%3D%22M185%2082l38%2028-15%2045h-47l-15-45zM185%2082l-30-23m68%2051%2042-3m-57%2073%208%2037m-61-64-37%2020m75-91%2023-35%22%20fill%3D%22%23343d4c%22%20stroke%3D%22%23343d4c%22%20stroke-width%3D%2213%22%20stroke-linejoin%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e87e4b%22%3ESPORT%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EKurt%20Pinkall%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e87e4b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "رياضة جماعية يحاول فيها اللاعبون تسجيل الأهداف بالقدم، باستثناء الحارس.",
-        "source": "https://www.wikidata.org/wiki/Q102618",
-        "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "Kurt Pinkall",
-        "factType": "sport",
-        "options": [
-            "هوكي الجليد",
-            "السباحة",
-            "كرة القدم",
-            "نبالة"
-        ]
-    },
-    {
-        "id": "sports-fact-Q103009",
-        "category": "كورة ورياضة",
-        "difficulty": "سهل",
-        "points": 200,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Nadine Hentschke».",
-        "answer": "ألعاب القوى",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%23493321%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e87e4b%22%20opacity%3D%22.12%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22125%22%20r%3D%2288%22%20fill%3D%22%23f7eee0%22%20stroke%3D%22%23e98d58%22%20stroke-width%3D%229%22%2F%3E%3Cpath%20d%3D%22M185%2082l38%2028-15%2045h-47l-15-45zM185%2082l-30-23m68%2051%2042-3m-57%2073%208%2037m-61-64-37%2020m75-91%2023-35%22%20fill%3D%22%23343d4c%22%20stroke%3D%22%23343d4c%22%20stroke-width%3D%2213%22%20stroke-linejoin%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e87e4b%22%3ESPORT%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3ENadine%20Hentschke%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e87e4b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "تندرج ضمن مسابقات المضمار والميدان مثل الجري والقفز والرمي.",
-        "source": "https://www.wikidata.org/wiki/Q103009",
-        "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "Nadine Hentschke",
-        "factType": "sport",
-        "options": [
-            "ألمانيا",
-            "إيطاليا",
-            "الأرجنتين",
-            "ألعاب القوى"
-        ]
-    },
-    {
-        "id": "sports-fact-Q104009",
-        "category": "كورة ورياضة",
-        "difficulty": "سهل",
-        "points": 200,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «مايكل زاور».",
-        "answer": "ألعاب القوى",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%23493321%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e87e4b%22%20opacity%3D%22.12%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22125%22%20r%3D%2288%22%20fill%3D%22%23f7eee0%22%20stroke%3D%22%23e98d58%22%20stroke-width%3D%229%22%2F%3E%3Cpath%20d%3D%22M185%2082l38%2028-15%2045h-47l-15-45zM185%2082l-30-23m68%2051%2042-3m-57%2073%208%2037m-61-64-37%2020m75-91%2023-35%22%20fill%3D%22%23343d4c%22%20stroke%3D%22%23343d4c%22%20stroke-width%3D%2213%22%20stroke-linejoin%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e87e4b%22%3ESPORT%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D9%85%D8%A7%D9%8A%D9%83%D9%84%20%D8%B2%D8%A7%D9%88%D8%B1%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e87e4b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "تندرج ضمن مسابقات المضمار والميدان مثل الجري والقفز والرمي.",
-        "source": "https://www.wikidata.org/wiki/Q104009",
-        "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "مايكل زاور",
-        "factType": "sport",
-        "options": [
-            "ألعاب القوى",
-            "التزحلف",
-            "رفع الأثقال",
-            "التجديف"
-        ]
-    },
-    {
-        "id": "sports-fact-Q104120",
-        "category": "كورة ورياضة",
-        "difficulty": "سهل",
-        "points": 200,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Elisabeth Eichholz».",
-        "answer": "رياضة دراجات هوائية",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%23493321%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e87e4b%22%20opacity%3D%22.12%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22125%22%20r%3D%2288%22%20fill%3D%22%23f7eee0%22%20stroke%3D%22%23e98d58%22%20stroke-width%3D%229%22%2F%3E%3Cpath%20d%3D%22M185%2082l38%2028-15%2045h-47l-15-45zM185%2082l-30-23m68%2051%2042-3m-57%2073%208%2037m-61-64-37%2020m75-91%2023-35%22%20fill%3D%22%23343d4c%22%20stroke%3D%22%23343d4c%22%20stroke-width%3D%2213%22%20stroke-linejoin%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e87e4b%22%3ESPORT%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EElisabeth%20Eichholz%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e87e4b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "تعتمد على دراجة، وتتنوع بين سباقات الطريق والمضمار والطرق الوعرة.",
-        "source": "https://www.wikidata.org/wiki/Q104120",
-        "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "Elisabeth Eichholz",
-        "factType": "sport",
-        "options": [
-            "إيطاليا",
-            "الأرجنتين",
-            "رياضة دراجات هوائية",
-            "ألمانيا"
-        ]
-    },
-    {
-        "id": "sports-fact-Q104864",
-        "category": "كورة ورياضة",
-        "difficulty": "سهل",
-        "points": 200,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Markus Rehm».",
-        "answer": "ألعاب القوى",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Markus%20Rehm%20Rio2016b%20cr.jpg?width=900",
-        "hint": "تندرج ضمن مسابقات المضمار والميدان مثل الجري والقفز والرمي.",
-        "source": "https://www.wikidata.org/wiki/Q104864",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Markus_Rehm_Rio2016b_cr.jpg",
-        "imageKind": "commons",
-        "imageAlt": "Markus Rehm",
-        "factType": "sport",
-        "options": [
-            "التزحلف",
-            "رفع الأثقال",
-            "التجديف",
-            "ألعاب القوى"
-        ]
-    },
-    {
-        "id": "sports-fact-Q105318",
-        "category": "كورة ورياضة",
-        "difficulty": "سهل",
-        "points": 200,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Richard von Frankenberg».",
-        "answer": "سباقات السيارات",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Porsche-Team%2C%20Huschke%20von%20Hanstein.jpg?width=900",
-        "hint": "رياضة محركات تعتمد على السرعة والتحكم بمركبة آلية على مضمار.",
-        "source": "https://www.wikidata.org/wiki/Q105318",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Porsche-Team%2C_Huschke_von_Hanstein.jpg",
-        "imageKind": "commons",
-        "imageAlt": "Richard von Frankenberg",
-        "factType": "sport",
-        "options": [
-            "سباقات السيارات",
-            "ترويض الخيول",
-            "سباقات الدراجات على الطريق",
-            "الكرة الطائرة"
-        ]
-    },
-    {
-        "id": "sports-fact-Q105601",
-        "category": "كورة ورياضة",
-        "difficulty": "سهل",
-        "points": 200,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Walter Feist».",
-        "answer": "سباق المزلجات",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20183-23342-1307%2C%20Oberhof%2C%20DDR-Rodelmeisterschaften%2C%20Feist.jpg?width=900",
-        "hint": "رياضة شتوية تُمارس على الثلج أو الجليد باستخدام الزلاجات.",
-        "source": "https://www.wikidata.org/wiki/Q105601",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-23342-1307%2C_Oberhof%2C_DDR-Rodelmeisterschaften%2C_Feist.jpg",
-        "imageKind": "commons",
-        "imageAlt": "Walter Feist",
-        "factType": "sport",
-        "options": [
-            "الملاكمة",
-            "البياثلون",
-            "كرة المضرب",
-            "سباق المزلجات"
-        ]
-    },
-    {
-        "id": "sports-fact-Q105862",
-        "category": "كورة ورياضة",
-        "difficulty": "سهل",
-        "points": 200,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Otto Ley».",
-        "answer": "رياضة دراجات نارية",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%23493321%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e87e4b%22%20opacity%3D%22.12%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22125%22%20r%3D%2288%22%20fill%3D%22%23f7eee0%22%20stroke%3D%22%23e98d58%22%20stroke-width%3D%229%22%2F%3E%3Cpath%20d%3D%22M185%2082l38%2028-15%2045h-47l-15-45zM185%2082l-30-23m68%2051%2042-3m-57%2073%208%2037m-61-64-37%2020m75-91%2023-35%22%20fill%3D%22%23343d4c%22%20stroke%3D%22%23343d4c%22%20stroke-width%3D%2213%22%20stroke-linejoin%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e87e4b%22%3ESPORT%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EOtto%20Ley%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e87e4b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "رياضة محركات تعتمد على السرعة والتحكم بمركبة آلية على مضمار.",
-        "source": "https://www.wikidata.org/wiki/Q105862",
-        "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "Otto Ley",
-        "factType": "sport",
-        "options": [
-            "الغولف",
-            "التزلج الألبي",
-            "رياضة دراجات نارية",
-            "ركوب الأمواج"
-        ]
-    },
-    {
-        "id": "sports-fact-Q106359",
+        "id": "sports-football-champion-ligue-1-Q92604658",
         "category": "كورة ورياضة",
         "difficulty": "متوسط",
         "points": 300,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Eberhard Mehl».",
-        "answer": "مبارزة السلاح",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%23493321%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e87e4b%22%20opacity%3D%22.12%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22125%22%20r%3D%2288%22%20fill%3D%22%23f7eee0%22%20stroke%3D%22%23e98d58%22%20stroke-width%3D%229%22%2F%3E%3Cpath%20d%3D%22M185%2082l38%2028-15%2045h-47l-15-45zM185%2082l-30-23m68%2051%2042-3m-57%2073%208%2037m-61-64-37%2020m75-91%2023-35%22%20fill%3D%22%23343d4c%22%20stroke%3D%22%23343d4c%22%20stroke-width%3D%2213%22%20stroke-linejoin%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e87e4b%22%3ESPORT%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EEberhard%20Mehl%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e87e4b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "رياضة نزال بالسيف، ولها أسلحة أولمبية بثلاثة أنواع.",
-        "source": "https://www.wikidata.org/wiki/Q106359",
+        "question": "من بطل الدوري الفرنسي في موسم 2020–21؟",
+        "answer": "نادي ليل",
+        "imageAlt": "الدوري الفرنسي",
+        "image": "",
         "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "Eberhard Mehl",
-        "factType": "sport",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2020–21 في الدوري الفرنسي.",
+        "source": "https://www.wikidata.org/wiki/Q92604658",
+        "factType": "football-champion",
+        "footballCompetition": "ligue-1",
         "options": [
-            "مبارزة السلاح",
-            "12 لاعباً",
-            "9 لاعبين",
-            "8 لاعبين"
+            "FC Bayern München",
+            "نادي ليفربول",
+            "نادي نابولي",
+            "نادي ليل"
+        ],
+        "acceptedAnswers": [
+            "نادي ليل"
         ]
     },
     {
-        "id": "sports-fact-Q107437",
+        "id": "sports-football-champion-laliga-Q76412544",
         "category": "كورة ورياضة",
         "difficulty": "متوسط",
         "points": 300,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Christian Bahmann».",
-        "answer": "كانو-كاياك",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%23493321%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e87e4b%22%20opacity%3D%22.12%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22125%22%20r%3D%2288%22%20fill%3D%22%23f7eee0%22%20stroke%3D%22%23e98d58%22%20stroke-width%3D%229%22%2F%3E%3Cpath%20d%3D%22M185%2082l38%2028-15%2045h-47l-15-45zM185%2082l-30-23m68%2051%2042-3m-57%2073%208%2037m-61-64-37%2020m75-91%2023-35%22%20fill%3D%22%23343d4c%22%20stroke%3D%22%23343d4c%22%20stroke-width%3D%2213%22%20stroke-linejoin%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e87e4b%22%3ESPORT%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EChristian%20Bahmann%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e87e4b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "رياضة مائية تستخدم قارباً ومجاديف، وتقام سباقاتها في مسارات مائية.",
-        "source": "https://www.wikidata.org/wiki/Q107437",
+        "question": "من بطل الدوري الإسباني في موسم 2020–21؟",
+        "answer": "أتلتيكو مدريد",
+        "imageAlt": "الدوري الإسباني",
+        "image": "",
         "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "Christian Bahmann",
-        "factType": "sport",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2020–21 في الدوري الإسباني.",
+        "source": "https://www.wikidata.org/wiki/Q76412544",
+        "factType": "football-champion",
+        "footballCompetition": "laliga",
         "options": [
-            "كانو-كاياك",
-            "إيطاليا",
-            "الأرجنتين",
-            "فرنسا"
-        ]
-    },
-    {
-        "id": "sports-fact-Q108303",
-        "category": "كورة ورياضة",
-        "difficulty": "متوسط",
-        "points": 300,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «جورج دريشر».",
-        "answer": "رفع الأثقال",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%23493321%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e87e4b%22%20opacity%3D%22.12%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22125%22%20r%3D%2288%22%20fill%3D%22%23f7eee0%22%20stroke%3D%22%23e98d58%22%20stroke-width%3D%229%22%2F%3E%3Cpath%20d%3D%22M185%2082l38%2028-15%2045h-47l-15-45zM185%2082l-30-23m68%2051%2042-3m-57%2073%208%2037m-61-64-37%2020m75-91%2023-35%22%20fill%3D%22%23343d4c%22%20stroke%3D%22%23343d4c%22%20stroke-width%3D%2213%22%20stroke-linejoin%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e87e4b%22%3ESPORT%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D8%AC%D9%88%D8%B1%D8%AC%20%D8%AF%D8%B1%D9%8A%D8%B4%D8%B1%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e87e4b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "رياضة أولمبية يحاول فيها المتنافس رفع أثقل وزن ممكن في رفعتين.",
-        "source": "https://www.wikidata.org/wiki/Q108303",
-        "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "جورج دريشر",
-        "factType": "sport",
-        "options": [
-            "فرنسا",
-            "ريال مدريد",
-            "برشلونة",
-            "رفع الأثقال"
-        ]
-    },
-    {
-        "id": "sports-fact-Q109085",
-        "category": "كورة ورياضة",
-        "difficulty": "متوسط",
-        "points": 300,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Wilhelm Paulcke».",
-        "answer": "التزحلف",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Wilhelm%20Paulcke%201898.jpg?width=900",
-        "hint": "رياضة شتوية تُمارس على الثلج أو الجليد باستخدام الزلاجات.",
-        "source": "https://www.wikidata.org/wiki/Q109085",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Wilhelm_Paulcke_1898.jpg",
-        "imageKind": "commons",
-        "imageAlt": "Wilhelm Paulcke",
-        "factType": "sport",
-        "options": [
-            "كرة اليد",
-            "التزحلف",
-            "كرة القدم",
-            "كمال الأجسام"
-        ]
-    },
-    {
-        "id": "sports-fact-Q109255",
-        "category": "كورة ورياضة",
-        "difficulty": "متوسط",
-        "points": 300,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «بيرنار إينو».",
-        "answer": "سباقات الدراجات على الطريق",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bernard%20Hinault%20-%20Crit%C3%A9rium%20du%20Dauphin%C3%A9%202012%20-%20Prologue%20(2).jpg?width=900",
-        "hint": "تعتمد على دراجة، وتتنوع بين سباقات الطريق والمضمار والطرق الوعرة.",
-        "source": "https://www.wikidata.org/wiki/Q109255",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Bernard_Hinault_-_Crit%C3%A9rium_du_Dauphin%C3%A9_2012_-_Prologue_(2).jpg",
-        "imageKind": "commons",
-        "imageAlt": "بيرنار إينو",
-        "factType": "sport",
-        "options": [
-            "سباقات الدراجات على الطريق",
-            "سباقات السيارات",
-            "كرة القدم",
-            "كمال الأجسام"
-        ]
-    },
-    {
-        "id": "sports-fact-Q109506",
-        "category": "كورة ورياضة",
-        "difficulty": "متوسط",
-        "points": 300,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «مايكل فايفر».",
-        "answer": "كرة القدم",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%23493321%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e87e4b%22%20opacity%3D%22.12%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22125%22%20r%3D%2288%22%20fill%3D%22%23f7eee0%22%20stroke%3D%22%23e98d58%22%20stroke-width%3D%229%22%2F%3E%3Cpath%20d%3D%22M185%2082l38%2028-15%2045h-47l-15-45zM185%2082l-30-23m68%2051%2042-3m-57%2073%208%2037m-61-64-37%2020m75-91%2023-35%22%20fill%3D%22%23343d4c%22%20stroke%3D%22%23343d4c%22%20stroke-width%3D%2213%22%20stroke-linejoin%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e87e4b%22%3ESPORT%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D9%85%D8%A7%D9%8A%D9%83%D9%84%20%D9%81%D8%A7%D9%8A%D9%81%D8%B1%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e87e4b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "رياضة جماعية يحاول فيها اللاعبون تسجيل الأهداف بالقدم، باستثناء الحارس.",
-        "source": "https://www.wikidata.org/wiki/Q109506",
-        "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "مايكل فايفر",
-        "factType": "sport",
-        "options": [
-            "البرازيل",
-            "ألمانيا",
-            "إيطاليا",
-            "كرة القدم"
-        ]
-    },
-    {
-        "id": "sports-fact-Q109868",
-        "category": "كورة ورياضة",
-        "difficulty": "متوسط",
-        "points": 300,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «بريجيت برينتس».",
-        "answer": "كرة القدم",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Birgit%20Prinz%2020180519%20(cropped).jpg?width=900",
-        "hint": "رياضة جماعية يحاول فيها اللاعبون تسجيل الأهداف بالقدم، باستثناء الحارس.",
-        "source": "https://www.wikidata.org/wiki/Q109868",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Birgit_Prinz_20180519_(cropped).jpg",
-        "imageKind": "commons",
-        "imageAlt": "بريجيت برينتس",
-        "factType": "sport",
-        "options": [
-            "كرة القدم",
-            "رياضة دراجات نارية",
-            "جمباز القفز",
-            "رياضة دراجات هوائية"
-        ]
-    },
-    {
-        "id": "sports-fact-Q110111",
-        "category": "كورة ورياضة",
-        "difficulty": "متوسط",
-        "points": 300,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «غونار نوردال».",
-        "answer": "كرة القدم",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gunnar%20Nordahl%20-%20AC%20Milan.jpg?width=900",
-        "hint": "رياضة جماعية يحاول فيها اللاعبون تسجيل الأهداف بالقدم، باستثناء الحارس.",
-        "source": "https://www.wikidata.org/wiki/Q110111",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Gunnar_Nordahl_-_AC_Milan.jpg",
-        "imageKind": "commons",
-        "imageAlt": "غونار نوردال",
-        "factType": "sport",
-        "options": [
-            "المصارعة المحترفة",
-            "الجمباز",
-            "ركوب الأمواج",
-            "كرة القدم"
-        ]
-    },
-    {
-        "id": "sports-fact-Q110225",
-        "category": "كورة ورياضة",
-        "difficulty": "متوسط",
-        "points": 300,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Wolfgang Kreißig».",
-        "answer": "ألعاب القوى",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%23493321%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e87e4b%22%20opacity%3D%22.12%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22125%22%20r%3D%2288%22%20fill%3D%22%23f7eee0%22%20stroke%3D%22%23e98d58%22%20stroke-width%3D%229%22%2F%3E%3Cpath%20d%3D%22M185%2082l38%2028-15%2045h-47l-15-45zM185%2082l-30-23m68%2051%2042-3m-57%2073%208%2037m-61-64-37%2020m75-91%2023-35%22%20fill%3D%22%23343d4c%22%20stroke%3D%22%23343d4c%22%20stroke-width%3D%2213%22%20stroke-linejoin%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e87e4b%22%3ESPORT%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EWolfgang%20Krei%C3%9Fig%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e87e4b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "تندرج ضمن مسابقات المضمار والميدان مثل الجري والقفز والرمي.",
-        "source": "https://www.wikidata.org/wiki/Q110225",
-        "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "Wolfgang Kreißig",
-        "factType": "sport",
-        "options": [
-            "إيطاليا",
-            "الأرجنتين",
-            "فرنسا",
-            "ألعاب القوى"
-        ]
-    },
-    {
-        "id": "sports-fact-Q111320",
-        "category": "كورة ورياضة",
-        "difficulty": "متوسط",
-        "points": 300,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «سفين كرامر».",
-        "answer": "التزلج السريع",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sven%20Kramer%202007.jpg?width=900",
-        "hint": "رياضة شتوية تُمارس على الثلج أو الجليد باستخدام الزلاجات.",
-        "source": "https://www.wikidata.org/wiki/Q111320",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Sven_Kramer_2007.jpg",
-        "imageKind": "commons",
-        "imageAlt": "سفين كرامر",
-        "factType": "sport",
-        "options": [
-            "التزلج السريع",
-            "ريال مدريد",
-            "برشلونة",
+            "مانشستر سيتي",
+            "نادي الهلال",
+            "أتلتيكو مدريد",
+            "ريال مدريد"
+        ],
+        "acceptedAnswers": [
             "أتلتيكو مدريد"
         ]
     },
     {
-        "id": "sports-fact-Q111978",
+        "id": "sports-football-champion-ligue-1-Q61862323",
         "category": "كورة ورياضة",
         "difficulty": "متوسط",
         "points": 300,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «هيلينا إنغلمان».",
-        "answer": "التزلج الفني على الجليد",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Helene%20Engelmann%20(1924).jpg?width=900",
-        "hint": "رياضة شتوية تُمارس على الثلج أو الجليد باستخدام الزلاجات.",
-        "source": "https://www.wikidata.org/wiki/Q111978",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Helene_Engelmann_(1924).jpg",
-        "imageKind": "commons",
-        "imageAlt": "هيلينا إنغلمان",
-        "factType": "sport",
-        "options": [
-            "كرة القدم",
-            "كمال الأجسام",
-            "كرة اليد",
-            "التزلج الفني على الجليد"
-        ]
-    },
-    {
-        "id": "sports-fact-Q113327",
-        "category": "كورة ورياضة",
-        "difficulty": "متوسط",
-        "points": 300,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Umberto Maglioli».",
-        "answer": "سباقات السيارات",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Umberto%20Maglioli.jpg?width=900",
-        "hint": "رياضة محركات تعتمد على السرعة والتحكم بمركبة آلية على مضمار.",
-        "source": "https://www.wikidata.org/wiki/Q113327",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Umberto_Maglioli.jpg",
-        "imageKind": "commons",
-        "imageAlt": "Umberto Maglioli",
-        "factType": "sport",
-        "options": [
-            "12 لاعباً",
-            "9 لاعبين",
-            "8 لاعبين",
-            "سباقات السيارات"
-        ]
-    },
-    {
-        "id": "sports-fact-Q210852",
-        "category": "كورة ورياضة",
-        "difficulty": "متوسط",
-        "points": 300,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Inga Artamonova».",
-        "answer": "التزلج السريع",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%23493321%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e87e4b%22%20opacity%3D%22.12%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22125%22%20r%3D%2288%22%20fill%3D%22%23f7eee0%22%20stroke%3D%22%23e98d58%22%20stroke-width%3D%229%22%2F%3E%3Cpath%20d%3D%22M185%2082l38%2028-15%2045h-47l-15-45zM185%2082l-30-23m68%2051%2042-3m-57%2073%208%2037m-61-64-37%2020m75-91%2023-35%22%20fill%3D%22%23343d4c%22%20stroke%3D%22%23343d4c%22%20stroke-width%3D%2213%22%20stroke-linejoin%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e87e4b%22%3ESPORT%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EInga%20Artamonova%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e87e4b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "رياضة شتوية تُمارس على الثلج أو الجليد باستخدام الزلاجات.",
-        "source": "https://www.wikidata.org/wiki/Q210852",
+        "question": "من بطل الدوري الفرنسي في موسم 2019–20؟",
+        "answer": "باريس سان جيرمان",
+        "imageAlt": "الدوري الفرنسي",
+        "image": "",
         "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "Inga Artamonova",
-        "factType": "sport",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2019–20 في الدوري الفرنسي.",
+        "source": "https://www.wikidata.org/wiki/Q61862323",
+        "factType": "football-champion",
+        "footballCompetition": "ligue-1",
         "options": [
-            "التزلج السريع",
-            "جمباز القفز",
-            "رياضة دراجات هوائية",
-            "التزحلف"
+            "باريس سان جيرمان",
+            "ريال مدريد",
+            "مانشستر سيتي",
+            "نادي الهلال"
+        ],
+        "acceptedAnswers": [
+            "باريس سان جيرمان"
         ]
     },
     {
-        "id": "sports-fact-Q212617",
+        "id": "sports-football-champion-laliga-Q61686471",
         "category": "كورة ورياضة",
         "difficulty": "متوسط",
         "points": 300,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «رون فلار».",
-        "answer": "كرة القدم",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Vlaar%2C%20Ron.jpg?width=900",
-        "hint": "رياضة جماعية يحاول فيها اللاعبون تسجيل الأهداف بالقدم، باستثناء الحارس.",
-        "source": "https://www.wikidata.org/wiki/Q212617",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Vlaar%2C_Ron.jpg",
-        "imageKind": "commons",
-        "imageAlt": "رون فلار",
-        "factType": "sport",
-        "options": [
-            "هوكي الجليد",
-            "السباحة",
-            "المصارعة المحترفة",
-            "كرة القدم"
-        ]
-    },
-    {
-        "id": "sports-fact-Q212738",
-        "category": "كورة ورياضة",
-        "difficulty": "متوسط",
-        "points": 300,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «جيوف هورست».",
-        "answer": "كرة القدم",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Geoff%20Hurst%20(2).jpg?width=900",
-        "hint": "رياضة جماعية يحاول فيها اللاعبون تسجيل الأهداف بالقدم، باستثناء الحارس.",
-        "source": "https://www.wikidata.org/wiki/Q212738",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Geoff_Hurst_(2).jpg",
-        "imageKind": "commons",
-        "imageAlt": "جيوف هورست",
-        "factType": "sport",
-        "options": [
-            "جودو",
-            "الرماية",
-            "الوثب الطويل",
-            "كرة القدم"
-        ]
-    },
-    {
-        "id": "sports-fact-Q213590",
-        "category": "كورة ورياضة",
-        "difficulty": "متوسط",
-        "points": 300,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «أولاف لودفيغ».",
-        "answer": "سباقات الدراجات على الطريق",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Olaf.jpg?width=900",
-        "hint": "تعتمد على دراجة، وتتنوع بين سباقات الطريق والمضمار والطرق الوعرة.",
-        "source": "https://www.wikidata.org/wiki/Q213590",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Olaf.jpg",
-        "imageKind": "commons",
-        "imageAlt": "أولاف لودفيغ",
-        "factType": "sport",
-        "options": [
-            "سباقات الدراجات على الطريق",
-            "فروسية",
-            "سباقات السيارات",
-            "كرة القدم"
-        ]
-    },
-    {
-        "id": "sports-fact-Q213620",
-        "category": "كورة ورياضة",
-        "difficulty": "متوسط",
-        "points": 300,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Gustav Flatow».",
-        "answer": "الجمباز الفني",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gustav%20Flatow.jpg?width=900",
-        "hint": "رياضة أداء بدني على أجهزة أو بساط، تقيس القوة والمرونة والدقة.",
-        "source": "https://www.wikidata.org/wiki/Q213620",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Gustav_Flatow.jpg",
-        "imageKind": "commons",
-        "imageAlt": "Gustav Flatow",
-        "factType": "sport",
-        "options": [
-            "الجمباز الفني",
-            "التجديف",
-            "ركوب الدراجات على المضمار",
-            "جودو"
-        ]
-    },
-    {
-        "id": "sports-fact-Q213817",
-        "category": "كورة ورياضة",
-        "difficulty": "متوسط",
-        "points": 300,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «إلياس كاتس».",
-        "answer": "ألعاب القوى",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Elias%20Katz%20(1924)%20(cropped).jpg?width=900",
-        "hint": "تندرج ضمن مسابقات المضمار والميدان مثل الجري والقفز والرمي.",
-        "source": "https://www.wikidata.org/wiki/Q213817",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Elias_Katz_(1924)_(cropped).jpg",
-        "imageKind": "commons",
-        "imageAlt": "إلياس كاتس",
-        "factType": "sport",
-        "options": [
-            "سباق المزلجات",
-            "التزلج السريع",
-            "ألعاب القوى",
-            "الكرة الطائرة"
-        ]
-    },
-    {
-        "id": "sports-fact-Q214313",
-        "category": "كورة ورياضة",
-        "difficulty": "متوسط",
-        "points": 300,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «غريتل بيرجمان».",
-        "answer": "ألعاب القوى",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/%D7%9E%D7%90%D7%9C%D7%91%D7%95%D7%9D%20%D7%A9%D7%9C%20%D7%94%D7%9E%D7%95%D7%A8%D7%94%20%D7%9C%D7%97%D7%99%D7%A0%D7%95%D7%9A%20%D7%92%D7%95%D7%A4%D7%A0%D7%99%20%D7%90%D7%9E%D7%99%D7%A8%D7%94%20%D7%94%D7%93%D7%A8%D7%94%20%D7%92%D7%A8%D7%98%D7%9C%20%D7%91%D7%A8%D7%9E%D7%9F%20%D7%91%D7%A7%D7%A4%D7%99%D7%A6%D7%94%20162%20%D7%91%D7%A8%D7%9C%D7%99%D7%9F%20193%20btm5017.jpeg?width=900",
-        "hint": "تندرج ضمن مسابقات المضمار والميدان مثل الجري والقفز والرمي.",
-        "source": "https://www.wikidata.org/wiki/Q214313",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:%D7%9E%D7%90%D7%9C%D7%91%D7%95%D7%9D_%D7%A9%D7%9C_%D7%94%D7%9E%D7%95%D7%A8%D7%94_%D7%9C%D7%97%D7%99%D7%A0%D7%95%D7%9A_%D7%92%D7%95%D7%A4%D7%A0%D7%99_%D7%90%D7%9E%D7%99%D7%A8%D7%94_%D7%94%D7%93%D7%A8%D7%94_%D7%92%D7%A8%D7%98%D7%9C_%D7%91%D7%A8%D7%9E%D7%9F_%D7%91%D7%A7%D7%A4%D7%99%D7%A6%D7%94_162_%D7%91%D7%A8%D7%9C%D7%99%D7%9F_193_btm5017.jpeg",
-        "imageKind": "commons",
-        "imageAlt": "غريتل بيرجمان",
-        "factType": "sport",
-        "options": [
-            "ألعاب القوى",
-            "برشلونة",
-            "أتلتيكو مدريد",
-            "إشبيلية"
-        ]
-    },
-    {
-        "id": "sports-fact-Q218994",
-        "category": "كورة ورياضة",
-        "difficulty": "متوسط",
-        "points": 300,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Zoltán Mechlovits».",
-        "answer": "كرة الطاولة",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%23493321%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e87e4b%22%20opacity%3D%22.12%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22125%22%20r%3D%2288%22%20fill%3D%22%23f7eee0%22%20stroke%3D%22%23e98d58%22%20stroke-width%3D%229%22%2F%3E%3Cpath%20d%3D%22M185%2082l38%2028-15%2045h-47l-15-45zM185%2082l-30-23m68%2051%2042-3m-57%2073%208%2037m-61-64-37%2020m75-91%2023-35%22%20fill%3D%22%23343d4c%22%20stroke%3D%22%23343d4c%22%20stroke-width%3D%2213%22%20stroke-linejoin%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e87e4b%22%3ESPORT%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EZolt%C3%A1n%20Mechlovits%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e87e4b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "تُلعب بمضربين صغيرين وكرة خفيفة فوق طاولة مقسومة بشبكة.",
-        "source": "https://www.wikidata.org/wiki/Q218994",
+        "question": "من بطل الدوري الإسباني في موسم 2019–20؟",
+        "answer": "ريال مدريد",
+        "imageAlt": "الدوري الإسباني",
+        "image": "",
         "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "Zoltán Mechlovits",
-        "factType": "sport",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2019–20 في الدوري الإسباني.",
+        "source": "https://www.wikidata.org/wiki/Q61686471",
+        "factType": "football-champion",
+        "footballCompetition": "laliga",
         "options": [
-            "فروسية",
-            "كرة الطاولة",
-            "مبارزة السلاح",
-            "الشطرنج"
+            "ريال مدريد",
+            "مانشستر سيتي",
+            "نادي الهلال",
+            "باير 04 ليفركوزن"
+        ],
+        "acceptedAnswers": [
+            "ريال مدريد"
         ]
     },
     {
-        "id": "sports-fact-Q219966",
+        "id": "sports-football-champion-bundesliga-Q61874509",
         "category": "كورة ورياضة",
         "difficulty": "متوسط",
         "points": 300,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «توماس موستر».",
-        "answer": "كرة المضرب",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/%C3%963-Wecker-Tennis-Challenge%2026%2010%202016-10%20(cropped).jpg?width=900",
-        "hint": "تُلعب بمضرب وكرة فوق شبكة، فردياً أو بين زوجين.",
-        "source": "https://www.wikidata.org/wiki/Q219966",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:%C3%963-Wecker-Tennis-Challenge_26_10_2016-10_(cropped).jpg",
-        "imageKind": "commons",
-        "imageAlt": "توماس موستر",
-        "factType": "sport",
+        "question": "من بطل الدوري الألماني في موسم 2019–20؟",
+        "answer": "بايرن ميونخ",
+        "imageAlt": "الدوري الألماني",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2019–20 في الدوري الألماني.",
+        "source": "https://www.wikidata.org/wiki/Q61874509",
+        "factType": "football-champion",
+        "footballCompetition": "bundesliga",
         "options": [
-            "إشبيلية",
-            "كرة المضرب",
-            "برشلونة",
+            "ريال مدريد",
+            "مانشستر سيتي",
+            "نادي الهلال",
+            "بايرن ميونخ"
+        ],
+        "acceptedAnswers": [
+            "بايرن ميونخ"
+        ]
+    },
+    {
+        "id": "sports-football-champion-uefa-champions-league-Q53164830",
+        "category": "كورة ورياضة",
+        "difficulty": "متوسط",
+        "points": 300,
+        "question": "من بطل دوري أبطال أوروبا في موسم 2019–20؟",
+        "answer": "بايرن ميونخ",
+        "imageAlt": "دوري أبطال أوروبا",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2019–20 في دوري أبطال أوروبا.",
+        "source": "https://www.wikidata.org/wiki/Q53164830",
+        "factType": "football-champion",
+        "footballCompetition": "uefa-champions-league",
+        "options": [
+            "نادي برشلونة",
+            "بايرن ميونخ",
+            "نادي الشباب السعودي",
+            "باريس سان جيرمان"
+        ],
+        "acceptedAnswers": [
+            "بايرن ميونخ"
+        ]
+    },
+    {
+        "id": "sports-football-champion-serie-a-Q61686413",
+        "category": "كورة ورياضة",
+        "difficulty": "متوسط",
+        "points": 300,
+        "question": "من بطل الدوري الإيطالي في موسم 2019–20؟",
+        "answer": "يوفنتوس",
+        "imageAlt": "الدوري الإيطالي",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2019–20 في الدوري الإيطالي.",
+        "source": "https://www.wikidata.org/wiki/Q61686413",
+        "factType": "football-champion",
+        "footballCompetition": "serie-a",
+        "options": [
+            "يوفنتوس",
+            "FC Bayern München",
+            "نادي ليفربول",
+            "نادي نابولي"
+        ],
+        "acceptedAnswers": [
+            "يوفنتوس"
+        ]
+    },
+    {
+        "id": "sports-football-champion-epl-Q60439913",
+        "category": "كورة ورياضة",
+        "difficulty": "متوسط",
+        "points": 300,
+        "question": "من بطل الدوري الإنجليزي الممتاز في موسم 2019–20؟",
+        "answer": "نادي ليفربول",
+        "imageAlt": "الدوري الإنجليزي الممتاز",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2019–20 في الدوري الإنجليزي الممتاز.",
+        "source": "https://www.wikidata.org/wiki/Q60439913",
+        "factType": "football-champion",
+        "footballCompetition": "epl",
+        "options": [
+            "باريس سان جيرمان",
+            "نادي ليفربول",
+            "نادي الفتح السعودي",
+            "نادي الشباب السعودي"
+        ],
+        "acceptedAnswers": [
+            "نادي ليفربول"
+        ]
+    },
+    {
+        "id": "sports-football-champion-ligue-1-Q51546683",
+        "category": "كورة ورياضة",
+        "difficulty": "متوسط",
+        "points": 300,
+        "question": "من بطل الدوري الفرنسي في موسم 2018–19؟",
+        "answer": "باريس سان جيرمان",
+        "imageAlt": "الدوري الفرنسي",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2018–19 في الدوري الفرنسي.",
+        "source": "https://www.wikidata.org/wiki/Q51546683",
+        "factType": "football-champion",
+        "footballCompetition": "ligue-1",
+        "options": [
+            "نادي ليفربول",
+            "باريس سان جيرمان",
+            "نادي آرسنال",
+            "FC Bayern München"
+        ],
+        "acceptedAnswers": [
+            "باريس سان جيرمان"
+        ]
+    },
+    {
+        "id": "sports-football-champion-bundesliga-Q47787804",
+        "category": "كورة ورياضة",
+        "difficulty": "متوسط",
+        "points": 300,
+        "question": "من بطل الدوري الألماني في موسم 2018–19؟",
+        "answer": "بايرن ميونخ",
+        "imageAlt": "الدوري الألماني",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2018–19 في الدوري الألماني.",
+        "source": "https://www.wikidata.org/wiki/Q47787804",
+        "factType": "football-champion",
+        "footballCompetition": "bundesliga",
+        "options": [
+            "نادي نابولي",
+            "ريال مدريد",
+            "بايرن ميونخ",
+            "نادي ليفربول"
+        ],
+        "acceptedAnswers": [
+            "بايرن ميونخ"
+        ]
+    },
+    {
+        "id": "sports-football-champion-laliga-Q50383829",
+        "category": "كورة ورياضة",
+        "difficulty": "متوسط",
+        "points": 300,
+        "question": "من بطل الدوري الإسباني في موسم 2018–19؟",
+        "answer": "نادي برشلونة",
+        "imageAlt": "الدوري الإسباني",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2018–19 في الدوري الإسباني.",
+        "source": "https://www.wikidata.org/wiki/Q50383829",
+        "factType": "football-champion",
+        "footballCompetition": "laliga",
+        "options": [
+            "مانشستر سيتي",
+            "نادي برشلونة",
+            "نادي نابولي",
+            "ريال مدريد"
+        ],
+        "acceptedAnswers": [
+            "نادي برشلونة"
+        ]
+    },
+    {
+        "id": "sports-football-champion-epl-Q39052816",
+        "category": "كورة ورياضة",
+        "difficulty": "متوسط",
+        "points": 300,
+        "question": "من بطل الدوري الإنجليزي الممتاز في موسم 2018–19؟",
+        "answer": "مانشستر سيتي",
+        "imageAlt": "الدوري الإنجليزي الممتاز",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2018–19 في الدوري الإنجليزي الممتاز.",
+        "source": "https://www.wikidata.org/wiki/Q39052816",
+        "factType": "football-champion",
+        "footballCompetition": "epl",
+        "options": [
+            "نادي موناكو",
+            "النادي الأهلي (السعودية)",
+            "مانشستر سيتي",
+            "يوفنتوس"
+        ],
+        "acceptedAnswers": [
+            "مانشستر سيتي"
+        ]
+    },
+    {
+        "id": "sports-football-champion-serie-a-Q48782372",
+        "category": "كورة ورياضة",
+        "difficulty": "متوسط",
+        "points": 300,
+        "question": "من بطل الدوري الإيطالي في موسم 2018–19؟",
+        "answer": "يوفنتوس",
+        "imageAlt": "الدوري الإيطالي",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2018–19 في الدوري الإيطالي.",
+        "source": "https://www.wikidata.org/wiki/Q48782372",
+        "factType": "football-champion",
+        "footballCompetition": "serie-a",
+        "options": [
+            "يوفنتوس",
+            "النادي الأهلي (السعودية)",
+            "ليستر سيتي",
+            "نادي الفتح السعودي"
+        ],
+        "acceptedAnswers": [
+            "يوفنتوس"
+        ]
+    },
+    {
+        "id": "sports-football-champion-saudi-Q54973583",
+        "category": "كورة ورياضة",
+        "difficulty": "متوسط",
+        "points": 300,
+        "question": "من بطل الدوري السعودي للمحترفين في موسم 2018–19؟",
+        "answer": "نادي النصر السعودي",
+        "imageAlt": "الدوري السعودي للمحترفين",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2018–19 في الدوري السعودي للمحترفين.",
+        "source": "https://www.wikidata.org/wiki/Q54973583",
+        "factType": "football-champion",
+        "footballCompetition": "saudi",
+        "options": [
+            "نادي برشلونة",
+            "نادي إنتر ميلان",
+            "نادي آرسنال",
+            "نادي النصر السعودي"
+        ],
+        "acceptedAnswers": [
+            "نادي النصر السعودي"
+        ]
+    },
+    {
+        "id": "sports-football-champion-uefa-champions-league-Q30032467",
+        "category": "كورة ورياضة",
+        "difficulty": "متوسط",
+        "points": 300,
+        "question": "من بطل دوري أبطال أوروبا في موسم 2018–19؟",
+        "answer": "نادي ليفربول",
+        "imageAlt": "دوري أبطال أوروبا",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2018–19 في دوري أبطال أوروبا.",
+        "source": "https://www.wikidata.org/wiki/Q30032467",
+        "factType": "football-champion",
+        "footballCompetition": "uefa-champions-league",
+        "options": [
+            "نادي نابولي",
+            "ريال مدريد",
+            "نادي ليفربول",
+            "FC Bayern München"
+        ],
+        "acceptedAnswers": [
+            "نادي ليفربول"
+        ]
+    },
+    {
+        "id": "sports-football-champion-ligue-1-Q29042845",
+        "category": "كورة ورياضة",
+        "difficulty": "متوسط",
+        "points": 300,
+        "question": "من بطل الدوري الفرنسي في موسم 2017–18؟",
+        "answer": "باريس سان جيرمان",
+        "imageAlt": "الدوري الفرنسي",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2017–18 في الدوري الفرنسي.",
+        "source": "https://www.wikidata.org/wiki/Q29042845",
+        "factType": "football-champion",
+        "footballCompetition": "ligue-1",
+        "options": [
+            "ريال مدريد",
+            "باريس سان جيرمان",
+            "نادي ليفربول",
+            "نادي نابولي"
+        ],
+        "acceptedAnswers": [
+            "باريس سان جيرمان"
+        ]
+    },
+    {
+        "id": "sports-football-champion-uefa-champions-league-Q20972117",
+        "category": "كورة ورياضة",
+        "difficulty": "متوسط",
+        "points": 300,
+        "question": "من بطل دوري أبطال أوروبا في موسم 2017–18؟",
+        "answer": "ريال مدريد",
+        "imageAlt": "دوري أبطال أوروبا",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2017–18 في دوري أبطال أوروبا.",
+        "source": "https://www.wikidata.org/wiki/Q20972117",
+        "factType": "football-champion",
+        "footballCompetition": "uefa-champions-league",
+        "options": [
+            "ريال مدريد",
+            "مانشستر سيتي",
+            "نادي الهلال",
+            "باير 04 ليفركوزن"
+        ],
+        "acceptedAnswers": [
+            "ريال مدريد"
+        ]
+    },
+    {
+        "id": "sports-football-champion-bundesliga-Q28937555",
+        "category": "كورة ورياضة",
+        "difficulty": "متوسط",
+        "points": 300,
+        "question": "من بطل الدوري الألماني في موسم 2017–18؟",
+        "answer": "بايرن ميونخ",
+        "imageAlt": "الدوري الألماني",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2017–18 في الدوري الألماني.",
+        "source": "https://www.wikidata.org/wiki/Q28937555",
+        "factType": "football-champion",
+        "footballCompetition": "bundesliga",
+        "options": [
+            "نادي برشلونة",
+            "بايرن ميونخ",
+            "نادي الشباب السعودي",
+            "باريس سان جيرمان"
+        ],
+        "acceptedAnswers": [
+            "بايرن ميونخ"
+        ]
+    },
+    {
+        "id": "sports-football-champion-laliga-Q24529775",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 400,
+        "question": "من بطل الدوري الإسباني في موسم 2017–18؟",
+        "answer": "نادي برشلونة",
+        "imageAlt": "الدوري الإسباني",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2017–18 في الدوري الإسباني.",
+        "source": "https://www.wikidata.org/wiki/Q24529775",
+        "factType": "football-champion",
+        "footballCompetition": "laliga",
+        "options": [
+            "نادي آرسنال",
+            "FC Bayern München",
+            "نادي برشلونة",
+            "نادي إنتر ميلان"
+        ],
+        "acceptedAnswers": [
+            "نادي برشلونة"
+        ]
+    },
+    {
+        "id": "sports-football-champion-epl-Q28842253",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 400,
+        "question": "من بطل الدوري الإنجليزي الممتاز في موسم 2017–18؟",
+        "answer": "مانشستر سيتي",
+        "imageAlt": "الدوري الإنجليزي الممتاز",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2017–18 في الدوري الإنجليزي الممتاز.",
+        "source": "https://www.wikidata.org/wiki/Q28842253",
+        "factType": "football-champion",
+        "footballCompetition": "epl",
+        "options": [
+            "مانشستر سيتي",
+            "النادي الأهلي (السعودية)",
+            "ليستر سيتي",
+            "نادي الفتح السعودي"
+        ],
+        "acceptedAnswers": [
+            "مانشستر سيتي"
+        ]
+    },
+    {
+        "id": "sports-football-champion-serie-a-Q28820477",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 400,
+        "question": "من بطل الدوري الإيطالي في موسم 2017–18؟",
+        "answer": "يوفنتوس",
+        "imageAlt": "الدوري الإيطالي",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2017–18 في الدوري الإيطالي.",
+        "source": "https://www.wikidata.org/wiki/Q28820477",
+        "factType": "football-champion",
+        "footballCompetition": "serie-a",
+        "options": [
+            "نادي ليفربول",
+            "يوفنتوس",
+            "نادي آرسنال",
+            "FC Bayern München"
+        ],
+        "acceptedAnswers": [
+            "يوفنتوس"
+        ]
+    },
+    {
+        "id": "sports-football-champion-saudi-Q30278177",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 400,
+        "question": "من بطل الدوري السعودي للمحترفين في موسم 2017–18؟",
+        "answer": "نادي الهلال",
+        "imageAlt": "الدوري السعودي للمحترفين",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2017–18 في الدوري السعودي للمحترفين.",
+        "source": "https://www.wikidata.org/wiki/Q30278177",
+        "factType": "football-champion",
+        "footballCompetition": "saudi",
+        "options": [
+            "FC Bayern München",
+            "نادي ليفربول",
+            "نادي الهلال",
+            "نادي آرسنال"
+        ],
+        "acceptedAnswers": [
+            "نادي الهلال"
+        ]
+    },
+    {
+        "id": "sports-football-champion-laliga-Q23497990",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 400,
+        "question": "من بطل الدوري الإسباني في موسم 2016–17؟",
+        "answer": "ريال مدريد",
+        "imageAlt": "الدوري الإسباني",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2016–17 في الدوري الإسباني.",
+        "source": "https://www.wikidata.org/wiki/Q23497990",
+        "factType": "football-champion",
+        "footballCompetition": "laliga",
+        "options": [
+            "بايرن ميونخ",
+            "نادي برشلونة",
+            "ريال مدريد",
+            "باريس سان جيرمان"
+        ],
+        "acceptedAnswers": [
+            "ريال مدريد"
+        ]
+    },
+    {
+        "id": "sports-football-champion-uefa-champions-league-Q18740961",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 400,
+        "question": "من بطل دوري أبطال أوروبا في موسم 2016–17؟",
+        "answer": "ريال مدريد",
+        "imageAlt": "دوري أبطال أوروبا",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2016–17 في دوري أبطال أوروبا.",
+        "source": "https://www.wikidata.org/wiki/Q18740961",
+        "factType": "football-champion",
+        "footballCompetition": "uefa-champions-league",
+        "options": [
+            "نادي ليل",
+            "ريال مدريد",
+            "إيه سي ميلان",
+            "نادي تشيلسي"
+        ],
+        "acceptedAnswers": [
+            "ريال مدريد"
+        ]
+    },
+    {
+        "id": "sports-football-champion-bundesliga-Q22970620",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 400,
+        "question": "من بطل الدوري الألماني في موسم 2016–17؟",
+        "answer": "بايرن ميونخ",
+        "imageAlt": "الدوري الألماني",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2016–17 في الدوري الألماني.",
+        "source": "https://www.wikidata.org/wiki/Q22970620",
+        "factType": "football-champion",
+        "footballCompetition": "bundesliga",
+        "options": [
+            "FC Bayern München",
+            "بايرن ميونخ",
+            "نادي إنتر ميلان",
+            "نادي آرسنال"
+        ],
+        "acceptedAnswers": [
+            "بايرن ميونخ"
+        ]
+    },
+    {
+        "id": "sports-football-champion-serie-a-Q23728326",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 400,
+        "question": "من بطل الدوري الإيطالي في موسم 2016–17؟",
+        "answer": "يوفنتوس",
+        "imageAlt": "الدوري الإيطالي",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2016–17 في الدوري الإيطالي.",
+        "source": "https://www.wikidata.org/wiki/Q23728326",
+        "factType": "football-champion",
+        "footballCompetition": "serie-a",
+        "options": [
+            "نادي موناكو",
+            "النادي الأهلي (السعودية)",
+            "يوفنتوس",
             "أتلتيكو مدريد"
+        ],
+        "acceptedAnswers": [
+            "يوفنتوس"
         ]
     },
     {
-        "id": "sports-fact-Q220534",
+        "id": "sports-football-champion-saudi-Q24209798",
         "category": "كورة ورياضة",
-        "difficulty": "متوسط",
-        "points": 300,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Zoran Matković».",
-        "answer": "نبالة",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%23493321%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e87e4b%22%20opacity%3D%22.12%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22125%22%20r%3D%2288%22%20fill%3D%22%23f7eee0%22%20stroke%3D%22%23e98d58%22%20stroke-width%3D%229%22%2F%3E%3Cpath%20d%3D%22M185%2082l38%2028-15%2045h-47l-15-45zM185%2082l-30-23m68%2051%2042-3m-57%2073%208%2037m-61-64-37%2020m75-91%2023-35%22%20fill%3D%22%23343d4c%22%20stroke%3D%22%23343d4c%22%20stroke-width%3D%2213%22%20stroke-linejoin%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e87e4b%22%3ESPORT%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EZoran%20Matkovi%C4%87%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e87e4b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "رياضة دقة وتصويب؛ إحداهما تستخدم القوس والأخرى سلاحاً نارياً.",
-        "source": "https://www.wikidata.org/wiki/Q220534",
+        "difficulty": "صعب",
+        "points": 400,
+        "question": "من بطل الدوري السعودي للمحترفين في موسم 2016–17؟",
+        "answer": "نادي الهلال",
+        "imageAlt": "الدوري السعودي للمحترفين",
+        "image": "",
         "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "Zoran Matković",
-        "factType": "sport",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2016–17 في الدوري السعودي للمحترفين.",
+        "source": "https://www.wikidata.org/wiki/Q24209798",
+        "factType": "football-champion",
+        "footballCompetition": "saudi",
         "options": [
-            "مصارعة الهواة",
-            "كرة القدم الأمريكية",
-            "نبالة",
-            "كرة الماء"
+            "نادي الهلال",
+            "نادي إنتر ميلان",
+            "نادي آرسنال",
+            "FC Bayern München"
+        ],
+        "acceptedAnswers": [
+            "نادي الهلال"
         ]
     },
     {
-        "id": "sports-fact-Q221001",
+        "id": "sports-football-champion-epl-Q23009701",
         "category": "كورة ورياضة",
-        "difficulty": "متوسط",
-        "points": 300,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «جاك أنكيتيل».",
-        "answer": "سباقات الدراجات على الطريق",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jacques%20Anquetil%201963.jpg?width=900",
-        "hint": "تعتمد على دراجة، وتتنوع بين سباقات الطريق والمضمار والطرق الوعرة.",
-        "source": "https://www.wikidata.org/wiki/Q221001",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Jacques_Anquetil_1963.jpg",
-        "imageKind": "commons",
-        "imageAlt": "جاك أنكيتيل",
-        "factType": "sport",
-        "options": [
-            "سباقات الدراجات على الطريق",
-            "كرة القدم الأمريكية",
-            "الطيران الشراعي المظلي",
-            "الزلاجة الجماعية"
-        ]
-    },
-    {
-        "id": "sports-fact-Q221048",
-        "category": "كورة ورياضة",
-        "difficulty": "متوسط",
-        "points": 300,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «جاكي روبينسون».",
-        "answer": "ألعاب القوى",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jackie%20Robinson%2C%20NPG%2097%20135.jpg?width=900",
-        "hint": "تندرج ضمن مسابقات المضمار والميدان مثل الجري والقفز والرمي.",
-        "source": "https://www.wikidata.org/wiki/Q221048",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Jackie_Robinson%2C_NPG_97_135.jpg",
-        "imageKind": "commons",
-        "imageAlt": "جاكي روبينسون",
-        "factType": "sport",
-        "options": [
-            "إيطاليا",
-            "ألعاب القوى",
-            "البرازيل",
-            "ألمانيا"
-        ]
-    },
-    {
-        "id": "sports-fact-Q221185",
-        "category": "كورة ورياضة",
-        "difficulty": "متوسط",
-        "points": 300,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «كاترينا إمونز».",
-        "answer": "الرماية",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Katerina%20Emmons.jpg?width=900",
-        "hint": "رياضة دقة وتصويب؛ إحداهما تستخدم القوس والأخرى سلاحاً نارياً.",
-        "source": "https://www.wikidata.org/wiki/Q221185",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Katerina_Emmons.jpg",
-        "imageKind": "commons",
-        "imageAlt": "كاترينا إمونز",
-        "factType": "sport",
-        "options": [
-            "ركوب الأمواج",
-            "الغولف",
-            "التزلج الألبي",
-            "الرماية"
-        ]
-    },
-    {
-        "id": "sports-fact-Q221454",
-        "category": "كورة ورياضة",
-        "difficulty": "متوسط",
-        "points": 300,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «رينيه لاكوست».",
-        "answer": "كرة المضرب",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ren%C3%A9%20Lacoste.jpg?width=900",
-        "hint": "تُلعب بمضرب وكرة فوق شبكة، فردياً أو بين زوجين.",
-        "source": "https://www.wikidata.org/wiki/Q221454",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Ren%C3%A9_Lacoste.jpg",
-        "imageKind": "commons",
-        "imageAlt": "رينيه لاكوست",
-        "factType": "sport",
-        "options": [
-            "الرماية",
-            "الوثب الطويل",
-            "كرة المضرب",
-            "جودو"
-        ]
-    },
-    {
-        "id": "sports-fact-Q221482",
-        "category": "كورة ورياضة",
-        "difficulty": "متوسط",
-        "points": 300,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «جيم ثورب».",
-        "answer": "ألعاب القوى",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jim%20Thorpe%201910s2.jpg?width=900",
-        "hint": "تندرج ضمن مسابقات المضمار والميدان مثل الجري والقفز والرمي.",
-        "source": "https://www.wikidata.org/wiki/Q221482",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Jim_Thorpe_1910s2.jpg",
-        "imageKind": "commons",
-        "imageAlt": "جيم ثورب",
-        "factType": "sport",
-        "options": [
-            "12 لاعباً",
-            "9 لاعبين",
-            "8 لاعبين",
-            "ألعاب القوى"
-        ]
-    },
-    {
-        "id": "sports-fact-Q223176",
-        "category": "كورة ورياضة",
-        "difficulty": "متوسط",
-        "points": 300,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «جيمي فلويد هاسلبانك».",
-        "answer": "كرة القدم",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jimmy%20Floyd%20Hasselbaink.jpg?width=900",
-        "hint": "رياضة جماعية يحاول فيها اللاعبون تسجيل الأهداف بالقدم، باستثناء الحارس.",
-        "source": "https://www.wikidata.org/wiki/Q223176",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Jimmy_Floyd_Hasselbaink.jpg",
-        "imageKind": "commons",
-        "imageAlt": "جيمي فلويد هاسلبانك",
-        "factType": "sport",
-        "options": [
-            "البرازيل",
-            "ألمانيا",
-            "إيطاليا",
-            "كرة القدم"
-        ]
-    },
-    {
-        "id": "sports-fact-Q224033",
-        "category": "كورة ورياضة",
-        "difficulty": "متوسط",
-        "points": 300,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «كارل بوبورسكي».",
-        "answer": "كرة القدم",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Karel%20Poborsk%C3%BD%20(2012).jpg?width=900",
-        "hint": "رياضة جماعية يحاول فيها اللاعبون تسجيل الأهداف بالقدم، باستثناء الحارس.",
-        "source": "https://www.wikidata.org/wiki/Q224033",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Karel_Poborsk%C3%BD_(2012).jpg",
-        "imageKind": "commons",
-        "imageAlt": "كارل بوبورسكي",
-        "factType": "sport",
-        "options": [
-            "كرة القدم",
-            "سباقات الدراجات على الطريق",
-            "الكرة الطائرة",
-            "سباق المزلجات"
-        ]
-    },
-    {
-        "id": "sports-fact-Q224590",
-        "category": "كورة ورياضة",
-        "difficulty": "متوسط",
-        "points": 300,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «هربرت بول».",
-        "answer": "كرة القدم",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%23493321%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e87e4b%22%20opacity%3D%22.12%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22125%22%20r%3D%2288%22%20fill%3D%22%23f7eee0%22%20stroke%3D%22%23e98d58%22%20stroke-width%3D%229%22%2F%3E%3Cpath%20d%3D%22M185%2082l38%2028-15%2045h-47l-15-45zM185%2082l-30-23m68%2051%2042-3m-57%2073%208%2037m-61-64-37%2020m75-91%2023-35%22%20fill%3D%22%23343d4c%22%20stroke%3D%22%23343d4c%22%20stroke-width%3D%2213%22%20stroke-linejoin%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e87e4b%22%3ESPORT%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D9%87%D8%B1%D8%A8%D8%B1%D8%AA%20%D8%A8%D9%88%D9%84%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e87e4b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "رياضة جماعية يحاول فيها اللاعبون تسجيل الأهداف بالقدم، باستثناء الحارس.",
-        "source": "https://www.wikidata.org/wiki/Q224590",
+        "difficulty": "صعب",
+        "points": 400,
+        "question": "من بطل الدوري الإنجليزي الممتاز في موسم 2016–17؟",
+        "answer": "نادي تشيلسي",
+        "imageAlt": "الدوري الإنجليزي الممتاز",
+        "image": "",
         "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "هربرت بول",
-        "factType": "sport",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2016–17 في الدوري الإنجليزي الممتاز.",
+        "source": "https://www.wikidata.org/wiki/Q23009701",
+        "factType": "football-champion",
+        "footballCompetition": "epl",
         "options": [
-            "كرة القدم",
-            "كانو-كاياك",
-            "ألعاب القوى",
-            "رياضة دراجات نارية"
+            "نادي تشيلسي",
+            "باير 04 ليفركوزن",
+            "نادي الاتحاد",
+            "إيه سي ميلان"
+        ],
+        "acceptedAnswers": [
+            "نادي تشيلسي"
         ]
     },
     {
-        "id": "sports-fact-Q225193",
-        "category": "كورة ورياضة",
-        "difficulty": "متوسط",
-        "points": 300,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «فاسيلي ألكسيف».",
-        "answer": "رفع الأثقال",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Vasily%20Alekseyev%201970.jpg?width=900",
-        "hint": "رياضة أولمبية يحاول فيها المتنافس رفع أثقل وزن ممكن في رفعتين.",
-        "source": "https://www.wikidata.org/wiki/Q225193",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Vasily_Alekseyev_1970.jpg",
-        "imageKind": "commons",
-        "imageAlt": "فاسيلي ألكسيف",
-        "factType": "sport",
-        "options": [
-            "ركوب الأمواج",
-            "الغولف",
-            "رفع الأثقال",
-            "الجمباز"
-        ]
-    },
-    {
-        "id": "sports-fact-Q225271",
-        "category": "كورة ورياضة",
-        "difficulty": "متوسط",
-        "points": 300,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «إشتڤان كوڤاتش».",
-        "answer": "الملاكمة",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kov%C3%A1cs%20Istv%C3%A1n%20(Kok%C3%B3).jpg?width=900",
-        "hint": "رياضة نزال فردي تعتمد على اللكمات داخل الحلبة والقفازات.",
-        "source": "https://www.wikidata.org/wiki/Q225271",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Kov%C3%A1cs_Istv%C3%A1n_(Kok%C3%B3).jpg",
-        "imageKind": "commons",
-        "imageAlt": "إشتڤان كوڤاتش",
-        "factType": "sport",
-        "options": [
-            "جودو",
-            "الملاكمة",
-            "التجديف",
-            "ركوب الدراجات على المضمار"
-        ]
-    },
-    {
-        "id": "sports-fact-Q225626",
-        "category": "كورة ورياضة",
-        "difficulty": "متوسط",
-        "points": 300,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «كينيث فارمر».",
-        "answer": "هوكي الجليد",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hockey%20FARMER%20Ken.jpg?width=900",
-        "hint": "رياضة فرق على الجليد، يستخدم اللاعبون عصياً لدفع قرص نحو المرمى.",
-        "source": "https://www.wikidata.org/wiki/Q225626",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Hockey_FARMER_Ken.jpg",
-        "imageKind": "commons",
-        "imageAlt": "كينيث فارمر",
-        "factType": "sport",
-        "options": [
-            "8 لاعبين",
-            "البرازيل",
-            "ألمانيا",
-            "هوكي الجليد"
-        ]
-    },
-    {
-        "id": "sports-fact-Q228807",
-        "category": "كورة ورياضة",
-        "difficulty": "متوسط",
-        "points": 300,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «ماريا موتولا».",
-        "answer": "ألعاب القوى",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Maria%20Mutola%20Valence%202008%20cropped.jpg?width=900",
-        "hint": "تندرج ضمن مسابقات المضمار والميدان مثل الجري والقفز والرمي.",
-        "source": "https://www.wikidata.org/wiki/Q228807",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Maria_Mutola_Valence_2008_cropped.jpg",
-        "imageKind": "commons",
-        "imageAlt": "ماريا موتولا",
-        "factType": "sport",
-        "options": [
-            "نبالة",
-            "ألعاب القوى",
-            "الجمباز الفني",
-            "كرة الطاولة"
-        ]
-    },
-    {
-        "id": "sports-fact-Q229040",
-        "category": "كورة ورياضة",
-        "difficulty": "متوسط",
-        "points": 300,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «دون فريزر».",
-        "answer": "السباحة",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dawn%20Fraser%201960b.jpg?width=900",
-        "hint": "رياضة سباق في الماء، ولها أساليب مثل الحرة والفراشة والظهر.",
-        "source": "https://www.wikidata.org/wiki/Q229040",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Dawn_Fraser_1960b.jpg",
-        "imageKind": "commons",
-        "imageAlt": "دون فريزر",
-        "factType": "sport",
-        "options": [
-            "11 لاعباً",
-            "السباحة",
-            "الزلاجة الجماعية",
-            "القفز التزلجي"
-        ]
-    },
-    {
-        "id": "sports-fact-Q229046",
-        "category": "كورة ورياضة",
-        "difficulty": "متوسط",
-        "points": 300,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «فاني بلانكيرس كوين».",
-        "answer": "ألعاب القوى",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Olympische%20dag%20in%20Amsterdam.%20Fanny%20Blankers-Koen%2C%20Bestanddeelnr%20903-4520.jpg?width=900",
-        "hint": "تندرج ضمن مسابقات المضمار والميدان مثل الجري والقفز والرمي.",
-        "source": "https://www.wikidata.org/wiki/Q229046",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Olympische_dag_in_Amsterdam._Fanny_Blankers-Koen%2C_Bestanddeelnr_903-4520.jpg",
-        "imageKind": "commons",
-        "imageAlt": "فاني بلانكيرس كوين",
-        "factType": "sport",
-        "options": [
-            "8 لاعبين",
-            "البرازيل",
-            "ألمانيا",
-            "ألعاب القوى"
-        ]
-    },
-    {
-        "id": "sports-fact-Q229261",
-        "category": "كورة ورياضة",
-        "difficulty": "متوسط",
-        "points": 300,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «وايوميا تيوس».",
-        "answer": "ألعاب القوى",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Wyomia%20Tyus%201968.jpg?width=900",
-        "hint": "تندرج ضمن مسابقات المضمار والميدان مثل الجري والقفز والرمي.",
-        "source": "https://www.wikidata.org/wiki/Q229261",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Wyomia_Tyus_1968.jpg",
-        "imageKind": "commons",
-        "imageAlt": "وايوميا تيوس",
-        "factType": "sport",
-        "options": [
-            "ألعاب القوى",
-            "التجديف",
-            "ركوب الدراجات على المضمار",
-            "جودو"
-        ]
-    },
-    {
-        "id": "sports-fact-Q229503",
-        "category": "كورة ورياضة",
-        "difficulty": "متوسط",
-        "points": 300,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «فيرا تشاسلافسكا».",
-        "answer": "الجمباز الفني",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Vera%20Caslavska.JPG?width=900",
-        "hint": "رياضة أداء بدني على أجهزة أو بساط، تقيس القوة والمرونة والدقة.",
-        "source": "https://www.wikidata.org/wiki/Q229503",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Vera_Caslavska.JPG",
-        "imageKind": "commons",
-        "imageAlt": "فيرا تشاسلافسكا",
-        "factType": "sport",
-        "options": [
-            "المصارعة المحترفة",
-            "الجمباز الفني",
-            "هوكي الجليد",
-            "السباحة"
-        ]
-    },
-    {
-        "id": "sports-fact-Q229967",
-        "category": "كورة ورياضة",
-        "difficulty": "متوسط",
-        "points": 300,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «فالينتينا فيزالي».",
-        "answer": "مبارزة السلاح",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Valentina%20Vezzali%20daticamera.jpg?width=900",
-        "hint": "رياضة نزال بالسيف، ولها أسلحة أولمبية بثلاثة أنواع.",
-        "source": "https://www.wikidata.org/wiki/Q229967",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Valentina_Vezzali_daticamera.jpg",
-        "imageKind": "commons",
-        "imageAlt": "فالينتينا فيزالي",
-        "factType": "sport",
-        "options": [
-            "الجمباز الإيقاعي",
-            "كرة الماء",
-            "مصارعة الهواة",
-            "مبارزة السلاح"
-        ]
-    },
-    {
-        "id": "sports-fact-Q230156",
-        "category": "كورة ورياضة",
-        "difficulty": "متوسط",
-        "points": 300,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «سيمونا هاليب».",
-        "answer": "كرة المضرب",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Halep%20RG18%20(25)%20(42929445712).jpg?width=900",
-        "hint": "تُلعب بمضرب وكرة فوق شبكة، فردياً أو بين زوجين.",
-        "source": "https://www.wikidata.org/wiki/Q230156",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Halep_RG18_(25)_(42929445712).jpg",
-        "imageKind": "commons",
-        "imageAlt": "سيمونا هاليب",
-        "factType": "sport",
-        "options": [
-            "سباق المزلجات",
-            "كرة المضرب",
-            "سباقات الدراجات على الطريق",
-            "الكرة الطائرة"
-        ]
-    },
-    {
-        "id": "sports-fact-Q230353",
+        "id": "sports-football-champion-ligue-1-Q22683328",
         "category": "كورة ورياضة",
         "difficulty": "صعب",
         "points": 400,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «باربورا ستريكوفا».",
-        "answer": "كرة المضرب",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Strycova%20WM17%20(5)%20(35379284843).jpg?width=900",
-        "hint": "تُلعب بمضرب وكرة فوق شبكة، فردياً أو بين زوجين.",
-        "source": "https://www.wikidata.org/wiki/Q230353",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Strycova_WM17_(5)_(35379284843).jpg",
-        "imageKind": "commons",
-        "imageAlt": "باربورا ستريكوفا",
-        "factType": "sport",
-        "options": [
-            "ألمانيا",
-            "إيطاليا",
-            "كرة المضرب",
-            "البرازيل"
-        ]
-    },
-    {
-        "id": "sports-fact-Q231374",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 400,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «شين غولد».",
-        "answer": "السباحة",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Shane%20Gould%20(cropped).jpg?width=900",
-        "hint": "رياضة سباق في الماء، ولها أساليب مثل الحرة والفراشة والظهر.",
-        "source": "https://www.wikidata.org/wiki/Q231374",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Shane_Gould_(cropped).jpg",
-        "imageKind": "commons",
-        "imageAlt": "شين غولد",
-        "factType": "sport",
-        "options": [
-            "السباحة",
-            "التزحلف",
-            "رفع الأثقال",
-            "التجديف"
-        ]
-    },
-    {
-        "id": "sports-fact-Q231508",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 400,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «ناتالي نيدهارت».",
-        "answer": "المصارعة المحترفة",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Natalya%20WrestleMania%2032%20Axxess.jpg?width=900",
-        "hint": "رياضة نزال يحاول فيها المتنافس تثبيت كتفي الخصم أو إخراجه من وضع السيطرة.",
-        "source": "https://www.wikidata.org/wiki/Q231508",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Natalya_WrestleMania_32_Axxess.jpg",
-        "imageKind": "commons",
-        "imageAlt": "ناتالي نيدهارت",
-        "factType": "sport",
-        "options": [
-            "رفع الأثقال",
-            "التجديف",
-            "ركوب الدراجات على المضمار",
-            "المصارعة المحترفة"
-        ]
-    },
-    {
-        "id": "sports-fact-Q231630",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 400,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «نونا جابرينداشفيلي».",
-        "answer": "الشطرنج",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gaprindashvili%201995%20Bad%20Liebenzell.jpg?width=900",
-        "hint": "لعبة ذهنية على رقعة من 64 مربعاً، وهدفها حصر ملك الخصم.",
-        "source": "https://www.wikidata.org/wiki/Q231630",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Gaprindashvili_1995_Bad_Liebenzell.jpg",
-        "imageKind": "commons",
-        "imageAlt": "نونا جابرينداشفيلي",
-        "factType": "sport",
-        "options": [
-            "التزلج الفني على الجليد",
-            "الشطرنج",
-            "سباق المزلجات",
-            "التزلج السريع"
-        ]
-    },
-    {
-        "id": "sports-fact-Q232008",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 400,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «ستيفكا كوستادينوفا».",
-        "answer": "ألعاب القوى",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Stefka%20Kostadinova.JPG?width=900",
-        "hint": "تندرج ضمن مسابقات المضمار والميدان مثل الجري والقفز والرمي.",
-        "source": "https://www.wikidata.org/wiki/Q232008",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Stefka_Kostadinova.JPG",
-        "imageKind": "commons",
-        "imageAlt": "ستيفكا كوستادينوفا",
-        "factType": "sport",
-        "options": [
-            "فرنسا",
-            "ألعاب القوى",
-            "إيطاليا",
-            "الأرجنتين"
-        ]
-    },
-    {
-        "id": "sports-fact-Q232720",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 400,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «مايا تشيبوردانيدزه».",
-        "answer": "الشطرنج",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Maia%20Tschiburdanidse%201984%20Saloniki.jpg?width=900",
-        "hint": "لعبة ذهنية على رقعة من 64 مربعاً، وهدفها حصر ملك الخصم.",
-        "source": "https://www.wikidata.org/wiki/Q232720",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Maia_Tschiburdanidse_1984_Saloniki.jpg",
-        "imageKind": "commons",
-        "imageAlt": "مايا تشيبوردانيدزه",
-        "factType": "sport",
-        "options": [
-            "الشطرنج",
-            "كرة المضرب",
-            "مبارزة السلاح",
-            "فروسية"
-        ]
-    },
-    {
-        "id": "sports-fact-Q232999",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 400,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «تارا ليبينسكي».",
-        "answer": "التزلج الفني على الجليد",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tara%20Lipinski%20in%20Sochi.jpg?width=900",
-        "hint": "رياضة شتوية تُمارس على الثلج أو الجليد باستخدام الزلاجات.",
-        "source": "https://www.wikidata.org/wiki/Q232999",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Tara_Lipinski_in_Sochi.jpg",
-        "imageKind": "commons",
-        "imageAlt": "تارا ليبينسكي",
-        "factType": "sport",
-        "options": [
-            "التزلج الفني على الجليد",
-            "التزحلف",
-            "رفع الأثقال",
-            "التجديف"
-        ]
-    },
-    {
-        "id": "sports-fact-Q233572",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 400,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «أغنس كيليتي».",
-        "answer": "الجمباز",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Keleti%20%C3%81gnes%202021%20RTG%202950%20(crop).jpg?width=900",
-        "hint": "رياضة أداء بدني على أجهزة أو بساط، تقيس القوة والمرونة والدقة.",
-        "source": "https://www.wikidata.org/wiki/Q233572",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Keleti_%C3%81gnes_2021_RTG_2950_(crop).jpg",
-        "imageKind": "commons",
-        "imageAlt": "أغنس كيليتي",
-        "factType": "sport",
-        "options": [
-            "كرة الطاولة",
-            "نبالة",
-            "الجمباز",
-            "الجمباز الفني"
-        ]
-    },
-    {
-        "id": "sports-fact-Q233683",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 400,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «يارميلا كراتوشفيلوفا».",
-        "answer": "ألعاب القوى",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jarmila%20Kratochv%C3%ADlov%C3%A1.jpg?width=900",
-        "hint": "تندرج ضمن مسابقات المضمار والميدان مثل الجري والقفز والرمي.",
-        "source": "https://www.wikidata.org/wiki/Q233683",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Jarmila_Kratochv%C3%ADlov%C3%A1.jpg",
-        "imageKind": "commons",
-        "imageAlt": "يارميلا كراتوشفيلوفا",
-        "factType": "sport",
-        "options": [
-            "12 لاعباً",
-            "ألعاب القوى",
-            "11 لاعباً",
-            "10 لاعبين"
-        ]
-    },
-    {
-        "id": "sports-fact-Q233880",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 400,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «غريت فايتز».",
-        "answer": "ألعاب القوى",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Grete%20Waitz%20(NYC%20Marathon%2C%202010)%202.jpg?width=900",
-        "hint": "تندرج ضمن مسابقات المضمار والميدان مثل الجري والقفز والرمي.",
-        "source": "https://www.wikidata.org/wiki/Q233880",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Grete_Waitz_(NYC_Marathon%2C_2010)_2.jpg",
-        "imageKind": "commons",
-        "imageAlt": "غريت فايتز",
-        "factType": "sport",
-        "options": [
-            "التزحلف",
-            "رفع الأثقال",
-            "ألعاب القوى",
-            "رياضة دراجات هوائية"
-        ]
-    },
-    {
-        "id": "sports-fact-Q234216",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 400,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «بيثاني هاملتون».",
-        "answer": "ركوب الأمواج",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bethany%20Hamilton%202025%20(cropped).jpg?width=900",
-        "hint": "يوازن الرياضي نفسه على لوح فوق موج البحر.",
-        "source": "https://www.wikidata.org/wiki/Q234216",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Bethany_Hamilton_2025_(cropped).jpg",
-        "imageKind": "commons",
-        "imageAlt": "بيثاني هاملتون",
-        "factType": "sport",
-        "options": [
-            "ركوب الأمواج",
-            "التزلج الألبي",
-            "المصارعة الحرة",
-            "الجمباز الإيقاعي"
-        ]
-    },
-    {
-        "id": "sports-fact-Q234329",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 400,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Michelle Wie West».",
-        "answer": "الغولف",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Michelle%20Wie%20(8699508521).jpg?width=900",
-        "hint": "رياضة فردية يحاول فيها اللاعب إدخال كرة صغيرة في حفر بأقل عدد من الضربات.",
-        "source": "https://www.wikidata.org/wiki/Q234329",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Michelle_Wie_(8699508521).jpg",
-        "imageKind": "commons",
-        "imageAlt": "Michelle Wie West",
-        "factType": "sport",
-        "options": [
-            "أتلتيكو مدريد",
-            "الغولف",
-            "ريال مدريد",
-            "برشلونة"
-        ]
-    },
-    {
-        "id": "sports-fact-Q234383",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 400,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «مارتينا بيك».",
-        "answer": "البياثلون",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Glagow%202006.jpg?width=900",
-        "hint": "تجمع بين التزلج الريفي لمسافات طويلة والرماية بالبندقية.",
-        "source": "https://www.wikidata.org/wiki/Q234383",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Glagow_2006.jpg",
-        "imageKind": "commons",
-        "imageAlt": "مارتينا بيك",
-        "factType": "sport",
-        "options": [
-            "فرنسا",
-            "البياثلون",
-            "إيطاليا",
-            "الأرجنتين"
-        ]
-    },
-    {
-        "id": "sports-fact-Q234408",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 400,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Dana Zátopková».",
-        "answer": "ألعاب القوى",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dana%20Zatopkova%20LQ.jpg?width=900",
-        "hint": "تندرج ضمن مسابقات المضمار والميدان مثل الجري والقفز والرمي.",
-        "source": "https://www.wikidata.org/wiki/Q234408",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Dana_Zatopkova_LQ.jpg",
-        "imageKind": "commons",
-        "imageAlt": "Dana Zátopková",
-        "factType": "sport",
-        "options": [
-            "الجمباز الإيقاعي",
-            "كرة الماء",
-            "مصارعة الهواة",
-            "ألعاب القوى"
-        ]
-    },
-    {
-        "id": "sports-fact-Q235151",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 400,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «إليزابيث روبنسون».",
-        "answer": "ألعاب القوى",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Betty%20Robinson%202.jpg?width=900",
-        "hint": "تندرج ضمن مسابقات المضمار والميدان مثل الجري والقفز والرمي.",
-        "source": "https://www.wikidata.org/wiki/Q235151",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Betty_Robinson_2.jpg",
-        "imageKind": "commons",
-        "imageAlt": "إليزابيث روبنسون",
-        "factType": "sport",
-        "options": [
-            "رياضة دراجات نارية",
-            "جمباز القفز",
-            "رياضة دراجات هوائية",
-            "ألعاب القوى"
-        ]
-    },
-    {
-        "id": "sports-fact-Q236109",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 400,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «كاميلا سكوليموفسكا».",
-        "answer": "ألعاب القوى",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kamila%20Skolimowska%202008.jpg?width=900",
-        "hint": "تندرج ضمن مسابقات المضمار والميدان مثل الجري والقفز والرمي.",
-        "source": "https://www.wikidata.org/wiki/Q236109",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Kamila_Skolimowska_2008.jpg",
-        "imageKind": "commons",
-        "imageAlt": "كاميلا سكوليموفسكا",
-        "factType": "sport",
-        "options": [
-            "كرة اليد",
-            "كانو-كاياك",
-            "رياضة دراجات نارية",
-            "ألعاب القوى"
-        ]
-    },
-    {
-        "id": "sports-fact-Q237976",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 400,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «إلين غديفانيشفيلي».",
-        "answer": "التزلج الفني على الجليد",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/2010%20EC%20Podium%20Elene%20Gedevanishvili.jpg?width=900",
-        "hint": "رياضة شتوية تُمارس على الثلج أو الجليد باستخدام الزلاجات.",
-        "source": "https://www.wikidata.org/wiki/Q237976",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:2010_EC_Podium_Elene_Gedevanishvili.jpg",
-        "imageKind": "commons",
-        "imageAlt": "إلين غديفانيشفيلي",
-        "factType": "sport",
-        "options": [
-            "فروسية",
-            "سباقات السيارات",
-            "التزلج الفني على الجليد",
-            "الشطرنج"
-        ]
-    },
-    {
-        "id": "sports-fact-Q238041",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 400,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «نانسي غرين».",
-        "answer": "التزلج الألبي",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nancy%20Greene%20at%20Sun%20Peaks%20in%202000.jpg?width=900",
-        "hint": "رياضة شتوية تُمارس على الثلج أو الجليد باستخدام الزلاجات.",
-        "source": "https://www.wikidata.org/wiki/Q238041",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Nancy_Greene_at_Sun_Peaks_in_2000.jpg",
-        "imageKind": "commons",
-        "imageAlt": "نانسي غرين",
-        "factType": "sport",
-        "options": [
-            "الشطرنج",
-            "فروسية",
-            "التزلج الألبي",
-            "مبارزة السلاح"
-        ]
-    },
-    {
-        "id": "sports-fact-Q238663",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 400,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «آلي ريسمان».",
-        "answer": "الجمباز الفني",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Aly%20Raisman%20Rio%202016b.jpg?width=900",
-        "hint": "رياضة أداء بدني على أجهزة أو بساط، تقيس القوة والمرونة والدقة.",
-        "source": "https://www.wikidata.org/wiki/Q238663",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Aly_Raisman_Rio_2016b.jpg",
-        "imageKind": "commons",
-        "imageAlt": "آلي ريسمان",
-        "factType": "sport",
-        "options": [
-            "الجمباز الفني",
-            "المصارعة الحرة",
-            "الجمباز الإيقاعي",
-            "كرة الماء"
-        ]
-    },
-    {
-        "id": "sports-fact-Q238769",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 400,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «أيزابيل ويرث».",
-        "answer": "فروسية",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Isabell%20Werth.jpg?width=900",
-        "hint": "تُمارس على ظهور الخيل، وتتضمن منافسات قفز الحواجز أو الترويض.",
-        "source": "https://www.wikidata.org/wiki/Q238769",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Isabell_Werth.jpg",
-        "imageKind": "commons",
-        "imageAlt": "أيزابيل ويرث",
-        "factType": "sport",
-        "options": [
-            "هوكي الجليد",
-            "فروسية",
-            "كرة الطاولة",
-            "نبالة"
-        ]
-    },
-    {
-        "id": "sports-fact-Q239812",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 400,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «باربرا آن سكوت».",
-        "answer": "التزلج الفني على الجليد",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Barbara%20Ann%20Scott%20-%201947%20(cropped).jpg?width=900",
-        "hint": "رياضة شتوية تُمارس على الثلج أو الجليد باستخدام الزلاجات.",
-        "source": "https://www.wikidata.org/wiki/Q239812",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Barbara_Ann_Scott_-_1947_(cropped).jpg",
-        "imageKind": "commons",
-        "imageAlt": "باربرا آن سكوت",
-        "factType": "sport",
-        "options": [
-            "أتلتيكو مدريد",
-            "إشبيلية",
-            "فالنسيا",
-            "التزلج الفني على الجليد"
-        ]
-    },
-    {
-        "id": "sports-fact-Q239979",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 400,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Ibolya Csák».",
-        "answer": "ألعاب القوى",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ibolya%20Csak.jpg?width=900",
-        "hint": "تندرج ضمن مسابقات المضمار والميدان مثل الجري والقفز والرمي.",
-        "source": "https://www.wikidata.org/wiki/Q239979",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Ibolya_Csak.jpg",
-        "imageKind": "commons",
-        "imageAlt": "Ibolya Csák",
-        "factType": "sport",
-        "options": [
-            "فرنسا",
-            "ألعاب القوى",
-            "إيطاليا",
-            "الأرجنتين"
-        ]
-    },
-    {
-        "id": "sports-fact-Q240057",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 400,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «مارينا أنيسينا».",
-        "answer": "التزلج الفني على الجليد",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/2012%20%D0%9C%D0%B0%D1%80%D0%B8%D0%BD%D0%B0%20%D0%90%D0%BD%D0%B8%D1%81%D0%B8%D0%BD%D0%B0.JPG?width=900",
-        "hint": "رياضة شتوية تُمارس على الثلج أو الجليد باستخدام الزلاجات.",
-        "source": "https://www.wikidata.org/wiki/Q240057",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:2012_%D0%9C%D0%B0%D1%80%D0%B8%D0%BD%D0%B0_%D0%90%D0%BD%D0%B8%D1%81%D0%B8%D0%BD%D0%B0.JPG",
-        "imageKind": "commons",
-        "imageAlt": "مارينا أنيسينا",
-        "factType": "sport",
-        "options": [
-            "التزلج الفني على الجليد",
-            "الرماية",
-            "الوثب الطويل",
-            "ألعاب القوى ذات قدرة على التحمل"
-        ]
-    },
-    {
-        "id": "sports-fact-Q240630",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 400,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «تيم لوبينجير».",
-        "answer": "الغولف",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/TimLobinger.jpg?width=900",
-        "hint": "رياضة فردية يحاول فيها اللاعب إدخال كرة صغيرة في حفر بأقل عدد من الضربات.",
-        "source": "https://www.wikidata.org/wiki/Q240630",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:TimLobinger.jpg",
-        "imageKind": "commons",
-        "imageAlt": "تيم لوبينجير",
-        "factType": "sport",
-        "options": [
-            "الزلاجة الجماعية",
-            "القفز التزلجي",
-            "11 لاعباً",
-            "الغولف"
-        ]
-    },
-    {
-        "id": "sports-fact-Q240871",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 400,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Nino Salukvadze».",
-        "answer": "الرماية",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%23493321%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e87e4b%22%20opacity%3D%22.12%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22125%22%20r%3D%2288%22%20fill%3D%22%23f7eee0%22%20stroke%3D%22%23e98d58%22%20stroke-width%3D%229%22%2F%3E%3Cpath%20d%3D%22M185%2082l38%2028-15%2045h-47l-15-45zM185%2082l-30-23m68%2051%2042-3m-57%2073%208%2037m-61-64-37%2020m75-91%2023-35%22%20fill%3D%22%23343d4c%22%20stroke%3D%22%23343d4c%22%20stroke-width%3D%2213%22%20stroke-linejoin%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e87e4b%22%3ESPORT%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3ENino%20Salukvadze%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e87e4b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "رياضة دقة وتصويب؛ إحداهما تستخدم القوس والأخرى سلاحاً نارياً.",
-        "source": "https://www.wikidata.org/wiki/Q240871",
+        "question": "من بطل الدوري الفرنسي في موسم 2016–17؟",
+        "answer": "نادي موناكو",
+        "imageAlt": "الدوري الفرنسي",
+        "image": "",
         "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "Nino Salukvadze",
-        "factType": "sport",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2016–17 في الدوري الفرنسي.",
+        "source": "https://www.wikidata.org/wiki/Q22683328",
+        "factType": "football-champion",
+        "footballCompetition": "ligue-1",
         "options": [
-            "الرماية",
-            "التجديف",
-            "ركوب الدراجات على المضمار",
-            "جودو"
+            "نادي النصر السعودي",
+            "نادي إنتر ميلان",
+            "نادي آرسنال",
+            "نادي موناكو"
+        ],
+        "acceptedAnswers": [
+            "نادي موناكو"
         ]
     },
     {
-        "id": "sports-fact-Q240984",
+        "id": "sports-football-champion-ligue-1-Q19820211",
         "category": "كورة ورياضة",
         "difficulty": "صعب",
         "points": 400,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «إيلينا نوفيكوفا بيلوفا».",
-        "answer": "مبارزة السلاح",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Elena%20Belova%20c1974.jpg?width=900",
-        "hint": "رياضة نزال بالسيف، ولها أسلحة أولمبية بثلاثة أنواع.",
-        "source": "https://www.wikidata.org/wiki/Q240984",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Elena_Belova_c1974.jpg",
-        "imageKind": "commons",
-        "imageAlt": "إيلينا نوفيكوفا بيلوفا",
-        "factType": "sport",
-        "options": [
-            "المصارعة الحرة",
-            "مبارزة السلاح",
-            "الغولف",
-            "التزلج الألبي"
-        ]
-    },
-    {
-        "id": "sports-fact-Q241004",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 400,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «روبرتو بالادو».",
-        "answer": "الملاكمة",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Roberto%20Balado(cropped).jpg?width=900",
-        "hint": "رياضة نزال فردي تعتمد على اللكمات داخل الحلبة والقفازات.",
-        "source": "https://www.wikidata.org/wiki/Q241004",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Roberto_Balado(cropped).jpg",
-        "imageKind": "commons",
-        "imageAlt": "روبرتو بالادو",
-        "factType": "sport",
-        "options": [
-            "كمال الأجسام",
-            "كرة اليد",
-            "كانو-كاياك",
-            "الملاكمة"
-        ]
-    },
-    {
-        "id": "sports-fact-Q242150",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 400,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «هيلين ستيفنز».",
-        "answer": "ألعاب القوى",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Helen%20Stephens%201936.jpg?width=900",
-        "hint": "تندرج ضمن مسابقات المضمار والميدان مثل الجري والقفز والرمي.",
-        "source": "https://www.wikidata.org/wiki/Q242150",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Helen_Stephens_1936.jpg",
-        "imageKind": "commons",
-        "imageAlt": "هيلين ستيفنز",
-        "factType": "sport",
-        "options": [
-            "ألعاب القوى",
-            "الزلاجة الجماعية",
-            "القفز التزلجي",
-            "11 لاعباً"
-        ]
-    },
-    {
-        "id": "sports-fact-Q242185",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 400,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «بيل راسل».",
-        "answer": "ألعاب القوى",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bill%20russell%20dribbling%20(cropped).jpg?width=900",
-        "hint": "تندرج ضمن مسابقات المضمار والميدان مثل الجري والقفز والرمي.",
-        "source": "https://www.wikidata.org/wiki/Q242185",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Bill_russell_dribbling_(cropped).jpg",
-        "imageKind": "commons",
-        "imageAlt": "بيل راسل",
-        "factType": "sport",
-        "options": [
-            "ألعاب القوى ذات قدرة على التحمل",
-            "ترويض الخيول",
-            "ألعاب القوى",
-            "الوثب الطويل"
-        ]
-    },
-    {
-        "id": "sports-fact-Q242201",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 400,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «روندا روزي».",
-        "answer": "جودو",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rousey%20HOF%202018%20(cropped).jpg?width=900",
-        "hint": "فن قتالي ياباني أولمبي يعتمد على الرميات والتثبيت، لا اللكمات.",
-        "source": "https://www.wikidata.org/wiki/Q242201",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Rousey_HOF_2018_(cropped).jpg",
-        "imageKind": "commons",
-        "imageAlt": "روندا روزي",
-        "factType": "sport",
-        "options": [
-            "فالنسيا",
-            "جودو",
-            "أتلتيكو مدريد",
-            "إشبيلية"
-        ]
-    },
-    {
-        "id": "sports-fact-Q245338",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 400,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Zygmunt Kiszkurno».",
-        "answer": "الرماية",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%23493321%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e87e4b%22%20opacity%3D%22.12%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22125%22%20r%3D%2288%22%20fill%3D%22%23f7eee0%22%20stroke%3D%22%23e98d58%22%20stroke-width%3D%229%22%2F%3E%3Cpath%20d%3D%22M185%2082l38%2028-15%2045h-47l-15-45zM185%2082l-30-23m68%2051%2042-3m-57%2073%208%2037m-61-64-37%2020m75-91%2023-35%22%20fill%3D%22%23343d4c%22%20stroke%3D%22%23343d4c%22%20stroke-width%3D%2213%22%20stroke-linejoin%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e87e4b%22%3ESPORT%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EZygmunt%20Kiszkurno%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e87e4b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "رياضة دقة وتصويب؛ إحداهما تستخدم القوس والأخرى سلاحاً نارياً.",
-        "source": "https://www.wikidata.org/wiki/Q245338",
+        "question": "من بطل الدوري الفرنسي في موسم 2015–16؟",
+        "answer": "باريس سان جيرمان",
+        "imageAlt": "الدوري الفرنسي",
+        "image": "",
         "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "Zygmunt Kiszkurno",
-        "factType": "sport",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2015–16 في الدوري الفرنسي.",
+        "source": "https://www.wikidata.org/wiki/Q19820211",
+        "factType": "football-champion",
+        "footballCompetition": "ligue-1",
         "options": [
-            "كرة الطاولة",
-            "نبالة",
-            "هوكي الجليد",
-            "الرماية"
+            "النادي الأهلي (السعودية)",
+            "ليستر سيتي",
+            "نادي الفتح السعودي",
+            "باريس سان جيرمان"
+        ],
+        "acceptedAnswers": [
+            "باريس سان جيرمان"
         ]
     },
     {
-        "id": "sports-fact-Q247704",
+        "id": "sports-football-champion-uefa-champions-league-Q13416183",
         "category": "كورة ورياضة",
         "difficulty": "صعب",
         "points": 400,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Vlasta Depetrisová».",
-        "answer": "كرة الطاولة",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%23493321%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e87e4b%22%20opacity%3D%22.12%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22125%22%20r%3D%2288%22%20fill%3D%22%23f7eee0%22%20stroke%3D%22%23e98d58%22%20stroke-width%3D%229%22%2F%3E%3Cpath%20d%3D%22M185%2082l38%2028-15%2045h-47l-15-45zM185%2082l-30-23m68%2051%2042-3m-57%2073%208%2037m-61-64-37%2020m75-91%2023-35%22%20fill%3D%22%23343d4c%22%20stroke%3D%22%23343d4c%22%20stroke-width%3D%2213%22%20stroke-linejoin%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e87e4b%22%3ESPORT%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EVlasta%20Depetrisov%C3%A1%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e87e4b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "تُلعب بمضربين صغيرين وكرة خفيفة فوق طاولة مقسومة بشبكة.",
-        "source": "https://www.wikidata.org/wiki/Q247704",
+        "question": "من بطل دوري أبطال أوروبا في موسم 2015–16؟",
+        "answer": "ريال مدريد",
+        "imageAlt": "دوري أبطال أوروبا",
+        "image": "",
         "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "Vlasta Depetrisová",
-        "factType": "sport",
-        "options": [
-            "مصارعة الهواة",
-            "كرة القدم الأمريكية",
-            "كرة الطاولة",
-            "كرة الماء"
-        ]
-    },
-    {
-        "id": "sports-fact-Q249541",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 400,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Günter Lörke».",
-        "answer": "رياضة دراجات هوائية",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/G%C3%BCnter%20Lorke%2C%20XIII.%20Friedensfahrt.jpg?width=900",
-        "hint": "تعتمد على دراجة، وتتنوع بين سباقات الطريق والمضمار والطرق الوعرة.",
-        "source": "https://www.wikidata.org/wiki/Q249541",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:G%C3%BCnter_Lorke%2C_XIII._Friedensfahrt.jpg",
-        "imageKind": "commons",
-        "imageAlt": "Günter Lörke",
-        "factType": "sport",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2015–16 في دوري أبطال أوروبا.",
+        "source": "https://www.wikidata.org/wiki/Q13416183",
+        "factType": "football-champion",
+        "footballCompetition": "uefa-champions-league",
         "options": [
             "ريال مدريد",
-            "رياضة دراجات هوائية",
-            "الأرجنتين",
-            "فرنسا"
+            "باريس سان جيرمان",
+            "بايرن ميونخ",
+            "نادي برشلونة"
+        ],
+        "acceptedAnswers": [
+            "ريال مدريد"
         ]
     },
     {
-        "id": "sports-fact-Q249912",
+        "id": "sports-football-champion-bundesliga-Q18612911",
         "category": "كورة ورياضة",
         "difficulty": "صعب",
         "points": 400,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «راي ويلسون».",
-        "answer": "كرة القدم",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Champions%20statue.jpg?width=900",
-        "hint": "رياضة جماعية يحاول فيها اللاعبون تسجيل الأهداف بالقدم، باستثناء الحارس.",
-        "source": "https://www.wikidata.org/wiki/Q249912",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Champions_statue.jpg",
-        "imageKind": "commons",
-        "imageAlt": "راي ويلسون",
-        "factType": "sport",
-        "options": [
-            "التزلج السريع",
-            "كرة القدم",
-            "الكرة الطائرة",
-            "سباق المزلجات"
-        ]
-    },
-    {
-        "id": "sports-fact-Q250282",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 400,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Marc Raquil».",
-        "answer": "ألعاب القوى",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Marc%20Raquil.jpg?width=900",
-        "hint": "تندرج ضمن مسابقات المضمار والميدان مثل الجري والقفز والرمي.",
-        "source": "https://www.wikidata.org/wiki/Q250282",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Marc_Raquil.jpg",
-        "imageKind": "commons",
-        "imageAlt": "Marc Raquil",
-        "factType": "sport",
-        "options": [
-            "الملاكمة",
-            "ألعاب القوى",
-            "إشبيلية",
-            "فالنسيا"
-        ]
-    },
-    {
-        "id": "sports-fact-Q250580",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 400,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Zarbeg Beriashvili».",
-        "answer": "المصارعة الحرة",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%23493321%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e87e4b%22%20opacity%3D%22.12%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22125%22%20r%3D%2288%22%20fill%3D%22%23f7eee0%22%20stroke%3D%22%23e98d58%22%20stroke-width%3D%229%22%2F%3E%3Cpath%20d%3D%22M185%2082l38%2028-15%2045h-47l-15-45zM185%2082l-30-23m68%2051%2042-3m-57%2073%208%2037m-61-64-37%2020m75-91%2023-35%22%20fill%3D%22%23343d4c%22%20stroke%3D%22%23343d4c%22%20stroke-width%3D%2213%22%20stroke-linejoin%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e87e4b%22%3ESPORT%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EZarbeg%20Beriashvili%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e87e4b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "رياضة نزال يحاول فيها المتنافس تثبيت كتفي الخصم أو إخراجه من وضع السيطرة.",
-        "source": "https://www.wikidata.org/wiki/Q250580",
+        "question": "من بطل الدوري الألماني في موسم 2015–16؟",
+        "answer": "بايرن ميونخ",
+        "imageAlt": "الدوري الألماني",
+        "image": "",
         "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "Zarbeg Beriashvili",
-        "factType": "sport",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2015–16 في الدوري الألماني.",
+        "source": "https://www.wikidata.org/wiki/Q18612911",
+        "factType": "football-champion",
+        "footballCompetition": "bundesliga",
         "options": [
-            "المصارعة الحرة",
-            "رياضة دراجات نارية",
-            "جمباز القفز",
-            "رياضة دراجات هوائية"
+            "نادي تشيلسي",
+            "نادي ليل",
+            "بايرن ميونخ",
+            "إيه سي ميلان"
+        ],
+        "acceptedAnswers": [
+            "بايرن ميونخ"
         ]
     },
     {
-        "id": "sports-fact-Q251219",
+        "id": "sports-football-champion-laliga-Q16621994",
         "category": "كورة ورياضة",
         "difficulty": "صعب",
         "points": 400,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «ألبارو بينو».",
-        "answer": "سباقات الدراجات على الطريق",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/%C3%81lvaro%20Pino%20Xacobeo%20Galicia.JPG?width=900",
-        "hint": "تعتمد على دراجة، وتتنوع بين سباقات الطريق والمضمار والطرق الوعرة.",
-        "source": "https://www.wikidata.org/wiki/Q251219",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:%C3%81lvaro_Pino_Xacobeo_Galicia.JPG",
-        "imageKind": "commons",
-        "imageAlt": "ألبارو بينو",
-        "factType": "sport",
-        "options": [
-            "سباقات الدراجات على الطريق",
-            "فرنسا",
-            "ريال مدريد",
-            "برشلونة"
-        ]
-    },
-    {
-        "id": "sports-fact-Q251805",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 400,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «أنخيل ماريا فيار».",
-        "answer": "كرة القدم",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/%C3%81ngel%20Mar%C3%ADa%20Villar.jpg?width=900",
-        "hint": "رياضة جماعية يحاول فيها اللاعبون تسجيل الأهداف بالقدم، باستثناء الحارس.",
-        "source": "https://www.wikidata.org/wiki/Q251805",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:%C3%81ngel_Mar%C3%ADa_Villar.jpg",
-        "imageKind": "commons",
-        "imageAlt": "أنخيل ماريا فيار",
-        "factType": "sport",
-        "options": [
-            "الأرجنتين",
-            "كرة القدم",
-            "ألمانيا",
-            "إيطاليا"
-        ]
-    },
-    {
-        "id": "sports-fact-Q252788",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 400,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «كارل ماي».",
-        "answer": "كرة القدم",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Karl%20Mai%201954%20(Com%20M03-0108-005-0017)%20(cropped).jpg?width=900",
-        "hint": "رياضة جماعية يحاول فيها اللاعبون تسجيل الأهداف بالقدم، باستثناء الحارس.",
-        "source": "https://www.wikidata.org/wiki/Q252788",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Karl_Mai_1954_(Com_M03-0108-005-0017)_(cropped).jpg",
-        "imageKind": "commons",
-        "imageAlt": "كارل ماي",
-        "factType": "sport",
-        "options": [
-            "كرة القدم",
-            "الغولف",
-            "التزلج الألبي",
-            "المصارعة الحرة"
-        ]
-    },
-    {
-        "id": "sports-fact-Q253961",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 400,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Nana Alexandria».",
-        "answer": "الشطرنج",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hoogoven%20Schaaktoernooi%20in%20Beverwijk.%20Nana%20Aleksandria%20(USSR)%20aan%20bord%2C%20Bestanddeelnr%20923-1999.jpg?width=900",
-        "hint": "لعبة ذهنية على رقعة من 64 مربعاً، وهدفها حصر ملك الخصم.",
-        "source": "https://www.wikidata.org/wiki/Q253961",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Hoogoven_Schaaktoernooi_in_Beverwijk._Nana_Aleksandria_(USSR)_aan_bord%2C_Bestanddeelnr_923-1999.jpg",
-        "imageKind": "commons",
-        "imageAlt": "Nana Alexandria",
-        "factType": "sport",
-        "options": [
-            "الشطرنج",
-            "ألعاب القوى ذات قدرة على التحمل",
-            "ترويض الخيول",
-            "سباقات الدراجات على الطريق"
-        ]
-    },
-    {
-        "id": "sports-fact-Q254108",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 500,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «ماريا خوليا مانتيلا».",
-        "answer": "ألعاب القوى",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/MajuMantillaHuanchaco%20(cropped2).jpg?width=900",
-        "hint": "تندرج ضمن مسابقات المضمار والميدان مثل الجري والقفز والرمي.",
-        "source": "https://www.wikidata.org/wiki/Q254108",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:MajuMantillaHuanchaco_(cropped2).jpg",
-        "imageKind": "commons",
-        "imageAlt": "ماريا خوليا مانتيلا",
-        "factType": "sport",
-        "options": [
-            "ألعاب القوى",
-            "11 لاعباً",
-            "10 لاعبين",
-            "12 لاعباً"
-        ]
-    },
-    {
-        "id": "sports-fact-Q254220",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 500,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «ألينا كاباييفا».",
-        "answer": "الجمباز الإيقاعي",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/AlinaKabaevaPortrait.jpg?width=900",
-        "hint": "رياضة أداء بدني على أجهزة أو بساط، تقيس القوة والمرونة والدقة.",
-        "source": "https://www.wikidata.org/wiki/Q254220",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:AlinaKabaevaPortrait.jpg",
-        "imageKind": "commons",
-        "imageAlt": "ألينا كاباييفا",
-        "factType": "sport",
-        "options": [
-            "سباق المزلجات",
-            "الجمباز الإيقاعي",
-            "سباقات الدراجات على الطريق",
-            "الكرة الطائرة"
-        ]
-    },
-    {
-        "id": "sports-fact-Q255011",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 500,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «هانا ماندليكوفا».",
-        "answer": "كرة المضرب",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hana%20Mandl%C3%ADkov%C3%A1%202009%20US%20Open%2002.jpg?width=900",
-        "hint": "تُلعب بمضرب وكرة فوق شبكة، فردياً أو بين زوجين.",
-        "source": "https://www.wikidata.org/wiki/Q255011",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Hana_Mandl%C3%ADkov%C3%A1_2009_US_Open_02.jpg",
-        "imageKind": "commons",
-        "imageAlt": "هانا ماندليكوفا",
-        "factType": "sport",
-        "options": [
-            "12 لاعباً",
-            "9 لاعبين",
-            "كرة المضرب",
-            "10 لاعبين"
-        ]
-    },
-    {
-        "id": "sports-fact-Q255353",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 500,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «شاوكيه ديكسترا».",
-        "answer": "التزلج الفني على الجليد",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sjoukje%20Dijkstra%20c1965.jpg?width=900",
-        "hint": "رياضة شتوية تُمارس على الثلج أو الجليد باستخدام الزلاجات.",
-        "source": "https://www.wikidata.org/wiki/Q255353",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Sjoukje_Dijkstra_c1965.jpg",
-        "imageKind": "commons",
-        "imageAlt": "شاوكيه ديكسترا",
-        "factType": "sport",
-        "options": [
-            "كمال الأجسام",
-            "التزلج الفني على الجليد",
-            "سباقات السيارات",
-            "كرة القدم"
-        ]
-    },
-    {
-        "id": "sports-fact-Q255540",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 500,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Miklós Gór-Nagy».",
-        "answer": "كرة الماء",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%23493321%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e87e4b%22%20opacity%3D%22.12%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22125%22%20r%3D%2288%22%20fill%3D%22%23f7eee0%22%20stroke%3D%22%23e98d58%22%20stroke-width%3D%229%22%2F%3E%3Cpath%20d%3D%22M185%2082l38%2028-15%2045h-47l-15-45zM185%2082l-30-23m68%2051%2042-3m-57%2073%208%2037m-61-64-37%2020m75-91%2023-35%22%20fill%3D%22%23343d4c%22%20stroke%3D%22%23343d4c%22%20stroke-width%3D%2213%22%20stroke-linejoin%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e87e4b%22%3ESPORT%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EMikl%C3%B3s%20G%C3%B3r-Nagy%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e87e4b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "لعبة جماعية في المسبح، ويُسجل الهدف برمي الكرة في مرمى عائم.",
-        "source": "https://www.wikidata.org/wiki/Q255540",
+        "question": "من بطل الدوري الإسباني في موسم 2015–16؟",
+        "answer": "نادي برشلونة",
+        "imageAlt": "الدوري الإسباني",
+        "image": "",
         "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "Miklós Gór-Nagy",
-        "factType": "sport",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2015–16 في الدوري الإسباني.",
+        "source": "https://www.wikidata.org/wiki/Q16621994",
+        "factType": "football-champion",
+        "footballCompetition": "laliga",
         "options": [
-            "فروسية",
-            "كرة الماء",
-            "مبارزة السلاح",
-            "الشطرنج"
-        ]
-    },
-    {
-        "id": "sports-fact-Q255854",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 500,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Herma Szabo».",
-        "answer": "التزلج الفني على الجليد",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20102-11014%2C%20Jaross%20Szabo.jpg?width=900",
-        "hint": "رياضة شتوية تُمارس على الثلج أو الجليد باستخدام الزلاجات.",
-        "source": "https://www.wikidata.org/wiki/Q255854",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_102-11014%2C_Jaross_Szabo.jpg",
-        "imageKind": "commons",
-        "imageAlt": "Herma Szabo",
-        "factType": "sport",
-        "options": [
-            "الأرجنتين",
-            "فرنسا",
-            "ريال مدريد",
-            "التزلج الفني على الجليد"
-        ]
-    },
-    {
-        "id": "sports-fact-Q256600",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 500,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «لينا رادكي».",
-        "answer": "ألعاب القوى",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lina%20Radke%201928.jpg?width=900",
-        "hint": "تندرج ضمن مسابقات المضمار والميدان مثل الجري والقفز والرمي.",
-        "source": "https://www.wikidata.org/wiki/Q256600",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Lina_Radke_1928.jpg",
-        "imageKind": "commons",
-        "imageAlt": "لينا رادكي",
-        "factType": "sport",
-        "options": [
-            "رياضة دراجات نارية",
-            "ألعاب القوى",
-            "كرة اليد",
-            "كانو-كاياك"
-        ]
-    },
-    {
-        "id": "sports-fact-Q258645",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 500,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Ellen Preis».",
-        "answer": "مبارزة السلاح",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Elek%20Ilona%20Berlin%20(1936)%20(cropped).jpg?width=900",
-        "hint": "رياضة نزال بالسيف، ولها أسلحة أولمبية بثلاثة أنواع.",
-        "source": "https://www.wikidata.org/wiki/Q258645",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Elek_Ilona_Berlin_(1936)_(cropped).jpg",
-        "imageKind": "commons",
-        "imageAlt": "Ellen Preis",
-        "factType": "sport",
-        "options": [
-            "كرة المضرب",
-            "الشطرنج",
-            "مبارزة السلاح",
-            "البياثلون"
-        ]
-    },
-    {
-        "id": "sports-fact-Q259851",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 500,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Nana Ioseliani».",
-        "answer": "الشطرنج",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ioseliani%2CNana%201980%20Malta.JPG?width=900",
-        "hint": "لعبة ذهنية على رقعة من 64 مربعاً، وهدفها حصر ملك الخصم.",
-        "source": "https://www.wikidata.org/wiki/Q259851",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Ioseliani%2CNana_1980_Malta.JPG",
-        "imageKind": "commons",
-        "imageAlt": "Nana Ioseliani",
-        "factType": "sport",
-        "options": [
-            "ترويض الخيول",
-            "سباقات الدراجات على الطريق",
-            "الشطرنج",
-            "ألعاب القوى ذات قدرة على التحمل"
-        ]
-    },
-    {
-        "id": "sports-fact-Q260582",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 500,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Hestrie Cloete».",
-        "answer": "ألعاب القوى",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%23493321%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e87e4b%22%20opacity%3D%22.12%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22125%22%20r%3D%2288%22%20fill%3D%22%23f7eee0%22%20stroke%3D%22%23e98d58%22%20stroke-width%3D%229%22%2F%3E%3Cpath%20d%3D%22M185%2082l38%2028-15%2045h-47l-15-45zM185%2082l-30-23m68%2051%2042-3m-57%2073%208%2037m-61-64-37%2020m75-91%2023-35%22%20fill%3D%22%23343d4c%22%20stroke%3D%22%23343d4c%22%20stroke-width%3D%2213%22%20stroke-linejoin%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e87e4b%22%3ESPORT%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EHestrie%20Cloete%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e87e4b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "تندرج ضمن مسابقات المضمار والميدان مثل الجري والقفز والرمي.",
-        "source": "https://www.wikidata.org/wiki/Q260582",
-        "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "Hestrie Cloete",
-        "factType": "sport",
-        "options": [
+            "نادي موناكو",
+            "نادي برشلونة",
             "أتلتيكو مدريد",
-            "ألعاب القوى",
+            "يوفنتوس"
+        ],
+        "acceptedAnswers": [
+            "نادي برشلونة"
+        ]
+    },
+    {
+        "id": "sports-football-champion-serie-a-Q19309054",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 400,
+        "question": "من بطل الدوري الإيطالي في موسم 2015–16؟",
+        "answer": "يوفنتوس",
+        "imageAlt": "الدوري الإيطالي",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2015–16 في الدوري الإيطالي.",
+        "source": "https://www.wikidata.org/wiki/Q19309054",
+        "factType": "football-champion",
+        "footballCompetition": "serie-a",
+        "options": [
+            "نادي إنتر ميلان",
+            "نادي آرسنال",
+            "يوفنتوس",
+            "نادي النصر السعودي"
+        ],
+        "acceptedAnswers": [
+            "يوفنتوس"
+        ]
+    },
+    {
+        "id": "sports-football-champion-saudi-Q20647768",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 400,
+        "question": "من بطل الدوري السعودي للمحترفين في موسم 2015–16؟",
+        "answer": "النادي الأهلي (السعودية)",
+        "imageAlt": "الدوري السعودي للمحترفين",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2015–16 في الدوري السعودي للمحترفين.",
+        "source": "https://www.wikidata.org/wiki/Q20647768",
+        "factType": "football-champion",
+        "footballCompetition": "saudi",
+        "options": [
+            "نادي الهلال",
+            "باير 04 ليفركوزن",
+            "نادي الاتحاد",
+            "النادي الأهلي (السعودية)"
+        ],
+        "acceptedAnswers": [
+            "النادي الأهلي (السعودية)"
+        ]
+    },
+    {
+        "id": "sports-football-champion-epl-Q19346732",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 400,
+        "question": "من بطل الدوري الإنجليزي الممتاز في موسم 2015–16؟",
+        "answer": "ليستر سيتي",
+        "imageAlt": "الدوري الإنجليزي الممتاز",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2015–16 في الدوري الإنجليزي الممتاز.",
+        "source": "https://www.wikidata.org/wiki/Q19346732",
+        "factType": "football-champion",
+        "footballCompetition": "epl",
+        "options": [
+            "FC Bayern München",
+            "نادي ليفربول",
+            "نادي نابولي",
+            "ليستر سيتي"
+        ],
+        "acceptedAnswers": [
+            "ليستر سيتي"
+        ]
+    },
+    {
+        "id": "sports-football-champion-ligue-1-Q16335962",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 500,
+        "question": "من بطل الدوري الفرنسي في موسم 2014–15؟",
+        "answer": "باريس سان جيرمان",
+        "imageAlt": "الدوري الفرنسي",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2014–15 في الدوري الفرنسي.",
+        "source": "https://www.wikidata.org/wiki/Q16335962",
+        "factType": "football-champion",
+        "footballCompetition": "ligue-1",
+        "options": [
+            "ليستر سيتي",
+            "نادي الفتح السعودي",
+            "باريس سان جيرمان",
+            "النادي الأهلي (السعودية)"
+        ],
+        "acceptedAnswers": [
+            "باريس سان جيرمان"
+        ]
+    },
+    {
+        "id": "sports-football-champion-bundesliga-Q15810955",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 500,
+        "question": "من بطل الدوري الألماني في موسم 2014–15؟",
+        "answer": "بايرن ميونخ",
+        "imageAlt": "الدوري الألماني",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2014–15 في الدوري الألماني.",
+        "source": "https://www.wikidata.org/wiki/Q15810955",
+        "factType": "football-champion",
+        "footballCompetition": "bundesliga",
+        "options": [
+            "نادي الفتح السعودي",
+            "بايرن ميونخ",
+            "النادي الأهلي (السعودية)",
+            "ليستر سيتي"
+        ],
+        "acceptedAnswers": [
+            "بايرن ميونخ"
+        ]
+    },
+    {
+        "id": "sports-football-champion-uefa-champions-league-Q11306107",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 500,
+        "question": "من بطل دوري أبطال أوروبا في موسم 2014–15؟",
+        "answer": "نادي برشلونة",
+        "imageAlt": "دوري أبطال أوروبا",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2014–15 في دوري أبطال أوروبا.",
+        "source": "https://www.wikidata.org/wiki/Q11306107",
+        "factType": "football-champion",
+        "footballCompetition": "uefa-champions-league",
+        "options": [
+            "نادي الاتحاد",
+            "إيه سي ميلان",
+            "نادي برشلونة",
+            "باير 04 ليفركوزن"
+        ],
+        "acceptedAnswers": [
+            "نادي برشلونة"
+        ]
+    },
+    {
+        "id": "sports-football-champion-laliga-Q16600574",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 500,
+        "question": "من بطل الدوري الإسباني في موسم 2014–15؟",
+        "answer": "نادي برشلونة",
+        "imageAlt": "الدوري الإسباني",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2014–15 في الدوري الإسباني.",
+        "source": "https://www.wikidata.org/wiki/Q16600574",
+        "factType": "football-champion",
+        "footballCompetition": "laliga",
+        "options": [
+            "نادي برشلونة",
+            "نادي الهلال",
+            "باير 04 ليفركوزن",
+            "نادي الاتحاد"
+        ],
+        "acceptedAnswers": [
+            "نادي برشلونة"
+        ]
+    },
+    {
+        "id": "sports-football-champion-serie-a-Q15847307",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 500,
+        "question": "من بطل الدوري الإيطالي في موسم 2014–15؟",
+        "answer": "يوفنتوس",
+        "imageAlt": "الدوري الإيطالي",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2014–15 في الدوري الإيطالي.",
+        "source": "https://www.wikidata.org/wiki/Q15847307",
+        "factType": "football-champion",
+        "footballCompetition": "serie-a",
+        "options": [
+            "نادي الهلال",
+            "باير 04 ليفركوزن",
+            "يوفنتوس",
+            "مانشستر سيتي"
+        ],
+        "acceptedAnswers": [
+            "يوفنتوس"
+        ]
+    },
+    {
+        "id": "sports-football-champion-epl-Q16011788",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 500,
+        "question": "من بطل الدوري الإنجليزي الممتاز في موسم 2014–15؟",
+        "answer": "نادي تشيلسي",
+        "imageAlt": "الدوري الإنجليزي الممتاز",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2014–15 في الدوري الإنجليزي الممتاز.",
+        "source": "https://www.wikidata.org/wiki/Q16011788",
+        "factType": "football-champion",
+        "footballCompetition": "epl",
+        "options": [
+            "نادي تشيلسي",
+            "نادي الفتح السعودي",
+            "نادي الشباب السعودي",
+            "باريس سان جيرمان"
+        ],
+        "acceptedAnswers": [
+            "نادي تشيلسي"
+        ]
+    },
+    {
+        "id": "sports-football-champion-saudi-Q18208714",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 500,
+        "question": "من بطل الدوري السعودي للمحترفين في موسم 2014–15؟",
+        "answer": "نادي النصر السعودي",
+        "imageAlt": "الدوري السعودي للمحترفين",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2014–15 في الدوري السعودي للمحترفين.",
+        "source": "https://www.wikidata.org/wiki/Q18208714",
+        "factType": "football-champion",
+        "footballCompetition": "saudi",
+        "options": [
             "ريال مدريد",
-            "برشلونة"
+            "مانشستر سيتي",
+            "نادي النصر السعودي",
+            "نادي نابولي"
+        ],
+        "acceptedAnswers": [
+            "نادي النصر السعودي"
         ]
     },
     {
-        "id": "sports-fact-Q261207",
+        "id": "sports-football-champion-ligue-1-Q9022515",
         "category": "كورة ورياضة",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «ليلي ألفاريث».",
-        "answer": "كرة المضرب",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lili%20de%20Alvarez%201926.jpg?width=900",
-        "hint": "تُلعب بمضرب وكرة فوق شبكة، فردياً أو بين زوجين.",
-        "source": "https://www.wikidata.org/wiki/Q261207",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Lili_de_Alvarez_1926.jpg",
-        "imageKind": "commons",
-        "imageAlt": "ليلي ألفاريث",
-        "factType": "sport",
-        "options": [
-            "كرة المضرب",
-            "الشطرنج",
-            "فروسية",
-            "سباقات السيارات"
-        ]
-    },
-    {
-        "id": "sports-fact-Q261302",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 500,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Marek Švec».",
-        "answer": "مصارعة الهواة",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%23493321%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e87e4b%22%20opacity%3D%22.12%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22125%22%20r%3D%2288%22%20fill%3D%22%23f7eee0%22%20stroke%3D%22%23e98d58%22%20stroke-width%3D%229%22%2F%3E%3Cpath%20d%3D%22M185%2082l38%2028-15%2045h-47l-15-45zM185%2082l-30-23m68%2051%2042-3m-57%2073%208%2037m-61-64-37%2020m75-91%2023-35%22%20fill%3D%22%23343d4c%22%20stroke%3D%22%23343d4c%22%20stroke-width%3D%2213%22%20stroke-linejoin%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e87e4b%22%3ESPORT%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EMarek%20%C5%A0vec%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e87e4b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "رياضة نزال يحاول فيها المتنافس تثبيت كتفي الخصم أو إخراجه من وضع السيطرة.",
-        "source": "https://www.wikidata.org/wiki/Q261302",
+        "question": "من بطل الدوري الفرنسي في موسم 2013–14؟",
+        "answer": "باريس سان جيرمان",
+        "imageAlt": "الدوري الفرنسي",
+        "image": "",
         "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "Marek Švec",
-        "factType": "sport",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2013–14 في الدوري الفرنسي.",
+        "source": "https://www.wikidata.org/wiki/Q9022515",
+        "factType": "football-champion",
+        "footballCompetition": "ligue-1",
         "options": [
-            "مصارعة الهواة",
-            "الزلاجة الجماعية",
-            "القفز التزلجي",
-            "11 لاعباً"
+            "إيه سي ميلان",
+            "باريس سان جيرمان",
+            "باير 04 ليفركوزن",
+            "نادي الاتحاد"
+        ],
+        "acceptedAnswers": [
+            "باريس سان جيرمان"
         ]
     },
     {
-        "id": "sports-fact-Q261442",
+        "id": "sports-football-champion-uefa-champions-league-Q30608",
         "category": "كورة ورياضة",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «كيت ألين».",
-        "answer": "ألعاب القوى",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kate%20Allen%20Nacht%20des%20Sports%202008.jpg?width=900",
-        "hint": "تندرج ضمن مسابقات المضمار والميدان مثل الجري والقفز والرمي.",
-        "source": "https://www.wikidata.org/wiki/Q261442",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Kate_Allen_Nacht_des_Sports_2008.jpg",
-        "imageKind": "commons",
-        "imageAlt": "كيت ألين",
-        "factType": "sport",
-        "options": [
-            "هوكي الجليد",
-            "السباحة",
-            "المصارعة المحترفة",
-            "ألعاب القوى"
-        ]
-    },
-    {
-        "id": "sports-fact-Q272360",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 500,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «لويز كروغر».",
-        "answer": "ألعاب القوى",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Luise%20Kr%C3%BCger%20(1936).png?width=900",
-        "hint": "تندرج ضمن مسابقات المضمار والميدان مثل الجري والقفز والرمي.",
-        "source": "https://www.wikidata.org/wiki/Q272360",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Luise_Kr%C3%BCger_(1936).png",
-        "imageKind": "commons",
-        "imageAlt": "لويز كروغر",
-        "factType": "sport",
-        "options": [
-            "ألعاب القوى",
-            "9 لاعبين",
-            "8 لاعبين",
-            "البرازيل"
-        ]
-    },
-    {
-        "id": "sports-fact-Q272470",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 500,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «سابرينا بوتشولز».",
-        "answer": "البياثلون",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/IBU-Cup%20Ridnaun%202009%20Sabrina%20Buchholz.jpg?width=900",
-        "hint": "تجمع بين التزلج الريفي لمسافات طويلة والرماية بالبندقية.",
-        "source": "https://www.wikidata.org/wiki/Q272470",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:IBU-Cup_Ridnaun_2009_Sabrina_Buchholz.jpg",
-        "imageKind": "commons",
-        "imageAlt": "سابرينا بوتشولز",
-        "factType": "sport",
-        "options": [
-            "البياثلون",
-            "فروسية",
-            "سباقات السيارات",
-            "كرة القدم"
-        ]
-    },
-    {
-        "id": "sports-fact-Q272685",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 500,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Nia Künzer».",
-        "answer": "كرة القدم",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/2021-10-26%20Fussball%2C%20Frauen%2C%20L%C3%A4nderspiel%2C%20Deutschland%20-%20Israel%201DX%201009%20by%20Stepro.jpg?width=900",
-        "hint": "رياضة جماعية يحاول فيها اللاعبون تسجيل الأهداف بالقدم، باستثناء الحارس.",
-        "source": "https://www.wikidata.org/wiki/Q272685",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:2021-10-26_Fussball%2C_Frauen%2C_L%C3%A4nderspiel%2C_Deutschland_-_Israel_1DX_1009_by_Stepro.jpg",
-        "imageKind": "commons",
-        "imageAlt": "Nia Künzer",
-        "factType": "sport",
-        "options": [
-            "رياضة دراجات نارية",
-            "جمباز القفز",
-            "كرة القدم",
-            "ألعاب القوى"
-        ]
-    },
-    {
-        "id": "sports-fact-Q272696",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 500,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Katrin Dörre-Heinig».",
-        "answer": "ألعاب القوى",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%23493321%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e87e4b%22%20opacity%3D%22.12%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22125%22%20r%3D%2288%22%20fill%3D%22%23f7eee0%22%20stroke%3D%22%23e98d58%22%20stroke-width%3D%229%22%2F%3E%3Cpath%20d%3D%22M185%2082l38%2028-15%2045h-47l-15-45zM185%2082l-30-23m68%2051%2042-3m-57%2073%208%2037m-61-64-37%2020m75-91%2023-35%22%20fill%3D%22%23343d4c%22%20stroke%3D%22%23343d4c%22%20stroke-width%3D%2213%22%20stroke-linejoin%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e87e4b%22%3ESPORT%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EKatrin%20D%C3%B6rre-Heinig%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e87e4b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "تندرج ضمن مسابقات المضمار والميدان مثل الجري والقفز والرمي.",
-        "source": "https://www.wikidata.org/wiki/Q272696",
+        "question": "من بطل دوري أبطال أوروبا في موسم 2013–14؟",
+        "answer": "ريال مدريد",
+        "imageAlt": "دوري أبطال أوروبا",
+        "image": "",
         "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "Katrin Dörre-Heinig",
-        "factType": "sport",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2013–14 في دوري أبطال أوروبا.",
+        "source": "https://www.wikidata.org/wiki/Q30608",
+        "factType": "football-champion",
+        "footballCompetition": "uefa-champions-league",
         "options": [
-            "الطيران الشراعي المظلي",
-            "الزلاجة الجماعية",
-            "ألعاب القوى",
-            "كرة القدم الأمريكية"
-        ]
-    },
-    {
-        "id": "sports-fact-Q272984",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 500,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «كارين كريبس».",
-        "answer": "ألعاب القوى",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Karin%20Krebs%201972%20(cropped).jpg?width=900",
-        "hint": "تندرج ضمن مسابقات المضمار والميدان مثل الجري والقفز والرمي.",
-        "source": "https://www.wikidata.org/wiki/Q272984",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Karin_Krebs_1972_(cropped).jpg",
-        "imageKind": "commons",
-        "imageAlt": "كارين كريبس",
-        "factType": "sport",
-        "options": [
-            "ألعاب القوى",
-            "سباق المزلجات",
-            "التزلج السريع",
-            "التزلج الفني على الجليد"
-        ]
-    },
-    {
-        "id": "sports-fact-Q273206",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 500,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «جو لويس».",
-        "answer": "الملاكمة",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Joe%20Louis%20by%20van%20Vechten.jpg?width=900",
-        "hint": "رياضة نزال فردي تعتمد على اللكمات داخل الحلبة والقفازات.",
-        "source": "https://www.wikidata.org/wiki/Q273206",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Joe_Louis_by_van_Vechten.jpg",
-        "imageKind": "commons",
-        "imageAlt": "جو لويس",
-        "factType": "sport",
-        "options": [
-            "نبالة",
-            "هوكي الجليد",
-            "الملاكمة",
-            "كرة الطاولة"
-        ]
-    },
-    {
-        "id": "sports-fact-Q273233",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 500,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «بول روبسون».",
-        "answer": "كرة القدم الأمريكية",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Paul%20Robeson%201942%20crop.jpg?width=900",
-        "hint": "رياضة فرق تستخدم كرة بيضوية وتعتمد على التقدم بها نحو منطقة التسجيل.",
-        "source": "https://www.wikidata.org/wiki/Q273233",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Paul_Robeson_1942_crop.jpg",
-        "imageKind": "commons",
-        "imageAlt": "بول روبسون",
-        "factType": "sport",
-        "options": [
-            "كرة القدم الأمريكية",
-            "أتلتيكو مدريد",
-            "إشبيلية",
-            "فالنسيا"
-        ]
-    },
-    {
-        "id": "sports-fact-Q274373",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 500,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Ewa Wiśnierska».",
-        "answer": "الطيران الشراعي المظلي",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%23493321%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e87e4b%22%20opacity%3D%22.12%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22125%22%20r%3D%2288%22%20fill%3D%22%23f7eee0%22%20stroke%3D%22%23e98d58%22%20stroke-width%3D%229%22%2F%3E%3Cpath%20d%3D%22M185%2082l38%2028-15%2045h-47l-15-45zM185%2082l-30-23m68%2051%2042-3m-57%2073%208%2037m-61-64-37%2020m75-91%2023-35%22%20fill%3D%22%23343d4c%22%20stroke%3D%22%23343d4c%22%20stroke-width%3D%2213%22%20stroke-linejoin%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e87e4b%22%3ESPORT%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EEwa%20Wi%C5%9Bnierska%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e87e4b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "تبدأ الرياضة بحرف «ا»، وتُمارس ضمن منافسات منظمة.",
-        "source": "https://www.wikidata.org/wiki/Q274373",
-        "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "Ewa Wiśnierska",
-        "factType": "sport",
-        "options": [
-            "الطيران الشراعي المظلي",
-            "كرة القدم",
-            "كمال الأجسام",
-            "كرة اليد"
-        ]
-    },
-    {
-        "id": "sports-fact-Q276026",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 500,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «لويجي ريفا».",
-        "answer": "كرة القدم",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gigi%20Riva%2C%20Italia%2C%201968%20(cropped).JPG?width=900",
-        "hint": "رياضة جماعية يحاول فيها اللاعبون تسجيل الأهداف بالقدم، باستثناء الحارس.",
-        "source": "https://www.wikidata.org/wiki/Q276026",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Gigi_Riva%2C_Italia%2C_1968_(cropped).JPG",
-        "imageKind": "commons",
-        "imageAlt": "لويجي ريفا",
-        "factType": "sport",
-        "options": [
-            "كانو-كاياك",
-            "كرة القدم",
-            "كمال الأجسام",
-            "كرة اليد"
-        ]
-    },
-    {
-        "id": "sports-fact-Q277949",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 500,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «ايمي بيترز».",
-        "answer": "سباقات الدراجات على الطريق",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/2019%20UEC%20Road%20Race%20Women%20282.jpg?width=900",
-        "hint": "تعتمد على دراجة، وتتنوع بين سباقات الطريق والمضمار والطرق الوعرة.",
-        "source": "https://www.wikidata.org/wiki/Q277949",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:2019_UEC_Road_Race_Women_282.jpg",
-        "imageKind": "commons",
-        "imageAlt": "ايمي بيترز",
-        "factType": "sport",
-        "options": [
-            "سباقات الدراجات على الطريق",
-            "الوثب الطويل",
-            "ألعاب القوى ذات قدرة على التحمل",
-            "ترويض الخيول"
-        ]
-    },
-    {
-        "id": "sports-fact-Q278239",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 500,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «فلاديمير داريدا».",
-        "answer": "كرة القدم",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Vladim%C3%ADr%20Darida%2002.jpg?width=900",
-        "hint": "رياضة جماعية يحاول فيها اللاعبون تسجيل الأهداف بالقدم، باستثناء الحارس.",
-        "source": "https://www.wikidata.org/wiki/Q278239",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Vladim%C3%ADr_Darida_02.jpg",
-        "imageKind": "commons",
-        "imageAlt": "فلاديمير داريدا",
-        "factType": "sport",
-        "options": [
-            "برشلونة",
-            "أتلتيكو مدريد",
-            "إشبيلية",
-            "كرة القدم"
-        ]
-    },
-    {
-        "id": "sports-fact-Q282401",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 500,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «إرنست لينر».",
-        "answer": "كرة القدم",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%23493321%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e87e4b%22%20opacity%3D%22.12%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22125%22%20r%3D%2288%22%20fill%3D%22%23f7eee0%22%20stroke%3D%22%23e98d58%22%20stroke-width%3D%229%22%2F%3E%3Cpath%20d%3D%22M185%2082l38%2028-15%2045h-47l-15-45zM185%2082l-30-23m68%2051%2042-3m-57%2073%208%2037m-61-64-37%2020m75-91%2023-35%22%20fill%3D%22%23343d4c%22%20stroke%3D%22%23343d4c%22%20stroke-width%3D%2213%22%20stroke-linejoin%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e87e4b%22%3ESPORT%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D8%A5%D8%B1%D9%86%D8%B3%D8%AA%20%D9%84%D9%8A%D9%86%D8%B1%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e87e4b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "رياضة جماعية يحاول فيها اللاعبون تسجيل الأهداف بالقدم، باستثناء الحارس.",
-        "source": "https://www.wikidata.org/wiki/Q282401",
-        "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "إرنست لينر",
-        "factType": "sport",
-        "options": [
-            "رياضة دراجات هوائية",
-            "التزحلف",
-            "رفع الأثقال",
-            "كرة القدم"
-        ]
-    },
-    {
-        "id": "sports-fact-Q284951",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 500,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Imrich Bugár».",
-        "answer": "ألعاب القوى",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Imrich%20Bug%C3%A1r%202013.JPG?width=900",
-        "hint": "تندرج ضمن مسابقات المضمار والميدان مثل الجري والقفز والرمي.",
-        "source": "https://www.wikidata.org/wiki/Q284951",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Imrich_Bug%C3%A1r_2013.JPG",
-        "imageKind": "commons",
-        "imageAlt": "Imrich Bugár",
-        "factType": "sport",
-        "options": [
-            "الرماية",
-            "ألعاب القوى",
-            "ركوب الدراجات على المضمار",
-            "جودو"
-        ]
-    },
-    {
-        "id": "sports-fact-Q286113",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 500,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Hans Leutenegger».",
-        "answer": "الزلاجة الجماعية",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%23493321%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e87e4b%22%20opacity%3D%22.12%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22125%22%20r%3D%2288%22%20fill%3D%22%23f7eee0%22%20stroke%3D%22%23e98d58%22%20stroke-width%3D%229%22%2F%3E%3Cpath%20d%3D%22M185%2082l38%2028-15%2045h-47l-15-45zM185%2082l-30-23m68%2051%2042-3m-57%2073%208%2037m-61-64-37%2020m75-91%2023-35%22%20fill%3D%22%23343d4c%22%20stroke%3D%22%23343d4c%22%20stroke-width%3D%2213%22%20stroke-linejoin%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e87e4b%22%3ESPORT%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EHans%20Leutenegger%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e87e4b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "رياضة شتوية تُمارس على الثلج أو الجليد باستخدام الزلاجات.",
-        "source": "https://www.wikidata.org/wiki/Q286113",
-        "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "Hans Leutenegger",
-        "factType": "sport",
-        "options": [
-            "كرة المضرب",
-            "الزلاجة الجماعية",
-            "الملاكمة",
-            "البياثلون"
-        ]
-    },
-    {
-        "id": "sports-fact-Q287162",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 500,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Sándor Gombos».",
-        "answer": "مبارزة السلاح",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%23493321%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e87e4b%22%20opacity%3D%22.12%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22125%22%20r%3D%2288%22%20fill%3D%22%23f7eee0%22%20stroke%3D%22%23e98d58%22%20stroke-width%3D%229%22%2F%3E%3Cpath%20d%3D%22M185%2082l38%2028-15%2045h-47l-15-45zM185%2082l-30-23m68%2051%2042-3m-57%2073%208%2037m-61-64-37%2020m75-91%2023-35%22%20fill%3D%22%23343d4c%22%20stroke%3D%22%23343d4c%22%20stroke-width%3D%2213%22%20stroke-linejoin%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e87e4b%22%3ESPORT%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3ES%C3%A1ndor%20Gombos%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e87e4b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "رياضة نزال بالسيف، ولها أسلحة أولمبية بثلاثة أنواع.",
-        "source": "https://www.wikidata.org/wiki/Q287162",
-        "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "Sándor Gombos",
-        "factType": "sport",
-        "options": [
-            "مبارزة السلاح",
-            "فرنسا",
             "ريال مدريد",
-            "برشلونة"
-        ]
-    },
-    {
-        "id": "sports-fact-Q288877",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 500,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Sándor Bakos».",
-        "answer": "كرة القدم",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%23493321%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e87e4b%22%20opacity%3D%22.12%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22125%22%20r%3D%2288%22%20fill%3D%22%23f7eee0%22%20stroke%3D%22%23e98d58%22%20stroke-width%3D%229%22%2F%3E%3Cpath%20d%3D%22M185%2082l38%2028-15%2045h-47l-15-45zM185%2082l-30-23m68%2051%2042-3m-57%2073%208%2037m-61-64-37%2020m75-91%2023-35%22%20fill%3D%22%23343d4c%22%20stroke%3D%22%23343d4c%22%20stroke-width%3D%2213%22%20stroke-linejoin%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e87e4b%22%3ESPORT%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3ES%C3%A1ndor%20Bakos%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e87e4b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "رياضة جماعية يحاول فيها اللاعبون تسجيل الأهداف بالقدم، باستثناء الحارس.",
-        "source": "https://www.wikidata.org/wiki/Q288877",
-        "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "Sándor Bakos",
-        "factType": "sport",
-        "options": [
-            "ألعاب القوى",
-            "رياضة دراجات نارية",
-            "كرة القدم",
-            "كانو-كاياك"
-        ]
-    },
-    {
-        "id": "sports-fact-Q289453",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 500,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Yael Arad».",
-        "answer": "جودو",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flickr%20-%20Government%20Press%20Office%20(GPO)%20-%20Olympic%20Medalists%20and%20MK%20Goldman.jpg?width=900",
-        "hint": "فن قتالي ياباني أولمبي يعتمد على الرميات والتثبيت، لا اللكمات.",
-        "source": "https://www.wikidata.org/wiki/Q289453",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Flickr_-_Government_Press_Office_(GPO)_-_Olympic_Medalists_and_MK_Goldman.jpg",
-        "imageKind": "commons",
-        "imageAlt": "Yael Arad",
-        "factType": "sport",
-        "options": [
-            "الجمباز الفني",
-            "جودو",
-            "التزلج السريع",
-            "التزلج الفني على الجليد"
-        ]
-    },
-    {
-        "id": "sports-fact-Q289503",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 500,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «يرينا كودليتشكوفا».",
-        "answer": "ألعاب القوى",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jirina%20Ptacnikova-Svobodova%20by%20Augustas%20Didzgalvis.jpg?width=900",
-        "hint": "تندرج ضمن مسابقات المضمار والميدان مثل الجري والقفز والرمي.",
-        "source": "https://www.wikidata.org/wiki/Q289503",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Jirina_Ptacnikova-Svobodova_by_Augustas_Didzgalvis.jpg",
-        "imageKind": "commons",
-        "imageAlt": "يرينا كودليتشكوفا",
-        "factType": "sport",
-        "options": [
-            "الجمباز الإيقاعي",
-            "كرة الماء",
-            "مصارعة الهواة",
-            "ألعاب القوى"
-        ]
-    },
-    {
-        "id": "sports-fact-Q289574",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 500,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Andreas Küttel».",
-        "answer": "القفز التزلجي",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Andreas%20K%C3%BCttel%20Oberstdorf%202006.jpg?width=900",
-        "hint": "رياضة شتوية تُمارس على الثلج أو الجليد باستخدام الزلاجات.",
-        "source": "https://www.wikidata.org/wiki/Q289574",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Andreas_K%C3%BCttel_Oberstdorf_2006.jpg",
-        "imageKind": "commons",
-        "imageAlt": "Andreas Küttel",
-        "factType": "sport",
-        "options": [
-            "التزحلف",
-            "القفز التزلجي",
-            "جمباز القفز",
-            "رياضة دراجات هوائية"
-        ]
-    },
-    {
-        "id": "sports-fact-Q289665",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 500,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Etienne Gailly».",
-        "answer": "ألعاب القوى",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%23493321%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e87e4b%22%20opacity%3D%22.12%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22125%22%20r%3D%2288%22%20fill%3D%22%23f7eee0%22%20stroke%3D%22%23e98d58%22%20stroke-width%3D%229%22%2F%3E%3Cpath%20d%3D%22M185%2082l38%2028-15%2045h-47l-15-45zM185%2082l-30-23m68%2051%2042-3m-57%2073%208%2037m-61-64-37%2020m75-91%2023-35%22%20fill%3D%22%23343d4c%22%20stroke%3D%22%23343d4c%22%20stroke-width%3D%2213%22%20stroke-linejoin%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e87e4b%22%3ESPORT%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EEtienne%20Gailly%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e87e4b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "تندرج ضمن مسابقات المضمار والميدان مثل الجري والقفز والرمي.",
-        "source": "https://www.wikidata.org/wiki/Q289665",
-        "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "Etienne Gailly",
-        "factType": "sport",
-        "options": [
-            "نبالة",
-            "هوكي الجليد",
-            "ألعاب القوى",
-            "كرة الطاولة"
-        ]
-    },
-    {
-        "id": "sports-fact-Q289781",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 500,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «ذا آيرون شيك».",
-        "answer": "المصارعة المحترفة",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Iron%20Sheik%202009.jpg?width=900",
-        "hint": "رياضة نزال يحاول فيها المتنافس تثبيت كتفي الخصم أو إخراجه من وضع السيطرة.",
-        "source": "https://www.wikidata.org/wiki/Q289781",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:The_Iron_Sheik_2009.jpg",
-        "imageKind": "commons",
-        "imageAlt": "ذا آيرون شيك",
-        "factType": "sport",
-        "options": [
-            "ألعاب القوى",
-            "رياضة دراجات نارية",
-            "جمباز القفز",
-            "المصارعة المحترفة"
-        ]
-    },
-    {
-        "id": "sports-fact-Q290082",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 500,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «جورج مييز».",
-        "answer": "الجمباز الفني",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Georges%20Miez.jpg?width=900",
-        "hint": "رياضة أداء بدني على أجهزة أو بساط، تقيس القوة والمرونة والدقة.",
-        "source": "https://www.wikidata.org/wiki/Q290082",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Georges_Miez.jpg",
-        "imageKind": "commons",
-        "imageAlt": "جورج مييز",
-        "factType": "sport",
-        "options": [
-            "جمباز القفز",
-            "رياضة دراجات هوائية",
-            "التزحلف",
-            "الجمباز الفني"
-        ]
-    },
-    {
-        "id": "sports-fact-Q290127",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 500,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «شتيفاني جونز».",
-        "answer": "كرة القدم",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Steffi%20Jones.jpg?width=900",
-        "hint": "رياضة جماعية يحاول فيها اللاعبون تسجيل الأهداف بالقدم، باستثناء الحارس.",
-        "source": "https://www.wikidata.org/wiki/Q290127",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Steffi_Jones.jpg",
-        "imageKind": "commons",
-        "imageAlt": "شتيفاني جونز",
-        "factType": "sport",
-        "options": [
-            "الملاكمة",
-            "البياثلون",
-            "كرة المضرب",
-            "كرة القدم"
-        ]
-    },
-    {
-        "id": "sports-fact-Q290451",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 500,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «سامية يوسف عمر».",
-        "answer": "ألعاب القوى",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%23493321%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e87e4b%22%20opacity%3D%22.12%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22125%22%20r%3D%2288%22%20fill%3D%22%23f7eee0%22%20stroke%3D%22%23e98d58%22%20stroke-width%3D%229%22%2F%3E%3Cpath%20d%3D%22M185%2082l38%2028-15%2045h-47l-15-45zM185%2082l-30-23m68%2051%2042-3m-57%2073%208%2037m-61-64-37%2020m75-91%2023-35%22%20fill%3D%22%23343d4c%22%20stroke%3D%22%23343d4c%22%20stroke-width%3D%2213%22%20stroke-linejoin%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e87e4b%22%3ESPORT%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D8%B3%D8%A7%D9%85%D9%8A%D8%A9%20%D9%8A%D9%88%D8%B3%D9%81%20%D8%B9%D9%85%D8%B1%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e87e4b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "تندرج ضمن مسابقات المضمار والميدان مثل الجري والقفز والرمي.",
-        "source": "https://www.wikidata.org/wiki/Q290451",
-        "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "سامية يوسف عمر",
-        "factType": "sport",
-        "options": [
-            "الزلاجة الجماعية",
-            "ألعاب القوى",
-            "كرة القدم الأمريكية",
-            "الطيران الشراعي المظلي"
-        ]
-    },
-    {
-        "id": "sports-fact-Q290713",
-        "category": "كورة ورياضة",
-        "difficulty": "صعب",
-        "points": 500,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «سعيدة جونبا».",
-        "answer": "ألعاب القوى",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%23493321%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e87e4b%22%20opacity%3D%22.12%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22125%22%20r%3D%2288%22%20fill%3D%22%23f7eee0%22%20stroke%3D%22%23e98d58%22%20stroke-width%3D%229%22%2F%3E%3Cpath%20d%3D%22M185%2082l38%2028-15%2045h-47l-15-45zM185%2082l-30-23m68%2051%2042-3m-57%2073%208%2037m-61-64-37%2020m75-91%2023-35%22%20fill%3D%22%23343d4c%22%20stroke%3D%22%23343d4c%22%20stroke-width%3D%2213%22%20stroke-linejoin%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e87e4b%22%3ESPORT%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3E%D8%B3%D8%B9%D9%8A%D8%AF%D8%A9%20%D8%AC%D9%88%D9%86%D8%A8%D8%A7%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e87e4b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "تندرج ضمن مسابقات المضمار والميدان مثل الجري والقفز والرمي.",
-        "source": "https://www.wikidata.org/wiki/Q290713",
-        "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "سعيدة جونبا",
-        "factType": "sport",
-        "options": [
-            "ألعاب القوى",
             "أتلتيكو مدريد",
-            "إشبيلية",
-            "فالنسيا"
+            "يوفنتوس",
+            "نادي موناكو"
+        ],
+        "acceptedAnswers": [
+            "ريال مدريد"
         ]
     },
     {
-        "id": "sports-fact-Q293288",
+        "id": "sports-football-champion-saudi-Q14915089",
         "category": "كورة ورياضة",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Gladys Heldman».",
-        "answer": "كرة المضرب",
-        "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221000%22%20height%3D%22650%22%20viewBox%3D%220%200%201000%20650%22%3E%3Crect%20width%3D%221000%22%20height%3D%22650%22%20fill%3D%22%23493321%22%2F%3E%3Cpath%20d%3D%22M0%20510h1000v140H0z%22%20fill%3D%22%23101820%22%20opacity%3D%22.45%22%2F%3E%3Ccircle%20cx%3D%22500%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23e87e4b%22%20opacity%3D%22.12%22%2F%3E%3Ccircle%20cx%3D%22185%22%20cy%3D%22125%22%20r%3D%2288%22%20fill%3D%22%23f7eee0%22%20stroke%3D%22%23e98d58%22%20stroke-width%3D%229%22%2F%3E%3Cpath%20d%3D%22M185%2082l38%2028-15%2045h-47l-15-45zM185%2082l-30-23m68%2051%2042-3m-57%2073%208%2037m-61-64-37%2020m75-91%2023-35%22%20fill%3D%22%23343d4c%22%20stroke%3D%22%23343d4c%22%20stroke-width%3D%2213%22%20stroke-linejoin%3D%22round%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22350%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2221%22%20letter-spacing%3D%223%22%20fill%3D%22%23e87e4b%22%3ESPORT%3C%2Ftext%3E%3Ctext%20x%3D%22500%22%20y%3D%22425%22%20text-anchor%3D%22middle%22%20direction%3D%22rtl%22%20font-size%3D%2238%22%20font-weight%3D%22700%22%20fill%3D%22%23fff8ec%22%3EGladys%20Heldman%3C%2Ftext%3E%3Cpath%20d%3D%22M90%20570h820%22%20stroke%3D%22%23e87e4b%22%20stroke-width%3D%223%22%20opacity%3D%22.7%22%2F%3E%3Ctext%20x%3D%22500%22%20y%3D%22610%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23c8d0ce%22%3E%D8%A8%D8%B7%D8%A7%D9%82%D8%A9%20%D8%AA%D9%88%D8%B6%D9%8A%D8%AD%D9%8A%D8%A9%3C%2Ftext%3E%3C%2Fsvg%3E",
-        "hint": "تُلعب بمضرب وكرة فوق شبكة، فردياً أو بين زوجين.",
-        "source": "https://www.wikidata.org/wiki/Q293288",
+        "question": "من بطل الدوري السعودي للمحترفين في موسم 2013–14؟",
+        "answer": "نادي النصر السعودي",
+        "imageAlt": "الدوري السعودي للمحترفين",
+        "image": "",
         "imageSource": "",
-        "imageKind": "illustration",
-        "imageAlt": "Gladys Heldman",
-        "factType": "sport",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2013–14 في الدوري السعودي للمحترفين.",
+        "source": "https://www.wikidata.org/wiki/Q14915089",
+        "factType": "football-champion",
+        "footballCompetition": "saudi",
         "options": [
-            "إشبيلية",
-            "فالنسيا",
-            "كرة المضرب",
-            "أتلتيكو مدريد"
+            "نادي الشباب السعودي",
+            "باريس سان جيرمان",
+            "نادي النصر السعودي",
+            "نادي الفتح السعودي"
+        ],
+        "acceptedAnswers": [
+            "نادي النصر السعودي"
         ]
     },
     {
-        "id": "sports-fact-Q294060",
+        "id": "sports-football-champion-uefa-champions-league-Q485956",
         "category": "كورة ورياضة",
         "difficulty": "صعب",
         "points": 500,
-        "question": "اذكر إحدى الرياضات المسجلة للرياضي «Ödön Bodor».",
-        "answer": "ألعاب القوى",
-        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bodor%20%C3%96d%C3%B6n%20(Pesti%20H%C3%ADrlap%2C%201927).jpg?width=900",
-        "hint": "تندرج ضمن مسابقات المضمار والميدان مثل الجري والقفز والرمي.",
-        "source": "https://www.wikidata.org/wiki/Q294060",
-        "imageSource": "https://commons.wikimedia.org/wiki/File:Bodor_%C3%96d%C3%B6n_(Pesti_H%C3%ADrlap%2C_1927).jpg",
-        "imageKind": "commons",
-        "imageAlt": "Ödön Bodor",
-        "factType": "sport",
+        "question": "من بطل دوري أبطال أوروبا في موسم 2012–13؟",
+        "answer": "بايرن ميونخ",
+        "imageAlt": "دوري أبطال أوروبا",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2012–13 في دوري أبطال أوروبا.",
+        "source": "https://www.wikidata.org/wiki/Q485956",
+        "factType": "football-champion",
+        "footballCompetition": "uefa-champions-league",
         "options": [
-            "مصارعة الهواة",
-            "كرة القدم الأمريكية",
-            "الطيران الشراعي المظلي",
-            "ألعاب القوى"
+            "بايرن ميونخ",
+            "النادي الأهلي (السعودية)",
+            "ليستر سيتي",
+            "نادي الفتح السعودي"
+        ],
+        "acceptedAnswers": [
+            "بايرن ميونخ"
+        ]
+    },
+    {
+        "id": "sports-football-champion-saudi-Q4116490",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 500,
+        "question": "من بطل الدوري السعودي للمحترفين في موسم 2012–13؟",
+        "answer": "نادي الفتح السعودي",
+        "imageAlt": "الدوري السعودي للمحترفين",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2012–13 في الدوري السعودي للمحترفين.",
+        "source": "https://www.wikidata.org/wiki/Q4116490",
+        "factType": "football-champion",
+        "footballCompetition": "saudi",
+        "options": [
+            "نادي الفتح السعودي",
+            "نادي إنتر ميلان",
+            "نادي آرسنال",
+            "FC Bayern München"
+        ],
+        "acceptedAnswers": [
+            "نادي الفتح السعودي"
+        ]
+    },
+    {
+        "id": "sports-football-champion-uefa-champions-league-Q485002",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 500,
+        "question": "من بطل دوري أبطال أوروبا في موسم 2011–12؟",
+        "answer": "نادي تشيلسي",
+        "imageAlt": "دوري أبطال أوروبا",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2011–12 في دوري أبطال أوروبا.",
+        "source": "https://www.wikidata.org/wiki/Q485002",
+        "factType": "football-champion",
+        "footballCompetition": "uefa-champions-league",
+        "options": [
+            "نادي تشيلسي",
+            "ليستر سيتي",
+            "نادي الفتح السعودي",
+            "نادي الشباب السعودي"
+        ],
+        "acceptedAnswers": [
+            "نادي تشيلسي"
+        ]
+    },
+    {
+        "id": "sports-football-champion-saudi-Q2357325",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 500,
+        "question": "من بطل الدوري السعودي للمحترفين في موسم 2011–12؟",
+        "answer": "نادي الشباب السعودي",
+        "imageAlt": "الدوري السعودي للمحترفين",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2011–12 في الدوري السعودي للمحترفين.",
+        "source": "https://www.wikidata.org/wiki/Q2357325",
+        "factType": "football-champion",
+        "footballCompetition": "saudi",
+        "options": [
+            "إيه سي ميلان",
+            "نادي تشيلسي",
+            "نادي الشباب السعودي",
+            "نادي الاتحاد"
+        ],
+        "acceptedAnswers": [
+            "نادي الشباب السعودي"
+        ]
+    },
+    {
+        "id": "sports-football-champion-saudi-Q2949103",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 500,
+        "question": "من بطل الدوري السعودي للمحترفين في موسم 2010–11؟",
+        "answer": "نادي الهلال",
+        "imageAlt": "الدوري السعودي للمحترفين",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2010–11 في الدوري السعودي للمحترفين.",
+        "source": "https://www.wikidata.org/wiki/Q2949103",
+        "factType": "football-champion",
+        "footballCompetition": "saudi",
+        "options": [
+            "نادي الفتح السعودي",
+            "نادي الهلال",
+            "النادي الأهلي (السعودية)",
+            "ليستر سيتي"
+        ],
+        "acceptedAnswers": [
+            "نادي الهلال"
+        ]
+    },
+    {
+        "id": "sports-football-champion-saudi-Q2357336",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 500,
+        "question": "من بطل الدوري السعودي للمحترفين في موسم 2009–10؟",
+        "answer": "نادي الهلال",
+        "imageAlt": "الدوري السعودي للمحترفين",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2009–10 في الدوري السعودي للمحترفين.",
+        "source": "https://www.wikidata.org/wiki/Q2357336",
+        "factType": "football-champion",
+        "footballCompetition": "saudi",
+        "options": [
+            "باريس سان جيرمان",
+            "بايرن ميونخ",
+            "نادي الهلال",
+            "نادي الشباب السعودي"
+        ],
+        "acceptedAnswers": [
+            "نادي الهلال"
+        ]
+    },
+    {
+        "id": "sports-football-champion-saudi-Q2356845",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 500,
+        "question": "من بطل الدوري السعودي للمحترفين في موسم 2008–09؟",
+        "answer": "نادي الاتحاد",
+        "imageAlt": "الدوري السعودي للمحترفين",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2008–09 في الدوري السعودي للمحترفين.",
+        "source": "https://www.wikidata.org/wiki/Q2356845",
+        "factType": "football-champion",
+        "footballCompetition": "saudi",
+        "options": [
+            "نادي الشباب السعودي",
+            "باريس سان جيرمان",
+            "نادي الاتحاد",
+            "نادي الفتح السعودي"
+        ],
+        "acceptedAnswers": [
+            "نادي الاتحاد"
+        ]
+    },
+    {
+        "id": "sports-football-champion-saudi-Q2357302",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 500,
+        "question": "من بطل الدوري السعودي للمحترفين في موسم 2007–08؟",
+        "answer": "نادي الهلال",
+        "imageAlt": "الدوري السعودي للمحترفين",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2007–08 في الدوري السعودي للمحترفين.",
+        "source": "https://www.wikidata.org/wiki/Q2357302",
+        "factType": "football-champion",
+        "footballCompetition": "saudi",
+        "options": [
+            "يوفنتوس",
+            "نادي موناكو",
+            "النادي الأهلي (السعودية)",
+            "نادي الهلال"
+        ],
+        "acceptedAnswers": [
+            "نادي الهلال"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q615",
+        "category": "كورة ورياضة",
+        "difficulty": "سهل",
+        "points": 100,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: نادي برشلونة ← باريس سان جيرمان ← إنتر ميامي؟",
+        "answer": "ليونيل ميسي",
+        "imageAlt": "ليونيل ميسي",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q615",
+        "factType": "football-career",
+        "careerClubs": [
+            "نادي برشلونة",
+            "باريس سان جيرمان",
+            "إنتر ميامي"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "أنطوان غريزمان",
+            "ليونيل ميسي",
+            "واين روني",
+            "كاكا"
+        ],
+        "acceptedAnswers": [
+            "ليونيل ميسي"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q11571",
+        "category": "كورة ورياضة",
+        "difficulty": "سهل",
+        "points": 100,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: مانشستر يونايتد ← ريال مدريد ← يوفنتوس ← نادي النصر السعودي؟",
+        "answer": "كريستيانو رونالدو",
+        "imageAlt": "كريستيانو رونالدو",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q11571",
+        "factType": "football-career",
+        "careerClubs": [
+            "مانشستر يونايتد",
+            "ريال مدريد",
+            "يوفنتوس",
+            "نادي النصر السعودي"
+        ],
+        "saudiCareerClubs": [
+            "نادي النصر السعودي"
+        ],
+        "options": [
+            "كريستيانو رونالدو",
+            "كاسيميرو",
+            "جيروم بواتينغ",
+            "أدوين فان در سار"
+        ],
+        "acceptedAnswers": [
+            "كريستيانو رونالدو"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q17515",
+        "category": "كورة ورياضة",
+        "difficulty": "سهل",
+        "points": 100,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: نادي برشلونة ← نادي نابولي ← نادي إشبيلية؟",
+        "answer": "دييغو مارادونا",
+        "imageAlt": "دييغو مارادونا",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q17515",
+        "factType": "football-career",
+        "careerClubs": [
+            "نادي برشلونة",
+            "نادي نابولي",
+            "نادي إشبيلية"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "دييغو مارادونا",
+            "صامويل إيتو",
+            "فرناندو توريس",
+            "سيرخيو أغويرو"
+        ],
+        "acceptedAnswers": [
+            "دييغو مارادونا"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q142794",
+        "category": "كورة ورياضة",
+        "difficulty": "سهل",
+        "points": 100,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: نادي برشلونة ← باريس سان جيرمان ← نادي الهلال؟",
+        "answer": "نيمار",
+        "imageAlt": "نيمار",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q142794",
+        "factType": "football-career",
+        "careerClubs": [
+            "نادي برشلونة",
+            "باريس سان جيرمان",
+            "نادي الهلال"
+        ],
+        "saudiCareerClubs": [
+            "نادي الهلال"
+        ],
+        "options": [
+            "نيمار",
+            "جورج بست",
+            "ماركوس راشفورد",
+            "دييغو فورلان"
+        ],
+        "acceptedAnswers": [
+            "نيمار"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q10520",
+        "category": "كورة ورياضة",
+        "difficulty": "سهل",
+        "points": 100,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: مانشستر يونايتد ← ريال مدريد ← لوس أنجلوس غلاكسي ← إيه سي ميلان؟",
+        "answer": "ديفيد بيكهام",
+        "imageAlt": "ديفيد بيكهام",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q10520",
+        "factType": "football-career",
+        "careerClubs": [
+            "مانشستر يونايتد",
+            "ريال مدريد",
+            "لوس أنجلوس غلاكسي",
+            "إيه سي ميلان"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "لويس فيغو",
+            "مايكل أوين",
+            "ريفالدو",
+            "ديفيد بيكهام"
+        ],
+        "acceptedAnswers": [
+            "ديفيد بيكهام"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q21621995",
+        "category": "كورة ورياضة",
+        "difficulty": "سهل",
+        "points": 100,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: نادي موناكو ← باريس سان جيرمان ← ريال مدريد؟",
+        "answer": "كيليان مبابي",
+        "imageAlt": "كيليان مبابي",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q21621995",
+        "factType": "football-career",
+        "careerClubs": [
+            "نادي موناكو",
+            "باريس سان جيرمان",
+            "ريال مدريد"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "كيليان مبابي",
+            "لوكاس بودولسكي",
+            "ماريو بالوتيلي",
+            "غاري لينيكر"
+        ],
+        "acceptedAnswers": [
+            "كيليان مبابي"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q529207",
+        "category": "كورة ورياضة",
+        "difficulty": "سهل",
+        "points": 100,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: نادي برشلونة ← نادي إنتر ميلان ← ريال مدريد ← إيه سي ميلان؟",
+        "answer": "رونالدو",
+        "imageAlt": "رونالدو",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q529207",
+        "factType": "football-career",
+        "careerClubs": [
+            "نادي برشلونة",
+            "نادي إنتر ميلان",
+            "ريال مدريد",
+            "إيه سي ميلان"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "جورج ويا",
+            "آريين روبن",
+            "رونالدو",
+            "غاريث بيل"
+        ],
+        "acceptedAnswers": [
+            "رونالدو"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q46896",
+        "category": "كورة ورياضة",
+        "difficulty": "سهل",
+        "points": 100,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: يوفنتوس ← نادي إنتر ميلان ← نادي برشلونة ← إيه سي ميلان؟",
+        "answer": "زلاتان إبراهيموفيتش",
+        "imageAlt": "زلاتان إبراهيموفيتش",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q46896",
+        "factType": "football-career",
+        "careerClubs": [
+            "يوفنتوس",
+            "نادي إنتر ميلان",
+            "نادي برشلونة",
+            "إيه سي ميلان"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "زلاتان إبراهيموفيتش",
+            "صامويل إيتو",
+            "فرناندو توريس",
+            "سيرخيو أغويرو"
+        ],
+        "acceptedAnswers": [
+            "زلاتان إبراهيموفيتش"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q39444",
+        "category": "كورة ورياضة",
+        "difficulty": "سهل",
+        "points": 100,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: باريس سان جيرمان ← نادي برشلونة ← إيه سي ميلان؟",
+        "answer": "رونالدينيو",
+        "imageAlt": "رونالدينيو",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q39444",
+        "factType": "football-career",
+        "careerClubs": [
+            "باريس سان جيرمان",
+            "نادي برشلونة",
+            "إيه سي ميلان"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "روبرت ليفاندوفسكي",
+            "رونالدينيو",
+            "جانلويجي بوفون",
+            "كريم بنزيما"
+        ],
+        "acceptedAnswers": [
+            "رونالدينيو"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q26517",
+        "category": "كورة ورياضة",
+        "difficulty": "سهل",
+        "points": 100,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: نادي ليفربول ← نادي برشلونة ← أتلتيكو مدريد ← إنتر ميامي؟",
+        "answer": "لويس سواريز",
+        "imageAlt": "لويس سواريز",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q26517",
+        "factType": "football-career",
+        "careerClubs": [
+            "نادي ليفربول",
+            "نادي برشلونة",
+            "أتلتيكو مدريد",
+            "إنتر ميامي"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "لويس سواريز",
+            "نيمار",
+            "ديفيد بيكهام",
+            "كيليان مبابي"
+        ],
+        "acceptedAnswers": [
+            "لويس سواريز"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q483837",
+        "category": "كورة ورياضة",
+        "difficulty": "سهل",
+        "points": 100,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: توتنهام هوتسبير ← ريال مدريد ← إيه سي ميلان؟",
+        "answer": "لوكا مودريتش",
+        "imageAlt": "لوكا مودريتش",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q483837",
+        "factType": "football-career",
+        "careerClubs": [
+            "توتنهام هوتسبير",
+            "ريال مدريد",
+            "إيه سي ميلان"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "واين روني",
+            "كاكا",
+            "لوكا مودريتش",
+            "ميروسلاف كلوزه"
+        ],
+        "acceptedAnswers": [
+            "لوكا مودريتش"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q68060",
+        "category": "كورة ورياضة",
+        "difficulty": "سهل",
+        "points": 100,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: نادي بارما ← يوفنتوس ← باريس سان جيرمان؟",
+        "answer": "جانلويجي بوفون",
+        "imageAlt": "جانلويجي بوفون",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q68060",
+        "factType": "football-career",
+        "careerClubs": [
+            "نادي بارما",
+            "يوفنتوس",
+            "باريس سان جيرمان"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "رونالدينيو",
+            "لويس سواريز",
+            "لوكا مودريتش",
+            "جانلويجي بوفون"
+        ],
+        "acceptedAnswers": [
+            "جانلويجي بوفون"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q1912",
+        "category": "كورة ورياضة",
+        "difficulty": "سهل",
+        "points": 100,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: أولمبيك ليون ← ريال مدريد ← نادي الاتحاد ← نادي الهلال؟",
+        "answer": "كريم بنزيما",
+        "imageAlt": "كريم بنزيما",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q1912",
+        "factType": "football-career",
+        "careerClubs": [
+            "أولمبيك ليون",
+            "ريال مدريد",
+            "نادي الاتحاد",
+            "نادي الهلال"
+        ],
+        "saudiCareerClubs": [
+            "نادي الاتحاد",
+            "نادي الهلال"
+        ],
+        "options": [
+            "دييغو مارادونا",
+            "نيمار",
+            "كريم بنزيما",
+            "كريستيانو رونالدو"
+        ],
+        "acceptedAnswers": [
+            "كريم بنزيما"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q151269",
+        "category": "كورة ورياضة",
+        "difficulty": "سهل",
+        "points": 100,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: بوروسيا دورتموند ← بايرن ميونخ ← نادي برشلونة ← شيكاغو فاير؟",
+        "answer": "روبرت ليفاندوفسكي",
+        "imageAlt": "روبرت ليفاندوفسكي",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q151269",
+        "factType": "football-career",
+        "careerClubs": [
+            "بوروسيا دورتموند",
+            "بايرن ميونخ",
+            "نادي برشلونة",
+            "شيكاغو فاير"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "إيفان راكيتيتش",
+            "إيريك كانتونا",
+            "جوردي ألبا",
+            "روبرت ليفاندوفسكي"
+        ],
+        "acceptedAnswers": [
+            "روبرت ليفاندوفسكي"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q83488",
+        "category": "كورة ورياضة",
+        "difficulty": "سهل",
+        "points": 100,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: شالكه 04 ← فيردر بريمن ← ريال مدريد ← نادي آرسنال؟",
+        "answer": "مسعود أوزيل",
+        "imageAlt": "مسعود أوزيل",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q83488",
+        "factType": "football-career",
+        "careerClubs": [
+            "شالكه 04",
+            "فيردر بريمن",
+            "ريال مدريد",
+            "نادي آرسنال"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "ريفالدو",
+            "كاسيميرو",
+            "مسعود أوزيل",
+            "مايكل أوين"
+        ],
+        "acceptedAnswers": [
+            "مسعود أوزيل"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q41533",
+        "category": "كورة ورياضة",
+        "difficulty": "سهل",
+        "points": 100,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: نادي تشيلسي ← مانشستر سيتي ← نادي نيويورك سيتي؟",
+        "answer": "فرانك لامبارد",
+        "imageAlt": "فرانك لامبارد",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q41533",
+        "factType": "football-career",
+        "careerClubs": [
+            "نادي تشيلسي",
+            "مانشستر سيتي",
+            "نادي نيويورك سيتي"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "ديفيد بيكهام",
+            "كيليان مبابي",
+            "رونالدو",
+            "فرانك لامبارد"
+        ],
+        "acceptedAnswers": [
+            "فرانك لامبارد"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q1354960",
+        "category": "كورة ورياضة",
+        "difficulty": "سهل",
+        "points": 200,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: نادي تشيلسي ← نادي فيورنتينا ← نادي روما ← نادي ليفربول؟",
+        "answer": "محمد صلاح",
+        "imageAlt": "محمد صلاح",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q1354960",
+        "factType": "football-career",
+        "careerClubs": [
+            "نادي تشيلسي",
+            "نادي فيورنتينا",
+            "نادي روما",
+            "نادي ليفربول"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "رونالدينيو",
+            "محمد صلاح",
+            "رونالدو",
+            "زلاتان إبراهيموفيتش"
+        ],
+        "acceptedAnswers": [
+            "محمد صلاح"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q45901",
+        "category": "كورة ورياضة",
+        "difficulty": "سهل",
+        "points": 200,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: نادي موناكو ← يوفنتوس ← نادي آرسنال ← نادي برشلونة؟",
+        "answer": "تييري هنري",
+        "imageAlt": "تييري هنري",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q45901",
+        "factType": "football-career",
+        "careerClubs": [
+            "نادي موناكو",
+            "يوفنتوس",
+            "نادي آرسنال",
+            "نادي برشلونة"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "ساديو ماني",
+            "ديدييه دروغبا",
+            "تييري هنري",
+            "بول بوغبا"
+        ],
+        "acceptedAnswers": [
+            "تييري هنري"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q80471",
+        "category": "كورة ورياضة",
+        "difficulty": "سهل",
+        "points": 200,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: فيردر بريمن ← بايرن ميونخ ← نادي لاتسيو؟",
+        "answer": "ميروسلاف كلوزه",
+        "imageAlt": "ميروسلاف كلوزه",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q80471",
+        "factType": "football-career",
+        "careerClubs": [
+            "فيردر بريمن",
+            "بايرن ميونخ",
+            "نادي لاتسيو"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "فرناندو توريس",
+            "ميروسلاف كلوزه",
+            "روبرتو باجو",
+            "صامويل إيتو"
+        ],
+        "acceptedAnswers": [
+            "ميروسلاف كلوزه"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q266613",
+        "category": "كورة ورياضة",
+        "difficulty": "سهل",
+        "points": 200,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: نادي إيفرتون ← مانشستر يونايتد ← دي.سي. يونايتد؟",
+        "answer": "واين روني",
+        "imageAlt": "واين روني",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q266613",
+        "factType": "football-career",
+        "careerClubs": [
+            "نادي إيفرتون",
+            "مانشستر يونايتد",
+            "دي.سي. يونايتد"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "كريم بنزيما",
+            "واين روني",
+            "لوكا مودريتش",
+            "جانلويجي بوفون"
+        ],
+        "acceptedAnswers": [
+            "واين روني"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q531814",
+        "category": "كورة ورياضة",
+        "difficulty": "سهل",
+        "points": 200,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: إيه سي ميلان ← ريال مدريد ← أورلاندو سيتي؟",
+        "answer": "كاكا",
+        "imageAlt": "كاكا",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q531814",
+        "factType": "football-career",
+        "careerClubs": [
+            "إيه سي ميلان",
+            "ريال مدريد",
+            "أورلاندو سيتي"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "محمد صلاح",
+            "تييري هنري",
+            "ميروسلاف كلوزه",
+            "كاكا"
+        ],
+        "acceptedAnswers": [
+            "كاكا"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q455462",
+        "category": "كورة ورياضة",
+        "difficulty": "سهل",
+        "points": 200,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: ريال سوسيداد ← أتلتيكو مدريد ← نادي برشلونة ← أورلاندو سيتي؟",
+        "answer": "أنطوان غريزمان",
+        "imageAlt": "أنطوان غريزمان",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q455462",
+        "factType": "football-career",
+        "careerClubs": [
+            "ريال سوسيداد",
+            "أتلتيكو مدريد",
+            "نادي برشلونة",
+            "أورلاندو سيتي"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "ليونيل ميسي",
+            "كريستيانو رونالدو",
+            "دييغو مارادونا",
+            "أنطوان غريزمان"
+        ],
+        "acceptedAnswers": [
+            "أنطوان غريزمان"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q184586",
+        "category": "كورة ورياضة",
+        "difficulty": "سهل",
+        "points": 200,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: توتنهام هوتسبير ← ريال مدريد ← نادي لوس أنجلوس؟",
+        "answer": "غاريث بيل",
+        "imageAlt": "غاريث بيل",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q184586",
+        "factType": "football-career",
+        "careerClubs": [
+            "توتنهام هوتسبير",
+            "ريال مدريد",
+            "نادي لوس أنجلوس"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "كاكا",
+            "غاريث بيل",
+            "ميروسلاف كلوزه",
+            "واين روني"
+        ],
+        "acceptedAnswers": [
+            "غاريث بيل"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q173139",
+        "category": "كورة ورياضة",
+        "difficulty": "سهل",
+        "points": 200,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: نادي موناكو ← باريس سان جيرمان ← إيه سي ميلان ← مانشستر سيتي؟",
+        "answer": "جورج ويا",
+        "imageAlt": "جورج ويا",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q173139",
+        "factType": "football-career",
+        "careerClubs": [
+            "نادي موناكو",
+            "باريس سان جيرمان",
+            "إيه سي ميلان",
+            "مانشستر سيتي"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "رونالدينيو",
+            "جورج ويا",
+            "رونالدو",
+            "زلاتان إبراهيموفيتش"
+        ],
+        "acceptedAnswers": [
+            "جورج ويا"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q43913",
+        "category": "كورة ورياضة",
+        "difficulty": "سهل",
+        "points": 200,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: نادي تشيلسي ← ريال مدريد ← بايرن ميونخ؟",
+        "answer": "آريين روبن",
+        "imageAlt": "آريين روبن",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q43913",
+        "factType": "football-career",
+        "careerClubs": [
+            "نادي تشيلسي",
+            "ريال مدريد",
+            "بايرن ميونخ"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "إيفان راكيتيتش",
+            "إيريك كانتونا",
+            "جوردي ألبا",
+            "آريين روبن"
+        ],
+        "acceptedAnswers": [
+            "آريين روبن"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q214204",
+        "category": "كورة ورياضة",
+        "difficulty": "سهل",
+        "points": 200,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: نادي ليل ← نادي تشيلسي ← ريال مدريد؟",
+        "answer": "إدين هازارد",
+        "imageAlt": "إدين هازارد",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q214204",
+        "factType": "football-career",
+        "careerClubs": [
+            "نادي ليل",
+            "نادي تشيلسي",
+            "ريال مدريد"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "ميروسلاف كلوزه",
+            "واين روني",
+            "إدين هازارد",
+            "تييري هنري"
+        ],
+        "acceptedAnswers": [
+            "إدين هازارد"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q129027",
+        "category": "كورة ورياضة",
+        "difficulty": "سهل",
+        "points": 200,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: مانشستر يونايتد ← يوفنتوس ← نادي موناكو؟",
+        "answer": "بول بوغبا",
+        "imageAlt": "بول بوغبا",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q129027",
+        "factType": "football-career",
+        "careerClubs": [
+            "مانشستر يونايتد",
+            "يوفنتوس",
+            "نادي موناكو"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "روبرتو فيرمينو",
+            "خريستو ستويتشكوف",
+            "بول بوغبا",
+            "بيير إيميريك أوباميانغ"
+        ],
+        "acceptedAnswers": [
+            "بول بوغبا"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q209942",
+        "category": "كورة ورياضة",
+        "difficulty": "سهل",
+        "points": 200,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: نادي ليفربول ← بايرن ميونخ ← نادي النصر السعودي؟",
+        "answer": "ساديو ماني",
+        "imageAlt": "ساديو ماني",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q209942",
+        "factType": "football-career",
+        "careerClubs": [
+            "نادي ليفربول",
+            "بايرن ميونخ",
+            "نادي النصر السعودي"
+        ],
+        "saudiCareerClubs": [
+            "نادي النصر السعودي"
+        ],
+        "options": [
+            "دافيد فيا",
+            "سيسك فابريغاس",
+            "داني ألفيس",
+            "ساديو ماني"
+        ],
+        "acceptedAnswers": [
+            "ساديو ماني"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q48892",
+        "category": "كورة ورياضة",
+        "difficulty": "سهل",
+        "points": 200,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: نادي لومان ← أولمبيك مرسيليا ← نادي تشيلسي ← كلوب دو فوت مونتريال؟",
+        "answer": "ديدييه دروغبا",
+        "imageAlt": "ديدييه دروغبا",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q48892",
+        "factType": "football-career",
+        "careerClubs": [
+            "نادي لومان",
+            "أولمبيك مرسيليا",
+            "نادي تشيلسي",
+            "كلوب دو فوت مونتريال"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "بول بوغبا",
+            "ساديو ماني",
+            "ديدييه دروغبا",
+            "إدين هازارد"
+        ],
+        "acceptedAnswers": [
+            "ديدييه دروغبا"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q357984",
+        "category": "كورة ورياضة",
+        "difficulty": "سهل",
+        "points": 200,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: نادي تشيلسي ← فيردر بريمن ← مانشستر سيتي ← نادي نابولي؟",
+        "answer": "كيفن دي بروين",
+        "imageAlt": "كيفن دي بروين",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q357984",
+        "factType": "football-career",
+        "careerClubs": [
+            "نادي تشيلسي",
+            "فيردر بريمن",
+            "مانشستر سيتي",
+            "نادي نابولي"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "دافيد فيا",
+            "سيسك فابريغاس",
+            "داني ألفيس",
+            "كيفن دي بروين"
+        ],
+        "acceptedAnswers": [
+            "كيفن دي بروين"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q483309",
+        "category": "كورة ورياضة",
+        "difficulty": "سهل",
+        "points": 200,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: نادي إشبيلية ← ريال مدريد ← باريس سان جيرمان؟",
+        "answer": "سيرخيو راموس",
+        "imageAlt": "سيرخيو راموس",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q483309",
+        "factType": "football-career",
+        "careerClubs": [
+            "نادي إشبيلية",
+            "ريال مدريد",
+            "باريس سان جيرمان"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "جوردي ألبا",
+            "جون تيري",
+            "سيرخيو راموس",
+            "إيريك كانتونا"
+        ],
+        "acceptedAnswers": [
+            "سيرخيو راموس"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q67964",
+        "category": "كورة ورياضة",
+        "difficulty": "متوسط",
+        "points": 300,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: نادي فيورنتينا ← يوفنتوس ← إيه سي ميلان ← نادي بولونيا 1909؟",
+        "answer": "روبرتو باجو",
+        "imageAlt": "روبرتو باجو",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q67964",
+        "factType": "football-career",
+        "careerClubs": [
+            "نادي فيورنتينا",
+            "يوفنتوس",
+            "إيه سي ميلان",
+            "نادي بولونيا 1909"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "ليونيل ميسي",
+            "روبرتو باجو",
+            "روبرتو فيرمينو",
+            "خريستو ستويتشكوف"
+        ],
+        "acceptedAnswers": [
+            "روبرتو باجو"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q1255625",
+        "category": "كورة ورياضة",
+        "difficulty": "متوسط",
+        "points": 300,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: ريال مدريد ← إسبانيول ← نادي برشلونة ← نادي إنتر ميلان؟",
+        "answer": "صامويل إيتو",
+        "imageAlt": "صامويل إيتو",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q1255625",
+        "factType": "football-career",
+        "careerClubs": [
+            "ريال مدريد",
+            "إسبانيول",
+            "نادي برشلونة",
+            "نادي إنتر ميلان"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "محمد صلاح",
+            "تييري هنري",
+            "ميروسلاف كلوزه",
+            "صامويل إيتو"
+        ],
+        "acceptedAnswers": [
+            "صامويل إيتو"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q42731",
+        "category": "كورة ورياضة",
+        "difficulty": "متوسط",
+        "points": 300,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: أتلتيكو مدريد ← نادي ليفربول ← نادي تشيلسي ← إيه سي ميلان؟",
+        "answer": "فرناندو توريس",
+        "imageAlt": "فرناندو توريس",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q42731",
+        "factType": "football-career",
+        "careerClubs": [
+            "أتلتيكو مدريد",
+            "نادي ليفربول",
+            "نادي تشيلسي",
+            "إيه سي ميلان"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "فرناندو توريس",
+            "جورج ويا",
+            "آريين روبن",
+            "إدين هازارد"
+        ],
+        "acceptedAnswers": [
+            "فرناندو توريس"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q119562",
+        "category": "كورة ورياضة",
+        "difficulty": "متوسط",
+        "points": 300,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: أتلتيكو مدريد ← مانشستر سيتي ← نادي برشلونة؟",
+        "answer": "سيرخيو أغويرو",
+        "imageAlt": "سيرخيو أغويرو",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q119562",
+        "factType": "football-career",
+        "careerClubs": [
+            "أتلتيكو مدريد",
+            "مانشستر سيتي",
+            "نادي برشلونة"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "كريم بنزيما",
+            "روبرت ليفاندوفسكي",
+            "مسعود أوزيل",
+            "سيرخيو أغويرو"
+        ],
+        "acceptedAnswers": [
+            "سيرخيو أغويرو"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q368441",
+        "category": "كورة ورياضة",
+        "difficulty": "متوسط",
+        "points": 300,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: نادي موناكو ← ريال مدريد ← بايرن ميونخ ← نادي إيفرتون؟",
+        "answer": "خاميس رودريغيز",
+        "imageAlt": "خاميس رودريغيز",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q368441",
+        "factType": "football-career",
+        "careerClubs": [
+            "نادي موناكو",
+            "ريال مدريد",
+            "بايرن ميونخ",
+            "نادي إيفرتون"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "ديدييه دروغبا",
+            "كيفن دي بروين",
+            "سيرخيو راموس",
+            "خاميس رودريغيز"
+        ],
+        "acceptedAnswers": [
+            "خاميس رودريغيز"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q134976",
+        "category": "كورة ورياضة",
+        "difficulty": "متوسط",
+        "points": 300,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: نادي كولن ← بايرن ميونخ ← نادي آرسنال ← نادي إنتر ميلان؟",
+        "answer": "لوكاس بودولسكي",
+        "imageAlt": "لوكاس بودولسكي",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q134976",
+        "factType": "football-career",
+        "careerClubs": [
+            "نادي كولن",
+            "بايرن ميونخ",
+            "نادي آرسنال",
+            "نادي إنتر ميلان"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "ماريو بالوتيلي",
+            "لوكاس بودولسكي",
+            "سيرخيو أغويرو",
+            "خاميس رودريغيز"
+        ],
+        "acceptedAnswers": [
+            "لوكاس بودولسكي"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q129700",
+        "category": "كورة ورياضة",
+        "difficulty": "متوسط",
+        "points": 300,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: نادي إنتر ميلان ← مانشستر سيتي ← إيه سي ميلان ← نادي ليفربول؟",
+        "answer": "ماريو بالوتيلي",
+        "imageAlt": "ماريو بالوتيلي",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q129700",
+        "factType": "football-career",
+        "careerClubs": [
+            "نادي إنتر ميلان",
+            "مانشستر سيتي",
+            "إيه سي ميلان",
+            "نادي ليفربول"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "ماريو بالوتيلي",
+            "جورج بست",
+            "ماركوس راشفورد",
+            "دييغو فورلان"
+        ],
+        "acceptedAnswers": [
+            "ماريو بالوتيلي"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q47778",
+        "category": "كورة ورياضة",
+        "difficulty": "متوسط",
+        "points": 300,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: نادي إيفرتون ← نادي برشلونة ← توتنهام هوتسبير؟",
+        "answer": "غاري لينيكر",
+        "imageAlt": "غاري لينيكر",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q47778",
+        "factType": "football-career",
+        "careerClubs": [
+            "نادي إيفرتون",
+            "نادي برشلونة",
+            "توتنهام هوتسبير"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "روبرتو فيرمينو",
+            "خريستو ستويتشكوف",
+            "غاري لينيكر",
+            "بيير إيميريك أوباميانغ"
+        ],
+        "acceptedAnswers": [
+            "غاري لينيكر"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q174614",
+        "category": "كورة ورياضة",
+        "difficulty": "متوسط",
+        "points": 300,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: نادي بارما ← نادي روما ← إيه سي ميلان؟",
+        "answer": "كارلو أنشيلوتي",
+        "imageAlt": "كارلو أنشيلوتي",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q174614",
+        "factType": "football-career",
+        "careerClubs": [
+            "نادي بارما",
+            "نادي روما",
+            "إيه سي ميلان"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "كارلو أنشيلوتي",
+            "روبرتو باجو",
+            "صامويل إيتو",
+            "فرناندو توريس"
+        ],
+        "acceptedAnswers": [
+            "كارلو أنشيلوتي"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q1911",
+        "category": "كورة ورياضة",
+        "difficulty": "متوسط",
+        "points": 300,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: نادي آرسنال ← نادي تشيلسي ← إيه سي ميلان ← نادي لوس أنجلوس؟",
+        "answer": "أوليفييه جيرو",
+        "imageAlt": "أوليفييه جيرو",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q1911",
+        "factType": "football-career",
+        "careerClubs": [
+            "نادي آرسنال",
+            "نادي تشيلسي",
+            "إيه سي ميلان",
+            "نادي لوس أنجلوس"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "ليونيل ميسي",
+            "كريستيانو رونالدو",
+            "دييغو مارادونا",
+            "أوليفييه جيرو"
+        ],
+        "acceptedAnswers": [
+            "أوليفييه جيرو"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q313316",
+        "category": "كورة ورياضة",
+        "difficulty": "متوسط",
+        "points": 300,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: نادي تشيلسي ← نادي إيفرتون ← مانشستر يونايتد ← نادي إنتر ميلان؟",
+        "answer": "روميلو لوكاكو",
+        "imageAlt": "روميلو لوكاكو",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q313316",
+        "factType": "football-career",
+        "careerClubs": [
+            "نادي تشيلسي",
+            "نادي إيفرتون",
+            "مانشستر يونايتد",
+            "نادي إنتر ميلان"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "روميلو لوكاكو",
+            "تشابي ألونسو",
+            "دافيد فيا",
+            "سيسك فابريغاس"
+        ],
+        "acceptedAnswers": [
+            "روميلو لوكاكو"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q1918",
+        "category": "كورة ورياضة",
+        "difficulty": "متوسط",
+        "points": 300,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: نادي بريست ← أولمبيك مرسيليا ← بايرن ميونخ ← نادي فيورنتينا؟",
+        "answer": "فرانك ريبيري",
+        "imageAlt": "فرانك ريبيري",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q1918",
+        "factType": "football-career",
+        "careerClubs": [
+            "نادي بريست",
+            "أولمبيك مرسيليا",
+            "بايرن ميونخ",
+            "نادي فيورنتينا"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "فرانك ريبيري",
+            "زلاتان إبراهيموفيتش",
+            "رونالدينيو",
+            "لويس سواريز"
+        ],
+        "acceptedAnswers": [
+            "فرانك ريبيري"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q73360",
+        "category": "كورة ورياضة",
+        "difficulty": "متوسط",
+        "points": 300,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: نادي تشيلسي ← أتلتيكو مدريد ← ريال مدريد؟",
+        "answer": "تيبو كورتوا",
+        "imageAlt": "تيبو كورتوا",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q73360",
+        "factType": "football-career",
+        "careerClubs": [
+            "نادي تشيلسي",
+            "أتلتيكو مدريد",
+            "ريال مدريد"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "داني ألفيس",
+            "فابيو كانافارو",
+            "تيبو كورتوا",
+            "سيسك فابريغاس"
+        ],
+        "acceptedAnswers": [
+            "تيبو كورتوا"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q164521",
+        "category": "كورة ورياضة",
+        "difficulty": "متوسط",
+        "points": 300,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: مانشستر يونايتد ← نادي فولهام ← نادي بورنموث؟",
+        "answer": "جورج بست",
+        "imageAlt": "جورج بست",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q164521",
+        "factType": "football-career",
+        "careerClubs": [
+            "مانشستر يونايتد",
+            "نادي فولهام",
+            "نادي بورنموث"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "فرانك ريبيري",
+            "تيبو كورتوا",
+            "جورج بست",
+            "روميلو لوكاكو"
+        ],
+        "acceptedAnswers": [
+            "جورج بست"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q22951255",
+        "category": "كورة ورياضة",
+        "difficulty": "متوسط",
+        "points": 300,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: مانشستر يونايتد ← أستون فيلا ← نادي برشلونة؟",
+        "answer": "ماركوس راشفورد",
+        "imageAlt": "ماركوس راشفورد",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q22951255",
+        "factType": "football-career",
+        "careerClubs": [
+            "مانشستر يونايتد",
+            "أستون فيلا",
+            "نادي برشلونة"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "مسعود أوزيل",
+            "فرانك لامبارد",
+            "ماركوس راشفورد",
+            "روبرت ليفاندوفسكي"
+        ],
+        "acceptedAnswers": [
+            "ماركوس راشفورد"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q261534",
+        "category": "كورة ورياضة",
+        "difficulty": "متوسط",
+        "points": 300,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: مانشستر يونايتد ← نادي فياريال ← أتلتيكو مدريد ← نادي إنتر ميلان؟",
+        "answer": "دييغو فورلان",
+        "imageAlt": "دييغو فورلان",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q261534",
+        "factType": "football-career",
+        "careerClubs": [
+            "مانشستر يونايتد",
+            "نادي فياريال",
+            "أتلتيكو مدريد",
+            "نادي إنتر ميلان"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "سيرخيو راموس",
+            "روبرتو باجو",
+            "دييغو فورلان",
+            "كيفن دي بروين"
+        ],
+        "acceptedAnswers": [
+            "دييغو فورلان"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q20851003",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 400,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: ستاد رين ← بوروسيا دورتموند ← نادي برشلونة ← باريس سان جيرمان؟",
+        "answer": "عثمان ديمبيلي",
+        "imageAlt": "عثمان ديمبيلي",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q20851003",
+        "factType": "football-career",
+        "careerClubs": [
+            "ستاد رين",
+            "بوروسيا دورتموند",
+            "نادي برشلونة",
+            "باريس سان جيرمان"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "سيرخيو أغويرو",
+            "خاميس رودريغيز",
+            "عثمان ديمبيلي",
+            "فرناندو توريس"
+        ],
+        "acceptedAnswers": [
+            "عثمان ديمبيلي"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q43926",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 400,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: نادي إنتر ميلان ← إيه سي ميلان ← يوفنتوس ← نادي نيويورك سيتي؟",
+        "answer": "أندريا بيرلو",
+        "imageAlt": "أندريا بيرلو",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q43926",
+        "factType": "football-career",
+        "careerClubs": [
+            "نادي إنتر ميلان",
+            "إيه سي ميلان",
+            "يوفنتوس",
+            "نادي نيويورك سيتي"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "كاكا",
+            "أندريا بيرلو",
+            "ميروسلاف كلوزه",
+            "واين روني"
+        ],
+        "acceptedAnswers": [
+            "أندريا بيرلو"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q131234",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 400,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: بايرن ميونخ ← باير 04 ليفركوزن ← ريال مدريد؟",
+        "answer": "توني كروس",
+        "imageAlt": "توني كروس",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q131234",
+        "factType": "football-career",
+        "careerClubs": [
+            "بايرن ميونخ",
+            "باير 04 ليفركوزن",
+            "ريال مدريد"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "آريين روبن",
+            "إدين هازارد",
+            "بول بوغبا",
+            "توني كروس"
+        ],
+        "acceptedAnswers": [
+            "توني كروس"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q167790",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 400,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: نادي نابولي ← باريس سان جيرمان ← مانشستر يونايتد ← نادي فالنسيا؟",
+        "answer": "إدينسون كافاني",
+        "imageAlt": "إدينسون كافاني",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q167790",
+        "factType": "football-career",
+        "careerClubs": [
+            "نادي نابولي",
+            "باريس سان جيرمان",
+            "مانشستر يونايتد",
+            "نادي فالنسيا"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "أندريا بيرلو",
+            "توني كروس",
+            "أنخيل دي ماريا",
+            "إدينسون كافاني"
+        ],
+        "acceptedAnswers": [
+            "إدينسون كافاني"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q251683",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 400,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: ريال مدريد ← مانشستر يونايتد ← باريس سان جيرمان ← يوفنتوس؟",
+        "answer": "أنخيل دي ماريا",
+        "imageAlt": "أنخيل دي ماريا",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q251683",
+        "factType": "football-career",
+        "careerClubs": [
+            "ريال مدريد",
+            "مانشستر يونايتد",
+            "باريس سان جيرمان",
+            "يوفنتوس"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "أنخيل دي ماريا",
+            "خاميس رودريغيز",
+            "لوكاس بودولسكي",
+            "ماريو بالوتيلي"
+        ],
+        "acceptedAnswers": [
+            "أنخيل دي ماريا"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q208104",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 400,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: ريال سوسيداد ← نادي ليفربول ← ريال مدريد ← بايرن ميونخ؟",
+        "answer": "تشابي ألونسو",
+        "imageAlt": "تشابي ألونسو",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q208104",
+        "factType": "football-career",
+        "careerClubs": [
+            "ريال سوسيداد",
+            "نادي ليفربول",
+            "ريال مدريد",
+            "بايرن ميونخ"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "تشابي ألونسو",
+            "ديدييه ديشان",
+            "جوردان هندرسون",
+            "بيير إيميريك أوباميانغ"
+        ],
+        "acceptedAnswers": [
+            "تشابي ألونسو"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q83006",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 400,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: نادي فالنسيا ← نادي برشلونة ← أتلتيكو مدريد ← نادي نيويورك سيتي؟",
+        "answer": "دافيد فيا",
+        "imageAlt": "دافيد فيا",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q83006",
+        "factType": "football-career",
+        "careerClubs": [
+            "نادي فالنسيا",
+            "نادي برشلونة",
+            "أتلتيكو مدريد",
+            "نادي نيويورك سيتي"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "دافيد فيا",
+            "خريستو ستويتشكوف",
+            "ليونيل ميسي",
+            "كريستيانو رونالدو"
+        ],
+        "acceptedAnswers": [
+            "دافيد فيا"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q17499",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 400,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: نادي برشلونة ← نادي آرسنال ← نادي تشيلسي ← نادي موناكو؟",
+        "answer": "سيسك فابريغاس",
+        "imageAlt": "سيسك فابريغاس",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q17499",
+        "factType": "football-career",
+        "careerClubs": [
+            "نادي برشلونة",
+            "نادي آرسنال",
+            "نادي تشيلسي",
+            "نادي موناكو"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "رونالدينيو",
+            "سيسك فابريغاس",
+            "رونالدو",
+            "زلاتان إبراهيموفيتش"
+        ],
+        "acceptedAnswers": [
+            "سيسك فابريغاس"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q172720",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 400,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: نادي إشبيلية ← نادي برشلونة ← يوفنتوس ← باريس سان جيرمان؟",
+        "answer": "داني ألفيس",
+        "imageAlt": "داني ألفيس",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q172720",
+        "factType": "football-career",
+        "careerClubs": [
+            "نادي إشبيلية",
+            "نادي برشلونة",
+            "يوفنتوس",
+            "باريس سان جيرمان"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "سيرخيو أغويرو",
+            "خاميس رودريغيز",
+            "داني ألفيس",
+            "فرناندو توريس"
+        ],
+        "acceptedAnswers": [
+            "داني ألفيس"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q102027",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 400,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: نادي نابولي ← نادي بارما ← نادي إنتر ميلان ← يوفنتوس؟",
+        "answer": "فابيو كانافارو",
+        "imageAlt": "فابيو كانافارو",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q102027",
+        "factType": "football-career",
+        "careerClubs": [
+            "نادي نابولي",
+            "نادي بارما",
+            "نادي إنتر ميلان",
+            "يوفنتوس"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "جيروم بواتينغ",
+            "فابيو كانافارو",
+            "ريفالدو",
+            "كاسيميرو"
+        ],
+        "acceptedAnswers": [
+            "فابيو كانافارو"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q1907",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 400,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: نادي نيس ← أولمبيك ليون ← توتنهام هوتسبير ← نادي لوس أنجلوس؟",
+        "answer": "هيغو لوريس",
+        "imageAlt": "هيغو لوريس",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q1907",
+        "factType": "football-career",
+        "careerClubs": [
+            "نادي نيس",
+            "أولمبيك ليون",
+            "توتنهام هوتسبير",
+            "نادي لوس أنجلوس"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "هيغو لوريس",
+            "أنخيل دي ماريا",
+            "تشابي ألونسو",
+            "دافيد فيا"
+        ],
+        "acceptedAnswers": [
+            "هيغو لوريس"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q11948",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 400,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: باير 04 ليفركوزن ← بايرن ميونخ ← نادي تشيلسي؟",
+        "answer": "مايكل بالاك",
+        "imageAlt": "مايكل بالاك",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q11948",
+        "factType": "football-career",
+        "careerClubs": [
+            "باير 04 ليفركوزن",
+            "بايرن ميونخ",
+            "نادي تشيلسي"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "بول بوغبا",
+            "ساديو ماني",
+            "مايكل بالاك",
+            "إدين هازارد"
+        ],
+        "acceptedAnswers": [
+            "مايكل بالاك"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q150268",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 400,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: أتلتيكو مدريد ← مانشستر يونايتد ← نادي فيورنتينا؟",
+        "answer": "دافيد دي خيا",
+        "imageAlt": "دافيد دي خيا",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q150268",
+        "factType": "football-career",
+        "careerClubs": [
+            "أتلتيكو مدريد",
+            "مانشستر يونايتد",
+            "نادي فيورنتينا"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "إيفان راكيتيتش",
+            "إيريك كانتونا",
+            "جوردي ألبا",
+            "دافيد دي خيا"
+        ],
+        "acceptedAnswers": [
+            "دافيد دي خيا"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q4462",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 400,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: نادي فرايبورغ ← نادي شتوتغارت ← آينتراخت فرانكفورت؟",
+        "answer": "يواخيم لوف",
+        "imageAlt": "يواخيم لوف",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q4462",
+        "factType": "football-career",
+        "careerClubs": [
+            "نادي فرايبورغ",
+            "نادي شتوتغارت",
+            "آينتراخت فرانكفورت"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "إيفان راكيتيتش",
+            "إيريك كانتونا",
+            "جوردي ألبا",
+            "يواخيم لوف"
+        ],
+        "acceptedAnswers": [
+            "يواخيم لوف"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q115453",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 400,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: شالكه 04 ← نادي إشبيلية ← نادي برشلونة ← نادي الشباب السعودي؟",
+        "answer": "إيفان راكيتيتش",
+        "imageAlt": "إيفان راكيتيتش",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q115453",
+        "factType": "football-career",
+        "careerClubs": [
+            "شالكه 04",
+            "نادي إشبيلية",
+            "نادي برشلونة",
+            "نادي الشباب السعودي"
+        ],
+        "saudiCareerClubs": [
+            "نادي الشباب السعودي"
+        ],
+        "options": [
+            "مسعود أوزيل",
+            "فرانك لامبارد",
+            "إيفان راكيتيتش",
+            "روبرت ليفاندوفسكي"
+        ],
+        "acceptedAnswers": [
+            "إيفان راكيتيتش"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q170328",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 500,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: نادي أوكسير ← مانشستر يونايتد ← ليدز يونايتد؟",
+        "answer": "إيريك كانتونا",
+        "imageAlt": "إيريك كانتونا",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q170328",
+        "factType": "football-career",
+        "careerClubs": [
+            "نادي أوكسير",
+            "مانشستر يونايتد",
+            "ليدز يونايتد"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "إيريك كانتونا",
+            "خريستو ستويتشكوف",
+            "ليونيل ميسي",
+            "كريستيانو رونالدو"
+        ],
+        "acceptedAnswers": [
+            "إيريك كانتونا"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q187159",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 500,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: نادي فالنسيا ← نادي برشلونة ← إنتر ميامي؟",
+        "answer": "جوردي ألبا",
+        "imageAlt": "جوردي ألبا",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q187159",
+        "factType": "football-career",
+        "careerClubs": [
+            "نادي فالنسيا",
+            "نادي برشلونة",
+            "إنتر ميامي"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "سيرخيو أغويرو",
+            "خاميس رودريغيز",
+            "جوردي ألبا",
+            "فرناندو توريس"
+        ],
+        "acceptedAnswers": [
+            "جوردي ألبا"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q83456",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 500,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: نادي تشيلسي ← نوتينغهام فورست ← أستون فيلا؟",
+        "answer": "جون تيري",
+        "imageAlt": "جون تيري",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q83456",
+        "factType": "football-career",
+        "careerClubs": [
+            "نادي تشيلسي",
+            "نوتينغهام فورست",
+            "أستون فيلا"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "أندريا بيرلو",
+            "جون تيري",
+            "دييغو فورلان",
+            "عثمان ديمبيلي"
+        ],
+        "acceptedAnswers": [
+            "جون تيري"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q483145",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 500,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: نادي برشلونة ← ريال مدريد ← نادي إنتر ميلان؟",
+        "answer": "لويس فيغو",
+        "imageAlt": "لويس فيغو",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q483145",
+        "factType": "football-career",
+        "careerClubs": [
+            "نادي برشلونة",
+            "ريال مدريد",
+            "نادي إنتر ميلان"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "لويس فيغو",
+            "زلاتان إبراهيموفيتش",
+            "رونالدينيو",
+            "لويس سواريز"
+        ],
+        "acceptedAnswers": [
+            "لويس فيغو"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q128829",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 500,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: نادي ليفربول ← ريال مدريد ← نيوكاسل يونايتد ← مانشستر يونايتد؟",
+        "answer": "مايكل أوين",
+        "imageAlt": "مايكل أوين",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q128829",
+        "factType": "football-career",
+        "careerClubs": [
+            "نادي ليفربول",
+            "ريال مدريد",
+            "نيوكاسل يونايتد",
+            "مانشستر يونايتد"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "كريم بنزيما",
+            "روبرت ليفاندوفسكي",
+            "مسعود أوزيل",
+            "مايكل أوين"
+        ],
+        "acceptedAnswers": [
+            "مايكل أوين"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q483577",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 500,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: ديبورتيفو لاكورونيا ← نادي برشلونة ← إيه سي ميلان؟",
+        "answer": "ريفالدو",
+        "imageAlt": "ريفالدو",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q483577",
+        "factType": "football-career",
+        "careerClubs": [
+            "ديبورتيفو لاكورونيا",
+            "نادي برشلونة",
+            "إيه سي ميلان"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "جوردان هندرسون",
+            "ريفالدو",
+            "رياض محرز",
+            "ديدييه ديشان"
+        ],
+        "acceptedAnswers": [
+            "ريفالدو"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q616664",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 500,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: ريال مدريد ← مانشستر يونايتد ← إنتر ميامي؟",
+        "answer": "كاسيميرو",
+        "imageAlt": "كاسيميرو",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q616664",
+        "factType": "football-career",
+        "careerClubs": [
+            "ريال مدريد",
+            "مانشستر يونايتد",
+            "إنتر ميامي"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "رونالدو",
+            "زلاتان إبراهيموفيتش",
+            "كاسيميرو",
+            "كيليان مبابي"
+        ],
+        "acceptedAnswers": [
+            "كاسيميرو"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q151260",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 500,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: نادي هامبورغ ← مانشستر سيتي ← بايرن ميونخ ← أولمبيك ليون؟",
+        "answer": "جيروم بواتينغ",
+        "imageAlt": "جيروم بواتينغ",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q151260",
+        "factType": "football-career",
+        "careerClubs": [
+            "نادي هامبورغ",
+            "مانشستر سيتي",
+            "بايرن ميونخ",
+            "أولمبيك ليون"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "جيروم بواتينغ",
+            "أنخيل دي ماريا",
+            "تشابي ألونسو",
+            "دافيد فيا"
+        ],
+        "acceptedAnswers": [
+            "جيروم بواتينغ"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q482955",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 500,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: يوفنتوس ← نادي فولهام ← مانشستر يونايتد؟",
+        "answer": "أدوين فان در سار",
+        "imageAlt": "أدوين فان در سار",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q482955",
+        "factType": "football-career",
+        "careerClubs": [
+            "يوفنتوس",
+            "نادي فولهام",
+            "مانشستر يونايتد"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "أدوين فان در سار",
+            "أنخيل دي ماريا",
+            "تشابي ألونسو",
+            "دافيد فيا"
+        ],
+        "acceptedAnswers": [
+            "أدوين فان در سار"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q8338725",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 500,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: نادي لوهافر ← مانشستر سيتي ← النادي الأهلي (السعودية)؟",
+        "answer": "رياض محرز",
+        "imageAlt": "رياض محرز",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q8338725",
+        "factType": "football-career",
+        "careerClubs": [
+            "نادي لوهافر",
+            "مانشستر سيتي",
+            "النادي الأهلي (السعودية)"
+        ],
+        "saudiCareerClubs": [
+            "النادي الأهلي (السعودية)"
+        ],
+        "options": [
+            "أوليفييه جيرو",
+            "رياض محرز",
+            "غاري لينيكر",
+            "كارلو أنشيلوتي"
+        ],
+        "acceptedAnswers": [
+            "رياض محرز"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q508711",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 500,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: أولمبيك مرسيليا ← يوفنتوس ← نادي تشيلسي ← نادي فالنسيا؟",
+        "answer": "ديدييه ديشان",
+        "imageAlt": "ديدييه ديشان",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q508711",
+        "factType": "football-career",
+        "careerClubs": [
+            "أولمبيك مرسيليا",
+            "يوفنتوس",
+            "نادي تشيلسي",
+            "نادي فالنسيا"
+        ],
+        "saudiCareerClubs": [],
+        "options": [
+            "تشابي ألونسو",
+            "ديدييه ديشان",
+            "إدينسون كافاني",
+            "أنخيل دي ماريا"
+        ],
+        "acceptedAnswers": [
+            "ديدييه ديشان"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q273715",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 500,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: نادي سندرلاند ← كوفنتري سيتي ← نادي ليفربول ← نادي الاتفاق؟",
+        "answer": "جوردان هندرسون",
+        "imageAlt": "جوردان هندرسون",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q273715",
+        "factType": "football-career",
+        "careerClubs": [
+            "نادي سندرلاند",
+            "كوفنتري سيتي",
+            "نادي ليفربول",
+            "نادي الاتفاق"
+        ],
+        "saudiCareerClubs": [
+            "نادي الاتفاق"
+        ],
+        "options": [
+            "سيرخيو أغويرو",
+            "خاميس رودريغيز",
+            "جوردان هندرسون",
+            "فرناندو توريس"
+        ],
+        "acceptedAnswers": [
+            "جوردان هندرسون"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q44977",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 500,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: نادي تشيلسي ← أولمبيك مرسيليا ← نادي القادسية (السعودية) ← ديبورتيفو لاكورونيا؟",
+        "answer": "بيير إيميريك أوباميانغ",
+        "imageAlt": "بيير إيميريك أوباميانغ",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q44977",
+        "factType": "football-career",
+        "careerClubs": [
+            "نادي تشيلسي",
+            "أولمبيك مرسيليا",
+            "نادي القادسية (السعودية)",
+            "ديبورتيفو لاكورونيا"
+        ],
+        "saudiCareerClubs": [
+            "نادي القادسية (السعودية)"
+        ],
+        "options": [
+            "غاريث بيل",
+            "جورج ويا",
+            "بيير إيميريك أوباميانغ",
+            "أنطوان غريزمان"
+        ],
+        "acceptedAnswers": [
+            "بيير إيميريك أوباميانغ"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q602525",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 500,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: نادي هوفنهايم ← نادي ليفربول ← النادي الأهلي (السعودية)؟",
+        "answer": "روبرتو فيرمينو",
+        "imageAlt": "روبرتو فيرمينو",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q602525",
+        "factType": "football-career",
+        "careerClubs": [
+            "نادي هوفنهايم",
+            "نادي ليفربول",
+            "النادي الأهلي (السعودية)"
+        ],
+        "saudiCareerClubs": [
+            "النادي الأهلي (السعودية)"
+        ],
+        "options": [
+            "كاكا",
+            "أنطوان غريزمان",
+            "غاريث بيل",
+            "روبرتو فيرمينو"
+        ],
+        "acceptedAnswers": [
+            "روبرتو فيرمينو"
+        ]
+    },
+    {
+        "id": "sports-football-career-Q187125",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 500,
+        "question": "اختر الإجابة الصحيحة من الخيارات: من اللاعب الذي مثّل هذه الأندية بالترتيب: نادي برشلونة ← نادي بارما ← نادي النصر السعودي ← شيكاغو فاير؟",
+        "answer": "خريستو ستويتشكوف",
+        "imageAlt": "خريستو ستويتشكوف",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "كل الأندية المذكورة من دوريات كبرى أو دوري المحترفين السعودي. ابدأ بأول محطة في المسيرة.",
+        "source": "https://www.wikidata.org/wiki/Q187125",
+        "factType": "football-career",
+        "careerClubs": [
+            "نادي برشلونة",
+            "نادي بارما",
+            "نادي النصر السعودي",
+            "شيكاغو فاير"
+        ],
+        "saudiCareerClubs": [
+            "نادي النصر السعودي"
+        ],
+        "options": [
+            "كريم بنزيما",
+            "روبرت ليفاندوفسكي",
+            "مسعود أوزيل",
+            "خريستو ستويتشكوف"
+        ],
+        "acceptedAnswers": [
+            "خريستو ستويتشكوف"
+        ]
+    },
+    {
+        "id": "sports-basketball-champion-Q96083208",
+        "category": "كورة ورياضة",
+        "difficulty": "سهل",
+        "points": 100,
+        "question": "من بطل دوري NBA لكرة السلة للرجال في موسم 2020–21؟",
+        "answer": "ميلووكي باكس",
+        "imageAlt": "دوري كرة السلة الأمريكي NBA للرجال",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2020–21 من دوري NBA للرجال.",
+        "source": "https://www.wikidata.org/wiki/Q96083208",
+        "factType": "basketball-champion",
+        "competition": "nba",
+        "options": [
+            "ميلووكي باكس",
+            "هيوستن روكتس",
+            "لوس أنجلوس ليكرز",
+            "تورنتو رابتورز"
+        ],
+        "acceptedAnswers": [
+            "ميلووكي باكس"
+        ]
+    },
+    {
+        "id": "sports-basketball-champion-Q63637259",
+        "category": "كورة ورياضة",
+        "difficulty": "سهل",
+        "points": 100,
+        "question": "من بطل دوري NBA لكرة السلة للرجال في موسم 2019–20؟",
+        "answer": "لوس أنجلوس ليكرز",
+        "imageAlt": "دوري كرة السلة الأمريكي NBA للرجال",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2019–20 من دوري NBA للرجال.",
+        "source": "https://www.wikidata.org/wiki/Q63637259",
+        "factType": "basketball-champion",
+        "competition": "nba",
+        "options": [
+            "غولدن ستايت ووريورز",
+            "كليفلاند كافالييرز",
+            "سان أنطونيو سبرز",
+            "لوس أنجلوس ليكرز"
+        ],
+        "acceptedAnswers": [
+            "لوس أنجلوس ليكرز"
+        ]
+    },
+    {
+        "id": "sports-basketball-champion-Q52702755",
+        "category": "كورة ورياضة",
+        "difficulty": "سهل",
+        "points": 100,
+        "question": "من بطل دوري NBA لكرة السلة للرجال في موسم 2018–19؟",
+        "answer": "تورنتو رابتورز",
+        "imageAlt": "دوري كرة السلة الأمريكي NBA للرجال",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2018–19 من دوري NBA للرجال.",
+        "source": "https://www.wikidata.org/wiki/Q52702755",
+        "factType": "basketball-champion",
+        "competition": "nba",
+        "options": [
+            "غولدن ستايت ووريورز",
+            "تورنتو رابتورز",
+            "ميلووكي باكس",
+            "لوس أنجلوس ليكرز"
+        ],
+        "acceptedAnswers": [
+            "تورنتو رابتورز"
+        ]
+    },
+    {
+        "id": "sports-basketball-champion-Q29098111",
+        "category": "كورة ورياضة",
+        "difficulty": "سهل",
+        "points": 100,
+        "question": "من بطل دوري NBA لكرة السلة للرجال في موسم 2017–18؟",
+        "answer": "غولدن ستايت ووريورز",
+        "imageAlt": "دوري كرة السلة الأمريكي NBA للرجال",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2017–18 من دوري NBA للرجال.",
+        "source": "https://www.wikidata.org/wiki/Q29098111",
+        "factType": "basketball-champion",
+        "competition": "nba",
+        "options": [
+            "ميامي هيت",
+            "دالاس مافيريكس",
+            "بوسطن سيلتكس",
+            "غولدن ستايت ووريورز"
+        ],
+        "acceptedAnswers": [
+            "غولدن ستايت ووريورز"
+        ]
+    },
+    {
+        "id": "sports-basketball-champion-Q23939796",
+        "category": "كورة ورياضة",
+        "difficulty": "سهل",
+        "points": 100,
+        "question": "من بطل دوري NBA لكرة السلة للرجال في موسم 2016–17؟",
+        "answer": "غولدن ستايت ووريورز",
+        "imageAlt": "دوري كرة السلة الأمريكي NBA للرجال",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2016–17 من دوري NBA للرجال.",
+        "source": "https://www.wikidata.org/wiki/Q23939796",
+        "factType": "basketball-champion",
+        "competition": "nba",
+        "options": [
+            "دالاس مافيريكس",
+            "بوسطن سيلتكس",
+            "غولدن ستايت ووريورز",
+            "ميامي هيت"
+        ],
+        "acceptedAnswers": [
+            "غولدن ستايت ووريورز"
+        ]
+    },
+    {
+        "id": "sports-basketball-champion-Q19862716",
+        "category": "كورة ورياضة",
+        "difficulty": "سهل",
+        "points": 100,
+        "question": "من بطل دوري NBA لكرة السلة للرجال في موسم 2015–16؟",
+        "answer": "كليفلاند كافالييرز",
+        "imageAlt": "دوري كرة السلة الأمريكي NBA للرجال",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2015–16 من دوري NBA للرجال.",
+        "source": "https://www.wikidata.org/wiki/Q19862716",
+        "factType": "basketball-champion",
+        "competition": "nba",
+        "options": [
+            "كليفلاند كافالييرز",
+            "ميلووكي باكس",
+            "لوس أنجلوس ليكرز",
+            "تورنتو رابتورز"
+        ],
+        "acceptedAnswers": [
+            "كليفلاند كافالييرز"
+        ]
+    },
+    {
+        "id": "sports-basketball-champion-Q16191100",
+        "category": "كورة ورياضة",
+        "difficulty": "سهل",
+        "points": 200,
+        "question": "من بطل دوري NBA لكرة السلة للرجال في موسم 2014–15؟",
+        "answer": "غولدن ستايت ووريورز",
+        "imageAlt": "دوري كرة السلة الأمريكي NBA للرجال",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2014–15 من دوري NBA للرجال.",
+        "source": "https://www.wikidata.org/wiki/Q16191100",
+        "factType": "basketball-champion",
+        "competition": "nba",
+        "options": [
+            "ميامي هيت",
+            "دالاس مافيريكس",
+            "بوسطن سيلتكس",
+            "غولدن ستايت ووريورز"
+        ],
+        "acceptedAnswers": [
+            "غولدن ستايت ووريورز"
+        ]
+    },
+    {
+        "id": "sports-basketball-champion-Q11144228",
+        "category": "كورة ورياضة",
+        "difficulty": "سهل",
+        "points": 200,
+        "question": "من بطل دوري NBA لكرة السلة للرجال في موسم 2013–14؟",
+        "answer": "سان أنطونيو سبرز",
+        "imageAlt": "دوري كرة السلة الأمريكي NBA للرجال",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2013–14 من دوري NBA للرجال.",
+        "source": "https://www.wikidata.org/wiki/Q11144228",
+        "factType": "basketball-champion",
+        "competition": "nba",
+        "options": [
+            "تورنتو رابتورز",
+            "سان أنطونيو سبرز",
+            "ميلووكي باكس",
+            "لوس أنجلوس ليكرز"
+        ],
+        "acceptedAnswers": [
+            "سان أنطونيو سبرز"
+        ]
+    },
+    {
+        "id": "sports-basketball-champion-Q113619",
+        "category": "كورة ورياضة",
+        "difficulty": "سهل",
+        "points": 200,
+        "question": "من بطل دوري NBA لكرة السلة للرجال في موسم 2012–13؟",
+        "answer": "ميامي هيت",
+        "imageAlt": "دوري كرة السلة الأمريكي NBA للرجال",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2012–13 من دوري NBA للرجال.",
+        "source": "https://www.wikidata.org/wiki/Q113619",
+        "factType": "basketball-champion",
+        "competition": "nba",
+        "options": [
+            "سان أنطونيو سبرز",
+            "ميامي هيت",
+            "غولدن ستايت ووريورز",
+            "كليفلاند كافالييرز"
+        ],
+        "acceptedAnswers": [
+            "ميامي هيت"
+        ]
+    },
+    {
+        "id": "sports-basketball-champion-Q1255750",
+        "category": "كورة ورياضة",
+        "difficulty": "سهل",
+        "points": 200,
+        "question": "من بطل دوري NBA لكرة السلة للرجال في موسم 2011–12؟",
+        "answer": "ميامي هيت",
+        "imageAlt": "دوري كرة السلة الأمريكي NBA للرجال",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2011–12 من دوري NBA للرجال.",
+        "source": "https://www.wikidata.org/wiki/Q1255750",
+        "factType": "basketball-champion",
+        "competition": "nba",
+        "options": [
+            "غولدن ستايت ووريورز",
+            "ميامي هيت",
+            "لوس أنجلوس ليكرز",
+            "تورنتو رابتورز"
+        ],
+        "acceptedAnswers": [
+            "ميامي هيت"
+        ]
+    },
+    {
+        "id": "sports-basketball-champion-Q1143957",
+        "category": "كورة ورياضة",
+        "difficulty": "سهل",
+        "points": 200,
+        "question": "من بطل دوري NBA لكرة السلة للرجال في موسم 2010–11؟",
+        "answer": "دالاس مافيريكس",
+        "imageAlt": "دوري كرة السلة الأمريكي NBA للرجال",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2010–11 من دوري NBA للرجال.",
+        "source": "https://www.wikidata.org/wiki/Q1143957",
+        "factType": "basketball-champion",
+        "competition": "nba",
+        "options": [
+            "سان أنطونيو سبرز",
+            "ميامي هيت",
+            "دالاس مافيريكس",
+            "كليفلاند كافالييرز"
+        ],
+        "acceptedAnswers": [
+            "دالاس مافيريكس"
+        ]
+    },
+    {
+        "id": "sports-basketball-champion-Q1130071",
+        "category": "كورة ورياضة",
+        "difficulty": "سهل",
+        "points": 200,
+        "question": "من بطل دوري NBA لكرة السلة للرجال في موسم 2009–10؟",
+        "answer": "لوس أنجلوس ليكرز",
+        "imageAlt": "دوري كرة السلة الأمريكي NBA للرجال",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2009–10 من دوري NBA للرجال.",
+        "source": "https://www.wikidata.org/wiki/Q1130071",
+        "factType": "basketball-champion",
+        "competition": "nba",
+        "options": [
+            "تورنتو رابتورز",
+            "لوس أنجلوس ليكرز",
+            "هيوستن روكتس",
+            "ميلووكي باكس"
+        ],
+        "acceptedAnswers": [
+            "لوس أنجلوس ليكرز"
+        ]
+    },
+    {
+        "id": "sports-basketball-champion-Q1130082",
+        "category": "كورة ورياضة",
+        "difficulty": "متوسط",
+        "points": 300,
+        "question": "من بطل دوري NBA لكرة السلة للرجال في موسم 2008–09؟",
+        "answer": "لوس أنجلوس ليكرز",
+        "imageAlt": "دوري كرة السلة الأمريكي NBA للرجال",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2008–09 من دوري NBA للرجال.",
+        "source": "https://www.wikidata.org/wiki/Q1130082",
+        "factType": "basketball-champion",
+        "competition": "nba",
+        "options": [
+            "ميلووكي باكس",
+            "لوس أنجلوس ليكرز",
+            "شيكاغو بولز",
+            "هيوستن روكتس"
+        ],
+        "acceptedAnswers": [
+            "لوس أنجلوس ليكرز"
+        ]
+    },
+    {
+        "id": "sports-basketball-champion-Q1121549",
+        "category": "كورة ورياضة",
+        "difficulty": "متوسط",
+        "points": 300,
+        "question": "من بطل دوري NBA لكرة السلة للرجال في موسم 2007–08؟",
+        "answer": "بوسطن سيلتكس",
+        "imageAlt": "دوري كرة السلة الأمريكي NBA للرجال",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2007–08 من دوري NBA للرجال.",
+        "source": "https://www.wikidata.org/wiki/Q1121549",
+        "factType": "basketball-champion",
+        "competition": "nba",
+        "options": [
+            "شيكاغو بولز",
+            "هيوستن روكتس",
+            "ميلووكي باكس",
+            "بوسطن سيلتكس"
+        ],
+        "acceptedAnswers": [
+            "بوسطن سيلتكس"
+        ]
+    },
+    {
+        "id": "sports-basketball-champion-Q997459",
+        "category": "كورة ورياضة",
+        "difficulty": "متوسط",
+        "points": 300,
+        "question": "من بطل دوري NBA لكرة السلة للرجال في موسم 2006–07؟",
+        "answer": "سان أنطونيو سبرز",
+        "imageAlt": "دوري كرة السلة الأمريكي NBA للرجال",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2006–07 من دوري NBA للرجال.",
+        "source": "https://www.wikidata.org/wiki/Q997459",
+        "factType": "basketball-champion",
+        "competition": "nba",
+        "options": [
+            "غولدن ستايت ووريورز",
+            "كليفلاند كافالييرز",
+            "ميامي هيت",
+            "سان أنطونيو سبرز"
+        ],
+        "acceptedAnswers": [
+            "سان أنطونيو سبرز"
+        ]
+    },
+    {
+        "id": "sports-basketball-champion-Q1142320",
+        "category": "كورة ورياضة",
+        "difficulty": "متوسط",
+        "points": 300,
+        "question": "من بطل دوري NBA لكرة السلة للرجال في موسم 2005–06؟",
+        "answer": "ميامي هيت",
+        "imageAlt": "دوري كرة السلة الأمريكي NBA للرجال",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2005–06 من دوري NBA للرجال.",
+        "source": "https://www.wikidata.org/wiki/Q1142320",
+        "factType": "basketball-champion",
+        "competition": "nba",
+        "options": [
+            "شيكاغو بولز",
+            "هيوستن روكتس",
+            "ميلووكي باكس",
+            "ميامي هيت"
+        ],
+        "acceptedAnswers": [
+            "ميامي هيت"
+        ]
+    },
+    {
+        "id": "sports-basketball-champion-Q941115",
+        "category": "كورة ورياضة",
+        "difficulty": "متوسط",
+        "points": 300,
+        "question": "من بطل دوري NBA لكرة السلة للرجال في موسم 2004–05؟",
+        "answer": "سان أنطونيو سبرز",
+        "imageAlt": "دوري كرة السلة الأمريكي NBA للرجال",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2004–05 من دوري NBA للرجال.",
+        "source": "https://www.wikidata.org/wiki/Q941115",
+        "factType": "basketball-champion",
+        "competition": "nba",
+        "options": [
+            "شيكاغو بولز",
+            "سان أنطونيو سبرز",
+            "بوسطن سيلتكس",
+            "ديترويت بيستونز"
+        ],
+        "acceptedAnswers": [
+            "سان أنطونيو سبرز"
+        ]
+    },
+    {
+        "id": "sports-basketball-champion-Q1132659",
+        "category": "كورة ورياضة",
+        "difficulty": "متوسط",
+        "points": 300,
+        "question": "من بطل دوري NBA لكرة السلة للرجال في موسم 2003–04؟",
+        "answer": "ديترويت بيستونز",
+        "imageAlt": "دوري كرة السلة الأمريكي NBA للرجال",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2003–04 من دوري NBA للرجال.",
+        "source": "https://www.wikidata.org/wiki/Q1132659",
+        "factType": "basketball-champion",
+        "competition": "nba",
+        "options": [
+            "بوسطن سيلتكس",
+            "شيكاغو بولز",
+            "هيوستن روكتس",
+            "ديترويت بيستونز"
+        ],
+        "acceptedAnswers": [
+            "ديترويت بيستونز"
+        ]
+    },
+    {
+        "id": "sports-basketball-champion-Q1135932",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 400,
+        "question": "من بطل دوري NBA لكرة السلة للرجال في موسم 2002–03؟",
+        "answer": "سان أنطونيو سبرز",
+        "imageAlt": "دوري كرة السلة الأمريكي NBA للرجال",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2002–03 من دوري NBA للرجال.",
+        "source": "https://www.wikidata.org/wiki/Q1135932",
+        "factType": "basketball-champion",
+        "competition": "nba",
+        "options": [
+            "سان أنطونيو سبرز",
+            "كليفلاند كافالييرز",
+            "ميامي هيت",
+            "دالاس مافيريكس"
+        ],
+        "acceptedAnswers": [
+            "سان أنطونيو سبرز"
+        ]
+    },
+    {
+        "id": "sports-basketball-champion-Q1132622",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 400,
+        "question": "من بطل دوري NBA لكرة السلة للرجال في موسم 2001–02؟",
+        "answer": "لوس أنجلوس ليكرز",
+        "imageAlt": "دوري كرة السلة الأمريكي NBA للرجال",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2001–02 من دوري NBA للرجال.",
+        "source": "https://www.wikidata.org/wiki/Q1132622",
+        "factType": "basketball-champion",
+        "competition": "nba",
+        "options": [
+            "بوسطن سيلتكس",
+            "ديترويت بيستونز",
+            "شيكاغو بولز",
+            "لوس أنجلوس ليكرز"
+        ],
+        "acceptedAnswers": [
+            "لوس أنجلوس ليكرز"
+        ]
+    },
+    {
+        "id": "sports-basketball-champion-Q1132667",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 400,
+        "question": "من بطل دوري NBA لكرة السلة للرجال في موسم 2000–01؟",
+        "answer": "لوس أنجلوس ليكرز",
+        "imageAlt": "دوري كرة السلة الأمريكي NBA للرجال",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 2000–01 من دوري NBA للرجال.",
+        "source": "https://www.wikidata.org/wiki/Q1132667",
+        "factType": "basketball-champion",
+        "competition": "nba",
+        "options": [
+            "ميامي هيت",
+            "دالاس مافيريكس",
+            "لوس أنجلوس ليكرز",
+            "سان أنطونيو سبرز"
+        ],
+        "acceptedAnswers": [
+            "لوس أنجلوس ليكرز"
+        ]
+    },
+    {
+        "id": "sports-basketball-champion-Q1132641",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 400,
+        "question": "من بطل دوري NBA لكرة السلة للرجال في موسم 1999–00؟",
+        "answer": "لوس أنجلوس ليكرز",
+        "imageAlt": "دوري كرة السلة الأمريكي NBA للرجال",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 1999–00 من دوري NBA للرجال.",
+        "source": "https://www.wikidata.org/wiki/Q1132641",
+        "factType": "basketball-champion",
+        "competition": "nba",
+        "options": [
+            "كليفلاند كافالييرز",
+            "سان أنطونيو سبرز",
+            "لوس أنجلوس ليكرز",
+            "غولدن ستايت ووريورز"
+        ],
+        "acceptedAnswers": [
+            "لوس أنجلوس ليكرز"
+        ]
+    },
+    {
+        "id": "sports-basketball-champion-Q1321776",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 400,
+        "question": "من بطل دوري NBA لكرة السلة للرجال في موسم 1998–99؟",
+        "answer": "سان أنطونيو سبرز",
+        "imageAlt": "دوري كرة السلة الأمريكي NBA للرجال",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 1998–99 من دوري NBA للرجال.",
+        "source": "https://www.wikidata.org/wiki/Q1321776",
+        "factType": "basketball-champion",
+        "competition": "nba",
+        "options": [
+            "لوس أنجلوس ليكرز",
+            "سان أنطونيو سبرز",
+            "هيوستن روكتس",
+            "ميلووكي باكس"
+        ],
+        "acceptedAnswers": [
+            "سان أنطونيو سبرز"
+        ]
+    },
+    {
+        "id": "sports-basketball-champion-Q925570",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 400,
+        "question": "من بطل دوري NBA لكرة السلة للرجال في موسم 1997–98؟",
+        "answer": "شيكاغو بولز",
+        "imageAlt": "دوري كرة السلة الأمريكي NBA للرجال",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 1997–98 من دوري NBA للرجال.",
+        "source": "https://www.wikidata.org/wiki/Q925570",
+        "factType": "basketball-champion",
+        "competition": "nba",
+        "options": [
+            "ديترويت بيستونز",
+            "هيوستن روكتس",
+            "شيكاغو بولز",
+            "بوسطن سيلتكس"
+        ],
+        "acceptedAnswers": [
+            "شيكاغو بولز"
+        ]
+    },
+    {
+        "id": "sports-basketball-champion-Q1321749",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 500,
+        "question": "من بطل دوري NBA لكرة السلة للرجال في موسم 1996–97؟",
+        "answer": "شيكاغو بولز",
+        "imageAlt": "دوري كرة السلة الأمريكي NBA للرجال",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 1996–97 من دوري NBA للرجال.",
+        "source": "https://www.wikidata.org/wiki/Q1321749",
+        "factType": "basketball-champion",
+        "competition": "nba",
+        "options": [
+            "بوسطن سيلتكس",
+            "ديترويت بيستونز",
+            "هيوستن روكتس",
+            "شيكاغو بولز"
+        ],
+        "acceptedAnswers": [
+            "شيكاغو بولز"
+        ]
+    },
+    {
+        "id": "sports-basketball-champion-Q1321737",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 500,
+        "question": "من بطل دوري NBA لكرة السلة للرجال في موسم 1995–96؟",
+        "answer": "شيكاغو بولز",
+        "imageAlt": "دوري كرة السلة الأمريكي NBA للرجال",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 1995–96 من دوري NBA للرجال.",
+        "source": "https://www.wikidata.org/wiki/Q1321737",
+        "factType": "basketball-champion",
+        "competition": "nba",
+        "options": [
+            "شيكاغو بولز",
+            "بوسطن سيلتكس",
+            "ديترويت بيستونز",
+            "هيوستن روكتس"
+        ],
+        "acceptedAnswers": [
+            "شيكاغو بولز"
+        ]
+    },
+    {
+        "id": "sports-basketball-champion-Q1164516",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 500,
+        "question": "من بطل دوري NBA لكرة السلة للرجال في موسم 1994–95؟",
+        "answer": "هيوستن روكتس",
+        "imageAlt": "دوري كرة السلة الأمريكي NBA للرجال",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 1994–95 من دوري NBA للرجال.",
+        "source": "https://www.wikidata.org/wiki/Q1164516",
+        "factType": "basketball-champion",
+        "competition": "nba",
+        "options": [
+            "ديترويت بيستونز",
+            "شيكاغو بولز",
+            "هيوستن روكتس",
+            "بوسطن سيلتكس"
+        ],
+        "acceptedAnswers": [
+            "هيوستن روكتس"
+        ]
+    },
+    {
+        "id": "sports-basketball-champion-Q1165925",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 500,
+        "question": "من بطل دوري NBA لكرة السلة للرجال في موسم 1993–94؟",
+        "answer": "هيوستن روكتس",
+        "imageAlt": "دوري كرة السلة الأمريكي NBA للرجال",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 1993–94 من دوري NBA للرجال.",
+        "source": "https://www.wikidata.org/wiki/Q1165925",
+        "factType": "basketball-champion",
+        "competition": "nba",
+        "options": [
+            "كليفلاند كافالييرز",
+            "هيوستن روكتس",
+            "تورنتو رابتورز",
+            "غولدن ستايت ووريورز"
+        ],
+        "acceptedAnswers": [
+            "هيوستن روكتس"
+        ]
+    },
+    {
+        "id": "sports-basketball-champion-Q1164506",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 500,
+        "question": "من بطل دوري NBA لكرة السلة للرجال في موسم 1992–93؟",
+        "answer": "شيكاغو بولز",
+        "imageAlt": "دوري كرة السلة الأمريكي NBA للرجال",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 1992–93 من دوري NBA للرجال.",
+        "source": "https://www.wikidata.org/wiki/Q1164506",
+        "factType": "basketball-champion",
+        "competition": "nba",
+        "options": [
+            "لوس أنجلوس ليكرز",
+            "شيكاغو بولز",
+            "هيوستن روكتس",
+            "ميلووكي باكس"
+        ],
+        "acceptedAnswers": [
+            "شيكاغو بولز"
+        ]
+    },
+    {
+        "id": "sports-basketball-champion-Q517679",
+        "category": "كورة ورياضة",
+        "difficulty": "صعب",
+        "points": 500,
+        "question": "من بطل دوري NBA لكرة السلة للرجال في موسم 1991–92؟",
+        "answer": "شيكاغو بولز",
+        "imageAlt": "دوري كرة السلة الأمريكي NBA للرجال",
+        "image": "",
+        "imageSource": "",
+        "imageKind": "",
+        "hint": "الموسم المقصود هو 1991–92 من دوري NBA للرجال.",
+        "source": "https://www.wikidata.org/wiki/Q517679",
+        "factType": "basketball-champion",
+        "competition": "nba",
+        "options": [
+            "دالاس مافيريكس",
+            "بوسطن سيلتكس",
+            "ديترويت بيستونز",
+            "شيكاغو بولز"
+        ],
+        "acceptedAnswers": [
+            "شيكاغو بولز"
         ]
     }
 ];
