@@ -1,7 +1,7 @@
 #page-question { padding: 20px; flex-direction: row; direction: ltr; justify-content: center; align-items: stretch; gap: 30px; width: 100%; max-width: 1400px; margin: 0 auto; }
 .q-main-wrapper { order: 1; direction: rtl; flex: 1; border: 2px solid var(--primary-orange); border-radius: 20px; position: relative; display: flex; flex-direction: column; align-items: center; justify-content: space-between; padding: 20px; background: #252525; min-height: 550px; }
 .q-top-pts-badge { position: absolute; top: -1px; right: 40px; background: #111; border: 1px solid var(--primary-orange); border-top: none; color: white; padding: 4px 15px; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; font-size: 12px; font-weight: bold; }
-.q-bottom-prop-badge { position: absolute; bottom: -1px; right: 40px; background: var(--primary-orange); color: white; padding: 4px 20px; border-top-left-radius: 10px; border-top-right-radius: 10px; font-size: 12px; font-weight: bold; }
+.q-bottom-prop-badge { position: absolute; bottom: -1px; right: 40px; background: var(--primary-orange); color: white; padding: 4px 20px; border-top-left-radius: 10px; border-top-right-radius: 10px; font-size: 12px; font-weight: bold; pointer-events: none; }
 .q-bottom-ans-btn { position: absolute; bottom: -1px; left: 20px; background: #28a745; color: white; padding: 6px 25px; border-top-left-radius: 10px; border-top-right-radius: 10px; font-size: 14px; font-weight: bold; cursor: pointer; border: none; }
 .timer-container { display: flex; align-items: center; gap: 15px; margin-top: 10px; font-size: 22px; font-weight: bold; }
 .timer-icon { cursor: pointer; opacity: 0.8; }
@@ -23,6 +23,8 @@
 .answer-option-feedback { max-width: 620px; padding: 9px 14px; border: 1px solid #655846; border-radius: 7px; color: #ddd; background: #302e2a; }
 .answer-option-feedback.correct { border-color: #36d986; color: #baffd7; }
 .answer-option-feedback.incorrect { border-color: #d45a52; color: #ffc0bb; }
+.answer-image-display { display: block; width: min(82vw, 760px); max-height: 42vh; margin: 8px auto 16px; object-fit: contain; border-radius: 8px; }
+.answer-image-display[hidden] { display: none; }
 .q-sidebar-right { order: 2; direction: rtl; width: 220px; display: flex; flex-direction: column; gap: 25px; justify-content: center; }
 .team-side-card { display: flex; flex-direction: column; align-items: center; gap: 8px; }
 .team-side-name-pill { background: var(--primary-orange); color: white; width: 100%; text-align: center; padding: 6px; border-radius: 15px; font-size: 14px; font-weight: bold; }

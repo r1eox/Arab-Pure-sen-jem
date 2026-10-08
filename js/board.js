@@ -35,12 +35,30 @@ window.SinJeemBoard = {
         if (!availableQuestions.length) return;
         const usedInColumn = new Set();
         for (const points of [100, 200, 300, 400, 500]) {
-            const freshQuestions = availableQuestions.filter(item =>
+            let freshQuestions = availableQuestions.filter(item =>
                 !usedQuestionIds.has(item.id) && !usedInColumn.has(item.id));
-            const unusedQuestions = availableQuestions.filter(item => !usedInColumn.has(item.id));
-            const candidates = freshQuestions.length
-                ? freshQuestions
-                : unusedQuestions;
+            if (!freshQuestions.length) {
+                const unseenQuestions = availableQuestions.filter(item => !usedQuestionIds.has(item.id));
+                if (unseenQuestions.length) break;
+                availableQuestions.forEach(item => usedQuestionIds.delete(item.id));
+                try {
+                    localStorage.setItem('sinJeemUsedQuestionIds', JSON.stringify([...usedQuestionIds]));
+                } catch (error) {
+                    console.warn('تعذر بدء دورة جديدة لأسئلة الفئة.', error);
+                }
+                freshQuestions = availableQuestions.filter(item => !usedInColumn.has(item.id));
+            }
+            let candidates = freshQuestions;
+            if (category === 'تحدي الصور') {
+                candidates = availableQuestions.filter(item =>
+                    Number(item.points) === points && !usedInColumn.has(item.id));
+                const unusedCandidates = candidates.filter(item => !usedQuestionIds.has(item.id));
+                if (unusedCandidates.length) {
+                    candidates = unusedCandidates;
+                } else {
+                    candidates.forEach(item => usedQuestionIds.delete(item.id));
+                }
+            }
             if (!candidates.length) break;
             const closestDistance = Math.min(...candidates.map(item => Math.abs(Number(item.points) - points)));
             let closestQuestions = candidates.filter(item => Math.abs(Number(item.points) - points) === closestDistance);

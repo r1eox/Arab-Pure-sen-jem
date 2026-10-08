@@ -931,9 +931,9 @@
                     <input type="text" id="t2-name" class="team-custom-input" value="2" onchange="updateNames()">
                     <span style="font-size: 12px; color: #888;">وسائل المساعدة:</span>
                     <div class="helpers-row">
-                        <div class="helper-circle" title="تبديل السؤال" onclick="showHelperInfo('swap')">💣</div>
-                        <div class="helper-circle" title="تخطي السؤال" onclick="showHelperInfo('skip')">✋</div>
+                        <div class="helper-circle" title="تبديل السؤال" onclick="showHelperInfo('swap')">🔄</div>
                         <div class="helper-circle" title="عرض تلميح" onclick="showHelperInfo('hint')">📞</div>
+                        <div class="helper-circle" title="مضاعفة النقاط" onclick="showHelperInfo('double')">✌️</div>
                     </div>
                 </div>
             </div>
@@ -941,10 +941,9 @@
             <div class="setup-help">
                 <h3>كيف تعمل وسائل المساعدة؟</h3>
                 <div class="helper-guide">
-                    <div><strong>🔄 تبديل السؤال</strong>يرجعكم للوحة لاختيار سؤال آخر بدون احتساب نقاط.</div>
+                    <div><strong>🔄 تبديل السؤال</strong>يستبدل السؤال الحالي بسؤال آخر من الفئة نفسها وبالقيمة نفسها.</div>
                     <div><strong>📞 تلميح</strong>يعرض تلميحاً للسؤال الحالي مرة واحدة للفريق.</div>
-                    <div><strong>✌️ مضاعفة</strong>تجعل نقاط السؤال الحالي مضاعفة عند الإجابة الصحيحة.</div>
-                    <div><strong>✋ تخطي</strong>ينهي السؤال بدون نقاط ويعيدكم للوحة.</div>
+                    <div><strong>✌️ مضاعفة</strong>تضاعف نقاط السؤال الحالي للفريق الذي استخدمها إذا أجاب إجابة صحيحة.</div>
                 </div>
             </div>
 
@@ -1099,9 +1098,9 @@
                 <div class="team-side-score" id="side-t1-score">200</div>
                 <div class="team-side-helpers-title">وسائل المساعدة</div>
                 <div class="team-side-helpers-icons">
-                    <div class="side-helper-btn" onclick="useHelper(this, 'swap')">🔄</div>
-                    <div class="side-helper-btn" onclick="useHelper(this, 'hint')">📞</div>
-                    <div class="side-helper-btn" onclick="useHelper(this, 'double')">✌️</div>
+                    <div class="side-helper-btn" title="تبديل السؤال" onclick="useHelper(this, 'swap')">🔄</div>
+                    <div class="side-helper-btn" title="عرض تلميح" onclick="useHelper(this, 'hint')">📞</div>
+                    <div class="side-helper-btn" title="مضاعفة النقاط" onclick="useHelper(this, 'double')">✌️</div>
                 </div>
             </div>
 
@@ -1111,9 +1110,9 @@
                 <div class="team-side-score" id="side-t2-score">0</div>
                 <div class="team-side-helpers-title">وسائل المساعدة</div>
                 <div class="team-side-helpers-icons">
-                    <div class="side-helper-btn" onclick="useHelper(this, 'swap')">💣</div>
-                    <div class="side-helper-btn" onclick="useHelper(this, 'skip')">✋</div>
-                    <div class="side-helper-btn" onclick="useHelper(this, 'hint')">📞</div>
+                    <div class="side-helper-btn" title="تبديل السؤال" onclick="useHelper(this, 'swap')">🔄</div>
+                    <div class="side-helper-btn" title="عرض تلميح" onclick="useHelper(this, 'hint')">📞</div>
+                    <div class="side-helper-btn" title="مضاعفة النقاط" onclick="useHelper(this, 'double')">✌️</div>
                 </div>
             </div>
         </div>
@@ -1124,6 +1123,7 @@
         <div class="stage-box">
             <div class="q-info-tag" id="ans-info-text">الإجابة الصحيحة</div>
             <h1 id="ans-title" style="font-size: 32px; color: #2bf076; margin: 20px 0;">الإجابة</h1>
+            <img id="ans-image" class="answer-image-display" src="" alt="" hidden>
             <p id="ans-accepted-answers" hidden style="max-width: 720px; color: #d8e8d9; line-height: 1.7;"></p>
 
             <div style="display: flex; gap: 15px; margin-top: 10px;">
@@ -1203,6 +1203,8 @@
     <script src="data/cars-questions.js"></script>
     <script src="data/arab-logos-questions.js"></script>
     <script src="data/logos-questions.js"></script>
+    <script src="data/curated-questions.js"></script>
+    <script src="data/image-challenge-questions.js"></script>
     <script src="js/team-roulette.js"></script>
     <script>
         let scores = { t1: 0, t2: 0 };
@@ -1221,18 +1223,36 @@
         let tournamentMatchIndex = 0;
         let tournamentMatch = { right: '', left: '' };
         const tournamentWinScore = 2000;
+        const normalWinScore = 2000;
         let gameTitle = '';
         let tournamentSaved = false;
         let activeHint = '';
         let activeDifficulty = '';
         let pointsDoubled = false;
+        let doubleTeam = 0;
+        let doubleTeams = new Set();
         let activePoints = 0;
         let activeAns = '';
         let activeCard = null;
         let categorySelectionLocked = false;
         const questionBank = SinJeemQuestionBank.items;
         const questionKeys = SinJeemQuestionBank.keys;
-        const usedQuestionIds = new Set();
+        const usedQuestionIdsKey = 'sinJeemUsedQuestionIds';
+        const usedQuestionIds = (() => {
+            try {
+                const savedIds = JSON.parse(localStorage.getItem(usedQuestionIdsKey) || '[]');
+                return new Set(Array.isArray(savedIds) ? savedIds : []);
+            } catch {
+                return new Set();
+            }
+        })();
+        const persistUsedQuestionIds = () => {
+            try {
+                localStorage.setItem(usedQuestionIdsKey, JSON.stringify([...usedQuestionIds]));
+            } catch (error) {
+                console.warn('تعذر حفظ الأسئلة المستخدمة.', error);
+            }
+        };
         const savedGameKey = 'sinJeemActiveGame';
         let restoringSavedGame = false;
         let activeGame = false;
@@ -1270,6 +1290,9 @@
         addQuestions(window.carsQuestionSeed || []);
         addQuestions(window.arabLogoQuestionSeed || []);
         addQuestions(window.logosQuestionSeed || []);
+        SinJeemQuestionBank.addMany((window.curatedQuestionSeed || [])
+            .filter(question => question.category !== 'شعارات'));
+        addQuestions(window.imageChallengeQuestionSeed || []);
 
         // متغيرات التايمر
         let timerSeconds = 0;
@@ -1351,7 +1374,6 @@
             tournamentRoundMatches = [];
             tournamentAllMatches = [];
             tournamentSaved = false;
-            usedQuestionIds.clear();
             tournamentMatchIndex = 0;
             currentRound = 1;
             activeGame = true;
@@ -1654,6 +1676,8 @@
                 activeHint,
                 activeDifficulty,
                 pointsDoubled,
+                doubleTeam,
+                doubleTeams: [...doubleTeams],
                 timerSeconds,
                 timerRunning,
                 hintVisible: document.getElementById('inline-hint').classList.contains('visible'),
@@ -1733,14 +1757,15 @@
             tournamentMatchIndex = saved.tournamentMatchIndex || 0;
             tournamentMatch = { ...(saved.tournamentMatch || { right: '', left: '' }) };
             tournamentSaved = Boolean(saved.tournamentSaved);
-            usedQuestionIds.clear();
             (saved.usedQuestionIds || []).forEach(id => usedQuestionIds.add(id));
             activeQuestion = saved.activeQuestion || null;
             activePoints = saved.activePoints || 0;
             activeAns = saved.activeAns || '';
             activeHint = saved.activeHint || '';
             activeDifficulty = saved.activeDifficulty || '';
-            pointsDoubled = Boolean(saved.pointsDoubled);
+            doubleTeams = new Set(saved.doubleTeams || (saved.pointsDoubled ? [saved.doubleTeam || 1] : []));
+            pointsDoubled = doubleTeams.size > 0;
+            doubleTeam = doubleTeams.size === 1 ? [...doubleTeams][0] : 0;
             timerSeconds = saved.timerSeconds || 0;
             timerRunning = false;
             document.getElementById('game-name').value = gameTitle;
@@ -1755,7 +1780,36 @@
             });
             updateCategorySelectionState();
 
-            const savedColumns = new Map((saved.board || []).map(column => [column.category, column]));
+            const savedBoard = (saved.board || []).map(column => {
+                if (column.category !== 'تحدي الصور' || saved.pageId !== 'page-board') return column;
+                const existingCards = column.cards || [];
+                const alignedCards = [100, 200, 300, 400, 500].map(points => {
+                    const existingCard = existingCards.find(card => Number(card.question?.points) === points);
+                    const candidates = questionBank.filter(item => item.category === 'تحدي الصور'
+                        && Number(item.points) === points);
+                    const question = candidates.find(item => item.id === existingCard?.question?.id)
+                        || SinJeemBoard.pickRandom(candidates);
+                    if (!question) return existingCard;
+                    return {
+                        question: {
+                            ...question,
+                            points,
+                            difficulty: difficultyLabel(question.difficulty, points)
+                        },
+                        used: Boolean(existingCard?.used)
+                    };
+                }).filter(Boolean);
+                return { ...column, cards: alignedCards };
+            });
+            if (savedBoard !== saved.board) {
+                saved.board = savedBoard;
+                try {
+                    localStorage.setItem(savedGameKey, JSON.stringify(saved));
+                } catch (error) {
+                    console.warn('تعذر تحديث أسئلة تحدي الصور في المباراة المحفوظة.', error);
+                }
+            }
+            const savedColumns = new Map(savedBoard.map(column => [column.category, column]));
             document.querySelectorAll('.board-column').forEach(column => {
                 const state = savedColumns.get(column.dataset.cat);
                 column.classList.toggle('hidden', !state?.visible);
@@ -1785,7 +1839,7 @@
                     : `الفائز يتأهل عند وصوله إلى ${tournamentWinScore} نقطة في ${tournamentRoundLabel(currentRound + 1)}`;
             } else if (saved.pageId === 'page-answer') {
                 document.getElementById('ans-info-text').textContent = document.getElementById('q-prop-badge').textContent;
-                document.getElementById('ans-title').textContent = activeAns;
+                renderActiveAnswer();
                 updateAcceptedAnswers();
             } else if (saved.pageId === 'page-tournament-result') {
                 const lastMatch = tournamentRoundMatches[tournamentRoundMatches.length - 1];
@@ -1814,6 +1868,7 @@
             activeQuestion.image = bankQuestion?.imageKind === 'illustration'
                 ? ''
                 : bankQuestion?.image || image || '';
+            activeQuestion.answerImage = bankQuestion?.answerImage || activeQuestion.answerImage || '';
             if (bankQuestion?.options?.length) activeQuestion.options = bankQuestion.options;
             activeHint = bankQuestion?.hint || activeHint;
             document.getElementById('q-pts-badge').textContent = pointsDoubled
@@ -1825,6 +1880,10 @@
             const imageElement = document.getElementById('q-img');
             imageElement.src = activeQuestion.image;
             imageElement.style.display = activeQuestion.image ? 'block' : 'none';
+            const answerImage = document.getElementById('ans-image');
+            answerImage.src = activeQuestion.answerImage;
+            answerImage.alt = activeQuestion.answerImage ? `حل اللغز: ${answer}` : '';
+            answerImage.hidden = saved.pageId !== 'page-answer' || !activeQuestion.answerImage;
             SinJeemQuestionTools.resetHint();
             if (saved.hintVisible) SinJeemQuestionTools.showHint(activeHint);
             activeCard = Array.from(document.querySelectorAll('.score-card-btn')).find(card => {
@@ -1932,7 +1991,6 @@
             if (window.flagsQuestionSeed?.length) addQuestions(window.flagsQuestionSeed);
             gameTitle = document.getElementById('game-name').value.trim() || (gameMode === 'tournament' ? 'بطولة سين وجيم' : 'لعبة سين وجيم');
             activeGame = true;
-            if (gameMode !== 'tournament') usedQuestionIds.clear();
             if (gameMode === 'tournament') {
                 tournamentTeams = [tournamentMatch.right, tournamentMatch.left];
                 document.getElementById('t1-name').value = tournamentMatch.right;
@@ -1966,6 +2024,8 @@
             SinJeemBoard.reset();
             activeCard = null;
             pointsDoubled = false;
+            doubleTeam = 0;
+            doubleTeams.clear();
             activeHint = '';
         }
 
@@ -1980,13 +2040,17 @@
         function openQ(cat, prop, q, a, imgUrl, card, pts) {
             const bankQuestion = findBankQuestion(q, cat, a);
             const displayImage = bankQuestion?.imageKind === 'illustration' ? '' : imgUrl;
-            registerOpenQuestion(cat, prop, q, a, displayImage, pts);
-            if (bankQuestion) usedQuestionIds.add(bankQuestion.id);
+            if (!bankQuestion) registerOpenQuestion(cat, prop, q, a, displayImage, pts);
+            const questionId = bankQuestion?.id || card?.dataset.questionId || '';
+            if (questionId) {
+                usedQuestionIds.add(questionId);
+                persistUsedQuestionIds();
+            }
             activePoints = pts;
             activeAns = a;
             activeCard = card;
             activeQuestion = {
-                id: bankQuestion?.id || card?.dataset.questionId || '',
+                id: questionId,
                 category: cat,
                 difficulty: difficultyLabel(prop, pts),
                 question: q,
@@ -1994,11 +2058,14 @@
                 acceptedAnswers: bankQuestion?.acceptedAnswers || [a],
                 options: bankQuestion?.options || [],
                 image: displayImage || '',
+                answerImage: bankQuestion?.answerImage || '',
                 points: Number(pts)
             };
             activeDifficulty = bankQuestion?.difficulty || prop;
             activeHint = bankQuestion?.hint || `لا يوجد تلميح مضاف لهذا السؤال حتى الآن.`;
             pointsDoubled = false;
+            doubleTeam = 0;
+            doubleTeams.clear();
             SinJeemQuestionTools.resetHint();
 
             document.getElementById('q-pts-badge').innerText = `${pts} نقطة`;
@@ -2029,8 +2096,7 @@
         function renderQuestionOptions(options, question) {
             const container = document.getElementById('q-options');
             container.replaceChildren();
-            if (!String(question || '').startsWith('اختر الإجابة الصحيحة من الخيارات:')
-                || !Array.isArray(options) || options.length < 2) {
+            if (!Array.isArray(options) || options.length < 2) {
                 container.classList.remove('visible');
                 return;
             }
@@ -2061,9 +2127,9 @@
 
         function showHelperInfo(type) {
             const descriptions = {
-                swap: 'تبديل السؤال: يعود الفريق إلى اللوحة لاختيار سؤال آخر، ولا تُحسب نقاط.',
+                swap: 'تبديل السؤال: يستبدل السؤال الحالي بسؤال آخر من الفئة نفسها وبالقيمة نفسها، دون نقاط.',
                 hint: 'التلميح: يعرض معلومة مختصرة تساعد على التفكير في الإجابة.',
-                double: 'مضاعفة النقاط: تضاعف قيمة السؤال الحالي عند منح النقاط.',
+                double: 'مضاعفة النقاط: تضاعف قيمة السؤال الحالي للفريق الذي يستخدمها إذا أجاب إجابة صحيحة.',
                 skip: 'التخطي: ينهي السؤال الحالي بدون نقاط ويعيدكم إلى اللوحة.'
             };
             alert(descriptions[type]);
@@ -2071,6 +2137,22 @@
 
         function useHelper(btn, type) {
             if (btn.classList.contains('used')) return;
+            const helperTeam = Array.from(document.querySelectorAll('.team-side-card'))
+                .indexOf(btn.closest('.team-side-card')) + 1;
+            let replacement = null;
+            if (type === 'swap') {
+                if (!activeQuestion || !activeCard) return;
+                const candidates = questionBank.filter(item => item.category === activeQuestion.category
+                    && !usedQuestionIds.has(item.id));
+                if (!candidates.length) {
+                    alert('لا يوجد سؤال بديل متاح في هذه الفئة حالياً.');
+                    return;
+                }
+                const closestDistance = Math.min(...candidates.map(item => Math.abs(item.points - activePoints)));
+                const closestCandidates = candidates.filter(item => Math.abs(item.points - activePoints) === closestDistance);
+                replacement = closestCandidates[Math.floor(Math.random() * closestCandidates.length)];
+            }
+            if (type === 'double' && doubleTeams.has(helperTeam)) return;
             btn.classList.add('used');
             if (type === 'hint') {
                 SinJeemQuestionTools.showHint(activeHint);
@@ -2078,15 +2160,32 @@
                 return;
             }
             if (type === 'double') {
+                doubleTeams.add(helperTeam);
                 pointsDoubled = true;
+                doubleTeam = doubleTeams.size === 1 ? helperTeam : 0;
                 SinJeemQuestionTools.setDoublePoints(activePoints);
                 saveActiveGame();
                 return;
             }
             clearInterval(timerInterval);
             timerRunning = false;
-            if (type === 'swap' || type === 'skip') {
-                if (type === 'skip' && activeCard) activeCard.classList.add('used');
+            if (type === 'swap') {
+                pointsDoubled = false;
+                doubleTeam = 0;
+                doubleTeams.clear();
+                activeCard.dataset.questionId = replacement.id;
+                activeCard.dataset.questionData = JSON.stringify({
+                    ...replacement,
+                    difficulty: difficultyLabel(replacement.difficulty, activePoints),
+                    points: activePoints
+                });
+                activeCard.title = `${difficultyLabel(replacement.difficulty, activePoints)} - ${replacement.question}`;
+                openQ(replacement.category, replacement.difficulty, replacement.question, replacement.answer,
+                    replacement.image || '', activeCard, activePoints);
+                return;
+            }
+            if (type === 'skip') {
+                if (activeCard) activeCard.classList.add('used');
                 activeQuestion = null;
                 activeCard = null;
                 switchPage('page-board');
@@ -2097,9 +2196,20 @@
             clearInterval(timerInterval);
             timerRunning = false;
             document.getElementById('ans-info-text').innerText = document.getElementById('q-prop-badge').innerText;
-            document.getElementById('ans-title').innerText = activeAns;
+            renderActiveAnswer();
             updateAcceptedAnswers();
             switchPage('page-answer');
+        }
+
+        function renderActiveAnswer() {
+            const imageSource = activeQuestion?.answerImage || '';
+            const answerTitle = document.getElementById('ans-title');
+            const answerImage = document.getElementById('ans-image');
+            answerTitle.textContent = imageSource ? '' : activeAns;
+            answerTitle.hidden = Boolean(imageSource);
+            answerImage.src = imageSource;
+            answerImage.alt = imageSource ? 'صورة حل اللغز' : '';
+            answerImage.hidden = !imageSource;
         }
 
         function updateAcceptedAnswers() {
@@ -2116,15 +2226,21 @@
         }
 
         function addPoints(team) {
-            const awardedPoints = pointsDoubled ? activePoints * 2 : activePoints;
+            const awardedPoints = doubleTeams.has(team) ? activePoints * 2 : activePoints;
             SinJeemScoring.award(scores, team, awardedPoints);
 
             if (activeCard) activeCard.classList.add('used');
             activeQuestion = null;
             activeCard = null;
             pointsDoubled = false;
+            doubleTeam = 0;
+            doubleTeams.clear();
             if (gameMode === 'tournament' && (scores.t1 >= tournamentWinScore || scores.t2 >= tournamentWinScore)) {
                 finishTournamentMatch(scores.t1 >= tournamentWinScore ? 1 : 2);
+                return;
+            }
+            if (gameMode === 'normal' && Math.max(scores.t1, scores.t2) >= normalWinScore) {
+                finishGame();
                 return;
             }
             switchPage('page-board');
@@ -2132,6 +2248,10 @@
 
         function changeScore(team, val) {
             SinJeemScoring.change(scores, team, val);
+            if (gameMode === 'normal' && Math.max(scores.t1, scores.t2) >= normalWinScore) {
+                finishGame();
+                return;
+            }
             saveActiveGame();
         }
 

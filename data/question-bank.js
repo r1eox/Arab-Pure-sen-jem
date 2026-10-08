@@ -30,36 +30,6 @@ window.questionBankSeed = [
         "hint": "الحرفان الأولان من الاسم بالإنجليزية."
     },
     {
-        "id": "image-challenge-200",
-        "category": "تحدي الصور",
-        "difficulty": "رياضة",
-        "points": 200,
-        "question": "ما اسم هذا اللاعب؟",
-        "answer": "تايجر وودز",
-        "image": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=600",
-        "hint": "لاعب غولف مشهور."
-    },
-    {
-        "id": "image-challenge-400",
-        "category": "تحدي الصور",
-        "difficulty": "معالم",
-        "points": 400,
-        "question": "أين يقع هذا المكان؟",
-        "answer": "باريس",
-        "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=600",
-        "hint": "مدينة برج إيفل."
-    },
-    {
-        "id": "image-challenge-600",
-        "category": "تحدي الصور",
-        "difficulty": "صعب",
-        "points": 600,
-        "question": "سنة التأسيس؟",
-        "answer": "1889",
-        "image": "",
-        "hint": "سنة افتتاح برج شهير."
-    },
-    {
         "id": "flags-200",
         "category": "أعلام",
         "difficulty": "دول عربية",

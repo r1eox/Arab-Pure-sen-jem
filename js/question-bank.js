@@ -35,6 +35,7 @@ window.SinJeemQuestionBank = {
             brandName: question.brandName || question.answer,
             imageAlt: question.imageAlt || question.brandName || question.answer,
             image: question.image || '',
+            answerImage: question.answerImage || '',
             imageKind: question.imageKind || '',
             source: question.source || '',
             imageSource: question.imageSource || '',
