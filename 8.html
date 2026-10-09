@@ -544,6 +544,7 @@
         }
 
         .q-options-display.visible { display: grid; }
+        .q-options-display[hidden] { display: none; }
 
         .q-option-item {
             padding: 8px 12px;
@@ -619,6 +620,7 @@
             cursor: pointer;
             background: #2a2a2a;
         }
+        .side-helper-btn[hidden] { display: none; }
         .side-helper-btn.used {
             opacity: 0.3;
             text-decoration: line-through;
@@ -1098,9 +1100,10 @@
                 <div class="team-side-score" id="side-t1-score">200</div>
                 <div class="team-side-helpers-title">وسائل المساعدة</div>
                 <div class="team-side-helpers-icons">
-                    <div class="side-helper-btn" title="تبديل السؤال" onclick="useHelper(this, 'swap')">🔄</div>
-                    <div class="side-helper-btn" title="عرض تلميح" onclick="useHelper(this, 'hint')">📞</div>
-                    <div class="side-helper-btn" title="مضاعفة النقاط" onclick="useHelper(this, 'double')">✌️</div>
+                    <div class="side-helper-btn" data-helper-key="team1-swap" title="تبديل السؤال" onclick="useHelper(this, 'swap')">🔄</div>
+                    <div class="side-helper-btn" data-helper-key="team1-hint" title="عرض تلميح" onclick="useHelper(this, 'hint')">📞</div>
+                    <div class="side-helper-btn" data-helper-key="team1-double" title="مضاعفة النقاط" onclick="useHelper(this, 'double')">✌️</div>
+                    <div class="side-helper-btn options-helper-btn" data-helper-key="team1-options" title="عرض الخيارات" onclick="useHelper(this, 'options')" hidden>👁️</div>
                 </div>
             </div>
 
@@ -1110,9 +1113,10 @@
                 <div class="team-side-score" id="side-t2-score">0</div>
                 <div class="team-side-helpers-title">وسائل المساعدة</div>
                 <div class="team-side-helpers-icons">
-                    <div class="side-helper-btn" title="تبديل السؤال" onclick="useHelper(this, 'swap')">🔄</div>
-                    <div class="side-helper-btn" title="عرض تلميح" onclick="useHelper(this, 'hint')">📞</div>
-                    <div class="side-helper-btn" title="مضاعفة النقاط" onclick="useHelper(this, 'double')">✌️</div>
+                    <div class="side-helper-btn" data-helper-key="team2-swap" title="تبديل السؤال" onclick="useHelper(this, 'swap')">🔄</div>
+                    <div class="side-helper-btn" data-helper-key="team2-hint" title="عرض تلميح" onclick="useHelper(this, 'hint')">📞</div>
+                    <div class="side-helper-btn" data-helper-key="team2-double" title="مضاعفة النقاط" onclick="useHelper(this, 'double')">✌️</div>
+                    <div class="side-helper-btn options-helper-btn" data-helper-key="team2-options" title="عرض الخيارات" onclick="useHelper(this, 'options')" hidden>👁️</div>
                 </div>
             </div>
         </div>
@@ -1196,8 +1200,7 @@
     <script src="data/general-questions-6.js"></script>
     <script src="data/general-questions-7.js"></script>
     <script src="data/flags-questions-static.js"></script>
-    <script src="data/movies-questions.js"></script>
-    <script src="data/series-questions.js"></script>
+    <script src="data/entertainment-questions.js"></script>
     <script src="data/geography-questions.js"></script>
     <script src="data/sports-questions.js"></script>
     <script src="data/cars-questions.js"></script>
@@ -1205,6 +1208,7 @@
     <script src="data/logos-questions.js"></script>
     <script src="data/curated-questions.js"></script>
     <script src="data/image-challenge-questions.js"></script>
+    <script src="data/arab-pure-questions.js"></script>
     <script src="js/team-roulette.js"></script>
     <script>
         let scores = { t1: 0, t2: 0 };
@@ -1272,9 +1276,41 @@
             addQuestion({ category, difficulty, question, answer, image, points });
         const findBankQuestion = (question, category, answer) =>
             SinJeemQuestionBank.find(question, category, answer);
+        const buildQuestionOptions = question => {
+            const answer = String(question.answer || '');
+            const accepted = new Set([answer, ...(question.acceptedAnswers || [])].map(normalizeQuestion));
+            const options = [...new Set((question.options || []).map(String).filter(Boolean))].slice(0, 4);
+            if (!options.some(option => normalizeQuestion(option) === normalizeQuestion(answer))) {
+                if (options.length === 4) options.pop();
+                options.unshift(answer);
+            }
+            const excluded = new Set([...accepted, ...options.map(normalizeQuestion)]);
+            const seed = String(question.id || `${question.category}|${question.question}`);
+            const hash = value => {
+                let result = 2166136261;
+                for (const character of value) result = Math.imul(result ^ character.charCodeAt(0), 16777619);
+                return result >>> 0;
+            };
+            const sortedAnswers = items => [...new Set(items.map(item => String(item.answer || '')))]
+                .filter(value => value && !excluded.has(normalizeQuestion(value)))
+                .sort((left, right) => hash(`${seed}|${left}`) - hash(`${seed}|${right}`));
+            const categoryAnswers = sortedAnswers(questionBank.filter(item => item.category === question.category));
+            const otherAnswers = sortedAnswers(questionBank.filter(item => item.category !== question.category));
+            const candidates = [...categoryAnswers, ...otherAnswers];
+            for (const candidate of candidates) {
+                if (options.length >= 4) break;
+                if (options.some(option => normalizeQuestion(option) === normalizeQuestion(candidate))) continue;
+                options.push(candidate);
+            }
+            return options;
+        };
 
         addQuestions(window.questionBankSeed || []);
-        addQuestions(window.gamesQuestionSeed || []);
+        addQuestions(window.arabPureQuestionSeed || []);
+        const curatedEntertainmentCategories = new Set(['ألعاب']);
+        const addEntertainmentQuestions = questions =>
+            addQuestions((questions || []).filter(question => !curatedEntertainmentCategories.has(question.category)));
+        addEntertainmentQuestions(window.gamesQuestionSeed);
         addQuestions(window.proverbQuestionSeed || []);
         addQuestions(window.generalQuestionSeed || []);
         addQuestions(window.generalQuestionThreeSeed || []);
@@ -1283,8 +1319,7 @@
         addQuestions(window.generalQuestionSixSeed || []);
         addQuestions(window.generalQuestionSevenSeed || []);
         addQuestions(window.flagsQuestionSeed || []);
-        addQuestions(window.moviesQuestionSeed || []);
-        addQuestions(window.seriesQuestionSeed || []);
+        addQuestions(window.entertainmentQuestionSeed || []);
         addQuestions(window.geographyQuestionSeed || []);
         addQuestions(window.sportsQuestionSeed || []);
         addQuestions(window.carsQuestionSeed || []);
@@ -1681,9 +1716,8 @@
                 timerSeconds,
                 timerRunning,
                 hintVisible: document.getElementById('inline-hint').classList.contains('visible'),
-                usedHelpers: Array.from(document.querySelectorAll('.side-helper-btn, .helper-circle'))
-                    .map((button, index) => button.classList.contains('used') ? index : -1)
-                    .filter(index => index >= 0)
+                usedHelpers: Array.from(document.querySelectorAll('.side-helper-btn.used'))
+                    .map(button => button.dataset.helperKey)
             };
         }
 
@@ -1781,11 +1815,12 @@
             updateCategorySelectionState();
 
             const savedBoard = (saved.board || []).map(column => {
-                if (column.category !== 'تحدي الصور' || saved.pageId !== 'page-board') return column;
+                const refreshCategories = new Set(['تحدي الصور', 'أفلام', 'مسلسلات', 'ألعاب']);
+                if (!refreshCategories.has(column.category) || saved.pageId !== 'page-board') return column;
                 const existingCards = column.cards || [];
                 const alignedCards = [100, 200, 300, 400, 500].map(points => {
                     const existingCard = existingCards.find(card => Number(card.question?.points) === points);
-                    const candidates = questionBank.filter(item => item.category === 'تحدي الصور'
+                    const candidates = questionBank.filter(item => item.category === column.category
                         && Number(item.points) === points);
                     const question = candidates.find(item => item.id === existingCard?.question?.id)
                         || SinJeemBoard.pickRandom(candidates);
@@ -1806,7 +1841,7 @@
                 try {
                     localStorage.setItem(savedGameKey, JSON.stringify(saved));
                 } catch (error) {
-                    console.warn('تعذر تحديث أسئلة تحدي الصور في المباراة المحفوظة.', error);
+                    console.warn('تعذر تحديث أسئلة الفئات المنتقاة في المباراة المحفوظة.', error);
                 }
             }
             const savedColumns = new Map(savedBoard.map(column => [column.category, column]));
@@ -1817,8 +1852,18 @@
                     openQ(item.category, item.difficulty, item.question, item.answer, item.image, card, item.points));
             });
             restoreActiveQuestion(saved);
-            const helperButtons = document.querySelectorAll('.side-helper-btn, .helper-circle');
-            (saved.usedHelpers || []).forEach(index => helperButtons[index]?.classList.add('used'));
+            const helperButtons = document.querySelectorAll('.side-helper-btn');
+            (saved.usedHelpers || []).forEach(helper => {
+                if (typeof helper === 'string') {
+                    document.querySelector(`[data-helper-key="${helper}"]`)?.classList.add('used');
+                    return;
+                }
+                const legacySideIndex = helper - 6;
+                if (legacySideIndex < 0 || legacySideIndex >= 6) return;
+                const team = legacySideIndex < 3 ? 1 : 2;
+                const type = ['swap', 'hint', 'double'][legacySideIndex % 3];
+                document.querySelector(`[data-helper-key="team${team}-${type}"]`)?.classList.add('used');
+            });
 
             if (saved.pageId === 'page-tournament-match') {
                 document.getElementById('active-tournament-name').textContent = gameTitle;
@@ -1876,7 +1921,11 @@
                 : `${points} نقطة`;
             document.getElementById('q-prop-badge').textContent = `${difficulty} • ${points} نقطة`;
             document.getElementById('q-title').textContent = question;
-            renderQuestionOptions(bankQuestion?.options || activeQuestion.options || [], question);
+            activeQuestion.acceptedAnswers = bankQuestion?.acceptedAnswers || activeQuestion.acceptedAnswers || [answer];
+            activeQuestion.options = buildQuestionOptions(activeQuestion);
+            renderOptionsHelperVisibility(activeQuestion);
+            renderQuestionOptions(activeQuestion.options, question,
+                Boolean(activeQuestion.optionsVisible));
             const imageElement = document.getElementById('q-img');
             imageElement.src = activeQuestion.image;
             imageElement.style.display = activeQuestion.image ? 'block' : 'none';
@@ -2042,6 +2091,14 @@
             const displayImage = bankQuestion?.imageKind === 'illustration' ? '' : imgUrl;
             if (!bankQuestion) registerOpenQuestion(cat, prop, q, a, displayImage, pts);
             const questionId = bankQuestion?.id || card?.dataset.questionId || '';
+            const questionOptions = buildQuestionOptions({
+                id: questionId,
+                category: cat,
+                question: q,
+                answer: a,
+                acceptedAnswers: bankQuestion?.acceptedAnswers || [a],
+                options: bankQuestion?.options || []
+            });
             if (questionId) {
                 usedQuestionIds.add(questionId);
                 persistUsedQuestionIds();
@@ -2056,7 +2113,7 @@
                 question: q,
                 answer: a,
                 acceptedAnswers: bankQuestion?.acceptedAnswers || [a],
-                options: bankQuestion?.options || [],
+                options: questionOptions,
                 image: displayImage || '',
                 answerImage: bankQuestion?.answerImage || '',
                 points: Number(pts)
@@ -2071,7 +2128,11 @@
             document.getElementById('q-pts-badge').innerText = `${pts} نقطة`;
             document.getElementById('q-prop-badge').innerText = `${activeDifficulty} • ${pts} نقطة`;
             document.getElementById('q-title').innerText = q;
-            renderQuestionOptions(bankQuestion?.options || [], q);
+            const optionsHelperVisible = questionOptions.length > 1;
+            document.querySelectorAll('.options-helper-btn').forEach(button => {
+                button.hidden = !optionsHelperVisible;
+            });
+            renderQuestionOptions(questionOptions, q, false);
 
             const qImg = document.getElementById('q-img');
             if (displayImage && displayImage.trim() !== '') {
@@ -2093,10 +2154,11 @@
             switchPage('page-question');
         }
 
-        function renderQuestionOptions(options, question) {
+        function renderQuestionOptions(options, question, shouldShow = false) {
             const container = document.getElementById('q-options');
             container.replaceChildren();
             if (!Array.isArray(options) || options.length < 2) {
+            container.hidden = true;
                 container.classList.remove('visible');
                 return;
             }
@@ -2106,7 +2168,15 @@
                 item.textContent = `${index + 1}. ${option}`;
                 container.appendChild(item);
             });
-            container.classList.add('visible');
+            container.hidden = !shouldShow;
+            container.classList.toggle('visible', shouldShow);
+        }
+
+        function renderOptionsHelperVisibility(question) {
+            const shouldShow = (question?.options || []).length > 1;
+            document.querySelectorAll('.options-helper-btn').forEach(button => {
+                button.hidden = !shouldShow;
+            });
         }
 
         /* أجهزة التايمر */
@@ -2130,6 +2200,7 @@
                 swap: 'تبديل السؤال: يستبدل السؤال الحالي بسؤال آخر من الفئة نفسها وبالقيمة نفسها، دون نقاط.',
                 hint: 'التلميح: يعرض معلومة مختصرة تساعد على التفكير في الإجابة.',
                 double: 'مضاعفة النقاط: تضاعف قيمة السؤال الحالي للفريق الذي يستخدمها إذا أجاب إجابة صحيحة.',
+                options: 'عرض الخيارات: يكشف خيارات السؤال لتسهيل اختيار إجابة صحيحة.',
                 skip: 'التخطي: ينهي السؤال الحالي بدون نقاط ويعيدكم إلى اللوحة.'
             };
             alert(descriptions[type]);
@@ -2139,6 +2210,14 @@
             if (btn.classList.contains('used')) return;
             const helperTeam = Array.from(document.querySelectorAll('.team-side-card'))
                 .indexOf(btn.closest('.team-side-card')) + 1;
+            if (type === 'options') {
+                if ((activeQuestion?.options || []).length < 2) return;
+                btn.classList.add('used');
+                activeQuestion.optionsVisible = true;
+                renderQuestionOptions(activeQuestion.options, activeQuestion.question, true);
+                saveActiveGame();
+                return;
+            }
             let replacement = null;
             if (type === 'swap') {
                 if (!activeQuestion || !activeCard) return;

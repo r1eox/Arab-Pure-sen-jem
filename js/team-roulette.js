@@ -17,24 +17,31 @@
             .trim();
     }
 
+    function toMention(member) {
+        return /^\d{15,20}$/.test(member) ? `<@${member}>` : member;
+    }
+
+    const teamLabel = '(?:ال|[اأإ])?سم\\s*الفريق\\s*[:：]';
+    const teamLabelTest = new RegExp(teamLabel, 'u');
+
     function parseSurvey(text) {
-        const chunks = text.split(/(?=^\s*\*{0,2}\s*اسم\s*الفريق\s*[:：])/gim)
-            .filter(chunk => /اسم\s*الفريق\s*[:：]/iu.test(chunk));
+        const chunks = text.split(new RegExp(`(?=^\\s*[*\`]{0,3}\\s*${teamLabel})`, 'gmu'))
+            .filter(chunk => teamLabelTest.test(chunk));
         return chunks.map((chunk, index) => {
-            const nameMatch = chunk.match(/اسم\s*الفريق\s*[:：]\s*([^\r\n]+)/iu);
-            const name = cleanMember(nameMatch?.[1]);
-            const heading = /الأعضاء|الاعضاء/i.exec(chunk);
-            const afterMembers = heading
-                ? chunk.slice(heading.index + heading[0].length).replace(/^\s*[:：]\s*/, '')
-                : '';
-            const numberMatch = /فريق\s*رقم\s*كم\s*بالبطولة\s*[:：]\s*\(?\s*(\d+)/iu.exec(afterMembers);
-            const memberText = numberMatch ? afterMembers.slice(0, numberMatch.index) : afterMembers;
-            const members = memberText.split(/\r?\n/)
-                .flatMap(line => cleanMember(line).split(/[،,;؛]/))
-                .map(cleanMember)
-                .filter(Boolean);
-            if (!name) throw new Error(`اسم الفريق في النموذج ${index + 1} فارغ.`);
-            if (!members.length) throw new Error(`لم أجد أعضاءً لفريق «${name}».`);
+            const nameMatch = chunk.match(new RegExp(`${teamLabel}\\s*([^\\r\\n]+)`, 'u'));
+            const name = cleanMember(nameMatch?.[1].replace(/\[[^\]]*\]\([^)]*\)/g, '')) || `فريق ${index + 1}`;
+            const body = chunk.slice(nameMatch.index + nameMatch[0].length);
+            const numberMatch = /فريق\s*رقم\s*كم\s*بالبطولة\s*[:：]\s*\(?\s*(\d+)/iu.exec(body);
+            const memberText = numberMatch ? body.slice(0, numberMatch.index) : body;
+            const mentions = memberText.match(/<@[!&]?\d+>/g);
+            const members = mentions
+                ? [...new Set(mentions)]
+                : memberText.replace(/(?:الأعضاء|الاعضاء)\s*[:：]?/g, '').split(/\r?\n/)
+                    .map(line => cleanMember(line).replace(/^(?:الكبتن|الكابتن|القائد)\s*[:：]/, ''))
+                    .flatMap(line => line.split(/[،,;؛]/))
+                    .map(cleanMember)
+                    .filter(Boolean)
+                    .map(toMention);
             return { name, members, teamNumber: numberMatch ? Number(numberMatch[1]) : null };
         });
     }
@@ -43,7 +50,7 @@
         return text.split(/\r?\n/).map(line => line.trim()).filter(Boolean).map((line, index) => {
             const [rawName, ...memberParts] = line.split('|');
             const name = rawName.trim();
-            const members = memberParts.join('|').split(/[،,;؛]/).map(cleanMember).filter(Boolean);
+            const members = memberParts.join('|').split(/[،,;؛]/).map(cleanMember).filter(Boolean).map(toMention);
             if (!name) throw new Error(`اسم الفريق في السطر ${index + 1} فارغ.`);
             if (!members.length) throw new Error(`أضف أعضاءً لفريق «${name}».`);
             return { name, members, teamNumber: null };
@@ -54,7 +61,7 @@
         const teamCount = Number(document.getElementById('roulette-team-count').value);
         if (![4, 8, 16, 32].includes(teamCount)) throw new Error('اختر 4 أو 8 أو 16 أو 32 فريقاً.');
         const text = document.getElementById('roulette-team-list').value;
-        const teams = /اسم\s*الفريق\s*[:：]/iu.test(text) ? parseSurvey(text) : parseCompactList(text);
+        const teams = teamLabelTest.test(text) ? parseSurvey(text) : parseCompactList(text);
         if (teams.length !== teamCount) {
             throw new Error(`أدخل ${teamCount} فريقاً بالضبط؛ المدخل حالياً ${teams.length}.`);
         }
@@ -143,6 +150,12 @@
         })[character]);
     }
 
+    function memberChips(team) {
+        return team.members?.length
+            ? `<span class="roulette-members">${team.members.map(member => `<code class="roulette-mention">${escapeHtml(member)}</code>`).join('')}</span>`
+            : '';
+    }
+
     function roundName(round) {
         if (round.label) return round.label;
         const matchCount = round.matches.length;
@@ -154,6 +167,25 @@
             16: 'دور 32'
         };
         return labels[matchCount] || `الدور ${round.number}`;
+    }
+
+    function buildDrawText(draw, title) {
+        const teamLines = team => [
+            `${team.teamNumber ? `(${team.teamNumber}) ` : ''}${team.name}`,
+            ...(team.members?.length ? [team.members.join(' ')] : [])
+        ];
+        const lines = [`**${title} - قرعة المواجهات**`];
+        draw.rounds.forEach(round => {
+            lines.push('', `**── ${roundName(round)} ──**`);
+            round.matches.forEach(match => {
+                lines.push('', `**مواجهة ${match.number}**`, ...teamLines(match.right), 'ضد', ...teamLines(match.left));
+            });
+            if (round.byes?.length) {
+                lines.push('', '**إعفاء مباشر**');
+                round.byes.forEach(team => lines.push(...teamLines(team), ''));
+            }
+        });
+        return lines.join('\n').trim();
     }
 
     function getMatchProgress(progress, roundNumber, matchIndex) {
@@ -194,10 +226,10 @@
                         : isCurrent
                             ? '<span class="roulette-match-state current">المواجهة الحالية</span>'
                             : '<span class="roulette-match-state">قادمة</span>';
-                    const renderTeam = (team, opponent, side) => `<div class="roulette-team"><strong>${escapeHtml(team.name)}</strong><small class="roulette-opponent">خصمه: ${escapeHtml(opponent.name)}</small>${team.teamNumber ? `<small>رقم البطولة: ${team.teamNumber}</small>` : ''}${team.members?.length ? `<small>${team.members.map(escapeHtml).join('، ')}</small>` : ''}${completed ? `<small class="roulette-team-outcome ${completed.winner === team.name ? 'advanced' : 'eliminated'}">${completed.winner === team.name ? 'تأهل' : 'خرج'}</small>` : ''}</div>`;
+                    const renderTeam = (team, opponent, side) => `<div class="roulette-team"><strong>${escapeHtml(team.name)}</strong><small class="roulette-opponent">خصمه: ${escapeHtml(opponent.name)}</small>${team.teamNumber ? `<small>رقم البطولة: ${team.teamNumber}</small>` : ''}${memberChips(team)}${completed ? `<small class="roulette-team-outcome ${completed.winner === team.name ? 'advanced' : 'eliminated'}">${completed.winner === team.name ? 'تأهل' : 'خرج'}</small>` : ''}</div>`;
                     return `<article class="roulette-match ${isCurrent ? 'is-current' : ''} ${completed ? 'is-complete' : ''}"><div class="roulette-match-topline"><span class="roulette-match-number">${roundName(round)} · مواجهة ${match.number}</span>${state}</div>${renderTeam(right, left, 'right')}<span class="roulette-versus">ضد</span>${renderTeam(left, right, 'left')}</article>`;
                 }).join('')}
-                ${round.byes?.length ? `<div class="roulette-byes"><h4>إعفاء مباشر إلى دور 16</h4>${round.byes.map(team => `<div class="roulette-team"><strong>${escapeHtml(team.name)}</strong>${team.teamNumber ? `<small>رقم البطولة: ${team.teamNumber}</small>` : ''}${team.members.length ? `<small>${team.members.map(escapeHtml).join('، ')}</small>` : ''}</div>`).join('')}</div>` : ''}
+                ${round.byes?.length ? `<div class="roulette-byes"><h4>إعفاء مباشر إلى دور 16</h4>${round.byes.map(team => `<div class="roulette-team"><strong>${escapeHtml(team.name)}</strong>${team.teamNumber ? `<small>رقم البطولة: ${team.teamNumber}</small>` : ''}${memberChips(team)}</div>`).join('')}</div>` : ''}
             </section>`;
         }).join('');
         const resume = progress && !progress.completed
@@ -359,27 +391,59 @@
         }, 65);
     }
 
+    function copyWithSelection(text) {
+        const field = document.createElement('textarea');
+        field.value = text;
+        field.setAttribute('readonly', '');
+        field.style.cssText = 'position:fixed;top:0;left:0;width:1px;height:1px;opacity:0;user-select:text;-webkit-user-select:text';
+        document.body.appendChild(field);
+        field.focus({ preventScroll: true });
+        field.select();
+        field.setSelectionRange(0, text.length);
+        let copied = false;
+        try {
+            copied = document.execCommand('copy');
+        } catch {
+            copied = false;
+        }
+        field.remove();
+        return copied;
+    }
+
+    function showManualCopy(text) {
+        const box = document.getElementById('roulette-copy-fallback') || document.createElement('textarea');
+        box.id = 'roulette-copy-fallback';
+        box.className = 'roulette-copy-fallback';
+        box.readOnly = true;
+        box.value = text;
+        const actions = document.getElementById('roulette-result-actions');
+        if (!box.isConnected) actions.before(box);
+        box.hidden = false;
+        box.focus();
+        box.select();
+    }
+
     async function copyDraw() {
-        if (!currentDraw) return;
+        if (!currentDraw) {
+            setStatus('اسحب القرعة أولاً ثم انسخ الجدول.', 'error');
+            return;
+        }
         const title = document.getElementById('roulette-title').value.trim() || 'قرعة البطولة';
-        const lines = [`${title} - قرعة المواجهات`];
-        currentDraw.rounds.forEach(round => {
-            lines.push('', roundName(round));
-            round.matches.forEach(match => lines.push(`${match.number}. ${match.right.name} ضد ${match.left.name}`));
-        });
-        const text = lines.join('\n');
+        const text = buildDrawText(currentDraw, title);
+        let copied = false;
         try {
             await navigator.clipboard.writeText(text);
-            setStatus('نُسخت القرعة إلى الحافظة.');
+            copied = true;
         } catch {
-            const field = document.createElement('textarea');
-            field.value = text;
-            document.body.appendChild(field);
-            field.select();
-            document.execCommand('copy');
-            field.remove();
-            setStatus('نُسخت القرعة إلى الحافظة.');
+            copied = copyWithSelection(text);
         }
+        if (copied) {
+            document.getElementById('roulette-copy-fallback')?.setAttribute('hidden', '');
+            setStatus('نُسخت القرعة إلى الحافظة.');
+            return;
+        }
+        showManualCopy(text);
+        setStatus('تعذر النسخ التلقائي. النص محدد في المربع أسفل الجدول، اضغط Ctrl+C لنسخه.', 'error');
     }
 
     function acceptDraw() {

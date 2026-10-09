@@ -234,6 +234,8 @@
 .roulette-match-state.current { color: #ffc17d; font-weight: 800; }
 .roulette-match-state.complete, .roulette-team-outcome.advanced { color: #8bd49a; }
 .roulette-team-outcome.eliminated { color: #ee9188; }
+.roulette-copy-fallback { display: block; width: 100%; min-height: 180px; margin-top: 12px; padding: 10px; border: 1px solid #574331; border-radius: 6px; background: #1c1b1a; color: #eee8df; font-size: 12px; line-height: 1.7; user-select: text; resize: vertical; }
+.roulette-copy-fallback[hidden] { display: none; }
 .roulette-versus { color: #df9660; font-size: 11px; font-weight: 800; text-align: center; }
 .roulette-opponent { color: #efad72 !important; font-size: 11px !important; font-weight: 700; }
 .roulette-resume-note { margin: 0 0 12px; padding: 10px 12px; border-inline-start: 3px solid #e58b4b; border-radius: 4px; background: #302820; color: #ead4bc; font-size: 12px; line-height: 1.7; }
@@ -250,6 +252,8 @@
 }
 
 .roulette-team small { color: #aaa197; font-size: 10px; line-height: 1.55; }
+.roulette-members { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 2px; }
+.roulette-mention { padding: 1px 6px; border-radius: 4px; background: #3d4263; color: #c9d2ff; font-family: Consolas, monospace; font-size: 10px; direction: ltr; user-select: text; }
 
 @media (max-width: 760px) {
     .roulette-editor { grid-template-columns: 1fr; }
