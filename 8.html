@@ -1192,6 +1192,7 @@
     <script src="js/results.js"></script>
     <script src="data/question-bank.js"></script>
     <script src="data/games-questions.js"></script>
+    <script src="data/games-curated-questions.js"></script>
     <script src="data/proverbs-questions.js"></script>
     <script src="data/general-questions.js"></script>
     <script src="data/general-questions-3.js"></script>
@@ -1311,6 +1312,7 @@
         const addEntertainmentQuestions = questions =>
             addQuestions((questions || []).filter(question => !curatedEntertainmentCategories.has(question.category)));
         addEntertainmentQuestions(window.gamesQuestionSeed);
+        addQuestions(window.gamesCuratedQuestionSeed || []);
         addQuestions(window.proverbQuestionSeed || []);
         addQuestions(window.generalQuestionSeed || []);
         addQuestions(window.generalQuestionThreeSeed || []);
@@ -1326,7 +1328,7 @@
         addQuestions(window.arabLogoQuestionSeed || []);
         addQuestions(window.logosQuestionSeed || []);
         SinJeemQuestionBank.addMany((window.curatedQuestionSeed || [])
-            .filter(question => question.category !== 'شعارات'));
+            .filter(question => !['ألعاب', 'شعارات'].includes(question.category)));
         addQuestions(window.imageChallengeQuestionSeed || []);
 
         // متغيرات التايمر

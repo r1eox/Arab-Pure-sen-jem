@@ -4,10 +4,21 @@ window.SinJeemQuestionBank = {
 
     normalize(value) {
         return String(value || '')
+            .normalize('NFC')
             .toLocaleLowerCase('ar')
-            .replace(/[؟?!.,،:;"'`]/g, '')
+            .replace(/[\u064B-\u065F\u0670\u0640]/g, '')
+            .replace(/[أإآٱ]/g, 'ا')
+            .replace(/ى/g, 'ي')
+            .replace(/[\p{P}\p{S}]/gu, '')
             .replace(/\s+/g, ' ')
             .trim();
+    },
+
+    questionKey(question) {
+        const category = this.normalize(question.category);
+        const normalizedQuestion = this.normalize(question.question);
+        const imageAnswer = question.image ? `|${this.normalize(question.answer)}` : '';
+        return `${category}|${normalizedQuestion}${imageAnswer}`;
     },
 
     difficulty(value, points) {
@@ -19,10 +30,7 @@ window.SinJeemQuestionBank = {
 
     add(question) {
         const normalized = this.normalize(question.question);
-        const category = this.normalize(question.category);
-        const key = question.image
-            ? `${category}|${normalized}|${this.normalize(question.answer)}`
-            : `${category}|${normalized}`;
+        const key = this.questionKey(question);
         if (!normalized || this.keys.has(key)) return false;
         this.keys.add(key);
         this.items.push({

@@ -45,7 +45,6 @@ window.arabPureQuestionSeed = [
     { id: 'arab-pure-community-044', category: 'عرب بيور', points: 200, question: 'ما آخر رتبة أضيفت في العصابات؟', answer: 'مسؤول أعلى', hint: 'السماء', options: ['مسؤول أعلى', 'أدفايزر', 'ليدر', 'CEO'] },
     { id: 'arab-pure-community-045', category: 'عرب بيور', points: 100, question: 'ما هو القسم المسؤول عن الفعاليات؟', answer: 'الإيفنت تيم', hint: 'أزرق', options: ['التشامبيون', 'الإيفنت تيم', 'سيناريو تيم', 'الرقابة'] },
     { id: 'arab-pure-community-046', category: 'عرب بيور', points: 100, question: 'من هم أمراء عرب بيور؟', answer: 'عزيز أو برنس', hint: 'بيضاء', options: ['برنس', 'دكتور', 'التشابو', 'عزيز'], acceptedAnswers: ['عزيز', 'برنس', 'عزيز أو برنس'] },
-    { id: 'arab-pure-community-047', category: 'عرب بيور', points: 500, question: 'كم عمر منظم البطولة؟', answer: '28', hint: 'كنو', options: ['27', '25', '31', '28'] },
     { id: 'arab-pure-community-048', category: 'عرب بيور', points: 100, question: 'ما هو القسم المسؤول عن التوظيف؟', answer: 'الإنترفيو', hint: 'أبيض', options: ['الإنترفيو', 'الرقابة', 'السينما', 'الإيفنت تيم'] },
     { id: 'arab-pure-community-049', category: 'عرب بيور', points: 200, question: 'من هو آخر شخص أصبح كنترول منجر؟', answer: 'أبو مبارك', hint: 'مشرف تشامب', options: ['أبو مبارك', 'فهد', 'أحمد', 'لحن'] },
     { id: 'arab-pure-community-050', category: 'عرب بيور', points: 400, question: 'وش كان اسم مساعد مسؤول الإدارة قبل؟', answer: 'جنرال منجر', hint: 'CEO', options: ['سنيور', 'جنرال منجر', 'مسؤول أقسام', 'باك منجر'] }
