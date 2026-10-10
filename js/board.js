@@ -35,41 +35,26 @@ window.SinJeemBoard = {
         if (!availableQuestions.length) return;
         const usedInColumn = new Set();
         for (const points of [100, 200, 300, 400, 500]) {
-            let freshQuestions = availableQuestions.filter(item =>
-                !usedQuestionIds.has(item.id) && !usedInColumn.has(item.id));
-            if (!freshQuestions.length) {
-                const unseenQuestions = availableQuestions.filter(item => !usedQuestionIds.has(item.id));
-                if (unseenQuestions.length) break;
-                availableQuestions.forEach(item => usedQuestionIds.delete(item.id));
+            const levelQuestions = availableQuestions.filter(item =>
+                Number(item.points) === points && !usedInColumn.has(item.id));
+            if (!levelQuestions.length) continue;
+            let candidates = levelQuestions.filter(item => !usedQuestionIds.has(item.id));
+            if (!candidates.length) {
+                levelQuestions.forEach(item => usedQuestionIds.delete(item.id));
+                candidates = levelQuestions;
                 try {
                     localStorage.setItem('sinJeemUsedQuestionIds', JSON.stringify([...usedQuestionIds]));
                 } catch (error) {
-                    console.warn('تعذر بدء دورة جديدة لأسئلة الفئة.', error);
-                }
-                freshQuestions = availableQuestions.filter(item => !usedInColumn.has(item.id));
-            }
-            let candidates = freshQuestions;
-            if (category === 'تحدي الصور') {
-                candidates = availableQuestions.filter(item =>
-                    Number(item.points) === points && !usedInColumn.has(item.id));
-                const unusedCandidates = candidates.filter(item => !usedQuestionIds.has(item.id));
-                if (unusedCandidates.length) {
-                    candidates = unusedCandidates;
-                } else {
-                    candidates.forEach(item => usedQuestionIds.delete(item.id));
+                    console.warn('تعذر بدء دورة جديدة لمستوى الأسئلة.', error);
                 }
             }
             if (!candidates.length) break;
-            const closestDistance = Math.min(...candidates.map(item => Math.abs(Number(item.points) - points)));
-            let closestQuestions = candidates.filter(item => Math.abs(Number(item.points) - points) === closestDistance);
+            let closestQuestions = candidates;
             if (points >= 300 && category !== 'كورة ورياضة') {
-                const illustratedDistance = Math.min(...candidates.map(item => Math.abs(Number(item.points) - points)));
                 const sourcedQuestions = candidates.filter(item => item.image
-                    && item.imageKind !== 'illustration'
-                    && Math.abs(Number(item.points) - points) <= illustratedDistance + 100);
+                    && item.imageKind !== 'illustration');
                 if (sourcedQuestions.length) {
-                    const sourcedDistance = Math.min(...sourcedQuestions.map(item => Math.abs(Number(item.points) - points)));
-                    closestQuestions = sourcedQuestions.filter(item => Math.abs(Number(item.points) - points) === sourcedDistance);
+                    closestQuestions = sourcedQuestions;
                 }
             }
             if (category === 'شعارات') {
