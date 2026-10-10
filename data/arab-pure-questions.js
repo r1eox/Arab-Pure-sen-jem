@@ -18,7 +18,7 @@ window.arabPureQuestionSeed = [
     { id: 'arab-pure-community-017', category: 'عرب بيور', points: 100, question: 'الاجتماع الأسبوعي للقوات المشتركة أي يوم؟', answer: 'الأربعاء', hint: 'قبل الويكند', options: ['الأربعاء', 'الثلاثاء', 'الخميس', 'الجمعة'] },
     { id: 'arab-pure-community-018', category: 'عرب بيور', points: 100, question: 'الاجتماع الأسبوعي للعصابات أي يوم؟', answer: 'الخميس', hint: 'الويكند', options: ['الأربعاء', 'الثلاثاء', 'الخميس', 'الجمعة'] },
     { id: 'arab-pure-community-019', category: 'عرب بيور', points: 100, question: 'كم قسم إداري موجود في السيرفر؟', answer: '6', hint: 'لاعبو كرة طائرة', options: ['6', '5', '11', '9'] },
-    { id: 'arab-pure-community-020', category: 'عرب بيور', points: 200, question: 'كم عصابة موجودة في السيرفر؟', answer: '5', hint: 'لاعبو كرة طائرة', options: ['8', '7', '6', '5'] },
+    { id: 'arab-pure-community-020', category: 'عرب بيور', points: 200, question: 'كم عصابة موجودة في السيرفر؟', answer: '6', hint: 'عدد زوجي بين 5 و7.', options: ['8', '7', '6', '5'] },
     { id: 'arab-pure-community-021', category: 'عرب بيور', points: 200, question: 'كم قطاعاً عسكرياً يوجد في السيرفر؟', answer: '8', hint: 'أغسطس', options: ['9', '10', '7', '8'] },
     { id: 'arab-pure-community-022', category: 'عرب بيور', points: 300, question: 'يوجد كو أونر ثانٍ سابقاً، من هو؟', answer: 'تشاكي', hint: 'تشيكن', options: ['عزيز', 'تشاكي', 'أرحب', 'لا يوجد'] },
     { id: 'arab-pure-community-023', category: 'عرب بيور', points: 500, question: 'من هو نائب رئيس الوزراء سابقاً؟', answer: 'جاكس', hint: 'جلكسي', options: ['إيفل', 'أبو سعد', 'دعيج', 'جاكس'] },

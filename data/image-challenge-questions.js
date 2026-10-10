@@ -1,14 +1,14 @@
 window.imageChallengeQuestionSeed = [
     { id: 'image-challenge-pair-01', category: 'تحدي الصور', points: 100, question: 'حل تركيب الصور', answer: 'جامعة الإمام', image: 'تحدي الصور/1.png', answerImage: 'تحدي الصور/2.png', hint: 'اجمع المقاطع الظاهرة في الصور.' },
     { id: 'image-challenge-pair-02', category: 'تحدي الصور', points: 400, question: 'حل تركيب الصور', answer: 'جدة أم الرخا والشدة', image: 'تحدي الصور/3.png', answerImage: 'تحدي الصور/4.png', hint: 'اجمع المقاطع الظاهرة في الصور.' },
-    { id: 'image-challenge-pair-03', category: 'تحدي الصور', points: 100, question: 'حل تركيب الصور', answer: 'باور بانك', image: 'تحدي الصور/5.png', answerImage: 'تحدي الصور/6.png', hint: 'اجمع المقاطع الظاهرة في الصور.' },
-    { id: 'image-challenge-pair-04', category: 'تحدي الصور', points: 400, question: 'حل تركيب الصور', answer: 'صومال', image: 'تحدي الصور/7.png', answerImage: 'تحدي الصور/8.png', hint: 'اجمع المقاطع الظاهرة في الصور.' },
-    { id: 'image-challenge-pair-05', category: 'تحدي الصور', points: 200, question: 'حل تركيب الصور', answer: 'النمر المقنع', image: 'تحدي الصور/9.png', answerImage: 'تحدي الصور/10.png', hint: 'اجمع المقاطع الظاهرة في الصور.' },
-    { id: 'image-challenge-pair-06', category: 'تحدي الصور', points: 300, question: 'حل تركيب الصور', answer: 'ياسر مخ', image: 'تحدي الصور/11.png', answerImage: 'تحدي الصور/12.png', hint: 'اجمع المقاطع الظاهرة في الصور.' },
-    { id: 'image-challenge-pair-07', category: 'تحدي الصور', points: 200, question: 'حل تركيب الصور', answer: 'سومطرا', image: 'تحدي الصور/13.png', answerImage: 'تحدي الصور/14.png', hint: 'اجمع المقاطع الظاهرة في الصور.' },
-    { id: 'image-challenge-pair-08', category: 'تحدي الصور', points: 300, question: 'حل تركيب الصور', answer: 'قرنفل', image: 'تحدي الصور/15.png', answerImage: 'تحدي الصور/16.png', hint: 'اجمع المقاطع الظاهرة في الصور.' },
-    { id: 'image-challenge-pair-09', category: 'تحدي الصور', points: 300, question: 'حل تركيب الصور', answer: 'مناجم', image: 'تحدي الصور/17.png', answerImage: 'تحدي الصور/18.png', hint: 'اجمع المقاطع الظاهرة في الصور.' },
-    { id: 'image-challenge-pair-10', category: 'تحدي الصور', points: 200, question: 'حل تركيب الصور', answer: 'سبتمبر', image: 'تحدي الصور/19.png', answerImage: 'تحدي الصور/20.png', hint: 'اجمع المقاطع الظاهرة في الصور.' },
+    { id: 'image-challenge-pair-03', category: 'تحدي الصور', points: 100, question: 'حل تركيب الصور', answer: 'قرنفل', image: 'تحدي الصور/5.png', answerImage: 'تحدي الصور/6.png', hint: 'اجمع المقاطع الظاهرة في الصور.' },
+    { id: 'image-challenge-pair-04', category: 'تحدي الصور', points: 400, question: 'حل تركيب الصور', answer: 'باور بانك', image: 'تحدي الصور/7.png', answerImage: 'تحدي الصور/8.png', hint: 'اجمع المقاطع الظاهرة في الصور.' },
+    { id: 'image-challenge-pair-05', category: 'تحدي الصور', points: 200, question: 'حل تركيب الصور', answer: 'صومال', image: 'تحدي الصور/9.png', answerImage: 'تحدي الصور/10.png', hint: 'اجمع المقاطع الظاهرة في الصور.' },
+    { id: 'image-challenge-pair-06', category: 'تحدي الصور', points: 300, question: 'حل تركيب الصور', answer: 'النمر المقنع', image: 'تحدي الصور/11.png', answerImage: 'تحدي الصور/12.png', hint: 'اجمع المقاطع الظاهرة في الصور.' },
+    { id: 'image-challenge-pair-07', category: 'تحدي الصور', points: 200, question: 'حل تركيب الصور', answer: 'مناجم', image: 'تحدي الصور/13.png', answerImage: 'تحدي الصور/14.png', hint: 'اجمع المقاطع الظاهرة في الصور.' },
+    { id: 'image-challenge-pair-08', category: 'تحدي الصور', points: 300, question: 'حل تركيب الصور', answer: 'سبتمبر', image: 'تحدي الصور/15.png', answerImage: 'تحدي الصور/16.png', hint: 'اجمع المقاطع الظاهرة في الصور.' },
+    { id: 'image-challenge-pair-09', category: 'تحدي الصور', points: 300, question: 'حل تركيب الصور', answer: 'ياسر مخ', image: 'تحدي الصور/17.png', answerImage: 'تحدي الصور/18.png', hint: 'اجمع المقاطع الظاهرة في الصور.' },
+    { id: 'image-challenge-pair-10', category: 'تحدي الصور', points: 200, question: 'حل تركيب الصور', answer: 'سومطرا', image: 'تحدي الصور/19.png', answerImage: 'تحدي الصور/20.png', hint: 'اجمع المقاطع الظاهرة في الصور.' },
     { id: 'image-challenge-pair-11', category: 'تحدي الصور', points: 400, question: 'حل تركيب الصور', answer: 'هزيم الرعد', image: 'تحدي الصور/21.png', answerImage: 'تحدي الصور/22.png', hint: 'اجمع المقاطع الظاهرة في الصور.' },
     { id: 'image-challenge-pair-12', category: 'تحدي الصور', points: 100, question: 'حل تركيب الصور', answer: 'ممرضين', image: 'تحدي الصور/23.png', answerImage: 'تحدي الصور/24.png', hint: 'اجمع المقاطع الظاهرة في الصور.' },
     { id: 'image-challenge-pair-13', category: 'تحدي الصور', points: 200, question: 'حل تركيب الصور', answer: 'عمرو دياب', image: 'تحدي الصور/25.png', answerImage: 'تحدي الصور/26.png', hint: 'اجمع المقاطع الظاهرة في الصور.' },
@@ -24,4 +24,7 @@ window.imageChallengeQuestionSeed = [
     { id: 'image-challenge-pair-23', category: 'تحدي الصور', points: 500, question: 'حل تركيب الصور', answer: 'بلغاريا', image: 'تحدي الصور/45.png', answerImage: 'تحدي الصور/46.png', hint: 'اجمع المقاطع الظاهرة في الصور.' },
     { id: 'image-challenge-pair-24', category: 'تحدي الصور', points: 500, question: 'حل تركيب الصور', answer: 'ليفاندوسكي', image: 'تحدي الصور/47.png', answerImage: 'تحدي الصور/48.png', hint: 'اجمع المقاطع الظاهرة في الصور.' },
     { id: 'image-challenge-pair-25', category: 'تحدي الصور', points: 300, question: 'حل تركيب الصور', answer: 'لبتون', image: 'تحدي الصور/49.png', answerImage: 'تحدي الصور/50.png', hint: 'اجمع المقاطع الظاهرة في الصور.' }
-];
+].map((question, index) => ({
+    ...question,
+    question: `حل تركيب الصور - اللغز ${String(index + 1).padStart(2, '0')}`
+}));

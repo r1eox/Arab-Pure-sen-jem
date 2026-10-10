@@ -1320,13 +1320,34 @@
         addQuestions(window.generalQuestionFiveSeed || []);
         addQuestions(window.generalQuestionSixSeed || []);
         addQuestions(window.generalQuestionSevenSeed || []);
-        addQuestions(window.flagsQuestionSeed || []);
+        const flagQuestionByPoints = {
+            100: 'ما الدولة التي يمثلها هذا العلم؟',
+            200: 'إلى أي دولة يعود العلم الظاهر؟',
+            300: 'ما اسم الدولة صاحبة هذا العلم؟',
+            400: 'لأي دولة يتبع العلم المعروض؟',
+            500: 'أي دولة يرمز إليها العلم في الصورة؟'
+        };
+        addQuestions((window.flagsQuestionSeed || []).map(question => ({
+            ...question,
+            question: flagQuestionByPoints[Number(question.points)] || question.question
+        })));
         addQuestions(window.entertainmentQuestionSeed || []);
         addQuestions(window.geographyQuestionSeed || []);
         addQuestions(window.sportsQuestionSeed || []);
         addQuestions(window.carsQuestionSeed || []);
-        addQuestions(window.arabLogoQuestionSeed || []);
-        addQuestions(window.logosQuestionSeed || []);
+        const logoQuestionByPoints = {
+            100: 'ما اسم العلامة التجارية التي يظهر شعارها؟',
+            200: 'لأي شركة يعود هذا الشعار؟',
+            300: 'ما العلامة التي يمثلها الرمز الظاهر؟',
+            400: 'ما اسم الجهة صاحبة الشعار؟',
+            500: 'إلى أي علامة تجارية يشير الشعار؟'
+        };
+        const logoQuestions = [...(window.arabLogoQuestionSeed || []), ...(window.logosQuestionSeed || [])]
+            .map(question => ({
+                ...question,
+                question: logoQuestionByPoints[Number(question.points)] || question.question
+            }));
+        addQuestions(logoQuestions);
         SinJeemQuestionBank.addMany((window.curatedQuestionSeed || [])
             .filter(question => !['ألعاب', 'شعارات'].includes(question.category)));
         addQuestions(window.imageChallengeQuestionSeed || []);
