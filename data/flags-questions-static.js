@@ -116,7 +116,7 @@ window.flagsQuestionSeed = [
     "points": 100,
     "question": "ما الدولة التي يمثلها هذا العلم؟",
     "answer": "ألمانيا",
-    "image": "https://www.worldometers.info/images/flags/original/gm.webp",
+    "image": "https://www.worldometers.info/images/flags/original/de.webp",
     "hint": "أكبر اقتصاد في أوروبا وعاصمتها برلين، علمها: أسود، أحمر، أصفر."
   },
   {
@@ -186,7 +186,7 @@ window.flagsQuestionSeed = [
     "points": 100,
     "question": "ما الدولة التي يمثلها هذا العلم؟",
     "answer": "روسيا",
-    "image": "https://www.worldometers.info/images/flags/original/rs.webp",
+    "image": "https://www.worldometers.info/images/flags/original/ru.webp",
     "hint": "أكبر دولة في العالم مساحةً، علمها أفقي بـ: أبيض، أزرق، أحمر."
   },
   {
@@ -206,7 +206,7 @@ window.flagsQuestionSeed = [
     "points": 100,
     "question": "ما الدولة التي يمثلها هذا العلم؟",
     "answer": "المغرب",
-    "image": "https://www.worldometers.info/images/flags/original/mo.webp",
+    "image": "https://www.worldometers.info/images/flags/original/ma.webp",
     "hint": "مملكة في شمال أفريقيا، علمها أحمر تتوسطه نجمة خماسية خضراء."
   },
   {
@@ -326,7 +326,7 @@ window.flagsQuestionSeed = [
     "points": 100,
     "question": "ما الدولة التي يمثلها هذا العلم؟",
     "answer": "سويسرا",
-    "image": "https://www.worldometers.info/images/flags/original/sz.webp",
+    "image": "https://www.worldometers.info/images/flags/original/ch.webp",
     "hint": "دولة حيادية مشهورة بالساعات، علمها مربع الشكل يحوي صليباً أبيض على خلفية حمراء."
   },
   {
@@ -526,7 +526,7 @@ window.flagsQuestionSeed = [
     "points": 200,
     "question": "ما الدولة التي يمثلها هذا العلم؟",
     "answer": "تشيلي",
-    "image": "https://www.worldometers.info/images/flags/original/ci.webp",
+    "image": "https://www.worldometers.info/images/flags/original/cl.webp",
     "hint": "دولة طويلة جداً على ساحل المحيط الهادئ، علمها شبيه بعلم ولاية تكساس الأمريكية."
   },
   {
@@ -566,7 +566,7 @@ window.flagsQuestionSeed = [
     "points": 200,
     "question": "ما الدولة التي يمثلها هذا العلم؟",
     "answer": "بنغلاديش",
-    "image": "https://www.worldometers.info/images/flags/original/bg.webp",
+    "image": "https://www.worldometers.info/images/flags/original/bd.webp",
     "hint": "علمها عبارة عن خلفية خضراء داكنة تتوسطها دائرة حمراء منحرفة قليلاً."
   },
   {
@@ -576,7 +576,7 @@ window.flagsQuestionSeed = [
     "points": 200,
     "question": "ما الدولة التي يمثلها هذا العلم؟",
     "answer": "نيجيريا",
-    "image": "https://www.worldometers.info/images/flags/original/ni.webp",
+    "image": "https://www.worldometers.info/images/flags/original/ng.webp",
     "hint": "أكبر دولة أفريقية سكاناً، علمها يتكون من ثلاثة أشرطة عمودية: أخضر، أبيض، أخضر."
   },
   {
@@ -686,7 +686,7 @@ window.flagsQuestionSeed = [
     "points": 200,
     "question": "ما الدولة التي يمثلها هذا العلم؟",
     "answer": "سنغافورة",
-    "image": "https://www.worldometers.info/images/flags/original/sn.webp",
+    "image": "https://www.worldometers.info/images/flags/original/sg.webp",
     "hint": "مدينة ودولة متطورة جداً، يتكون الجزء العلوي لعلمها الأحمر من هلال و5 نجوم."
   },
   {
@@ -766,7 +766,7 @@ window.flagsQuestionSeed = [
     "points": 200,
     "question": "ما الدولة التي يمثلها هذا العلم؟",
     "answer": "السنغال",
-    "image": "https://www.worldometers.info/images/flags/original/sg.webp",
+    "image": "https://www.worldometers.info/images/flags/original/sn.webp",
     "hint": "معروفة بأسود التيرانغا، علمها ثلاثي الألوان مع نجمة خضراء في الوسط."
   },
   {
@@ -896,7 +896,7 @@ window.flagsQuestionSeed = [
     "points": 300,
     "question": "ما الدولة التي يمثلها هذا العلم؟",
     "answer": "كوريا الشمالية",
-    "image": "https://www.worldometers.info/images/flags/original/kn.webp",
+    "image": "https://www.worldometers.info/images/flags/original/kp.webp",
     "hint": "علمها يحوي شريطاً أحمراً عريضاً يتوسطه دائرة بيضاء بنجمة حمراء."
   },
   {
@@ -946,7 +946,7 @@ window.flagsQuestionSeed = [
     "points": 300,
     "question": "ما الدولة التي يمثلها هذا العلم؟",
     "answer": "بوليفيا",
-    "image": "https://www.worldometers.info/images/flags/original/bl.webp",
+    "image": "https://www.worldometers.info/images/flags/original/bo.webp",
     "hint": "دولة حبيسة في أمريكا الجنوبية، علمها: أحمر، أصف، أخضر وتتوسطه الشعار الوطني."
   },
   {
@@ -976,7 +976,7 @@ window.flagsQuestionSeed = [
     "points": 300,
     "question": "ما الدولة التي يمثلها هذا العلم؟",
     "answer": "بنما",
-    "image": "https://www.worldometers.info/images/flags/original/pm.webp",
+    "image": "https://www.worldometers.info/images/flags/original/pa.webp",
     "hint": "مشهورة بالقناة المائية التي تربط المحيطين، علمها مقسم لـ 4 مربعات ونجمتين."
   },
   {
@@ -986,7 +986,7 @@ window.flagsQuestionSeed = [
     "points": 300,
     "question": "ما الدولة التي يمثلها هذا العلم؟",
     "answer": "باراغواي",
-    "image": "https://www.worldometers.info/images/flags/original/pa.webp",
+    "image": "https://www.worldometers.info/images/flags/original/py.webp",
     "hint": "العلم الوحيد في العالم الذي يختلف الوجه الأمامي له عن الوجه الخلفي في الشعار."
   },
   {
@@ -996,7 +996,7 @@ window.flagsQuestionSeed = [
     "points": 300,
     "question": "ما الدولة التي يمثلها هذا العلم؟",
     "answer": "جورجيا",
-    "image": "https://www.worldometers.info/images/flags/original/gg.webp",
+    "image": "https://www.worldometers.info/images/flags/original/ge.webp",
     "hint": "تقع في القوقاز، علمها أبيض مع صليب القديس جرجس الأحمـر و 4 صلبان صغيرة."
   },
   {
@@ -1045,9 +1045,9 @@ window.flagsQuestionSeed = [
     "difficulty": "متوسط",
     "points": 300,
     "question": "ما الدولة التي يمثلها هذا العلم؟",
-    "answer": "أيسلندا",
-    "image": "https://www.worldometers.info/images/flags/original/is.webp",
-    "hint": "جزيرة بركانية في شمال الأطلسي، علمها أزرق وصليب أحمر محاط بالبيضاء."
+    "answer": "أفغانستان",
+    "image": "https://www.worldometers.info/images/flags/original/af.webp",
+    "hint": "علمها الحالي أبيض تتوسطه الشهادة بالخط الأسود."
   },
   {
     "id": "flags-106",
@@ -1056,7 +1056,7 @@ window.flagsQuestionSeed = [
     "points": 300,
     "question": "ما الدولة التي يمثلها هذا العلم؟",
     "answer": "بيلاروسيا (بيلاروس)",
-    "image": "https://www.worldometers.info/images/flags/original/bo.webp",
+    "image": "https://www.worldometers.info/images/flags/original/by.webp",
     "hint": "علمها أحمر وأخضر مع وجود زخرفة تقليدية حمراء على أرضية بيضاء في اليسار."
   },
   {
@@ -1096,7 +1096,7 @@ window.flagsQuestionSeed = [
     "points": 300,
     "question": "ما الدولة التي يمثلها هذا العلم؟",
     "answer": "موناكو",
-    "image": "https://www.worldometers.info/images/flags/original/mn.webp",
+    "image": "https://www.worldometers.info/images/flags/original/mc.webp",
     "hint": "إمارة مشهورة بسباقات الفورمولا 1، علمها أحمر وأبيض مطابق لعلم إندونيسيا تقريباً."
   },
   {
@@ -1115,9 +1115,9 @@ window.flagsQuestionSeed = [
     "difficulty": "متوسط",
     "points": 300,
     "question": "ما الدولة التي يمثلها هذا العلم؟",
-    "answer": "سنغافورة",
-    "image": "https://www.worldometers.info/images/flags/original/sn.webp",
-    "hint": "مركز مالي عالمي أسياوي، يحوي الجزء الأحمر من علمها هلال و5 نجوم."
+    "answer": "لاوس",
+    "image": "https://www.worldometers.info/images/flags/original/la.webp",
+    "hint": "علمها أحمر وأزرق وتتوسطه دائرة بيضاء كبيرة."
   },
   {
     "id": "flags-113",
@@ -1136,7 +1136,7 @@ window.flagsQuestionSeed = [
     "points": 300,
     "question": "ما الدولة التي يمثلها هذا العلم؟",
     "answer": "ميانمار (بورما)",
-    "image": "https://www.worldometers.info/images/flags/original/bm.webp",
+    "image": "https://www.worldometers.info/images/flags/original/mm.webp",
     "hint": "دولة آسيوية، يتكون علمها من خطوط أفقية (أصفر، أخضر، أحمر) ونجمة بيضاء كبيرة."
   },
   {
@@ -1196,7 +1196,7 @@ window.flagsQuestionSeed = [
     "points": 400,
     "question": "ما الدولة التي يمثلها هذا العلم؟",
     "answer": "كيريباتي",
-    "image": "https://www.worldometers.info/images/flags/original/kr.webp",
+    "image": "https://www.worldometers.info/images/flags/original/ki.webp",
     "hint": "دولة جزيرية، علمها يحوي طائر الفرقطة يحلق فوق شمس طالعة وأمواج المحيط."
   },
   {
@@ -1296,7 +1296,7 @@ window.flagsQuestionSeed = [
     "points": 400,
     "question": "ما الدولة التي يمثلها هذا العلم؟",
     "answer": "منغوليا",
-    "image": "https://www.worldometers.info/images/flags/original/mg.webp",
+    "image": "https://www.worldometers.info/images/flags/original/mn.webp",
     "hint": "موطن جنكيز خان، علمها يتضمن رمز \"السويومبو\" الوطني الشهير في الجزء الأحمر."
   },
   {
@@ -1326,7 +1326,7 @@ window.flagsQuestionSeed = [
     "points": 400,
     "question": "ما الدولة التي يمثلها هذا العلم؟",
     "answer": "باهاماس",
-    "image": "https://www.worldometers.info/images/flags/original/bf.webp",
+    "image": "https://www.worldometers.info/images/flags/original/bs.webp",
     "hint": "جزر في الكاريبي، يحوي علمها مثلثاً أسود و 3 أشرطة صفراء وسماوية."
   },
   {
@@ -1376,7 +1376,7 @@ window.flagsQuestionSeed = [
     "points": 400,
     "question": "ما الدولة التي يمثلها هذا العلم؟",
     "answer": "زامبيا",
-    "image": "https://www.worldometers.info/images/flags/original/za.webp",
+    "image": "https://www.worldometers.info/images/flags/original/zm.webp",
     "hint": "علمها أخضر بالكامل باستثناء أسفل اليمين حيث توجد خطوط ملونة ونشر محلق."
   },
   {
@@ -1406,7 +1406,7 @@ window.flagsQuestionSeed = [
     "points": 400,
     "question": "ما الدولة التي يمثلها هذا العلم؟",
     "answer": "الغابون",
-    "image": "https://www.worldometers.info/images/flags/original/gb.webp",
+    "image": "https://www.worldometers.info/images/flags/original/ga.webp",
     "hint": "دولة على خط الاستواء بأفريقيا، علمها بسيط بـ 3 ألوان: أزرق، أصفر، أخضر."
   },
   {
@@ -1446,7 +1446,7 @@ window.flagsQuestionSeed = [
     "points": 400,
     "question": "ما الدولة التي يمثلها هذا العلم؟",
     "answer": "النيجر",
-    "image": "https://www.worldometers.info/images/flags/original/ng.webp",
+    "image": "https://www.worldometers.info/images/flags/original/ne.webp",
     "hint": "علمها أفقي أورانج وأبيض وأخضر وتتوسط الشريط الأبيض دائرة برتقالية تمثل الشمس."
   },
   {
@@ -1466,7 +1466,7 @@ window.flagsQuestionSeed = [
     "points": 400,
     "question": "ما الدولة التي يمثلها هذا العلم؟",
     "answer": "السلفادور",
-    "image": "https://www.worldometers.info/images/flags/original/es.webp",
+    "image": "https://www.worldometers.info/images/flags/original/sv.webp",
     "hint": "أصغر دولة في أمريكا الوسطى، علمها يتوسطه شعار يحوي براكين ومثلث ماسوني."
   },
   {
@@ -1476,7 +1476,7 @@ window.flagsQuestionSeed = [
     "points": 400,
     "question": "ما الدولة التي يمثلها هذا العلم؟",
     "answer": "نيكاراغوا",
-    "image": "https://www.worldometers.info/images/flags/original/nu.webp",
+    "image": "https://www.worldometers.info/images/flags/original/ni.webp",
     "hint": "أكبر دول أمريكا الوسطى، علمها شبيه بالسلفادور بشريطين أزرقين وشعار المثلث."
   },
   {
@@ -1515,9 +1515,9 @@ window.flagsQuestionSeed = [
     "difficulty": "صعب",
     "points": 400,
     "question": "ما الدولة التي يمثلها هذا العلم؟",
-    "answer": "أوروغواي",
-    "image": "https://www.worldometers.info/images/flags/original/uy.webp",
-    "hint": "يقع في الزاوية العلوية لعلمها شمس أيار الذهبية مع خطوط بيضاء وزرقاء."
+    "answer": "الجبل الأسود",
+    "image": "https://www.worldometers.info/images/flags/original/me.webp",
+    "hint": "علمها أحمر بإطار ذهبي ويتوسطه نسر ذهبي برأسين."
   },
   {
     "id": "flags-153",
@@ -1576,7 +1576,7 @@ window.flagsQuestionSeed = [
     "points": 500,
     "question": "ما الدولة التي يمثلها هذا العلم؟",
     "answer": "دومينيكا",
-    "image": "https://www.worldometers.info/images/flags/original/do.webp",
+    "image": "https://www.worldometers.info/images/flags/original/dm.webp",
     "hint": "من الدول القليلة جداً التي علمها يحوي اللون البنفسجي لوجود رسمة لببغاء الإمبراطور."
   },
   {
@@ -1646,7 +1646,7 @@ window.flagsQuestionSeed = [
     "points": 500,
     "question": "ما الدولة التي يمثلها هذا العلم؟",
     "answer": "تونغا",
-    "image": "https://www.worldometers.info/images/flags/original/tn.webp",
+    "image": "https://www.worldometers.info/images/flags/original/to.webp",
     "hint": "مملكة في المحيط الهادئ، علمها أحمر بالكامل ما عدا مربع أبيض أعلى اليسار فيه صليب أحمر."
   },
   {
@@ -1666,7 +1666,7 @@ window.flagsQuestionSeed = [
     "points": 500,
     "question": "ما الدولة التي يمثلها هذا العلم؟",
     "answer": "ليسوتو",
-    "image": "https://www.worldometers.info/images/flags/original/lt.webp",
+    "image": "https://www.worldometers.info/images/flags/original/ls.webp",
     "hint": "دولة تقع بالكامل داخل دولة جنوب أفريقيا، علمها يتوسطه قبعة لشعب الباسوتو التقليدية."
   },
   {
@@ -1685,9 +1685,9 @@ window.flagsQuestionSeed = [
     "difficulty": "صعب جداً",
     "points": 500,
     "question": "ما الدولة التي يمثلها هذا العلم؟",
-    "answer": "جزر القمـر",
-    "image": "https://www.worldometers.info/images/flags/original/km.webp",
-    "hint": "علمها مقسم لـ 4 ألوان أفقية (أصفر، أبيض، أحمر، أزرق) مع مثلث أخضر فيه هلال ونجمات."
+    "answer": "إريتريا",
+    "image": "https://www.worldometers.info/images/flags/original/er.webp",
+    "hint": "علمها يحوي مثلثاً أحمر كبيراً وشعار غصن زيتون ذهبي."
   },
   {
     "id": "flags-170",
@@ -1696,7 +1696,7 @@ window.flagsQuestionSeed = [
     "points": 500,
     "question": "ما الدولة التي يمثلها هذا العلم؟",
     "answer": "مورشيوس",
-    "image": "https://www.worldometers.info/images/flags/original/mp.webp",
+    "image": "https://www.worldometers.info/images/flags/original/mu.webp",
     "hint": "جزيرة ساحرة في المحيط الهندي، علمها يتكون من 4 ألوان أفقية: أحمر، أزرق، أصفر، أخضر."
   },
   {
@@ -1706,7 +1706,7 @@ window.flagsQuestionSeed = [
     "points": 500,
     "question": "ما الدولة التي يمثلها هذا العلم؟",
     "answer": "سيشل",
-    "image": "https://www.worldometers.info/images/flags/original/se.webp",
+    "image": "https://www.worldometers.info/images/flags/original/sc.webp",
     "hint": "جزر سياحية، علمها يتكون من 5 خطوط ملونة تنطلق جميعها من الزاوية السفلى اليسرى."
   },
   {
@@ -1756,7 +1756,7 @@ window.flagsQuestionSeed = [
     "points": 500,
     "question": "ما الدولة التي يمثلها هذا العلم؟",
     "answer": "غامبيا",
-    "image": "https://www.worldometers.info/images/flags/original/ga.webp",
+    "image": "https://www.worldometers.info/images/flags/original/gm.webp",
     "hint": "أصغر دولة في أفريقيا القارية، علمها يحوي شريطاً أزرق في الوسط محاط بخطين أبيضين."
   },
   {
@@ -1766,7 +1766,7 @@ window.flagsQuestionSeed = [
     "points": 500,
     "question": "ما الدولة التي يمثلها هذا العلم؟",
     "answer": "توغو",
-    "image": "https://www.worldometers.info/images/flags/original/to.webp",
+    "image": "https://www.worldometers.info/images/flags/original/tg.webp",
     "hint": "شريط ساحلي ضيق في غرب أفريقيا، علمها مقلم بالخضر والأصفر مع مربّع أحمر فيه نجمة."
   },
   {
@@ -1776,7 +1776,7 @@ window.flagsQuestionSeed = [
     "points": 500,
     "question": "ما الدولة التي يمثلها هذا العلم؟",
     "answer": "بنين",
-    "image": "https://www.worldometers.info/images/flags/original/bn.webp",
+    "image": "https://www.worldometers.info/images/flags/original/bj.webp",
     "hint": "دولة غرب أفريقية، علمها يتكون من شريط عمودي أخضر وشريطين أفقين أصفر وأحمر."
   },
   {
@@ -1786,7 +1786,7 @@ window.flagsQuestionSeed = [
     "points": 500,
     "question": "ما الدولة التي يمثلها هذا العلم؟",
     "answer": "مدغشقر",
-    "image": "https://www.worldometers.info/images/flags/original/ma.webp",
+    "image": "https://www.worldometers.info/images/flags/original/mg.webp",
     "hint": "رابع أكبر جزيرة في العالم وموطن حيوان الليمور، علمها أبيض أحمر أخضر."
   },
   {
@@ -1796,7 +1796,7 @@ window.flagsQuestionSeed = [
     "points": 500,
     "question": "ما الدولة التي يمثلها هذا العلم؟",
     "answer": "بوروندي",
-    "image": "https://www.worldometers.info/images/flags/original/by.webp",
+    "image": "https://www.worldometers.info/images/flags/original/bi.webp",
     "hint": "علمها ينقسم بصليب أبيض إلى 4 أقسام وتتوسطه دائرة بها 3 نجوم حمراء سداسية."
   },
   {
@@ -1816,7 +1816,7 @@ window.flagsQuestionSeed = [
     "points": 500,
     "question": "ما الدولة التي يمثلها هذا العلم؟",
     "answer": "جمهورية الكونغو (برازافيل)",
-    "image": "https://www.worldometers.info/images/flags/original/cf.webp",
+    "image": "https://www.worldometers.info/images/flags/original/cg.webp",
     "hint": "علمها يتكون من ألوان قطرية: أخضر، أصفر، أحمر."
   },
   {
@@ -1826,7 +1826,7 @@ window.flagsQuestionSeed = [
     "points": 500,
     "question": "ما الدولة التي يمثلها هذا العلم؟",
     "answer": "جمهورية الكونغو الديمقراطية (كينشاسا)",
-    "image": "https://www.worldometers.info/images/flags/original/cg.webp",
+    "image": "https://www.worldometers.info/images/flags/original/cd.webp",
     "hint": "ثاني أكبر دولة في أفريقيا، علمها أزرق يقطعه خط أحمر محاط بالأصفر وفي الزاوية نجمة صفراء."
   },
   {
@@ -1836,7 +1836,7 @@ window.flagsQuestionSeed = [
     "points": 500,
     "question": "ما الدولة التي يمثلها هذا العلم؟",
     "answer": "ليبيريا",
-    "image": "https://www.worldometers.info/images/flags/original/li.webp",
+    "image": "https://www.worldometers.info/images/flags/original/lr.webp",
     "hint": "أسسها العبيد المحررون من أمريكا، علمها شبيه جداً بعلم أمريكا ولكنه بنجمة واحدة فقط."
   },
   {
@@ -1856,7 +1856,7 @@ window.flagsQuestionSeed = [
     "points": 500,
     "question": "ما الدولة التي يمثلها هذا العلم؟",
     "answer": "سانت لوسيا",
-    "image": "https://www.worldometers.info/images/flags/original/st.webp",
+    "image": "https://www.worldometers.info/images/flags/original/lc.webp",
     "hint": "دولة جزيرية، علمها أزرق سماوي يتوسطه مثلث أصفر وأسود يمثل قمتي جبال بيتون."
   },
   {
@@ -1876,7 +1876,7 @@ window.flagsQuestionSeed = [
     "points": 500,
     "question": "ما الدولة التي يمثلها هذا العلم؟",
     "answer": "سانت كيتس ونيفيس",
-    "image": "https://www.worldometers.info/images/flags/original/sc.webp",
+    "image": "https://www.worldometers.info/images/flags/original/kn.webp",
     "hint": "أصغر دولة مساحة وسكاناً في الأمريكتين، علمها يضم قطراً أسود به نجمتان بيضاوان."
   },
   {
@@ -1906,7 +1906,7 @@ window.flagsQuestionSeed = [
     "points": 500,
     "question": "ما الدولة التي يمثلها هذا العلم؟",
     "answer": "ليشتنشتاين",
-    "image": "https://www.worldometers.info/images/flags/original/ls.webp",
+    "image": "https://www.worldometers.info/images/flags/original/li.webp",
     "hint": "إمارة جبلية بين سويسرا والنمسا، علمها أزرق وأحمر وتوجد في زاوية العلم تاج أميري ذهبي."
   },
   {
@@ -1915,9 +1915,9 @@ window.flagsQuestionSeed = [
     "difficulty": "صعب جداً",
     "points": 500,
     "question": "ما الدولة التي يمثلها هذا العلم؟",
-    "answer": "جزر الأورلاند / جزر فارو (تم إدراج نيوي Niue أو توفالو لضبط الـ 195 الدائمين: نيو)",
-    "image": "https://www.worldometers.info/images/flags/original/ne.webp",
-    "hint": "إقليم جزيري مرتبط بنيوزيلندا له علم أزرق فريد يحوي علم بريطانيا بداخل نجمة صفراء."
+    "answer": "نيوي",
+    "image": "https://www.worldometers.info/images/flags/original/nu.webp",
+    "hint": "دولة جزرية في جنوب المحيط الهادئ، وعلمها يحمل نجمة صفراء قرب علم نيوزيلندا."
   },
   {
     "id": "flags-193",
@@ -1926,7 +1926,7 @@ window.flagsQuestionSeed = [
     "points": 500,
     "question": "ما الدولة التي يمثلها هذا العلم؟",
     "answer": "جزر كوك",
-    "image": "https://www.worldometers.info/images/flags/original/cw.webp",
+    "image": "https://www.worldometers.info/images/flags/original/ck.webp",
     "hint": "جزر في المحيط الهادئ، علمها يحوي علم بريطانيا وحلقة من 15 نجمة بيضاء."
   },
   {
@@ -1946,7 +1946,7 @@ window.flagsQuestionSeed = [
     "points": 500,
     "question": "ما الدولة التي يمثلها هذا العلم؟",
     "answer": "تيمور الشرقية",
-    "image": "https://www.worldometers.info/images/flags/original/tt.webp",
+    "image": "https://www.worldometers.info/images/flags/original/tl.webp",
     "hint": "دولة في جنوب شرق آسيا استقلت حديثاً، علمها أحمر ومثلث أصفر وأسود فيه نجمة بيضاء."
   }
 ];

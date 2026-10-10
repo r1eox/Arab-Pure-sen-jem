@@ -14,11 +14,46 @@ window.SinJeemQuestionBank = {
             .trim();
     },
 
+    sanitizeQuestion(question) {
+        const text = String(question.question || '');
+        if (this.normalize(question.category) !== this.normalize('سيارات')) return text;
+        if (this.normalize(text).includes(this.normalize('بورشه'))
+            || this.normalize(text).includes(this.normalize('Porsche'))) {
+            return 'ما اسم المدينة الألمانية في جنوب غرب البلاد المشهورة بصناعة السيارات الرياضية؟';
+        }
+
+        const containsQuotedModel = /[«"][^»"]+[»"]/u.test(text);
+        const asksForManufacturer = /(?:الشركة المصنّعة|أي شركة تصنع|ما الشركة المصنّعة|إلى أي مجموعة سيارات تنتمي)/u.test(text);
+        if (!containsQuotedModel && !asksForManufacturer) return text;
+
+        if (asksForManufacturer) {
+            if (question.image) {
+                const prompts = {
+                    100: 'ما الشركة المصنّعة للسيارة الظاهرة في الصورة؟',
+                    200: 'إلى أي شركة تعود السيارة المعروضة؟',
+                    300: 'من الشركة التي أنتجت السيارة في الصورة؟',
+                    400: 'ما العلامة المنتجة لهذه السيارة؟',
+                    500: 'لأي شركة سيارات ينتمي الطراز الظاهر؟'
+                };
+                return prompts[Number(question.points)] || prompts[100];
+            }
+            const clue = String(question.hint || '')
+                .replace(/[«"][^»"]+[»"]/gu, 'السيارة')
+                .trim();
+            return clue ? `أي شركة ترتبط بهذا الوصف: ${clue}` : 'أي شركة ترتبط بوصف السيارة الظاهر؟';
+        }
+        if (/مقر شركة|تأسست شركة/u.test(text)) return 'ما المدينة الألمانية التي يقع فيها مقر إحدى شركات السيارات الرياضية؟';
+        return text;
+    },
+
     questionKey(question) {
         const category = this.normalize(question.category);
-        const normalizedQuestion = this.normalize(question.question);
-        const imageAnswer = question.image ? `|${this.normalize(question.answer)}` : '';
-        return `${category}|${normalizedQuestion}${imageAnswer}`;
+        const normalizedQuestion = this.normalize(this.sanitizeQuestion(question));
+        const carImage = category === this.normalize('سيارات') && question.image
+            ? `|${this.normalize(question.imageSource || question.image)}`
+            : '';
+        const imageAnswer = question.image && !carImage ? `|${this.normalize(question.answer)}` : '';
+        return `${category}|${normalizedQuestion}${carImage || imageAnswer}`;
     },
 
     difficulty(value, points) {
@@ -29,7 +64,7 @@ window.SinJeemQuestionBank = {
     },
 
     add(question) {
-        const normalized = this.normalize(question.question);
+        const normalized = this.normalize(this.sanitizeQuestion(question));
         const key = this.questionKey(question);
         if (!normalized || this.keys.has(key)) return false;
         this.keys.add(key);
@@ -38,7 +73,7 @@ window.SinJeemQuestionBank = {
             category: question.category,
             difficulty: this.difficulty(question.difficulty, question.points),
             points: Number(question.points) || 200,
-            question: question.question,
+            question: this.sanitizeQuestion(question),
             answer: question.answer,
             brandName: question.brandName || question.answer,
             imageAlt: question.imageAlt || question.brandName || question.answer,
