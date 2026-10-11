@@ -53,7 +53,8 @@ window.SinJeemQuestionBank = {
             ? `|${this.normalize(question.imageSource || question.image)}`
             : '';
         const imageAnswer = question.image && !carImage ? `|${this.normalize(question.answer)}` : '';
-        return `${category}|${normalizedQuestion}${carImage || imageAnswer}`;
+        const round = question.round ? `|round:${String(question.round)}` : '';
+        return `${category}|${normalizedQuestion}${carImage || imageAnswer}${round}`;
     },
 
     difficulty(value, points) {
@@ -71,6 +72,7 @@ window.SinJeemQuestionBank = {
         this.items.push({
             id: question.id || `question-${this.items.length + 1}`,
             category: question.category,
+            round: question.round ? String(question.round) : '',
             difficulty: this.difficulty(question.difficulty, question.points),
             points: Number(question.points) || 200,
             question: this.sanitizeQuestion(question),

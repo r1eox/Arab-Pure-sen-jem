@@ -27,25 +27,34 @@ window.SinJeemBoard = {
         return questions;
     },
 
-    populateColumn(column, category, questionBank, usedQuestionIds, difficultyLabel, openQuestion) {
-        const categoryQuestions = questionBank.filter(item => item.category === category);
+    populateColumn(column, category, questionBank, usedQuestionIds, difficultyLabel, openQuestion, round) {
+        const categoryQuestions = questionBank.filter(item => item.category === category
+            && (!round || item.round === round));
         const legacyQuestions = categoryQuestions.length ? [] : this.readLegacyQuestions(column, category);
         const availableQuestions = categoryQuestions.length ? categoryQuestions : legacyQuestions;
         column.querySelectorAll('.score-card-btn').forEach(card => card.remove());
         if (!availableQuestions.length) return;
         const usedInColumn = new Set();
+        let reservedQuestions = false;
+        let restartedCategoryCycle = false;
         for (const points of [100, 200, 300, 400, 500]) {
             const levelQuestions = availableQuestions.filter(item =>
                 Number(item.points) === points && !usedInColumn.has(item.id));
-            if (!levelQuestions.length) continue;
             let candidates = levelQuestions.filter(item => !usedQuestionIds.has(item.id));
             if (!candidates.length) {
-                levelQuestions.forEach(item => usedQuestionIds.delete(item.id));
-                candidates = levelQuestions;
-                try {
-                    localStorage.setItem('sinJeemUsedQuestionIds', JSON.stringify([...usedQuestionIds]));
-                } catch (error) {
-                    console.warn('تعذر بدء دورة جديدة لمستوى الأسئلة.', error);
+                candidates = availableQuestions.filter(item =>
+                    !usedQuestionIds.has(item.id) && !usedInColumn.has(item.id));
+                if (candidates.length) {
+                    const closestDistance = Math.min(...candidates.map(item => Math.abs(Number(item.points) - points)));
+                    candidates = candidates.filter(item => Math.abs(Number(item.points) - points) === closestDistance);
+                }
+            }
+            if (!candidates.length && !restartedCategoryCycle) {
+                const hasUnusedQuestion = availableQuestions.some(item => !usedQuestionIds.has(item.id));
+                if (!hasUnusedQuestion) {
+                    availableQuestions.forEach(item => usedQuestionIds.delete(item.id));
+                    restartedCategoryCycle = true;
+                    candidates = availableQuestions.filter(item => !usedInColumn.has(item.id));
                 }
             }
             if (!candidates.length) break;
@@ -65,6 +74,8 @@ window.SinJeemBoard = {
             const item = this.pickRandom(closestQuestions);
             if (item) {
                 usedInColumn.add(item.id);
+                usedQuestionIds.add(item.id);
+                reservedQuestions = true;
                 const question = {
                     ...item,
                     points,
@@ -78,6 +89,13 @@ window.SinJeemBoard = {
                 card.title = `${question.difficulty} - ${item.question}`;
                 card.addEventListener('click', () => openQuestion(question, card));
                 column.appendChild(card);
+            }
+        }
+        if (reservedQuestions) {
+            try {
+                localStorage.setItem('sinJeemUsedQuestionIds', JSON.stringify([...usedQuestionIds]));
+            } catch (error) {
+                console.warn('تعذر حفظ الأسئلة المعروضة في سجل الاستخدام.', error);
             }
         }
     },

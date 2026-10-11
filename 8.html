@@ -87,7 +87,7 @@
             border-radius: 14px; background: #242424; text-align: right;
         }
         .setup-help h3 { color: var(--primary-orange); margin-bottom: 10px; }
-        .helper-guide { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+        .helper-guide { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; }
         .helper-guide div { padding: 10px; background: #303030; border-radius: 9px; color: #ddd; font-size: 13px; line-height: 1.6; }
         .helper-guide strong { display: block; color: white; margin-bottom: 3px; }
         .team-count-row { display: none; align-items: center; justify-content: center; gap: 12px; margin: 22px 0 10px; }
@@ -215,6 +215,39 @@
             font-size: 12px;
         }
 
+        .question-round-picker {
+            display: flex;
+            justify-content: center;
+            gap: 8px;
+            margin: 12px auto 16px;
+        }
+
+        .question-round-option {
+            min-width: 116px;
+            padding: 10px 18px;
+            border: 1px solid #4a4a4a;
+            border-radius: 8px;
+            background: #252525;
+            color: #ddd;
+            cursor: pointer;
+        }
+
+        .question-round-option.selected {
+            border-color: var(--primary-orange);
+            background: #3a2a20;
+            color: #fff;
+        }
+
+        @media (max-width: 650px) {
+            .question-round-picker { flex-wrap: wrap; }
+            .question-round-option { flex: 1 1 calc(33.333% - 8px); min-width: 0; padding: 10px 6px; }
+        }
+
+        .cat-select-card[data-cat="شعارات"],
+        .board-column[data-cat="شعارات"] {
+            display: none;
+        }
+
         #categories-next-btn:disabled {
             opacity: 0.4;
             filter: grayscale(70%);
@@ -232,10 +265,12 @@
             margin: 0;
         }
 
-        .cat-select-card[data-cat="عرب بيور"] img,
-        .board-column[data-cat="عرب بيور"] .cat-header-card img {
+        .cat-select-card[data-cat="من أنا؟"] img,
+        .board-column[data-cat="من أنا؟"] .cat-header-card img,
+        .cat-select-card[data-cat="الحروف"] img,
+        .board-column[data-cat="الحروف"] .cat-header-card img {
             object-fit: contain;
-            background: #111;
+            background: #f5f1e7;
             padding: 4px;
         }
 
@@ -840,14 +875,22 @@
     <!-- 1. شاشة اختيار الفئات -->
     <div id="page-select" class="page">
         <h2 style="margin-bottom: 10px;">اختر 4 فئات للمواجهة</h2>
+
+        <div class="question-round-picker" role="group" aria-label="اختر دور البطولة">
+            <button type="button" class="question-round-option" data-round="32" aria-pressed="false" onclick="selectQuestionRound(this)">دور الـ32</button>
+            <button type="button" class="question-round-option selected" data-round="16" aria-pressed="true" onclick="selectQuestionRound(this)">دور الـ16</button>
+            <button type="button" class="question-round-option" data-round="8" aria-pressed="false" onclick="selectQuestionRound(this)">دور الـ8</button>
+            <button type="button" class="question-round-option" data-round="4" aria-pressed="false" onclick="selectQuestionRound(this)">دور الـ4</button>
+            <button type="button" class="question-round-option" data-round="final" aria-pressed="false" onclick="selectQuestionRound(this)">النهائي</button>
+        </div>
         
         <div class="selection-container">
             <div class="selection-title-badge">الفئات المتاحة</div>
 
             <div class="categories-grid-select">
-                <div class="cat-select-card unselected" data-cat="عرب بيور" onclick="toggleCat(this)">
-                    <img src="assets/images/branding/arab-pure-logo.gif" alt="شعار عرب بيور">
-                    <div class="card-label">عرب بيور</div>
+                <div class="cat-select-card unselected" data-cat="من أنا؟" onclick="toggleCat(this)">
+                    <img src="assets/images/categories/image.png" alt="شعار من أنا؟">
+                    <div class="card-label">من أنا؟</div>
                 </div>
                 <div class="cat-select-card unselected" data-cat="تحدي الصور" onclick="toggleCat(this)">
                     <img src="assets/images/categories/image-challenge.jpg" alt="تحدي الصور">
@@ -893,6 +936,10 @@
                     <img src="assets/images/categories/cars.jpg" alt="سيارات">
                     <div class="card-label">سيارات</div>
                 </div>
+                <div class="cat-select-card unselected" data-cat="الحروف" onclick="toggleCat(this)">
+                    <img src="assets/images/categories/12.png" alt="شعار فئة الحروف">
+                    <div class="card-label">الحروف</div>
+                </div>
             </div>
             <div id="category-selection-status" class="category-selection-status" aria-live="polite">اختر 4 فئات للمتابعة</div>
         </div>
@@ -925,6 +972,7 @@
                         <div class="helper-circle" title="تبديل السؤال" onclick="showHelperInfo('swap')">🔄</div>
                         <div class="helper-circle" title="عرض تلميح" onclick="showHelperInfo('hint')">📞</div>
                         <div class="helper-circle" title="مضاعفة النقاط" onclick="showHelperInfo('double')">✌️</div>
+                        <div class="helper-circle" title="عرض الخيارات" onclick="showHelperInfo('options')">👁️</div>
                     </div>
                 </div>
 
@@ -936,6 +984,7 @@
                         <div class="helper-circle" title="تبديل السؤال" onclick="showHelperInfo('swap')">🔄</div>
                         <div class="helper-circle" title="عرض تلميح" onclick="showHelperInfo('hint')">📞</div>
                         <div class="helper-circle" title="مضاعفة النقاط" onclick="showHelperInfo('double')">✌️</div>
+                        <div class="helper-circle" title="عرض الخيارات" onclick="showHelperInfo('options')">👁️</div>
                     </div>
                 </div>
             </div>
@@ -946,6 +995,7 @@
                     <div><strong>🔄 تبديل السؤال</strong>يستبدل السؤال الحالي بسؤال آخر من الفئة نفسها وبالقيمة نفسها.</div>
                     <div><strong>📞 تلميح</strong>يعرض تلميحاً للسؤال الحالي مرة واحدة للفريق.</div>
                     <div><strong>✌️ مضاعفة</strong>تضاعف نقاط السؤال الحالي للفريق الذي استخدمها إذا أجاب إجابة صحيحة.</div>
+                    <div><strong>👁️ عرض الخيارات</strong>يكشف الخيارات المحتملة للسؤال مرة واحدة للفريق.</div>
                 </div>
             </div>
 
@@ -957,11 +1007,8 @@
     <div id="page-board" class="page">
         <div class="board-container" id="board-grid">
 
-            <div class="board-column hidden" data-cat="عرب بيور">
-                <div class="cat-header-card"><img src="assets/images/branding/arab-pure-logo.gif" alt="شعار عرب بيور"><div class="label">عرب بيور</div></div>
-                <div class="score-card-btn" onclick="openQ('عرب بيور', 'سهل', 'ما اللعبة الرئيسية لسيرفرات عرب بيور؟', 'GTA V (FiveM)', '', this, 200)">200</div>
-                <div class="score-card-btn" onclick="openQ('عرب بيور', 'متوسط', 'ما اسم سيرفر الحياة الواقعية التابع لهم؟', 'Arab Pure Roleplay', '', this, 400)">400</div>
-                <div class="score-card-btn" onclick="openQ('عرب بيور', 'صعب', 'ما اختصار اسم المجتمع؟', 'AP', '', this, 600)">600</div>
+            <div class="board-column hidden" data-cat="من أنا؟">
+                <div class="cat-header-card"><img src="assets/images/categories/image.png" alt="شعار من أنا؟"><div class="label">من أنا؟</div></div>
             </div>
 
             <div class="board-column hidden" data-cat="تحدي الصور">
@@ -1039,6 +1086,10 @@
                 <div class="score-card-btn" onclick="openQ('سيارات', 'ماركات', 'شعار الـ 4 حلقات المتقاطعة؟', 'Audi', '', this, 200)">200</div>
                 <div class="score-card-btn" onclick="openQ('سيارات', 'فاخرة', 'شعار الحصان القافز الإيطالي؟', 'Ferrari', '', this, 400)">400</div>
                 <div class="score-card-btn" onclick="openQ('سيارات', 'محركات', 'بلد صُنع سيارات بورش؟', 'ألمانيا', '', this, 600)">600</div>
+            </div>
+
+            <div class="board-column hidden" data-cat="الحروف">
+                <div class="cat-header-card"><img src="assets/images/categories/12.png" alt="شعار فئة الحروف"><div class="label">الحروف</div></div>
             </div>
 
         </div>
@@ -1209,7 +1260,16 @@
     <script src="data/logos-questions.js"></script>
     <script src="data/curated-questions.js"></script>
     <script src="data/image-challenge-questions.js"></script>
-    <script src="data/arab-pure-questions.js"></script>
+    <script src="data/who-am-i-questions.js"></script>
+    <script src="data/who-am-i-new-rounds.js"></script>
+    <script src="data/letters-questions.js"></script>
+    <script src="data/question-round-split.js"></script>
+    <script src="data/questions-round-32.js"></script>
+    <script src="data/questions-round-16.js"></script>
+    <script src="data/questions-round-8.js"></script>
+    <script src="data/questions-round-4.js"></script>
+    <script src="data/questions-round-final.js"></script>
+    <script src="data/letters-new-rounds-questions.js"></script>
     <script src="js/team-roulette.js"></script>
     <script>
         let scores = { t1: 0, t2: 0 };
@@ -1230,6 +1290,7 @@
         const tournamentWinScore = 2000;
         const normalWinScore = 2000;
         let gameTitle = '';
+        let currentQuestionRound = '16';
         let tournamentSaved = false;
         let activeHint = '';
         let activeDifficulty = '';
@@ -1275,8 +1336,11 @@
         });
         const registerOpenQuestion = (category, difficulty, question, answer, image, points) =>
             addQuestion({ category, difficulty, question, answer, image, points });
-        const findBankQuestion = (question, category, answer) =>
-            SinJeemQuestionBank.find(question, category, answer);
+        const findBankQuestion = (question, category, answer, round = currentQuestionRound) =>
+            questionsForRound(round).find(item => item.category === category
+                && normalizeQuestion(item.question) === normalizeQuestion(question)
+                && normalizeQuestion(item.answer) === normalizeQuestion(answer))
+            || SinJeemQuestionBank.find(question, category, answer);
         const buildQuestionOptions = question => {
             const answer = String(question.answer || '');
             const accepted = new Set([answer, ...(question.acceptedAnswers || [])].map(normalizeQuestion));
@@ -1295,8 +1359,9 @@
             const sortedAnswers = items => [...new Set(items.map(item => String(item.answer || '')))]
                 .filter(value => value && !excluded.has(normalizeQuestion(value)))
                 .sort((left, right) => hash(`${seed}|${left}`) - hash(`${seed}|${right}`));
-            const categoryAnswers = sortedAnswers(questionBank.filter(item => item.category === question.category));
-            const otherAnswers = sortedAnswers(questionBank.filter(item => item.category !== question.category));
+            const roundQuestions = questionsForRound(question.round || currentQuestionRound);
+            const categoryAnswers = sortedAnswers(roundQuestions.filter(item => item.category === question.category));
+            const otherAnswers = sortedAnswers(roundQuestions.filter(item => item.category !== question.category));
             const candidates = [...categoryAnswers, ...otherAnswers];
             for (const candidate of candidates) {
                 if (options.length >= 4) break;
@@ -1307,7 +1372,8 @@
         };
 
         addQuestions(window.questionBankSeed || []);
-        addQuestions(window.arabPureQuestionSeed || []);
+        addQuestions(window.whoAmIQuestionSeed || []);
+        addQuestions(window.whoAmINewRoundsSeed || []);
         const curatedEntertainmentCategories = new Set(['ألعاب']);
         const addEntertainmentQuestions = questions =>
             addQuestions((questions || []).filter(question => !curatedEntertainmentCategories.has(question.category)));
@@ -1351,6 +1417,18 @@
         SinJeemQuestionBank.addMany((window.curatedQuestionSeed || [])
             .filter(question => !['ألعاب', 'شعارات'].includes(question.category)));
         addQuestions(window.imageChallengeQuestionSeed || []);
+        addQuestions(window.lettersQuestionSeed || []);
+        addQuestions(window.lettersNewRoundsQuestionSeed || []);
+
+        const questionRoundBanks = {
+            '32': window.SinJeemQuestionsRound32.select(questionBank),
+            '16': window.SinJeemQuestionsRound16.select(questionBank),
+            '8': window.SinJeemQuestionsRound8.select(questionBank),
+            '4': window.SinJeemQuestionsRound4.select(questionBank),
+            'final': window.SinJeemQuestionsRoundFinal.select(questionBank)
+        };
+        const questionsForRound = (round = currentQuestionRound) =>
+            questionRoundBanks[String(round)] || [];
 
         // متغيرات التايمر
         let timerSeconds = 0;
@@ -1364,6 +1442,16 @@
             get running() { return timerRunning; },
             set running(value) { timerRunning = value; }
         };
+
+        function selectQuestionRound(button) {
+            currentQuestionRound = String(button.dataset.round);
+            document.querySelectorAll('.question-round-option').forEach(option => {
+                const selected = option === button;
+                option.classList.toggle('selected', selected);
+                option.setAttribute('aria-pressed', String(selected));
+            });
+            saveActiveGame();
+        }
 
         function chooseMode(mode) {
             gameMode = mode;
@@ -1710,6 +1798,7 @@
                 scores: { ...scores },
                 gameMode,
                 currentRound,
+                questionRound: currentQuestionRound,
                 gameTitle,
                 teams: [document.getElementById('t1-name').value, document.getElementById('t2-name').value],
                 tournamentMemberRoster: { ...tournamentMemberRoster },
@@ -1800,6 +1889,12 @@
             scores = { ...saved.scores };
             gameMode = saved.gameMode;
             currentRound = saved.currentRound;
+            currentQuestionRound = String(saved.questionRound || '16');
+            document.querySelectorAll('.question-round-option').forEach(option => {
+                const selected = option.dataset.round === currentQuestionRound;
+                option.classList.toggle('selected', selected);
+                option.setAttribute('aria-pressed', String(selected));
+            });
             gameTitle = saved.gameTitle;
             tournamentTeams = [...(saved.tournamentTeams || [])];
             tournamentMemberRoster = { ...(saved.tournamentMemberRoster || {}) };
@@ -1838,16 +1933,34 @@
             updateCategorySelectionState();
 
             const savedBoard = (saved.board || []).map(column => {
-                const refreshCategories = new Set(['تحدي الصور', 'أفلام', 'مسلسلات', 'ألعاب']);
-                if (!refreshCategories.has(column.category) || saved.pageId !== 'page-board') return column;
+                const refreshCategories = new Set(questionBank.map(item => item.category));
+                if (!column.visible || !refreshCategories.has(column.category) || saved.pageId !== 'page-board') return column;
                 const existingCards = column.cards || [];
+                const claimedInColumn = new Set();
                 const alignedCards = [100, 200, 300, 400, 500].map(points => {
                     const existingCard = existingCards.find(card => Number(card.question?.points) === points);
-                    const candidates = questionBank.filter(item => item.category === column.category
-                        && Number(item.points) === points);
-                    const question = candidates.find(item => item.id === existingCard?.question?.id)
-                        || SinJeemBoard.pickRandom(candidates);
-                    if (!question) return existingCard;
+                    const roundQuestions = questionsForRound(currentQuestionRound).filter(item => item.category === column.category);
+                    const retainedQuestion = existingCard?.question
+                        && String(existingCard.question.round) === currentQuestionRound
+                        ? roundQuestions.find(item => item.id === existingCard.question.id)
+                        : null;
+                    let question = retainedQuestion;
+                    if (question) {
+                        claimedInColumn.add(question.id);
+                    } else {
+                        let candidates = roundQuestions.filter(item => !usedQuestionIds.has(item.id)
+                            && !claimedInColumn.has(item.id));
+                        if (candidates.length) {
+                            const closestDistance = Math.min(...candidates.map(item => Math.abs(Number(item.points) - points)));
+                            candidates = candidates.filter(item => Math.abs(Number(item.points) - points) === closestDistance);
+                            question = SinJeemBoard.pickRandom(candidates);
+                            if (question) {
+                                claimedInColumn.add(question.id);
+                                usedQuestionIds.add(question.id);
+                            }
+                        }
+                    }
+                    if (!question) return null;
                     return {
                         question: {
                             ...question,
@@ -1863,6 +1976,7 @@
                 saved.board = savedBoard;
                 try {
                     localStorage.setItem(savedGameKey, JSON.stringify(saved));
+                    persistUsedQuestionIds();
                 } catch (error) {
                     console.warn('تعذر تحديث أسئلة الفئات المنتقاة في المباراة المحفوظة.', error);
                 }
@@ -2060,7 +2174,7 @@
 
         function startGame() {
             const selected = Array.from(document.querySelectorAll('.cat-select-card.selected')).map(c => c.getAttribute('data-cat'));
-            if (window.flagsQuestionSeed?.length) addQuestions(window.flagsQuestionSeed);
+            const roundQuestionBank = questionsForRound(currentQuestionRound);
             gameTitle = document.getElementById('game-name').value.trim() || (gameMode === 'tournament' ? 'بطولة سين وجيم' : 'لعبة سين وجيم');
             activeGame = true;
             if (gameMode === 'tournament') {
@@ -2081,8 +2195,8 @@
                 const cName = col.getAttribute('data-cat');
                 if (selected.includes(cName)) {
                     col.classList.remove('hidden');
-                    SinJeemBoard.populateColumn(col, cName, questionBank, usedQuestionIds, difficultyLabel, (item, card) =>
-                        openQ(item.category, item.difficulty, item.question, item.answer, item.image, card, item.points));
+                    SinJeemBoard.populateColumn(col, cName, roundQuestionBank, usedQuestionIds, difficultyLabel, (item, card) =>
+                        openQ(item.category, item.difficulty, item.question, item.answer, item.image, card, item.points), currentQuestionRound);
                 } else {
                     col.classList.add('hidden');
                 }
@@ -2110,13 +2224,17 @@
 
         /* فتح شاشة السؤال مع إعداد البيانات والتايمر من صفر */
         function openQ(cat, prop, q, a, imgUrl, card, pts) {
-            const bankQuestion = findBankQuestion(q, cat, a);
+            const cardQuestion = card?.dataset.questionData
+                ? JSON.parse(card.dataset.questionData)
+                : null;
+            const bankQuestion = cardQuestion?.id ? cardQuestion : findBankQuestion(q, cat, a);
             const displayImage = bankQuestion?.imageKind === 'illustration' ? '' : imgUrl;
             if (!bankQuestion) registerOpenQuestion(cat, prop, q, a, displayImage, pts);
             const questionId = bankQuestion?.id || card?.dataset.questionId || '';
             const questionOptions = buildQuestionOptions({
                 id: questionId,
                 category: cat,
+                round: bankQuestion?.round || currentQuestionRound,
                 question: q,
                 answer: a,
                 acceptedAnswers: bankQuestion?.acceptedAnswers || [a],
@@ -2132,11 +2250,13 @@
             activeQuestion = {
                 id: questionId,
                 category: cat,
+                round: bankQuestion?.round || currentQuestionRound,
                 difficulty: difficultyLabel(prop, pts),
                 question: q,
                 answer: a,
                 acceptedAnswers: bankQuestion?.acceptedAnswers || [a],
                 options: questionOptions,
+                round: bankQuestion?.round || currentQuestionRound,
                 image: displayImage || '',
                 answerImage: bankQuestion?.answerImage || '',
                 points: Number(pts)
@@ -2244,7 +2364,7 @@
             let replacement = null;
             if (type === 'swap') {
                 if (!activeQuestion || !activeCard) return;
-                const candidates = questionBank.filter(item => item.category === activeQuestion.category
+                const candidates = questionsForRound(currentQuestionRound).filter(item => item.category === activeQuestion.category
                     && !usedQuestionIds.has(item.id));
                 if (!candidates.length) {
                     alert('لا يوجد سؤال بديل متاح في هذه الفئة حالياً.');
