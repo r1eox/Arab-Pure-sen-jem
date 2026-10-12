@@ -53,8 +53,10 @@ window.SinJeemQuestionBank = {
             ? `|${this.normalize(question.imageSource || question.image)}`
             : '';
         const imageAnswer = question.image && !carImage ? `|${this.normalize(question.answer)}` : '';
+        const mediaSource = [question.video, question.videoAudio, question.audio].filter(Boolean).join('|');
+        const mediaKey = mediaSource ? `|${this.normalize(mediaSource)}` : '';
         const round = question.round ? `|round:${String(question.round)}` : '';
-        return `${category}|${normalizedQuestion}${carImage || imageAnswer}${round}`;
+        return `${category}|${normalizedQuestion}${carImage || imageAnswer}${mediaKey}${round}`;
     },
 
     difficulty(value, points) {
@@ -81,6 +83,10 @@ window.SinJeemQuestionBank = {
             imageAlt: question.imageAlt || question.brandName || question.answer,
             image: question.image || '',
             answerImage: question.answerImage || '',
+            video: question.video || '',
+            videoAudio: question.videoAudio || '',
+            audio: question.audio || '',
+            audioRepeatCount: Math.max(1, Number(question.audioRepeatCount) || 1),
             imageKind: question.imageKind || '',
             source: question.source || '',
             imageSource: question.imageSource || '',

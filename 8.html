@@ -24,7 +24,6 @@
         .settings-menu.visible { display: grid; gap: 5px; }
         .settings-menu button { background: #303030; border: 0; border-radius: 8px; color: #eee; padding: 10px; text-align: right; cursor: pointer; }
         .settings-menu button:hover { background: var(--primary-orange); }
-
         .brand-logo {
             width: 42px;
             height: 42px;
@@ -202,9 +201,30 @@
             filter: none;
         }
 
-        .categories-grid-select.has-four .cat-select-card.unselected {
+        .categories-grid-select.has-selection-limit .cat-select-card.unselected {
             opacity: 0.35;
             filter: grayscale(80%);
+        }
+
+        .cat-select-card.round-specific-hidden {
+            display: none !important;
+        }
+
+        .cat-select-card.category-content-missing {
+            cursor: not-allowed;
+            opacity: 0.48;
+            filter: grayscale(70%);
+        }
+
+        .category-content-note {
+            position: absolute;
+            inset: auto 4px 4px;
+            border-radius: 6px;
+            background: rgba(0, 0, 0, .82);
+            color: #fff;
+            padding: 4px;
+            font-size: 11px;
+            text-align: center;
         }
 
         .category-selection-status {
@@ -874,7 +894,7 @@
 
     <!-- 1. شاشة اختيار الفئات -->
     <div id="page-select" class="page">
-        <h2 style="margin-bottom: 10px;">اختر 4 فئات للمواجهة</h2>
+        <h2 id="category-selection-title" style="margin-bottom: 10px;">اختر 4 فئات للمواجهة</h2>
 
         <div class="question-round-picker" role="group" aria-label="اختر دور البطولة">
             <button type="button" class="question-round-option" data-round="32" aria-pressed="false" onclick="selectQuestionRound(this)">دور الـ32</button>
@@ -883,63 +903,27 @@
             <button type="button" class="question-round-option" data-round="4" aria-pressed="false" onclick="selectQuestionRound(this)">دور الـ4</button>
             <button type="button" class="question-round-option" data-round="final" aria-pressed="false" onclick="selectQuestionRound(this)">النهائي</button>
         </div>
-        
+
         <div class="selection-container">
             <div class="selection-title-badge">الفئات المتاحة</div>
-
             <div class="categories-grid-select">
-                <div class="cat-select-card unselected" data-cat="من أنا؟" onclick="toggleCat(this)">
-                    <img src="assets/images/categories/image.png" alt="شعار من أنا؟">
-                    <div class="card-label">من أنا؟</div>
-                </div>
-                <div class="cat-select-card unselected" data-cat="تحدي الصور" onclick="toggleCat(this)">
-                    <img src="assets/images/categories/image-challenge.jpg" alt="تحدي الصور">
-                    <div class="card-label">تحدي الصور</div>
-                </div>
-                <div class="cat-select-card unselected" data-cat="أفلام" onclick="toggleCat(this)">
-                    <img src="assets/images/categories/movies.jpg" alt="أفلام">
-                    <div class="card-label">أفلام</div>
-                </div>
-                <div class="cat-select-card unselected" data-cat="أعلام" onclick="toggleCat(this)">
-                    <img src="assets/images/categories/flags.jpg" alt="أعلام">
-                    <div class="card-label">أعلام</div>
-                </div>
-                <div class="cat-select-card unselected" data-cat="اكمل المثل" onclick="toggleCat(this)">
-                    <img src="assets/images/categories/proverbs.jpg" alt="اكمل المثل">
-                    <div class="card-label">اكمل المثل</div>
-                </div>
-                <div class="cat-select-card unselected" data-cat="أسئلة عامة" onclick="toggleCat(this)">
-                    <img src="assets/images/categories/general-knowledge.jpg" alt="أسئلة عامة">
-                    <div class="card-label">أسئلة عامة</div>
-                </div>
-                <div class="cat-select-card unselected" data-cat="ألعاب" onclick="toggleCat(this)">
-                    <img src="assets/images/categories/games.jpg" alt="ألعاب">
-                    <div class="card-label">ألعاب</div>
-                </div>
-                <div class="cat-select-card unselected" data-cat="مسلسلات" onclick="toggleCat(this)">
-                    <img src="assets/images/categories/series.jpg" alt="مسلسلات">
-                    <div class="card-label">مسلسلات</div>
-                </div>
-                <div class="cat-select-card unselected" data-cat="جغرافيا" onclick="toggleCat(this)">
-                    <img src="assets/images/categories/geography.jpg" alt="جغرافيا">
-                    <div class="card-label">جغرافيا</div>
-                </div>
-                <div class="cat-select-card unselected" data-cat="شعارات" onclick="toggleCat(this)">
-                    <img src="assets/images/categories/logos.jpg" alt="شعارات">
-                    <div class="card-label">شعارات</div>
-                </div>
-                <div class="cat-select-card unselected" data-cat="كورة ورياضة" onclick="toggleCat(this)">
-                    <img src="assets/images/categories/sports.jpg" alt="كورة ورياضة">
-                    <div class="card-label">كورة ورياضة</div>
-                </div>
-                <div class="cat-select-card unselected" data-cat="سيارات" onclick="toggleCat(this)">
-                    <img src="assets/images/categories/cars.jpg" alt="سيارات">
-                    <div class="card-label">سيارات</div>
-                </div>
-                <div class="cat-select-card unselected" data-cat="الحروف" onclick="toggleCat(this)">
-                    <img src="assets/images/categories/12.png" alt="شعار فئة الحروف">
-                    <div class="card-label">الحروف</div>
-                </div>
+                <div class="cat-select-card unselected" data-cat="من أنا؟" onclick="toggleCat(this)"><img src="assets/images/categories/image.png" alt="شعار من أنا؟"><div class="card-label">من أنا؟</div></div>
+                <div class="cat-select-card unselected" data-cat="تحدي الصور" onclick="toggleCat(this)"><img src="assets/images/categories/image-challenge.jpg" alt="تحدي الصور"><div class="card-label">تحدي الصور</div></div>
+                <div class="cat-select-card unselected" data-cat="أفلام" onclick="toggleCat(this)"><img src="assets/images/categories/movies.jpg" alt="أفلام"><div class="card-label">أفلام</div></div>
+                <div class="cat-select-card unselected round-four-replacement" data-cat="أعلام" onclick="toggleCat(this)"><img src="assets/images/categories/flags.jpg" alt="أعلام"><div class="card-label">أعلام</div></div>
+                <div class="cat-select-card unselected" data-cat="اكمل المثل" onclick="toggleCat(this)"><img src="assets/images/categories/proverbs.jpg" alt="اكمل المثل"><div class="card-label">اكمل المثل</div></div>
+                <div class="cat-select-card unselected round-four-replacement" data-cat="أسئلة عامة" onclick="toggleCat(this)"><img src="assets/images/categories/general-knowledge.jpg" alt="أسئلة عامة"><div class="card-label">أسئلة عامة</div></div>
+                <div class="cat-select-card unselected" data-cat="ألعاب" onclick="toggleCat(this)"><img src="assets/images/categories/games.jpg" alt="ألعاب"><div class="card-label">ألعاب</div></div>
+                <div class="cat-select-card unselected" data-cat="مسلسلات" onclick="toggleCat(this)"><img src="assets/images/categories/series.jpg" alt="مسلسلات"><div class="card-label">مسلسلات</div></div>
+                <div class="cat-select-card unselected" data-cat="جغرافيا" onclick="toggleCat(this)"><img src="assets/images/categories/geography.jpg" alt="جغرافيا"><div class="card-label">جغرافيا</div></div>
+                <div class="cat-select-card unselected" data-cat="شعارات" onclick="toggleCat(this)"><img src="assets/images/categories/logos.jpg" alt="شعارات"><div class="card-label">شعارات</div></div>
+                <div class="cat-select-card unselected" data-cat="كورة ورياضة" onclick="toggleCat(this)"><img src="assets/images/categories/sports.jpg" alt="كورة ورياضة"><div class="card-label">كورة ورياضة</div></div>
+                <div class="cat-select-card unselected round-four-replacement" data-cat="سيارات" onclick="toggleCat(this)"><img src="assets/images/categories/cars.jpg" alt="سيارات"><div class="card-label">سيارات</div></div>
+                <div class="cat-select-card unselected round-four-replacement" data-cat="الحروف" onclick="toggleCat(this)"><img src="assets/images/categories/12.png" alt="شعار فئة الحروف"><div class="card-label">الحروف</div></div>
+                <div class="cat-select-card unselected round-four-only-category" data-cat="ركز شوي" onclick="toggleCat(this)"><img src="assets/images/categories/ركز شوي.png" alt="ركز شوي"><div class="card-label">ركز شوي</div><small class="category-content-note" hidden>بانتظار المقاطع والأسئلة</small></div>
+                <div class="cat-select-card unselected round-four-only-category" data-cat="وضح شوي" onclick="toggleCat(this)"><img src="assets/images/categories/وضح شوي.png" alt="وضح شوي"><div class="card-label">وضح شوي</div><small class="category-content-note" hidden>بانتظار صور الأسئلة والأجوبة</small></div>
+                <div class="cat-select-card unselected round-four-only-category" data-cat="خمن الصوت" onclick="toggleCat(this)"><img src="assets/images/categories/خمن الصوت.png" alt="خمن الصوت"><div class="card-label">خمن الصوت</div><small class="category-content-note" hidden>بانتظار المقاطع الصوتية والأسئلة</small></div>
+                <div class="cat-select-card unselected round-four-only-category" data-cat="ماركات" onclick="toggleCat(this)"><img src="assets/images/categories/ماهي العلامة.png" alt="ماركات"><div class="card-label">ماركات</div><small class="category-content-note" hidden>بانتظار أسئلة الفئة</small></div>
             </div>
             <div id="category-selection-status" class="category-selection-status" aria-live="polite">اختر 4 فئات للمتابعة</div>
         </div>
@@ -1092,6 +1076,22 @@
                 <div class="cat-header-card"><img src="assets/images/categories/12.png" alt="شعار فئة الحروف"><div class="label">الحروف</div></div>
             </div>
 
+            <div class="board-column hidden" data-cat="ركز شوي">
+                <div class="cat-header-card"><img src="assets/images/categories/ركز شوي.png" alt="ركز شوي"><div class="label">ركز شوي</div></div>
+            </div>
+
+            <div class="board-column hidden" data-cat="وضح شوي">
+                <div class="cat-header-card"><img src="assets/images/categories/وضح شوي.png" alt="وضح شوي"><div class="label">وضح شوي</div></div>
+            </div>
+
+            <div class="board-column hidden" data-cat="خمن الصوت">
+                <div class="cat-header-card"><img src="assets/images/categories/خمن الصوت.png" alt="خمن الصوت"><div class="label">خمن الصوت</div></div>
+            </div>
+
+            <div class="board-column hidden" data-cat="ماركات">
+                <div class="cat-header-card"><img src="assets/images/categories/ماهي العلامة.png" alt="ماركات"><div class="label">ماركات</div></div>
+            </div>
+
         </div>
 
         <!-- الشريط السفلي -->
@@ -1105,7 +1105,7 @@
                 </div>
             </div>
 
-            <div style="font-size: 12px; color: #666;">سين وجيم - 4 فئات مختارة</div>
+            <div style="font-size: 12px; color: #666;">سين وجيم - فئات الجولة الحالية</div>
 
             <div class="team-score-badge">
                 <div class="score-counter">
@@ -1125,7 +1125,7 @@
             <div class="q-top-pts-badge" id="q-pts-badge">200 نقطة</div>
 
             <!-- التايمر -->
-            <div class="timer-container">
+            <div class="timer-container" id="q-timer-container">
                 <span class="timer-icon" onclick="toggleTimer()" id="timer-toggle-btn">▶</span>
                 <span id="timer-display">00:00</span>
                 <span class="timer-icon" onclick="resetTimer()">🔄</span>
@@ -1135,11 +1135,24 @@
             <div class="q-content-area">
                 <div class="q-text-display" id="q-title">ما اسم هذا اللاعب ؟</div>
                 <div class="q-options-display" id="q-options" aria-label="خيارات الإجابة"></div>
-                <img id="q-img" class="q-img-display" src="" style="display: none;">
+                <div id="focus-video-stage" class="media-question-stage" hidden>
+                    <video id="focus-video-player" playsinline controls preload="metadata"></video>
+                    <audio id="focus-video-audio" preload="auto" hidden></audio>
+                    <div class="media-question-actions">
+                        <button id="focus-video-audio-toggle" type="button" class="secondary-btn" onclick="toggleFocusVideoAudio()" hidden>▶ تشغيل الصوت</button>
+                        <button type="button" class="secondary-btn" onclick="replayFocusVideo()">إعادة المقطع</button>
+                        <button type="button" class="main-orange-btn" onclick="showQuestionAfterVideo()">الانتقال إلى السؤال</button>
+                    </div>
+                </div>
+                <div id="audio-question-stage" class="media-question-stage audio-question-stage" hidden>
+                    <audio id="guess-audio-player" controls preload="metadata"></audio>
+                    <button type="button" class="secondary-btn" onclick="replayGuessAudio()">إعادة الصوت</button>
+                </div>
+                <img id="q-img" class="q-img-display" src="" alt="" style="display: none;">
                 <div id="inline-hint" class="inline-hint"></div>
             </div>
 
-            <button class="q-bottom-ans-btn" onclick="showAns()">الإجابة</button>
+            <button id="q-answer-button" class="q-bottom-ans-btn" onclick="showAns()">الإجابة</button>
             <div class="q-bottom-prop-badge" id="q-prop-badge">رياضة</div>
         </div>
 
@@ -1259,6 +1272,7 @@
     <script src="data/arab-logos-questions.js"></script>
     <script src="data/logos-questions.js"></script>
     <script src="data/curated-questions.js"></script>
+    <script src="data/special-round-questions.js"></script>
     <script src="data/image-challenge-questions.js"></script>
     <script src="data/who-am-i-questions.js"></script>
     <script src="data/who-am-i-new-rounds.js"></script>
@@ -1287,8 +1301,7 @@
         let tournamentAllMatches = [];
         let tournamentMatchIndex = 0;
         let tournamentMatch = { right: '', left: '' };
-        const tournamentWinScore = 3000;
-        const normalWinScore = 3000;
+        const defaultWinScore = 3000;
         let gameTitle = '';
         let currentQuestionRound = '16';
         let tournamentSaved = false;
@@ -1323,8 +1336,13 @@
         let restoringSavedGame = false;
         let activeGame = false;
         let activeQuestion = null;
+        let guessAudioEndedCount = 0;
+        let guessAudioRepeatLimit = 1;
         const normalizeQuestion = value => SinJeemQuestionBank.normalize(value);
         const difficultyLabel = (value, points) => SinJeemQuestionBank.difficulty(value, points);
+        const categoryLimitForRound = round => round === 'final' ? 6 : round === '4' ? 5 : 4;
+        const winScoreForQuestionRound = (round = currentQuestionRound) =>
+            round === 'final' ? 4000 : round === '4' ? 3500 : defaultWinScore;
         const addQuestion = question => SinJeemQuestionBank.add(question);
         const addQuestions = questions => SinJeemQuestionBank.addMany(questions);
         const questionBankStats = () => ({
@@ -1416,6 +1434,7 @@
         addQuestions(logoQuestions);
         SinJeemQuestionBank.addMany((window.curatedQuestionSeed || [])
             .filter(question => !['ألعاب', 'شعارات'].includes(question.category)));
+        addQuestions(window.specialRoundQuestionSeed || []);
         addQuestions(window.imageChallengeQuestionSeed || []);
         addQuestions(window.lettersQuestionSeed || []);
         addQuestions(window.lettersNewRoundsQuestionSeed || []);
@@ -1444,13 +1463,47 @@
         };
 
         function selectQuestionRound(button) {
-            currentQuestionRound = String(button.dataset.round);
+            const nextRound = String(button.dataset.round);
+            if (nextRound !== currentQuestionRound) {
+                document.querySelectorAll('.cat-select-card.selected').forEach(card => {
+                    card.classList.remove('selected');
+                    card.classList.add('unselected');
+                });
+            }
+            currentQuestionRound = nextRound;
             document.querySelectorAll('.question-round-option').forEach(option => {
                 const selected = option === button;
                 option.classList.toggle('selected', selected);
                 option.setAttribute('aria-pressed', String(selected));
             });
+            updateRoundSpecificCategories();
+            updateCategorySelectionState();
             saveActiveGame();
+        }
+
+        function updateRoundSpecificCategories() {
+            const isRoundFourOrFinal = ['4', 'final'].includes(currentQuestionRound);
+            document.querySelectorAll('.round-four-replacement').forEach(card => {
+                card.classList.toggle('round-specific-hidden', isRoundFourOrFinal);
+                if (isRoundFourOrFinal && card.classList.contains('selected')) {
+                    card.classList.remove('selected');
+                    card.classList.add('unselected');
+                }
+            });
+            document.querySelectorAll('.round-four-only-category').forEach(card => {
+                card.classList.toggle('round-specific-hidden', !isRoundFourOrFinal);
+                const hasQuestions = questionsForRound().some(question => question.category === card.dataset.cat);
+                const unavailable = isRoundFourOrFinal && !hasQuestions;
+                card.classList.toggle('category-content-missing', unavailable);
+                card.setAttribute('aria-disabled', String(unavailable));
+                card.title = unavailable ? 'هذه الفئة بانتظار إضافة محتواها' : '';
+                const note = card.querySelector('.category-content-note');
+                if (note) note.hidden = !unavailable;
+                if (unavailable && card.classList.contains('selected')) {
+                    card.classList.remove('selected');
+                    card.classList.add('unselected');
+                }
+            });
         }
 
         function chooseMode(mode) {
@@ -1566,8 +1619,8 @@
             document.getElementById('match-round-title').innerText = `${roundLabel} - المواجهة ${tournamentMatchIndex + 1}`;
             document.getElementById('active-tournament-name').innerText = gameTitle;
             document.getElementById('match-progress').innerText = roundLabel === 'النهائي'
-                ? 'الفائز بهذه المواجهة يتوّج بطلاً للبطولة'
-                : `الفائز بهذه المواجهة يتأهل إلى الدور التالي عند وصوله إلى ${tournamentWinScore} نقطة`;
+                ? `الفائز بهذه المواجهة يتوّج بطلاً عند وصوله إلى ${tournamentWinScoreForStage(currentRound)} نقطة`
+                : `الفائز بهذه المواجهة يتأهل إلى الدور التالي عند وصوله إلى ${tournamentWinScoreForStage(currentRound)} نقطة`;
             switchPage('page-tournament-match');
         }
 
@@ -1585,7 +1638,23 @@
             return labels[round] || `الجولة ${round}`;
         }
 
+        function questionRoundForTournamentStage(round) {
+            const label = tournamentRoundLabel(round);
+            if (label === 'نصف النهائي') return '4';
+            if (label === 'النهائي') return 'final';
+            return null;
+        }
+
+        function tournamentWinScoreForStage(round) {
+            return winScoreForQuestionRound(questionRoundForTournamentStage(round) || currentQuestionRound);
+        }
+
         function startTournamentCategories() {
+            const tournamentQuestionRound = questionRoundForTournamentStage(currentRound);
+            if (tournamentQuestionRound && tournamentQuestionRound !== currentQuestionRound) {
+                const roundButton = document.querySelector(`.question-round-option[data-round="${tournamentQuestionRound}"]`);
+                if (roundButton) selectQuestionRound(roundButton);
+            }
             resetCategorySelection();
             switchPage('page-select');
         }
@@ -1605,7 +1674,7 @@
                 champion
             });
             if (!tournamentSaved) {
-                saveHistory([{ name: champion, score: tournamentWinScore, status: 'بطل البطولة' }, ...tournamentAllMatches.map(match => ({ name: match.winner, score: 0, status: 'متأهل' }))], pendingTournamentNames, tournamentAllMatches);
+                saveHistory([{ name: champion, score: winScoreForQuestionRound('final'), status: 'بطل البطولة' }, ...tournamentAllMatches.map(match => ({ name: match.winner, score: 0, status: 'متأهل' }))], pendingTournamentNames, tournamentAllMatches);
                 tournamentSaved = true;
             }
             clearSavedGame();
@@ -1679,7 +1748,7 @@
         }
 
         function showGuide() {
-            alert('التنظيم المقترح:\n1) اكتب اسم اللعبة والفرق.\n2) اختر 4 فئات مناسبة.\n3) في البطولة تبدأ الفرق بمواجهات حسب العدد، ثم يتأهل الفائزون حتى النهائي.\n4) عند انتهاء اللعب تظهر النتيجة وتحفظ المباراة في السجل.');
+            alert('التنظيم المقترح:\n1) اكتب اسم اللعبة والفرق.\n2) اختر عدد الفئات المحدد للجولة.\n3) في البطولة تبدأ الفرق بمواجهات حسب العدد، ثم يتأهل الفائزون حتى النهائي.\n4) عند انتهاء اللعب تظهر النتيجة وتحفظ المباراة في السجل.');
         }
 
         function continueToCategories() {
@@ -1709,7 +1778,7 @@
         }
 
         function toggleCat(card) {
-            if (categorySelectionLocked) return;
+            if (categorySelectionLocked || card.getAttribute('aria-disabled') === 'true') return;
             categorySelectionLocked = true;
             window.setTimeout(() => { categorySelectionLocked = false; }, 180);
             const selectedCount = document.querySelectorAll('.cat-select-card.selected').length;
@@ -1718,7 +1787,7 @@
                 card.classList.remove('selected');
                 card.classList.add('unselected');
             } else {
-                if (selectedCount >= 4) {
+                if (selectedCount >= categoryLimitForRound(currentQuestionRound)) {
                     return;
                 }
                 card.classList.remove('unselected');
@@ -1730,14 +1799,17 @@
 
         function updateCategorySelectionState() {
             const selectedCount = document.querySelectorAll('.cat-select-card.selected').length;
+            const categoryLimit = categoryLimitForRound(currentQuestionRound);
             const nextButton = document.getElementById('categories-next-btn');
             const status = document.getElementById('category-selection-status');
             const categoriesGrid = document.querySelector('.categories-grid-select');
-            if (nextButton) nextButton.disabled = selectedCount !== 4;
-            if (categoriesGrid) categoriesGrid.classList.toggle('has-four', selectedCount === 4);
-            if (status) status.textContent = selectedCount === 4
-                ? 'تم اختيار 4 فئات، يمكنك المتابعة'
-                : `تم اختيار ${selectedCount} من 4 فئات`;
+            const title = document.getElementById('category-selection-title');
+            if (nextButton) nextButton.disabled = selectedCount !== categoryLimit;
+            if (categoriesGrid) categoriesGrid.classList.toggle('has-selection-limit', selectedCount === categoryLimit);
+            if (title) title.textContent = `اختر ${categoryLimit} فئات للمواجهة`;
+            if (status) status.textContent = selectedCount === categoryLimit
+                ? `تم اختيار ${categoryLimit} فئات، يمكنك المتابعة`
+                : `تم اختيار ${selectedCount} من ${categoryLimit} فئات`;
         }
 
         function resetCategorySelection() {
@@ -1751,6 +1823,7 @@
 
         function switchPage(pId) {
             const currentPage = document.querySelector('.page.active')?.id;
+            if (pId !== 'page-question') pauseQuestionMedia();
             SinJeemUI.navigate(pId);
             saveActiveGame(pId === 'page-team-roulette' ? currentPage : pId);
             updateTournamentNavigation();
@@ -1895,6 +1968,7 @@
                 option.classList.toggle('selected', selected);
                 option.setAttribute('aria-pressed', String(selected));
             });
+            updateRoundSpecificCategories();
             gameTitle = saved.gameTitle;
             tournamentTeams = [...(saved.tournamentTeams || [])];
             tournamentMemberRoster = { ...(saved.tournamentMemberRoster || {}) };
@@ -2017,8 +2091,8 @@
                 const roundLabel = tournamentRoundLabel(currentRound);
                 document.getElementById('match-round-title').textContent = `${roundLabel} - المواجهة ${tournamentMatchIndex + 1}`;
                 document.getElementById('match-progress').textContent = roundLabel === 'النهائي'
-                    ? 'الفائز بهذه المواجهة يتوّج بطلاً للبطولة'
-                    : `الفائز يتأهل عند وصوله إلى ${tournamentWinScore} نقطة في ${tournamentRoundLabel(currentRound + 1)}`;
+                    ? `الفائز بهذه المواجهة يتوّج بطلاً عند وصوله إلى ${tournamentWinScoreForStage(currentRound)} نقطة`
+                    : `الفائز يتأهل عند وصوله إلى ${tournamentWinScoreForStage(currentRound)} نقطة في ${tournamentRoundLabel(currentRound + 1)}`;
             } else if (saved.pageId === 'page-answer') {
                 document.getElementById('ans-info-text').textContent = document.getElementById('q-prop-badge').textContent;
                 renderActiveAnswer();
@@ -2041,6 +2115,9 @@
             switchPage(saved.pageId || 'page-board');
             updateTournamentNavigation();
             if (saved.timerRunning && saved.pageId === 'page-question') startTimer();
+            if (saved.pageId === 'page-question' && activeQuestion?.audio) {
+                playGuessAudioSequence(document.getElementById('guess-audio-player'), activeQuestion.audioRepeatCount);
+            }
         }
 
         function restoreActiveQuestion(saved) {
@@ -2051,21 +2128,50 @@
                 ? ''
                 : bankQuestion?.image || image || '';
             activeQuestion.answerImage = bankQuestion?.answerImage || activeQuestion.answerImage || '';
+            activeQuestion.video = bankQuestion?.video || activeQuestion.video || '';
+            activeQuestion.videoAudio = bankQuestion?.videoAudio || activeQuestion.videoAudio || '';
+            activeQuestion.audio = bankQuestion?.audio || activeQuestion.audio || '';
+            activeQuestion.audioRepeatCount = bankQuestion?.audioRepeatCount || activeQuestion.audioRepeatCount || 1;
             if (bankQuestion?.options?.length) activeQuestion.options = bankQuestion.options;
             activeHint = bankQuestion?.hint || activeHint;
             document.getElementById('q-pts-badge').textContent = pointsDoubled
                 ? `${points * 2} نقطة (مضاعفة)`
                 : `${points} نقطة`;
             document.getElementById('q-prop-badge').textContent = `${difficulty} • ${points} نقطة`;
-            document.getElementById('q-title').textContent = question;
+            const questionTitle = document.getElementById('q-title');
+            questionTitle.textContent = question;
+            questionTitle.hidden = Boolean(activeQuestion.videoIntroPending) || ['وضح شوي', 'ماركات'].includes(category);
             activeQuestion.acceptedAnswers = bankQuestion?.acceptedAnswers || activeQuestion.acceptedAnswers || [answer];
             activeQuestion.options = buildQuestionOptions(activeQuestion);
             renderOptionsHelperVisibility(activeQuestion);
             renderQuestionOptions(activeQuestion.options, question,
                 Boolean(activeQuestion.optionsVisible));
             const imageElement = document.getElementById('q-img');
+            imageElement.classList.toggle('blurred-question-image', category === 'وضح شوي');
             imageElement.src = activeQuestion.image;
+            imageElement.alt = category === 'وضح شوي' ? 'صورة مشوشة للتخمين' : '';
             imageElement.style.display = activeQuestion.image ? 'block' : 'none';
+            const videoStage = document.getElementById('focus-video-stage');
+            const videoPlayer = document.getElementById('focus-video-player');
+            videoStage.hidden = !activeQuestion.videoIntroPending;
+            videoPlayer.pause();
+            videoPlayer.removeAttribute('src');
+            if (activeQuestion.video) {
+                videoPlayer.src = activeQuestion.video;
+                videoPlayer.load();
+            }
+            configureFocusVideoAudio();
+            const audioStage = document.getElementById('audio-question-stage');
+            const audioPlayer = document.getElementById('guess-audio-player');
+            audioStage.hidden = !activeQuestion.audio;
+            audioPlayer.pause();
+            audioPlayer.removeAttribute('src');
+            if (activeQuestion.audio) {
+                audioPlayer.src = activeQuestion.audio;
+                configureGuessAudioPlayback(audioPlayer, activeQuestion.audioRepeatCount);
+            }
+            document.getElementById('q-answer-button').hidden = Boolean(activeQuestion.videoIntroPending);
+            document.getElementById('q-timer-container').hidden = Boolean(activeQuestion.videoIntroPending);
             const answerImage = document.getElementById('ans-image');
             answerImage.src = activeQuestion.answerImage;
             answerImage.alt = activeQuestion.answerImage ? `حل اللغز: ${answer}` : '';
@@ -2084,7 +2190,7 @@
 
         function goToSetup() {
             const selectedCount = document.querySelectorAll('.cat-select-card.selected').length;
-            if (selectedCount !== 4) {
+            if (selectedCount !== categoryLimitForRound(currentQuestionRound)) {
                 return;
             }
             if (gameMode === 'tournament') {
@@ -2259,6 +2365,11 @@
                 round: bankQuestion?.round || currentQuestionRound,
                 image: displayImage || '',
                 answerImage: bankQuestion?.answerImage || '',
+                video: bankQuestion?.video || '',
+                videoAudio: bankQuestion?.videoAudio || '',
+                audio: bankQuestion?.audio || '',
+                audioRepeatCount: bankQuestion?.audioRepeatCount || 1,
+                videoIntroPending: cat === 'ركز شوي' && Boolean(bankQuestion?.video),
                 points: Number(pts)
             };
             activeDifficulty = bankQuestion?.difficulty || prop;
@@ -2270,7 +2381,9 @@
 
             document.getElementById('q-pts-badge').innerText = `${pts} نقطة`;
             document.getElementById('q-prop-badge').innerText = `${activeDifficulty} • ${pts} نقطة`;
-            document.getElementById('q-title').innerText = q;
+            const questionTitle = document.getElementById('q-title');
+            questionTitle.innerText = q;
+            questionTitle.hidden = activeQuestion.videoIntroPending || ['وضح شوي', 'ماركات'].includes(cat);
             const optionsHelperVisible = questionOptions.length > 1;
             document.querySelectorAll('.options-helper-btn').forEach(button => {
                 button.hidden = !optionsHelperVisible;
@@ -2278,12 +2391,42 @@
             renderQuestionOptions(questionOptions, q, false);
 
             const qImg = document.getElementById('q-img');
+            qImg.classList.toggle('blurred-question-image', cat === 'وضح شوي');
             if (displayImage && displayImage.trim() !== '') {
                 qImg.src = displayImage;
+                qImg.alt = cat === 'وضح شوي' ? 'صورة مشوشة للتخمين' : '';
                 qImg.style.display = 'block';
             } else {
+                qImg.removeAttribute('src');
+                qImg.alt = '';
                 qImg.style.display = 'none';
             }
+
+            const videoStage = document.getElementById('focus-video-stage');
+            const videoPlayer = document.getElementById('focus-video-player');
+            videoStage.hidden = !activeQuestion.videoIntroPending;
+            videoPlayer.pause();
+            videoPlayer.defaultMuted = false;
+            videoPlayer.muted = false;
+            videoPlayer.volume = 1;
+            videoPlayer.removeAttribute('src');
+            if (activeQuestion.video) {
+                videoPlayer.src = activeQuestion.video;
+                videoPlayer.load();
+            }
+            configureFocusVideoAudio();
+            const audioStage = document.getElementById('audio-question-stage');
+            const audioPlayer = document.getElementById('guess-audio-player');
+            audioStage.hidden = !activeQuestion.audio;
+            audioPlayer.pause();
+            audioPlayer.removeAttribute('src');
+            if (activeQuestion.audio) {
+                audioPlayer.src = activeQuestion.audio;
+                audioPlayer.load();
+                configureGuessAudioPlayback(audioPlayer, activeQuestion.audioRepeatCount);
+            }
+            document.getElementById('q-answer-button').hidden = activeQuestion.videoIntroPending;
+            document.getElementById('q-timer-container').hidden = activeQuestion.videoIntroPending;
 
             // تحديث وسائل المساعدة والنقاط على اليمين
             updateNames();
@@ -2292,9 +2435,139 @@
 
             // ضبط وإعادة تشغيل التايمر من 00:00
             resetTimer();
-            startTimer();
-
             switchPage('page-question');
+            if (activeQuestion.videoIntroPending) {
+                videoPlayer.play().catch(() => {});
+            } else {
+                startTimer();
+            }
+            if (activeQuestion.audio) {
+                playGuessAudioSequence(audioPlayer, activeQuestion.audioRepeatCount);
+            }
+        }
+
+        function replayFocusVideo() {
+            const player = document.getElementById('focus-video-player');
+            if (!player.src) return;
+            const audio = document.getElementById('focus-video-audio');
+            player.muted = Boolean(activeQuestion?.videoAudio);
+            player.volume = 1;
+            player.currentTime = 0;
+            if (activeQuestion?.videoAudio) {
+                audio.currentTime = 0;
+                audio.muted = false;
+                audio.volume = 1;
+                audio.play().catch(() => {});
+            }
+            player.play().catch(() => {});
+        }
+
+        function configureFocusVideoAudio() {
+            const video = document.getElementById('focus-video-player');
+            const audio = document.getElementById('focus-video-audio');
+            const toggle = document.getElementById('focus-video-audio-toggle');
+            const hasSeparateAudio = Boolean(activeQuestion?.videoAudio);
+            video.defaultMuted = hasSeparateAudio;
+            video.muted = hasSeparateAudio;
+            video.volume = 1;
+            audio.pause();
+            audio.removeAttribute('src');
+            audio.muted = false;
+            audio.volume = 1;
+            toggle.hidden = !hasSeparateAudio;
+            toggle.textContent = '▶ تشغيل الصوت';
+            if (hasSeparateAudio) {
+                audio.src = activeQuestion.videoAudio;
+                audio.load();
+            }
+            if (video.dataset.audioSyncBound) return;
+            video.dataset.audioSyncBound = 'true';
+            audio.addEventListener('play', () => {
+                toggle.textContent = '🔊 كتم الصوت';
+            });
+            audio.addEventListener('pause', () => {
+                if (activeQuestion?.videoAudio) toggle.textContent = '▶ تشغيل الصوت';
+            });
+            video.addEventListener('play', () => {
+                if (!activeQuestion?.videoAudio) return;
+                audio.currentTime = video.currentTime;
+                audio.muted = false;
+                audio.volume = 1;
+                audio.play().catch(() => {});
+            });
+            video.addEventListener('pause', () => audio.pause());
+            video.addEventListener('seeking', () => {
+                if (activeQuestion?.videoAudio) audio.currentTime = video.currentTime;
+            });
+            video.addEventListener('timeupdate', () => {
+                if (activeQuestion?.videoAudio && !audio.paused
+                    && Math.abs(audio.currentTime - video.currentTime) > 0.3) {
+                    audio.currentTime = video.currentTime;
+                }
+            });
+            video.addEventListener('ended', () => audio.pause());
+        }
+
+        function toggleFocusVideoAudio() {
+            const video = document.getElementById('focus-video-player');
+            const audio = document.getElementById('focus-video-audio');
+            const toggle = document.getElementById('focus-video-audio-toggle');
+            if (audio.paused) {
+                audio.currentTime = video.currentTime;
+                audio.muted = false;
+                audio.volume = 1;
+                if (video.paused) video.play().catch(() => {});
+                audio.play().catch(() => {});
+                return;
+            }
+            audio.muted = !audio.muted;
+            toggle.textContent = audio.muted ? '▶ تشغيل الصوت' : '🔊 كتم الصوت';
+            if (!audio.muted) audio.volume = 1;
+        }
+
+        function showQuestionAfterVideo() {
+            if (!activeQuestion?.videoIntroPending) return;
+            document.getElementById('focus-video-player').pause();
+            activeQuestion.videoIntroPending = false;
+            document.getElementById('focus-video-stage').hidden = true;
+            document.getElementById('q-title').hidden = false;
+            document.getElementById('q-answer-button').hidden = false;
+            document.getElementById('q-timer-container').hidden = false;
+            resetTimer();
+            startTimer();
+            saveActiveGame();
+        }
+
+        function replayGuessAudio() {
+            const player = document.getElementById('guess-audio-player');
+            if (!player.src) return;
+            playGuessAudioSequence(player, activeQuestion?.audioRepeatCount || 1);
+        }
+
+        function configureGuessAudioPlayback(player, repeatCount = 1) {
+            guessAudioRepeatLimit = Math.max(1, Number(repeatCount) || 1);
+            guessAudioEndedCount = 0;
+            if (player.dataset.repeatHandlerBound) return;
+            player.dataset.repeatHandlerBound = 'true';
+            player.addEventListener('ended', () => {
+                guessAudioEndedCount++;
+                if (guessAudioEndedCount >= guessAudioRepeatLimit) return;
+                player.currentTime = 0;
+                player.play().catch(() => {});
+            });
+        }
+
+        function playGuessAudioSequence(player, repeatCount = 1) {
+            configureGuessAudioPlayback(player, repeatCount);
+            guessAudioEndedCount = 0;
+            player.currentTime = 0;
+            player.play().catch(() => {});
+        }
+
+        function pauseQuestionMedia() {
+            document.getElementById('focus-video-player')?.pause();
+            document.getElementById('focus-video-audio')?.pause();
+            document.getElementById('guess-audio-player')?.pause();
         }
 
         function renderQuestionOptions(options, question, shouldShow = false) {
@@ -2415,8 +2688,10 @@
         }
 
         function showAns() {
+            if (activeQuestion?.videoIntroPending) return;
             clearInterval(timerInterval);
             timerRunning = false;
+            pauseQuestionMedia();
             document.getElementById('ans-info-text').innerText = document.getElementById('q-prop-badge').innerText;
             renderActiveAnswer();
             updateAcceptedAnswers();
@@ -2427,8 +2702,9 @@
             const imageSource = activeQuestion?.answerImage || '';
             const answerTitle = document.getElementById('ans-title');
             const answerImage = document.getElementById('ans-image');
-            answerTitle.textContent = imageSource ? '' : activeAns;
-            answerTitle.hidden = Boolean(imageSource);
+            const showAnswerWithImage = activeQuestion?.category === 'وضح شوي';
+            answerTitle.textContent = imageSource && !showAnswerWithImage ? '' : activeAns;
+            answerTitle.hidden = Boolean(imageSource) && !showAnswerWithImage;
             answerImage.src = imageSource;
             answerImage.alt = imageSource ? 'صورة حل اللغز' : '';
             answerImage.hidden = !imageSource;
@@ -2449,6 +2725,7 @@
 
         function addPoints(team) {
             const awardedPoints = doubleTeams.size > 0 ? activePoints * 2 : activePoints;
+            const winScore = winScoreForQuestionRound();
             SinJeemScoring.award(scores, team, awardedPoints);
 
             if (activeCard) activeCard.classList.add('used');
@@ -2457,11 +2734,11 @@
             pointsDoubled = false;
             doubleTeam = 0;
             doubleTeams.clear();
-            if (gameMode === 'tournament' && (scores.t1 >= tournamentWinScore || scores.t2 >= tournamentWinScore)) {
-                finishTournamentMatch(scores.t1 >= tournamentWinScore ? 1 : 2);
+            if (gameMode === 'tournament' && (scores.t1 >= winScore || scores.t2 >= winScore)) {
+                finishTournamentMatch(scores.t1 >= winScore ? 1 : 2);
                 return;
             }
-            if (gameMode === 'normal' && Math.max(scores.t1, scores.t2) >= normalWinScore) {
+            if (gameMode === 'normal' && Math.max(scores.t1, scores.t2) >= winScore) {
                 finishGame();
                 return;
             }
@@ -2470,7 +2747,7 @@
 
         function changeScore(team, val) {
             SinJeemScoring.change(scores, team, val);
-            if (gameMode === 'normal' && Math.max(scores.t1, scores.t2) >= normalWinScore) {
+            if (gameMode === 'normal' && Math.max(scores.t1, scores.t2) >= winScoreForQuestionRound()) {
                 finishGame();
                 return;
             }
@@ -2503,6 +2780,7 @@
 
         function exitToHome() {
             clearInterval(timerInterval);
+            pauseQuestionMedia();
             clearSavedGame();
             scores = { t1: 0, t2: 0 };
             activeQuestion = null;
@@ -2517,6 +2795,7 @@
             clearSavedGame();
         }
 
+        updateRoundSpecificCategories();
         if (readSavedGame()) {
             SinJeemUI.navigate('page-mode');
             showResumePrompt();

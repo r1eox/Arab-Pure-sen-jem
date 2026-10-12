@@ -32,6 +32,8 @@ window.SinJeemBoard = {
             && (!round || item.round === round));
         const legacyQuestions = categoryQuestions.length ? [] : this.readLegacyQuestions(column, category);
         const availableQuestions = categoryQuestions.length ? categoryQuestions : legacyQuestions;
+        const exactPointCategories = new Set(['ركز شوي', 'وضح شوي', 'خمن الصوت', 'ماركات']);
+        const exactPointCategory = exactPointCategories.has(category);
         column.querySelectorAll('.score-card-btn').forEach(card => card.remove());
         if (!availableQuestions.length) return;
         const usedInColumn = new Set();
@@ -41,7 +43,10 @@ window.SinJeemBoard = {
             const levelQuestions = availableQuestions.filter(item =>
                 Number(item.points) === points && !usedInColumn.has(item.id));
             let candidates = levelQuestions.filter(item => !usedQuestionIds.has(item.id));
-            if (!candidates.length) {
+            if (!candidates.length && exactPointCategory) {
+                candidates = levelQuestions.filter(item => !usedInColumn.has(item.id));
+            }
+            if (!candidates.length && !exactPointCategory) {
                 candidates = availableQuestions.filter(item =>
                     !usedQuestionIds.has(item.id) && !usedInColumn.has(item.id));
                 if (candidates.length) {
@@ -54,10 +59,14 @@ window.SinJeemBoard = {
                 if (!hasUnusedQuestion) {
                     availableQuestions.forEach(item => usedQuestionIds.delete(item.id));
                     restartedCategoryCycle = true;
-                    candidates = availableQuestions.filter(item => !usedInColumn.has(item.id));
+                    candidates = availableQuestions.filter(item => !usedInColumn.has(item.id)
+                        && (!exactPointCategory || Number(item.points) === points));
                 }
             }
-            if (!candidates.length) break;
+            if (!candidates.length) {
+                if (exactPointCategory) continue;
+                break;
+            }
             let closestQuestions = candidates;
             if (points >= 300 && category !== 'كورة ورياضة') {
                 const sourcedQuestions = candidates.filter(item => item.image
