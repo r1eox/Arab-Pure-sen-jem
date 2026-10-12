@@ -11,7 +11,6 @@
 .inline-hint.visible { display: block; }
 .q-text-display { font-size: 26px; font-weight: bold; }
 .q-img-display { max-width: 80%; max-height: 350px; border-radius: 12px; object-fit: contain; }
-.q-img-display.blurred-question-image { filter: blur(9px); }
 .media-question-stage { width: min(100%, 820px); display: grid; justify-items: center; gap: 14px; }
 .media-question-stage[hidden] { display: none !important; }
 .media-question-stage video { width: 100%; max-height: 52vh; background: #080808; border-radius: 10px; }
